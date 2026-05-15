@@ -1,0 +1,116 @@
+{
+  "id": "tarong-bess-stanwell",
+  "name": "Tarong BESS - Stanwell",
+  "technology": "bess",
+  "status": "operating",
+  "capacity_mw": 300.0,
+  "storage_mwh": 600.0,
+  "state": "QLD",
+  "current_developer": "Stanwell Corporation",
+  "cod_current": "2026-01-30",
+  "cod_original": "2026-01-30",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "164x Tesla Megapack 2XL. A$514M. Commercial ops Feb 2026. Yurika EPC.",
+  "data_confidence": "good",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "aemo_gen_info_id": "2434",
+  "confidence_score": "64",
+  "first_seen": "2023-08-01",
+  "coordinates": {
+    "lat": -26.77,
+    "lng": 151.92
+  },
+  "timeline": [
+    {
+      "date": "2023-08-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "164 Tesla Megapack 2XL units",
+      "sources": []
+    },
+    {
+      "date": "2026-02-01",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "300 MW / 600 MWh Tarong BESS",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2026-01 to 2026-01-30 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Tesla",
+      "model": "Megapack 2XL",
+      "quantity": 164,
+      "grid_forming": false,
+      "source_url": "https://www.stanwell.com/tarong-battery-energy-storage-system"
+    },
+    {
+      "role": "epc",
+      "supplier": "Yurika (QLD Govt-owned)",
+      "grid_forming": false,
+      "source_url": "https://www.yurika.com.au/mega-boost-for-tarong-battery-project/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Tarong BESS \u2014 EIS (QLD Coordinated Project)",
+    "document_url": "https://www.dsdilgp.qld.gov.au/industry/resources-and-energy/coordinated-projects/current-projects/tarong-bess",
+    "document_year": 2023,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "CATL or BYD (procurement underway)",
+    "cell_country_of_manufacture": "China",
+    "inverter_supplier": "Sungrow or Fluence (EIS technology envelope)",
+    "pcs_type": "grid_forming",
+    "round_trip_efficiency_pct": 88.0,
+    "round_trip_efficiency_ac": 85.0,
+    "duration_hours": 2.0,
+    "connection_voltage_kv": 275.0,
+    "transformer_mva": 300.0,
+    "network_service_provider": "Powerlink Queensland",
+    "connection_substation_name": "Tarong 275 kV substation (on-site, former coal plant)",
+    "connection_substation_capacity_mva": 1400.0,
+    "connection_distance_km": 0.0,
+    "connection_distance_note": "On-site \u2014 co-located with former Tarong coal power station 275 kV substation. Zero transmission line cost.",
+    "connection_augmentation": "Minimal. Existing Tarong coal plant 275 kV switchyard reused. New BESS feeder bay required. Major cost advantage \u2014 former 1,400 MW coal plant substation provides ample capacity for 300 MW BESS without augmentation.",
+    "notes": "300 MW / 600 MWh (2-hour) BESS co-located with the Tarong Power Station site, QLD. Stanwell Corporation (Queensland government-owned generator). QLD Coordinated Project. Grid-forming PCS specified. Connection to Powerlink 275 kV network. Part of Stanwell's transition from coal to storage/renewables."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": [
+    {
+      "date": "2026-01",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Tarong BESS (300 MW / 600 MWh) reached commercial operations early 2026."
+    }
+  ]
+}

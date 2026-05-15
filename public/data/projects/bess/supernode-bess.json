@@ -1,0 +1,174 @@
+{
+  "id": "supernode-bess",
+  "name": "Supernode BESS",
+  "technology": "bess",
+  "status": "operating",
+  "capacity_mw": 1300.0,
+  "storage_mwh": 2600.0,
+  "state": "QLD",
+  "current_developer": "Quinbrook Infrastructure Partners",
+  "cod_current": "2026-01-07",
+  "cod_original": "2026-01-07",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Staged build: 1,300 MW / 2.6 GWh total. Stage 1 operating (Origin tolling), Stage 2 construction, Stages 3-5 development.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "2431",
+  "confidence_score": "67",
+  "capex_aud_m": 722.0,
+  "capex_source": "Quinbrook ($722M debt S1+S2 only, 520MW/1040MWh scope)",
+  "capex_year": 2024,
+  "first_seen": "2025-01-01",
+  "capex_source_url": "https://www.quinbrook.com/news-insights/supernode-stage-1-commences-commercial-operations/",
+  "coordinates": {
+    "lat": -27.3167,
+    "lng": 152.95
+  },
+  "timeline": [
+    {
+      "date": "2025-01-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Financial close \u2014 A$722M debt",
+      "detail": "Bank of America, CBA, Deutsche Bank, Mizuho, MUFG consortium",
+      "sources": []
+    },
+    {
+      "date": "2025-10-01",
+      "date_precision": "month",
+      "event_type": "energisation",
+      "title": "Stage 1 grid connection",
+      "detail": "Stage 1 (260 MW / 619 MWh) connected to QLD grid",
+      "sources": []
+    },
+    {
+      "date": "2026-02-01",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Stage 1 commercial operations",
+      "detail": "First 260 MW / 619 MWh begins commercial operations",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2026-01 to 2026-01-07 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "inverter",
+      "supplier": "GE Vernova",
+      "grid_forming": false,
+      "source_url": "https://www.quinbrook.com/news-insights/supernode-stage-1-commences-commercial-operations/"
+    },
+    {
+      "role": "bess_oem",
+      "supplier": "CATL",
+      "grid_forming": false,
+      "source_url": "https://www.energy-storage.news/quinbrook-catl-unveil-8-hour-duration-bess-technology-set-for-australia/"
+    },
+    {
+      "role": "bop",
+      "supplier": "NuEnergy Infrastructure",
+      "grid_forming": false,
+      "source_url": "https://nuenergy.au/nuenergy-landmark-supernode-battery-storage-project/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Stage 1",
+      "capacity_mw": 260.0,
+      "storage_mwh": 520.0,
+      "status": "operating",
+      "capex_aud_m": 361.0,
+      "capex_source": "Quinbrook debt financing ($722M S1+S2)",
+      "grid_forming": false,
+      "notes": "Operating. Origin tolling agreement."
+    },
+    {
+      "stage": 2,
+      "name": "Stage 2",
+      "capacity_mw": 260.0,
+      "storage_mwh": 520.0,
+      "status": "construction",
+      "capex_aud_m": 361.0,
+      "capex_source": "Quinbrook debt financing ($722M S1+S2)",
+      "grid_forming": false,
+      "notes": "Under construction."
+    },
+    {
+      "stage": 3,
+      "name": "Stage 3",
+      "capacity_mw": 260.0,
+      "storage_mwh": 520.0,
+      "status": "development",
+      "grid_forming": false
+    },
+    {
+      "stage": 4,
+      "name": "Stage 4",
+      "capacity_mw": 260.0,
+      "storage_mwh": 520.0,
+      "status": "development",
+      "grid_forming": false
+    },
+    {
+      "stage": 5,
+      "name": "Stage 5",
+      "capacity_mw": 260.0,
+      "storage_mwh": 520.0,
+      "status": "development",
+      "grid_forming": false
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Supernode Battery Energy Storage System \u2014 EIS (QLD)",
+    "document_url": "https://www.dsdilgp.qld.gov.au/industry/resources-and-energy/coordinated-projects/current-projects/supernode-bess",
+    "document_year": 2023,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "Fluence / CATL (Fluence Gridstack Pro system)",
+    "cell_country_of_manufacture": "China",
+    "inverter_supplier": "Fluence / Siemens",
+    "inverter_model": "Fluence Gridstack Pro \u2014 integrated PCS",
+    "inverter_country_of_manufacture": "USA / Germany",
+    "pcs_type": "grid_following",
+    "round_trip_efficiency_pct": 87.5,
+    "round_trip_efficiency_ac": 84.5,
+    "duration_hours": 2.38,
+    "connection_voltage_kv": 275.0,
+    "transformer_mva": 520.0,
+    "network_service_provider": "Powerlink Queensland",
+    "connection_substation_name": "Greenbank 275 kV substation (Powerlink)",
+    "connection_substation_capacity_mva": 1500.0,
+    "connection_distance_km": 8.0,
+    "connection_distance_note": "~8 km of new 275 kV line to Greenbank 275 kV substation in south-east QLD; EIS connection study",
+    "connection_augmentation": "New 275 kV feeder bay at Greenbank required. Greenbank is a major 275 kV hub serving south-east QLD; existing headroom sufficient for BESS injection without major augmentation.",
+    "notes": "520 MW / 1,238 MWh (~2.4-hour) BESS in south-east QLD. Quinbrook Infrastructure Partners. QLD Coordinated Project. Integrated with co-located renewable generation assets. Fluence Gridstack Pro system uses CATL LFP cells. Connection to the Powerlink 275 kV network. Part of Quinbrook's broader \"Supernode\" renewable energy hub concept."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

@@ -1,0 +1,152 @@
+{
+  "id": "sapphire-wind-farm",
+  "name": "Sapphire Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 270.0,
+  "state": "NSW",
+  "current_developer": "SWF1 Operations Holdings Pty Ltd as trustee for SWF1 Hold Trust",
+  "current_operator": "Squadron Energy",
+  "cod_current": "2018-02-01",
+  "cod_original": "2018-02-01",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 63.3,
+  "notable": "75x Vestas V117-3.6MW. ACT Govt 20yr PPA + CBA 12yr corporate PPA. Located in New England REZ.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1270",
+  "confidence_score": "65",
+  "first_seen": "2018-02-01",
+  "coordinates": {
+    "lat": -29.710273,
+    "lng": 151.44558
+  },
+  "timeline": [
+    {
+      "date": "2016-12",
+      "date_precision": "month",
+      "event_type": "fid",
+      "title": "Financial close \u2014 A$600M",
+      "detail": "CWP Renewables reached financial closure for A$600M project",
+      "sources": []
+    },
+    {
+      "date": "2017-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Site works began near Inverell NSW",
+      "sources": []
+    },
+    {
+      "date": "2017-04",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "First foundation laid",
+      "detail": "First turbine foundation poured",
+      "sources": []
+    },
+    {
+      "date": "2017-10",
+      "date_precision": "month",
+      "event_type": "equipment_order",
+      "title": "Turbine erection begins",
+      "detail": "Vestas turbine erection commenced on site",
+      "sources": []
+    },
+    {
+      "date": "2017-12",
+      "date_precision": "month",
+      "event_type": "commissioning",
+      "title": "Commissioning begins",
+      "detail": "First turbines enter commissioning phase",
+      "sources": []
+    },
+    {
+      "date": "2018-02-01",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2018-02-01",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Vestas",
+      "model": "V117-3.6 MW",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "CBA (Commonwealth Bank)",
+      "type": "corporate_ppa",
+      "term_years": 12,
+      "capacity_mw": 30.0,
+      "source_url": "https://reneweconomy.com.au/commonwealth-bank-signs-ppa-for-sapphire-wind-farm/"
+    },
+    {
+      "party": "ACT Government",
+      "type": "government_ppa",
+      "term_years": 20,
+      "capacity_mw": 100.0,
+      "source_url": "https://www.environment.act.gov.au/energy/cleaner-energy/renewable-energy-target"
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Sapphire Wind Farm Environmental Impact Statement (NSW DP&E SSD-6688)",
+    "document_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/sapphire-wind-farm",
+    "document_year": 2016,
+    "turbine_model": "Vestas V117-3.6 MW",
+    "turbine_count": 75,
+    "turbine_rated_power_mw": 3.6,
+    "hub_height_m": 91.5,
+    "hub_height_note": "Standard 91.5 m hub height for V117-3.6 MW on Northern NSW Tablelands",
+    "rotor_diameter_m": 117.0,
+    "wind_speed_mean_ms": 8.5,
+    "wind_speed_height_m": 91.5,
+    "wind_speed_period": "Mean annual wind speed at hub height; Northern Tablelands NSW near Glen Innes \u2014 from 3-year on-site met mast",
+    "assumed_capacity_factor_pct": 38.0,
+    "assumed_annual_energy_gwh": 898.0,
+    "energy_yield_method": "WAsP modelling with ERA5 long-term correction; P50 net yield",
+    "noise_limit_dba": 35.0,
+    "minimum_setback_m": 1500,
+    "connection_voltage_kv": 330.0,
+    "network_service_provider": "TransGrid",
+    "connection_substation_name": "Uralla 330 kV substation (TransGrid), Northern NSW",
+    "connection_substation_capacity_mva": 600.0,
+    "connection_distance_km": 38.0,
+    "connection_distance_note": "~38 km of 330 kV transmission line to TransGrid Uralla substation, Northern NSW.",
+    "connection_augmentation": "New 330 kV connection to TransGrid Uralla. TransGrid reinforced Uralla to accept multiple Northern Tablelands wind projects. Part of the NSW New England REZ connection corridor.",
+    "notes": "270 MW (75 x 3.6 MW Vestas V117), Northern Tablelands NSW near Glen Innes. Developer: CWP Energy (now RES). NSW SSD approval 2016. Now operating (2019). Northern NSW Tablelands is consistently among NSW's best wind sites. Part of the New England REZ."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

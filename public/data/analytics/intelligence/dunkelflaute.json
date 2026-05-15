@@ -1,0 +1,5622 @@
+{
+  "state_year_performance": [
+    {
+      "state": "NSW",
+      "year": 2018,
+      "wind_cf_pct": 26.72,
+      "solar_cf_pct": 21.61,
+      "combined_cf_pct": 25.52,
+      "wind_mw": 1498.1,
+      "solar_mw": 458.2
+    },
+    {
+      "state": "NSW",
+      "year": 2019,
+      "wind_cf_pct": 34.78,
+      "solar_cf_pct": 19.01,
+      "combined_cf_pct": 29.18,
+      "wind_mw": 1498.1,
+      "solar_mw": 826.0
+    },
+    {
+      "state": "NSW",
+      "year": 2020,
+      "wind_cf_pct": 27.84,
+      "solar_cf_pct": 15.37,
+      "combined_cf_pct": 21.59,
+      "wind_mw": 1965.8,
+      "solar_mw": 1976.8
+    },
+    {
+      "state": "NSW",
+      "year": 2021,
+      "wind_cf_pct": 27.65,
+      "solar_cf_pct": 15.8,
+      "combined_cf_pct": 21.33,
+      "wind_mw": 2209.6,
+      "solar_mw": 2521.8
+    },
+    {
+      "state": "NSW",
+      "year": 2022,
+      "wind_cf_pct": 31.24,
+      "solar_cf_pct": 19.76,
+      "combined_cf_pct": 24.9,
+      "wind_mw": 2209.6,
+      "solar_mw": 2726.8
+    },
+    {
+      "state": "NSW",
+      "year": 2023,
+      "wind_cf_pct": 26.92,
+      "solar_cf_pct": 21.38,
+      "combined_cf_pct": 24.02,
+      "wind_mw": 2751.1,
+      "solar_mw": 3024.8
+    },
+    {
+      "state": "NSW",
+      "year": 2024,
+      "wind_cf_pct": 26.74,
+      "solar_cf_pct": 20.27,
+      "combined_cf_pct": 23.08,
+      "wind_mw": 2807.1,
+      "solar_mw": 3654.8
+    },
+    {
+      "state": "NSW",
+      "year": 2025,
+      "wind_cf_pct": 33.06,
+      "solar_cf_pct": 17.89,
+      "combined_cf_pct": 23.57,
+      "wind_mw": 2807.1,
+      "solar_mw": 4684.8
+    },
+    {
+      "state": "NSW",
+      "year": 2026,
+      "wind_cf_pct": 28.34,
+      "solar_cf_pct": 21.96,
+      "combined_cf_pct": 24.35,
+      "wind_mw": 2807.1,
+      "solar_mw": 4684.8
+    },
+    {
+      "state": "QLD",
+      "year": 2018,
+      "wind_cf_pct": 7.22,
+      "solar_cf_pct": 8.28,
+      "combined_cf_pct": 8.11,
+      "wind_mw": 180.5,
+      "solar_mw": 947.3
+    },
+    {
+      "state": "QLD",
+      "year": 2019,
+      "wind_cf_pct": 16.19,
+      "solar_cf_pct": 18.54,
+      "combined_cf_pct": 17.82,
+      "wind_mw": 633.5,
+      "solar_mw": 1448.3
+    },
+    {
+      "state": "QLD",
+      "year": 2020,
+      "wind_cf_pct": 23.49,
+      "solar_cf_pct": 21.31,
+      "combined_cf_pct": 21.92,
+      "wind_mw": 633.5,
+      "solar_mw": 1615.3
+    },
+    {
+      "state": "QLD",
+      "year": 2021,
+      "wind_cf_pct": 21.99,
+      "solar_cf_pct": 21.32,
+      "combined_cf_pct": 21.52,
+      "wind_mw": 676.8,
+      "solar_mw": 1615.3
+    },
+    {
+      "state": "QLD",
+      "year": 2022,
+      "wind_cf_pct": 22.95,
+      "solar_cf_pct": 19.63,
+      "combined_cf_pct": 20.44,
+      "wind_mw": 828.8,
+      "solar_mw": 2583.3
+    },
+    {
+      "state": "QLD",
+      "year": 2023,
+      "wind_cf_pct": 30.81,
+      "solar_cf_pct": 22.11,
+      "combined_cf_pct": 24.44,
+      "wind_mw": 1009.4,
+      "solar_mw": 2763.3
+    },
+    {
+      "state": "QLD",
+      "year": 2024,
+      "wind_cf_pct": 35.76,
+      "solar_cf_pct": 21.3,
+      "combined_cf_pct": 25.13,
+      "wind_mw": 1009.4,
+      "solar_mw": 2803.3
+    },
+    {
+      "state": "QLD",
+      "year": 2025,
+      "wind_cf_pct": 32.66,
+      "solar_cf_pct": 20.36,
+      "combined_cf_pct": 23.32,
+      "wind_mw": 1009.4,
+      "solar_mw": 3190.3
+    },
+    {
+      "state": "QLD",
+      "year": 2026,
+      "wind_cf_pct": 33.06,
+      "solar_cf_pct": 23.31,
+      "combined_cf_pct": 25.65,
+      "wind_mw": 1009.4,
+      "solar_mw": 3190.3
+    },
+    {
+      "state": "SA",
+      "year": 2018,
+      "wind_cf_pct": 31.96,
+      "solar_cf_pct": 6.28,
+      "combined_cf_pct": 29.37,
+      "wind_mw": 1960.6,
+      "solar_mw": 220.0
+    },
+    {
+      "state": "SA",
+      "year": 2019,
+      "wind_cf_pct": 28.87,
+      "solar_cf_pct": 15.57,
+      "combined_cf_pct": 27.19,
+      "wind_mw": 2172.6,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2020,
+      "wind_cf_pct": 29.47,
+      "solar_cf_pct": 20.6,
+      "combined_cf_pct": 28.35,
+      "wind_mw": 2172.6,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2021,
+      "wind_cf_pct": 28.63,
+      "solar_cf_pct": 22.93,
+      "combined_cf_pct": 27.91,
+      "wind_mw": 2172.6,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2022,
+      "wind_cf_pct": 30.08,
+      "solar_cf_pct": 20.31,
+      "combined_cf_pct": 28.61,
+      "wind_mw": 2382.6,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2023,
+      "wind_cf_pct": 28.33,
+      "solar_cf_pct": 23.07,
+      "combined_cf_pct": 27.54,
+      "wind_mw": 2382.6,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2024,
+      "wind_cf_pct": 25.72,
+      "solar_cf_pct": 21.62,
+      "combined_cf_pct": 25.18,
+      "wind_mw": 2795.1,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2025,
+      "wind_cf_pct": 27.33,
+      "solar_cf_pct": 18.57,
+      "combined_cf_pct": 26.18,
+      "wind_mw": 2795.1,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2026,
+      "wind_cf_pct": 25.23,
+      "solar_cf_pct": 17.18,
+      "combined_cf_pct": 24.17,
+      "wind_mw": 2795.1,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "TAS",
+      "year": 2018,
+      "wind_cf_pct": 40.87,
+      "combined_cf_pct": 40.87,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2019,
+      "wind_cf_pct": 44.99,
+      "combined_cf_pct": 44.99,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2020,
+      "wind_cf_pct": 30.33,
+      "combined_cf_pct": 30.33,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2021,
+      "wind_cf_pct": 37.76,
+      "combined_cf_pct": 37.76,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2022,
+      "wind_cf_pct": 33.31,
+      "combined_cf_pct": 33.31,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2023,
+      "wind_cf_pct": 38.55,
+      "combined_cf_pct": 38.55,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2024,
+      "wind_cf_pct": 38.2,
+      "combined_cf_pct": 38.2,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2025,
+      "wind_cf_pct": 39.31,
+      "combined_cf_pct": 39.31,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2026,
+      "wind_cf_pct": 32.2,
+      "combined_cf_pct": 32.2,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "VIC",
+      "year": 2018,
+      "wind_cf_pct": 28.48,
+      "solar_cf_pct": 5.96,
+      "combined_cf_pct": 24.82,
+      "wind_mw": 1688.3,
+      "solar_mw": 328.0
+    },
+    {
+      "state": "VIC",
+      "year": 2019,
+      "wind_cf_pct": 28.43,
+      "solar_cf_pct": 16.61,
+      "combined_cf_pct": 26.45,
+      "wind_mw": 2265.1,
+      "solar_mw": 456.0
+    },
+    {
+      "state": "VIC",
+      "year": 2020,
+      "wind_cf_pct": 26.46,
+      "solar_cf_pct": 12.22,
+      "combined_cf_pct": 23.51,
+      "wind_mw": 3239.7,
+      "solar_mw": 847.0
+    },
+    {
+      "state": "VIC",
+      "year": 2021,
+      "wind_cf_pct": 27.6,
+      "solar_cf_pct": 18.0,
+      "combined_cf_pct": 25.8,
+      "wind_mw": 4050.8,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2022,
+      "wind_cf_pct": 27.84,
+      "solar_cf_pct": 19.02,
+      "combined_cf_pct": 26.24,
+      "wind_mw": 4208.2,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2023,
+      "wind_cf_pct": 30.19,
+      "solar_cf_pct": 16.85,
+      "combined_cf_pct": 27.56,
+      "wind_mw": 4208.2,
+      "solar_mw": 1034.0
+    },
+    {
+      "state": "VIC",
+      "year": 2024,
+      "wind_cf_pct": 26.57,
+      "solar_cf_pct": 16.11,
+      "combined_cf_pct": 24.44,
+      "wind_mw": 4515.8,
+      "solar_mw": 1156.0
+    },
+    {
+      "state": "VIC",
+      "year": 2025,
+      "wind_cf_pct": 29.79,
+      "solar_cf_pct": 20.35,
+      "combined_cf_pct": 27.83,
+      "wind_mw": 4515.8,
+      "solar_mw": 1186.0
+    },
+    {
+      "state": "VIC",
+      "year": 2026,
+      "wind_cf_pct": 24.75,
+      "solar_cf_pct": 23.55,
+      "combined_cf_pct": 24.5,
+      "wind_mw": 4515.8,
+      "solar_mw": 1186.0
+    }
+  ],
+  "lowest_cf_periods": [
+    {
+      "state": "QLD",
+      "year": 2018,
+      "wind_cf_pct": 7.22,
+      "solar_cf_pct": 8.28,
+      "combined_cf_pct": 8.11,
+      "wind_mw": 180.5,
+      "solar_mw": 947.3
+    },
+    {
+      "state": "QLD",
+      "year": 2019,
+      "wind_cf_pct": 16.19,
+      "solar_cf_pct": 18.54,
+      "combined_cf_pct": 17.82,
+      "wind_mw": 633.5,
+      "solar_mw": 1448.3
+    },
+    {
+      "state": "QLD",
+      "year": 2022,
+      "wind_cf_pct": 22.95,
+      "solar_cf_pct": 19.63,
+      "combined_cf_pct": 20.44,
+      "wind_mw": 828.8,
+      "solar_mw": 2583.3
+    },
+    {
+      "state": "NSW",
+      "year": 2021,
+      "wind_cf_pct": 27.65,
+      "solar_cf_pct": 15.8,
+      "combined_cf_pct": 21.33,
+      "wind_mw": 2209.6,
+      "solar_mw": 2521.8
+    },
+    {
+      "state": "QLD",
+      "year": 2021,
+      "wind_cf_pct": 21.99,
+      "solar_cf_pct": 21.32,
+      "combined_cf_pct": 21.52,
+      "wind_mw": 676.8,
+      "solar_mw": 1615.3
+    },
+    {
+      "state": "NSW",
+      "year": 2020,
+      "wind_cf_pct": 27.84,
+      "solar_cf_pct": 15.37,
+      "combined_cf_pct": 21.59,
+      "wind_mw": 1965.8,
+      "solar_mw": 1976.8
+    },
+    {
+      "state": "QLD",
+      "year": 2020,
+      "wind_cf_pct": 23.49,
+      "solar_cf_pct": 21.31,
+      "combined_cf_pct": 21.92,
+      "wind_mw": 633.5,
+      "solar_mw": 1615.3
+    },
+    {
+      "state": "NSW",
+      "year": 2024,
+      "wind_cf_pct": 26.74,
+      "solar_cf_pct": 20.27,
+      "combined_cf_pct": 23.08,
+      "wind_mw": 2807.1,
+      "solar_mw": 3654.8
+    },
+    {
+      "state": "QLD",
+      "year": 2025,
+      "wind_cf_pct": 32.66,
+      "solar_cf_pct": 20.36,
+      "combined_cf_pct": 23.32,
+      "wind_mw": 1009.4,
+      "solar_mw": 3190.3
+    },
+    {
+      "state": "VIC",
+      "year": 2020,
+      "wind_cf_pct": 26.46,
+      "solar_cf_pct": 12.22,
+      "combined_cf_pct": 23.51,
+      "wind_mw": 3239.7,
+      "solar_mw": 847.0
+    }
+  ],
+  "bess_coverage": {
+    "NSW": {
+      "bess_count": 9,
+      "bess_mw": 2640.0,
+      "bess_mwh": 6945.2,
+      "peak_demand_mw_est": 14000,
+      "coverage_hours": 0.5,
+      "coverage_rating": "Low"
+    },
+    "QLD": {
+      "bess_count": 8,
+      "bess_mw": 2410.0,
+      "bess_mwh": 4757.9,
+      "peak_demand_mw_est": 10000,
+      "coverage_hours": 0.48,
+      "coverage_rating": "Low"
+    },
+    "SA": {
+      "bess_count": 6,
+      "bess_mw": 924.0,
+      "bess_mwh": 1169.6,
+      "peak_demand_mw_est": 3500,
+      "coverage_hours": 0.33,
+      "coverage_rating": "Low"
+    },
+    "VIC": {
+      "bess_count": 10,
+      "bess_mw": 1915.0,
+      "bess_mwh": 3758.4,
+      "peak_demand_mw_est": 10000,
+      "coverage_hours": 0.38,
+      "coverage_rating": "Low"
+    },
+    "WA": {
+      "bess_count": 1,
+      "bess_mw": 560.0,
+      "bess_mwh": 2240.0,
+      "peak_demand_mw_est": 4500,
+      "coverage_hours": 0.5,
+      "coverage_rating": "Low"
+    }
+  },
+  "bess_pipeline": {
+    "NSW": {
+      "count": 130,
+      "mw": 41609.0,
+      "mwh": 90746.6
+    },
+    "QLD": {
+      "count": 125,
+      "mw": 44579.0,
+      "mwh": 99753.6
+    },
+    "SA": {
+      "count": 50,
+      "mw": 10365.0,
+      "mwh": 21243.7
+    },
+    "TAS": {
+      "count": 4,
+      "mw": 650.0,
+      "mwh": 1250.0
+    },
+    "VIC": {
+      "count": 81,
+      "mw": 22938.4,
+      "mwh": 61389.3
+    }
+  },
+  "peak_demand_estimates": {
+    "NSW": 14000,
+    "VIC": 10000,
+    "QLD": 10000,
+    "SA": 3500,
+    "TAS": 1800,
+    "WA": 4500
+  },
+  "seasonal_monthly": [
+    {
+      "state": "NSW",
+      "year": 2018,
+      "month": 1,
+      "wind_cf": 26.0,
+      "solar_cf": 33.9,
+      "combined_cf": 27.6,
+      "wind_mw": 826.0,
+      "solar_mw": 212.0
+    },
+    {
+      "state": "NSW",
+      "year": 2018,
+      "month": 2,
+      "wind_cf": 29.5,
+      "solar_cf": 24.8,
+      "combined_cf": 28.6,
+      "wind_mw": 1096.0,
+      "solar_mw": 262.0
+    },
+    {
+      "state": "NSW",
+      "year": 2018,
+      "month": 3,
+      "wind_cf": 32.1,
+      "solar_cf": 25.3,
+      "combined_cf": 30.8,
+      "wind_mw": 1096.0,
+      "solar_mw": 262.0
+    },
+    {
+      "state": "NSW",
+      "year": 2018,
+      "month": 4,
+      "wind_cf": 26.0,
+      "solar_cf": 29.6,
+      "combined_cf": 26.7,
+      "wind_mw": 1096.0,
+      "solar_mw": 262.0
+    },
+    {
+      "state": "NSW",
+      "year": 2018,
+      "month": 5,
+      "wind_cf": 28.4,
+      "solar_cf": 19.0,
+      "combined_cf": 26.6,
+      "wind_mw": 1296.0,
+      "solar_mw": 308.0
+    },
+    {
+      "state": "NSW",
+      "year": 2018,
+      "month": 6,
+      "wind_cf": 31.1,
+      "solar_cf": 17.0,
+      "combined_cf": 28.4,
+      "wind_mw": 1296.0,
+      "solar_mw": 308.0
+    },
+    {
+      "state": "NSW",
+      "year": 2018,
+      "month": 7,
+      "wind_cf": 41.4,
+      "solar_cf": 20.4,
+      "combined_cf": 37.4,
+      "wind_mw": 1296.0,
+      "solar_mw": 308.0
+    },
+    {
+      "state": "NSW",
+      "year": 2018,
+      "month": 8,
+      "wind_cf": 36.8,
+      "solar_cf": 23.4,
+      "combined_cf": 34.5,
+      "wind_mw": 1498.0,
+      "solar_mw": 308.0
+    },
+    {
+      "state": "NSW",
+      "year": 2018,
+      "month": 9,
+      "wind_cf": 27.6,
+      "solar_cf": 23.5,
+      "combined_cf": 26.6,
+      "wind_mw": 1498.0,
+      "solar_mw": 458.0
+    },
+    {
+      "state": "NSW",
+      "year": 2018,
+      "month": 10,
+      "wind_cf": 27.4,
+      "solar_cf": 29.8,
+      "combined_cf": 28.0,
+      "wind_mw": 1498.0,
+      "solar_mw": 458.0
+    },
+    {
+      "state": "NSW",
+      "year": 2018,
+      "month": 11,
+      "wind_cf": 32.8,
+      "solar_cf": 31.6,
+      "combined_cf": 32.5,
+      "wind_mw": 1498.0,
+      "solar_mw": 458.0
+    },
+    {
+      "state": "NSW",
+      "year": 2018,
+      "month": 12,
+      "wind_cf": 28.3,
+      "solar_cf": 37.3,
+      "combined_cf": 30.4,
+      "wind_mw": 1498.0,
+      "solar_mw": 458.0
+    },
+    {
+      "state": "NSW",
+      "year": 2019,
+      "month": 1,
+      "wind_cf": 27.4,
+      "solar_cf": 34.7,
+      "combined_cf": 29.1,
+      "wind_mw": 1498.0,
+      "solar_mw": 458.0
+    },
+    {
+      "state": "NSW",
+      "year": 2019,
+      "month": 2,
+      "wind_cf": 34.2,
+      "solar_cf": 35.4,
+      "combined_cf": 34.5,
+      "wind_mw": 1498.0,
+      "solar_mw": 458.0
+    },
+    {
+      "state": "NSW",
+      "year": 2019,
+      "month": 3,
+      "wind_cf": 30.8,
+      "solar_cf": 27.3,
+      "combined_cf": 30.0,
+      "wind_mw": 1498.0,
+      "solar_mw": 458.0
+    },
+    {
+      "state": "NSW",
+      "year": 2019,
+      "month": 4,
+      "wind_cf": 27.9,
+      "solar_cf": 21.8,
+      "combined_cf": 26.3,
+      "wind_mw": 1498.0,
+      "solar_mw": 545.0
+    },
+    {
+      "state": "NSW",
+      "year": 2019,
+      "month": 5,
+      "wind_cf": 34.3,
+      "solar_cf": 18.3,
+      "combined_cf": 30.0,
+      "wind_mw": 1498.0,
+      "solar_mw": 545.0
+    },
+    {
+      "state": "NSW",
+      "year": 2019,
+      "month": 6,
+      "wind_cf": 27.4,
+      "solar_cf": 17.4,
+      "combined_cf": 24.7,
+      "wind_mw": 1498.0,
+      "solar_mw": 545.0
+    },
+    {
+      "state": "NSW",
+      "year": 2019,
+      "month": 7,
+      "wind_cf": 43.3,
+      "solar_cf": 19.6,
+      "combined_cf": 37.0,
+      "wind_mw": 1498.0,
+      "solar_mw": 545.0
+    },
+    {
+      "state": "NSW",
+      "year": 2019,
+      "month": 8,
+      "wind_cf": 41.1,
+      "solar_cf": 22.4,
+      "combined_cf": 35.3,
+      "wind_mw": 1498.0,
+      "solar_mw": 678.0
+    },
+    {
+      "state": "NSW",
+      "year": 2019,
+      "month": 9,
+      "wind_cf": 38.3,
+      "solar_cf": 25.5,
+      "combined_cf": 34.3,
+      "wind_mw": 1498.0,
+      "solar_mw": 678.0
+    },
+    {
+      "state": "NSW",
+      "year": 2019,
+      "month": 10,
+      "wind_cf": 31.0,
+      "solar_cf": 27.9,
+      "combined_cf": 30.0,
+      "wind_mw": 1498.0,
+      "solar_mw": 678.0
+    },
+    {
+      "state": "NSW",
+      "year": 2019,
+      "month": 11,
+      "wind_cf": 43.1,
+      "solar_cf": 32.9,
+      "combined_cf": 39.9,
+      "wind_mw": 1498.0,
+      "solar_mw": 678.0
+    },
+    {
+      "state": "NSW",
+      "year": 2019,
+      "month": 12,
+      "wind_cf": 38.3,
+      "solar_cf": 28.8,
+      "combined_cf": 34.9,
+      "wind_mw": 1498.0,
+      "solar_mw": 826.0
+    },
+    {
+      "state": "NSW",
+      "year": 2020,
+      "month": 1,
+      "wind_cf": 32.6,
+      "solar_cf": 26.3,
+      "combined_cf": 30.4,
+      "wind_mw": 1498.0,
+      "solar_mw": 826.0
+    },
+    {
+      "state": "NSW",
+      "year": 2020,
+      "month": 2,
+      "wind_cf": 37.1,
+      "solar_cf": 24.4,
+      "combined_cf": 32.6,
+      "wind_mw": 1498.0,
+      "solar_mw": 826.0
+    },
+    {
+      "state": "NSW",
+      "year": 2020,
+      "month": 3,
+      "wind_cf": 31.6,
+      "solar_cf": 20.9,
+      "combined_cf": 27.5,
+      "wind_mw": 1498.0,
+      "solar_mw": 926.0
+    },
+    {
+      "state": "NSW",
+      "year": 2020,
+      "month": 4,
+      "wind_cf": 36.4,
+      "solar_cf": 17.3,
+      "combined_cf": 29.1,
+      "wind_mw": 1498.0,
+      "solar_mw": 926.0
+    },
+    {
+      "state": "NSW",
+      "year": 2020,
+      "month": 5,
+      "wind_cf": 33.8,
+      "solar_cf": 16.0,
+      "combined_cf": 26.7,
+      "wind_mw": 1498.0,
+      "solar_mw": 996.0
+    },
+    {
+      "state": "NSW",
+      "year": 2020,
+      "month": 6,
+      "wind_cf": 28.0,
+      "solar_cf": 13.3,
+      "combined_cf": 22.4,
+      "wind_mw": 1609.0,
+      "solar_mw": 996.0
+    },
+    {
+      "state": "NSW",
+      "year": 2020,
+      "month": 7,
+      "wind_cf": 29.3,
+      "solar_cf": 14.8,
+      "combined_cf": 22.6,
+      "wind_mw": 1498.0,
+      "solar_mw": 1302.0
+    },
+    {
+      "state": "NSW",
+      "year": 2020,
+      "month": 8,
+      "wind_cf": 41.2,
+      "solar_cf": 16.6,
+      "combined_cf": 30.2,
+      "wind_mw": 1609.0,
+      "solar_mw": 1302.0
+    },
+    {
+      "state": "NSW",
+      "year": 2020,
+      "month": 9,
+      "wind_cf": 37.8,
+      "solar_cf": 21.8,
+      "combined_cf": 29.9,
+      "wind_mw": 1609.0,
+      "solar_mw": 1577.0
+    },
+    {
+      "state": "NSW",
+      "year": 2020,
+      "month": 10,
+      "wind_cf": 31.0,
+      "solar_cf": 24.0,
+      "combined_cf": 27.5,
+      "wind_mw": 1609.0,
+      "solar_mw": 1577.0
+    },
+    {
+      "state": "NSW",
+      "year": 2020,
+      "month": 11,
+      "wind_cf": 24.9,
+      "solar_cf": 23.1,
+      "combined_cf": 24.0,
+      "wind_mw": 1828.0,
+      "solar_mw": 1977.0
+    },
+    {
+      "state": "NSW",
+      "year": 2020,
+      "month": 12,
+      "wind_cf": 29.8,
+      "solar_cf": 23.7,
+      "combined_cf": 26.7,
+      "wind_mw": 1966.0,
+      "solar_mw": 1977.0
+    },
+    {
+      "state": "NSW",
+      "year": 2021,
+      "month": 1,
+      "wind_cf": 24.8,
+      "solar_cf": 23.7,
+      "combined_cf": 24.3,
+      "wind_mw": 2210.0,
+      "solar_mw": 1977.0
+    },
+    {
+      "state": "NSW",
+      "year": 2021,
+      "month": 2,
+      "wind_cf": 24.6,
+      "solar_cf": 23.9,
+      "combined_cf": 24.3,
+      "wind_mw": 2210.0,
+      "solar_mw": 2027.0
+    },
+    {
+      "state": "NSW",
+      "year": 2021,
+      "month": 3,
+      "wind_cf": 28.7,
+      "solar_cf": 18.7,
+      "combined_cf": 23.9,
+      "wind_mw": 2210.0,
+      "solar_mw": 2057.0
+    },
+    {
+      "state": "NSW",
+      "year": 2021,
+      "month": 4,
+      "wind_cf": 21.3,
+      "solar_cf": 19.7,
+      "combined_cf": 20.5,
+      "wind_mw": 2210.0,
+      "solar_mw": 2057.0
+    },
+    {
+      "state": "NSW",
+      "year": 2021,
+      "month": 5,
+      "wind_cf": 22.4,
+      "solar_cf": 15.1,
+      "combined_cf": 18.9,
+      "wind_mw": 2210.0,
+      "solar_mw": 2087.0
+    },
+    {
+      "state": "NSW",
+      "year": 2021,
+      "month": 6,
+      "wind_cf": 28.4,
+      "solar_cf": 9.9,
+      "combined_cf": 19.2,
+      "wind_mw": 2210.0,
+      "solar_mw": 2197.0
+    },
+    {
+      "state": "NSW",
+      "year": 2021,
+      "month": 7,
+      "wind_cf": 35.2,
+      "solar_cf": 11.0,
+      "combined_cf": 23.1,
+      "wind_mw": 2210.0,
+      "solar_mw": 2197.0
+    },
+    {
+      "state": "NSW",
+      "year": 2021,
+      "month": 8,
+      "wind_cf": 32.6,
+      "solar_cf": 16.2,
+      "combined_cf": 24.4,
+      "wind_mw": 2210.0,
+      "solar_mw": 2197.0
+    },
+    {
+      "state": "NSW",
+      "year": 2021,
+      "month": 9,
+      "wind_cf": 32.7,
+      "solar_cf": 19.5,
+      "combined_cf": 25.9,
+      "wind_mw": 2210.0,
+      "solar_mw": 2347.0
+    },
+    {
+      "state": "NSW",
+      "year": 2021,
+      "month": 10,
+      "wind_cf": 28.9,
+      "solar_cf": 20.3,
+      "combined_cf": 24.4,
+      "wind_mw": 2210.0,
+      "solar_mw": 2432.0
+    },
+    {
+      "state": "NSW",
+      "year": 2021,
+      "month": 11,
+      "wind_cf": 30.2,
+      "solar_cf": 14.9,
+      "combined_cf": 22.0,
+      "wind_mw": 2210.0,
+      "solar_mw": 2522.0
+    },
+    {
+      "state": "NSW",
+      "year": 2021,
+      "month": 12,
+      "wind_cf": 21.9,
+      "solar_cf": 27.3,
+      "combined_cf": 24.8,
+      "wind_mw": 2210.0,
+      "solar_mw": 2522.0
+    },
+    {
+      "state": "NSW",
+      "year": 2022,
+      "month": 1,
+      "wind_cf": 26.6,
+      "solar_cf": 26.3,
+      "combined_cf": 26.4,
+      "wind_mw": 2210.0,
+      "solar_mw": 2522.0
+    },
+    {
+      "state": "NSW",
+      "year": 2022,
+      "month": 2,
+      "wind_cf": 30.2,
+      "solar_cf": 26.9,
+      "combined_cf": 28.4,
+      "wind_mw": 2210.0,
+      "solar_mw": 2522.0
+    },
+    {
+      "state": "NSW",
+      "year": 2022,
+      "month": 3,
+      "wind_cf": 28.3,
+      "solar_cf": 21.9,
+      "combined_cf": 24.8,
+      "wind_mw": 2210.0,
+      "solar_mw": 2637.0
+    },
+    {
+      "state": "NSW",
+      "year": 2022,
+      "month": 4,
+      "wind_cf": 30.3,
+      "solar_cf": 18.3,
+      "combined_cf": 23.6,
+      "wind_mw": 2097.0,
+      "solar_mw": 2637.0
+    },
+    {
+      "state": "NSW",
+      "year": 2022,
+      "month": 5,
+      "wind_cf": 31.4,
+      "solar_cf": 14.8,
+      "combined_cf": 22.4,
+      "wind_mw": 2210.0,
+      "solar_mw": 2637.0
+    },
+    {
+      "state": "NSW",
+      "year": 2022,
+      "month": 6,
+      "wind_cf": 38.6,
+      "solar_cf": 12.1,
+      "combined_cf": 24.2,
+      "wind_mw": 2210.0,
+      "solar_mw": 2637.0
+    },
+    {
+      "state": "NSW",
+      "year": 2022,
+      "month": 7,
+      "wind_cf": 38.6,
+      "solar_cf": 15.5,
+      "combined_cf": 26.0,
+      "wind_mw": 2210.0,
+      "solar_mw": 2637.0
+    },
+    {
+      "state": "NSW",
+      "year": 2022,
+      "month": 8,
+      "wind_cf": 38.2,
+      "solar_cf": 16.9,
+      "combined_cf": 26.6,
+      "wind_mw": 2210.0,
+      "solar_mw": 2637.0
+    },
+    {
+      "state": "NSW",
+      "year": 2022,
+      "month": 9,
+      "wind_cf": 30.9,
+      "solar_cf": 18.7,
+      "combined_cf": 24.2,
+      "wind_mw": 2210.0,
+      "solar_mw": 2727.0
+    },
+    {
+      "state": "NSW",
+      "year": 2022,
+      "month": 10,
+      "wind_cf": 29.0,
+      "solar_cf": 19.0,
+      "combined_cf": 23.5,
+      "wind_mw": 2210.0,
+      "solar_mw": 2727.0
+    },
+    {
+      "state": "NSW",
+      "year": 2022,
+      "month": 11,
+      "wind_cf": 31.6,
+      "solar_cf": 25.1,
+      "combined_cf": 27.9,
+      "wind_mw": 2073.0,
+      "solar_mw": 2727.0
+    },
+    {
+      "state": "NSW",
+      "year": 2022,
+      "month": 12,
+      "wind_cf": 26.7,
+      "solar_cf": 29.8,
+      "combined_cf": 28.4,
+      "wind_mw": 2210.0,
+      "solar_mw": 2727.0
+    },
+    {
+      "state": "NSW",
+      "year": 2023,
+      "month": 1,
+      "wind_cf": 26.6,
+      "solar_cf": 29.2,
+      "combined_cf": 28.0,
+      "wind_mw": 2210.0,
+      "solar_mw": 2727.0
+    },
+    {
+      "state": "NSW",
+      "year": 2023,
+      "month": 2,
+      "wind_cf": 30.8,
+      "solar_cf": 30.8,
+      "combined_cf": 30.8,
+      "wind_mw": 2210.0,
+      "solar_mw": 2727.0
+    },
+    {
+      "state": "NSW",
+      "year": 2023,
+      "month": 3,
+      "wind_cf": 31.7,
+      "solar_cf": 22.9,
+      "combined_cf": 26.7,
+      "wind_mw": 2210.0,
+      "solar_mw": 2972.0
+    },
+    {
+      "state": "NSW",
+      "year": 2023,
+      "month": 4,
+      "wind_cf": 26.0,
+      "solar_cf": 18.8,
+      "combined_cf": 21.9,
+      "wind_mw": 2210.0,
+      "solar_mw": 2972.0
+    },
+    {
+      "state": "NSW",
+      "year": 2023,
+      "month": 5,
+      "wind_cf": 29.3,
+      "solar_cf": 15.0,
+      "combined_cf": 21.1,
+      "wind_mw": 2210.0,
+      "solar_mw": 2972.0
+    },
+    {
+      "state": "NSW",
+      "year": 2023,
+      "month": 6,
+      "wind_cf": 37.7,
+      "solar_cf": 12.8,
+      "combined_cf": 23.4,
+      "wind_mw": 2210.0,
+      "solar_mw": 2972.0
+    },
+    {
+      "state": "NSW",
+      "year": 2023,
+      "month": 7,
+      "wind_cf": 33.4,
+      "solar_cf": 14.9,
+      "combined_cf": 22.8,
+      "wind_mw": 2210.0,
+      "solar_mw": 2972.0
+    },
+    {
+      "state": "NSW",
+      "year": 2023,
+      "month": 8,
+      "wind_cf": 24.2,
+      "solar_cf": 19.4,
+      "combined_cf": 21.6,
+      "wind_mw": 2606.0,
+      "solar_mw": 3025.0
+    },
+    {
+      "state": "NSW",
+      "year": 2023,
+      "month": 9,
+      "wind_cf": 26.0,
+      "solar_cf": 25.0,
+      "combined_cf": 25.5,
+      "wind_mw": 2751.0,
+      "solar_mw": 3025.0
+    },
+    {
+      "state": "NSW",
+      "year": 2023,
+      "month": 10,
+      "wind_cf": 31.9,
+      "solar_cf": 21.8,
+      "combined_cf": 26.6,
+      "wind_mw": 2751.0,
+      "solar_mw": 3025.0
+    },
+    {
+      "state": "NSW",
+      "year": 2023,
+      "month": 11,
+      "wind_cf": 23.4,
+      "solar_cf": 25.6,
+      "combined_cf": 24.6,
+      "wind_mw": 2751.0,
+      "solar_mw": 3025.0
+    },
+    {
+      "state": "NSW",
+      "year": 2023,
+      "month": 12,
+      "wind_cf": 26.1,
+      "solar_cf": 28.2,
+      "combined_cf": 27.2,
+      "wind_mw": 2751.0,
+      "solar_mw": 3025.0
+    },
+    {
+      "state": "NSW",
+      "year": 2024,
+      "month": 1,
+      "wind_cf": 29.4,
+      "solar_cf": 28.1,
+      "combined_cf": 28.7,
+      "wind_mw": 2751.0,
+      "solar_mw": 3025.0
+    },
+    {
+      "state": "NSW",
+      "year": 2024,
+      "month": 2,
+      "wind_cf": 27.2,
+      "solar_cf": 28.4,
+      "combined_cf": 27.8,
+      "wind_mw": 2751.0,
+      "solar_mw": 3025.0
+    },
+    {
+      "state": "NSW",
+      "year": 2024,
+      "month": 3,
+      "wind_cf": 23.7,
+      "solar_cf": 24.7,
+      "combined_cf": 24.2,
+      "wind_mw": 2751.0,
+      "solar_mw": 3025.0
+    },
+    {
+      "state": "NSW",
+      "year": 2024,
+      "month": 4,
+      "wind_cf": 21.4,
+      "solar_cf": 20.1,
+      "combined_cf": 20.7,
+      "wind_mw": 2751.0,
+      "solar_mw": 3025.0
+    },
+    {
+      "state": "NSW",
+      "year": 2024,
+      "month": 5,
+      "wind_cf": 25.8,
+      "solar_cf": 16.4,
+      "combined_cf": 20.6,
+      "wind_mw": 2660.0,
+      "solar_mw": 3355.0
+    },
+    {
+      "state": "NSW",
+      "year": 2024,
+      "month": 6,
+      "wind_cf": 24.6,
+      "solar_cf": 13.3,
+      "combined_cf": 18.3,
+      "wind_mw": 2660.0,
+      "solar_mw": 3355.0
+    },
+    {
+      "state": "NSW",
+      "year": 2024,
+      "month": 7,
+      "wind_cf": 38.7,
+      "solar_cf": 14.0,
+      "combined_cf": 24.9,
+      "wind_mw": 2660.0,
+      "solar_mw": 3355.0
+    },
+    {
+      "state": "NSW",
+      "year": 2024,
+      "month": 8,
+      "wind_cf": 26.0,
+      "solar_cf": 17.0,
+      "combined_cf": 21.1,
+      "wind_mw": 2807.0,
+      "solar_mw": 3355.0
+    },
+    {
+      "state": "NSW",
+      "year": 2024,
+      "month": 9,
+      "wind_cf": 36.2,
+      "solar_cf": 16.5,
+      "combined_cf": 25.5,
+      "wind_mw": 2807.0,
+      "solar_mw": 3355.0
+    },
+    {
+      "state": "NSW",
+      "year": 2024,
+      "month": 10,
+      "wind_cf": 26.1,
+      "solar_cf": 21.2,
+      "combined_cf": 23.3,
+      "wind_mw": 2807.0,
+      "solar_mw": 3655.0
+    },
+    {
+      "state": "NSW",
+      "year": 2024,
+      "month": 11,
+      "wind_cf": 28.1,
+      "solar_cf": 23.7,
+      "combined_cf": 25.6,
+      "wind_mw": 2807.0,
+      "solar_mw": 3655.0
+    },
+    {
+      "state": "NSW",
+      "year": 2024,
+      "month": 12,
+      "wind_cf": 25.8,
+      "solar_cf": 28.6,
+      "combined_cf": 27.4,
+      "wind_mw": 2807.0,
+      "solar_mw": 3655.0
+    },
+    {
+      "state": "NSW",
+      "year": 2025,
+      "month": 1,
+      "wind_cf": 32.6,
+      "solar_cf": 28.0,
+      "combined_cf": 30.0,
+      "wind_mw": 2807.0,
+      "solar_mw": 3655.0
+    },
+    {
+      "state": "NSW",
+      "year": 2025,
+      "month": 2,
+      "wind_cf": 25.9,
+      "solar_cf": 25.4,
+      "combined_cf": 25.6,
+      "wind_mw": 2807.0,
+      "solar_mw": 3935.0
+    },
+    {
+      "state": "NSW",
+      "year": 2025,
+      "month": 3,
+      "wind_cf": 34.0,
+      "solar_cf": 20.6,
+      "combined_cf": 26.2,
+      "wind_mw": 2807.0,
+      "solar_mw": 3935.0
+    },
+    {
+      "state": "NSW",
+      "year": 2025,
+      "month": 4,
+      "wind_cf": 24.1,
+      "solar_cf": 17.8,
+      "combined_cf": 20.4,
+      "wind_mw": 2807.0,
+      "solar_mw": 3935.0
+    },
+    {
+      "state": "NSW",
+      "year": 2025,
+      "month": 5,
+      "wind_cf": 30.8,
+      "solar_cf": 15.2,
+      "combined_cf": 21.7,
+      "wind_mw": 2807.0,
+      "solar_mw": 3935.0
+    },
+    {
+      "state": "NSW",
+      "year": 2025,
+      "month": 6,
+      "wind_cf": 28.5,
+      "solar_cf": 12.4,
+      "combined_cf": 19.1,
+      "wind_mw": 2807.0,
+      "solar_mw": 3935.0
+    },
+    {
+      "state": "NSW",
+      "year": 2025,
+      "month": 7,
+      "wind_cf": 42.8,
+      "solar_cf": 12.6,
+      "combined_cf": 25.2,
+      "wind_mw": 2807.0,
+      "solar_mw": 3935.0
+    },
+    {
+      "state": "NSW",
+      "year": 2025,
+      "month": 8,
+      "wind_cf": 36.3,
+      "solar_cf": 15.6,
+      "combined_cf": 24.2,
+      "wind_mw": 2807.0,
+      "solar_mw": 3935.0
+    },
+    {
+      "state": "NSW",
+      "year": 2025,
+      "month": 9,
+      "wind_cf": 34.7,
+      "solar_cf": 14.3,
+      "combined_cf": 22.8,
+      "wind_mw": 2807.0,
+      "solar_mw": 3935.0
+    },
+    {
+      "state": "NSW",
+      "year": 2025,
+      "month": 10,
+      "wind_cf": 36.1,
+      "solar_cf": 18.1,
+      "combined_cf": 24.8,
+      "wind_mw": 2807.0,
+      "solar_mw": 4685.0
+    },
+    {
+      "state": "NSW",
+      "year": 2025,
+      "month": 11,
+      "wind_cf": 37.0,
+      "solar_cf": 20.9,
+      "combined_cf": 26.9,
+      "wind_mw": 2807.0,
+      "solar_mw": 4685.0
+    },
+    {
+      "state": "NSW",
+      "year": 2025,
+      "month": 12,
+      "wind_cf": 31.3,
+      "solar_cf": 24.6,
+      "combined_cf": 27.1,
+      "wind_mw": 2807.0,
+      "solar_mw": 4685.0
+    },
+    {
+      "state": "NSW",
+      "year": 2026,
+      "month": 1,
+      "wind_cf": 34.0,
+      "solar_cf": 26.3,
+      "combined_cf": 29.2,
+      "wind_mw": 2807.0,
+      "solar_mw": 4685.0
+    },
+    {
+      "state": "NSW",
+      "year": 2026,
+      "month": 2,
+      "wind_cf": 33.0,
+      "solar_cf": 23.5,
+      "combined_cf": 27.1,
+      "wind_mw": 2807.0,
+      "solar_mw": 4552.0
+    },
+    {
+      "state": "NSW",
+      "year": 2026,
+      "month": 3,
+      "wind_cf": 22.1,
+      "solar_cf": 20.2,
+      "combined_cf": 20.9,
+      "wind_mw": 2807.0,
+      "solar_mw": 4685.0
+    },
+    {
+      "state": "NSW",
+      "year": 2026,
+      "month": 4,
+      "wind_cf": 25.5,
+      "solar_cf": 19.2,
+      "combined_cf": 21.6,
+      "wind_mw": 2807.0,
+      "solar_mw": 4685.0
+    },
+    {
+      "state": "NSW",
+      "year": 2026,
+      "month": 5,
+      "wind_cf": 10.0,
+      "solar_cf": 4.4,
+      "combined_cf": 6.5,
+      "wind_mw": 2807.0,
+      "solar_mw": 4685.0
+    },
+    {
+      "state": "QLD",
+      "year": 2018,
+      "month": 1,
+      "wind_cf": 0,
+      "solar_cf": 12.4,
+      "combined_cf": 12.4,
+      "wind_mw": 0,
+      "solar_mw": 50.0
+    },
+    {
+      "state": "QLD",
+      "year": 2018,
+      "month": 2,
+      "wind_cf": 0,
+      "solar_cf": 20.6,
+      "combined_cf": 20.6,
+      "wind_mw": 0,
+      "solar_mw": 50.0
+    },
+    {
+      "state": "QLD",
+      "year": 2018,
+      "month": 3,
+      "wind_cf": 0,
+      "solar_cf": 23.9,
+      "combined_cf": 23.9,
+      "wind_mw": 0,
+      "solar_mw": 50.0
+    },
+    {
+      "state": "QLD",
+      "year": 2018,
+      "month": 4,
+      "wind_cf": 0,
+      "solar_cf": 14.7,
+      "combined_cf": 14.7,
+      "wind_mw": 0,
+      "solar_mw": 150.0
+    },
+    {
+      "state": "QLD",
+      "year": 2018,
+      "month": 5,
+      "wind_cf": 0,
+      "solar_cf": 11.1,
+      "combined_cf": 11.1,
+      "wind_mw": 0,
+      "solar_mw": 272.0
+    },
+    {
+      "state": "QLD",
+      "year": 2018,
+      "month": 6,
+      "wind_cf": 0,
+      "solar_cf": 15.1,
+      "combined_cf": 15.1,
+      "wind_mw": 0,
+      "solar_mw": 272.0
+    },
+    {
+      "state": "QLD",
+      "year": 2018,
+      "month": 7,
+      "wind_cf": 0,
+      "solar_cf": 10.3,
+      "combined_cf": 10.3,
+      "wind_mw": 0,
+      "solar_mw": 534.0
+    },
+    {
+      "state": "QLD",
+      "year": 2018,
+      "month": 8,
+      "wind_cf": 1.7,
+      "solar_cf": 17.3,
+      "combined_cf": 13.4,
+      "wind_mw": 180.0,
+      "solar_mw": 534.0
+    },
+    {
+      "state": "QLD",
+      "year": 2018,
+      "month": 9,
+      "wind_cf": 20.9,
+      "solar_cf": 15.7,
+      "combined_cf": 16.7,
+      "wind_mw": 180.0,
+      "solar_mw": 722.0
+    },
+    {
+      "state": "QLD",
+      "year": 2018,
+      "month": 10,
+      "wind_cf": 14.2,
+      "solar_cf": 14.3,
+      "combined_cf": 14.3,
+      "wind_mw": 180.0,
+      "solar_mw": 872.0
+    },
+    {
+      "state": "QLD",
+      "year": 2018,
+      "month": 11,
+      "wind_cf": 23.5,
+      "solar_cf": 22.7,
+      "combined_cf": 22.8,
+      "wind_mw": 180.0,
+      "solar_mw": 872.0
+    },
+    {
+      "state": "QLD",
+      "year": 2018,
+      "month": 12,
+      "wind_cf": 26.1,
+      "solar_cf": 19.9,
+      "combined_cf": 20.9,
+      "wind_mw": 180.0,
+      "solar_mw": 947.0
+    },
+    {
+      "state": "QLD",
+      "year": 2019,
+      "month": 1,
+      "wind_cf": 29.2,
+      "solar_cf": 18.6,
+      "combined_cf": 20.2,
+      "wind_mw": 180.0,
+      "solar_mw": 997.0
+    },
+    {
+      "state": "QLD",
+      "year": 2019,
+      "month": 2,
+      "wind_cf": 17.3,
+      "solar_cf": 17.5,
+      "combined_cf": 17.5,
+      "wind_mw": 180.0,
+      "solar_mw": 1053.0
+    },
+    {
+      "state": "QLD",
+      "year": 2019,
+      "month": 3,
+      "wind_cf": 24.6,
+      "solar_cf": 16.7,
+      "combined_cf": 17.8,
+      "wind_mw": 180.0,
+      "solar_mw": 1153.0
+    },
+    {
+      "state": "QLD",
+      "year": 2019,
+      "month": 4,
+      "wind_cf": 47.7,
+      "solar_cf": 19.8,
+      "combined_cf": 23.6,
+      "wind_mw": 180.0,
+      "solar_mw": 1153.0
+    },
+    {
+      "state": "QLD",
+      "year": 2019,
+      "month": 5,
+      "wind_cf": 39.8,
+      "solar_cf": 15.0,
+      "combined_cf": 18.0,
+      "wind_mw": 180.0,
+      "solar_mw": 1318.0
+    },
+    {
+      "state": "QLD",
+      "year": 2019,
+      "month": 6,
+      "wind_cf": 17.6,
+      "solar_cf": 14.5,
+      "combined_cf": 15.5,
+      "wind_mw": 634.0,
+      "solar_mw": 1393.0
+    },
+    {
+      "state": "QLD",
+      "year": 2019,
+      "month": 7,
+      "wind_cf": 13.1,
+      "solar_cf": 17.9,
+      "combined_cf": 16.4,
+      "wind_mw": 634.0,
+      "solar_mw": 1393.0
+    },
+    {
+      "state": "QLD",
+      "year": 2019,
+      "month": 8,
+      "wind_cf": 18.4,
+      "solar_cf": 22.0,
+      "combined_cf": 20.9,
+      "wind_mw": 634.0,
+      "solar_mw": 1393.0
+    },
+    {
+      "state": "QLD",
+      "year": 2019,
+      "month": 9,
+      "wind_cf": 19.1,
+      "solar_cf": 22.6,
+      "combined_cf": 21.5,
+      "wind_mw": 634.0,
+      "solar_mw": 1448.0
+    },
+    {
+      "state": "QLD",
+      "year": 2019,
+      "month": 10,
+      "wind_cf": 16.6,
+      "solar_cf": 21.7,
+      "combined_cf": 20.1,
+      "wind_mw": 634.0,
+      "solar_mw": 1448.0
+    },
+    {
+      "state": "QLD",
+      "year": 2019,
+      "month": 11,
+      "wind_cf": 16.0,
+      "solar_cf": 29.6,
+      "combined_cf": 25.5,
+      "wind_mw": 634.0,
+      "solar_mw": 1448.0
+    },
+    {
+      "state": "QLD",
+      "year": 2019,
+      "month": 12,
+      "wind_cf": 13.8,
+      "solar_cf": 30.1,
+      "combined_cf": 25.1,
+      "wind_mw": 634.0,
+      "solar_mw": 1448.0
+    },
+    {
+      "state": "QLD",
+      "year": 2020,
+      "month": 1,
+      "wind_cf": 11.4,
+      "solar_cf": 21.2,
+      "combined_cf": 18.4,
+      "wind_mw": 634.0,
+      "solar_mw": 1551.0
+    },
+    {
+      "state": "QLD",
+      "year": 2020,
+      "month": 2,
+      "wind_cf": 9.2,
+      "solar_cf": 22.2,
+      "combined_cf": 18.4,
+      "wind_mw": 634.0,
+      "solar_mw": 1551.0
+    },
+    {
+      "state": "QLD",
+      "year": 2020,
+      "month": 3,
+      "wind_cf": 22.1,
+      "solar_cf": 23.5,
+      "combined_cf": 23.1,
+      "wind_mw": 634.0,
+      "solar_mw": 1551.0
+    },
+    {
+      "state": "QLD",
+      "year": 2020,
+      "month": 4,
+      "wind_cf": 22.3,
+      "solar_cf": 24.2,
+      "combined_cf": 23.6,
+      "wind_mw": 634.0,
+      "solar_mw": 1551.0
+    },
+    {
+      "state": "QLD",
+      "year": 2020,
+      "month": 5,
+      "wind_cf": 32.3,
+      "solar_cf": 18.7,
+      "combined_cf": 22.6,
+      "wind_mw": 634.0,
+      "solar_mw": 1551.0
+    },
+    {
+      "state": "QLD",
+      "year": 2020,
+      "month": 6,
+      "wind_cf": 35.0,
+      "solar_cf": 17.0,
+      "combined_cf": 22.2,
+      "wind_mw": 634.0,
+      "solar_mw": 1551.0
+    },
+    {
+      "state": "QLD",
+      "year": 2020,
+      "month": 7,
+      "wind_cf": 22.8,
+      "solar_cf": 18.7,
+      "combined_cf": 19.9,
+      "wind_mw": 634.0,
+      "solar_mw": 1551.0
+    },
+    {
+      "state": "QLD",
+      "year": 2020,
+      "month": 8,
+      "wind_cf": 19.8,
+      "solar_cf": 21.8,
+      "combined_cf": 21.2,
+      "wind_mw": 634.0,
+      "solar_mw": 1551.0
+    },
+    {
+      "state": "QLD",
+      "year": 2020,
+      "month": 9,
+      "wind_cf": 30.8,
+      "solar_cf": 21.6,
+      "combined_cf": 24.2,
+      "wind_mw": 634.0,
+      "solar_mw": 1615.0
+    },
+    {
+      "state": "QLD",
+      "year": 2020,
+      "month": 10,
+      "wind_cf": 23.4,
+      "solar_cf": 21.9,
+      "combined_cf": 22.3,
+      "wind_mw": 634.0,
+      "solar_mw": 1615.0
+    },
+    {
+      "state": "QLD",
+      "year": 2020,
+      "month": 11,
+      "wind_cf": 28.2,
+      "solar_cf": 28.1,
+      "combined_cf": 28.1,
+      "wind_mw": 634.0,
+      "solar_mw": 1615.0
+    },
+    {
+      "state": "QLD",
+      "year": 2020,
+      "month": 12,
+      "wind_cf": 23.6,
+      "solar_cf": 24.5,
+      "combined_cf": 24.2,
+      "wind_mw": 634.0,
+      "solar_mw": 1615.0
+    },
+    {
+      "state": "QLD",
+      "year": 2021,
+      "month": 1,
+      "wind_cf": 27.6,
+      "solar_cf": 23.9,
+      "combined_cf": 25.0,
+      "wind_mw": 634.0,
+      "solar_mw": 1494.0
+    },
+    {
+      "state": "QLD",
+      "year": 2021,
+      "month": 2,
+      "wind_cf": 19.2,
+      "solar_cf": 24.2,
+      "combined_cf": 22.7,
+      "wind_mw": 634.0,
+      "solar_mw": 1494.0
+    },
+    {
+      "state": "QLD",
+      "year": 2021,
+      "month": 3,
+      "wind_cf": 28.8,
+      "solar_cf": 22.1,
+      "combined_cf": 24.0,
+      "wind_mw": 634.0,
+      "solar_mw": 1615.0
+    },
+    {
+      "state": "QLD",
+      "year": 2021,
+      "month": 4,
+      "wind_cf": 30.4,
+      "solar_cf": 20.1,
+      "combined_cf": 23.3,
+      "wind_mw": 634.0,
+      "solar_mw": 1430.0
+    },
+    {
+      "state": "QLD",
+      "year": 2021,
+      "month": 5,
+      "wind_cf": 34.4,
+      "solar_cf": 19.8,
+      "combined_cf": 24.1,
+      "wind_mw": 634.0,
+      "solar_mw": 1494.0
+    },
+    {
+      "state": "QLD",
+      "year": 2021,
+      "month": 6,
+      "wind_cf": 29.4,
+      "solar_cf": 17.7,
+      "combined_cf": 21.2,
+      "wind_mw": 634.0,
+      "solar_mw": 1494.0
+    },
+    {
+      "state": "QLD",
+      "year": 2021,
+      "month": 7,
+      "wind_cf": 23.2,
+      "solar_cf": 21.4,
+      "combined_cf": 22.0,
+      "wind_mw": 677.0,
+      "solar_mw": 1494.0
+    },
+    {
+      "state": "QLD",
+      "year": 2021,
+      "month": 8,
+      "wind_cf": 30.0,
+      "solar_cf": 21.9,
+      "combined_cf": 24.4,
+      "wind_mw": 677.0,
+      "solar_mw": 1494.0
+    },
+    {
+      "state": "QLD",
+      "year": 2021,
+      "month": 9,
+      "wind_cf": 31.6,
+      "solar_cf": 19.7,
+      "combined_cf": 23.2,
+      "wind_mw": 677.0,
+      "solar_mw": 1615.0
+    },
+    {
+      "state": "QLD",
+      "year": 2021,
+      "month": 10,
+      "wind_cf": 19.7,
+      "solar_cf": 23.2,
+      "combined_cf": 22.2,
+      "wind_mw": 677.0,
+      "solar_mw": 1615.0
+    },
+    {
+      "state": "QLD",
+      "year": 2021,
+      "month": 11,
+      "wind_cf": 23.4,
+      "solar_cf": 23.1,
+      "combined_cf": 23.2,
+      "wind_mw": 677.0,
+      "solar_mw": 1551.0
+    },
+    {
+      "state": "QLD",
+      "year": 2021,
+      "month": 12,
+      "wind_cf": 22.0,
+      "solar_cf": 29.6,
+      "combined_cf": 27.3,
+      "wind_mw": 677.0,
+      "solar_mw": 1551.0
+    },
+    {
+      "state": "QLD",
+      "year": 2022,
+      "month": 1,
+      "wind_cf": 22.6,
+      "solar_cf": 27.8,
+      "combined_cf": 26.3,
+      "wind_mw": 677.0,
+      "solar_mw": 1615.0
+    },
+    {
+      "state": "QLD",
+      "year": 2022,
+      "month": 2,
+      "wind_cf": 24.9,
+      "solar_cf": 26.7,
+      "combined_cf": 26.2,
+      "wind_mw": 677.0,
+      "solar_mw": 2015.0
+    },
+    {
+      "state": "QLD",
+      "year": 2022,
+      "month": 3,
+      "wind_cf": 21.3,
+      "solar_cf": 24.6,
+      "combined_cf": 23.8,
+      "wind_mw": 677.0,
+      "solar_mw": 2015.0
+    },
+    {
+      "state": "QLD",
+      "year": 2022,
+      "month": 4,
+      "wind_cf": 30.5,
+      "solar_cf": 19.7,
+      "combined_cf": 22.4,
+      "wind_mw": 677.0,
+      "solar_mw": 2015.0
+    },
+    {
+      "state": "QLD",
+      "year": 2022,
+      "month": 5,
+      "wind_cf": 27.4,
+      "solar_cf": 15.7,
+      "combined_cf": 18.5,
+      "wind_mw": 677.0,
+      "solar_mw": 2191.0
+    },
+    {
+      "state": "QLD",
+      "year": 2022,
+      "month": 6,
+      "wind_cf": 33.4,
+      "solar_cf": 17.3,
+      "combined_cf": 20.9,
+      "wind_mw": 677.0,
+      "solar_mw": 2353.0
+    },
+    {
+      "state": "QLD",
+      "year": 2022,
+      "month": 7,
+      "wind_cf": 33.2,
+      "solar_cf": 18.2,
+      "combined_cf": 21.6,
+      "wind_mw": 677.0,
+      "solar_mw": 2353.0
+    },
+    {
+      "state": "QLD",
+      "year": 2022,
+      "month": 8,
+      "wind_cf": 38.7,
+      "solar_cf": 17.6,
+      "combined_cf": 22.1,
+      "wind_mw": 677.0,
+      "solar_mw": 2501.0
+    },
+    {
+      "state": "QLD",
+      "year": 2022,
+      "month": 9,
+      "wind_cf": 32.9,
+      "solar_cf": 20.6,
+      "combined_cf": 23.2,
+      "wind_mw": 677.0,
+      "solar_mw": 2501.0
+    },
+    {
+      "state": "QLD",
+      "year": 2022,
+      "month": 10,
+      "wind_cf": 25.6,
+      "solar_cf": 20.6,
+      "combined_cf": 21.8,
+      "wind_mw": 829.0,
+      "solar_mw": 2583.0
+    },
+    {
+      "state": "QLD",
+      "year": 2022,
+      "month": 11,
+      "wind_cf": 24.4,
+      "solar_cf": 24.3,
+      "combined_cf": 24.3,
+      "wind_mw": 829.0,
+      "solar_mw": 2583.0
+    },
+    {
+      "state": "QLD",
+      "year": 2022,
+      "month": 12,
+      "wind_cf": 26.5,
+      "solar_cf": 25.8,
+      "combined_cf": 26.0,
+      "wind_mw": 829.0,
+      "solar_mw": 2583.0
+    },
+    {
+      "state": "QLD",
+      "year": 2023,
+      "month": 1,
+      "wind_cf": 24.8,
+      "solar_cf": 23.6,
+      "combined_cf": 23.9,
+      "wind_mw": 829.0,
+      "solar_mw": 2583.0
+    },
+    {
+      "state": "QLD",
+      "year": 2023,
+      "month": 2,
+      "wind_cf": 28.1,
+      "solar_cf": 22.9,
+      "combined_cf": 24.1,
+      "wind_mw": 829.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2023,
+      "month": 3,
+      "wind_cf": 24.6,
+      "solar_cf": 21.1,
+      "combined_cf": 21.9,
+      "wind_mw": 829.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2023,
+      "month": 4,
+      "wind_cf": 23.4,
+      "solar_cf": 21.8,
+      "combined_cf": 22.2,
+      "wind_mw": 1009.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2023,
+      "month": 5,
+      "wind_cf": 33.8,
+      "solar_cf": 21.6,
+      "combined_cf": 24.9,
+      "wind_mw": 1009.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2023,
+      "month": 6,
+      "wind_cf": 32.8,
+      "solar_cf": 18.3,
+      "combined_cf": 22.2,
+      "wind_mw": 1009.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2023,
+      "month": 7,
+      "wind_cf": 34.7,
+      "solar_cf": 17.7,
+      "combined_cf": 22.2,
+      "wind_mw": 1009.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2023,
+      "month": 8,
+      "wind_cf": 38.1,
+      "solar_cf": 22.3,
+      "combined_cf": 26.5,
+      "wind_mw": 1009.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2023,
+      "month": 9,
+      "wind_cf": 41.9,
+      "solar_cf": 21.2,
+      "combined_cf": 26.7,
+      "wind_mw": 1009.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2023,
+      "month": 10,
+      "wind_cf": 38.4,
+      "solar_cf": 24.7,
+      "combined_cf": 28.4,
+      "wind_mw": 1009.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2023,
+      "month": 11,
+      "wind_cf": 31.6,
+      "solar_cf": 24.5,
+      "combined_cf": 26.4,
+      "wind_mw": 1009.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2023,
+      "month": 12,
+      "wind_cf": 32.4,
+      "solar_cf": 26.6,
+      "combined_cf": 28.2,
+      "wind_mw": 1009.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2024,
+      "month": 1,
+      "wind_cf": 27.3,
+      "solar_cf": 25.3,
+      "combined_cf": 25.8,
+      "wind_mw": 1009.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2024,
+      "month": 2,
+      "wind_cf": 23.1,
+      "solar_cf": 24.3,
+      "combined_cf": 24.0,
+      "wind_mw": 1009.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2024,
+      "month": 3,
+      "wind_cf": 41.1,
+      "solar_cf": 21.7,
+      "combined_cf": 26.9,
+      "wind_mw": 1009.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2024,
+      "month": 4,
+      "wind_cf": 34.8,
+      "solar_cf": 20.9,
+      "combined_cf": 24.6,
+      "wind_mw": 1009.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2024,
+      "month": 5,
+      "wind_cf": 47.9,
+      "solar_cf": 16.2,
+      "combined_cf": 24.7,
+      "wind_mw": 1009.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2024,
+      "month": 6,
+      "wind_cf": 25.1,
+      "solar_cf": 18.0,
+      "combined_cf": 19.9,
+      "wind_mw": 1009.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2024,
+      "month": 7,
+      "wind_cf": 41.5,
+      "solar_cf": 18.5,
+      "combined_cf": 24.7,
+      "wind_mw": 1009.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2024,
+      "month": 8,
+      "wind_cf": 35.8,
+      "solar_cf": 20.4,
+      "combined_cf": 24.5,
+      "wind_mw": 1009.0,
+      "solar_mw": 2763.0
+    },
+    {
+      "state": "QLD",
+      "year": 2024,
+      "month": 9,
+      "wind_cf": 41.9,
+      "solar_cf": 20.5,
+      "combined_cf": 26.2,
+      "wind_mw": 1009.0,
+      "solar_mw": 2803.0
+    },
+    {
+      "state": "QLD",
+      "year": 2024,
+      "month": 10,
+      "wind_cf": 40.5,
+      "solar_cf": 23.5,
+      "combined_cf": 28.0,
+      "wind_mw": 1009.0,
+      "solar_mw": 2803.0
+    },
+    {
+      "state": "QLD",
+      "year": 2024,
+      "month": 11,
+      "wind_cf": 37.8,
+      "solar_cf": 26.3,
+      "combined_cf": 29.3,
+      "wind_mw": 1009.0,
+      "solar_mw": 2803.0
+    },
+    {
+      "state": "QLD",
+      "year": 2024,
+      "month": 12,
+      "wind_cf": 25.4,
+      "solar_cf": 25.5,
+      "combined_cf": 25.5,
+      "wind_mw": 1009.0,
+      "solar_mw": 2803.0
+    },
+    {
+      "state": "QLD",
+      "year": 2025,
+      "month": 1,
+      "wind_cf": 30.8,
+      "solar_cf": 26.2,
+      "combined_cf": 27.4,
+      "wind_mw": 1009.0,
+      "solar_mw": 2803.0
+    },
+    {
+      "state": "QLD",
+      "year": 2025,
+      "month": 2,
+      "wind_cf": 33.2,
+      "solar_cf": 24.3,
+      "combined_cf": 26.7,
+      "wind_mw": 1009.0,
+      "solar_mw": 2803.0
+    },
+    {
+      "state": "QLD",
+      "year": 2025,
+      "month": 3,
+      "wind_cf": 30.4,
+      "solar_cf": 19.5,
+      "combined_cf": 22.1,
+      "wind_mw": 1009.0,
+      "solar_mw": 3190.0
+    },
+    {
+      "state": "QLD",
+      "year": 2025,
+      "month": 4,
+      "wind_cf": 32.6,
+      "solar_cf": 21.7,
+      "combined_cf": 24.3,
+      "wind_mw": 1009.0,
+      "solar_mw": 3190.0
+    },
+    {
+      "state": "QLD",
+      "year": 2025,
+      "month": 5,
+      "wind_cf": 37.9,
+      "solar_cf": 17.6,
+      "combined_cf": 22.5,
+      "wind_mw": 1009.0,
+      "solar_mw": 3190.0
+    },
+    {
+      "state": "QLD",
+      "year": 2025,
+      "month": 6,
+      "wind_cf": 36.5,
+      "solar_cf": 17.0,
+      "combined_cf": 21.7,
+      "wind_mw": 1009.0,
+      "solar_mw": 3190.0
+    },
+    {
+      "state": "QLD",
+      "year": 2025,
+      "month": 7,
+      "wind_cf": 29.3,
+      "solar_cf": 18.1,
+      "combined_cf": 20.8,
+      "wind_mw": 1009.0,
+      "solar_mw": 3190.0
+    },
+    {
+      "state": "QLD",
+      "year": 2025,
+      "month": 8,
+      "wind_cf": 29.2,
+      "solar_cf": 17.8,
+      "combined_cf": 20.5,
+      "wind_mw": 1009.0,
+      "solar_mw": 3190.0
+    },
+    {
+      "state": "QLD",
+      "year": 2025,
+      "month": 9,
+      "wind_cf": 34.6,
+      "solar_cf": 17.6,
+      "combined_cf": 21.7,
+      "wind_mw": 1009.0,
+      "solar_mw": 3190.0
+    },
+    {
+      "state": "QLD",
+      "year": 2025,
+      "month": 10,
+      "wind_cf": 32.4,
+      "solar_cf": 20.0,
+      "combined_cf": 23.0,
+      "wind_mw": 1009.0,
+      "solar_mw": 3190.0
+    },
+    {
+      "state": "QLD",
+      "year": 2025,
+      "month": 11,
+      "wind_cf": 27.4,
+      "solar_cf": 21.6,
+      "combined_cf": 23.0,
+      "wind_mw": 1009.0,
+      "solar_mw": 3190.0
+    },
+    {
+      "state": "QLD",
+      "year": 2025,
+      "month": 12,
+      "wind_cf": 32.8,
+      "solar_cf": 24.8,
+      "combined_cf": 26.7,
+      "wind_mw": 1009.0,
+      "solar_mw": 3190.0
+    },
+    {
+      "state": "QLD",
+      "year": 2026,
+      "month": 1,
+      "wind_cf": 30.0,
+      "solar_cf": 24.8,
+      "combined_cf": 26.0,
+      "wind_mw": 1009.0,
+      "solar_mw": 3190.0
+    },
+    {
+      "state": "QLD",
+      "year": 2026,
+      "month": 2,
+      "wind_cf": 27.6,
+      "solar_cf": 24.1,
+      "combined_cf": 24.9,
+      "wind_mw": 1009.0,
+      "solar_mw": 3190.0
+    },
+    {
+      "state": "QLD",
+      "year": 2026,
+      "month": 3,
+      "wind_cf": 35.8,
+      "solar_cf": 22.5,
+      "combined_cf": 25.7,
+      "wind_mw": 1009.0,
+      "solar_mw": 3190.0
+    },
+    {
+      "state": "QLD",
+      "year": 2026,
+      "month": 4,
+      "wind_cf": 40.4,
+      "solar_cf": 22.6,
+      "combined_cf": 26.9,
+      "wind_mw": 1009.0,
+      "solar_mw": 3190.0
+    },
+    {
+      "state": "QLD",
+      "year": 2026,
+      "month": 5,
+      "wind_cf": 11.6,
+      "solar_cf": 5.9,
+      "combined_cf": 7.3,
+      "wind_mw": 1009.0,
+      "solar_mw": 3190.0
+    },
+    {
+      "state": "SA",
+      "year": 2018,
+      "month": 1,
+      "wind_cf": 31.8,
+      "solar_cf": 0,
+      "combined_cf": 31.8,
+      "wind_mw": 1841.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "SA",
+      "year": 2018,
+      "month": 2,
+      "wind_cf": 30.7,
+      "solar_cf": 0,
+      "combined_cf": 30.7,
+      "wind_mw": 1841.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "SA",
+      "year": 2018,
+      "month": 3,
+      "wind_cf": 32.1,
+      "solar_cf": 0,
+      "combined_cf": 32.1,
+      "wind_mw": 1841.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "SA",
+      "year": 2018,
+      "month": 4,
+      "wind_cf": 26.6,
+      "solar_cf": 0,
+      "combined_cf": 26.6,
+      "wind_mw": 1841.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "SA",
+      "year": 2018,
+      "month": 5,
+      "wind_cf": 33.8,
+      "solar_cf": 2.4,
+      "combined_cf": 32.0,
+      "wind_mw": 1841.0,
+      "solar_mw": 110.0
+    },
+    {
+      "state": "SA",
+      "year": 2018,
+      "month": 6,
+      "wind_cf": 30.2,
+      "solar_cf": 2.4,
+      "combined_cf": 28.6,
+      "wind_mw": 1841.0,
+      "solar_mw": 110.0
+    },
+    {
+      "state": "SA",
+      "year": 2018,
+      "month": 7,
+      "wind_cf": 43.7,
+      "solar_cf": 5.3,
+      "combined_cf": 41.5,
+      "wind_mw": 1841.0,
+      "solar_mw": 110.0
+    },
+    {
+      "state": "SA",
+      "year": 2018,
+      "month": 8,
+      "wind_cf": 45.0,
+      "solar_cf": 11.6,
+      "combined_cf": 43.2,
+      "wind_mw": 1961.0,
+      "solar_mw": 110.0
+    },
+    {
+      "state": "SA",
+      "year": 2018,
+      "month": 9,
+      "wind_cf": 29.8,
+      "solar_cf": 27.8,
+      "combined_cf": 29.7,
+      "wind_mw": 1961.0,
+      "solar_mw": 110.0
+    },
+    {
+      "state": "SA",
+      "year": 2018,
+      "month": 10,
+      "wind_cf": 31.2,
+      "solar_cf": 12.5,
+      "combined_cf": 29.3,
+      "wind_mw": 1961.0,
+      "solar_mw": 220.0
+    },
+    {
+      "state": "SA",
+      "year": 2018,
+      "month": 11,
+      "wind_cf": 27.1,
+      "solar_cf": 16.9,
+      "combined_cf": 26.1,
+      "wind_mw": 1961.0,
+      "solar_mw": 220.0
+    },
+    {
+      "state": "SA",
+      "year": 2018,
+      "month": 12,
+      "wind_cf": 32.2,
+      "solar_cf": 20.8,
+      "combined_cf": 31.0,
+      "wind_mw": 1961.0,
+      "solar_mw": 220.0
+    },
+    {
+      "state": "SA",
+      "year": 2019,
+      "month": 1,
+      "wind_cf": 28.0,
+      "solar_cf": 20.3,
+      "combined_cf": 27.2,
+      "wind_mw": 1961.0,
+      "solar_mw": 220.0
+    },
+    {
+      "state": "SA",
+      "year": 2019,
+      "month": 2,
+      "wind_cf": 30.3,
+      "solar_cf": 13.7,
+      "combined_cf": 28.0,
+      "wind_mw": 1961.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2019,
+      "month": 3,
+      "wind_cf": 25.8,
+      "solar_cf": 14.6,
+      "combined_cf": 24.2,
+      "wind_mw": 1961.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2019,
+      "month": 4,
+      "wind_cf": 29.6,
+      "solar_cf": 14.8,
+      "combined_cf": 27.6,
+      "wind_mw": 1961.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2019,
+      "month": 5,
+      "wind_cf": 30.0,
+      "solar_cf": 11.7,
+      "combined_cf": 27.7,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2019,
+      "month": 6,
+      "wind_cf": 29.3,
+      "solar_cf": 12.2,
+      "combined_cf": 27.1,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2019,
+      "month": 7,
+      "wind_cf": 33.6,
+      "solar_cf": 12.0,
+      "combined_cf": 30.9,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2019,
+      "month": 8,
+      "wind_cf": 33.4,
+      "solar_cf": 14.1,
+      "combined_cf": 31.0,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2019,
+      "month": 9,
+      "wind_cf": 28.6,
+      "solar_cf": 17.8,
+      "combined_cf": 27.2,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2019,
+      "month": 10,
+      "wind_cf": 29.8,
+      "solar_cf": 19.5,
+      "combined_cf": 28.5,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2019,
+      "month": 11,
+      "wind_cf": 30.6,
+      "solar_cf": 17.2,
+      "combined_cf": 28.9,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2019,
+      "month": 12,
+      "wind_cf": 27.8,
+      "solar_cf": 25.5,
+      "combined_cf": 27.5,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2020,
+      "month": 1,
+      "wind_cf": 29.6,
+      "solar_cf": 25.3,
+      "combined_cf": 29.1,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2020,
+      "month": 2,
+      "wind_cf": 20.5,
+      "solar_cf": 20.6,
+      "combined_cf": 20.5,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2020,
+      "month": 3,
+      "wind_cf": 28.8,
+      "solar_cf": 20.1,
+      "combined_cf": 27.7,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2020,
+      "month": 4,
+      "wind_cf": 26.3,
+      "solar_cf": 13.8,
+      "combined_cf": 24.7,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2020,
+      "month": 5,
+      "wind_cf": 30.7,
+      "solar_cf": 17.9,
+      "combined_cf": 29.6,
+      "wind_mw": 2173.0,
+      "solar_mw": 205.0
+    },
+    {
+      "state": "SA",
+      "year": 2020,
+      "month": 6,
+      "wind_cf": 30.4,
+      "solar_cf": 12.9,
+      "combined_cf": 28.2,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2020,
+      "month": 7,
+      "wind_cf": 22.2,
+      "solar_cf": 16.6,
+      "combined_cf": 21.5,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2020,
+      "month": 8,
+      "wind_cf": 35.4,
+      "solar_cf": 17.9,
+      "combined_cf": 33.2,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2020,
+      "month": 9,
+      "wind_cf": 37.0,
+      "solar_cf": 21.9,
+      "combined_cf": 35.1,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2020,
+      "month": 10,
+      "wind_cf": 29.2,
+      "solar_cf": 24.9,
+      "combined_cf": 28.7,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2020,
+      "month": 11,
+      "wind_cf": 31.8,
+      "solar_cf": 32.5,
+      "combined_cf": 31.9,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2020,
+      "month": 12,
+      "wind_cf": 30.5,
+      "solar_cf": 28.1,
+      "combined_cf": 30.2,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2021,
+      "month": 1,
+      "wind_cf": 28.2,
+      "solar_cf": 33.8,
+      "combined_cf": 28.9,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2021,
+      "month": 2,
+      "wind_cf": 28.3,
+      "solar_cf": 29.5,
+      "combined_cf": 28.5,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2021,
+      "month": 3,
+      "wind_cf": 23.9,
+      "solar_cf": 24.0,
+      "combined_cf": 23.9,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2021,
+      "month": 4,
+      "wind_cf": 19.2,
+      "solar_cf": 25.2,
+      "combined_cf": 20.0,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2021,
+      "month": 5,
+      "wind_cf": 27.2,
+      "solar_cf": 16.7,
+      "combined_cf": 25.9,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2021,
+      "month": 6,
+      "wind_cf": 32.3,
+      "solar_cf": 13.4,
+      "combined_cf": 29.9,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2021,
+      "month": 7,
+      "wind_cf": 38.9,
+      "solar_cf": 13.6,
+      "combined_cf": 35.7,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2021,
+      "month": 8,
+      "wind_cf": 29.2,
+      "solar_cf": 18.5,
+      "combined_cf": 27.8,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2021,
+      "month": 9,
+      "wind_cf": 31.2,
+      "solar_cf": 20.9,
+      "combined_cf": 29.9,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2021,
+      "month": 10,
+      "wind_cf": 28.7,
+      "solar_cf": 21.4,
+      "combined_cf": 27.8,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2021,
+      "month": 11,
+      "wind_cf": 28.1,
+      "solar_cf": 24.0,
+      "combined_cf": 27.6,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2021,
+      "month": 12,
+      "wind_cf": 28.0,
+      "solar_cf": 34.6,
+      "combined_cf": 28.8,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2022,
+      "month": 1,
+      "wind_cf": 30.4,
+      "solar_cf": 31.0,
+      "combined_cf": 30.5,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2022,
+      "month": 2,
+      "wind_cf": 32.8,
+      "solar_cf": 32.7,
+      "combined_cf": 32.8,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2022,
+      "month": 3,
+      "wind_cf": 28.7,
+      "solar_cf": 29.9,
+      "combined_cf": 28.9,
+      "wind_mw": 2173.0,
+      "solar_mw": 315.0
+    },
+    {
+      "state": "SA",
+      "year": 2022,
+      "month": 4,
+      "wind_cf": 26.9,
+      "solar_cf": 17.1,
+      "combined_cf": 25.4,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2022,
+      "month": 5,
+      "wind_cf": 28.0,
+      "solar_cf": 14.3,
+      "combined_cf": 25.9,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2022,
+      "month": 6,
+      "wind_cf": 32.9,
+      "solar_cf": 11.9,
+      "combined_cf": 29.7,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2022,
+      "month": 7,
+      "wind_cf": 31.7,
+      "solar_cf": 14.8,
+      "combined_cf": 29.2,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2022,
+      "month": 8,
+      "wind_cf": 36.9,
+      "solar_cf": 18.1,
+      "combined_cf": 34.1,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2022,
+      "month": 9,
+      "wind_cf": 30.5,
+      "solar_cf": 22.8,
+      "combined_cf": 29.3,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2022,
+      "month": 10,
+      "wind_cf": 28.2,
+      "solar_cf": 20.2,
+      "combined_cf": 27.0,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2022,
+      "month": 11,
+      "wind_cf": 27.0,
+      "solar_cf": 25.7,
+      "combined_cf": 26.8,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2022,
+      "month": 12,
+      "wind_cf": 31.1,
+      "solar_cf": 28.9,
+      "combined_cf": 30.8,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2023,
+      "month": 1,
+      "wind_cf": 29.8,
+      "solar_cf": 31.3,
+      "combined_cf": 30.0,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2023,
+      "month": 2,
+      "wind_cf": 28.9,
+      "solar_cf": 33.5,
+      "combined_cf": 29.6,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2023,
+      "month": 3,
+      "wind_cf": 23.5,
+      "solar_cf": 26.1,
+      "combined_cf": 23.9,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2023,
+      "month": 4,
+      "wind_cf": 25.9,
+      "solar_cf": 21.8,
+      "combined_cf": 25.3,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2023,
+      "month": 5,
+      "wind_cf": 23.8,
+      "solar_cf": 16.7,
+      "combined_cf": 22.7,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2023,
+      "month": 6,
+      "wind_cf": 41.2,
+      "solar_cf": 16.0,
+      "combined_cf": 37.4,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2023,
+      "month": 7,
+      "wind_cf": 33.5,
+      "solar_cf": 17.1,
+      "combined_cf": 31.0,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2023,
+      "month": 8,
+      "wind_cf": 24.5,
+      "solar_cf": 19.7,
+      "combined_cf": 23.8,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2023,
+      "month": 9,
+      "wind_cf": 25.0,
+      "solar_cf": 22.2,
+      "combined_cf": 24.6,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2023,
+      "month": 10,
+      "wind_cf": 31.5,
+      "solar_cf": 23.6,
+      "combined_cf": 30.3,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2023,
+      "month": 11,
+      "wind_cf": 25.3,
+      "solar_cf": 26.1,
+      "combined_cf": 25.4,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2023,
+      "month": 12,
+      "wind_cf": 27.1,
+      "solar_cf": 23.5,
+      "combined_cf": 26.6,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2024,
+      "month": 1,
+      "wind_cf": 27.4,
+      "solar_cf": 27.3,
+      "combined_cf": 27.4,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2024,
+      "month": 2,
+      "wind_cf": 26.4,
+      "solar_cf": 29.0,
+      "combined_cf": 26.8,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2024,
+      "month": 3,
+      "wind_cf": 27.5,
+      "solar_cf": 26.6,
+      "combined_cf": 27.4,
+      "wind_mw": 2383.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2024,
+      "month": 4,
+      "wind_cf": 19.3,
+      "solar_cf": 24.9,
+      "combined_cf": 20.0,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2024,
+      "month": 5,
+      "wind_cf": 20.5,
+      "solar_cf": 20.3,
+      "combined_cf": 20.5,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2024,
+      "month": 6,
+      "wind_cf": 24.1,
+      "solar_cf": 15.3,
+      "combined_cf": 22.9,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2024,
+      "month": 7,
+      "wind_cf": 33.6,
+      "solar_cf": 17.0,
+      "combined_cf": 31.4,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2024,
+      "month": 8,
+      "wind_cf": 33.9,
+      "solar_cf": 18.5,
+      "combined_cf": 31.9,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2024,
+      "month": 9,
+      "wind_cf": 31.1,
+      "solar_cf": 20.2,
+      "combined_cf": 29.7,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2024,
+      "month": 10,
+      "wind_cf": 24.2,
+      "solar_cf": 17.3,
+      "combined_cf": 23.3,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2024,
+      "month": 11,
+      "wind_cf": 23.0,
+      "solar_cf": 20.2,
+      "combined_cf": 22.6,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2024,
+      "month": 12,
+      "wind_cf": 23.1,
+      "solar_cf": 22.8,
+      "combined_cf": 23.1,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2025,
+      "month": 1,
+      "wind_cf": 23.9,
+      "solar_cf": 23.8,
+      "combined_cf": 23.9,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2025,
+      "month": 2,
+      "wind_cf": 26.3,
+      "solar_cf": 22.8,
+      "combined_cf": 25.8,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2025,
+      "month": 3,
+      "wind_cf": 27.1,
+      "solar_cf": 21.7,
+      "combined_cf": 26.4,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2025,
+      "month": 4,
+      "wind_cf": 18.1,
+      "solar_cf": 20.5,
+      "combined_cf": 18.4,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2025,
+      "month": 5,
+      "wind_cf": 24.7,
+      "solar_cf": 18.1,
+      "combined_cf": 23.8,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2025,
+      "month": 6,
+      "wind_cf": 31.0,
+      "solar_cf": 15.4,
+      "combined_cf": 29.0,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2025,
+      "month": 7,
+      "wind_cf": 33.5,
+      "solar_cf": 16.4,
+      "combined_cf": 31.3,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2025,
+      "month": 8,
+      "wind_cf": 32.3,
+      "solar_cf": 19.7,
+      "combined_cf": 30.6,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2025,
+      "month": 9,
+      "wind_cf": 29.6,
+      "solar_cf": 17.7,
+      "combined_cf": 28.0,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2025,
+      "month": 10,
+      "wind_cf": 26.0,
+      "solar_cf": 14.1,
+      "combined_cf": 24.4,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2025,
+      "month": 11,
+      "wind_cf": 30.1,
+      "solar_cf": 16.4,
+      "combined_cf": 28.3,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2025,
+      "month": 12,
+      "wind_cf": 25.2,
+      "solar_cf": 16.7,
+      "combined_cf": 24.1,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2026,
+      "month": 1,
+      "wind_cf": 30.4,
+      "solar_cf": 24.0,
+      "combined_cf": 29.6,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2026,
+      "month": 2,
+      "wind_cf": 28.7,
+      "solar_cf": 20.0,
+      "combined_cf": 27.6,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2026,
+      "month": 3,
+      "wind_cf": 20.1,
+      "solar_cf": 13.1,
+      "combined_cf": 19.2,
+      "wind_mw": 2795.0,
+      "solar_mw": 422.0
+    },
+    {
+      "state": "SA",
+      "year": 2026,
+      "month": 4,
+      "wind_cf": 23.1,
+      "solar_cf": 16.3,
+      "combined_cf": 22.4,
+      "wind_mw": 2795.0,
+      "solar_mw": 312.0
+    },
+    {
+      "state": "SA",
+      "year": 2026,
+      "month": 5,
+      "wind_cf": 9.2,
+      "solar_cf": 4.8,
+      "combined_cf": 8.8,
+      "wind_mw": 2795.0,
+      "solar_mw": 312.0
+    },
+    {
+      "state": "TAS",
+      "year": 2018,
+      "month": 1,
+      "wind_cf": 34.8,
+      "solar_cf": 0,
+      "combined_cf": 34.8,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2018,
+      "month": 2,
+      "wind_cf": 38.0,
+      "solar_cf": 0,
+      "combined_cf": 38.0,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2018,
+      "month": 3,
+      "wind_cf": 39.1,
+      "solar_cf": 0,
+      "combined_cf": 39.1,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2018,
+      "month": 4,
+      "wind_cf": 39.2,
+      "solar_cf": 0,
+      "combined_cf": 39.2,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2018,
+      "month": 5,
+      "wind_cf": 49.2,
+      "solar_cf": 0,
+      "combined_cf": 49.2,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2018,
+      "month": 6,
+      "wind_cf": 35.6,
+      "solar_cf": 0,
+      "combined_cf": 35.6,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2018,
+      "month": 7,
+      "wind_cf": 53.6,
+      "solar_cf": 0,
+      "combined_cf": 53.6,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2018,
+      "month": 8,
+      "wind_cf": 49.1,
+      "solar_cf": 0,
+      "combined_cf": 49.1,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2018,
+      "month": 9,
+      "wind_cf": 46.7,
+      "solar_cf": 0,
+      "combined_cf": 46.7,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2018,
+      "month": 10,
+      "wind_cf": 31.6,
+      "solar_cf": 0,
+      "combined_cf": 31.6,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2018,
+      "month": 11,
+      "wind_cf": 35.6,
+      "solar_cf": 0,
+      "combined_cf": 35.6,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2018,
+      "month": 12,
+      "wind_cf": 37.4,
+      "solar_cf": 0,
+      "combined_cf": 37.4,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2019,
+      "month": 1,
+      "wind_cf": 38.9,
+      "solar_cf": 0,
+      "combined_cf": 38.9,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2019,
+      "month": 2,
+      "wind_cf": 49.7,
+      "solar_cf": 0,
+      "combined_cf": 49.7,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2019,
+      "month": 3,
+      "wind_cf": 33.7,
+      "solar_cf": 0,
+      "combined_cf": 33.7,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2019,
+      "month": 4,
+      "wind_cf": 44.1,
+      "solar_cf": 0,
+      "combined_cf": 44.1,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2019,
+      "month": 5,
+      "wind_cf": 45.1,
+      "solar_cf": 0,
+      "combined_cf": 45.1,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2019,
+      "month": 6,
+      "wind_cf": 35.1,
+      "solar_cf": 0,
+      "combined_cf": 35.1,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2019,
+      "month": 7,
+      "wind_cf": 58.8,
+      "solar_cf": 0,
+      "combined_cf": 58.8,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2019,
+      "month": 8,
+      "wind_cf": 47.6,
+      "solar_cf": 0,
+      "combined_cf": 47.6,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2019,
+      "month": 9,
+      "wind_cf": 44.2,
+      "solar_cf": 0,
+      "combined_cf": 44.2,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2019,
+      "month": 10,
+      "wind_cf": 41.5,
+      "solar_cf": 0,
+      "combined_cf": 41.5,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2019,
+      "month": 11,
+      "wind_cf": 54.6,
+      "solar_cf": 0,
+      "combined_cf": 54.6,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2019,
+      "month": 12,
+      "wind_cf": 47.1,
+      "solar_cf": 0,
+      "combined_cf": 47.1,
+      "wind_mw": 306.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2020,
+      "month": 1,
+      "wind_cf": 27.7,
+      "solar_cf": 0,
+      "combined_cf": 27.7,
+      "wind_mw": 450.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2020,
+      "month": 2,
+      "wind_cf": 25.1,
+      "solar_cf": 0,
+      "combined_cf": 25.1,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2020,
+      "month": 3,
+      "wind_cf": 19.9,
+      "solar_cf": 0,
+      "combined_cf": 19.9,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2020,
+      "month": 4,
+      "wind_cf": 29.4,
+      "solar_cf": 0,
+      "combined_cf": 29.4,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2020,
+      "month": 5,
+      "wind_cf": 30.0,
+      "solar_cf": 0,
+      "combined_cf": 30.0,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2020,
+      "month": 6,
+      "wind_cf": 29.6,
+      "solar_cf": 0,
+      "combined_cf": 29.6,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2020,
+      "month": 7,
+      "wind_cf": 22.9,
+      "solar_cf": 0,
+      "combined_cf": 22.9,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2020,
+      "month": 8,
+      "wind_cf": 27.3,
+      "solar_cf": 0,
+      "combined_cf": 27.3,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2020,
+      "month": 9,
+      "wind_cf": 45.8,
+      "solar_cf": 0,
+      "combined_cf": 45.8,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2020,
+      "month": 10,
+      "wind_cf": 31.0,
+      "solar_cf": 0,
+      "combined_cf": 31.0,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2020,
+      "month": 11,
+      "wind_cf": 37.9,
+      "solar_cf": 0,
+      "combined_cf": 37.9,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2020,
+      "month": 12,
+      "wind_cf": 43.6,
+      "solar_cf": 0,
+      "combined_cf": 43.6,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2021,
+      "month": 1,
+      "wind_cf": 36.9,
+      "solar_cf": 0,
+      "combined_cf": 36.9,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2021,
+      "month": 2,
+      "wind_cf": 34.9,
+      "solar_cf": 0,
+      "combined_cf": 34.9,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2021,
+      "month": 3,
+      "wind_cf": 39.0,
+      "solar_cf": 0,
+      "combined_cf": 39.0,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2021,
+      "month": 4,
+      "wind_cf": 45.8,
+      "solar_cf": 0,
+      "combined_cf": 45.8,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2021,
+      "month": 5,
+      "wind_cf": 38.8,
+      "solar_cf": 0,
+      "combined_cf": 38.8,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2021,
+      "month": 6,
+      "wind_cf": 27.9,
+      "solar_cf": 0,
+      "combined_cf": 27.9,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2021,
+      "month": 7,
+      "wind_cf": 39.6,
+      "solar_cf": 0,
+      "combined_cf": 39.6,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2021,
+      "month": 8,
+      "wind_cf": 45.6,
+      "solar_cf": 0,
+      "combined_cf": 45.6,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2021,
+      "month": 9,
+      "wind_cf": 42.8,
+      "solar_cf": 0,
+      "combined_cf": 42.8,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2021,
+      "month": 10,
+      "wind_cf": 39.0,
+      "solar_cf": 0,
+      "combined_cf": 39.0,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2021,
+      "month": 11,
+      "wind_cf": 28.2,
+      "solar_cf": 0,
+      "combined_cf": 28.2,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2021,
+      "month": 12,
+      "wind_cf": 34.2,
+      "solar_cf": 0,
+      "combined_cf": 34.2,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2022,
+      "month": 1,
+      "wind_cf": 27.6,
+      "solar_cf": 0,
+      "combined_cf": 27.6,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2022,
+      "month": 2,
+      "wind_cf": 32.4,
+      "solar_cf": 0,
+      "combined_cf": 32.4,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2022,
+      "month": 3,
+      "wind_cf": 27.7,
+      "solar_cf": 0,
+      "combined_cf": 27.7,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2022,
+      "month": 4,
+      "wind_cf": 27.1,
+      "solar_cf": 0,
+      "combined_cf": 27.1,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2022,
+      "month": 5,
+      "wind_cf": 36.6,
+      "solar_cf": 0,
+      "combined_cf": 36.6,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2022,
+      "month": 6,
+      "wind_cf": 47.4,
+      "solar_cf": 0,
+      "combined_cf": 47.4,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2022,
+      "month": 7,
+      "wind_cf": 32.5,
+      "solar_cf": 0,
+      "combined_cf": 32.5,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2022,
+      "month": 8,
+      "wind_cf": 43.5,
+      "solar_cf": 0,
+      "combined_cf": 43.5,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2022,
+      "month": 9,
+      "wind_cf": 32.2,
+      "solar_cf": 0,
+      "combined_cf": 32.2,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2022,
+      "month": 10,
+      "wind_cf": 27.4,
+      "solar_cf": 0,
+      "combined_cf": 27.4,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2022,
+      "month": 11,
+      "wind_cf": 35.5,
+      "solar_cf": 0,
+      "combined_cf": 35.5,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2022,
+      "month": 12,
+      "wind_cf": 30.1,
+      "solar_cf": 0,
+      "combined_cf": 30.1,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2023,
+      "month": 1,
+      "wind_cf": 27.6,
+      "solar_cf": 0,
+      "combined_cf": 27.6,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2023,
+      "month": 2,
+      "wind_cf": 31.0,
+      "solar_cf": 0,
+      "combined_cf": 31.0,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2023,
+      "month": 3,
+      "wind_cf": 37.4,
+      "solar_cf": 0,
+      "combined_cf": 37.4,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2023,
+      "month": 4,
+      "wind_cf": 33.7,
+      "solar_cf": 0,
+      "combined_cf": 33.7,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2023,
+      "month": 5,
+      "wind_cf": 46.0,
+      "solar_cf": 0,
+      "combined_cf": 46.0,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2023,
+      "month": 6,
+      "wind_cf": 47.8,
+      "solar_cf": 0,
+      "combined_cf": 47.8,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2023,
+      "month": 7,
+      "wind_cf": 57.1,
+      "solar_cf": 0,
+      "combined_cf": 57.1,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2023,
+      "month": 8,
+      "wind_cf": 41.2,
+      "solar_cf": 0,
+      "combined_cf": 41.2,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2023,
+      "month": 9,
+      "wind_cf": 43.2,
+      "solar_cf": 0,
+      "combined_cf": 43.2,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2023,
+      "month": 10,
+      "wind_cf": 42.7,
+      "solar_cf": 0,
+      "combined_cf": 42.7,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2023,
+      "month": 11,
+      "wind_cf": 25.8,
+      "solar_cf": 0,
+      "combined_cf": 25.8,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2023,
+      "month": 12,
+      "wind_cf": 28.3,
+      "solar_cf": 0,
+      "combined_cf": 28.3,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2024,
+      "month": 1,
+      "wind_cf": 36.7,
+      "solar_cf": 0,
+      "combined_cf": 36.7,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2024,
+      "month": 2,
+      "wind_cf": 33.5,
+      "solar_cf": 0,
+      "combined_cf": 33.5,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2024,
+      "month": 3,
+      "wind_cf": 33.9,
+      "solar_cf": 0,
+      "combined_cf": 33.9,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2024,
+      "month": 4,
+      "wind_cf": 31.1,
+      "solar_cf": 0,
+      "combined_cf": 31.1,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2024,
+      "month": 5,
+      "wind_cf": 31.1,
+      "solar_cf": 0,
+      "combined_cf": 31.1,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2024,
+      "month": 6,
+      "wind_cf": 26.8,
+      "solar_cf": 0,
+      "combined_cf": 26.8,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2024,
+      "month": 7,
+      "wind_cf": 34.1,
+      "solar_cf": 0,
+      "combined_cf": 34.1,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2024,
+      "month": 8,
+      "wind_cf": 48.8,
+      "solar_cf": 0,
+      "combined_cf": 48.8,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2024,
+      "month": 9,
+      "wind_cf": 59.5,
+      "solar_cf": 0,
+      "combined_cf": 59.5,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2024,
+      "month": 10,
+      "wind_cf": 45.1,
+      "solar_cf": 0,
+      "combined_cf": 45.1,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2024,
+      "month": 11,
+      "wind_cf": 34.8,
+      "solar_cf": 0,
+      "combined_cf": 34.8,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2024,
+      "month": 12,
+      "wind_cf": 41.6,
+      "solar_cf": 0,
+      "combined_cf": 41.6,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2025,
+      "month": 1,
+      "wind_cf": 28.8,
+      "solar_cf": 0,
+      "combined_cf": 28.8,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2025,
+      "month": 2,
+      "wind_cf": 34.6,
+      "solar_cf": 0,
+      "combined_cf": 34.6,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2025,
+      "month": 3,
+      "wind_cf": 27.7,
+      "solar_cf": 0,
+      "combined_cf": 27.7,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2025,
+      "month": 4,
+      "wind_cf": 26.8,
+      "solar_cf": 0,
+      "combined_cf": 26.8,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2025,
+      "month": 5,
+      "wind_cf": 35.2,
+      "solar_cf": 0,
+      "combined_cf": 35.2,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2025,
+      "month": 6,
+      "wind_cf": 32.3,
+      "solar_cf": 0,
+      "combined_cf": 32.3,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2025,
+      "month": 7,
+      "wind_cf": 39.0,
+      "solar_cf": 0,
+      "combined_cf": 39.0,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2025,
+      "month": 8,
+      "wind_cf": 39.3,
+      "solar_cf": 0,
+      "combined_cf": 39.3,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2025,
+      "month": 9,
+      "wind_cf": 63.5,
+      "solar_cf": 0,
+      "combined_cf": 63.5,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2025,
+      "month": 10,
+      "wind_cf": 55.1,
+      "solar_cf": 0,
+      "combined_cf": 55.1,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2025,
+      "month": 11,
+      "wind_cf": 46.0,
+      "solar_cf": 0,
+      "combined_cf": 46.0,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2025,
+      "month": 12,
+      "wind_cf": 43.4,
+      "solar_cf": 0,
+      "combined_cf": 43.4,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2026,
+      "month": 1,
+      "wind_cf": 29.4,
+      "solar_cf": 0,
+      "combined_cf": 29.4,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2026,
+      "month": 2,
+      "wind_cf": 33.0,
+      "solar_cf": 0,
+      "combined_cf": 33.0,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2026,
+      "month": 3,
+      "wind_cf": 24.1,
+      "solar_cf": 0,
+      "combined_cf": 24.1,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2026,
+      "month": 4,
+      "wind_cf": 44.2,
+      "solar_cf": 0,
+      "combined_cf": 44.2,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "TAS",
+      "year": 2026,
+      "month": 5,
+      "wind_cf": 14.1,
+      "solar_cf": 0,
+      "combined_cf": 14.1,
+      "wind_mw": 561.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "VIC",
+      "year": 2018,
+      "month": 1,
+      "wind_cf": 27.5,
+      "solar_cf": 0,
+      "combined_cf": 27.5,
+      "wind_mw": 1422.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "VIC",
+      "year": 2018,
+      "month": 2,
+      "wind_cf": 33.7,
+      "solar_cf": 0,
+      "combined_cf": 33.7,
+      "wind_mw": 1422.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "VIC",
+      "year": 2018,
+      "month": 3,
+      "wind_cf": 34.2,
+      "solar_cf": 0,
+      "combined_cf": 34.2,
+      "wind_mw": 1422.0,
+      "solar_mw": 0
+    },
+    {
+      "state": "VIC",
+      "year": 2018,
+      "month": 4,
+      "wind_cf": 23.0,
+      "solar_cf": 2.5,
+      "combined_cf": 22.3,
+      "wind_mw": 1422.0,
+      "solar_mw": 50.0
+    },
+    {
+      "state": "VIC",
+      "year": 2018,
+      "month": 5,
+      "wind_cf": 39.0,
+      "solar_cf": 11.5,
+      "combined_cf": 38.1,
+      "wind_mw": 1422.0,
+      "solar_mw": 50.0
+    },
+    {
+      "state": "VIC",
+      "year": 2018,
+      "month": 6,
+      "wind_cf": 26.7,
+      "solar_cf": 11.5,
+      "combined_cf": 26.2,
+      "wind_mw": 1608.0,
+      "solar_mw": 50.0
+    },
+    {
+      "state": "VIC",
+      "year": 2018,
+      "month": 7,
+      "wind_cf": 45.7,
+      "solar_cf": 14.4,
+      "combined_cf": 44.8,
+      "wind_mw": 1608.0,
+      "solar_mw": 50.0
+    },
+    {
+      "state": "VIC",
+      "year": 2018,
+      "month": 8,
+      "wind_cf": 42.1,
+      "solar_cf": 19.8,
+      "combined_cf": 41.4,
+      "wind_mw": 1608.0,
+      "solar_mw": 50.0
+    },
+    {
+      "state": "VIC",
+      "year": 2018,
+      "month": 9,
+      "wind_cf": 34.8,
+      "solar_cf": 14.4,
+      "combined_cf": 33.1,
+      "wind_mw": 1608.0,
+      "solar_mw": 150.0
+    },
+    {
+      "state": "VIC",
+      "year": 2018,
+      "month": 10,
+      "wind_cf": 32.5,
+      "solar_cf": 15.2,
+      "combined_cf": 30.3,
+      "wind_mw": 1608.0,
+      "solar_mw": 240.0
+    },
+    {
+      "state": "VIC",
+      "year": 2018,
+      "month": 11,
+      "wind_cf": 29.7,
+      "solar_cf": 15.2,
+      "combined_cf": 27.2,
+      "wind_mw": 1608.0,
+      "solar_mw": 328.0
+    },
+    {
+      "state": "VIC",
+      "year": 2018,
+      "month": 12,
+      "wind_cf": 24.8,
+      "solar_cf": 22.2,
+      "combined_cf": 24.4,
+      "wind_mw": 1688.0,
+      "solar_mw": 328.0
+    },
+    {
+      "state": "VIC",
+      "year": 2019,
+      "month": 1,
+      "wind_cf": 23.9,
+      "solar_cf": 25.9,
+      "combined_cf": 24.2,
+      "wind_mw": 1688.0,
+      "solar_mw": 328.0
+    },
+    {
+      "state": "VIC",
+      "year": 2019,
+      "month": 2,
+      "wind_cf": 30.1,
+      "solar_cf": 25.5,
+      "combined_cf": 29.4,
+      "wind_mw": 1688.0,
+      "solar_mw": 328.0
+    },
+    {
+      "state": "VIC",
+      "year": 2019,
+      "month": 3,
+      "wind_cf": 27.6,
+      "solar_cf": 21.0,
+      "combined_cf": 26.5,
+      "wind_mw": 1688.0,
+      "solar_mw": 328.0
+    },
+    {
+      "state": "VIC",
+      "year": 2019,
+      "month": 4,
+      "wind_cf": 24.8,
+      "solar_cf": 16.5,
+      "combined_cf": 23.7,
+      "wind_mw": 2123.0,
+      "solar_mw": 328.0
+    },
+    {
+      "state": "VIC",
+      "year": 2019,
+      "month": 5,
+      "wind_cf": 32.2,
+      "solar_cf": 9.5,
+      "combined_cf": 28.2,
+      "wind_mw": 2123.0,
+      "solar_mw": 456.0
+    },
+    {
+      "state": "VIC",
+      "year": 2019,
+      "month": 6,
+      "wind_cf": 28.7,
+      "solar_cf": 11.3,
+      "combined_cf": 25.8,
+      "wind_mw": 2265.0,
+      "solar_mw": 456.0
+    },
+    {
+      "state": "VIC",
+      "year": 2019,
+      "month": 7,
+      "wind_cf": 37.1,
+      "solar_cf": 13.4,
+      "combined_cf": 33.1,
+      "wind_mw": 2265.0,
+      "solar_mw": 456.0
+    },
+    {
+      "state": "VIC",
+      "year": 2019,
+      "month": 8,
+      "wind_cf": 35.5,
+      "solar_cf": 17.4,
+      "combined_cf": 32.5,
+      "wind_mw": 2265.0,
+      "solar_mw": 456.0
+    },
+    {
+      "state": "VIC",
+      "year": 2019,
+      "month": 9,
+      "wind_cf": 29.1,
+      "solar_cf": 17.4,
+      "combined_cf": 27.1,
+      "wind_mw": 2265.0,
+      "solar_mw": 456.0
+    },
+    {
+      "state": "VIC",
+      "year": 2019,
+      "month": 10,
+      "wind_cf": 27.5,
+      "solar_cf": 17.8,
+      "combined_cf": 25.9,
+      "wind_mw": 2265.0,
+      "solar_mw": 456.0
+    },
+    {
+      "state": "VIC",
+      "year": 2019,
+      "month": 11,
+      "wind_cf": 33.1,
+      "solar_cf": 20.7,
+      "combined_cf": 31.0,
+      "wind_mw": 2265.0,
+      "solar_mw": 456.0
+    },
+    {
+      "state": "VIC",
+      "year": 2019,
+      "month": 12,
+      "wind_cf": 30.0,
+      "solar_cf": 21.1,
+      "combined_cf": 28.5,
+      "wind_mw": 2265.0,
+      "solar_mw": 456.0
+    },
+    {
+      "state": "VIC",
+      "year": 2020,
+      "month": 1,
+      "wind_cf": 28.4,
+      "solar_cf": 19.5,
+      "combined_cf": 26.9,
+      "wind_mw": 2265.0,
+      "solar_mw": 456.0
+    },
+    {
+      "state": "VIC",
+      "year": 2020,
+      "month": 2,
+      "wind_cf": 27.0,
+      "solar_cf": 19.2,
+      "combined_cf": 25.7,
+      "wind_mw": 2265.0,
+      "solar_mw": 456.0
+    },
+    {
+      "state": "VIC",
+      "year": 2020,
+      "month": 3,
+      "wind_cf": 30.2,
+      "solar_cf": 15.5,
+      "combined_cf": 28.0,
+      "wind_mw": 2601.0,
+      "solar_mw": 456.0
+    },
+    {
+      "state": "VIC",
+      "year": 2020,
+      "month": 4,
+      "wind_cf": 26.4,
+      "solar_cf": 12.3,
+      "combined_cf": 24.4,
+      "wind_mw": 2683.0,
+      "solar_mw": 456.0
+    },
+    {
+      "state": "VIC",
+      "year": 2020,
+      "month": 5,
+      "wind_cf": 27.9,
+      "solar_cf": 16.0,
+      "combined_cf": 26.3,
+      "wind_mw": 2935.0,
+      "solar_mw": 456.0
+    },
+    {
+      "state": "VIC",
+      "year": 2020,
+      "month": 6,
+      "wind_cf": 21.8,
+      "solar_cf": 13.0,
+      "combined_cf": 20.6,
+      "wind_mw": 2935.0,
+      "solar_mw": 456.0
+    },
+    {
+      "state": "VIC",
+      "year": 2020,
+      "month": 7,
+      "wind_cf": 23.1,
+      "solar_cf": 15.1,
+      "combined_cf": 22.0,
+      "wind_mw": 2935.0,
+      "solar_mw": 456.0
+    },
+    {
+      "state": "VIC",
+      "year": 2020,
+      "month": 8,
+      "wind_cf": 35.6,
+      "solar_cf": 13.6,
+      "combined_cf": 32.6,
+      "wind_mw": 2935.0,
+      "solar_mw": 456.0
+    },
+    {
+      "state": "VIC",
+      "year": 2020,
+      "month": 9,
+      "wind_cf": 37.5,
+      "solar_cf": 17.6,
+      "combined_cf": 33.9,
+      "wind_mw": 2935.0,
+      "solar_mw": 656.0
+    },
+    {
+      "state": "VIC",
+      "year": 2020,
+      "month": 10,
+      "wind_cf": 31.8,
+      "solar_cf": 19.1,
+      "combined_cf": 29.5,
+      "wind_mw": 2935.0,
+      "solar_mw": 656.0
+    },
+    {
+      "state": "VIC",
+      "year": 2020,
+      "month": 11,
+      "wind_cf": 29.2,
+      "solar_cf": 21.1,
+      "combined_cf": 27.6,
+      "wind_mw": 2935.0,
+      "solar_mw": 737.0
+    },
+    {
+      "state": "VIC",
+      "year": 2020,
+      "month": 12,
+      "wind_cf": 30.1,
+      "solar_cf": 22.6,
+      "combined_cf": 28.5,
+      "wind_mw": 3240.0,
+      "solar_mw": 847.0
+    },
+    {
+      "state": "VIC",
+      "year": 2021,
+      "month": 1,
+      "wind_cf": 30.4,
+      "solar_cf": 24.5,
+      "combined_cf": 29.2,
+      "wind_mw": 3240.0,
+      "solar_mw": 847.0
+    },
+    {
+      "state": "VIC",
+      "year": 2021,
+      "month": 2,
+      "wind_cf": 25.5,
+      "solar_cf": 25.9,
+      "combined_cf": 25.6,
+      "wind_mw": 3521.0,
+      "solar_mw": 847.0
+    },
+    {
+      "state": "VIC",
+      "year": 2021,
+      "month": 3,
+      "wind_cf": 22.3,
+      "solar_cf": 18.5,
+      "combined_cf": 21.5,
+      "wind_mw": 3521.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2021,
+      "month": 4,
+      "wind_cf": 21.7,
+      "solar_cf": 17.8,
+      "combined_cf": 20.9,
+      "wind_mw": 3521.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2021,
+      "month": 5,
+      "wind_cf": 30.3,
+      "solar_cf": 13.1,
+      "combined_cf": 26.7,
+      "wind_mw": 3521.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2021,
+      "month": 6,
+      "wind_cf": 28.7,
+      "solar_cf": 9.2,
+      "combined_cf": 24.6,
+      "wind_mw": 3521.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2021,
+      "month": 7,
+      "wind_cf": 35.9,
+      "solar_cf": 8.3,
+      "combined_cf": 30.7,
+      "wind_mw": 4051.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2021,
+      "month": 8,
+      "wind_cf": 33.6,
+      "solar_cf": 13.4,
+      "combined_cf": 29.8,
+      "wind_mw": 4051.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2021,
+      "month": 9,
+      "wind_cf": 32.3,
+      "solar_cf": 20.2,
+      "combined_cf": 30.0,
+      "wind_mw": 3969.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2021,
+      "month": 10,
+      "wind_cf": 26.2,
+      "solar_cf": 24.2,
+      "combined_cf": 25.8,
+      "wind_mw": 3969.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2021,
+      "month": 11,
+      "wind_cf": 28.0,
+      "solar_cf": 21.5,
+      "combined_cf": 26.8,
+      "wind_mw": 3969.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2021,
+      "month": 12,
+      "wind_cf": 27.8,
+      "solar_cf": 25.4,
+      "combined_cf": 27.4,
+      "wind_mw": 4051.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2022,
+      "month": 1,
+      "wind_cf": 27.7,
+      "solar_cf": 25.0,
+      "combined_cf": 27.2,
+      "wind_mw": 4051.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2022,
+      "month": 2,
+      "wind_cf": 26.4,
+      "solar_cf": 27.0,
+      "combined_cf": 26.5,
+      "wind_mw": 4051.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2022,
+      "month": 3,
+      "wind_cf": 23.6,
+      "solar_cf": 25.6,
+      "combined_cf": 23.9,
+      "wind_mw": 4051.0,
+      "solar_mw": 732.0
+    },
+    {
+      "state": "VIC",
+      "year": 2022,
+      "month": 4,
+      "wind_cf": 23.3,
+      "solar_cf": 15.9,
+      "combined_cf": 21.9,
+      "wind_mw": 4051.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2022,
+      "month": 5,
+      "wind_cf": 23.6,
+      "solar_cf": 13.6,
+      "combined_cf": 21.7,
+      "wind_mw": 4051.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2022,
+      "month": 6,
+      "wind_cf": 38.7,
+      "solar_cf": 9.8,
+      "combined_cf": 33.3,
+      "wind_mw": 4051.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2022,
+      "month": 7,
+      "wind_cf": 32.4,
+      "solar_cf": 14.5,
+      "combined_cf": 29.1,
+      "wind_mw": 4051.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2022,
+      "month": 8,
+      "wind_cf": 37.2,
+      "solar_cf": 14.5,
+      "combined_cf": 33.0,
+      "wind_mw": 4051.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2022,
+      "month": 9,
+      "wind_cf": 31.2,
+      "solar_cf": 18.3,
+      "combined_cf": 28.8,
+      "wind_mw": 4051.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2022,
+      "month": 10,
+      "wind_cf": 25.7,
+      "solar_cf": 17.2,
+      "combined_cf": 24.2,
+      "wind_mw": 4208.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2022,
+      "month": 11,
+      "wind_cf": 28.1,
+      "solar_cf": 22.6,
+      "combined_cf": 27.1,
+      "wind_mw": 4208.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2022,
+      "month": 12,
+      "wind_cf": 27.2,
+      "solar_cf": 27.5,
+      "combined_cf": 27.3,
+      "wind_mw": 4208.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2023,
+      "month": 1,
+      "wind_cf": 24.3,
+      "solar_cf": 29.0,
+      "combined_cf": 25.2,
+      "wind_mw": 4208.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2023,
+      "month": 2,
+      "wind_cf": 28.4,
+      "solar_cf": 28.3,
+      "combined_cf": 28.4,
+      "wind_mw": 4208.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2023,
+      "month": 3,
+      "wind_cf": 24.6,
+      "solar_cf": 20.6,
+      "combined_cf": 23.9,
+      "wind_mw": 4208.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2023,
+      "month": 4,
+      "wind_cf": 23.5,
+      "solar_cf": 20.1,
+      "combined_cf": 22.9,
+      "wind_mw": 4208.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2023,
+      "month": 5,
+      "wind_cf": 30.3,
+      "solar_cf": 13.5,
+      "combined_cf": 27.3,
+      "wind_mw": 4208.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2023,
+      "month": 6,
+      "wind_cf": 44.1,
+      "solar_cf": 9.7,
+      "combined_cf": 37.9,
+      "wind_mw": 4208.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2023,
+      "month": 7,
+      "wind_cf": 39.3,
+      "solar_cf": 12.3,
+      "combined_cf": 34.4,
+      "wind_mw": 4208.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2023,
+      "month": 8,
+      "wind_cf": 30.2,
+      "solar_cf": 15.0,
+      "combined_cf": 27.4,
+      "wind_mw": 4208.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2023,
+      "month": 9,
+      "wind_cf": 28.8,
+      "solar_cf": 15.4,
+      "combined_cf": 26.4,
+      "wind_mw": 4208.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2023,
+      "month": 10,
+      "wind_cf": 32.0,
+      "solar_cf": 17.3,
+      "combined_cf": 29.3,
+      "wind_mw": 4208.0,
+      "solar_mw": 932.0
+    },
+    {
+      "state": "VIC",
+      "year": 2023,
+      "month": 11,
+      "wind_cf": 25.9,
+      "solar_cf": 20.8,
+      "combined_cf": 24.9,
+      "wind_mw": 4208.0,
+      "solar_mw": 1034.0
+    },
+    {
+      "state": "VIC",
+      "year": 2023,
+      "month": 12,
+      "wind_cf": 30.7,
+      "solar_cf": 18.9,
+      "combined_cf": 28.4,
+      "wind_mw": 4208.0,
+      "solar_mw": 1034.0
+    },
+    {
+      "state": "VIC",
+      "year": 2024,
+      "month": 1,
+      "wind_cf": 26.0,
+      "solar_cf": 23.3,
+      "combined_cf": 25.5,
+      "wind_mw": 4208.0,
+      "solar_mw": 1034.0
+    },
+    {
+      "state": "VIC",
+      "year": 2024,
+      "month": 2,
+      "wind_cf": 25.6,
+      "solar_cf": 26.3,
+      "combined_cf": 25.7,
+      "wind_mw": 4208.0,
+      "solar_mw": 1034.0
+    },
+    {
+      "state": "VIC",
+      "year": 2024,
+      "month": 3,
+      "wind_cf": 24.5,
+      "solar_cf": 23.6,
+      "combined_cf": 24.3,
+      "wind_mw": 4208.0,
+      "solar_mw": 1034.0
+    },
+    {
+      "state": "VIC",
+      "year": 2024,
+      "month": 4,
+      "wind_cf": 21.6,
+      "solar_cf": 16.9,
+      "combined_cf": 20.7,
+      "wind_mw": 4208.0,
+      "solar_mw": 1034.0
+    },
+    {
+      "state": "VIC",
+      "year": 2024,
+      "month": 5,
+      "wind_cf": 21.1,
+      "solar_cf": 14.6,
+      "combined_cf": 19.8,
+      "wind_mw": 4208.0,
+      "solar_mw": 1034.0
+    },
+    {
+      "state": "VIC",
+      "year": 2024,
+      "month": 6,
+      "wind_cf": 25.2,
+      "solar_cf": 12.5,
+      "combined_cf": 22.7,
+      "wind_mw": 4298.0,
+      "solar_mw": 1034.0
+    },
+    {
+      "state": "VIC",
+      "year": 2024,
+      "month": 7,
+      "wind_cf": 32.2,
+      "solar_cf": 10.5,
+      "combined_cf": 27.9,
+      "wind_mw": 4516.0,
+      "solar_mw": 1110.0
+    },
+    {
+      "state": "VIC",
+      "year": 2024,
+      "month": 8,
+      "wind_cf": 35.6,
+      "solar_cf": 11.9,
+      "combined_cf": 30.9,
+      "wind_mw": 4516.0,
+      "solar_mw": 1110.0
+    },
+    {
+      "state": "VIC",
+      "year": 2024,
+      "month": 9,
+      "wind_cf": 37.4,
+      "solar_cf": 14.5,
+      "combined_cf": 32.9,
+      "wind_mw": 4516.0,
+      "solar_mw": 1110.0
+    },
+    {
+      "state": "VIC",
+      "year": 2024,
+      "month": 10,
+      "wind_cf": 29.8,
+      "solar_cf": 20.9,
+      "combined_cf": 28.0,
+      "wind_mw": 4516.0,
+      "solar_mw": 1110.0
+    },
+    {
+      "state": "VIC",
+      "year": 2024,
+      "month": 11,
+      "wind_cf": 23.2,
+      "solar_cf": 21.1,
+      "combined_cf": 22.8,
+      "wind_mw": 4516.0,
+      "solar_mw": 1110.0
+    },
+    {
+      "state": "VIC",
+      "year": 2024,
+      "month": 12,
+      "wind_cf": 26.8,
+      "solar_cf": 24.9,
+      "combined_cf": 26.4,
+      "wind_mw": 4434.0,
+      "solar_mw": 1071.0
+    },
+    {
+      "state": "VIC",
+      "year": 2025,
+      "month": 1,
+      "wind_cf": 27.3,
+      "solar_cf": 25.1,
+      "combined_cf": 26.8,
+      "wind_mw": 4434.0,
+      "solar_mw": 1156.0
+    },
+    {
+      "state": "VIC",
+      "year": 2025,
+      "month": 2,
+      "wind_cf": 32.2,
+      "solar_cf": 30.3,
+      "combined_cf": 31.8,
+      "wind_mw": 4516.0,
+      "solar_mw": 1156.0
+    },
+    {
+      "state": "VIC",
+      "year": 2025,
+      "month": 3,
+      "wind_cf": 25.8,
+      "solar_cf": 23.8,
+      "combined_cf": 25.4,
+      "wind_mw": 4516.0,
+      "solar_mw": 1186.0
+    },
+    {
+      "state": "VIC",
+      "year": 2025,
+      "month": 4,
+      "wind_cf": 23.5,
+      "solar_cf": 18.2,
+      "combined_cf": 22.4,
+      "wind_mw": 4516.0,
+      "solar_mw": 1186.0
+    },
+    {
+      "state": "VIC",
+      "year": 2025,
+      "month": 5,
+      "wind_cf": 25.7,
+      "solar_cf": 16.0,
+      "combined_cf": 23.7,
+      "wind_mw": 4516.0,
+      "solar_mw": 1186.0
+    },
+    {
+      "state": "VIC",
+      "year": 2025,
+      "month": 6,
+      "wind_cf": 32.7,
+      "solar_cf": 11.7,
+      "combined_cf": 28.3,
+      "wind_mw": 4516.0,
+      "solar_mw": 1186.0
+    },
+    {
+      "state": "VIC",
+      "year": 2025,
+      "month": 7,
+      "wind_cf": 39.0,
+      "solar_cf": 12.8,
+      "combined_cf": 33.6,
+      "wind_mw": 4516.0,
+      "solar_mw": 1186.0
+    },
+    {
+      "state": "VIC",
+      "year": 2025,
+      "month": 8,
+      "wind_cf": 32.1,
+      "solar_cf": 18.4,
+      "combined_cf": 29.3,
+      "wind_mw": 4516.0,
+      "solar_mw": 1186.0
+    },
+    {
+      "state": "VIC",
+      "year": 2025,
+      "month": 9,
+      "wind_cf": 37.1,
+      "solar_cf": 19.4,
+      "combined_cf": 33.4,
+      "wind_mw": 4516.0,
+      "solar_mw": 1186.0
+    },
+    {
+      "state": "VIC",
+      "year": 2025,
+      "month": 10,
+      "wind_cf": 29.2,
+      "solar_cf": 21.8,
+      "combined_cf": 27.7,
+      "wind_mw": 4516.0,
+      "solar_mw": 1186.0
+    },
+    {
+      "state": "VIC",
+      "year": 2025,
+      "month": 11,
+      "wind_cf": 27.7,
+      "solar_cf": 24.0,
+      "combined_cf": 26.9,
+      "wind_mw": 4516.0,
+      "solar_mw": 1186.0
+    },
+    {
+      "state": "VIC",
+      "year": 2025,
+      "month": 12,
+      "wind_cf": 25.0,
+      "solar_cf": 27.5,
+      "combined_cf": 25.5,
+      "wind_mw": 4516.0,
+      "solar_mw": 1186.0
+    },
+    {
+      "state": "VIC",
+      "year": 2026,
+      "month": 1,
+      "wind_cf": 27.9,
+      "solar_cf": 28.2,
+      "combined_cf": 28.0,
+      "wind_mw": 4516.0,
+      "solar_mw": 1186.0
+    },
+    {
+      "state": "VIC",
+      "year": 2026,
+      "month": 2,
+      "wind_cf": 26.2,
+      "solar_cf": 27.1,
+      "combined_cf": 26.4,
+      "wind_mw": 4516.0,
+      "solar_mw": 1186.0
+    },
+    {
+      "state": "VIC",
+      "year": 2026,
+      "month": 3,
+      "wind_cf": 21.0,
+      "solar_cf": 21.8,
+      "combined_cf": 21.2,
+      "wind_mw": 4516.0,
+      "solar_mw": 1186.0
+    },
+    {
+      "state": "VIC",
+      "year": 2026,
+      "month": 4,
+      "wind_cf": 25.3,
+      "solar_cf": 17.7,
+      "combined_cf": 23.7,
+      "wind_mw": 4516.0,
+      "solar_mw": 1186.0
+    },
+    {
+      "state": "VIC",
+      "year": 2026,
+      "month": 5,
+      "wind_cf": 13.6,
+      "solar_cf": 3.4,
+      "combined_cf": 11.5,
+      "wind_mw": 4516.0,
+      "solar_mw": 1186.0
+    }
+  ],
+  "exported_at": "2026-05-10T17:42:59.788721"
+}

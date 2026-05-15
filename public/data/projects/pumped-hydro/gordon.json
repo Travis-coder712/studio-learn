@@ -1,0 +1,78 @@
+{
+  "id": "gordon",
+  "name": "Gordon",
+  "technology": "pumped_hydro",
+  "status": "operating",
+  "capacity_mw": 450.0,
+  "state": "TAS",
+  "current_developer": "Hydro-Electric Corporation",
+  "cod_current": "1976-12-31",
+  "cod_original": "1976-12-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 35.0,
+  "notable": "Tasmania's largest power station at 432 MW (three 144 MW Francis turbines), 183m underground in western Tasmania. Gordon Dam is a 140m high concrete arch, completed 1974. Supplies ~13% of Tasmania's electricity. Undergoing its most extensive upgrade program in history (commenced 2024).",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1081",
+  "confidence_score": "46",
+  "first_seen": "1976-12-31",
+  "coordinates": {
+    "lat": -42.740157,
+    "lng": 145.983375
+  },
+  "timeline": [
+    {
+      "date": "1976-12-31",
+      "date_precision": "year",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2005-05-16",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "hydro_oem",
+      "supplier": "Fuji Electric",
+      "model": "Francis",
+      "quantity": 3,
+      "grid_forming": false,
+      "source_url": "https://en.wikipedia.org/wiki/Gordon_Power_Station"
+    },
+    {
+      "role": "hydro_oem",
+      "supplier": "GE",
+      "model": "Refurbishment",
+      "grid_forming": false,
+      "source_url": "https://en.wikipedia.org/wiki/Gordon_Power_Station"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

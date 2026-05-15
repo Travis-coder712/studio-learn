@@ -1,0 +1,169 @@
+{
+  "id": "white-rock-wind-farm-stage-1",
+  "name": "White Rock Wind Farm - Stage 1",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 175.0,
+  "state": "NSW",
+  "rez": "NSW New England",
+  "lga": "Glen Innes Severn",
+  "current_developer": "CECEP Wind Power Australia Pty Ltd",
+  "current_operator": "Goldwind Australia (O&M) / CECEP (asset owner)",
+  "cod_current": "2017-07-07",
+  "cod_original": "2017-07-07",
+  "cost_aud_million": 400,
+  "capex_aud_m": 400,
+  "capex_source": "Goldwind Australia / CECEP project disclosures 2015-2017",
+  "capex_year": 2017,
+  "connection_status": "operating",
+  "connection_nsp": "TransGrid",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 64.1,
+  "notable": "175 MW (70 × Goldwind GW121/2.5 MW PMDD direct-drive) located in the New England REZ ~20 km SW of Glen Innes, NSW. Ownership: CECEP 75% / Goldwind 25% — Goldwind originally took 100% from Epuron (Oct 2014) and sold 75% to CECEP (China Energy Conservation & Environmental Protection Group) in 2015. Goldwind EPC, Fulton Hogan BOP, hub height ~90 m, rotor diameter 121 m. Connects to the local Glen Innes / Inverell 132 kV network operated by Essential Energy / TransGrid — a distinctly different connection profile from Sapphire Wind Farm (which connects via its own dedicated substation to TransGrid's 330 kV NSW main interconnector) and therefore sits in a different MLF basin than Sapphire despite the geographic proximity. Offtake structure is not publicly disclosed in detail — the project went to FID on Goldwind / CECEP balance-sheet support combined with merchant + LGC revenue; specific PPA counterparty / strike has not been confirmed publicly. Stage 2 (~119 MW) and Stage 3 (planned solar) remain in development. Project is LGC-accredited.",
+  "data_confidence": "medium",
+  "last_updated": "2026-05-11",
+  "last_verified": "2026-05-11",
+  "aemo_gen_info_id": "1277",
+  "confidence_score": "75",
+  "first_seen": "2017-07-07",
+  "coordinates": {
+    "lat": -29.7718,
+    "lng": 151.5755
+  },
+  "timeline": [
+    {
+      "date": "2012-07",
+      "date_precision": "month",
+      "event_type": "planning_approved",
+      "title": "NSW planning approval granted",
+      "detail": "NSW Department of Planning approved the original White Rock Wind Farm proposal for up to 119 turbines (Epuron development).",
+      "sources": []
+    },
+    {
+      "date": "2014-10",
+      "date_precision": "month",
+      "event_type": "ownership_change",
+      "title": "Goldwind acquires development rights from Epuron",
+      "detail": "Goldwind Australia acquired 100% of the development rights from Epuron, intending to anchor its first major Australian project around Goldwind's own GW121 turbine platform.",
+      "sources": []
+    },
+    {
+      "date": "2015-09",
+      "date_precision": "month",
+      "event_type": "ownership_change",
+      "title": "CECEP acquires 75% equity from Goldwind",
+      "detail": "China Energy Conservation and Environmental Protection Group (CECEP) acquired a 75% equity stake from Goldwind, with Goldwind retaining 25%. Goldwind continued as EPC contractor and long-term O&M operator under a service agreement.",
+      "sources": []
+    },
+    {
+      "date": "2016-04",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Construction began on Stage 1 (70 × Goldwind GW121/2500 PMDD direct-drive turbines, hub height ~90 m, rotor diameter 121 m). Fulton Hogan engaged as BOP contractor for civil/electrical works.",
+      "sources": []
+    },
+    {
+      "date": "2017-07-07",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity. Full 175 MW installed capacity registered with NEMDE.",
+      "sources": []
+    },
+    {
+      "date": "2017-07-08",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [
+    {
+      "period": "2008-2014",
+      "owner": "Epuron Pty Ltd",
+      "role": "Original developer",
+      "transaction_structure": "Greenfield development"
+    },
+    {
+      "period": "2014-2015",
+      "owner": "Goldwind Australia",
+      "role": "100% developer / EPC",
+      "transaction_structure": "Acquired development rights from Epuron"
+    },
+    {
+      "period": "2015-present",
+      "owner": "CECEP 75% / Goldwind 25%",
+      "role": "Joint asset owners",
+      "transaction_structure": "CECEP acquired 75% equity from Goldwind"
+    }
+  ],
+  "cod_history": [
+    {
+      "date": "2017-07-07",
+      "estimate": "Commercial operation",
+      "source": "AEMO NEM Registration (via OpenElectricity)"
+    }
+  ],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Goldwind",
+      "model": "GW121/2500 PMDD (direct-drive, permanent-magnet synchronous)",
+      "quantity": 70,
+      "grid_forming": false
+    },
+    {
+      "role": "epc",
+      "supplier": "Goldwind Australia",
+      "grid_forming": false
+    },
+    {
+      "role": "bop",
+      "supplier": "Fulton Hogan",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [
+    {
+      "value": 400,
+      "source": "Goldwind Australia / CECEP project disclosures 2015-2017",
+      "date": "2017-07-07",
+      "tier": 2,
+      "note": "Approximate total project capex ~AUD 400M reported across multiple industry sources."
+    }
+  ],
+  "stakeholder_issues": [
+    "MLF degradation on the local 132 kV Glen Innes / Inverell sub-transmission network: as more generation (notably Stage 1 itself + other behind-the-cluster connections) competes for the same transformer capacity and 132 kV thermal limits, the project's settlement MLF has trended down since commissioning. This is a different dynamic from Sapphire Wind Farm's MLF (which sits on the 330 kV NSW main interconnector via a dedicated substation) and is more sensitive to local hosting capacity than to NEM-wide network-flow effects.",
+    "Stage 2 and Stage 3 (solar) extensions have been in development for over five years without firm financial close, partly due to grid hosting capacity limits on the local 132 kV network pending TransGrid New England REZ network upgrades.",
+    "Offtake terms not publicly disclosed — project went to FID on Goldwind / CECEP balance-sheet support; the specific PPA counterparty and strike are not in the public domain. Earlier AURES note that incorrectly cited an ACT Government PPA (which was awarded to Sapphire Wind Farm, not White Rock) has been removed. The earlier note also incorrectly conflated White Rock's MLF basin with Sapphire's — corrected: White Rock is on the local 132 kV network; Sapphire is on 330 kV via its own substation."
+  ],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    },
+    {
+      "title": "Goldwind Australia — White Rock Wind Farm project page",
+      "url": "https://www.goldwindaustralia.com/",
+      "source_tier": 2
+    },
+    {
+      "title": "RenewEconomy — CECEP buys 75% of White Rock Wind Farm",
+      "url": "https://reneweconomy.com.au/",
+      "date": "2015-09-01",
+      "source_tier": 2
+    }
+  ],
+  "timeline_events": []
+}

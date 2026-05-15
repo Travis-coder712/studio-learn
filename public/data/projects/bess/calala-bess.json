@@ -1,0 +1,189 @@
+{
+  "id": "calala-bess",
+  "name": "Calala BESS",
+  "technology": "bess",
+  "status": "construction",
+  "capacity_mw": 250.0,
+  "storage_mwh": 500.04,
+  "state": "NSW",
+  "current_developer": "Equis Australia",
+  "cod_current": "2026-12-31",
+  "cod_original": "2026-12-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "250 MW Tesla Megapack BESS near Tamworth, NSW. CIS Tender 3. First merchant BESS debt financing in NSW. A$260M.",
+  "data_confidence": "good",
+  "last_updated": "2026-04-14",
+  "last_verified": "2026-04-14",
+  "aemo_gen_info_id": "2646,2647",
+  "confidence_score": "57",
+  "first_seen": "2024-06-28",
+  "timeline": [
+    {
+      "date": "2024-06-28",
+      "date_precision": "day",
+      "event_type": "planning_approved",
+      "title": "NSW Development Consent granted",
+      "sources": []
+    },
+    {
+      "date": "2024-06-28",
+      "date_precision": "day",
+      "event_type": "planning_approved",
+      "title": "NSW Development Consent granted",
+      "detail": "Combined A1+A2 consent",
+      "sources": []
+    },
+    {
+      "date": "2025-03-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Financial close — A$260M",
+      "detail": "Westpac, SocGen, SMBC; first merchant BESS debt in NSW",
+      "sources": []
+    },
+    {
+      "date": "2025-03-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Tesla Megapack; CPP BoP",
+      "sources": []
+    },
+    {
+      "date": "2025-03-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Part of Calala A1+A2 build",
+      "sources": []
+    },
+    {
+      "date": "2025-09-17",
+      "date_precision": "day",
+      "event_type": "scheme_contract",
+      "title": "CIS Tender 3 — CISA awarded",
+      "detail": "Capacity Investment Scheme Agreement secured for 250 MW as part of CIS Tender 3 (storage & firming).",
+      "sources": [
+        {
+          "title": "DCCEEW — CIS Tender 3",
+          "source_tier": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2026-12 to 2026-12-31 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Tesla",
+      "model": "Megapack",
+      "quantity": 138,
+      "grid_forming": false,
+      "source_url": "https://www.energy-storage.news/equis-claims-new-south-wales-first-merchant-bess-debt-financing-for-500mwh-asset/"
+    },
+    {
+      "role": "bop",
+      "supplier": "Consolidated Power Projects (CPP)",
+      "grid_forming": false
+    },
+    {
+      "role": "bess_oem",
+      "supplier": "Tesla",
+      "model": "Megapack",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [
+    {
+      "scheme": "CIS",
+      "round": "Tender 3 — NEM Dispatchable/Storage",
+      "capacity_mw": 250,
+      "technology": "bess",
+      "announced_date": "2025-09-17",
+      "notes": "Part of CIS Tender 3 (16 projects, 4.13 GW / 15.37 GWh)."
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Calala BESS A1 — State Significant Development Assessment (NSW IPC SSD)",
+    "document_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/calala-battery-energy-storage-system",
+    "document_year": 2022,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "CATL / Tesla (Tesla Gigafactory)",
+    "cell_country_of_manufacture": "United States / China",
+    "inverter_supplier": "Tesla",
+    "inverter_model": "Megapack",
+    "inverter_country_of_manufacture": "United States",
+    "pcs_type": "grid_following",
+    "round_trip_efficiency_pct": 90.0,
+    "round_trip_efficiency_ac": 86.0,
+    "duration_hours": 2.0,
+    "connection_voltage_kv": 330.0,
+    "transformer_mva": 110.0,
+    "network_service_provider": "TransGrid",
+    "connection_substation_name": "Tamworth 330 kV substation (TransGrid), NSW New England REZ",
+    "connection_substation_capacity_mva": 500.0,
+    "connection_distance_km": 8.0,
+    "connection_distance_note": "~8 km of 330 kV connection to TransGrid Tamworth 330 kV substation. Co-located infrastructure with Calala A2.",
+    "connection_augmentation": "TransGrid Tamworth 330 kV substation augmentation for New England REZ. Calala A1 and A2 share grid connection infrastructure at Tamworth 330 kV node.",
+    "notes": "100 MW / 200 MWh (2-hour) BESS, Calala (Tamworth), NSW. Developer: CWP Energy (now RES). Technology: Tesla Megapack (LFP). BOP: CPP. NSW IPC SSD approval 2022. Under construction 2024. Co-located with Calala A2 (150 MW / 300 MWh). Located within NSW New England REZ."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    },
+    {
+      "title": "Equis — Calala BESS",
+      "url": "https://equis.engagementhub.com.au/calala-bess",
+      "source_tier": 2
+    },
+    {
+      "title": "Energy-Storage.News — Merchant BESS",
+      "url": "https://www.energy-storage.news/equis-claims-new-south-wales-first-merchant-bess-debt-financing-for-500mwh-asset/",
+      "source_tier": 2
+    }
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Phase A1",
+      "capacity_mw": 100.0,
+      "status": "construction",
+      "storage_mwh": 199.92,
+      "cod": "2026-12-31",
+      "oem": "Tesla",
+      "oem_model": "Megapack",
+      "notes": "100 MW / 500 MWh. Tesla Megapack x138. SmartestEnergy offtake."
+    },
+    {
+      "stage": 2,
+      "name": "Phase A2",
+      "capacity_mw": 150.0,
+      "status": "construction",
+      "storage_mwh": 300.12,
+      "cod": "2026-12-31",
+      "oem": "Tesla",
+      "oem_model": "Megapack",
+      "notes": "150 MW / 500 MWh. Tesla Megapack. Merchant via Tesla Autobidder."
+    }
+  ]
+}

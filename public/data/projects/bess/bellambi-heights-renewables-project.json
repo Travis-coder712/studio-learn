@@ -1,0 +1,104 @@
+{
+  "id": "bellambi-heights-renewables-project",
+  "name": "Bellambi Heights Renewables Project",
+  "technology": "bess",
+  "status": "construction",
+  "capacity_mw": 408.0,
+  "storage_mwh": 570.0,
+  "state": "NSW",
+  "rez": "nsw-central-west-orana",
+  "current_developer": "Vena Energy",
+  "cod_current": "2027-07-31",
+  "cod_original": "2027-07-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "CWO REZ location. Originally 500 MW Gulgong Solar, scaled down to BESS-only. Two stages of 204 MW each.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1580",
+  "confidence_score": "67",
+  "first_seen": "2024-05-02",
+  "coordinates": {
+    "lat": -34.37,
+    "lng": 150.84
+  },
+  "timeline": [
+    {
+      "date": "2024-05-02",
+      "date_precision": "day",
+      "event_type": "planning_approved",
+      "title": "NSW Ministerial consent",
+      "detail": "Approved for 408 MW / 816 MWh BESS",
+      "sources": []
+    },
+    {
+      "date": "2025-03-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Stage 1 construction commenced",
+      "detail": "204 MW / 408 MWh",
+      "sources": []
+    },
+    {
+      "date": "2025-12-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Stage 2 construction commenced",
+      "detail": "204 MW / 408 MWh",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2027-07 to 2027-07-31 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Bellambi Heights Renewables Project \u2014 SSD EIS (NSW)",
+    "document_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/bellambi-heights-renewables-project",
+    "document_year": 2023,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "BYD",
+    "cell_country_of_manufacture": "China",
+    "inverter_supplier": "BYD",
+    "inverter_model": "BYD MC-Cube \u2014 integrated PCS",
+    "inverter_country_of_manufacture": "China",
+    "pcs_type": "grid_following",
+    "round_trip_efficiency_pct": 88.0,
+    "round_trip_efficiency_ac": 85.0,
+    "duration_hours": 1.4,
+    "connection_voltage_kv": 330.0,
+    "transformer_mva": 408.0,
+    "network_service_provider": "TransGrid",
+    "connection_substation_name": "Bellambi 330 kV terminal substation (TransGrid)",
+    "connection_substation_capacity_mva": 1800.0,
+    "connection_distance_km": 1.5,
+    "connection_distance_note": "~1.5 km of new 330 kV cable from project to Bellambi Terminal substation; EIS Section 8",
+    "connection_augmentation": "New 330 kV cable and feeder bay at Bellambi Terminal. Bellambi is a major 330 kV hub serving the Illawarra; existing capacity sufficient. Low augmentation cost given proximity to 330 kV terminal.",
+    "notes": "408 MW / 570 MWh (~1.4-hour) BESS at Bellambi, Illawarra NSW. Vena Energy. NSW SSD approval. BYD MC-Cube containerised LFP system. Connection to the 330 kV TransGrid network at Bellambi substation. Co-located with solar generation. Shorter duration reflects merchant arbitrage focus."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

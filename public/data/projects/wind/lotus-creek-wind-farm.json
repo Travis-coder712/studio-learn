@@ -1,0 +1,157 @@
+{
+  "id": "lotus-creek-wind-farm",
+  "name": "Lotus Creek Wind Farm",
+  "technology": "wind",
+  "status": "construction",
+  "capacity_mw": 285.0,
+  "state": "QLD",
+  "current_developer": "CS Energy",
+  "cod_current": "2027-12-31",
+  "cod_original": "2027-12-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "46x Vestas V162-6.2MW. CS Energy acquired from CIP. Vestas EPC + Zenviron BOP. A$1.3B. COD Q4 2026.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "2002",
+  "confidence_score": "65",
+  "development_stage": "epbc_approved",
+  "capex_aud_m": 1300.0,
+  "first_seen": "2020",
+  "coordinates": {
+    "lat": -22.0,
+    "lng": 149.2
+  },
+  "timeline": [
+    {
+      "date": "2020",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2020/8627",
+      "detail": "Lotus Creek Wind Farm \u2014 Action Clearly Unacceptable",
+      "sources": []
+    },
+    {
+      "date": "2022",
+      "date_precision": "year",
+      "event_type": "fid",
+      "title": "Financial close \u2014 A$1.3B",
+      "detail": "Goldwind/Ark Energy reached financial close",
+      "sources": []
+    },
+    {
+      "date": "2022-05-01",
+      "date_precision": "month",
+      "event_type": "planning_approved",
+      "title": "QLD state planning approval",
+      "sources": []
+    },
+    {
+      "date": "2022-11-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "EPBC federal approval",
+      "detail": "Revised design approved after initial koala habitat rejection",
+      "sources": []
+    },
+    {
+      "date": "2024-08-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "CS Energy acquires from CIP",
+      "detail": "Financial close; CS Energy becomes 100% owner",
+      "sources": []
+    },
+    {
+      "date": "2024-10-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Early works commenced",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2027-12 to 2027-12-31 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Vestas",
+      "model": "V162-6.2 MW",
+      "quantity": 46,
+      "grid_forming": false,
+      "source_url": "https://www.vestas.com/en/media/company-news/2024/vestas-successfully-develops-lotus-creek-wind-farm-in-a-c4024583"
+    },
+    {
+      "role": "bop",
+      "supplier": "Zenviron",
+      "grid_forming": false,
+      "source_url": "https://zenviron.com/projects/lotus-creek-wind-farm"
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "CS Energy",
+      "type": "PPA",
+      "capacity_mw": 285.0
+    }
+  ],
+  "scheme_contracts": [
+    {
+      "scheme": "QLD RE&H Jobs Fund",
+      "round": "",
+      "capacity_mw": 285.0,
+      "contract_type": "fund",
+      "source_url": "https://www.csenergy.com.au/news/cs-energy-acquires-lotus-creek-wind-farm"
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Lotus Creek Wind Farm Environmental Impact Statement (QLD)",
+    "document_url": "https://www.dsdilgp.qld.gov.au/industry/resources-and-energy/coordinated-projects/current-projects/lotus-creek-wind-farm",
+    "document_year": 2022,
+    "turbine_model": "Vestas V162-6.2 MW or Siemens Gamesa SG 6.0-170 (technology envelope)",
+    "turbine_count": 48,
+    "turbine_rated_power_mw": 5.9,
+    "hub_height_m": 115.0,
+    "hub_height_note": "Maximum hub height per EIS technology envelope",
+    "rotor_diameter_m": 162.0,
+    "wind_speed_mean_ms": 8.5,
+    "wind_speed_height_m": 100.0,
+    "wind_speed_period": "EIS met mast data at 100 m; site adjacent to existing wind resources near Marlborough",
+    "assumed_capacity_factor_pct": 40.0,
+    "assumed_annual_energy_gwh": 998.0,
+    "energy_yield_method": "WAsP modelling; EIS energy yield report",
+    "noise_limit_dba": 37.0,
+    "minimum_setback_m": 1000,
+    "connection_voltage_kv": 132.0,
+    "network_service_provider": "Powerlink Queensland",
+    "connection_substation_name": "Marlborough 132 kV substation",
+    "connection_substation_capacity_mva": 120.0,
+    "connection_distance_km": 14.0,
+    "connection_distance_note": "~14 km of new 132 kV single-circuit line from project to Marlborough substation; EIS connection study",
+    "connection_augmentation": "Marlborough substation augmentation required. New transformer bay. 285 MW capacity may require substation transformer upgrade.",
+    "notes": "Located near Lotus Creek, Marlborough area, QLD. CS Energy (Queensland government-owned). QLD Coordinated Project declaration. Strong wind resource in Bowen Basin corridor."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

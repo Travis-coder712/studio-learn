@@ -1,0 +1,103 @@
+{
+  "id": "crudine-ridge-wind-farm",
+  "name": "Crudine Ridge Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 138.0,
+  "state": "NSW",
+  "current_developer": "CRWF Nominees Pty Ltd as trustee of the CRWF Trust",
+  "current_operator": "Squadron Energy",
+  "cod_current": "2020-12-01",
+  "cod_original": "2020-12-01",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 50.1,
+  "notable": "37x Goldwind GW140-3.57S. CWP Renewables/Squadron Energy. COD 2021.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1281",
+  "confidence_score": "70",
+  "development_stage": "epbc_approved",
+  "first_seen": "2011",
+  "coordinates": {
+    "lat": -32.864748,
+    "lng": 149.81297
+  },
+  "timeline": [
+    {
+      "date": "2011",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2011/6206",
+      "detail": "Crudine Ridge Wind Farm \u2014 Controlled Action",
+      "sources": []
+    },
+    {
+      "date": "2019",
+      "date_precision": "year",
+      "event_type": "fid",
+      "title": "Financial close \u2014 A$250M",
+      "detail": "CEFC financing; Zenviron/GE consortium A$200M EPC contract",
+      "sources": []
+    },
+    {
+      "date": "2020",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "37 GE 3.63 MW turbines; 45 km south of Mudgee",
+      "sources": []
+    },
+    {
+      "date": "2020-12-01",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2020-12-02",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    },
+    {
+      "date": "2021-02",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "BoP completed",
+      "detail": "Balance of plant civil and electrical works finished",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Goldwind",
+      "model": "GW140-3.57S",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

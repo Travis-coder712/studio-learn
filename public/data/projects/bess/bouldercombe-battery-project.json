@@ -1,0 +1,146 @@
+{
+  "id": "bouldercombe-battery-project",
+  "name": "Bouldercombe Battery project",
+  "technology": "bess",
+  "status": "operating",
+  "capacity_mw": 50.0,
+  "storage_mwh": 100.0,
+  "state": "QLD",
+  "current_developer": "Genex Power",
+  "current_operator": "Genex Power",
+  "cod_current": "2023-08-08",
+  "cod_original": "2023-08-08",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 29.7,
+  "notable": "50 MW / 100 MWh Tesla Megapack BESS near Gladstone, QLD. Genex Power's first large-scale BESS, operated under Tesla Autobidder offtake. Two Megapack units damaged in fire during September 2023 commissioning \u2014 Tesla bore replacement costs. 40 Megapack 2.0 units. Full COD December 2023.",
+  "data_confidence": "good",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "aemo_gen_info_id": "1873",
+  "confidence_score": "57",
+  "capex_aud_m": 100.0,
+  "capex_source": "Genex Power",
+  "capex_year": 2022,
+  "first_seen": "2023-06-01",
+  "capex_source_url": "https://genexpower.com.au/bouldercombe-battery-project/",
+  "coordinates": {
+    "lat": -23.563443,
+    "lng": 150.459658
+  },
+  "timeline": [
+    {
+      "date": "2023-06-01",
+      "date_precision": "month",
+      "event_type": "stakeholder_issue",
+      "title": "Fire during commissioning \u2014 grid-side, not Megapack",
+      "detail": "A fire occurred during commissioning but investigation confirmed it ignited on the grid infrastructure side (HV transformer area), not within any Tesla Megapack unit.",
+      "sources": []
+    },
+    {
+      "date": "2023-08-08",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2023-10-01",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Commercial operations \u2014 delivered on budget despite fire",
+      "detail": "Genex's 50MW/100MWh Bouldercombe Battery (40 Tesla Megapacks) entered commercial operations, delivered on budget despite the commissioning fire.",
+      "sources": []
+    },
+    {
+      "date": "2024-10-16",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [
+    {
+      "date": "2024-08",
+      "owner": "J-POWER",
+      "event": "J-POWER acquires Genex Power for $351M."
+    }
+  ],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Tesla",
+      "model": "Megapack",
+      "quantity": 40,
+      "grid_forming": false,
+      "source_url": "https://genexpower.com.au/bouldercombe-battery-project/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Consolidated Power Projects (CPP)",
+      "grid_forming": false,
+      "source_url": "https://genexpower.com.au/bouldercombe-battery-project/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    },
+    {
+      "title": "Genex Power \u2014 Bouldercombe project page",
+      "url": "https://genexpower.com.au/bouldercombe-battery-project/",
+      "source_tier": 1
+    },
+    {
+      "title": "Energy-Storage.News \u2014 J-POWER completes Genex takeover",
+      "url": "https://www.energy-storage.news/j-power-completes-takeover-of-australias-genex-power/",
+      "source_tier": 2
+    }
+  ],
+  "timeline_events": [
+    {
+      "date": "2024-08",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "J-POWER completes 100% acquisition of Genex Power",
+      "detail": "AUD $351M takeover. All Genex projects now under J-POWER ownership."
+    }
+  ],
+  "duration_hours": 2.0,
+  "current_owner": "J-POWER",
+  "bess_oem": "Tesla",
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Stage 1 (BBP)",
+      "capacity_mw": 50.0,
+      "storage_mwh": 100.0,
+      "status": "operating",
+      "cod": "2023-11",
+      "oem": "Tesla",
+      "notes": "Tesla Megapack 2.0. Operational since Nov 2023. Autobidder revenue-sharing offtake."
+    },
+    {
+      "stage": 2,
+      "name": "Stage 2 (BBP 2)",
+      "capacity_mw": 50.0,
+      "storage_mwh": 100.0,
+      "status": "development",
+      "notes": "Confirmed in Genex Power pipeline. AEMO KCI entry."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "darlington-point-solar-farm",
+  "name": "Darlington Point Solar Farm",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 275.0,
+  "state": "NSW",
+  "current_developer": "Darlington Point Solar Farm Pty Ltd",
+  "cod_current": "2020-09-02",
+  "cod_original": "2020-09-02",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 72.1,
+  "notable": "275 MW solar farm near Darlington Point, NSW. Developed by Edify Energy. Co-located with the Riverina Energy Storage System (150 MW / 300 MWh BESS). One of the largest solar-plus-storage complexes in Australia.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1518",
+  "confidence_score": "46",
+  "first_seen": "2020-09-02",
+  "coordinates": {
+    "lat": -34.644808,
+    "lng": 146.035756
+  },
+  "timeline": [
+    {
+      "date": "2020-09-02",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2020-09-03",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "solar_oem",
+      "supplier": "Canadian Solar",
+      "model": "HiKu CS3W-P",
+      "grid_forming": false,
+      "source_url": "https://investors.canadiansolar.com/news-releases/news-release-details/canadian-solar-provide-epc-services-and-supply-solar-modules"
+    },
+    {
+      "role": "inverter",
+      "supplier": "SMA",
+      "grid_forming": false,
+      "source_url": "https://investors.canadiansolar.com/news-releases/news-release-details/canadian-solar-provide-epc-services-and-supply-solar-modules"
+    },
+    {
+      "role": "epc",
+      "supplier": "Canadian Solar / Signal Energy (JV)",
+      "grid_forming": false,
+      "source_url": "https://investors.canadiansolar.com/news-releases/news-release-details/canadian-solar-provide-epc-services-and-supply-solar-modules"
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "Origin Energy",
+      "type": "PPA",
+      "source_url": "https://reneweconomy.com.au/darlington-point-solar-farm/"
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

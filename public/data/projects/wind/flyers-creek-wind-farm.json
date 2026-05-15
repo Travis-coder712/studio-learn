@@ -1,0 +1,92 @@
+{
+  "id": "flyers-creek-wind-farm",
+  "name": "Flyers Creek Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 145.5,
+  "state": "NSW",
+  "current_developer": "Flyers Creek Wind Farm Pty Ltd",
+  "current_operator": "Iberdrola Australia",
+  "cod_current": "2023-09-19",
+  "cod_original": "2023-09-19",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 63.5,
+  "notable": "38x GE 3.8-137 turbines. Iberdrola Australia developed. Located near Orange, NSW.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1268",
+  "confidence_score": "62",
+  "first_seen": "2023-09-19",
+  "coordinates": {
+    "lat": -33.521475,
+    "lng": 149.045234
+  },
+  "timeline": [
+    {
+      "date": "2012",
+      "date_precision": "year",
+      "event_type": "planning_approved",
+      "title": "NSW development approval",
+      "detail": "Original planning approval granted but project shelved",
+      "sources": []
+    },
+    {
+      "date": "2022-03",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Iberdrola revived project; 38 GE 3.8 MW turbines; 230 construction jobs",
+      "sources": []
+    },
+    {
+      "date": "2023-09-19",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2023-09-20",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "GE Vernova",
+      "model": "GE 3.8-137",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "Iberdrola portfolio",
+      "type": "PPA",
+      "capacity_mw": 145.0
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

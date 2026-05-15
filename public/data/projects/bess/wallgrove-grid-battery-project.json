@@ -1,0 +1,123 @@
+{
+  "id": "wallgrove-grid-battery-project",
+  "name": "Wallgrove Grid Battery project",
+  "technology": "bess",
+  "status": "operating",
+  "capacity_mw": 50.0,
+  "storage_mwh": 75.0,
+  "state": "NSW",
+  "current_developer": "TransGrid",
+  "cod_current": "2021-10-28",
+  "cod_original": "2021-10-28",
+  "grid_forming": true,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 52.6,
+  "notable": "50 MW / 75 MWh \u2014 Australia's first transmission-connected battery owned by a network service provider (Transgrid), and the first grid-scale battery in NSW. A$61.9M with ARENA and NSW Government funding. One of the first BESS globally to demonstrate Tesla Virtual Machine Mode for synthetic inertia on a transmission network.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1874",
+  "confidence_score": "57",
+  "capex_aud_m": 62.0,
+  "capex_source": "ARENA",
+  "capex_year": 2020,
+  "first_seen": "2021-10-28",
+  "capex_source_url": "https://arena.gov.au/projects/transgrid-wallgrove-battery/",
+  "coordinates": {
+    "lat": -33.817476,
+    "lng": 150.827276
+  },
+  "timeline": [
+    {
+      "date": "2021-10-28",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2021-10-29",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    },
+    {
+      "date": "2022-12-01",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Full operational status reached",
+      "detail": "A$61.9M battery became fully operational as NSW's first big battery.",
+      "sources": []
+    },
+    {
+      "date": "2022-12-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Third Tesla battery worldwide to demonstrate synthetic inertia",
+      "detail": "Wallgrove became the third Tesla grid-scale battery worldwide to demonstrate synthetic inertia via Virtual Machine Mode.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Tesla",
+      "model": "Megapack (Virtual Machine Mode)",
+      "quantity": 36,
+      "grid_forming": false,
+      "source_url": "https://arena.gov.au/projects/transgrid-wallgrove-battery/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Tesla",
+      "grid_forming": false,
+      "source_url": "https://arena.gov.au/projects/transgrid-wallgrove-battery/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Wallgrove Grid Battery Project \u2014 Planning Proposal (NSW IPC SSD-2020-0189)",
+    "document_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/wallgrove-grid-battery-project",
+    "document_year": 2020,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "Tesla / Panasonic (early Megapack generation)",
+    "cell_country_of_manufacture": "United States",
+    "inverter_supplier": "Tesla",
+    "inverter_model": "Megapack (Virtual Machine Mode \u2014 grid-forming)",
+    "inverter_country_of_manufacture": "United States",
+    "pcs_type": "grid_forming",
+    "round_trip_efficiency_pct": 90.0,
+    "round_trip_efficiency_ac": 86.0,
+    "duration_hours": 1.5,
+    "connection_voltage_kv": 330.0,
+    "transformer_mva": 60.0,
+    "network_service_provider": "TransGrid",
+    "connection_substation_name": "Wallgrove 330 kV substation (TransGrid), Eastern Creek, Western Sydney NSW (on-site)",
+    "connection_substation_capacity_mva": 2000.0,
+    "connection_distance_km": 0.0,
+    "connection_distance_note": "On-site \u2014 located within the Wallgrove 330 kV substation compound, Eastern Creek, Western Sydney. TransGrid's own BESS at its own substation.",
+    "connection_augmentation": "No augmentation required \u2014 TransGrid's own BESS at its own 330 kV substation. Battery provides Virtual Machine Mode (grid-forming) synthetic inertia at a critical Western Sydney transmission node.",
+    "notes": "50 MW / 75 MWh (1.5-hour) BESS at TransGrid's Wallgrove 330 kV substation, Eastern Creek, Western Sydney NSW. Developer/Owner: TransGrid (NSP itself). Technology: Tesla Megapack (Virtual Machine Mode, grid-forming). EPC: Tesla. NSW IPC SSD-2020-0189. Completed 2021. Australia's first grid-scale battery providing Virtual Machine Mode synthetic inertia services. Located at Western Sydney's most critical 330 kV transmission node."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "latrobe-valley-bess",
+  "name": "LaTrobe Valley BESS",
+  "technology": "bess",
+  "status": "operating",
+  "capacity_mw": 200.0,
+  "storage_mwh": 195.8,
+  "state": "VIC",
+  "current_developer": "Tilt Renewables (Mercury NZ)",
+  "current_operator": "Tilt Renewables",
+  "cod_current": "2025-04-08",
+  "cod_original": "2025-04-08",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 16.4,
+  "notable": "200 MW / 196 MWh BESS near Morwell in Victoria's Latrobe Valley, the first project globally to deploy Fluence's complete product ecosystem (Gridstack hardware + Mosaic AI bidding + Nispera asset management). Developed by Tilt Renewables (Mercury NZ) in a region historically dependent on brown coal.",
+  "data_confidence": "low",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "aemo_gen_info_id": "1932",
+  "confidence_score": "57",
+  "capex_aud_m": 150.0,
+  "capex_source": "Tilt Renewables estimate",
+  "capex_year": 2023,
+  "first_seen": "2024-01-01",
+  "capex_source_url": "https://tiltrenewables.com/official-opening-of-tilt-renewables-latrobe-valley-battery-energy-storage-system/",
+  "coordinates": {
+    "lat": -38.258183,
+    "lng": 146.418614
+  },
+  "timeline": [
+    {
+      "date": "2024-01-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction begins in Latrobe Valley",
+      "detail": "Tilt Renewables commenced construction of 100MW/200MWh BESS using 320 Fluence Gridstack Cubes at the former Yallourn coal region.",
+      "sources": []
+    },
+    {
+      "date": "2025-03-01",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Commercial operations commence",
+      "detail": "First full Fluence product ecosystem deployment in Australia (Gridstack hardware + Mosaic software + Nispera analytics). Official opening celebrated transition from coal to storage in Latrobe Valley.",
+      "sources": []
+    },
+    {
+      "date": "2025-04-08",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2025-04-08",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Fluence",
+      "model": "Gridstack",
+      "quantity": 320,
+      "grid_forming": false,
+      "source_url": "https://tiltrenewables.com/official-opening-of-tilt-renewables-latrobe-valley-battery-energy-storage-system/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Fluence / Zenviron",
+      "grid_forming": false,
+      "source_url": "https://zenviron.com/projects/Latrobe-Valley-BESS"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": [],
+  "duration_hours": 2.0
+}

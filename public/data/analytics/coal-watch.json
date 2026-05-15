@@ -1,0 +1,451 @@
+{
+  "generated_at": "2026-05-10",
+  "data_source": "openelectricity",
+  "note": "Real generation and market value data from Open Electricity API.",
+  "nsw_coal_plants": [
+    {
+      "name": "Eraring Power Station",
+      "facility_code": "ERARING",
+      "owner": "Origin Energy",
+      "capacity_mw": 2880,
+      "units": 4,
+      "unit_size_mw": 720,
+      "fuel": "Black coal",
+      "commissioned": 1982,
+      "closure_date": "2029-04-30",
+      "closure_note": "Extended from Aug 2025 \u2192 Aug 2027 \u2192 Apr 2029. Origin cited slower renewables rollout.",
+      "battery_replacement": "Eraring Big Battery 700 MW / 3,160 MWh (Stage 1 operating, full by Q1 2027)",
+      "duids": [
+        "ER01",
+        "ER02",
+        "ER03",
+        "ER04"
+      ],
+      "annual_data": [
+        {
+          "year": 2025,
+          "generation_gwh": 9546.0,
+          "capacity_factor_pct": 37.8,
+          "est_revenue_m_aud": 1261.0,
+          "avg_price_aud_mwh": 132.0
+        },
+        {
+          "year": 2026,
+          "generation_gwh": 5216.0,
+          "capacity_factor_pct": 20.7,
+          "est_revenue_m_aud": 404.0,
+          "avg_price_aud_mwh": 77.0
+        }
+      ],
+      "seasonal_data": [
+        {
+          "year": 2025,
+          "season": "autumn",
+          "generation_gwh": 1024.0,
+          "avg_price_aud_mwh": 148.0
+        },
+        {
+          "year": 2025,
+          "season": "spring",
+          "generation_gwh": 2979.0,
+          "avg_price_aud_mwh": 94.0
+        },
+        {
+          "year": 2025,
+          "season": "winter",
+          "generation_gwh": 4385.0,
+          "avg_price_aud_mwh": 166.0
+        },
+        {
+          "year": 2026,
+          "season": "autumn",
+          "generation_gwh": 2813.0,
+          "avg_price_aud_mwh": 73.0
+        },
+        {
+          "year": 2026,
+          "season": "summer",
+          "generation_gwh": 3561.0,
+          "avg_price_aud_mwh": 85.0
+        }
+      ]
+    },
+    {
+      "name": "Bayswater Power Station",
+      "facility_code": "BAYSW",
+      "owner": "AGL Energy",
+      "capacity_mw": 2715,
+      "units": 4,
+      "unit_size_mw": 679,
+      "fuel": "Black coal",
+      "commissioned": 1985,
+      "closure_date": "2033-06-30",
+      "closure_note": "AGL indicated 2030-2033 window. MoU with SunDrive for solar manufacturing at site.",
+      "battery_replacement": "Liddell BESS 500 MW (nearby, commissioning 2026) + Tomago BESS 500 MW (2027)",
+      "duids": [
+        "BW01",
+        "BW02",
+        "BW03",
+        "BW04"
+      ],
+      "annual_data": [
+        {
+          "year": 2025,
+          "generation_gwh": 9552.0,
+          "capacity_factor_pct": 40.2,
+          "est_revenue_m_aud": 1222.0,
+          "avg_price_aud_mwh": 128.0
+        },
+        {
+          "year": 2026,
+          "generation_gwh": 5458.0,
+          "capacity_factor_pct": 22.9,
+          "est_revenue_m_aud": 425.0,
+          "avg_price_aud_mwh": 78.0
+        }
+      ],
+      "seasonal_data": [
+        {
+          "year": 2025,
+          "season": "autumn",
+          "generation_gwh": 989.0,
+          "avg_price_aud_mwh": 146.0
+        },
+        {
+          "year": 2025,
+          "season": "spring",
+          "generation_gwh": 3192.0,
+          "avg_price_aud_mwh": 91.0
+        },
+        {
+          "year": 2025,
+          "season": "winter",
+          "generation_gwh": 4384.0,
+          "avg_price_aud_mwh": 161.0
+        },
+        {
+          "year": 2026,
+          "season": "autumn",
+          "generation_gwh": 2951.0,
+          "avg_price_aud_mwh": 72.0
+        },
+        {
+          "year": 2026,
+          "season": "summer",
+          "generation_gwh": 3495.0,
+          "avg_price_aud_mwh": 84.0
+        }
+      ]
+    },
+    {
+      "name": "Vales Point B Power Station",
+      "facility_code": "VP",
+      "owner": "Delta Electricity / Sunset Power International",
+      "capacity_mw": 1320,
+      "units": 2,
+      "unit_size_mw": 660,
+      "fuel": "Black coal",
+      "commissioned": 1978,
+      "closure_date": "2033-12-31",
+      "closure_note": "Expected 2033. VP5 had lengthy unplanned outage from Aug 2025 (turbine vibrations).",
+      "battery_replacement": null,
+      "duids": [
+        "VP5",
+        "VP6"
+      ],
+      "annual_data": [
+        {
+          "year": 2025,
+          "generation_gwh": 3724.0,
+          "capacity_factor_pct": 32.2,
+          "est_revenue_m_aud": 545.0,
+          "avg_price_aud_mwh": 146.0
+        },
+        {
+          "year": 2026,
+          "generation_gwh": 2040.0,
+          "capacity_factor_pct": 17.6,
+          "est_revenue_m_aud": 154.0,
+          "avg_price_aud_mwh": 75.0
+        }
+      ],
+      "seasonal_data": [
+        {
+          "year": 2025,
+          "season": "autumn",
+          "generation_gwh": 467.0,
+          "avg_price_aud_mwh": 168.0
+        },
+        {
+          "year": 2025,
+          "season": "spring",
+          "generation_gwh": 968.0,
+          "avg_price_aud_mwh": 90.0
+        },
+        {
+          "year": 2025,
+          "season": "winter",
+          "generation_gwh": 1924.0,
+          "avg_price_aud_mwh": 181.0
+        },
+        {
+          "year": 2026,
+          "season": "autumn",
+          "generation_gwh": 1084.0,
+          "avg_price_aud_mwh": 73.0
+        },
+        {
+          "year": 2026,
+          "season": "summer",
+          "generation_gwh": 1322.0,
+          "avg_price_aud_mwh": 80.0
+        }
+      ]
+    },
+    {
+      "name": "Mt Piper Power Station",
+      "facility_code": "MP",
+      "owner": "EnergyAustralia",
+      "capacity_mw": 1400,
+      "units": 2,
+      "unit_size_mw": 700,
+      "fuel": "Black coal",
+      "commissioned": 1993,
+      "closure_date": "2040-12-31",
+      "closure_note": "Latest closure among NSW plants (2040). Has had recurring availability issues.",
+      "battery_replacement": null,
+      "duids": [
+        "MP1",
+        "MP2"
+      ],
+      "annual_data": [
+        {
+          "year": 2025,
+          "generation_gwh": 4741.0,
+          "capacity_factor_pct": 38.7,
+          "est_revenue_m_aud": 672.0,
+          "avg_price_aud_mwh": 142.0
+        },
+        {
+          "year": 2026,
+          "generation_gwh": 2018.0,
+          "capacity_factor_pct": 16.5,
+          "est_revenue_m_aud": 178.0,
+          "avg_price_aud_mwh": 88.0
+        }
+      ],
+      "seasonal_data": [
+        {
+          "year": 2025,
+          "season": "autumn",
+          "generation_gwh": 303.0,
+          "avg_price_aud_mwh": 151.0
+        },
+        {
+          "year": 2025,
+          "season": "spring",
+          "generation_gwh": 1758.0,
+          "avg_price_aud_mwh": 102.0
+        },
+        {
+          "year": 2025,
+          "season": "winter",
+          "generation_gwh": 2119.0,
+          "avg_price_aud_mwh": 186.0
+        },
+        {
+          "year": 2026,
+          "season": "autumn",
+          "generation_gwh": 1042.0,
+          "avg_price_aud_mwh": 76.0
+        },
+        {
+          "year": 2026,
+          "season": "summer",
+          "generation_gwh": 1537.0,
+          "avg_price_aud_mwh": 98.0
+        }
+      ]
+    }
+  ],
+  "nem_coal_summary": {
+    "total_capacity_mw": 20300,
+    "nsw_capacity_mw": 8315,
+    "nsw_share_pct": 41,
+    "coal_share_nem_generation_pct": [
+      {
+        "year": 2020,
+        "pct": 62
+      },
+      {
+        "year": 2021,
+        "pct": 58
+      },
+      {
+        "year": 2022,
+        "pct": 52
+      },
+      {
+        "year": 2023,
+        "pct": 50
+      },
+      {
+        "year": 2024,
+        "pct": 46
+      },
+      {
+        "year": 2025,
+        "pct": 40
+      }
+    ],
+    "closure_timeline": [
+      {
+        "name": "Liddell",
+        "state": "NSW",
+        "mw": 2000,
+        "closed": "2023-04-01",
+        "owner": "AGL"
+      },
+      {
+        "name": "Yallourn",
+        "state": "VIC",
+        "mw": 1480,
+        "closing": "2028-06-30",
+        "owner": "EnergyAustralia"
+      },
+      {
+        "name": "Eraring",
+        "state": "NSW",
+        "mw": 2880,
+        "closing": "2029-04-30",
+        "owner": "Origin Energy"
+      },
+      {
+        "name": "Callide B",
+        "state": "QLD",
+        "mw": 700,
+        "closing": "2028-12-31",
+        "owner": "CS Energy"
+      },
+      {
+        "name": "Bayswater",
+        "state": "NSW",
+        "mw": 2715,
+        "closing": "2033-06-30",
+        "owner": "AGL"
+      },
+      {
+        "name": "Vales Point B",
+        "state": "NSW",
+        "mw": 1320,
+        "closing": "2033-12-31",
+        "owner": "Delta Electricity"
+      },
+      {
+        "name": "Gladstone",
+        "state": "QLD",
+        "mw": 1680,
+        "closing": "2035-12-31",
+        "owner": "NRG/Intergen"
+      },
+      {
+        "name": "Tarong / Tarong North",
+        "state": "QLD",
+        "mw": 1843,
+        "closing": "2036-12-31",
+        "owner": "Stanwell"
+      },
+      {
+        "name": "Loy Yang A",
+        "state": "VIC",
+        "mw": 2210,
+        "closing": "2035-12-31",
+        "owner": "AGL"
+      },
+      {
+        "name": "Loy Yang B",
+        "state": "VIC",
+        "mw": 1000,
+        "closing": "2035-06-30",
+        "owner": "Alinta Energy"
+      },
+      {
+        "name": "Mt Piper",
+        "state": "NSW",
+        "mw": 1400,
+        "closing": "2040-12-31",
+        "owner": "EnergyAustralia"
+      }
+    ]
+  },
+  "battery_vs_coal_context": {
+    "nsw_bess_operating_mw": 1940,
+    "nsw_bess_by_end_2027_mw": 4263,
+    "nsw_coal_operating_mw": 8315,
+    "bess_as_pct_of_coal_2026": 23.3,
+    "bess_as_pct_of_coal_2027": 51.3,
+    "key_dynamics": [
+      "Batteries suppress evening peak prices \u2014 coal's most profitable period",
+      "WattClarity projects NSW coal spot profits to fall 30-40% as ~3.5 GW of batteries enter",
+      "Volume displacement accelerates as 4-hour batteries arrive from 2027",
+      "Coal capacity factors falling from ~65% (2020) to ~45% (2025) across NSW fleet",
+      "Each 1% drop in capacity factor = ~100 GWh less generation per plant = ~$8-10M less revenue",
+      "Battery revenue A$69.5M in Q4 2025, doubling from Q4 2023 \u2014 directly displacing coal earnings",
+      "Eraring already has on-site battery replacement, de-risking accelerated closure",
+      "Bayswater site being repurposed for solar manufacturing + Liddell BESS 500 MW nearby"
+    ]
+  },
+  "revenue_watch": {
+    "note": "Revenue from Open Electricity market_value metric (energy \u00d7 spot price).",
+    "nsw_fleet_total": [
+      {
+        "year": 2025,
+        "generation_twh": 27.6,
+        "est_revenue_b_aud": 3.7,
+        "avg_price_aud_mwh": 134.0
+      },
+      {
+        "year": 2026,
+        "generation_twh": 14.7,
+        "est_revenue_b_aud": 1.2,
+        "avg_price_aud_mwh": 79.0
+      }
+    ]
+  },
+  "insights": [
+    "NSW coal generation has fallen ~34% from 2020 to 2025 (48.9 TWh \u2192 32.3 TWh)",
+    "Estimated NSW coal fleet revenue (ex-crisis) fell from ~$3.9B (2020) to ~$2.6B (2025) \u2014 a 33% decline",
+    "Revenue impact is compounding: lower volumes AND lower prices",
+    "Vales Point is most vulnerable \u2014 oldest plant, smallest fleet, longest outage in 2025, no battery replacement plan",
+    "Eraring has the clearest transition path \u2014 battery on-site, closure date set",
+    "Bayswater benefits from AGL's diversification (Liddell BESS, Tomago BESS) but faces 2030-2033 closure window",
+    "Mt Piper has latest closure date (2040) but declining capacity factors suggest earlier exit possible",
+    "By 2027, NSW batteries (4.3 GW) will be able to replace the entire evening peak output previously supplied by coal"
+  ],
+  "sources": [
+    {
+      "name": "Open Electricity",
+      "url": "https://openelectricity.org.au",
+      "note": "Facility-level generation and market value data"
+    },
+    {
+      "name": "AEMO QED Reports",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/data-dashboard-nem",
+      "note": "Quarterly Energy Dynamics"
+    },
+    {
+      "name": "WattClarity",
+      "url": "https://wattclarity.com.au",
+      "note": "NSW coal profit projections"
+    },
+    {
+      "name": "IEEFA",
+      "url": "https://ieefa.org",
+      "note": "Coal plant profitability analysis"
+    },
+    {
+      "name": "AER State of Energy Market",
+      "url": "https://www.aer.gov.au/publications/reports/performance/state-energy-market-2025"
+    }
+  ]
+}

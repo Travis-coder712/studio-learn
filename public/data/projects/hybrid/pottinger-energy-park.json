@@ -1,0 +1,91 @@
+{
+  "id": "pottinger-energy-park",
+  "name": "Pottinger Energy Park",
+  "technology": "hybrid",
+  "status": "development",
+  "capacity_mw": 2100.0,
+  "storage_mwh": null,
+  "state": "NSW",
+  "rez": "nsw-south-west",
+  "current_developer": "Pottinger Renewables P/L",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "2,100 MW hybrid energy park in NSW South-West REZ. Wind (1,300 MW) + Solar (300 MW) + Battery (500 MW). One of the largest hybrid projects in the NEM. SW REZ access rights holder.",
+  "data_confidence": "medium",
+  "last_updated": "2026-04-14",
+  "last_verified": "2026-04-14",
+  "aemo_gen_info_id": "2716,2717,2718",
+  "confidence_score": "31",
+  "development_stage": "planning_submitted",
+  "first_seen": "2024",
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Wind",
+      "capacity_mw": 1300,
+      "status": "development",
+      "notes": "1,300 MW wind component. AEMO ID 2716."
+    },
+    {
+      "stage": 2,
+      "name": "Solar",
+      "capacity_mw": 300,
+      "status": "development",
+      "notes": "300 MW solar component. AEMO ID 2717."
+    },
+    {
+      "stage": 3,
+      "name": "Battery",
+      "capacity_mw": 500,
+      "status": "development",
+      "notes": "500 MW BESS component. AEMO ID 2718."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2024",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2023/09678",
+      "detail": "Pottinger Solar Farm — Referral Decision",
+      "sources": [{"title": "EPBC Referral 2023/09678", "url": "https://epbcpublicportal.environment.gov.au/all-referrals/#!/referral/2023-09678"}]
+    },
+    {
+      "date": "2025-04-23",
+      "date_precision": "day",
+      "event_type": "rez_access",
+      "title": "SW REZ access rights granted",
+      "detail": "EnergyCo South West REZ access rights awarded — 4 projects, 3.56 GW total",
+      "sources": [{"title": "EnergyCo — SW REZ Access Rights Holders", "url": "https://www.energyco.nsw.gov.au/news/south-west-rez-access-rights-holders-announced"}]
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    },
+    {
+      "title": "EnergyCo — SW REZ Access Rights Holders",
+      "url": "https://www.energyco.nsw.gov.au/news/south-west-rez-access-rights-holders-announced",
+      "source_tier": 1
+    },
+    {
+      "title": "EPBC Referral 2023/09678",
+      "url": "https://epbcpublicportal.environment.gov.au/all-referrals/#!/referral/2023-09678",
+      "date": "2026-03-12",
+      "source_tier": 1
+    }
+  ]
+}

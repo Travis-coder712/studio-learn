@@ -1,0 +1,75 @@
+{
+  "id": "wellington-solar-farm",
+  "name": "Wellington Solar Farm",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 170.0,
+  "state": "NSW",
+  "current_developer": "Lightsource Australia SPV 4 Pty Ltd",
+  "cod_current": "2020-11-14",
+  "cod_original": "2020-11-14",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 72.8,
+  "notable": "170 MW solar farm near Wellington, NSW. Developed by Lightsource BP. Located in the Central-West Orana REZ.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1515",
+  "confidence_score": "46",
+  "first_seen": "2020-11-14",
+  "coordinates": {
+    "lat": -32.5207,
+    "lng": 148.9675
+  },
+  "timeline": [
+    {
+      "date": "2020-11-14",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2020-11-14",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "solar_oem",
+      "supplier": "Canadian Solar",
+      "grid_forming": false,
+      "source_url": "https://www.pv-tech.org/sterling-and-wilson-starts-building-200mw-solar-project-in-australia/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Sterling & Wilson",
+      "grid_forming": false,
+      "source_url": "https://www.pv-tech.org/sterling-and-wilson-starts-building-200mw-solar-project-in-australia/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

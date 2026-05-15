@@ -1,0 +1,75 @@
+{
+  "id": "goonumbla-solar-farm",
+  "name": "Goonumbla Solar Farm",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 69.75,
+  "state": "NSW",
+  "current_developer": "Goonumbla Asset Co Pty Ltd as trustee for the Goonumbla Asset Trust",
+  "cod_current": "2020-05-11",
+  "cod_original": "2020-05-11",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 45.4,
+  "notable": "70 MW solar farm near Parkes, NSW. Developed by Canadian Solar / Recurrent Energy.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1400",
+  "confidence_score": "46",
+  "first_seen": "2020-05-11",
+  "coordinates": {
+    "lat": -33.106413,
+    "lng": 148.099274
+  },
+  "timeline": [
+    {
+      "date": "2020-05-11",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2020-05-12",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "solar_oem",
+      "supplier": "Chint Solar",
+      "grid_forming": false,
+      "source_url": "https://www.power-technology.com/marketdata/frv-goonumbla-solar-pv-park-australia/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Gransolar (GRS)",
+      "grid_forming": false,
+      "source_url": "https://www.power-technology.com/marketdata/frv-goonumbla-solar-pv-park-australia/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

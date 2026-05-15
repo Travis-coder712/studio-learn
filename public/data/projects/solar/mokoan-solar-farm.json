@@ -1,0 +1,77 @@
+{
+  "id": "mokoan-solar-farm",
+  "name": "Mokoan Solar Farm",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 46.0,
+  "state": "VIC",
+  "current_developer": "EE Solar 6 Pty Ltd as trustee for EE Solar 6 Trust",
+  "cod_current": "2025-05-22",
+  "cod_original": "2025-05-22",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 37.4,
+  "notable": "46 MW solar farm near Benalla, VIC. Developed by Elecnor.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1999",
+  "confidence_score": "49",
+  "first_seen": "2024-12-16",
+  "coordinates": {
+    "lat": -36.487519,
+    "lng": 146.122634
+  },
+  "timeline": [
+    {
+      "date": "2024-12-16",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    },
+    {
+      "date": "2025-01-28",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2025-05 to 2025-05-22 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "epc",
+      "supplier": "European Energy",
+      "grid_forming": false,
+      "source_url": "https://au.europeanenergy.com/solar/mokoan-solar-farm/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

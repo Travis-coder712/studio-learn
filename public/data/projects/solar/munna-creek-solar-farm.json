@@ -1,0 +1,62 @@
+{
+  "id": "munna-creek-solar-farm",
+  "name": "Munna Creek Solar Farm",
+  "technology": "solar",
+  "status": "construction",
+  "capacity_mw": 120.0,
+  "state": "QLD",
+  "current_developer": "Munna Creek Solar Farm Investments Pty Ltd as trustee for the Munna Creek Solar Farm Trust",
+  "cod_current": "2026-01-24",
+  "cod_original": "2026-01-24",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "120 MW solar farm in the Wide Bay region, QLD. Developed by Lightsource bp.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1905",
+  "confidence_score": "51",
+  "development_stage": "epbc_submitted",
+  "first_seen": "2023",
+  "coordinates": {
+    "lat": -25.92,
+    "lng": 151.83
+  },
+  "timeline": [
+    {
+      "date": "2023",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2022/09418",
+      "detail": "Munna Creek Solar Farm Project \u2014 Completed",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2026-01 to 2026-01-24 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

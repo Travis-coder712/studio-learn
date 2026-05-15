@@ -1,0 +1,106 @@
+{
+  "id": "pine-lodge-bess",
+  "name": "Pine Lodge BESS",
+  "technology": "bess",
+  "status": "operating",
+  "capacity_mw": 250.0,
+  "storage_mwh": 550.0,
+  "state": "VIC",
+  "current_developer": "Valent Energy (Gaw Capital / BW ESS)",
+  "cod_current": "2026-10-31",
+  "cod_original": "2026-10-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Terminal station energised Dec 2025. Late-stage construction/commissioning.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1997",
+  "confidence_score": "61",
+  "first_seen": "2025-12-01",
+  "coordinates": {
+    "lat": -36.49,
+    "lng": 145.97
+  },
+  "timeline": [
+    {
+      "date": "2025-12-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "AusNet terminal station energised",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2026-10 to 2026-10-31 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bop",
+      "supplier": "ACLE Services",
+      "grid_forming": false,
+      "source_url": "https://www.acle.com.au/our-projects-2/"
+    },
+    {
+      "role": "bess_oem",
+      "supplier": "CATL",
+      "model": "CATL BESS system",
+      "grid_forming": false,
+      "source_url": "https://acenergy.com.au/acenergy-and-catl-partner-on-3-gwh-utility-scale-bess-portfolio/"
+    },
+    {
+      "role": "epc",
+      "supplier": "ACLE Services / ACEnergy",
+      "grid_forming": false,
+      "source_url": "https://acenergy.com.au/portfolio/pine-lodge-bess/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Pine Lodge Battery Energy Storage System \u2014 EES (VIC)",
+    "document_url": "https://www.planning.vic.gov.au/permits-and-applications/state-projects",
+    "document_year": 2023,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "BYD",
+    "cell_country_of_manufacture": "China",
+    "inverter_supplier": "BYD",
+    "inverter_model": "BYD MC-Cube \u2014 integrated PCS",
+    "inverter_country_of_manufacture": "China",
+    "pcs_type": "grid_following",
+    "round_trip_efficiency_pct": 88.0,
+    "round_trip_efficiency_ac": 85.0,
+    "duration_hours": 2.2,
+    "connection_voltage_kv": 66.0,
+    "transformer_mva": 250.0,
+    "network_service_provider": "AusNet Services",
+    "connection_substation_name": "Pine Lodge 66 kV substation (AusNet)",
+    "connection_substation_capacity_mva": 100.0,
+    "connection_distance_km": 1.0,
+    "connection_distance_note": "~1 km of new 66 kV cable to Pine Lodge substation; effectively adjacent to the connection point.",
+    "connection_augmentation": "IMPORTANT: 66 kV connection for a 250 MW BESS is unusual and highly constraining. 250 MW at 66 kV requires very high current \u2014 likely requires substation transformer upgrade and 66 kV feeder augmentation. May trigger need for 220 kV connection instead, adding significant cost. AusNet augmentation study required.",
+    "notes": "250 MW / 550 MWh (~2.2-hour) BESS near Shepparton, northern Victoria. Valent Energy (Gaw Capital / BW ESS). Victorian planning permit. BYD MC-Cube containerised LFP system. Connection to AusNet 66 kV network at Pine Lodge substation."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

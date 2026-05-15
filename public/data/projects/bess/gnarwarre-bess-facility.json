@@ -1,0 +1,124 @@
+{
+  "id": "gnarwarre-bess-facility",
+  "name": "Gnarwarre BESS Facility",
+  "technology": "bess",
+  "status": "construction",
+  "capacity_mw": 250.0,
+  "storage_mwh": 499.52,
+  "state": "VIC",
+  "current_developer": "FRV Australia (Abdul Latif Jameel / OMERS)",
+  "cod_current": "2027-11-30",
+  "cod_original": "2027-11-30",
+  "grid_forming": true,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Hithium cells + SMA inverters. Samsung C&T EPC. ARENA A$15M grid-forming grant.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1912",
+  "confidence_score": "64",
+  "first_seen": "2024-08-04",
+  "coordinates": {
+    "lat": -38.22,
+    "lng": 144.11
+  },
+  "timeline": [
+    {
+      "date": "2024-08-04",
+      "date_precision": "day",
+      "event_type": "notable",
+      "title": "Financial close \u2014 part of A$1.2B FRV portfolio",
+      "detail": "Westpac, UOB, Intesa Sanpaolo, KfW, EDC syndicate",
+      "sources": []
+    },
+    {
+      "date": "2025-08-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Samsung C&T full-wrap EPC",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2027-11 to 2027-11-30 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Hithium",
+      "model": "5 MWh containers",
+      "quantity": 112,
+      "grid_forming": false,
+      "source_url": "https://www.energy-storage.news/hithium-fotowatio-renewable-ventures-partner-for-first-time-with-500mwh-grid-forming-bess-in-australia/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Samsung C&T (turnkey EPC)",
+      "grid_forming": false,
+      "source_url": "https://frv.com/en/frv-australia-completes-financial-close-of-the-250mw-500mwh-gnarwarre-battery-project/"
+    },
+    {
+      "role": "inverter",
+      "supplier": "SMA Solar (inverters)",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [
+    {
+      "scheme": "ARENA",
+      "round": "",
+      "capacity_mw": 250.0,
+      "storage_mwh": 500.0,
+      "contract_type": "grant",
+      "source_url": "https://arena.gov.au/projects/gnarwarre-bess-project/"
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Gnarwarre Battery Energy Storage System \u2014 EES/Permit (VIC)",
+    "document_url": "https://www.planning.vic.gov.au/permits-and-applications/state-projects",
+    "document_year": 2023,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "Sungrow / CATL",
+    "cell_country_of_manufacture": "China",
+    "inverter_supplier": "Sungrow",
+    "inverter_model": "PowerTitan 2.0 \u2014 integrated PCS",
+    "inverter_country_of_manufacture": "China",
+    "pcs_type": "grid_forming",
+    "round_trip_efficiency_pct": 88.5,
+    "round_trip_efficiency_ac": 85.5,
+    "duration_hours": 2.0,
+    "connection_voltage_kv": 220.0,
+    "transformer_mva": 250.0,
+    "network_service_provider": "AusNet Services",
+    "connection_substation_name": "Moorabool 220 kV substation (AusNet)",
+    "connection_substation_capacity_mva": 900.0,
+    "connection_distance_km": 13.0,
+    "connection_distance_note": "~13 km of new 220 kV line from project near Gnarwarre to Moorabool 220 kV substation west of Geelong; EIS connection study",
+    "connection_augmentation": "New 220 kV feeder bay at Moorabool. Moorabool is a major 220 kV hub; existing headroom available. Moderate connection line cost for 13 km distance.",
+    "notes": "250 MW / 499 MWh (2-hour) BESS near Geelong, western Victoria. FRV Australia (Abdul Latif Jameel / OMERS Infrastructure). Victorian planning permit. Sungrow PowerTitan 2.0 with CATL LFP cells. Grid-forming via Sungrow VSG mode. Connection to the 220 kV AusNet network."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

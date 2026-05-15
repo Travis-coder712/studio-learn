@@ -1,0 +1,86 @@
+{
+  "id": "mt-mercer-wind-farm",
+  "name": "Mt Mercer Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 131.2,
+  "state": "VIC",
+  "current_developer": "Mt Mercer Windfarm Pty Ltd",
+  "current_operator": "Meridian Energy",
+  "cod_current": "2013-11-25",
+  "cod_original": "2013-11-25",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 19.7,
+  "notable": "131 MW, 64 Senvion MM92 turbines, ~30 km south of Ballarat, VIC. Developed by Meridian Energy (NZ) \u2014 Meridian's first Australian wind farm. A$260M. COD May 2014. Transferred to Tilt Renewables on demerger from Trustpower in 2016.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1142",
+  "confidence_score": "52",
+  "first_seen": "2013-11-25",
+  "coordinates": {
+    "lat": -37.847593,
+    "lng": 143.870183
+  },
+  "timeline": [
+    {
+      "date": "2009",
+      "date_precision": "year",
+      "event_type": "ownership_change",
+      "title": "Meridian Energy acquires project",
+      "detail": "Meridian Energy purchased from WestWind Energy",
+      "sources": []
+    },
+    {
+      "date": "2012",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "A$260M project; Senvion turbines; Downer EDI A$70M civil/electrical",
+      "sources": []
+    },
+    {
+      "date": "2013-11-25",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2013-11-25",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Senvion",
+      "model": "REpower MM92 2.05 MW",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

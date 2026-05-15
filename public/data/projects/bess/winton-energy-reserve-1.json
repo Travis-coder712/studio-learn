@@ -1,0 +1,39 @@
+{
+  "id": "winton-energy-reserve-1",
+  "name": "Winton Energy Reserve 1",
+  "technology": "bess",
+  "status": "development",
+  "capacity_mw": 400.0,
+  "storage_mwh": 400.0,
+  "state": "VIC",
+  "current_developer": "Lochard Energy",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "data_confidence": "low",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "aemo_gen_info_id": "1984",
+  "confidence_score": "20",
+  "development_stage": "planning_submitted",
+  "timeline": [],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": [],
+  "duration_hours": 2.0
+}

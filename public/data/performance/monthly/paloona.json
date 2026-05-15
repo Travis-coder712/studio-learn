@@ -1,0 +1,598 @@
+{
+  "project_id": "paloona",
+  "name": "Paloona",
+  "technology": "pumped_hydro",
+  "capacity_mw": 33.0,
+  "state": "TAS",
+  "data_source": "openelectricity_api",
+  "monthly": [
+    {
+      "year": 2018,
+      "month": 1,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 68858.0
+    },
+    {
+      "year": 2018,
+      "month": 2,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 413521.0
+    },
+    {
+      "year": 2018,
+      "month": 3,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 732428.0
+    },
+    {
+      "year": 2018,
+      "month": 4,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 858553.0
+    },
+    {
+      "year": 2018,
+      "month": 5,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 954624.0
+    },
+    {
+      "year": 2018,
+      "month": 6,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 1213311.0
+    },
+    {
+      "year": 2018,
+      "month": 7,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 965280.0
+    },
+    {
+      "year": 2018,
+      "month": 8,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 543497.0
+    },
+    {
+      "year": 2018,
+      "month": 9,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 988409.0
+    },
+    {
+      "year": 2018,
+      "month": 10,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 957461.0
+    },
+    {
+      "year": 2018,
+      "month": 11,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 330008.0
+    },
+    {
+      "year": 2018,
+      "month": 12,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 498662.0
+    },
+    {
+      "year": 2019,
+      "month": 1,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 180076.0
+    },
+    {
+      "year": 2019,
+      "month": 2,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 441819.0
+    },
+    {
+      "year": 2019,
+      "month": 3,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 186851.0
+    },
+    {
+      "year": 2019,
+      "month": 4,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 1034251.0
+    },
+    {
+      "year": 2019,
+      "month": 5,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 1460871.0
+    },
+    {
+      "year": 2019,
+      "month": 6,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 1171013.0
+    },
+    {
+      "year": 2019,
+      "month": 7,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 1593961.0
+    },
+    {
+      "year": 2019,
+      "month": 8,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 1227122.0
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 854080.0
+    },
+    {
+      "year": 2019,
+      "month": 10,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 401401.0
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 605656.0
+    },
+    {
+      "year": 2019,
+      "month": 12,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 331319.0
+    },
+    {
+      "year": 2020,
+      "month": 1,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 66412.0
+    },
+    {
+      "year": 2020,
+      "month": 2,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 126202.0
+    },
+    {
+      "year": 2020,
+      "month": 3,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 271420.0
+    },
+    {
+      "year": 2020,
+      "month": 4,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 288953.0
+    },
+    {
+      "year": 2020,
+      "month": 5,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 484235.0
+    },
+    {
+      "year": 2020,
+      "month": 6,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 468057.0
+    },
+    {
+      "year": 2020,
+      "month": 7,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 473944.0
+    },
+    {
+      "year": 2020,
+      "month": 8,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 336218.0
+    },
+    {
+      "year": 2020,
+      "month": 9,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 505489.0
+    },
+    {
+      "year": 2020,
+      "month": 10,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 515625.0
+    },
+    {
+      "year": 2021,
+      "month": 2,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 65885.0
+    },
+    {
+      "year": 2021,
+      "month": 3,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 158421.0
+    },
+    {
+      "year": 2021,
+      "month": 4,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 291379.0
+    },
+    {
+      "year": 2021,
+      "month": 5,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 453056.0
+    },
+    {
+      "year": 2021,
+      "month": 6,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 753738.0
+    },
+    {
+      "year": 2021,
+      "month": 7,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 645103.0
+    },
+    {
+      "year": 2021,
+      "month": 8,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 487895.0
+    },
+    {
+      "year": 2021,
+      "month": 9,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 338153.0
+    },
+    {
+      "year": 2021,
+      "month": 10,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 223384.0
+    },
+    {
+      "year": 2021,
+      "month": 11,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 452010.0
+    },
+    {
+      "year": 2021,
+      "month": 12,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 231232.0
+    },
+    {
+      "year": 2022,
+      "month": 1,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 58100.0
+    },
+    {
+      "year": 2022,
+      "month": 2,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 170.0
+    },
+    {
+      "year": 2022,
+      "month": 3,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 84328.0
+    },
+    {
+      "year": 2022,
+      "month": 4,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 472270.0
+    },
+    {
+      "year": 2022,
+      "month": 5,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 3199641.0
+    },
+    {
+      "year": 2022,
+      "month": 6,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 4401011.0
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 4317600.0
+    },
+    {
+      "year": 2022,
+      "month": 8,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 3222757.0
+    },
+    {
+      "year": 2022,
+      "month": 9,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 1857258.0
+    },
+    {
+      "year": 2022,
+      "month": 10,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 2071564.0
+    },
+    {
+      "year": 2022,
+      "month": 11,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 1082157.0
+    },
+    {
+      "year": 2022,
+      "month": 12,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 472534.0
+    },
+    {
+      "year": 2023,
+      "month": 1,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 33186.0
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 3534.0
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 372703.0
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 741556.0
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 704378.0
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 767757.0
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 553571.0
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 735616.0
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 501174.0
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 318363.0
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 76062.0
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 221628.0
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 293657.0
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 173278.0
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 54170.0
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 251064.0
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 663760.0
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 1601641.0
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 2243731.0
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 1492980.0
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 498350.0
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 483983.0
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 551676.0
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 710622.0
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 254591.0
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 97289.0
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 286118.0
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 169597.0
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 2391.0
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 2318196.0
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 1659508.0
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 1755829.0
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 553249.0
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 431182.0
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 538516.0
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 497298.0
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 320197.0
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 206056.0
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 156972.0
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 220433.0
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "utilisation_pct": 0.0,
+      "revenue_aud": 286720.0
+    }
+  ]
+}

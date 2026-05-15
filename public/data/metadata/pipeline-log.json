@@ -1,0 +1,99 @@
+{
+  "runs": [
+    {
+      "started_at": "2026-04-01T23:31:39.876658",
+      "completed_at": "2026-04-01T23:34:23.286947",
+      "total_seconds": 163.4,
+      "steps_total": 17,
+      "steps_succeeded": 16,
+      "steps_failed": 1,
+      "steps": [
+        {
+          "step": "AEMO Generation Info",
+          "success": true,
+          "duration_seconds": 0.7
+        },
+        {
+          "step": "OpenElectricity Performance",
+          "success": false,
+          "duration_seconds": 0.5
+        },
+        {
+          "step": "OpenElectricity Metadata",
+          "success": true,
+          "duration_seconds": 1.3
+        },
+        {
+          "step": "Coal Generation Monitor",
+          "success": true,
+          "duration_seconds": 1.0
+        },
+        {
+          "step": "Generation Profiles",
+          "success": true,
+          "duration_seconds": 137.9
+        },
+        {
+          "step": "EPBC Referrals",
+          "success": true,
+          "duration_seconds": 8.1
+        },
+        {
+          "step": "AEMO ISP / Grid Connection",
+          "success": true,
+          "duration_seconds": 0.1
+        },
+        {
+          "step": "News RSS Feed",
+          "success": true,
+          "duration_seconds": 5.9
+        },
+        {
+          "step": "Offtake Research (seed)",
+          "success": true,
+          "duration_seconds": 0.1
+        },
+        {
+          "step": "AEMO Enrichment",
+          "success": true,
+          "duration_seconds": 0.0
+        },
+        {
+          "step": "Confidence Scoring",
+          "success": true,
+          "duration_seconds": 0.0
+        },
+        {
+          "step": "League Tables",
+          "success": true,
+          "duration_seconds": 0.0
+        },
+        {
+          "step": "Data Quality Audit",
+          "success": true,
+          "duration_seconds": 6.8
+        },
+        {
+          "step": "Developer Quality Audit",
+          "success": true,
+          "duration_seconds": 0.1
+        },
+        {
+          "step": "Monthly Performance",
+          "success": true,
+          "duration_seconds": 0.3
+        },
+        {
+          "step": "Wind & Solar Watch",
+          "success": true,
+          "duration_seconds": 0.0
+        },
+        {
+          "step": "JSON Export",
+          "success": true,
+          "duration_seconds": 0.5
+        }
+      ]
+    }
+  ]
+}

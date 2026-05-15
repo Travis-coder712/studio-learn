@@ -1,0 +1,90 @@
+{
+  "id": "ballarat-energy-storage-system",
+  "name": "Ballarat Energy Storage System",
+  "technology": "bess",
+  "status": "operating",
+  "capacity_mw": 30.0,
+  "storage_mwh": 30.09,
+  "state": "VIC",
+  "current_developer": "AusNet Services",
+  "current_operator": "AusNet Services",
+  "cod_current": "2018-11-06",
+  "cod_original": "2018-11-06",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 43.2,
+  "notable": "30 MW / 30 MWh \u2014 Victoria's first grid-scale battery and first standalone front-of-meter battery directly connected to a transmission network in Australia (2018). Fluence system owned by AusNet, operated by EnergyAustralia under long-term offtake. Victorian Government Energy Storage Initiative.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1469",
+  "confidence_score": "54",
+  "capex_aud_m": 32.0,
+  "capex_source": "ARENA",
+  "capex_year": 2017,
+  "first_seen": "2018-10-23",
+  "capex_source_url": "https://blog.fluenceenergy.com/ballarat-commissioning-energy-storage-australia",
+  "coordinates": {
+    "lat": -37.567452,
+    "lng": 143.852741
+  },
+  "timeline": [
+    {
+      "date": "2018-10-23",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Victoria's first utility-scale battery inaugurated",
+      "detail": "30MW/30MWh Fluence battery at AusNet's Ballarat Terminal Station \u2014 first standalone front-of-meter battery on Australian transmission network.",
+      "sources": []
+    },
+    {
+      "date": "2018-11-06",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2018-11-07",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Fluence",
+      "model": "Advancion",
+      "grid_forming": false,
+      "source_url": "https://blog.fluenceenergy.com/ballarat-commissioning-energy-storage-australia"
+    },
+    {
+      "role": "epc",
+      "supplier": "Spotless Sustainability Services",
+      "grid_forming": false,
+      "source_url": "https://arena.gov.au/projects/ballarat-energy-storage-system/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

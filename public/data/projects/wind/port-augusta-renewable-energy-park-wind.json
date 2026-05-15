@@ -1,0 +1,134 @@
+{
+  "id": "port-augusta-renewable-energy-park-wind",
+  "name": "Port Augusta Renewable Energy Park - Wind",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 210.0,
+  "state": "SA",
+  "current_developer": "PAREP 1 Pty Ltd",
+  "current_operator": "Iberdrola Australia",
+  "cod_current": "2022-04-19",
+  "cod_original": "2022-04-19",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 24.3,
+  "notable": "50x Vestas V150-4.2MW (wind) + 110MW solar. BHP Olympic Dam PPA + Woolworths PPA. Owned by Iberdrola. Elecnor EPC.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1375",
+  "confidence_score": "62",
+  "first_seen": "2022-04-19",
+  "coordinates": {
+    "lat": -32.595609,
+    "lng": 137.885629
+  },
+  "timeline": [
+    {
+      "date": "2019",
+      "date_precision": "year",
+      "event_type": "fid",
+      "title": "Financial close",
+      "detail": "DP Energy / Iberdrola reached financial close",
+      "sources": []
+    },
+    {
+      "date": "2020",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Site works began for 50 Vestas turbines near Port Augusta",
+      "sources": []
+    },
+    {
+      "date": "2022-04-19",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2022-04-19",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Vestas",
+      "model": "V150-4.2 MW",
+      "grid_forming": false
+    },
+    {
+      "role": "epc",
+      "supplier": "Elecnor",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "BHP",
+      "type": "corporate_ppa",
+      "source_url": "https://reneweconomy.com.au/port-augusta-renewable-energy-park/"
+    },
+    {
+      "party": "BHP",
+      "type": "corporate_ppa"
+    },
+    {
+      "party": "Woolworths",
+      "type": "corporate_ppa",
+      "term_years": 9,
+      "capacity_mw": 25.0
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Port Augusta Renewable Energy Park Development Application (SA EPA / EPBC 2018/8280)",
+    "document_url": "https://www.environment.gov.au/epbc/notices/search-notices/2018/8280",
+    "document_year": 2018,
+    "turbine_model": "Vestas V150-4.2 MW",
+    "turbine_count": 50,
+    "turbine_rated_power_mw": 4.2,
+    "hub_height_m": 125.0,
+    "hub_height_note": "Standard hub height for V150-4.2 on SA coastal plain",
+    "rotor_diameter_m": 150.0,
+    "wind_speed_mean_ms": 8.1,
+    "wind_speed_height_m": 125.0,
+    "wind_speed_period": "Mean annual wind speed at hub height; Port Augusta SA \u2014 Spencer Gulf coastal plain from on-site met mast",
+    "assumed_capacity_factor_pct": 37.0,
+    "assumed_annual_energy_gwh": 680.0,
+    "energy_yield_method": "WAsP modelling with SA mesoscale wind resource; P50 net yield",
+    "noise_limit_dba": 35.0,
+    "minimum_setback_m": 1500,
+    "connection_voltage_kv": 275.0,
+    "network_service_provider": "ElectraNet",
+    "connection_substation_name": "Port Augusta North 275/66 kV substation (ElectraNet), near Port Augusta SA",
+    "connection_substation_capacity_mva": 800.0,
+    "connection_distance_km": 3.0,
+    "connection_distance_note": "~3 km to ElectraNet Port Augusta North 275/66 kV substation. Port Augusta is a major SA electricity node.",
+    "connection_augmentation": "Minimal augmentation. Port Augusta is a central node of the SA transmission network. PARP replaces former Alinta Energy coal/gas plant capacity at Port Augusta.",
+    "notes": "210 MW wind (50 x 4.2 MW Vestas V150) as part of the 280 MW wind + 100 MW solar PARP. Developer: TagEnergy (formerly RATCH Australia). EPC: Elecnor. SA EPA + EPBC approval 2018. Now operating (2022). Strategically replaces decommissioned Port Augusta coal plant capacity."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

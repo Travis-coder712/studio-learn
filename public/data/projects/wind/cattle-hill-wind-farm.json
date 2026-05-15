@@ -1,0 +1,130 @@
+{
+  "id": "cattle-hill-wind-farm",
+  "name": "Cattle Hill Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 144.0,
+  "state": "TAS",
+  "current_developer": "Wild Cattle Hill Pty Ltd",
+  "current_operator": "Goldwind Australia",
+  "cod_current": "2020-01-06",
+  "cod_original": "2020-01-06",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 74.9,
+  "notable": "44x Vestas V126-3.45MW. Cattle Hill Wind Farm Holdings (Goldwind subsidiary). Launched Feb 2020.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1260",
+  "confidence_score": "70",
+  "development_stage": "epbc_approved",
+  "first_seen": "2009",
+  "coordinates": {
+    "lat": -42.154845,
+    "lng": 146.694693
+  },
+  "timeline": [
+    {
+      "date": "2009",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2009/4707",
+      "detail": "Cattle Hill Wind Farm \u2014 Referral Decision",
+      "sources": []
+    },
+    {
+      "date": "2017",
+      "date_precision": "year",
+      "event_type": "offtake_signed",
+      "title": "Aurora Energy PPA",
+      "detail": "Long-term agreement with Aurora Energy for RECs",
+      "sources": []
+    },
+    {
+      "date": "2018",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Goldwind/PowerChina began construction at Lake Echo",
+      "sources": []
+    },
+    {
+      "date": "2019-11",
+      "date_precision": "month",
+      "event_type": "commissioning",
+      "title": "Commissioning begins",
+      "detail": "First turbines enter commissioning",
+      "sources": []
+    },
+    {
+      "date": "2020-01-06",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2020-01-07",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Vestas",
+      "model": "V126-3.45 MW",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Cattle Hill Wind Energy Facility Environmental Impact Assessment (TAS EPA)",
+    "document_url": "https://epa.tas.gov.au/assessment/completed-assessments/cattle-hill-wind-energy-facility",
+    "document_year": 2017,
+    "turbine_model": "Vestas V126-3.45 MW",
+    "turbine_count": 42,
+    "turbine_rated_power_mw": 3.45,
+    "hub_height_m": 97.0,
+    "hub_height_note": "Standard 97 m hub height for V126-3.45 MW on Tasmanian central plateau",
+    "rotor_diameter_m": 126.0,
+    "wind_speed_mean_ms": 9.8,
+    "wind_speed_height_m": 97.0,
+    "wind_speed_period": "Mean annual wind speed at hub height; Tasmanian Central Highlands \u2014 from 3-year on-site met mast, one of Australia's highest wind resource sites",
+    "assumed_capacity_factor_pct": 44.2,
+    "assumed_annual_energy_gwh": 556.0,
+    "energy_yield_method": "WAsP modelling with Tasmanian mesoscale wind atlas calibration; P50 net yield",
+    "noise_limit_dba": 40.0,
+    "minimum_setback_m": 1000,
+    "connection_voltage_kv": 110.0,
+    "network_service_provider": "TasNetworks",
+    "connection_substation_name": "Repulse 110 kV substation (TasNetworks), Central Highlands TAS",
+    "connection_substation_capacity_mva": 200.0,
+    "connection_distance_km": 14.0,
+    "connection_distance_note": "~14 km of new 110 kV line to TasNetworks Repulse substation on the Tasmanian 110 kV backbone network.",
+    "connection_augmentation": "New 110 kV connection to TasNetworks. Line protection and fault level management at Repulse substation upgraded. TasNetworks Marrawah Wind Farm to Cattle Hill system strength assessment conducted.",
+    "notes": "144 MW (42 \u00d7 3.45 MW Vestas V126), Central Highlands Tasmania. Developer: Tilt Renewables (sold to Wild Cattle Hill Pty Ltd / Pacific Hydro / PowAR). TAS EPA assessment approved 2017; EPBC approval also obtained. Now operating. Tasmanian Central Highlands is among Australia's highest onshore wind resource (>9 m/s mean). 44% P50 capacity factor is exceptional by Australian standards. TasNetworks 110 kV connection \u2014 TAS uses 110 kV backbone (vs 132/220/330 kV on mainland)."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

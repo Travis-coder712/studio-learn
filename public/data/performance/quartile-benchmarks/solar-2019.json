@@ -1,0 +1,16 @@
+{
+  "year": 2019,
+  "technology": "solar",
+  "benchmarks": {
+    "capacity_factor": {
+      "q1": 13.14,
+      "median": 20.12,
+      "q3": 25.79
+    },
+    "revenue_per_mw": {
+      "q1": 68908.0,
+      "median": 118727.0,
+      "q3": 170841.0
+    }
+  }
+}

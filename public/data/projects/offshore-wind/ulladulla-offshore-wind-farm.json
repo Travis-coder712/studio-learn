@@ -1,0 +1,49 @@
+{
+  "id": "ulladulla-offshore-wind-farm",
+  "name": "Ulladulla Offshore Wind Farm",
+  "technology": "offshore_wind",
+  "status": "development",
+  "capacity_mw": 2000.0,
+  "state": "NSW",
+  "current_developer": "OceanEx Energy",
+  "cod_current": "2035-01-01",
+  "cod_original": "2035-01-01",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Proposed 2 GW off Ulladulla NSW coast. Oceanex Energy developer. Equinor partnership dissolved. Very early stage \u2014 limited public documentation.",
+  "data_confidence": "medium",
+  "last_updated": "2026-03-11",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "2025",
+  "confidence_score": "33",
+  "development_stage": "planning_submitted",
+  "first_seen": "2026-03-12",
+  "timeline": [
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2035-01 to 2035-01-01 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ]
+}

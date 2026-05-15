@@ -1,0 +1,126 @@
+{
+  "id": "clements-gap-bess",
+  "name": "Clements Gap - BESS",
+  "technology": "bess",
+  "status": "commissioning",
+  "capacity_mw": 60.0,
+  "storage_mwh": 120.0,
+  "state": "SA",
+  "current_developer": "Pacific Blue (SPIC China)",
+  "cod_current": "2026-01-05",
+  "cod_original": "2026-01-05",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Trina Storage + SMA inverters. Enzen EPC. CIS Tender 1 winner. >A$100M.",
+  "data_confidence": "medium",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "aemo_gen_info_id": "1993",
+  "confidence_score": "54",
+  "first_seen": "2024-02-01",
+  "timeline": [
+    {
+      "date": "2024-02-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Board endorsement / FID",
+      "sources": []
+    },
+    {
+      "date": "2024-06-12",
+      "date_precision": "day",
+      "event_type": "construction_start",
+      "title": "Sod-turning ceremony",
+      "detail": "Enzen Australia delivery partner; Trina Storage",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2026-01 to 2026-01-05 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Trina Storage",
+      "quantity": 50,
+      "grid_forming": false,
+      "source_url": "https://www.pacificblue.com.au/our-energy-production/sites-in-development/clements-gap-battery"
+    },
+    {
+      "role": "epc",
+      "supplier": "Enzen Australia",
+      "grid_forming": false,
+      "source_url": "https://www.energymagazine.com.au/constuction-of-60mw-clements-gap-bess-underway/"
+    },
+    {
+      "role": "inverter",
+      "supplier": "SMA Solar (inverters)",
+      "quantity": 25,
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [
+    {
+      "scheme": "CIS",
+      "round": "Tender 1",
+      "capacity_mw": 60.0,
+      "storage_mwh": 120.0,
+      "contract_type": "cis",
+      "source_url": "https://www.energy-storage.news/capacity-investment-scheme-sees-3626mwh-of-energy-storage-awarded-in-south-australia-and-victoria/"
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Clements Gap Battery Energy Storage System \u2014 EIS (SA)",
+    "document_url": "https://www.sa.gov.au/topics/planning-and-property/land-use-and-planning/development-assessment/major-developments",
+    "document_year": 2023,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "SPIC (China Power International) supply chain",
+    "cell_country_of_manufacture": "China",
+    "inverter_supplier": "Huawei / SPIC subsidiary",
+    "inverter_country_of_manufacture": "China",
+    "pcs_type": "grid_following",
+    "round_trip_efficiency_pct": 88.0,
+    "round_trip_efficiency_ac": 85.0,
+    "duration_hours": 2.0,
+    "connection_voltage_kv": 132.0,
+    "transformer_mva": 60.0,
+    "network_service_provider": "ElectraNet",
+    "connection_substation_name": "Clements Gap wind farm 132 kV substation (co-located)",
+    "connection_substation_capacity_mva": 100.0,
+    "connection_distance_km": 0.1,
+    "connection_distance_note": "Co-located with Clements Gap Wind Farm \u2014 shares the wind farm's existing 132 kV substation. Minimal internal cable only.",
+    "connection_augmentation": "Minimal. BESS shares the wind farm's 132 kV connection. New BESS feeder bay only. Small 60 MW scale means no significant augmentation required beyond the existing wind farm connection.",
+    "notes": "60 MW / 120 MWh (2-hour) BESS co-located with Clements Gap Wind Farm, SA. Pacific Blue (SPIC China \u2014 State Power Investment Corporation). Chinese state-owned developer and supply chain. SA DPTI planning approval. Connection to ElectraNet 132 kV network at Clements Gap."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": [
+    {
+      "date": "2025-12",
+      "date_precision": "month",
+      "event_type": "energisation",
+      "title": "First energisation achieved",
+      "detail": "Pacific Blue: First energisation Dec 2025."
+    }
+  ]
+}

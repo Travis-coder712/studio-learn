@@ -1,0 +1,101 @@
+{
+  "id": "broken-hill-bess",
+  "name": "Broken Hill BESS",
+  "technology": "bess",
+  "status": "operating",
+  "capacity_mw": 50.0,
+  "storage_mwh": 60.28,
+  "state": "NSW",
+  "current_developer": "AGL Energy / Macquarie",
+  "current_operator": "AGL Energy",
+  "cod_current": "2023-11-30",
+  "cod_original": "2023-11-30",
+  "grid_forming": true,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 49.3,
+  "notable": "50 MW / 50 MWh BESS permanently configured in grid-forming mode \u2014 an ARENA-funded demonstration in one of the weakest and most remote parts of the NEM. Provides system strength services to the Broken Hill network, where high renewable penetration had previously caused frequent curtailment.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "2172",
+  "confidence_score": "57",
+  "first_seen": "2023-11-30",
+  "coordinates": {
+    "lat": -31.9863,
+    "lng": 141.4204
+  },
+  "timeline": [
+    {
+      "date": "2023-11-30",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2023-12-01",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    },
+    {
+      "date": "2024-03-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "AGL begins construction of grid-forming BESS",
+      "detail": "AGL commenced construction of 50MW/50MWh Fluence Gridstack battery in Broken Hill \u2014 critical for grid stability in remote western NSW. ARENA support for grid-forming inverters.",
+      "sources": []
+    },
+    {
+      "date": "2025-09-01",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Grid-forming battery operational in remote NSW",
+      "detail": "Broken Hill BESS commenced operations using Fluence Gridstack with EPC Power grid-forming inverters, providing critical system strength in one of the most challenging parts of the NEM grid.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Fluence",
+      "model": "Gridstack (grid-forming)",
+      "grid_forming": false,
+      "source_url": "https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-deliver-grid-forming-energy-storage-system-agls-broken"
+    },
+    {
+      "role": "epc",
+      "supplier": "Fluence / Valmec (Altrad)",
+      "grid_forming": false,
+      "source_url": "https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-deliver-grid-forming-energy-storage-system-agls-broken"
+    },
+    {
+      "role": "inverter",
+      "supplier": "EPC Power",
+      "model": "Grid-forming inverters",
+      "grid_forming": false,
+      "source_url": "https://www.energy-storage.news/agl-begins-construction-of-broken-hill-grid-forming-bess-in-australia/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

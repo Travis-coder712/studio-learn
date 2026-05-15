@@ -1,0 +1,6567 @@
+{
+  "concentration": {
+    "epc": {
+      "total_contractors": 64,
+      "total_mw": 26309.3,
+      "total_project_slots": 115,
+      "hhi_mw": 376.0,
+      "top3_share_mw_pct": 23.6,
+      "top3": [
+        {
+          "supplier": "Future Generation Joint Venture (Webuild/Clough/Lane)",
+          "mw": 2200.0,
+          "projects": 1
+        },
+        {
+          "supplier": "AFRY-Aurecon JV (design services)",
+          "mw": 2000.0,
+          "projects": 1
+        },
+        {
+          "supplier": "Water2Wire JV (GHD/Mott MacDonald/Stantec) \u2014 dam design",
+          "mw": 2000.0,
+          "projects": 1
+        }
+      ]
+    },
+    "bop": {
+      "total_contractors": 12,
+      "total_mw": 7449.0,
+      "total_project_slots": 21,
+      "hhi_mw": 1417.0,
+      "top3_share_mw_pct": 57.8,
+      "top3": [
+        {
+          "supplier": "Consolidated Power Projects (CPP)",
+          "mw": 1635.0,
+          "projects": 6
+        },
+        {
+          "supplier": "Zenviron",
+          "mw": 1367.0,
+          "projects": 4
+        },
+        {
+          "supplier": "NuEnergy Infrastructure",
+          "mw": 1300.0,
+          "projects": 1
+        }
+      ]
+    }
+  },
+  "top_contractors": [
+    {
+      "contractor": "Consolidated Power Projects (CPP)",
+      "slug": "consolidated-power-projects-cpp",
+      "category": "both",
+      "roles": [
+        "bop",
+        "epc"
+      ],
+      "projects": 13,
+      "mw_total": 3216.0,
+      "technologies": {
+        "bess": 13
+      },
+      "states": {
+        "NSW": 4,
+        "VIC": 2,
+        "QLD": 4,
+        "SA": 3
+      },
+      "statuses": {
+        "commissioning": 2,
+        "construction": 4,
+        "operating": 7
+      },
+      "top_developers": [
+        [
+          "Akaysha Energy (BlackRock)",
+          5
+        ],
+        [
+          "Eku Energy (Macquarie / BCIM)",
+          1
+        ],
+        [
+          "Vena Energy",
+          1
+        ],
+        [
+          "Equis Australia",
+          1
+        ],
+        [
+          "CS Energy",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Tesla",
+          "role": "bess_oem",
+          "count": 8
+        },
+        {
+          "supplier": "Powin",
+          "role": "bess_oem",
+          "count": 2
+        },
+        {
+          "supplier": "Canadian Solar e-STORAGE",
+          "role": "bess_oem",
+          "count": 1
+        },
+        {
+          "supplier": "Eks Energy (Powin)",
+          "role": "inverter",
+          "count": 1
+        },
+        {
+          "supplier": "Samsung SDI",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "RCR Tomlinson",
+      "slug": "rcr-tomlinson",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 8,
+      "mw_total": 700.2,
+      "technologies": {
+        "solar": 8
+      },
+      "states": {
+        "QLD": 6,
+        "VIC": 1,
+        "NSW": 1
+      },
+      "statuses": {
+        "operating": 8
+      },
+      "top_developers": [
+        [
+          "The Daydream Solar Farm Trust",
+          1
+        ],
+        [
+          "Sun Metals Corporation Pty Ltd",
+          1
+        ],
+        [
+          "Darling Downs Solar Farm Pty Ltd",
+          1
+        ],
+        [
+          "Pacific Hydro Haughton Solar Farm Pty Ltd",
+          1
+        ],
+        [
+          "Lighthouse Infrastructure Management Limited",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "First Solar",
+          "role": "solar_oem",
+          "count": 4
+        },
+        {
+          "supplier": "SMA",
+          "role": "inverter",
+          "count": 3
+        },
+        {
+          "supplier": "JA Solar",
+          "role": "solar_oem",
+          "count": 2
+        },
+        {
+          "supplier": "Canadian Solar",
+          "role": "solar_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Beon Energy Solutions",
+      "slug": "beon-energy-solutions",
+      "category": "both",
+      "roles": [
+        "bop",
+        "epc"
+      ],
+      "projects": 7,
+      "mw_total": 726.0,
+      "technologies": {
+        "bess": 1,
+        "solar": 6
+      },
+      "states": {
+        "NSW": 6,
+        "VIC": 1
+      },
+      "statuses": {
+        "construction": 1,
+        "operating": 6
+      },
+      "top_developers": [
+        [
+          "RWE Renewables Australia",
+          1
+        ],
+        [
+          "Iberdrola Australia Limited",
+          1
+        ],
+        [
+          "Metz ProjectCo Pty Ltd as trustee for Metz ProjectCo Trust",
+          1
+        ],
+        [
+          "Spark Infrastructure Holdings No. 6 Pty Limited",
+          1
+        ],
+        [
+          "Sebastopol Asset Co Pty Ltd ATF Sebastopol Asset Trust",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "SMA",
+          "role": "inverter",
+          "count": 3
+        },
+        {
+          "supplier": "Tesla",
+          "role": "bess_oem",
+          "count": 1
+        },
+        {
+          "supplier": "Jinko Solar",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "LONGi",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "Ingeteam",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Zenviron",
+      "slug": "zenviron",
+      "category": "bop_only",
+      "roles": [
+        "bop"
+      ],
+      "projects": 4,
+      "mw_total": 1367.0,
+      "technologies": {
+        "wind": 3,
+        "bess": 1
+      },
+      "states": {
+        "QLD": 1,
+        "VIC": 2,
+        "NSW": 1
+      },
+      "statuses": {
+        "construction": 2,
+        "operating": 2
+      },
+      "top_developers": [
+        [
+          "CS Energy",
+          1
+        ],
+        [
+          "EnergyAustralia",
+          1
+        ],
+        [
+          "Tilt Renewables Australia Pty Ltd",
+          1
+        ],
+        [
+          "Tilt Renewables",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Vestas",
+          "role": "wind_oem",
+          "count": 3
+        },
+        {
+          "supplier": "Wartsila",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Sterling & Wilson",
+      "slug": "sterling-wilson",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 4,
+      "mw_total": 839.0,
+      "technologies": {
+        "solar": 4
+      },
+      "states": {
+        "QLD": 2,
+        "NSW": 1,
+        "SA": 1
+      },
+      "statuses": {
+        "operating": 4
+      },
+      "top_developers": [
+        [
+          "Western Downs Green Power Hub Pty Ltd",
+          1
+        ],
+        [
+          "Lightsource Australia SPV 4 Pty Ltd",
+          1
+        ],
+        [
+          "Luminous Energy",
+          1
+        ],
+        [
+          "PAREP 1 Pty Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Canadian Solar",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "SMA",
+          "role": "inverter",
+          "count": 1
+        },
+        {
+          "supplier": "LONGi",
+          "role": "solar_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "PCL Construction",
+      "slug": "pcl-construction",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 4,
+      "mw_total": 776.0,
+      "technologies": {
+        "solar": 4
+      },
+      "states": {
+        "NSW": 3,
+        "QLD": 1
+      },
+      "statuses": {
+        "operating": 4
+      },
+      "top_developers": [
+        [
+          "ACEN AUSTRALIA",
+          1
+        ],
+        [
+          "Woolooga Fund Pty Ltd",
+          1
+        ],
+        [
+          "Gunnedah SF Pty Ltd atf Gunnedah Asset Trust",
+          1
+        ],
+        [
+          "West Wyalong Fund Pty Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Risen Energy",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "Canadian Solar",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "Ingeteam",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Elecnor",
+      "slug": "elecnor",
+      "category": "both",
+      "roles": [
+        "bop",
+        "epc"
+      ],
+      "projects": 4,
+      "mw_total": 576.0,
+      "technologies": {
+        "bess": 1,
+        "wind": 1,
+        "solar": 2
+      },
+      "states": {
+        "SA": 3,
+        "NSW": 1
+      },
+      "statuses": {
+        "construction": 1,
+        "operating": 3
+      },
+      "top_developers": [
+        [
+          "ENGIE",
+          1
+        ],
+        [
+          "PAREP 1 Pty Ltd",
+          1
+        ],
+        [
+          "Bungala One Operations Pty Ltd as trustee for the Bungala One Operations Trust",
+          1
+        ],
+        [
+          "Moree Solar Farm Pty Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Sungrow",
+          "role": "bess_oem",
+          "count": 1
+        },
+        {
+          "supplier": "Vestas",
+          "role": "wind_oem",
+          "count": 1
+        },
+        {
+          "supplier": "Jinko Solar",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "SMA",
+          "role": "inverter",
+          "count": 1
+        },
+        {
+          "supplier": "JA Solar",
+          "role": "solar_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Biosar",
+      "slug": "biosar",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 4,
+      "mw_total": 291.0,
+      "technologies": {
+        "solar": 4
+      },
+      "states": {
+        "NSW": 1,
+        "QLD": 3
+      },
+      "statuses": {
+        "operating": 4
+      },
+      "top_developers": [
+        [
+          "Nevertire Solar Pty Ltd as Trustee for the Nevertire Solar Trust",
+          1
+        ],
+        [
+          "Susan River Solar Pty Ltd as trustee for the Susan River Solar Trust",
+          1
+        ],
+        [
+          "Childers Solar Pty Ltd as trustee for the Childers Solar Trust",
+          1
+        ],
+        [
+          "RE Oakey Pty Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "SMA",
+          "role": "inverter",
+          "count": 2
+        },
+        {
+          "supplier": "BYD",
+          "role": "solar_oem",
+          "count": 2
+        },
+        {
+          "supplier": "Ingeteam",
+          "role": "inverter",
+          "count": 2
+        },
+        {
+          "supplier": "Suntech",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "Canadian Solar",
+          "role": "solar_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "UGL",
+      "slug": "ugl",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 4,
+      "mw_total": 287.8,
+      "technologies": {
+        "solar": 4
+      },
+      "states": {
+        "VIC": 1,
+        "SA": 1,
+        "QLD": 2
+      },
+      "statuses": {
+        "operating": 4
+      },
+      "top_developers": [
+        [
+          "Glenrowan Solar Farm Pty Ltd as trustee for Glenrowan Solar Farm Trust",
+          1
+        ],
+        [
+          "Vena Energy",
+          1
+        ],
+        [
+          "Genex Power Limited",
+          1
+        ],
+        [
+          "Ratch Australia",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "SMA",
+          "role": "inverter",
+          "count": 2
+        },
+        {
+          "supplier": "Jinko Solar",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "Schneider Electric",
+          "role": "inverter",
+          "count": 1
+        },
+        {
+          "supplier": "First Solar",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "Trina Solar",
+          "role": "solar_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "METKA EGN (Metlen)",
+      "slug": "metka-egn-metlen",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 4,
+      "mw_total": 153.0,
+      "technologies": {
+        "solar": 4
+      },
+      "states": {
+        "NSW": 3,
+        "QLD": 1
+      },
+      "statuses": {
+        "operating": 4
+      },
+      "top_developers": [
+        [
+          "Wyalong Solar Farm Pty Ltd as the trustee for the Wyalong Solar Farm Unit Trust",
+          1
+        ],
+        [
+          "Kingaroy PropertyCo Pty Ltd as trustee for Kingaroy Property Trust",
+          1
+        ],
+        [
+          "Corowa Operationsco Pty Ltd as trustee for Corowa Operations Trust",
+          1
+        ],
+        [
+          "Junee Operationsco Pty Ltd as trustee for Junee Operations Trust",
+          1
+        ]
+      ],
+      "top_oem_partners": []
+    },
+    {
+      "contractor": "ACLE Services",
+      "slug": "acle-services",
+      "category": "both",
+      "roles": [
+        "bop",
+        "epc"
+      ],
+      "projects": 3,
+      "mw_total": 855.0,
+      "technologies": {
+        "bess": 3
+      },
+      "states": {
+        "VIC": 2,
+        "NSW": 1
+      },
+      "statuses": {
+        "commissioning": 1,
+        "operating": 2
+      },
+      "top_developers": [
+        [
+          "Valent Energy (Gaw Capital / BW ESS)",
+          2
+        ],
+        [
+          "Iberdrola",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "CATL",
+          "role": "bess_oem",
+          "count": 2
+        },
+        {
+          "supplier": "Power Electronics (inverters)",
+          "role": "inverter",
+          "count": 1
+        },
+        {
+          "supplier": "Unknown",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "GRS (Gransolar)",
+      "slug": "grs-gransolar",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 3,
+      "mw_total": 658.0,
+      "technologies": {
+        "solar": 3
+      },
+      "states": {
+        "NSW": 1,
+        "QLD": 2
+      },
+      "statuses": {
+        "operating": 3
+      },
+      "top_developers": [
+        [
+          "Wellington North Solar Farm Pty Ltd",
+          1
+        ],
+        [
+          "Edenvale Solar Park Pty Ltd",
+          1
+        ],
+        [
+          "X-Elio Australia Pty Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Ingeteam",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Samsung C&T / Genus Plus JV",
+      "slug": "samsung-c-t-genus-plus-jv",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 3,
+      "mw_total": 600.0,
+      "technologies": {
+        "bess": 3
+      },
+      "states": {
+        "VIC": 3
+      },
+      "statuses": {
+        "operating": 3
+      },
+      "top_developers": [
+        [
+          "Equis Energy / SEC Victoria",
+          3
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Tesla",
+          "role": "bess_oem",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "contractor": "Downer",
+      "slug": "downer",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 3,
+      "mw_total": 344.0,
+      "technologies": {
+        "bess": 1,
+        "solar": 2
+      },
+      "states": {
+        "QLD": 2,
+        "VIC": 1
+      },
+      "statuses": {
+        "operating": 3
+      },
+      "top_developers": [
+        [
+          "CS Energy",
+          1
+        ],
+        [
+          "Numurkah Solar Farm Pty Ltd",
+          1
+        ],
+        [
+          "Ross River Operations Pty Ltd as the Trustee for the Ross River Operations Trust",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Tesla",
+          "role": "bess_oem",
+          "count": 1
+        },
+        {
+          "supplier": "LONGi",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "JA Solar",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "Schneider Electric",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Bouygues",
+      "slug": "bouygues",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 3,
+      "mw_total": 161.5,
+      "technologies": {
+        "solar": 3
+      },
+      "states": {
+        "QLD": 2,
+        "NSW": 1
+      },
+      "statuses": {
+        "operating": 3
+      },
+      "top_developers": [
+        [
+          "Hamilton Solar Farm Pty Ltd",
+          1
+        ],
+        [
+          "Whitsunday Solar Farm Pty Ltd",
+          1
+        ],
+        [
+          "Parkes Solar Farm Pty Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "SMA",
+          "role": "inverter",
+          "count": 3
+        },
+        {
+          "supplier": "Trina Solar",
+          "role": "solar_oem",
+          "count": 2
+        },
+        {
+          "supplier": "JA Solar",
+          "role": "solar_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Vestas (EPC)",
+      "slug": "vestas-epc",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 2,
+      "mw_total": 1083.0,
+      "technologies": {
+        "wind": 2
+      },
+      "states": {
+        "VIC": 1,
+        "QLD": 1
+      },
+      "statuses": {
+        "construction": 2
+      },
+      "top_developers": [
+        [
+          "TagEnergy / Ingka Group",
+          1
+        ],
+        [
+          "Cubico Sustainable Investments / Stanwell Corporation (50:50 JV)",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Vestas",
+          "role": "wind_oem",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "contractor": "Fluence",
+      "slug": "fluence",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 2,
+      "mw_total": 650.0,
+      "technologies": {
+        "bess": 2
+      },
+      "states": {
+        "VIC": 1,
+        "NSW": 1
+      },
+      "statuses": {
+        "operating": 1,
+        "construction": 1
+      },
+      "top_developers": [
+        [
+          "ENGIE",
+          1
+        ],
+        [
+          "AGL",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Fluence",
+          "role": "bess_oem",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "contractor": "Bouygues Construction Australia",
+      "slug": "bouygues-construction-australia",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 2,
+      "mw_total": 500.0,
+      "technologies": {
+        "solar": 2
+      },
+      "states": {
+        "NSW": 2
+      },
+      "statuses": {
+        "operating": 2
+      },
+      "top_developers": [
+        [
+          "Culcairn Solar Farm Pty Ltd as trustee for Culcairn Solar Farm Trust",
+          1
+        ],
+        [
+          "Coleambally Solar Pty Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Schneider Electric",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Canadian Solar / Signal Energy (JV)",
+      "slug": "canadian-solar-signal-energy-jv",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 2,
+      "mw_total": 408.0,
+      "technologies": {
+        "solar": 2
+      },
+      "states": {
+        "NSW": 2
+      },
+      "statuses": {
+        "operating": 2
+      },
+      "top_developers": [
+        [
+          "Darlington Point Solar Farm Pty Ltd",
+          1
+        ],
+        [
+          "Finley Solar Farm Pty Ltd as The trustee for Finley Solar Trust",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Canadian Solar",
+          "role": "solar_oem",
+          "count": 2
+        },
+        {
+          "supplier": "SMA",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "First Solar",
+      "slug": "first-solar",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 2,
+      "mw_total": 156.0,
+      "technologies": {
+        "solar": 2
+      },
+      "states": {
+        "NSW": 2
+      },
+      "statuses": {
+        "operating": 2
+      },
+      "top_developers": [
+        [
+          "PARF Company 6 Pty Limited",
+          2
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "First Solar",
+          "role": "solar_oem",
+          "count": 2
+        },
+        {
+          "supplier": "SMA",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Doosan GridTech",
+      "slug": "doosan-gridtech",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 2,
+      "mw_total": 141.5,
+      "technologies": {
+        "bess": 2
+      },
+      "states": {
+        "QLD": 1,
+        "SA": 1
+      },
+      "statuses": {
+        "operating": 1,
+        "commissioning": 1
+      },
+      "top_developers": [
+        [
+          "Vena Energy",
+          2
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Samsung SDI",
+          "role": "bess_oem",
+          "count": 1
+        },
+        {
+          "supplier": "CATL",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Edify Energy",
+      "slug": "edify-energy",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 2,
+      "mw_total": 125.0,
+      "technologies": {
+        "bess": 2
+      },
+      "states": {
+        "NSW": 2
+      },
+      "statuses": {
+        "operating": 2
+      },
+      "top_developers": [
+        [
+          "Edify Energy / Federation Asset Management",
+          2
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Tesla",
+          "role": "bess_oem",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "contractor": "Gransolar (GRS)",
+      "slug": "gransolar-grs",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 2,
+      "mw_total": 99.8,
+      "technologies": {
+        "solar": 2
+      },
+      "states": {
+        "NSW": 2
+      },
+      "statuses": {
+        "operating": 2
+      },
+      "top_developers": [
+        [
+          "Goonumbla Asset Co Pty Ltd as trustee for the Goonumbla Asset Trust",
+          1
+        ],
+        [
+          "Molong Operations co Pty Ltd ATF Molong Operations Trust",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Chint Solar",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "Ingeteam",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Future Generation Joint Venture (Webuild/Clough/Lane)",
+      "slug": "future-generation-joint-venture-webuild-clough-lane",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 2200.0,
+      "technologies": {
+        "pumped_hydro": 1
+      },
+      "states": {
+        "NSW": 1
+      },
+      "statuses": {
+        "construction": 1
+      },
+      "top_developers": [
+        [
+          "Snowy Hydro Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Voith Hydro",
+          "role": "hydro_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "AFRY-Aurecon JV (design services)",
+      "slug": "afry-aurecon-jv-design-services",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 2000.0,
+      "technologies": {
+        "pumped_hydro": 1
+      },
+      "states": {
+        "QLD": 1
+      },
+      "statuses": {
+        "development": 1
+      },
+      "top_developers": [
+        [
+          "Queensland Hydro",
+          1
+        ]
+      ],
+      "top_oem_partners": []
+    },
+    {
+      "contractor": "Water2Wire JV (GHD/Mott MacDonald/Stantec) \u2014 dam design",
+      "slug": "water2wire-jv-ghd-mott-macdonald-stantec-dam-design",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 2000.0,
+      "technologies": {
+        "pumped_hydro": 1
+      },
+      "states": {
+        "QLD": 1
+      },
+      "statuses": {
+        "development": 1
+      },
+      "top_developers": [
+        [
+          "Queensland Hydro",
+          1
+        ]
+      ],
+      "top_oem_partners": []
+    },
+    {
+      "contractor": "Vestas (EPC for Stage 1 and Stage 2)",
+      "slug": "vestas-epc-for-stage-1-and-stage-2",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 1610.0,
+      "technologies": {
+        "wind": 1
+      },
+      "states": {
+        "VIC": 1
+      },
+      "statuses": {
+        "construction": 1
+      },
+      "top_developers": [
+        [
+          "TagEnergy / Ingka Group",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Vestas",
+          "role": "wind_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "NuEnergy Infrastructure",
+      "slug": "nuenergy-infrastructure",
+      "category": "bop_only",
+      "roles": [
+        "bop"
+      ],
+      "projects": 1,
+      "mw_total": 1300.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "QLD": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Quinbrook Infrastructure Partners",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "GE Vernova",
+          "role": "inverter",
+          "count": 1
+        },
+        {
+          "supplier": "CATL",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Enerven (SA Power Networks)",
+      "slug": "enerven-sa-power-networks",
+      "category": "bop_only",
+      "roles": [
+        "bop"
+      ],
+      "projects": 1,
+      "mw_total": 700.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "NSW": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Origin Energy",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Wartsila",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Enerven",
+      "slug": "enerven",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 700.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "NSW": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Origin Energy Electricity Limited",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Wartsila",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "SNC-Lavalin / WBHO JV",
+      "slug": "snc-lavalin-wbho-jv",
+      "category": "bop_only",
+      "roles": [
+        "bop"
+      ],
+      "projects": 1,
+      "mw_total": 530.0,
+      "technologies": {
+        "wind": 1
+      },
+      "states": {
+        "VIC": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Goldwind Australia",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Goldwind",
+          "role": "wind_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "UGL (CIMIC Group)",
+      "slug": "ugl-cimic-group",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 510.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "QLD": 1
+      },
+      "statuses": {
+        "commissioning": 1
+      },
+      "top_developers": [
+        [
+          "Western Downs BESS Pty Ltd as trustee for Western Downs BESS Trust",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Tesla",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "CATCON",
+      "slug": "catcon",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 453.0,
+      "technologies": {
+        "wind": 1
+      },
+      "states": {
+        "QLD": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "AGL Energy",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "GE Vernova",
+          "role": "wind_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Vestas",
+      "slug": "vestas",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 420.0,
+      "technologies": {
+        "wind": 1
+      },
+      "states": {
+        "VIC": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Macarthur Wind Farm Pty Ltd and Meridian Wind Macarthur Pty Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Vestas",
+          "role": "wind_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "GE Vernova + NACAP + CCP (consortium)",
+      "slug": "ge-vernova-nacap-ccp-consortium",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 414.0,
+      "technologies": {
+        "wind": 1
+      },
+      "states": {
+        "NSW": 1
+      },
+      "statuses": {
+        "construction": 1
+      },
+      "top_developers": [
+        [
+          "Squadron Energy (Tattarang)",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "GE Vernova",
+          "role": "wind_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "ACCIONA Energia",
+      "slug": "acciona-energia",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 387.0,
+      "technologies": {
+        "solar": 1
+      },
+      "states": {
+        "QLD": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Acciona Energy Australia Global Pty Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "JA Solar",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "Ingeteam",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "BELECTRIC",
+      "slug": "belectric",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 306.0,
+      "technologies": {
+        "solar": 1
+      },
+      "states": {
+        "NSW": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Limondale Sun Farm Pty Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "SunPower",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "SMA",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Yurika (QLD Govt-owned)",
+      "slug": "yurika-qld-govt-owned",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 300.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "QLD": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Stanwell Corporation",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Tesla",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "GRS / CHINT Solar (JV)",
+      "slug": "grs-chint-solar-jv",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 300.0,
+      "technologies": {
+        "solar": 1
+      },
+      "states": {
+        "NSW": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "FRV Australia (Walla Walla Asset Co Pty Ltd (ACN 634 728 868) as trustee for the Walla Walla Asset Trust)",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Astronergy",
+          "role": "solar_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "DT Infrastructure (Gamuda)",
+      "slug": "dt-infrastructure-gamuda",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 280.0,
+      "technologies": {
+        "solar": 1
+      },
+      "states": {
+        "NSW": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Wollar Solar Development Pty Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": []
+    },
+    {
+      "contractor": "DT Infrastructure",
+      "slug": "dt-infrastructure",
+      "category": "bop_only",
+      "roles": [
+        "bop"
+      ],
+      "projects": 1,
+      "mw_total": 256.0,
+      "technologies": {
+        "wind": 1
+      },
+      "states": {
+        "SA": 1
+      },
+      "statuses": {
+        "construction": 1
+      },
+      "top_developers": [
+        [
+          "Aula Energy",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "GE Vernova",
+          "role": "wind_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "McConnell Dowell / John Holland JV",
+      "slug": "mcconnell-dowell-john-holland-jv",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 250.0,
+      "technologies": {
+        "pumped_hydro": 1
+      },
+      "states": {
+        "QLD": 1
+      },
+      "statuses": {
+        "construction": 1
+      },
+      "top_developers": [
+        [
+          "Genex Power",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "ANDRITZ Hydro",
+          "role": "hydro_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Samsung C&T (turnkey EPC)",
+      "slug": "samsung-c-t-turnkey-epc",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 250.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "VIC": 1
+      },
+      "statuses": {
+        "construction": 1
+      },
+      "top_developers": [
+        [
+          "FRV Australia (Abdul Latif Jameel / OMERS)",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Hithium",
+          "role": "bess_oem",
+          "count": 1
+        },
+        {
+          "supplier": "SMA Solar (inverters)",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Wartsila",
+      "slug": "wartsila",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 250.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "SA": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "AGL Energy",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Wartsila",
+          "role": "bess_oem",
+          "count": 1
+        },
+        {
+          "supplier": "SMA",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "ACLE Services / ACEnergy",
+      "slug": "acle-services-acenergy",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 250.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "VIC": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Valent Energy (Gaw Capital / BW ESS)",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "CATL",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "DT Infrastructure / Gamuda",
+      "slug": "dt-infrastructure-gamuda",
+      "category": "bop_only",
+      "roles": [
+        "bop"
+      ],
+      "projects": 1,
+      "mw_total": 228.0,
+      "technologies": {
+        "wind": 1
+      },
+      "states": {
+        "QLD": 1
+      },
+      "statuses": {
+        "construction": 1
+      },
+      "top_developers": [
+        [
+          "Aula Energy / CS Energy (50:50 JV)",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "GE Vernova",
+          "role": "wind_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "INTEC Energy Solutions",
+      "slug": "intec-energy-solutions",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 222.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "QLD": 1
+      },
+      "statuses": {
+        "construction": 1
+      },
+      "top_developers": [
+        [
+          "Lightsource bp",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Hithium",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Decmil/RJE JV",
+      "slug": "decmil-rje-jv",
+      "category": "bop_only",
+      "roles": [
+        "bop"
+      ],
+      "projects": 1,
+      "mw_total": 218.0,
+      "technologies": {
+        "wind": 1
+      },
+      "states": {
+        "VIC": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Ryan Corner Development Pty Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Vestas",
+          "role": "wind_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "NHOA Energy / Elecnor JV",
+      "slug": "nhoa-energy-elecnor-jv",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 200.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "SA": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Neoen",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "CATL",
+          "role": "bess_oem",
+          "count": 1
+        },
+        {
+          "supplier": "Power Electronics",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Fluence / Zenviron",
+      "slug": "fluence-zenviron",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 200.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "VIC": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Tilt Renewables (Mercury NZ)",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Fluence",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "RJE Global / Symal JV",
+      "slug": "rje-global-symal-jv",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 200.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "VIC": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Eku Energy (Macquarie/Shell)",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Fluence",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Canadian Solar / Biosar (JV)",
+      "slug": "canadian-solar-biosar-jv",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 200.0,
+      "technologies": {
+        "solar": 1
+      },
+      "states": {
+        "VIC": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "KSF Project Nominees Pty Ltd ATF KSF Project Trust",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Canadian Solar",
+          "role": "solar_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Decmil",
+      "slug": "decmil",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 200.0,
+      "technologies": {
+        "solar": 1
+      },
+      "states": {
+        "NSW": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Sunraysia Solar Project Pty Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Jinko Solar",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "Schneider Electric",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "RES",
+      "slug": "res",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 180.6,
+      "technologies": {
+        "wind": 1
+      },
+      "states": {
+        "QLD": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Dulacca Energy Project Co Pty Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Vestas",
+          "role": "wind_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Fulton Hogan",
+      "slug": "fulton-hogan",
+      "category": "bop_only",
+      "roles": [
+        "bop"
+      ],
+      "projects": 1,
+      "mw_total": 175.0,
+      "technologies": {
+        "wind": 1
+      },
+      "states": {
+        "NSW": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "CECEP Wind Power Australia Pty Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Goldwind",
+          "role": "wind_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Bouygues Construction",
+      "slug": "bouygues-construction",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 150.0,
+      "technologies": {
+        "solar": 1
+      },
+      "states": {
+        "NSW": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Suntop SF Pty Ltd As Trustee For The Suntop Asset",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Canadian Solar",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "Ingeteam",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Green Light Contractors",
+      "slug": "green-light-contractors",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 110.0,
+      "technologies": {
+        "solar": 1
+      },
+      "states": {
+        "SA": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Potentia Energy Pty Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Jinko Solar",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "SMA",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Signal Energy Australia",
+      "slug": "signal-energy-australia",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 110.0,
+      "technologies": {
+        "solar": 1
+      },
+      "states": {
+        "VIC": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Glenrowan Sun Farm Pty Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Jinko Solar",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "SMA",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Doosan GridTech / Provecta",
+      "slug": "doosan-gridtech-provecta",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 100.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "NSW": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Neoen",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Doosan GridTech",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Canadian Solar e-STORAGE / CPP",
+      "slug": "canadian-solar-e-storage-cpp",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 100.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "SA": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Epic Energy",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Canadian Solar e-STORAGE",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Zenviron / Wartsila",
+      "slug": "zenviron-wartsila",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 100.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "VIC": 1
+      },
+      "statuses": {
+        "construction": 1
+      },
+      "top_developers": [
+        [
+          "Bennetts Creek Energy Project Pty Ltd in its capacity as Trustee for the Bennetts Creek Energy Project Trust",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Wartsila",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Canadian Solar / TEC-C",
+      "slug": "canadian-solar-tec-c",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 100.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "VIC": 1
+      },
+      "statuses": {
+        "construction": 1
+      },
+      "top_developers": [
+        [
+          "frv_NR",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Canadian Solar e-STORAGE",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "RCR / Laing O'Rourke",
+      "slug": "rcr-laing-o-rourke",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 88.0,
+      "technologies": {
+        "solar": 1
+      },
+      "states": {
+        "VIC": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Wemen Asset Co Pty Ltd as Trustee to Wemen Solar Unit Trust",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Jinko Solar",
+          "role": "solar_oem",
+          "count": 1
+        },
+        {
+          "supplier": "SMA",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Tranex Solar",
+      "slug": "tranex-solar",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 85.0,
+      "technologies": {
+        "solar": 1
+      },
+      "states": {
+        "NSW": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Hillston Sun Farm Operations Pty Ltd ATF Hillston",
+          1
+        ]
+      ],
+      "top_oem_partners": []
+    },
+    {
+      "contractor": "METKA EGN (Mytilineos)",
+      "slug": "metka-egn-mytilineos",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 82.0,
+      "technologies": {
+        "solar": 1
+      },
+      "states": {
+        "QLD": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Moura Solar Farm SPV Pty Ltd as the Trustee for Moura Solar Farm Unit Trust",
+          1
+        ]
+      ],
+      "top_oem_partners": []
+    },
+    {
+      "contractor": "Lendlease",
+      "slug": "lendlease",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 64.0,
+      "technologies": {
+        "solar": 1
+      },
+      "states": {
+        "QLD": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "The University of Queensland",
+          1
+        ]
+      ],
+      "top_oem_partners": []
+    },
+    {
+      "contractor": "Enzen Australia",
+      "slug": "enzen-australia",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 60.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "SA": 1
+      },
+      "statuses": {
+        "commissioning": 1
+      },
+      "top_developers": [
+        [
+          "Pacific Blue (SPIC China)",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Trina Storage",
+          "role": "bess_oem",
+          "count": 1
+        },
+        {
+          "supplier": "SMA Solar (inverters)",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Fluence / Valmec (Altrad)",
+      "slug": "fluence-valmec-altrad",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 50.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "NSW": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "AGL Energy / Macquarie",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Fluence",
+          "role": "bess_oem",
+          "count": 1
+        },
+        {
+          "supplier": "EPC Power",
+          "role": "inverter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "Tesla",
+      "slug": "tesla",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 50.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "NSW": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "TransGrid",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Tesla",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "European Energy",
+      "slug": "european-energy",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 46.0,
+      "technologies": {
+        "solar": 1
+      },
+      "states": {
+        "VIC": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "EE Solar 6 Pty Ltd as trustee for EE Solar 6 Trust",
+          1
+        ]
+      ],
+      "top_oem_partners": []
+    },
+    {
+      "contractor": "Spotless Sustainability Services",
+      "slug": "spotless-sustainability-services",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 30.0,
+      "technologies": {
+        "bess": 1
+      },
+      "states": {
+        "VIC": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "AusNet Services",
+          1
+        ]
+      ],
+      "top_oem_partners": [
+        {
+          "supplier": "Fluence",
+          "role": "bess_oem",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "contractor": "British Solar Renewables",
+      "slug": "british-solar-renewables",
+      "category": "epc_only",
+      "roles": [
+        "epc"
+      ],
+      "projects": 1,
+      "mw_total": 30.0,
+      "technologies": {
+        "solar": 1
+      },
+      "states": {
+        "VIC": 1
+      },
+      "statuses": {
+        "operating": 1
+      },
+      "top_developers": [
+        [
+          "Kerang Solar Plant Pty Ltd",
+          1
+        ]
+      ],
+      "top_oem_partners": []
+    }
+  ],
+  "contractor_portfolio": {
+    "Future Generation Joint Venture (Webuild/Clough/Lane)": [
+      {
+        "project_id": "snowy-20",
+        "project_name": "Snowy 2.0.",
+        "role": "epc",
+        "technology": "pumped_hydro",
+        "state": "NSW",
+        "status": "construction",
+        "capacity_mw": 2200.0,
+        "developer": "Snowy Hydro Ltd",
+        "model": null,
+        "source_url": "https://www.futuregenerationjv.com.au/about-us",
+        "drift_months": 0.0
+      }
+    ],
+    "McConnell Dowell / John Holland JV": [
+      {
+        "project_id": "kidston-pumped-storage-hydro-project-250mw",
+        "project_name": "Kidston Pumped Storage Hydro Project 250MW",
+        "role": "epc",
+        "technology": "pumped_hydro",
+        "state": "QLD",
+        "status": "construction",
+        "capacity_mw": 250.0,
+        "developer": "Genex Power",
+        "model": null,
+        "source_url": "https://www.mcconnelldowell.com/projects/kidston-pumped-storage-hydro",
+        "drift_months": 0.0
+      }
+    ],
+    "AFRY-Aurecon JV (design services)": [
+      {
+        "project_id": "borumba",
+        "project_name": "Borumba",
+        "role": "epc",
+        "technology": "pumped_hydro",
+        "state": "QLD",
+        "status": "development",
+        "capacity_mw": 2000.0,
+        "developer": "Queensland Hydro",
+        "model": null,
+        "source_url": "https://qldhydro.com.au/projects/borumba/",
+        "drift_months": 0.0
+      }
+    ],
+    "Water2Wire JV (GHD/Mott MacDonald/Stantec) \u2014 dam design": [
+      {
+        "project_id": "borumba",
+        "project_name": "Borumba",
+        "role": "epc",
+        "technology": "pumped_hydro",
+        "state": "QLD",
+        "status": "development",
+        "capacity_mw": 2000.0,
+        "developer": "Queensland Hydro",
+        "model": null,
+        "source_url": "https://qldhydro.com.au/projects/borumba/",
+        "drift_months": 0.0
+      }
+    ],
+    "Vestas (EPC for Stage 1 and Stage 2)": [
+      {
+        "project_id": "golden-plains-wind",
+        "project_name": "Golden Plains Wind Farm",
+        "role": "epc",
+        "technology": "wind",
+        "state": "VIC",
+        "status": "construction",
+        "capacity_mw": 1610.0,
+        "developer": "TagEnergy / Ingka Group",
+        "model": null,
+        "source_url": "https://tag-en.com/3-billion-victorian-wind-farm-secures-equity-investor-and-epc-contractor/",
+        "drift_months": null
+      }
+    ],
+    "Vestas (EPC)": [
+      {
+        "project_id": "golden-plains-wind-farm-west",
+        "project_name": "Golden Plains Wind Farm West",
+        "role": "epc",
+        "technology": "wind",
+        "state": "VIC",
+        "status": "construction",
+        "capacity_mw": 577.0,
+        "developer": "TagEnergy / Ingka Group",
+        "model": null,
+        "source_url": null,
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "wambo-wind-farm",
+        "project_name": "Wambo Wind Farm",
+        "role": "epc",
+        "technology": "wind",
+        "state": "QLD",
+        "status": "construction",
+        "capacity_mw": 506.0,
+        "developer": "Cubico Sustainable Investments / Stanwell Corporation (50:50 JV)",
+        "model": null,
+        "source_url": null,
+        "drift_months": 0.0
+      }
+    ],
+    "GE Vernova + NACAP + CCP (consortium)": [
+      {
+        "project_id": "uungula-wind-farm",
+        "project_name": "Uungula Wind Farm",
+        "role": "epc",
+        "technology": "wind",
+        "state": "NSW",
+        "status": "construction",
+        "capacity_mw": 414.0,
+        "developer": "Squadron Energy (Tattarang)",
+        "model": null,
+        "source_url": null,
+        "drift_months": 0.0
+      }
+    ],
+    "Zenviron": [
+      {
+        "project_id": "lotus-creek-wind-farm",
+        "project_name": "Lotus Creek Wind Farm",
+        "role": "bop",
+        "technology": "wind",
+        "state": "QLD",
+        "status": "construction",
+        "capacity_mw": 285.0,
+        "developer": "CS Energy",
+        "model": null,
+        "source_url": "https://zenviron.com/projects/lotus-creek-wind-farm",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "wooreen-energy-storage-system",
+        "project_name": "Wooreen Energy Storage System",
+        "role": "bop",
+        "technology": "bess",
+        "state": "VIC",
+        "status": "construction",
+        "capacity_mw": 350.0,
+        "developer": "EnergyAustralia",
+        "model": null,
+        "source_url": "https://www.energy-storage.news/zenviron-wins-contract-for-350mw-4-hour-bess-in-victoria-australia/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "rye-park-wind-farm",
+        "project_name": "Rye Park Wind Farm",
+        "role": "bop",
+        "technology": "wind",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 396.0,
+        "developer": "Tilt Renewables Australia Pty Ltd",
+        "model": null,
+        "source_url": null,
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "dundonnell-wind-farm",
+        "project_name": "Dundonnell Wind Farm",
+        "role": "bop",
+        "technology": "wind",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 336.0,
+        "developer": "Tilt Renewables",
+        "model": null,
+        "source_url": null,
+        "drift_months": 0.0
+      }
+    ],
+    "DT Infrastructure": [
+      {
+        "project_id": "carmodys-hill-wind-farm",
+        "project_name": "Carmodys Hill Wind Farm",
+        "role": "bop",
+        "technology": "wind",
+        "state": "SA",
+        "status": "construction",
+        "capacity_mw": 256.0,
+        "developer": "Aula Energy",
+        "model": null,
+        "source_url": "https://www.insideconstruction.com.au/news/latest-news/dt-infrastructure-wins-contract-to-deliver-carmodys-hill-wind-farm",
+        "drift_months": 0.0
+      }
+    ],
+    "DT Infrastructure / Gamuda": [
+      {
+        "project_id": "boulder-creek-wind-farm",
+        "project_name": "Boulder Creek Wind Farm",
+        "role": "bop",
+        "technology": "wind",
+        "state": "QLD",
+        "status": "construction",
+        "capacity_mw": 228.0,
+        "developer": "Aula Energy / CS Energy (50:50 JV)",
+        "model": null,
+        "source_url": "https://dtinfrastructure.com.au/boulder-creek-wind-farm/",
+        "drift_months": 0.0
+      }
+    ],
+    "NuEnergy Infrastructure": [
+      {
+        "project_id": "supernode-bess",
+        "project_name": "Supernode BESS",
+        "role": "bop",
+        "technology": "bess",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 1300.0,
+        "developer": "Quinbrook Infrastructure Partners",
+        "model": null,
+        "source_url": "https://nuenergy.au/nuenergy-landmark-supernode-battery-storage-project/",
+        "drift_months": 0.0
+      }
+    ],
+    "Enerven (SA Power Networks)": [
+      {
+        "project_id": "eraring-battery",
+        "project_name": "Eraring Battery",
+        "role": "bop",
+        "technology": "bess",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 700.0,
+        "developer": "Origin Energy",
+        "model": null,
+        "source_url": "https://www.enerven.com.au/projects/eraring-battery-energy-storage-system/",
+        "drift_months": null
+      }
+    ],
+    "Consolidated Power Projects (CPP)": [
+      {
+        "project_id": "orana-bess",
+        "project_name": "Orana BESS",
+        "role": "bop",
+        "technology": "bess",
+        "state": "NSW",
+        "status": "commissioning",
+        "capacity_mw": 415.0,
+        "developer": "Akaysha Energy (BlackRock)",
+        "model": null,
+        "source_url": "https://akayshaenergy.com/projects/orana-bess",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "elaine-bess",
+        "project_name": "Elaine BESS",
+        "role": "bop",
+        "technology": "bess",
+        "state": "VIC",
+        "status": "construction",
+        "capacity_mw": 311.0,
+        "developer": "Akaysha Energy (BlackRock)",
+        "model": null,
+        "source_url": null,
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "williamsdale-bess",
+        "project_name": "Williamsdale BESS",
+        "role": "bop",
+        "technology": "bess",
+        "state": "NSW",
+        "status": "construction",
+        "capacity_mw": 250.0,
+        "developer": "Eku Energy (Macquarie / BCIM)",
+        "model": null,
+        "source_url": null,
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "brendale-bess",
+        "project_name": "Brendale BESS",
+        "role": "bop",
+        "technology": "bess",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 205.0,
+        "developer": "Akaysha Energy (BlackRock)",
+        "model": null,
+        "source_url": null,
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "tailem-bend-stage-3",
+        "project_name": "Tailem Bend Stage 3",
+        "role": "bop",
+        "technology": "bess",
+        "state": "SA",
+        "status": "construction",
+        "capacity_mw": 204.0,
+        "developer": "Vena Energy",
+        "model": null,
+        "source_url": null,
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "calala-bess-a1",
+        "project_name": "Calala BESS A1",
+        "role": "bop",
+        "technology": "bess",
+        "state": "NSW",
+        "status": "construction",
+        "capacity_mw": 250.0,
+        "developer": "Equis Australia",
+        "model": null,
+        "source_url": null,
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "greenbank-bess",
+        "project_name": "Greenbank BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 200.0,
+        "developer": "CS Energy",
+        "model": null,
+        "source_url": "https://www.conpower.com.au/project/greenbank-tesla/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "koorangie-energy-storage-system",
+        "project_name": "Koorangie Energy Storage System",
+        "role": "epc",
+        "technology": "bess",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 185.0,
+        "developer": "Edify Energy (Sosteneo)",
+        "model": null,
+        "source_url": "https://edifyenergy.com/project/koorangie-energy-storage-system/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "ulinda-park-bess",
+        "project_name": "Ulinda Park BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 155.0,
+        "developer": "Akaysha Energy (BlackRock)",
+        "model": null,
+        "source_url": "https://akayshaenergy.com/projects/ulinda-park-bess",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "bouldercombe-battery-project",
+        "project_name": "Bouldercombe Battery project",
+        "role": "epc",
+        "technology": "bess",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 50.0,
+        "developer": "Genex Power",
+        "model": null,
+        "source_url": "https://genexpower.com.au/bouldercombe-battery-project/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "dalrymple-bess",
+        "project_name": "Dalrymple BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "SA",
+        "status": "operating",
+        "capacity_mw": 30.0,
+        "developer": "ElectraNet",
+        "model": null,
+        "source_url": "https://www.escri-sa.com.au/about/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "templers-bess",
+        "project_name": "Templers BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "SA",
+        "status": "commissioning",
+        "capacity_mw": 111.0,
+        "developer": "ZEBRE Pty Ltd",
+        "model": null,
+        "source_url": "https://www.zenenergy.com.au/templers-battery/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "waratah-super-battery",
+        "project_name": "Waratah Super Battery",
+        "role": "epc",
+        "technology": "bess",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 850.0,
+        "developer": "Akaysha Energy (BlackRock)",
+        "model": null,
+        "source_url": "https://akayshaenergy.com/projects/waratah-super-battery",
+        "drift_months": null
+      }
+    ],
+    "Yurika (QLD Govt-owned)": [
+      {
+        "project_id": "tarong-bess-stanwell",
+        "project_name": "Tarong BESS - Stanwell",
+        "role": "epc",
+        "technology": "bess",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 300.0,
+        "developer": "Stanwell Corporation",
+        "model": null,
+        "source_url": "https://www.yurika.com.au/mega-boost-for-tarong-battery-project/",
+        "drift_months": 0.0
+      }
+    ],
+    "Samsung C&T (turnkey EPC)": [
+      {
+        "project_id": "gnarwarre-bess-facility",
+        "project_name": "Gnarwarre BESS Facility",
+        "role": "epc",
+        "technology": "bess",
+        "state": "VIC",
+        "status": "construction",
+        "capacity_mw": 250.0,
+        "developer": "FRV Australia (Abdul Latif Jameel / OMERS)",
+        "model": null,
+        "source_url": "https://frv.com/en/frv-australia-completes-financial-close-of-the-250mw-500mwh-gnarwarre-battery-project/",
+        "drift_months": 0.0
+      }
+    ],
+    "ACLE Services": [
+      {
+        "project_id": "mornington-bess",
+        "project_name": "Mornington BESS",
+        "role": "bop",
+        "technology": "bess",
+        "state": "VIC",
+        "status": "commissioning",
+        "capacity_mw": 540.0,
+        "developer": "Valent Energy (Gaw Capital / BW ESS)",
+        "model": null,
+        "source_url": "https://www.acle.com.au/our-projects-2/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "pine-lodge-bess",
+        "project_name": "Pine Lodge BESS",
+        "role": "bop",
+        "technology": "bess",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 250.0,
+        "developer": "Valent Energy (Gaw Capital / BW ESS)",
+        "model": null,
+        "source_url": "https://www.acle.com.au/our-projects-2/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "smithfield-bess",
+        "project_name": "Smithfield BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 65.0,
+        "developer": "Iberdrola",
+        "model": null,
+        "source_url": "https://www.energy-storage.news/iberdrola-australia-opens-130mwh-battery-storage-system-in-western-sydney/",
+        "drift_months": 0.0
+      }
+    ],
+    "INTEC Energy Solutions": [
+      {
+        "project_id": "woolooga-bess",
+        "project_name": "Woolooga BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "QLD",
+        "status": "construction",
+        "capacity_mw": 222.0,
+        "developer": "Lightsource bp",
+        "model": null,
+        "source_url": "https://in-tecenergy.com/news/intec-provides-bess-epc-for-lightsource-bp/",
+        "drift_months": 0.0
+      }
+    ],
+    "Elecnor": [
+      {
+        "project_id": "pelican-point-bess",
+        "project_name": "Pelican Point BESS",
+        "role": "bop",
+        "technology": "bess",
+        "state": "SA",
+        "status": "construction",
+        "capacity_mw": 200.0,
+        "developer": "ENGIE",
+        "model": null,
+        "source_url": "https://www.power-technology.com/news/construction-engies-pelican-point-bess/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "port-augusta-renewable-energy-park-wind",
+        "project_name": "Port Augusta Renewable Energy Park - Wind",
+        "role": "epc",
+        "technology": "wind",
+        "state": "SA",
+        "status": "operating",
+        "capacity_mw": 210.0,
+        "developer": "PAREP 1 Pty Ltd",
+        "model": null,
+        "source_url": null,
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "bungala-one-solar-farm",
+        "project_name": "Bungala One Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "SA",
+        "status": "operating",
+        "capacity_mw": 110.0,
+        "developer": "Bungala One Operations Pty Ltd as trustee for the Bungala One Operations Trust",
+        "model": null,
+        "source_url": "https://www.nsenergybusiness.com/news/jinkosolar-delivers-275-4-mw-of-solar-modules-for-bungala-solar-farm/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "moree-solar-farm",
+        "project_name": "Moree Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 56.0,
+        "developer": "Moree Solar Farm Pty Ltd",
+        "model": null,
+        "source_url": "https://www.power-technology.com/marketdata/moree-solar-farm-australia/",
+        "drift_months": 0.0
+      }
+    ],
+    "Beon Energy Solutions": [
+      {
+        "project_id": "limondale-bess",
+        "project_name": "Limondale BESS",
+        "role": "bop",
+        "technology": "bess",
+        "state": "NSW",
+        "status": "construction",
+        "capacity_mw": 50.0,
+        "developer": "RWE Renewables Australia",
+        "model": null,
+        "source_url": "https://beon-es.com.au/project/limondale/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "avonlie-solar-farm",
+        "project_name": "Avonlie Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 245.0,
+        "developer": "Iberdrola Australia Limited",
+        "model": null,
+        "source_url": "https://www.pv-tech.org/iberdrola-australia-completes-the-golden-row-of-its-largest-solar-pv-power-plant/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "metz-solar-farm",
+        "project_name": "Metz Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 115.0,
+        "developer": "Metz ProjectCo Pty Ltd as trustee for Metz ProjectCo Trust",
+        "model": null,
+        "source_url": "https://www.pv-magazine-australia.com/2022/09/13/frv-australia-reveals-115-mw-solar-farm-now-at-100-capacity/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "bomen-solar-farm",
+        "project_name": "Bomen Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 100.0,
+        "developer": "Spark Infrastructure Holdings No. 6 Pty Limited",
+        "model": null,
+        "source_url": "https://sparkrenewables.com/bomen-solar-farm/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "sebastopol-solar-farm",
+        "project_name": "Sebastopol Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 90.0,
+        "developer": "Sebastopol Asset Co Pty Ltd ATF Sebastopol Asset Trust",
+        "model": null,
+        "source_url": "https://sebastopolsolarfarm.com/about-us/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "girgarre-solar-farm",
+        "project_name": "Girgarre Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 76.0,
+        "developer": "Giragarre Solar Farm Pty Ltd as trustee for Giragarre Solar Farm Trust",
+        "model": null,
+        "source_url": "https://www.pv-tech.org/ingeteam-to-supply-inverters-for-93mw-victoria-australia-solar-pv-project/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "jemalong-solar",
+        "project_name": "Jemalong Solar",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 50.0,
+        "developer": "Genex Power",
+        "model": null,
+        "source_url": "https://genexpower.com.au/50mw-jemalong-solar-project/",
+        "drift_months": 0.0
+      }
+    ],
+    "Enzen Australia": [
+      {
+        "project_id": "clements-gap-bess",
+        "project_name": "Clements Gap - BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "SA",
+        "status": "commissioning",
+        "capacity_mw": 60.0,
+        "developer": "Pacific Blue (SPIC China)",
+        "model": null,
+        "source_url": "https://www.energymagazine.com.au/constuction-of-60mw-clements-gap-bess-underway/",
+        "drift_months": 0.0
+      }
+    ],
+    "Enerven": [
+      {
+        "project_id": "eraring-big-battery",
+        "project_name": "Eraring Big Battery",
+        "role": "epc",
+        "technology": "bess",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 700.0,
+        "developer": "Origin Energy Electricity Limited",
+        "model": null,
+        "source_url": "https://www.enerven.com.au/projects/eraring-battery-energy-storage-system/",
+        "drift_months": null
+      }
+    ],
+    "Wartsila": [
+      {
+        "project_id": "torrens-island-bess",
+        "project_name": "Torrens Island BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "SA",
+        "status": "operating",
+        "capacity_mw": 250.0,
+        "developer": "AGL Energy",
+        "model": null,
+        "source_url": "https://www.energy-storage.news/agl-wartsila-complete-250mw-torrens-island-bess-project-in-south-australia/",
+        "drift_months": 0.0
+      }
+    ],
+    "NHOA Energy / Elecnor JV": [
+      {
+        "project_id": "blyth-bess",
+        "project_name": "Blyth BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "SA",
+        "status": "operating",
+        "capacity_mw": 200.0,
+        "developer": "Neoen",
+        "model": null,
+        "source_url": "https://neoen.com/en/news/2023/neoen-launches-construction-of-200-mw-400-mwh-blyth-battery-in-south-australia/",
+        "drift_months": 0.0
+      }
+    ],
+    "Fluence / Zenviron": [
+      {
+        "project_id": "latrobe-valley-bess",
+        "project_name": "LaTrobe Valley BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 200.0,
+        "developer": "Tilt Renewables (Mercury NZ)",
+        "model": null,
+        "source_url": "https://zenviron.com/projects/Latrobe-Valley-BESS",
+        "drift_months": 0.0
+      }
+    ],
+    "Samsung C&T / Genus Plus JV": [
+      {
+        "project_id": "melbourne-renewable-energy-hub-connection-a1",
+        "project_name": "Melbourne Renewable Energy Hub Connection A1",
+        "role": "epc",
+        "technology": "bess",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 200.0,
+        "developer": "Equis Energy / SEC Victoria",
+        "model": null,
+        "source_url": "https://www.secvictoria.com.au/investments/melbourne-renewable-energy-hub",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "melbourne-renewable-energy-hub-connection-a2",
+        "project_name": "Melbourne Renewable Energy Hub Connection A2",
+        "role": "epc",
+        "technology": "bess",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 200.0,
+        "developer": "Equis Energy / SEC Victoria",
+        "model": null,
+        "source_url": "https://www.secvictoria.com.au/investments/melbourne-renewable-energy-hub",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "melbourne-renewable-energy-hub-connection-a3",
+        "project_name": "Melbourne Renewable Energy Hub Connection A3",
+        "role": "epc",
+        "technology": "bess",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 200.0,
+        "developer": "Equis Energy / SEC Victoria",
+        "model": null,
+        "source_url": "https://www.secvictoria.com.au/investments/melbourne-renewable-energy-hub",
+        "drift_months": 0.0
+      }
+    ],
+    "RJE Global / Symal JV": [
+      {
+        "project_id": "rangebank-bess",
+        "project_name": "Rangebank BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 200.0,
+        "developer": "Eku Energy (Macquarie/Shell)",
+        "model": null,
+        "source_url": "https://symal.com.au/projects/rangebank-battery-energy-storage-system/",
+        "drift_months": 0.0
+      }
+    ],
+    "Fluence": [
+      {
+        "project_id": "hazelwood-battery-energy-storage-system-hbess",
+        "project_name": "Hazelwood Battery Energy Storage System (HBESS)",
+        "role": "epc",
+        "technology": "bess",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 150.0,
+        "developer": "ENGIE",
+        "model": null,
+        "source_url": "https://engie.com.au/about-us/our-generation-activities/battery-storage/hazelwood-battery",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "tomago-bess",
+        "project_name": "Tomago BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "NSW",
+        "status": "construction",
+        "capacity_mw": 500.0,
+        "developer": "AGL",
+        "model": null,
+        "source_url": "https://www.agl.com.au/about-agl/operations/tomago-battery",
+        "drift_months": 0.0
+      }
+    ],
+    "Doosan GridTech / Provecta": [
+      {
+        "project_id": "capital-battery",
+        "project_name": "Capital Battery",
+        "role": "epc",
+        "technology": "bess",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 100.0,
+        "developer": "Neoen",
+        "model": null,
+        "source_url": "https://provecta.com.au/project/capital-bess/",
+        "drift_months": 0.0
+      }
+    ],
+    "Downer": [
+      {
+        "project_id": "chinchilla-bess",
+        "project_name": "Chinchilla BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 100.0,
+        "developer": "CS Energy",
+        "model": null,
+        "source_url": "https://www.csenergy.com.au/what-we-do/firming-and-storage/chinchilla-battery",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "numurkah-solar-farm",
+        "project_name": "Numurkah Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 128.0,
+        "developer": "Numurkah Solar Farm Pty Ltd",
+        "model": null,
+        "source_url": "https://www.powerinfotoday.com/solar-energy/longi-supplied-128mw-high-efficiency-monocrystalline-panels-to-the-biggest-numurkah-solar-farm-in-australia/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "ross-river-solar-farm",
+        "project_name": "Ross River Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 116.0,
+        "developer": "Ross River Operations Pty Ltd as the Trustee for the Ross River Operations Trust",
+        "model": null,
+        "source_url": "https://www.power-technology.com/projects/ross-river-solar-farm/",
+        "drift_months": 0.0
+      }
+    ],
+    "Canadian Solar e-STORAGE / CPP": [
+      {
+        "project_id": "mannum-bess",
+        "project_name": "Mannum BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "SA",
+        "status": "operating",
+        "capacity_mw": 100.0,
+        "developer": "Epic Energy",
+        "model": null,
+        "source_url": "https://epicenergy.com.au/mannum-battery-energy-storage-system/",
+        "drift_months": 0.0
+      }
+    ],
+    "Doosan GridTech": [
+      {
+        "project_id": "wandoan-south-bess",
+        "project_name": "Wandoan South BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 100.0,
+        "developer": "Vena Energy",
+        "model": null,
+        "source_url": "https://www.doosangridtech.com/wandoan-south-bess",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "tailem-bend-battery-project",
+        "project_name": "Tailem Bend Battery Project",
+        "role": "epc",
+        "technology": "bess",
+        "state": "SA",
+        "status": "commissioning",
+        "capacity_mw": 41.5,
+        "developer": "Vena Energy",
+        "model": null,
+        "source_url": "https://www.doosangridtech.com/press-release/tailembend",
+        "drift_months": 0.0
+      }
+    ],
+    "Edify Energy": [
+      {
+        "project_id": "riverina-energy-storage-system-2",
+        "project_name": "Riverina Energy Storage System 2",
+        "role": "epc",
+        "technology": "bess",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 65.0,
+        "developer": "Edify Energy / Federation Asset Management",
+        "model": null,
+        "source_url": "https://edifyenergy.com/energy-storage-systems/financial-close-on-the-largest-approved-grid-forming-battery/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "riverina-energy-storage-system-1",
+        "project_name": "Riverina Energy Storage System 1",
+        "role": "epc",
+        "technology": "bess",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 60.0,
+        "developer": "Edify Energy / Federation Asset Management",
+        "model": null,
+        "source_url": "https://edifyenergy.com/project/riverina-darlington-point/",
+        "drift_months": 0.0
+      }
+    ],
+    "Fluence / Valmec (Altrad)": [
+      {
+        "project_id": "broken-hill-bess",
+        "project_name": "Broken Hill BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 50.0,
+        "developer": "AGL Energy / Macquarie",
+        "model": null,
+        "source_url": "https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-deliver-grid-forming-energy-storage-system-agls-broken",
+        "drift_months": 0.0
+      }
+    ],
+    "Tesla": [
+      {
+        "project_id": "wallgrove-grid-battery-project",
+        "project_name": "Wallgrove Grid Battery project",
+        "role": "epc",
+        "technology": "bess",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 50.0,
+        "developer": "TransGrid",
+        "model": null,
+        "source_url": "https://arena.gov.au/projects/transgrid-wallgrove-battery/",
+        "drift_months": 0.0
+      }
+    ],
+    "Spotless Sustainability Services": [
+      {
+        "project_id": "ballarat-energy-storage-system",
+        "project_name": "Ballarat Energy Storage System",
+        "role": "epc",
+        "technology": "bess",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 30.0,
+        "developer": "AusNet Services",
+        "model": null,
+        "source_url": "https://arena.gov.au/projects/ballarat-energy-storage-system/",
+        "drift_months": 0.0
+      }
+    ],
+    "UGL (CIMIC Group)": [
+      {
+        "project_id": "western-downs-battery-stage-1-and-2",
+        "project_name": "Western Downs Battery - Stage 1 And 2",
+        "role": "epc",
+        "technology": "bess",
+        "state": "QLD",
+        "status": "commissioning",
+        "capacity_mw": 510.0,
+        "developer": "Western Downs BESS Pty Ltd as trustee for Western Downs BESS Trust",
+        "model": null,
+        "source_url": "https://www.ugllimited.com/news/2025/western-downs-battery-stage-1-is-operating",
+        "drift_months": 0.0
+      }
+    ],
+    "ACLE Services / ACEnergy": [
+      {
+        "project_id": "pine-lodge-bess",
+        "project_name": "Pine Lodge BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 250.0,
+        "developer": "Valent Energy (Gaw Capital / BW ESS)",
+        "model": null,
+        "source_url": "https://acenergy.com.au/portfolio/pine-lodge-bess/",
+        "drift_months": 0.0
+      }
+    ],
+    "Zenviron / Wartsila": [
+      {
+        "project_id": "bennetts-creek-bess",
+        "project_name": "Bennetts Creek BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "VIC",
+        "status": "construction",
+        "capacity_mw": 100.0,
+        "developer": "Bennetts Creek Energy Project Pty Ltd in its capacity as Trustee for the Bennetts Creek Energy Project Trust",
+        "model": null,
+        "source_url": "https://www.wartsila.com/media/news/22-12-2025-wartsila-marks-its-tenth-australian-project-with-energy-storage-system-for-flow-power-3699688",
+        "drift_months": 0.0
+      }
+    ],
+    "Canadian Solar / TEC-C": [
+      {
+        "project_id": "terang-bess",
+        "project_name": "Terang BESS",
+        "role": "epc",
+        "technology": "bess",
+        "state": "VIC",
+        "status": "construction",
+        "capacity_mw": 100.0,
+        "developer": "frv_NR",
+        "model": null,
+        "source_url": "https://frv.com/en/frv-australia-reaches-financial-close-for-the-100mw-200mwh-terang-large-scale-battery-project/",
+        "drift_months": 0.0
+      }
+    ],
+    "SNC-Lavalin / WBHO JV": [
+      {
+        "project_id": "stockyard-hill-wind-farm",
+        "project_name": "Stockyard Hill Wind Farm",
+        "role": "bop",
+        "technology": "wind",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 530.0,
+        "developer": "Goldwind Australia",
+        "model": null,
+        "source_url": null,
+        "drift_months": 0.0
+      }
+    ],
+    "CATCON": [
+      {
+        "project_id": "coopers-gap-wind-farm",
+        "project_name": "Coopers Gap Wind Farm",
+        "role": "epc",
+        "technology": "wind",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 453.0,
+        "developer": "AGL Energy",
+        "model": null,
+        "source_url": null,
+        "drift_months": 0.0
+      }
+    ],
+    "Vestas": [
+      {
+        "project_id": "macarthur-wind-farm",
+        "project_name": "Macarthur Wind Farm",
+        "role": "epc",
+        "technology": "wind",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 420.0,
+        "developer": "Macarthur Wind Farm Pty Ltd and Meridian Wind Macarthur Pty Ltd",
+        "model": null,
+        "source_url": null,
+        "drift_months": 0.0
+      }
+    ],
+    "Decmil/RJE JV": [
+      {
+        "project_id": "ryan-corner-wind-farm",
+        "project_name": "Ryan Corner Wind Farm",
+        "role": "bop",
+        "technology": "wind",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 218.0,
+        "developer": "Ryan Corner Development Pty Ltd",
+        "model": null,
+        "source_url": null,
+        "drift_months": 0.0
+      }
+    ],
+    "RES": [
+      {
+        "project_id": "dulacca-wind-farm",
+        "project_name": "Dulacca Wind Farm",
+        "role": "epc",
+        "technology": "wind",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 180.6,
+        "developer": "Dulacca Energy Project Co Pty Ltd",
+        "model": null,
+        "source_url": null,
+        "drift_months": 0.0
+      }
+    ],
+    "Fulton Hogan": [
+      {
+        "project_id": "white-rock-wind-farm-stage-1",
+        "project_name": "White Rock Wind Farm - Stage 1",
+        "role": "bop",
+        "technology": "wind",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 175.0,
+        "developer": "CECEP Wind Power Australia Pty Ltd",
+        "model": null,
+        "source_url": null,
+        "drift_months": 0.0
+      }
+    ],
+    "PCL Construction": [
+      {
+        "project_id": "stubbo-solar-farm",
+        "project_name": "Stubbo Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 400.0,
+        "developer": "ACEN AUSTRALIA",
+        "model": null,
+        "source_url": "https://www.pv-tech.org/acen-australia-appoints-pcl-construction-as-epc-contractor-for-400mwac-stubbo-solar-plant/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "woolooga-solar-farm",
+        "project_name": "Woolooga Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 176.0,
+        "developer": "Woolooga Fund Pty Ltd",
+        "model": null,
+        "source_url": "https://risenenergy.com.au/portfolio/woolooga-solar-farm/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "gunnedah-solar-farm",
+        "project_name": "Gunnedah Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 110.0,
+        "developer": "Gunnedah SF Pty Ltd atf Gunnedah Asset Trust",
+        "model": null,
+        "source_url": "https://www.pcl.com/au/en/our-work/gunnedah-solar",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "west-wyalong-solar-farm",
+        "project_name": "West Wyalong Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 90.0,
+        "developer": "West Wyalong Fund Pty Ltd",
+        "model": null,
+        "source_url": "https://www.pcl.com/au/en/our-work/west-wyalong-solar-project",
+        "drift_months": 0.0
+      }
+    ],
+    "Sterling & Wilson": [
+      {
+        "project_id": "western-downs-green-power-hub-pl",
+        "project_name": "Western Downs Green Power Hub P/L",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 400.0,
+        "developer": "Western Downs Green Power Hub Pty Ltd",
+        "model": null,
+        "source_url": "https://www.nsenergybusiness.com/projects/western-downs-green-power-hub/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "wellington-solar-farm",
+        "project_name": "Wellington Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 170.0,
+        "developer": "Lightsource Australia SPV 4 Pty Ltd",
+        "model": null,
+        "source_url": "https://www.pv-tech.org/sterling-and-wilson-starts-building-200mw-solar-project-in-australia/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "columboola-solar-farm",
+        "project_name": "Columboola Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 162.0,
+        "developer": "Luminous Energy",
+        "model": null,
+        "source_url": "https://www.pv-magazine-australia.com/2022/12/01/162-mw-queensland-solar-farm-begins-commercial-operations/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "port-augusta-renewable-energy-park-solar",
+        "project_name": "Port Augusta Renewable Energy Park - Solar",
+        "role": "epc",
+        "technology": "solar",
+        "state": "SA",
+        "status": "operating",
+        "capacity_mw": 107.0,
+        "developer": "PAREP 1 Pty Ltd",
+        "model": null,
+        "source_url": "https://www.power-technology.com/projects/port-augusta-renewable-energy-park-port-augusta-australia/",
+        "drift_months": 0.0
+      }
+    ],
+    "ACCIONA Energia": [
+      {
+        "project_id": "aldoga-solar-farm",
+        "project_name": "Aldoga Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 387.0,
+        "developer": "Acciona Energy Australia Global Pty Ltd",
+        "model": null,
+        "source_url": "https://www.pv-magazine-australia.com/2024/05/15/ingeteam-trots-out-australian-first-inverter-tech-at-aldoga-solar-farm/",
+        "drift_months": 0.0
+      }
+    ],
+    "Bouygues Construction Australia": [
+      {
+        "project_id": "culcairn-solar-farm",
+        "project_name": "Culcairn Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 350.0,
+        "developer": "Culcairn Solar Farm Pty Ltd as trustee for Culcairn Solar Farm Trust",
+        "model": null,
+        "source_url": "https://neoen.com/en/news/2023/neoen-signs-contract-in-new-south-wales-and-launches-construction-of-440-mwp-culcairn-solar-farm-in-australia/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "coleambally-solar-farm",
+        "project_name": "Coleambally Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 150.0,
+        "developer": "Coleambally Solar Pty Ltd",
+        "model": null,
+        "source_url": "https://www.power-technology.com/projects/coleambally-solar-farm-new-south-wales/",
+        "drift_months": 0.0
+      }
+    ],
+    "GRS (Gransolar)": [
+      {
+        "project_id": "wellington-north-solar-farm-lightsource",
+        "project_name": "Wellington North Solar Farm (Lightsource)",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 330.0,
+        "developer": "Wellington North Solar Farm Pty Ltd",
+        "model": null,
+        "source_url": "https://grs.energy/grs-agreement-lightsource-bp-solar-epc/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "edenvale-solar-park",
+        "project_name": "Edenvale Solar Park.",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 180.0,
+        "developer": "Edenvale Solar Park Pty Ltd",
+        "model": null,
+        "source_url": "https://www.sojitz.com/en/news/2021/06/20210610.php",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "bluegrass-solar-farm",
+        "project_name": "Bluegrass Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 148.0,
+        "developer": "X-Elio Australia Pty Ltd",
+        "model": null,
+        "source_url": "https://www.pv-magazine-australia.com/2020/12/04/grs-named-as-epc-of-x-elios-200-mw-blue-grass-solar-farm/",
+        "drift_months": 0.0
+      }
+    ],
+    "BELECTRIC": [
+      {
+        "project_id": "limondale-solar-farm-1",
+        "project_name": "Limondale Solar Farm 1",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 306.0,
+        "developer": "Limondale Sun Farm Pty Ltd",
+        "model": null,
+        "source_url": "https://www.nsenergybusiness.com/projects/limondale-solar-farm-new-south-wales/",
+        "drift_months": 0.0
+      }
+    ],
+    "GRS / CHINT Solar (JV)": [
+      {
+        "project_id": "walla-walla-solar-farm",
+        "project_name": "Walla Walla Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 300.0,
+        "developer": "FRV Australia (Walla Walla Asset Co Pty Ltd (ACN 634 728 868) as trustee for the Walla Walla Asset Trust)",
+        "model": null,
+        "source_url": "https://www.astronergy.com/astronergy-355mw-topcon-modules-to-offer-green-energy-in-australia/",
+        "drift_months": 0.0
+      }
+    ],
+    "DT Infrastructure (Gamuda)": [
+      {
+        "project_id": "wollar-solar-farm",
+        "project_name": "Wollar Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 280.0,
+        "developer": "Wollar Solar Development Pty Ltd",
+        "model": null,
+        "source_url": "https://www.power-technology.com/projects/goulburn-river-solar-farm/",
+        "drift_months": 0.0
+      }
+    ],
+    "Canadian Solar / Signal Energy (JV)": [
+      {
+        "project_id": "darlington-point-solar-farm",
+        "project_name": "Darlington Point Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 275.0,
+        "developer": "Darlington Point Solar Farm Pty Ltd",
+        "model": null,
+        "source_url": "https://investors.canadiansolar.com/news-releases/news-release-details/canadian-solar-provide-epc-services-and-supply-solar-modules",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "finley-solar-farm",
+        "project_name": "Finley Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 133.0,
+        "developer": "Finley Solar Farm Pty Ltd as The trustee for Finley Solar Trust",
+        "model": null,
+        "source_url": "https://www.nsenergybusiness.com/projects/finley-solar-farm-new-south-wales/",
+        "drift_months": 0.0
+      }
+    ],
+    "Canadian Solar / Biosar (JV)": [
+      {
+        "project_id": "kiamal-solar-farm-stage-1",
+        "project_name": "Kiamal Solar Farm - Stage 1",
+        "role": "epc",
+        "technology": "solar",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 200.0,
+        "developer": "KSF Project Nominees Pty Ltd ATF KSF Project Trust",
+        "model": null,
+        "source_url": "https://investors.canadiansolar.com/news-releases/news-release-details/canadian-solar-partners-biosar-build-256-mwp-solar-project-total",
+        "drift_months": 0.0
+      }
+    ],
+    "Decmil": [
+      {
+        "project_id": "sunraysia-solar-farm",
+        "project_name": "Sunraysia Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 200.0,
+        "developer": "Sunraysia Solar Project Pty Ltd",
+        "model": null,
+        "source_url": "https://www.nsenergybusiness.com/projects/sunraysia-solar-farm-new-south-wales/",
+        "drift_months": 0.0
+      }
+    ],
+    "RCR Tomlinson": [
+      {
+        "project_id": "daydream-solar-farm",
+        "project_name": "Daydream Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 150.0,
+        "developer": "The Daydream Solar Farm Trust",
+        "model": null,
+        "source_url": "https://www.pv-tech.org/news/first-solar-tops-500mw-of-series-4-module-orders-in-australia",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "sun-metals-corporation-solar-farm",
+        "project_name": "Sun Metals Corporation Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 121.5,
+        "developer": "Sun Metals Corporation Pty Ltd",
+        "model": null,
+        "source_url": "https://en.wikipedia.org/wiki/Sun_Metals_Solar_Farm",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "darling-downs-solar-farm",
+        "project_name": "Darling Downs Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 110.0,
+        "developer": "Darling Downs Solar Farm Pty Ltd",
+        "model": null,
+        "source_url": "https://www.power-technology.com/data-insights/power-plant-profile-darling-downs-solar-farm-australia/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "haughton-solar-farm-stage-1",
+        "project_name": "Haughton Solar Farm Stage 1",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 100.0,
+        "developer": "Pacific Hydro Haughton Solar Farm Pty Ltd",
+        "model": null,
+        "source_url": "https://www.nsenergybusiness.com/projects/haughton-solar-farm-queensland/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "emerald-solar-park",
+        "project_name": "Emerald Solar Park",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 72.0,
+        "developer": "Lighthouse Infrastructure Management Limited",
+        "model": null,
+        "source_url": "https://en.wikipedia.org/wiki/Emerald_Solar_Park",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "gannawarra-solar-farm",
+        "project_name": "Gannawarra Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 50.0,
+        "developer": "Gannawarra Solar Farm Pty Ltd",
+        "model": null,
+        "source_url": "https://www.sma-australia.com.au/references/gannawarra-solar-farm-victoria.html",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "hayman-solar-farm",
+        "project_name": "Hayman Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 50.0,
+        "developer": "Hayman Solar Farm Pty Ltd as trustee for Hayman Solar Farm Trust",
+        "model": null,
+        "source_url": "https://reneweconomy.com.au/rcr-awarded-315m-daydream-hayman-solar-farm-projects-91887/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "manildra-solar-farm",
+        "project_name": "Manildra Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 46.7,
+        "developer": "Manildra Prop Pty Ltd as trustee for the Manildra Asset Trust",
+        "model": null,
+        "source_url": "https://www.rcrtom.com.au/latest-projects/manildra-solar-farm/",
+        "drift_months": 0.0
+      }
+    ],
+    "Bouygues Construction": [
+      {
+        "project_id": "suntop-solar-farm",
+        "project_name": "Suntop Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 150.0,
+        "developer": "Suntop SF Pty Ltd As Trustee For The Suntop Asset",
+        "model": null,
+        "source_url": "https://www.power-technology.com/data-insights/power-plant-profile-suntop-solar-pv-park-australia/",
+        "drift_months": 0.0
+      }
+    ],
+    "Green Light Contractors": [
+      {
+        "project_id": "bungala-two-solar-farm",
+        "project_name": "Bungala Two Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "SA",
+        "status": "operating",
+        "capacity_mw": 110.0,
+        "developer": "Potentia Energy Pty Ltd",
+        "model": null,
+        "source_url": "https://www.power-technology.com/projects/bungala-solar-pv-plant-port-augusta/",
+        "drift_months": 0.0
+      }
+    ],
+    "Signal Energy Australia": [
+      {
+        "project_id": "glenrowan-west-solar-farm",
+        "project_name": "Glenrowan West Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 110.0,
+        "developer": "Glenrowan Sun Farm Pty Ltd",
+        "model": null,
+        "source_url": "https://www.pv-magazine-australia.com/2021/06/10/glenrowan-west-solar-farm-completed-and-commissioned/",
+        "drift_months": 0.0
+      }
+    ],
+    "Biosar": [
+      {
+        "project_id": "nevertire-solar-farm",
+        "project_name": "Nevertire Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 105.0,
+        "developer": "Nevertire Solar Pty Ltd as Trustee for the Nevertire Solar Trust",
+        "model": null,
+        "source_url": "https://suntech-power.com.au/project/nevertire-solar-power-farm/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "susan-river-solar-farm",
+        "project_name": "Susan River Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 75.0,
+        "developer": "Susan River Solar Pty Ltd as trustee for the Susan River Solar Trust",
+        "model": null,
+        "source_url": "https://www.pv-magazine-australia.com/2019/02/07/egp-highlights-local-value-creation-as-95-mw-susan-river-project-completion/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "childers-solar-farm",
+        "project_name": "Childers Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 56.0,
+        "developer": "Childers Solar Pty Ltd as trustee for the Childers Solar Trust",
+        "model": null,
+        "source_url": "https://www.pv-magazine-australia.com/2018/03/30/byd-signs-75mw-supply-deal-in-australia/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "oakey-2-solar-farm",
+        "project_name": "Oakey 2 Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 55.0,
+        "developer": "RE Oakey Pty Ltd",
+        "model": null,
+        "source_url": "https://www.pv-magazine-australia.com/2019/12/07/long-read-what-broke-at-oakey/",
+        "drift_months": 0.0
+      }
+    ],
+    "First Solar": [
+      {
+        "project_id": "nyngan-solar-plant",
+        "project_name": "Nyngan Solar Plant",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 103.0,
+        "developer": "PARF Company 6 Pty Limited",
+        "model": null,
+        "source_url": "https://en.wikipedia.org/wiki/Nyngan_Solar_Plant",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "broken-hill-solar-plant",
+        "project_name": "Broken Hill Solar Plant",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 53.0,
+        "developer": "PARF Company 6 Pty Limited",
+        "model": null,
+        "source_url": "https://www.agl.com.au/about-agl/how-we-source-energy/broken-hill-solar-plant",
+        "drift_months": 0.0
+      }
+    ],
+    "UGL": [
+      {
+        "project_id": "glenrowan-solar-farm",
+        "project_name": "Glenrowan Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 102.0,
+        "developer": "Glenrowan Solar Farm Pty Ltd as trustee for Glenrowan Solar Farm Trust",
+        "model": null,
+        "source_url": "https://www.ugllimited.com/our-projects/energy-and-utilities/glenrowan-solar-farm",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "tailem-bend-solar",
+        "project_name": "Tailem Bend - Solar",
+        "role": "epc",
+        "technology": "solar",
+        "state": "SA",
+        "status": "operating",
+        "capacity_mw": 95.0,
+        "developer": "Vena Energy",
+        "model": null,
+        "source_url": "https://en.wikipedia.org/wiki/Tailem_Bend_Solar_Power_Farm",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "kidston-solar-project-phase-one",
+        "project_name": "Kidston Solar Project Phase One",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 50.0,
+        "developer": "Genex Power Limited",
+        "model": null,
+        "source_url": "https://arena.gov.au/projects/kidston-solar-project-phase-1/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "collinsville-pv",
+        "project_name": "Collinsville PV",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 40.76,
+        "developer": "Ratch Australia",
+        "model": null,
+        "source_url": "https://reneweconomy.com.au/ratch-appoints-epc-contractor-collinsville-solar-project-65055/",
+        "drift_months": 0.0
+      }
+    ],
+    "RCR / Laing O'Rourke": [
+      {
+        "project_id": "wemen-solar-farm",
+        "project_name": "Wemen Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 88.0,
+        "developer": "Wemen Asset Co Pty Ltd as Trustee to Wemen Solar Unit Trust",
+        "model": null,
+        "source_url": "https://en.wikipedia.org/wiki/Wemen_Solar_Farm",
+        "drift_months": 0.0
+      }
+    ],
+    "Tranex Solar": [
+      {
+        "project_id": "hillston-sun-farm",
+        "project_name": "Hillston Sun Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 85.0,
+        "developer": "Hillston Sun Farm Operations Pty Ltd ATF Hillston",
+        "model": null,
+        "source_url": "https://hillstonsunfarm.com/",
+        "drift_months": 0.0
+      }
+    ],
+    "METKA EGN (Mytilineos)": [
+      {
+        "project_id": "moura-solar-farm",
+        "project_name": "Moura Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 82.0,
+        "developer": "Moura Solar Farm SPV Pty Ltd as the Trustee for Moura Solar Farm Unit Trust",
+        "model": null,
+        "source_url": "https://www.ox2.com/australia/projects/moura-solar-farm",
+        "drift_months": 0.0
+      }
+    ],
+    "Gransolar (GRS)": [
+      {
+        "project_id": "goonumbla-solar-farm",
+        "project_name": "Goonumbla Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 69.75,
+        "developer": "Goonumbla Asset Co Pty Ltd as trustee for the Goonumbla Asset Trust",
+        "model": null,
+        "source_url": "https://www.power-technology.com/marketdata/frv-goonumbla-solar-pv-park-australia/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "molong-solar-farm",
+        "project_name": "Molong Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 30.0,
+        "developer": "Molong Operations co Pty Ltd ATF Molong Operations Trust",
+        "model": null,
+        "source_url": "https://www.pv-magazine-australia.com/2020/05/27/gransolar-group-to-build-molong-solar-farm-in-nsw/",
+        "drift_months": 0.0
+      }
+    ],
+    "Lendlease": [
+      {
+        "project_id": "warwick-solar-farm",
+        "project_name": "Warwick Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 64.0,
+        "developer": "The University of Queensland",
+        "model": null,
+        "source_url": "https://sustainability.uq.edu.au/warwicksolarfarm",
+        "drift_months": 0.0
+      }
+    ],
+    "Bouygues": [
+      {
+        "project_id": "hamilton-solar-farm",
+        "project_name": "Hamilton Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 56.0,
+        "developer": "Hamilton Solar Farm Pty Ltd",
+        "model": null,
+        "source_url": "https://www.power-technology.com/marketdata/hamilton-solar-pv-park-australia/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "whitsunday-solar-farm",
+        "project_name": "Whitsunday Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 56.0,
+        "developer": "Whitsunday Solar Farm Pty Ltd",
+        "model": null,
+        "source_url": "https://www.power-technology.com/marketdata/whitsunday-solar-pv-park-australia/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "parkes-solar-farm",
+        "project_name": "Parkes Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 49.5,
+        "developer": "Parkes Solar Farm Pty Ltd",
+        "model": null,
+        "source_url": "https://www.power-technology.com/marketdata/parkes-solar-farm-australia/",
+        "drift_months": 0.0
+      }
+    ],
+    "METKA EGN (Metlen)": [
+      {
+        "project_id": "wyalong-solar-farm",
+        "project_name": "Wyalong Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 53.0,
+        "developer": "Wyalong Solar Farm Pty Ltd as the trustee for the Wyalong Solar Farm Unit Trust",
+        "model": null,
+        "source_url": "https://wyalongsolarfarm.com.au/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "kingaroy-solar-farm",
+        "project_name": "Kingaroy Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "QLD",
+        "status": "operating",
+        "capacity_mw": 40.0,
+        "developer": "Kingaroy PropertyCo Pty Ltd as trustee for Kingaroy Property Trust",
+        "model": null,
+        "source_url": "https://kingaroysolarfarm.com.au/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "corowa-solar-farm",
+        "project_name": "Corowa Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 30.0,
+        "developer": "Corowa Operationsco Pty Ltd as trustee for Corowa Operations Trust",
+        "model": null,
+        "source_url": "https://terrainsolar.com/our-projects/corowa-solar-farm/",
+        "drift_months": 0.0
+      },
+      {
+        "project_id": "junee-solar-farm",
+        "project_name": "Junee Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "NSW",
+        "status": "operating",
+        "capacity_mw": 30.0,
+        "developer": "Junee Operationsco Pty Ltd as trustee for Junee Operations Trust",
+        "model": null,
+        "source_url": "https://terrainsolar.com/our-projects/junee-solar-farm/",
+        "drift_months": 0.0
+      }
+    ],
+    "European Energy": [
+      {
+        "project_id": "mokoan-solar-farm",
+        "project_name": "Mokoan Solar Farm",
+        "role": "epc",
+        "technology": "solar",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 46.0,
+        "developer": "EE Solar 6 Pty Ltd as trustee for EE Solar 6 Trust",
+        "model": null,
+        "source_url": "https://au.europeanenergy.com/solar/mokoan-solar-farm/",
+        "drift_months": 0.0
+      }
+    ],
+    "British Solar Renewables": [
+      {
+        "project_id": "kerang-solar-plant",
+        "project_name": "Kerang Solar Plant",
+        "role": "epc",
+        "technology": "solar",
+        "state": "VIC",
+        "status": "operating",
+        "capacity_mw": 30.0,
+        "developer": "Kerang Solar Plant Pty Ltd",
+        "model": null,
+        "source_url": "https://kerangsolarplant.com/",
+        "drift_months": 0.0
+      }
+    ]
+  },
+  "dev_contractor_matrix": [
+    {
+      "developer": "Akaysha Energy (BlackRock)",
+      "contractor": "Consolidated Power Projects (CPP)",
+      "projects": 5,
+      "mw": 1936.0,
+      "roles": [
+        "bop",
+        "epc"
+      ]
+    },
+    {
+      "developer": "Equis Energy / SEC Victoria",
+      "contractor": "Samsung C&T / Genus Plus JV",
+      "projects": 3,
+      "mw": 600.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Valent Energy (Gaw Capital / BW ESS)",
+      "contractor": "ACLE Services",
+      "projects": 2,
+      "mw": 790.0,
+      "roles": [
+        "bop"
+      ]
+    },
+    {
+      "developer": "PARF Company 6 Pty Limited",
+      "contractor": "First Solar",
+      "projects": 2,
+      "mw": 156.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Vena Energy",
+      "contractor": "Doosan GridTech",
+      "projects": 2,
+      "mw": 141.5,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Edify Energy / Federation Asset Management",
+      "contractor": "Edify Energy",
+      "projects": 2,
+      "mw": 125.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Snowy Hydro Ltd",
+      "contractor": "Future Generation Joint Venture (Webuild/Clough/Lane)",
+      "projects": 1,
+      "mw": 2200.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Queensland Hydro",
+      "contractor": "AFRY-Aurecon JV (design services)",
+      "projects": 1,
+      "mw": 2000.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Queensland Hydro",
+      "contractor": "Water2Wire JV (GHD/Mott MacDonald/Stantec) \u2014 dam design",
+      "projects": 1,
+      "mw": 2000.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "TagEnergy / Ingka Group",
+      "contractor": "Vestas (EPC for Stage 1 and Stage 2)",
+      "projects": 1,
+      "mw": 1610.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Quinbrook Infrastructure Partners",
+      "contractor": "NuEnergy Infrastructure",
+      "projects": 1,
+      "mw": 1300.0,
+      "roles": [
+        "bop"
+      ]
+    },
+    {
+      "developer": "Origin Energy",
+      "contractor": "Enerven (SA Power Networks)",
+      "projects": 1,
+      "mw": 700.0,
+      "roles": [
+        "bop"
+      ]
+    },
+    {
+      "developer": "Origin Energy Electricity Limited",
+      "contractor": "Enerven",
+      "projects": 1,
+      "mw": 700.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "TagEnergy / Ingka Group",
+      "contractor": "Vestas (EPC)",
+      "projects": 1,
+      "mw": 577.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Goldwind Australia",
+      "contractor": "SNC-Lavalin / WBHO JV",
+      "projects": 1,
+      "mw": 530.0,
+      "roles": [
+        "bop"
+      ]
+    },
+    {
+      "developer": "Western Downs BESS Pty Ltd as trustee for Western Downs BESS Trust",
+      "contractor": "UGL (CIMIC Group)",
+      "projects": 1,
+      "mw": 510.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Cubico Sustainable Investments / Stanwell Corporation (50:50 JV)",
+      "contractor": "Vestas (EPC)",
+      "projects": 1,
+      "mw": 506.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "AGL",
+      "contractor": "Fluence",
+      "projects": 1,
+      "mw": 500.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "AGL Energy",
+      "contractor": "CATCON",
+      "projects": 1,
+      "mw": 453.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Macarthur Wind Farm Pty Ltd and Meridian Wind Macarthur Pty Ltd",
+      "contractor": "Vestas",
+      "projects": 1,
+      "mw": 420.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Squadron Energy (Tattarang)",
+      "contractor": "GE Vernova + NACAP + CCP (consortium)",
+      "projects": 1,
+      "mw": 414.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "ACEN AUSTRALIA",
+      "contractor": "PCL Construction",
+      "projects": 1,
+      "mw": 400.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Western Downs Green Power Hub Pty Ltd",
+      "contractor": "Sterling & Wilson",
+      "projects": 1,
+      "mw": 400.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Tilt Renewables Australia Pty Ltd",
+      "contractor": "Zenviron",
+      "projects": 1,
+      "mw": 396.0,
+      "roles": [
+        "bop"
+      ]
+    },
+    {
+      "developer": "Acciona Energy Australia Global Pty Ltd",
+      "contractor": "ACCIONA Energia",
+      "projects": 1,
+      "mw": 387.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "EnergyAustralia",
+      "contractor": "Zenviron",
+      "projects": 1,
+      "mw": 350.0,
+      "roles": [
+        "bop"
+      ]
+    },
+    {
+      "developer": "Culcairn Solar Farm Pty Ltd as trustee for Culcairn Solar Farm Trust",
+      "contractor": "Bouygues Construction Australia",
+      "projects": 1,
+      "mw": 350.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Tilt Renewables",
+      "contractor": "Zenviron",
+      "projects": 1,
+      "mw": 336.0,
+      "roles": [
+        "bop"
+      ]
+    },
+    {
+      "developer": "Wellington North Solar Farm Pty Ltd",
+      "contractor": "GRS (Gransolar)",
+      "projects": 1,
+      "mw": 330.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Limondale Sun Farm Pty Ltd",
+      "contractor": "BELECTRIC",
+      "projects": 1,
+      "mw": 306.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Stanwell Corporation",
+      "contractor": "Yurika (QLD Govt-owned)",
+      "projects": 1,
+      "mw": 300.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "FRV Australia (Walla Walla Asset Co Pty Ltd (ACN 634 728 868) as trustee for the Walla Walla Asset Trust)",
+      "contractor": "GRS / CHINT Solar (JV)",
+      "projects": 1,
+      "mw": 300.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "CS Energy",
+      "contractor": "Zenviron",
+      "projects": 1,
+      "mw": 285.0,
+      "roles": [
+        "bop"
+      ]
+    },
+    {
+      "developer": "Wollar Solar Development Pty Ltd",
+      "contractor": "DT Infrastructure (Gamuda)",
+      "projects": 1,
+      "mw": 280.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Darlington Point Solar Farm Pty Ltd",
+      "contractor": "Canadian Solar / Signal Energy (JV)",
+      "projects": 1,
+      "mw": 275.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Aula Energy",
+      "contractor": "DT Infrastructure",
+      "projects": 1,
+      "mw": 256.0,
+      "roles": [
+        "bop"
+      ]
+    },
+    {
+      "developer": "Genex Power",
+      "contractor": "McConnell Dowell / John Holland JV",
+      "projects": 1,
+      "mw": 250.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "FRV Australia (Abdul Latif Jameel / OMERS)",
+      "contractor": "Samsung C&T (turnkey EPC)",
+      "projects": 1,
+      "mw": 250.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Eku Energy (Macquarie / BCIM)",
+      "contractor": "Consolidated Power Projects (CPP)",
+      "projects": 1,
+      "mw": 250.0,
+      "roles": [
+        "bop"
+      ]
+    },
+    {
+      "developer": "Equis Australia",
+      "contractor": "Consolidated Power Projects (CPP)",
+      "projects": 1,
+      "mw": 250.0,
+      "roles": [
+        "bop"
+      ]
+    },
+    {
+      "developer": "AGL Energy",
+      "contractor": "Wartsila",
+      "projects": 1,
+      "mw": 250.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Valent Energy (Gaw Capital / BW ESS)",
+      "contractor": "ACLE Services / ACEnergy",
+      "projects": 1,
+      "mw": 250.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Iberdrola Australia Limited",
+      "contractor": "Beon Energy Solutions",
+      "projects": 1,
+      "mw": 245.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Aula Energy / CS Energy (50:50 JV)",
+      "contractor": "DT Infrastructure / Gamuda",
+      "projects": 1,
+      "mw": 228.0,
+      "roles": [
+        "bop"
+      ]
+    },
+    {
+      "developer": "Lightsource bp",
+      "contractor": "INTEC Energy Solutions",
+      "projects": 1,
+      "mw": 222.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Ryan Corner Development Pty Ltd",
+      "contractor": "Decmil/RJE JV",
+      "projects": 1,
+      "mw": 218.0,
+      "roles": [
+        "bop"
+      ]
+    },
+    {
+      "developer": "PAREP 1 Pty Ltd",
+      "contractor": "Elecnor",
+      "projects": 1,
+      "mw": 210.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Vena Energy",
+      "contractor": "Consolidated Power Projects (CPP)",
+      "projects": 1,
+      "mw": 204.0,
+      "roles": [
+        "bop"
+      ]
+    },
+    {
+      "developer": "ENGIE",
+      "contractor": "Elecnor",
+      "projects": 1,
+      "mw": 200.0,
+      "roles": [
+        "bop"
+      ]
+    },
+    {
+      "developer": "Neoen",
+      "contractor": "NHOA Energy / Elecnor JV",
+      "projects": 1,
+      "mw": 200.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "CS Energy",
+      "contractor": "Consolidated Power Projects (CPP)",
+      "projects": 1,
+      "mw": 200.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Tilt Renewables (Mercury NZ)",
+      "contractor": "Fluence / Zenviron",
+      "projects": 1,
+      "mw": 200.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Eku Energy (Macquarie/Shell)",
+      "contractor": "RJE Global / Symal JV",
+      "projects": 1,
+      "mw": 200.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "KSF Project Nominees Pty Ltd ATF KSF Project Trust",
+      "contractor": "Canadian Solar / Biosar (JV)",
+      "projects": 1,
+      "mw": 200.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Sunraysia Solar Project Pty Ltd",
+      "contractor": "Decmil",
+      "projects": 1,
+      "mw": 200.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Edify Energy (Sosteneo)",
+      "contractor": "Consolidated Power Projects (CPP)",
+      "projects": 1,
+      "mw": 185.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Dulacca Energy Project Co Pty Ltd",
+      "contractor": "RES",
+      "projects": 1,
+      "mw": 180.6,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Edenvale Solar Park Pty Ltd",
+      "contractor": "GRS (Gransolar)",
+      "projects": 1,
+      "mw": 180.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Woolooga Fund Pty Ltd",
+      "contractor": "PCL Construction",
+      "projects": 1,
+      "mw": 176.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "CECEP Wind Power Australia Pty Ltd",
+      "contractor": "Fulton Hogan",
+      "projects": 1,
+      "mw": 175.0,
+      "roles": [
+        "bop"
+      ]
+    },
+    {
+      "developer": "Lightsource Australia SPV 4 Pty Ltd",
+      "contractor": "Sterling & Wilson",
+      "projects": 1,
+      "mw": 170.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Luminous Energy",
+      "contractor": "Sterling & Wilson",
+      "projects": 1,
+      "mw": 162.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "ENGIE",
+      "contractor": "Fluence",
+      "projects": 1,
+      "mw": 150.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Coleambally Solar Pty Ltd",
+      "contractor": "Bouygues Construction Australia",
+      "projects": 1,
+      "mw": 150.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "The Daydream Solar Farm Trust",
+      "contractor": "RCR Tomlinson",
+      "projects": 1,
+      "mw": 150.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Suntop SF Pty Ltd As Trustee For The Suntop Asset",
+      "contractor": "Bouygues Construction",
+      "projects": 1,
+      "mw": 150.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "X-Elio Australia Pty Ltd",
+      "contractor": "GRS (Gransolar)",
+      "projects": 1,
+      "mw": 148.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Finley Solar Farm Pty Ltd as The trustee for Finley Solar Trust",
+      "contractor": "Canadian Solar / Signal Energy (JV)",
+      "projects": 1,
+      "mw": 133.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Numurkah Solar Farm Pty Ltd",
+      "contractor": "Downer",
+      "projects": 1,
+      "mw": 128.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Sun Metals Corporation Pty Ltd",
+      "contractor": "RCR Tomlinson",
+      "projects": 1,
+      "mw": 121.5,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Ross River Operations Pty Ltd as the Trustee for the Ross River Operations Trust",
+      "contractor": "Downer",
+      "projects": 1,
+      "mw": 116.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Metz ProjectCo Pty Ltd as trustee for Metz ProjectCo Trust",
+      "contractor": "Beon Energy Solutions",
+      "projects": 1,
+      "mw": 115.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "ZEBRE Pty Ltd",
+      "contractor": "Consolidated Power Projects (CPP)",
+      "projects": 1,
+      "mw": 111.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Bungala One Operations Pty Ltd as trustee for the Bungala One Operations Trust",
+      "contractor": "Elecnor",
+      "projects": 1,
+      "mw": 110.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Potentia Energy Pty Ltd",
+      "contractor": "Green Light Contractors",
+      "projects": 1,
+      "mw": 110.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Darling Downs Solar Farm Pty Ltd",
+      "contractor": "RCR Tomlinson",
+      "projects": 1,
+      "mw": 110.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Glenrowan Sun Farm Pty Ltd",
+      "contractor": "Signal Energy Australia",
+      "projects": 1,
+      "mw": 110.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Gunnedah SF Pty Ltd atf Gunnedah Asset Trust",
+      "contractor": "PCL Construction",
+      "projects": 1,
+      "mw": 110.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "PAREP 1 Pty Ltd",
+      "contractor": "Sterling & Wilson",
+      "projects": 1,
+      "mw": 107.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Nevertire Solar Pty Ltd as Trustee for the Nevertire Solar Trust",
+      "contractor": "Biosar",
+      "projects": 1,
+      "mw": 105.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Glenrowan Solar Farm Pty Ltd as trustee for Glenrowan Solar Farm Trust",
+      "contractor": "UGL",
+      "projects": 1,
+      "mw": 102.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Neoen",
+      "contractor": "Doosan GridTech / Provecta",
+      "projects": 1,
+      "mw": 100.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "CS Energy",
+      "contractor": "Downer",
+      "projects": 1,
+      "mw": 100.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Epic Energy",
+      "contractor": "Canadian Solar e-STORAGE / CPP",
+      "projects": 1,
+      "mw": 100.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Bennetts Creek Energy Project Pty Ltd in its capacity as Trustee for the Bennetts Creek Energy Project Trust",
+      "contractor": "Zenviron / Wartsila",
+      "projects": 1,
+      "mw": 100.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "frv_NR",
+      "contractor": "Canadian Solar / TEC-C",
+      "projects": 1,
+      "mw": 100.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Spark Infrastructure Holdings No. 6 Pty Limited",
+      "contractor": "Beon Energy Solutions",
+      "projects": 1,
+      "mw": 100.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Pacific Hydro Haughton Solar Farm Pty Ltd",
+      "contractor": "RCR Tomlinson",
+      "projects": 1,
+      "mw": 100.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Vena Energy",
+      "contractor": "UGL",
+      "projects": 1,
+      "mw": 95.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Sebastopol Asset Co Pty Ltd ATF Sebastopol Asset Trust",
+      "contractor": "Beon Energy Solutions",
+      "projects": 1,
+      "mw": 90.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "West Wyalong Fund Pty Ltd",
+      "contractor": "PCL Construction",
+      "projects": 1,
+      "mw": 90.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Wemen Asset Co Pty Ltd as Trustee to Wemen Solar Unit Trust",
+      "contractor": "RCR / Laing O'Rourke",
+      "projects": 1,
+      "mw": 88.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Hillston Sun Farm Operations Pty Ltd ATF Hillston",
+      "contractor": "Tranex Solar",
+      "projects": 1,
+      "mw": 85.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Moura Solar Farm SPV Pty Ltd as the Trustee for Moura Solar Farm Unit Trust",
+      "contractor": "METKA EGN (Mytilineos)",
+      "projects": 1,
+      "mw": 82.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Giragarre Solar Farm Pty Ltd as trustee for Giragarre Solar Farm Trust",
+      "contractor": "Beon Energy Solutions",
+      "projects": 1,
+      "mw": 76.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Susan River Solar Pty Ltd as trustee for the Susan River Solar Trust",
+      "contractor": "Biosar",
+      "projects": 1,
+      "mw": 75.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Lighthouse Infrastructure Management Limited",
+      "contractor": "RCR Tomlinson",
+      "projects": 1,
+      "mw": 72.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Goonumbla Asset Co Pty Ltd as trustee for the Goonumbla Asset Trust",
+      "contractor": "Gransolar (GRS)",
+      "projects": 1,
+      "mw": 69.8,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Iberdrola",
+      "contractor": "ACLE Services",
+      "projects": 1,
+      "mw": 65.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "The University of Queensland",
+      "contractor": "Lendlease",
+      "projects": 1,
+      "mw": 64.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Pacific Blue (SPIC China)",
+      "contractor": "Enzen Australia",
+      "projects": 1,
+      "mw": 60.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Childers Solar Pty Ltd as trustee for the Childers Solar Trust",
+      "contractor": "Biosar",
+      "projects": 1,
+      "mw": 56.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Hamilton Solar Farm Pty Ltd",
+      "contractor": "Bouygues",
+      "projects": 1,
+      "mw": 56.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Moree Solar Farm Pty Ltd",
+      "contractor": "Elecnor",
+      "projects": 1,
+      "mw": 56.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Whitsunday Solar Farm Pty Ltd",
+      "contractor": "Bouygues",
+      "projects": 1,
+      "mw": 56.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "RE Oakey Pty Ltd",
+      "contractor": "Biosar",
+      "projects": 1,
+      "mw": 55.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Wyalong Solar Farm Pty Ltd as the trustee for the Wyalong Solar Farm Unit Trust",
+      "contractor": "METKA EGN (Metlen)",
+      "projects": 1,
+      "mw": 53.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "RWE Renewables Australia",
+      "contractor": "Beon Energy Solutions",
+      "projects": 1,
+      "mw": 50.0,
+      "roles": [
+        "bop"
+      ]
+    },
+    {
+      "developer": "Genex Power",
+      "contractor": "Consolidated Power Projects (CPP)",
+      "projects": 1,
+      "mw": 50.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "AGL Energy / Macquarie",
+      "contractor": "Fluence / Valmec (Altrad)",
+      "projects": 1,
+      "mw": 50.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "TransGrid",
+      "contractor": "Tesla",
+      "projects": 1,
+      "mw": 50.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Gannawarra Solar Farm Pty Ltd",
+      "contractor": "RCR Tomlinson",
+      "projects": 1,
+      "mw": 50.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Hayman Solar Farm Pty Ltd as trustee for Hayman Solar Farm Trust",
+      "contractor": "RCR Tomlinson",
+      "projects": 1,
+      "mw": 50.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Genex Power",
+      "contractor": "Beon Energy Solutions",
+      "projects": 1,
+      "mw": 50.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Genex Power Limited",
+      "contractor": "UGL",
+      "projects": 1,
+      "mw": 50.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Parkes Solar Farm Pty Ltd",
+      "contractor": "Bouygues",
+      "projects": 1,
+      "mw": 49.5,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Manildra Prop Pty Ltd as trustee for the Manildra Asset Trust",
+      "contractor": "RCR Tomlinson",
+      "projects": 1,
+      "mw": 46.7,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "EE Solar 6 Pty Ltd as trustee for EE Solar 6 Trust",
+      "contractor": "European Energy",
+      "projects": 1,
+      "mw": 46.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Ratch Australia",
+      "contractor": "UGL",
+      "projects": 1,
+      "mw": 40.8,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Kingaroy PropertyCo Pty Ltd as trustee for Kingaroy Property Trust",
+      "contractor": "METKA EGN (Metlen)",
+      "projects": 1,
+      "mw": 40.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "AusNet Services",
+      "contractor": "Spotless Sustainability Services",
+      "projects": 1,
+      "mw": 30.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "ElectraNet",
+      "contractor": "Consolidated Power Projects (CPP)",
+      "projects": 1,
+      "mw": 30.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Corowa Operationsco Pty Ltd as trustee for Corowa Operations Trust",
+      "contractor": "METKA EGN (Metlen)",
+      "projects": 1,
+      "mw": 30.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Junee Operationsco Pty Ltd as trustee for Junee Operations Trust",
+      "contractor": "METKA EGN (Metlen)",
+      "projects": 1,
+      "mw": 30.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Kerang Solar Plant Pty Ltd",
+      "contractor": "British Solar Renewables",
+      "projects": 1,
+      "mw": 30.0,
+      "roles": [
+        "epc"
+      ]
+    },
+    {
+      "developer": "Molong Operations co Pty Ltd ATF Molong Operations Trust",
+      "contractor": "Gransolar (GRS)",
+      "projects": 1,
+      "mw": 30.0,
+      "roles": [
+        "epc"
+      ]
+    }
+  ],
+  "contractor_oem_matrix": [
+    {
+      "contractor": "Consolidated Power Projects (CPP)",
+      "oem": "Tesla",
+      "oem_role": "bess_oem",
+      "count": 8
+    },
+    {
+      "contractor": "RCR Tomlinson",
+      "oem": "First Solar",
+      "oem_role": "solar_oem",
+      "count": 4
+    },
+    {
+      "contractor": "Zenviron",
+      "oem": "Vestas",
+      "oem_role": "wind_oem",
+      "count": 3
+    },
+    {
+      "contractor": "Beon Energy Solutions",
+      "oem": "SMA",
+      "oem_role": "inverter",
+      "count": 3
+    },
+    {
+      "contractor": "Samsung C&T / Genus Plus JV",
+      "oem": "Tesla",
+      "oem_role": "bess_oem",
+      "count": 3
+    },
+    {
+      "contractor": "RCR Tomlinson",
+      "oem": "SMA",
+      "oem_role": "inverter",
+      "count": 3
+    },
+    {
+      "contractor": "Bouygues",
+      "oem": "SMA",
+      "oem_role": "inverter",
+      "count": 3
+    },
+    {
+      "contractor": "Vestas (EPC)",
+      "oem": "Vestas",
+      "oem_role": "wind_oem",
+      "count": 2
+    },
+    {
+      "contractor": "Consolidated Power Projects (CPP)",
+      "oem": "Powin",
+      "oem_role": "bess_oem",
+      "count": 2
+    },
+    {
+      "contractor": "ACLE Services",
+      "oem": "CATL",
+      "oem_role": "bess_oem",
+      "count": 2
+    },
+    {
+      "contractor": "Fluence",
+      "oem": "Fluence",
+      "oem_role": "bess_oem",
+      "count": 2
+    },
+    {
+      "contractor": "Edify Energy",
+      "oem": "Tesla",
+      "oem_role": "bess_oem",
+      "count": 2
+    },
+    {
+      "contractor": "Canadian Solar / Signal Energy (JV)",
+      "oem": "Canadian Solar",
+      "oem_role": "solar_oem",
+      "count": 2
+    },
+    {
+      "contractor": "RCR Tomlinson",
+      "oem": "JA Solar",
+      "oem_role": "solar_oem",
+      "count": 2
+    },
+    {
+      "contractor": "Biosar",
+      "oem": "SMA",
+      "oem_role": "inverter",
+      "count": 2
+    },
+    {
+      "contractor": "Biosar",
+      "oem": "BYD",
+      "oem_role": "solar_oem",
+      "count": 2
+    },
+    {
+      "contractor": "Biosar",
+      "oem": "Ingeteam",
+      "oem_role": "inverter",
+      "count": 2
+    },
+    {
+      "contractor": "First Solar",
+      "oem": "First Solar",
+      "oem_role": "solar_oem",
+      "count": 2
+    },
+    {
+      "contractor": "UGL",
+      "oem": "SMA",
+      "oem_role": "inverter",
+      "count": 2
+    },
+    {
+      "contractor": "Bouygues",
+      "oem": "Trina Solar",
+      "oem_role": "solar_oem",
+      "count": 2
+    },
+    {
+      "contractor": "Future Generation Joint Venture (Webuild/Clough/Lane)",
+      "oem": "Voith Hydro",
+      "oem_role": "hydro_oem",
+      "count": 1
+    },
+    {
+      "contractor": "McConnell Dowell / John Holland JV",
+      "oem": "ANDRITZ Hydro",
+      "oem_role": "hydro_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Vestas (EPC for Stage 1 and Stage 2)",
+      "oem": "Vestas",
+      "oem_role": "wind_oem",
+      "count": 1
+    },
+    {
+      "contractor": "GE Vernova + NACAP + CCP (consortium)",
+      "oem": "GE Vernova",
+      "oem_role": "wind_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Zenviron",
+      "oem": "Wartsila",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "DT Infrastructure",
+      "oem": "GE Vernova",
+      "oem_role": "wind_oem",
+      "count": 1
+    },
+    {
+      "contractor": "DT Infrastructure / Gamuda",
+      "oem": "GE Vernova",
+      "oem_role": "wind_oem",
+      "count": 1
+    },
+    {
+      "contractor": "NuEnergy Infrastructure",
+      "oem": "GE Vernova",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "NuEnergy Infrastructure",
+      "oem": "CATL",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Enerven (SA Power Networks)",
+      "oem": "Wartsila",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Consolidated Power Projects (CPP)",
+      "oem": "Canadian Solar e-STORAGE",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Consolidated Power Projects (CPP)",
+      "oem": "Eks Energy (Powin)",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Consolidated Power Projects (CPP)",
+      "oem": "Samsung SDI",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Consolidated Power Projects (CPP)",
+      "oem": "ABB",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Consolidated Power Projects (CPP)",
+      "oem": "Sungrow",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Consolidated Power Projects (CPP)",
+      "oem": "EKS Energy (Hitachi)",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Yurika (QLD Govt-owned)",
+      "oem": "Tesla",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Samsung C&T (turnkey EPC)",
+      "oem": "Hithium",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Samsung C&T (turnkey EPC)",
+      "oem": "SMA Solar (inverters)",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "ACLE Services",
+      "oem": "Power Electronics (inverters)",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "ACLE Services",
+      "oem": "Unknown",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "INTEC Energy Solutions",
+      "oem": "Hithium",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Elecnor",
+      "oem": "Sungrow",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Elecnor",
+      "oem": "Vestas",
+      "oem_role": "wind_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Elecnor",
+      "oem": "Jinko Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Elecnor",
+      "oem": "SMA",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Elecnor",
+      "oem": "JA Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Elecnor",
+      "oem": "Ingeteam",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Beon Energy Solutions",
+      "oem": "Tesla",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Beon Energy Solutions",
+      "oem": "Jinko Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Beon Energy Solutions",
+      "oem": "LONGi",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Beon Energy Solutions",
+      "oem": "Ingeteam",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Beon Energy Solutions",
+      "oem": "JinkoSolar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Enzen Australia",
+      "oem": "Trina Storage",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Enzen Australia",
+      "oem": "SMA Solar (inverters)",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Enerven",
+      "oem": "Wartsila",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Wartsila",
+      "oem": "Wartsila",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Wartsila",
+      "oem": "SMA",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "NHOA Energy / Elecnor JV",
+      "oem": "CATL",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "NHOA Energy / Elecnor JV",
+      "oem": "Power Electronics",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Fluence / Zenviron",
+      "oem": "Fluence",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "RJE Global / Symal JV",
+      "oem": "Fluence",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Doosan GridTech / Provecta",
+      "oem": "Doosan GridTech",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Downer",
+      "oem": "Tesla",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Downer",
+      "oem": "LONGi",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Downer",
+      "oem": "JA Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Downer",
+      "oem": "Schneider Electric",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Canadian Solar e-STORAGE / CPP",
+      "oem": "Canadian Solar e-STORAGE",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Doosan GridTech",
+      "oem": "Samsung SDI",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Doosan GridTech",
+      "oem": "CATL",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Fluence / Valmec (Altrad)",
+      "oem": "Fluence",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Fluence / Valmec (Altrad)",
+      "oem": "EPC Power",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Tesla",
+      "oem": "Tesla",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Spotless Sustainability Services",
+      "oem": "Fluence",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "UGL (CIMIC Group)",
+      "oem": "Tesla",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "ACLE Services / ACEnergy",
+      "oem": "CATL",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Zenviron / Wartsila",
+      "oem": "Wartsila",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Canadian Solar / TEC-C",
+      "oem": "Canadian Solar e-STORAGE",
+      "oem_role": "bess_oem",
+      "count": 1
+    },
+    {
+      "contractor": "SNC-Lavalin / WBHO JV",
+      "oem": "Goldwind",
+      "oem_role": "wind_oem",
+      "count": 1
+    },
+    {
+      "contractor": "CATCON",
+      "oem": "GE Vernova",
+      "oem_role": "wind_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Vestas",
+      "oem": "Vestas",
+      "oem_role": "wind_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Decmil/RJE JV",
+      "oem": "Vestas",
+      "oem_role": "wind_oem",
+      "count": 1
+    },
+    {
+      "contractor": "RES",
+      "oem": "Vestas",
+      "oem_role": "wind_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Fulton Hogan",
+      "oem": "Goldwind",
+      "oem_role": "wind_oem",
+      "count": 1
+    },
+    {
+      "contractor": "PCL Construction",
+      "oem": "Risen Energy",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "PCL Construction",
+      "oem": "Canadian Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "PCL Construction",
+      "oem": "Ingeteam",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Sterling & Wilson",
+      "oem": "Canadian Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Sterling & Wilson",
+      "oem": "SMA",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Sterling & Wilson",
+      "oem": "LONGi",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "ACCIONA Energia",
+      "oem": "JA Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "ACCIONA Energia",
+      "oem": "Ingeteam",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Bouygues Construction Australia",
+      "oem": "Schneider Electric",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "GRS (Gransolar)",
+      "oem": "Ingeteam",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "BELECTRIC",
+      "oem": "SunPower",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "BELECTRIC",
+      "oem": "SMA",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "GRS / CHINT Solar (JV)",
+      "oem": "Astronergy",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Canadian Solar / Signal Energy (JV)",
+      "oem": "SMA",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Canadian Solar / Biosar (JV)",
+      "oem": "Canadian Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Decmil",
+      "oem": "Jinko Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Decmil",
+      "oem": "Schneider Electric",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "RCR Tomlinson",
+      "oem": "Canadian Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Bouygues Construction",
+      "oem": "Canadian Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Bouygues Construction",
+      "oem": "Ingeteam",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Green Light Contractors",
+      "oem": "Jinko Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Green Light Contractors",
+      "oem": "SMA",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Signal Energy Australia",
+      "oem": "Jinko Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Signal Energy Australia",
+      "oem": "SMA",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Biosar",
+      "oem": "Suntech",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Biosar",
+      "oem": "Canadian Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "First Solar",
+      "oem": "SMA",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "UGL",
+      "oem": "Jinko Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "UGL",
+      "oem": "Schneider Electric",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "UGL",
+      "oem": "First Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "UGL",
+      "oem": "Trina Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "RCR / Laing O'Rourke",
+      "oem": "Jinko Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "RCR / Laing O'Rourke",
+      "oem": "SMA",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Gransolar (GRS)",
+      "oem": "Chint Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    },
+    {
+      "contractor": "Gransolar (GRS)",
+      "oem": "Ingeteam",
+      "oem_role": "inverter",
+      "count": 1
+    },
+    {
+      "contractor": "Bouygues",
+      "oem": "JA Solar",
+      "oem_role": "solar_oem",
+      "count": 1
+    }
+  ],
+  "summary": {
+    "total_contractors": 72,
+    "total_project_rows": 136,
+    "by_category_count": {
+      "epc_only": 60,
+      "bop_only": 8,
+      "both": 4
+    }
+  },
+  "exported_at": "2026-05-10T17:33:54.146234"
+}

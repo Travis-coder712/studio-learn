@@ -1,0 +1,112 @@
+{
+  "id": "yendon-wind-farm",
+  "name": "Yendon Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 142.0,
+  "state": "VIC",
+  "current_developer": "Northleaf /InfraRed/Macquarie Capital",
+  "cod_current": "2019-06-18",
+  "cod_original": "2019-06-18",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 16.7,
+  "notable": "142 MW wind farm in Moorabool Shire near Ballarat, VIC. Part of the Lal Lal Wind Farm complex (228 MW total with Elaine). Vestas V136-3.8 MW turbines. Owned by Northleaf Capital / InfraRed Capital / Macquarie Capital consortium.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1114",
+  "confidence_score": "52",
+  "first_seen": "2019-06-18",
+  "coordinates": {
+    "lat": -37.630952,
+    "lng": 144.022463
+  },
+  "timeline": [
+    {
+      "date": "2017-05",
+      "date_precision": "month",
+      "event_type": "ownership_change",
+      "title": "Macquarie Capital acquires from WestWind",
+      "detail": "Macquarie Capital purchased Lal Lal Wind Farms from WestWind Energy",
+      "sources": []
+    },
+    {
+      "date": "2018",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Zenviron construction; Vestas V136-3.8 MW turbine supply; RES managing build",
+      "sources": []
+    },
+    {
+      "date": "2019-06-18",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2019-06-19",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Vestas",
+      "model": "V150-4.2 MW",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Yendon Wind Farm Environment Effects Statement (VIC DEECA EES)",
+    "document_url": "https://www.planning.vic.gov.au/schemes-and-amendments/statewide-activities/environment-effects-statements/current-and-completed-ees/yendon-wind-farm",
+    "document_year": 2019,
+    "turbine_model": "Vestas V150-4.2 MW",
+    "turbine_count": 34,
+    "turbine_rated_power_mw": 4.2,
+    "hub_height_m": 125.0,
+    "hub_height_note": "Standard 125 m hub for V150-4.2 on Central VIC terrain near Ballarat",
+    "rotor_diameter_m": 150.0,
+    "wind_speed_mean_ms": 7.8,
+    "wind_speed_height_m": 125.0,
+    "wind_speed_period": "Mean annual wind speed at hub height; Yendon/Buninyong area near Ballarat, Central Victoria",
+    "assumed_capacity_factor_pct": 35.5,
+    "assumed_annual_energy_gwh": 442.0,
+    "energy_yield_method": "WAsP modelling; P50 net yield",
+    "noise_limit_dba": 40.0,
+    "minimum_setback_m": 2000,
+    "connection_voltage_kv": 66.0,
+    "network_service_provider": "AusNet Services",
+    "connection_substation_name": "Yendon 66/22 kV substation (new on-site), near Ballarat VIC",
+    "connection_substation_capacity_mva": 200.0,
+    "connection_distance_km": 5.0,
+    "connection_distance_note": "~5 km of 66 kV connection to AusNet Services Ballarat-area 66 kV network.",
+    "connection_augmentation": "AusNet 66 kV network upgrade near Ballarat. 66 kV connection appropriate for 142 MW given local network capacity.",
+    "notes": "142 MW (34 x 4.2 MW Vestas V150), near Yendon/Buninyong, Central Victoria (east of Ballarat). Developer: Pacific Hydro (PowAR). VIC EES approved 2019. Now operating. 66 kV connection reflects existing AusNet infrastructure in the Ballarat area."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

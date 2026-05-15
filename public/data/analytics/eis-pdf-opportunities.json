@@ -1,0 +1,928 @@
+{
+  "description": "Projects where manually downloading EIS/EIA PDFs could fill data gaps. Priority indicates the value of obtaining the PDF.",
+  "generated": "2026-03-22",
+  "summary": {
+    "total_opportunities": 61,
+    "high_priority": 16,
+    "medium_priority": 37,
+    "low_priority": 8,
+    "existing_projects_with_gaps": 38,
+    "coverage_gap_candidates": 23
+  },
+  "opportunities": [
+    {
+      "id": "yanco-delta-wind-farm",
+      "name": "Yanco Delta Wind Farm",
+      "technology": "wind",
+      "state": "NSW",
+      "capacity_mw": 1500.0,
+      "data_gaps": [
+        "turbine_model",
+        "hub_height_m",
+        "rotor_diameter_m",
+        "wind_speed_mean_ms"
+      ],
+      "eis_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/yanco-delta-wind-farm",
+      "eis_year": 2022,
+      "priority": "high"
+    },
+    {
+      "id": "pottinger-energy-park-wind",
+      "name": "Pottinger Energy Park (Wind)",
+      "technology": "wind",
+      "state": "NSW",
+      "capacity_mw": 1300.0,
+      "data_gaps": [
+        "turbine_model",
+        "wind_speed_mean_ms",
+        "capacity_factor",
+        "connection_distance_km"
+      ],
+      "eis_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/pottinger-wind-farm",
+      "eis_year": 2024,
+      "priority": "high"
+    },
+    {
+      "id": "goulburn-river-solar-farm-and-bess",
+      "name": "Goulburn River Solar Farm",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 585,
+      "data_gaps": [
+        "panel_supplier",
+        "panel_wattage_w",
+        "tracking_supplier",
+        "inverter_supplier"
+      ],
+      "eis_url": null,
+      "eis_year": 2022,
+      "priority": "high"
+    },
+    {
+      "id": "stockyard-hill-wind",
+      "name": "Stockyard Hill Wind Farm",
+      "technology": "wind",
+      "state": "VIC",
+      "capacity_mw": 530.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "high",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "pottinger-energy-park-bess",
+      "name": "Pottinger Energy Park (BESS)",
+      "technology": "bess",
+      "state": "NSW",
+      "capacity_mw": 500.0,
+      "data_gaps": [
+        "cell_supplier",
+        "inverter_supplier",
+        "efficiency",
+        "connection_distance_km"
+      ],
+      "eis_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/pottinger-wind-farm",
+      "eis_year": 2024,
+      "priority": "high"
+    },
+    {
+      "id": "culcairn-solar-farm",
+      "name": "Culcairn Solar Farm",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 440,
+      "data_gaps": [
+        "panel_type",
+        "panel_supplier",
+        "panel_wattage_w",
+        "tracking_supplier",
+        "inverter_supplier",
+        "capacity_factor"
+      ],
+      "eis_url": null,
+      "eis_year": 2020,
+      "priority": "high"
+    },
+    {
+      "id": "stubbo-solar-farm",
+      "name": "Stubbo Solar Farm",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 400,
+      "data_gaps": [
+        "panel_type",
+        "panel_supplier",
+        "panel_wattage_w",
+        "inverter_supplier",
+        "capacity_factor"
+      ],
+      "eis_url": null,
+      "eis_year": 2020,
+      "priority": "high"
+    },
+    {
+      "id": "broadsound-solar-farm",
+      "name": "Broadsound Solar Farm",
+      "technology": "solar",
+      "state": "QLD",
+      "capacity_mw": 296,
+      "data_gaps": [
+        "panel_type",
+        "panel_supplier",
+        "panel_wattage_w",
+        "tracking_supplier",
+        "inverter_supplier",
+        "capacity_factor"
+      ],
+      "eis_url": null,
+      "eis_year": 2021,
+      "priority": "high"
+    },
+    {
+      "id": "maryvale-solar-farm-and-bess",
+      "name": "Maryvale Solar + BESS",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 243,
+      "data_gaps": [
+        "panel_type",
+        "panel_wattage_w",
+        "tracking_supplier",
+        "capacity_factor"
+      ],
+      "eis_url": null,
+      "eis_year": 2021,
+      "priority": "high"
+    },
+    {
+      "id": "wellington-solar-farm",
+      "name": "Wellington Solar Farm",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 174,
+      "data_gaps": [
+        "panel_wattage_w",
+        "tracking_supplier",
+        "inverter_supplier",
+        "capacity_factor"
+      ],
+      "eis_url": null,
+      "eis_year": 2017,
+      "priority": "high"
+    },
+    {
+      "id": "gunnedah-solar-farm",
+      "name": "Gunnedah Solar Farm",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 150,
+      "data_gaps": [
+        "panel_wattage_w",
+        "tracking_supplier",
+        "inverter_supplier",
+        "capacity_factor"
+      ],
+      "eis_url": null,
+      "eis_year": 2018,
+      "priority": "high"
+    },
+    {
+      "id": "hillston-sun-farm",
+      "name": "Hillston Sun Farm",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 113,
+      "data_gaps": [
+        "panel_type",
+        "panel_supplier",
+        "panel_wattage_w",
+        "tracking_supplier",
+        "inverter_supplier"
+      ],
+      "eis_url": null,
+      "eis_year": 2017,
+      "priority": "high"
+    },
+    {
+      "id": "darling-downs-solar-farm",
+      "name": "Darling Downs Solar Farm",
+      "technology": "solar",
+      "state": "QLD",
+      "capacity_mw": 110,
+      "data_gaps": [
+        "panel_type",
+        "panel_wattage_w",
+        "tracking_supplier",
+        "inverter_supplier",
+        "capacity_factor"
+      ],
+      "eis_url": null,
+      "eis_year": 2016,
+      "priority": "high"
+    },
+    {
+      "id": "haughton-solar-farm-stage-1",
+      "name": "Haughton Solar Farm",
+      "technology": "solar",
+      "state": "QLD",
+      "capacity_mw": 100,
+      "data_gaps": [
+        "panel_type",
+        "panel_supplier",
+        "panel_wattage_w",
+        "tracking_supplier",
+        "inverter_supplier",
+        "capacity_factor"
+      ],
+      "eis_url": null,
+      "eis_year": 2018,
+      "priority": "high"
+    },
+    {
+      "id": "yanco-solar-farm",
+      "name": "Yanco Solar Farm",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 60.0,
+      "data_gaps": [
+        "panel_type",
+        "panel_supplier",
+        "panel_wattage_w",
+        "tracking_supplier"
+      ],
+      "eis_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/yanco-solar-farm",
+      "eis_year": 2019,
+      "priority": "high"
+    },
+    {
+      "id": "childers-solar-farm",
+      "name": "Childers Solar Farm",
+      "technology": "solar",
+      "state": "QLD",
+      "capacity_mw": 56,
+      "data_gaps": [
+        "panel_type",
+        "panel_wattage_w",
+        "inverter_supplier",
+        "capacity_factor"
+      ],
+      "eis_url": null,
+      "eis_year": 2018,
+      "priority": "high"
+    },
+    {
+      "id": "new-england-solar-farm",
+      "name": "New England Solar Farm",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 720,
+      "data_gaps": [
+        "panel_wattage_w",
+        "tracking_supplier",
+        "capacity_factor"
+      ],
+      "eis_url": null,
+      "eis_year": 2019,
+      "priority": "medium"
+    },
+    {
+      "id": "liddell-bess",
+      "name": "Liddell BESS",
+      "technology": "bess",
+      "state": "NSW",
+      "capacity_mw": 500.0,
+      "data_gaps": [
+        "cell_supplier",
+        "inverter_supplier"
+      ],
+      "eis_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/liddell-battery-energy-storage-system",
+      "eis_year": 2023,
+      "priority": "medium"
+    },
+    {
+      "id": "tomago-bess",
+      "name": "Tomago BESS",
+      "technology": "bess",
+      "state": "NSW",
+      "capacity_mw": 500.0,
+      "data_gaps": [
+        "cell_supplier",
+        "inverter_supplier"
+      ],
+      "eis_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/tomago-battery-energy-storage-system",
+      "eis_year": 2023,
+      "priority": "medium"
+    },
+    {
+      "id": "western-downs-green-power-hub-pl",
+      "name": "Western Downs Green Power Hub",
+      "technology": "solar",
+      "state": "QLD",
+      "capacity_mw": 460,
+      "data_gaps": [
+        "panel_supplier",
+        "panel_wattage_w"
+      ],
+      "eis_url": null,
+      "eis_year": 2019,
+      "priority": "medium"
+    },
+    {
+      "id": "coopers-gap-wind",
+      "name": "Coopers Gap Wind Farm",
+      "technology": "wind",
+      "state": "QLD",
+      "capacity_mw": 453.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "aldoga-solar-farm",
+      "name": "Aldoga Solar Farm",
+      "technology": "solar",
+      "state": "QLD",
+      "capacity_mw": 387.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "wellington-north-solar-farm-lightsource",
+      "name": "Wellington North Solar Farm (Lightsource)",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 330.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "moorabool-wind-farm",
+      "name": "Moorabool Wind Farm",
+      "technology": "wind",
+      "state": "VIC",
+      "capacity_mw": 305.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "walla-walla-solar-farm",
+      "name": "Walla Walla Solar Farm",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 300.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "wollar-solar-farm",
+      "name": "Wollar Solar Farm",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 280.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "bungala-one-solar-farm",
+      "name": "Bungala Solar Farm",
+      "technology": "solar",
+      "state": "SA",
+      "capacity_mw": 275,
+      "data_gaps": [
+        "panel_supplier",
+        "panel_wattage_w"
+      ],
+      "eis_url": null,
+      "eis_year": 2016,
+      "priority": "medium"
+    },
+    {
+      "id": "kiamal-solar-farm-stage-1",
+      "name": "Kiamal Solar Farm",
+      "technology": "solar",
+      "state": "VIC",
+      "capacity_mw": 256,
+      "data_gaps": [
+        "tracking_supplier",
+        "inverter_supplier"
+      ],
+      "eis_url": null,
+      "eis_year": 2017,
+      "priority": "medium"
+    },
+    {
+      "id": "goorambat-east-solar-farm-engie",
+      "name": "Goorambat East Solar Farm (ENGIE)",
+      "technology": "solar",
+      "state": "VIC",
+      "capacity_mw": 250.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "construction",
+      "reason_eligible": "construction"
+    },
+    {
+      "id": "avonlie-solar-farm",
+      "name": "Avonlie Solar Farm",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 245.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "wandoan-south-solar-stage-2",
+      "name": "Wandoan South Solar Stage 2",
+      "technology": "solar",
+      "state": "QLD",
+      "capacity_mw": 240.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "construction",
+      "reason_eligible": "construction"
+    },
+    {
+      "id": "ararat-wind-farm",
+      "name": "Ararat Wind Farm",
+      "technology": "wind",
+      "state": "VIC",
+      "capacity_mw": 240.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "murra-warra-wind-farm-stage-1",
+      "name": "Murra Warra Wind Farm - stage 1",
+      "technology": "wind",
+      "state": "VIC",
+      "capacity_mw": 225.7,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "murra-warra-wind-farm-stage-2",
+      "name": "Murra Warra Wind Farm - stage 2",
+      "technology": "wind",
+      "state": "VIC",
+      "capacity_mw": 209.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "goyder-south-wind-farm-1a",
+      "name": "Goyder South Wind Farm 1A",
+      "technology": "wind",
+      "state": "SA",
+      "capacity_mw": 209.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "brendale-bess",
+      "name": "Brendale BESS",
+      "technology": "bess",
+      "state": "QLD",
+      "capacity_mw": 205.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "goyder-south-wind-farm-1b",
+      "name": "Goyder South Wind Farm 1B",
+      "technology": "wind",
+      "state": "SA",
+      "capacity_mw": 203.5,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "new-england-solar-farm-bess",
+      "name": "New England Solar Farm BESS",
+      "technology": "bess",
+      "state": "NSW",
+      "capacity_mw": 200.0,
+      "data_gaps": [
+        "cell_supplier",
+        "inverter_supplier"
+      ],
+      "eis_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/new-england-solar-farm-battery-energy-storage-system",
+      "eis_year": 2023,
+      "priority": "medium"
+    },
+    {
+      "id": "blyth-bess",
+      "name": "Blyth BESS",
+      "technology": "bess",
+      "state": "SA",
+      "capacity_mw": 200.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "latrobe-valley-bess",
+      "name": "LaTrobe Valley BESS",
+      "technology": "bess",
+      "state": "VIC",
+      "capacity_mw": 200.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "melbourne-renewable-energy-hub-connection-a1",
+      "name": "Melbourne Renewable Energy Hub Connection A1",
+      "technology": "bess",
+      "state": "VIC",
+      "capacity_mw": 200.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "melbourne-renewable-energy-hub-connection-a3",
+      "name": "Melbourne Renewable Energy Hub Connection A3",
+      "technology": "bess",
+      "state": "VIC",
+      "capacity_mw": 200.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "melbourne-renewable-energy-hub-connection-a2",
+      "name": "Melbourne Renewable Energy Hub Connection A2",
+      "technology": "bess",
+      "state": "VIC",
+      "capacity_mw": 200.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "greenbank-bess",
+      "name": "Greenbank BESS",
+      "technology": "bess",
+      "state": "QLD",
+      "capacity_mw": 200.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "rangebank-bess",
+      "name": "Rangebank BESS",
+      "technology": "bess",
+      "state": "VIC",
+      "capacity_mw": 200.0,
+      "data_gaps": [
+        "no_eis_data"
+      ],
+      "eis_url": null,
+      "eis_year": null,
+      "priority": "medium",
+      "status": "operating",
+      "reason_eligible": "operating"
+    },
+    {
+      "id": "coleambally-solar-farm",
+      "name": "Coleambally Solar Farm",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 189,
+      "data_gaps": [
+        "panel_type",
+        "panel_supplier",
+        "panel_wattage_w"
+      ],
+      "eis_url": null,
+      "eis_year": 2016,
+      "priority": "medium"
+    },
+    {
+      "id": "finley-solar-farm",
+      "name": "Finley Solar Farm",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 175,
+      "data_gaps": [
+        "tracking_supplier",
+        "capacity_factor"
+      ],
+      "eis_url": null,
+      "eis_year": 2017,
+      "priority": "medium"
+    },
+    {
+      "id": "ross-river-solar-farm",
+      "name": "Ross River Solar Farm",
+      "technology": "solar",
+      "state": "QLD",
+      "capacity_mw": 148,
+      "data_gaps": [
+        "panel_type",
+        "panel_wattage_w",
+        "capacity_factor"
+      ],
+      "eis_url": null,
+      "eis_year": 2017,
+      "priority": "medium"
+    },
+    {
+      "id": "nyngan-solar-plant",
+      "name": "Nyngan Solar Plant",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 102,
+      "data_gaps": [
+        "tracking_supplier",
+        "inverter_supplier"
+      ],
+      "eis_url": null,
+      "eis_year": 2012,
+      "priority": "medium"
+    },
+    {
+      "id": "clermont-solar-farm",
+      "name": "Clermont Solar Farm",
+      "technology": "solar",
+      "state": "QLD",
+      "capacity_mw": 75,
+      "data_gaps": [
+        "panel_type",
+        "panel_wattage_w",
+        "capacity_factor"
+      ],
+      "eis_url": null,
+      "eis_year": 2017,
+      "priority": "medium"
+    },
+    {
+      "id": "emerald-solar-park",
+      "name": "Emerald Solar Park",
+      "technology": "solar",
+      "state": "QLD",
+      "capacity_mw": 72,
+      "data_gaps": [
+        "panel_type",
+        "panel_wattage_w",
+        "capacity_factor"
+      ],
+      "eis_url": null,
+      "eis_year": 2017,
+      "priority": "medium"
+    },
+    {
+      "id": "moree-solar-farm",
+      "name": "Moree Solar Farm",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 56,
+      "data_gaps": [
+        "panel_wattage_w",
+        "capacity_factor"
+      ],
+      "eis_url": null,
+      "eis_year": 2013,
+      "priority": "medium"
+    },
+    {
+      "id": "broken-hill-solar-plant",
+      "name": "Broken Hill Solar Plant",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 53,
+      "data_gaps": [
+        "panel_wattage_w",
+        "tracking_supplier",
+        "inverter_supplier"
+      ],
+      "eis_url": null,
+      "eis_year": 2012,
+      "priority": "medium"
+    },
+    {
+      "id": "clarke-creek-wind-farm",
+      "name": "Clarke Creek Wind Farm",
+      "technology": "wind",
+      "state": "QLD",
+      "capacity_mw": 450.0,
+      "data_gaps": [
+        "turbine_model"
+      ],
+      "eis_url": "https://www.dsdilgp.qld.gov.au/our-work/major-projects/energy-projects/clarke-creek-wind-farm",
+      "eis_year": 2020,
+      "priority": "low"
+    },
+    {
+      "id": "uungula-wind-farm",
+      "name": "Uungula Wind Farm",
+      "technology": "wind",
+      "state": "NSW",
+      "capacity_mw": 414.0,
+      "data_gaps": [
+        "turbine_model"
+      ],
+      "eis_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/uungula-wind-energy-facility",
+      "eis_year": 2022,
+      "priority": "low"
+    },
+    {
+      "id": "limondale-solar-farm-1",
+      "name": "Limondale Solar Farm",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 349,
+      "data_gaps": [
+        "capacity_factor"
+      ],
+      "eis_url": null,
+      "eis_year": 2018,
+      "priority": "low"
+    },
+    {
+      "id": "darlington-point-solar-farm",
+      "name": "Darlington Point Solar Farm",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 333,
+      "data_gaps": [
+        "tracking_supplier"
+      ],
+      "eis_url": null,
+      "eis_year": 2018,
+      "priority": "low"
+    },
+    {
+      "id": "lotus-creek-wind-farm",
+      "name": "Lotus Creek Wind Farm",
+      "technology": "wind",
+      "state": "QLD",
+      "capacity_mw": 285.0,
+      "data_gaps": [
+        "turbine_model"
+      ],
+      "eis_url": "https://www.dsdilgp.qld.gov.au/industry/resources-and-energy/coordinated-projects/current-projects/lotus-creek-wind-farm",
+      "eis_year": 2022,
+      "priority": "low"
+    },
+    {
+      "id": "carmodys-hill-wind-farm",
+      "name": "Carmodys Hill Wind Farm",
+      "technology": "wind",
+      "state": "SA",
+      "capacity_mw": 256.0,
+      "data_gaps": [
+        "turbine_model"
+      ],
+      "eis_url": "https://www.sa.gov.au/topics/planning-and-property/land-use-and-planning/development-assessment/major-developments",
+      "eis_year": 2023,
+      "priority": "low"
+    },
+    {
+      "id": "sunraysia-solar-farm",
+      "name": "Sunraysia Solar Farm",
+      "technology": "solar",
+      "state": "NSW",
+      "capacity_mw": 255,
+      "data_gaps": [
+        "panel_wattage_w"
+      ],
+      "eis_url": null,
+      "eis_year": 2017,
+      "priority": "low"
+    },
+    {
+      "id": "wallgrove-grid-battery-project",
+      "name": "Wallgrove Grid Battery project",
+      "technology": "bess",
+      "state": "NSW",
+      "capacity_mw": 50.0,
+      "data_gaps": [
+        "connection_distance_km"
+      ],
+      "eis_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/wallgrove-grid-battery-project",
+      "eis_year": 2020,
+      "priority": "low"
+    }
+  ]
+}

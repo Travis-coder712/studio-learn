@@ -1,0 +1,70 @@
+{
+  "id": "winton-solar-farm",
+  "name": "Winton Solar Farm",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 85.0,
+  "state": "VIC",
+  "current_developer": "Winton Asset Co. Pty Ltd as Trustee of the Winton Asset Trust",
+  "cod_current": "2021-03-29",
+  "cod_original": "2021-03-29",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 48.5,
+  "notable": "36 MW solar farm near Winton, QLD. Developed by Origin Energy.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1674",
+  "confidence_score": "46",
+  "first_seen": "2021-03-29",
+  "coordinates": {
+    "lat": -36.499695,
+    "lng": 146.114554
+  },
+  "timeline": [
+    {
+      "date": "2021-03-29",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2021-03-30",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "inverter",
+      "supplier": "Huawei",
+      "model": "100kW string inverter",
+      "grid_forming": false,
+      "source_url": "https://www.power-technology.com/data-insights/power-plant-profile-winton-solar-farm-australia/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

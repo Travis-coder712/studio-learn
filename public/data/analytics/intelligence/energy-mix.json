@@ -1,0 +1,1724 @@
+{
+  "current_mix": {
+    "NSW": {
+      "bess": {
+        "count": 9,
+        "mw": 2640.0,
+        "mwh": 6945.2
+      },
+      "hybrid": {
+        "count": 1,
+        "mw": 720.0
+      },
+      "pumped_hydro": {
+        "count": 6,
+        "mw": 2906.0,
+        "mwh": 4600.0
+      },
+      "solar": {
+        "count": 33,
+        "mw": 4684.8
+      },
+      "wind": {
+        "count": 20,
+        "mw": 2807.1
+      }
+    },
+    "QLD": {
+      "bess": {
+        "count": 8,
+        "mw": 2410.0,
+        "mwh": 4757.9
+      },
+      "pumped_hydro": {
+        "count": 3,
+        "mw": 722.4,
+        "mwh": 3000.0
+      },
+      "solar": {
+        "count": 28,
+        "mw": 3190.3
+      },
+      "wind": {
+        "count": 5,
+        "mw": 1009.4
+      }
+    },
+    "SA": {
+      "bess": {
+        "count": 6,
+        "mw": 924.0,
+        "mwh": 1169.6
+      },
+      "solar": {
+        "count": 4,
+        "mw": 422.0
+      },
+      "wind": {
+        "count": 25,
+        "mw": 2795.1
+      }
+    },
+    "TAS": {
+      "pumped_hydro": {
+        "count": 19,
+        "mw": 2451.0
+      },
+      "wind": {
+        "count": 4,
+        "mw": 561.0
+      }
+    },
+    "VIC": {
+      "bess": {
+        "count": 10,
+        "mw": 1915.0,
+        "mwh": 3758.4
+      },
+      "pumped_hydro": {
+        "count": 6,
+        "mw": 2248.0
+      },
+      "solar": {
+        "count": 13,
+        "mw": 1186.0
+      },
+      "wind": {
+        "count": 26,
+        "mw": 4515.8
+      }
+    },
+    "WA": {
+      "bess": {
+        "count": 1,
+        "mw": 560.0,
+        "mwh": 2240.0
+      }
+    }
+  },
+  "state_totals": {
+    "NSW": {
+      "operating_mw": 13757.9,
+      "technologies": {
+        "bess": {
+          "count": 9,
+          "mw": 2640.0,
+          "mwh": 6945.2
+        },
+        "hybrid": {
+          "count": 1,
+          "mw": 720.0
+        },
+        "pumped_hydro": {
+          "count": 6,
+          "mw": 2906.0,
+          "mwh": 4600.0
+        },
+        "solar": {
+          "count": 33,
+          "mw": 4684.8
+        },
+        "wind": {
+          "count": 20,
+          "mw": 2807.1
+        }
+      }
+    },
+    "QLD": {
+      "operating_mw": 7332.1,
+      "technologies": {
+        "bess": {
+          "count": 8,
+          "mw": 2410.0,
+          "mwh": 4757.9
+        },
+        "pumped_hydro": {
+          "count": 3,
+          "mw": 722.4,
+          "mwh": 3000.0
+        },
+        "solar": {
+          "count": 28,
+          "mw": 3190.3
+        },
+        "wind": {
+          "count": 5,
+          "mw": 1009.4
+        }
+      }
+    },
+    "SA": {
+      "operating_mw": 4141.1,
+      "technologies": {
+        "bess": {
+          "count": 6,
+          "mw": 924.0,
+          "mwh": 1169.6
+        },
+        "solar": {
+          "count": 4,
+          "mw": 422.0
+        },
+        "wind": {
+          "count": 25,
+          "mw": 2795.1
+        }
+      }
+    },
+    "TAS": {
+      "operating_mw": 3012.0,
+      "technologies": {
+        "pumped_hydro": {
+          "count": 19,
+          "mw": 2451.0
+        },
+        "wind": {
+          "count": 4,
+          "mw": 561.0
+        }
+      }
+    },
+    "VIC": {
+      "operating_mw": 9864.8,
+      "technologies": {
+        "bess": {
+          "count": 10,
+          "mw": 1915.0,
+          "mwh": 3758.4
+        },
+        "pumped_hydro": {
+          "count": 6,
+          "mw": 2248.0
+        },
+        "solar": {
+          "count": 13,
+          "mw": 1186.0
+        },
+        "wind": {
+          "count": 26,
+          "mw": 4515.8
+        }
+      }
+    },
+    "WA": {
+      "operating_mw": 560.0,
+      "technologies": {
+        "bess": {
+          "count": 1,
+          "mw": 560.0,
+          "mwh": 2240.0
+        }
+      }
+    }
+  },
+  "pipeline": [
+    {
+      "state": "NSW",
+      "technology": "bess",
+      "status": "commissioning",
+      "cod_year": "2026",
+      "count": 2,
+      "mw": 915.0
+    },
+    {
+      "state": "NSW",
+      "technology": "bess",
+      "status": "construction",
+      "cod_year": "2026",
+      "count": 5,
+      "mw": 900.0
+    },
+    {
+      "state": "NSW",
+      "technology": "bess",
+      "status": "construction",
+      "cod_year": "2027",
+      "count": 3,
+      "mw": 1308.0
+    },
+    {
+      "state": "NSW",
+      "technology": "bess",
+      "status": "development",
+      "count": 70,
+      "mw": 24585.0
+    },
+    {
+      "state": "NSW",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2026",
+      "count": 1,
+      "mw": 100.0
+    },
+    {
+      "state": "NSW",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2027",
+      "count": 12,
+      "mw": 2041.0
+    },
+    {
+      "state": "NSW",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2028",
+      "count": 21,
+      "mw": 6495.0
+    },
+    {
+      "state": "NSW",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2029",
+      "count": 10,
+      "mw": 2730.0
+    },
+    {
+      "state": "NSW",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2030",
+      "count": 6,
+      "mw": 2250.0
+    },
+    {
+      "state": "NSW",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2031",
+      "count": 1,
+      "mw": 700.0
+    },
+    {
+      "state": "NSW",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2032",
+      "count": 1,
+      "mw": 500.0
+    },
+    {
+      "state": "NSW",
+      "technology": "hybrid",
+      "status": "construction",
+      "cod_year": "2026",
+      "count": 1,
+      "mw": 80.0
+    },
+    {
+      "state": "NSW",
+      "technology": "hybrid",
+      "status": "construction",
+      "cod_year": "2028",
+      "count": 1,
+      "mw": 300.0
+    },
+    {
+      "state": "NSW",
+      "technology": "hybrid",
+      "status": "development",
+      "count": 17,
+      "mw": 7850.0
+    },
+    {
+      "state": "NSW",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2027",
+      "count": 3,
+      "mw": 1232.0
+    },
+    {
+      "state": "NSW",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2028",
+      "count": 6,
+      "mw": 1112.0
+    },
+    {
+      "state": "NSW",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2029",
+      "count": 6,
+      "mw": 2723.0
+    },
+    {
+      "state": "NSW",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2030",
+      "count": 7,
+      "mw": 3084.0
+    },
+    {
+      "state": "NSW",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2031",
+      "count": 3,
+      "mw": 946.0
+    },
+    {
+      "state": "NSW",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2032",
+      "count": 5,
+      "mw": 2975.0
+    },
+    {
+      "state": "NSW",
+      "technology": "offshore_wind",
+      "status": "development",
+      "count": 2,
+      "mw": 3125.0
+    },
+    {
+      "state": "NSW",
+      "technology": "offshore_wind",
+      "status": "development",
+      "cod_year": "2031",
+      "count": 2,
+      "mw": 4000.0
+    },
+    {
+      "state": "NSW",
+      "technology": "offshore_wind",
+      "status": "development",
+      "cod_year": "2034",
+      "count": 1,
+      "mw": 2000.0
+    },
+    {
+      "state": "NSW",
+      "technology": "offshore_wind",
+      "status": "development",
+      "cod_year": "2035",
+      "count": 2,
+      "mw": 3600.0
+    },
+    {
+      "state": "NSW",
+      "technology": "pumped_hydro",
+      "status": "construction",
+      "cod_year": "2028",
+      "count": 1,
+      "mw": 2200.0
+    },
+    {
+      "state": "NSW",
+      "technology": "pumped_hydro",
+      "status": "development",
+      "count": 8,
+      "mw": 5667.0
+    },
+    {
+      "state": "NSW",
+      "technology": "pumped_hydro",
+      "status": "development",
+      "cod_year": "2030",
+      "count": 1,
+      "mw": 385.0
+    },
+    {
+      "state": "NSW",
+      "technology": "pumped_hydro",
+      "status": "development",
+      "cod_year": "2033",
+      "count": 2,
+      "mw": 1300.0
+    },
+    {
+      "state": "NSW",
+      "technology": "solar",
+      "status": "commissioning",
+      "cod_year": "2023",
+      "count": 1,
+      "mw": 48.7
+    },
+    {
+      "state": "NSW",
+      "technology": "solar",
+      "status": "construction",
+      "cod_year": "2027",
+      "count": 1,
+      "mw": 450.0
+    },
+    {
+      "state": "NSW",
+      "technology": "solar",
+      "status": "development",
+      "count": 38,
+      "mw": 8517.0
+    },
+    {
+      "state": "NSW",
+      "technology": "solar",
+      "status": "development",
+      "cod_year": "2027",
+      "count": 4,
+      "mw": 442.0
+    },
+    {
+      "state": "NSW",
+      "technology": "solar",
+      "status": "development",
+      "cod_year": "2028",
+      "count": 2,
+      "mw": 1200.0
+    },
+    {
+      "state": "NSW",
+      "technology": "solar",
+      "status": "development",
+      "cod_year": "2029",
+      "count": 4,
+      "mw": 1600.0
+    },
+    {
+      "state": "NSW",
+      "technology": "solar",
+      "status": "development",
+      "cod_year": "2032",
+      "count": 1,
+      "mw": 450.0
+    },
+    {
+      "state": "NSW",
+      "technology": "solar",
+      "status": "development",
+      "cod_year": "2034",
+      "count": 1,
+      "mw": 100.0
+    },
+    {
+      "state": "NSW",
+      "technology": "wind",
+      "status": "construction",
+      "cod_year": "2028",
+      "count": 1,
+      "mw": 414.0
+    },
+    {
+      "state": "NSW",
+      "technology": "wind",
+      "status": "development",
+      "count": 23,
+      "mw": 10266.6
+    },
+    {
+      "state": "NSW",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2027",
+      "count": 1,
+      "mw": 270.0
+    },
+    {
+      "state": "NSW",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2028",
+      "count": 3,
+      "mw": 1046.2
+    },
+    {
+      "state": "NSW",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2029",
+      "count": 9,
+      "mw": 5473.7
+    },
+    {
+      "state": "NSW",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2030",
+      "count": 2,
+      "mw": 530.0
+    },
+    {
+      "state": "NSW",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2031",
+      "count": 2,
+      "mw": 1588.0
+    },
+    {
+      "state": "NSW",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2033",
+      "count": 1,
+      "mw": 500.0
+    },
+    {
+      "state": "NSW",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2034",
+      "count": 1,
+      "mw": 250.0
+    },
+    {
+      "state": "QLD",
+      "technology": "bess",
+      "status": "commissioning",
+      "cod_year": "2025",
+      "count": 1,
+      "mw": 510.0
+    },
+    {
+      "state": "QLD",
+      "technology": "bess",
+      "status": "construction",
+      "cod_year": "2026",
+      "count": 1,
+      "mw": 222.0
+    },
+    {
+      "state": "QLD",
+      "technology": "bess",
+      "status": "development",
+      "count": 67,
+      "mw": 24896.0
+    },
+    {
+      "state": "QLD",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2026",
+      "count": 3,
+      "mw": 650.0
+    },
+    {
+      "state": "QLD",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2027",
+      "count": 9,
+      "mw": 2765.0
+    },
+    {
+      "state": "QLD",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2028",
+      "count": 21,
+      "mw": 7256.0
+    },
+    {
+      "state": "QLD",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2029",
+      "count": 17,
+      "mw": 5840.0
+    },
+    {
+      "state": "QLD",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2030",
+      "count": 6,
+      "mw": 2550.0
+    },
+    {
+      "state": "QLD",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2032",
+      "count": 1,
+      "mw": 400.0
+    },
+    {
+      "state": "QLD",
+      "technology": "hybrid",
+      "status": "development",
+      "count": 14,
+      "mw": 7250.0
+    },
+    {
+      "state": "QLD",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2027",
+      "count": 1,
+      "mw": 290.0
+    },
+    {
+      "state": "QLD",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2028",
+      "count": 3,
+      "mw": 1181.0
+    },
+    {
+      "state": "QLD",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2029",
+      "count": 7,
+      "mw": 1597.0
+    },
+    {
+      "state": "QLD",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2030",
+      "count": 3,
+      "mw": 1636.0
+    },
+    {
+      "state": "QLD",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2031",
+      "count": 4,
+      "mw": 2550.0
+    },
+    {
+      "state": "QLD",
+      "technology": "pumped_hydro",
+      "status": "construction",
+      "cod_year": "2027",
+      "count": 1,
+      "mw": 250.0
+    },
+    {
+      "state": "QLD",
+      "technology": "pumped_hydro",
+      "status": "development",
+      "count": 4,
+      "mw": 3990.0
+    },
+    {
+      "state": "QLD",
+      "technology": "pumped_hydro",
+      "status": "development",
+      "cod_year": "2035",
+      "count": 2,
+      "mw": 2296.0
+    },
+    {
+      "state": "QLD",
+      "technology": "solar",
+      "status": "commissioning",
+      "cod_year": "2023",
+      "count": 1,
+      "mw": 365.0
+    },
+    {
+      "state": "QLD",
+      "technology": "solar",
+      "status": "commissioning",
+      "cod_year": "2026",
+      "count": 1,
+      "mw": 120.0
+    },
+    {
+      "state": "QLD",
+      "technology": "solar",
+      "status": "construction",
+      "cod_year": "2025",
+      "count": 1,
+      "mw": 78.0
+    },
+    {
+      "state": "QLD",
+      "technology": "solar",
+      "status": "construction",
+      "cod_year": "2026",
+      "count": 3,
+      "mw": 510.0
+    },
+    {
+      "state": "QLD",
+      "technology": "solar",
+      "status": "construction",
+      "cod_year": "2027",
+      "count": 2,
+      "mw": 300.0
+    },
+    {
+      "state": "QLD",
+      "technology": "solar",
+      "status": "development",
+      "count": 35,
+      "mw": 13567.2
+    },
+    {
+      "state": "QLD",
+      "technology": "solar",
+      "status": "development",
+      "cod_year": "2026",
+      "count": 1,
+      "mw": 400.0
+    },
+    {
+      "state": "QLD",
+      "technology": "solar",
+      "status": "development",
+      "cod_year": "2027",
+      "count": 1,
+      "mw": 97.0
+    },
+    {
+      "state": "QLD",
+      "technology": "solar",
+      "status": "development",
+      "cod_year": "2028",
+      "count": 4,
+      "mw": 1361.4
+    },
+    {
+      "state": "QLD",
+      "technology": "solar",
+      "status": "development",
+      "cod_year": "2029",
+      "count": 5,
+      "mw": 1625.0
+    },
+    {
+      "state": "QLD",
+      "technology": "solar",
+      "status": "development",
+      "cod_year": "2030",
+      "count": 2,
+      "mw": 950.0
+    },
+    {
+      "state": "QLD",
+      "technology": "solar",
+      "status": "development",
+      "cod_year": "2035",
+      "count": 1,
+      "mw": 270.0
+    },
+    {
+      "state": "QLD",
+      "technology": "wind",
+      "status": "commissioning",
+      "cod_year": "2025",
+      "count": 2,
+      "mw": 2025.0
+    },
+    {
+      "state": "QLD",
+      "technology": "wind",
+      "status": "construction",
+      "cod_year": "2025",
+      "count": 1,
+      "mw": 506.0
+    },
+    {
+      "state": "QLD",
+      "technology": "wind",
+      "status": "construction",
+      "cod_year": "2027",
+      "count": 2,
+      "mw": 513.0
+    },
+    {
+      "state": "QLD",
+      "technology": "wind",
+      "status": "development",
+      "count": 23,
+      "mw": 19881.0
+    },
+    {
+      "state": "QLD",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2028",
+      "count": 4,
+      "mw": 2209.5
+    },
+    {
+      "state": "QLD",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2029",
+      "count": 3,
+      "mw": 858.6
+    },
+    {
+      "state": "QLD",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2030",
+      "count": 5,
+      "mw": 3624.4
+    },
+    {
+      "state": "QLD",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2031",
+      "count": 1,
+      "mw": 2000.0
+    },
+    {
+      "state": "QLD",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2032",
+      "count": 1,
+      "mw": 291.4
+    },
+    {
+      "state": "QLD",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2035",
+      "count": 1,
+      "mw": 500.0
+    },
+    {
+      "state": "SA",
+      "technology": "bess",
+      "status": "commissioning",
+      "cod_year": "2024",
+      "count": 1,
+      "mw": 41.5
+    },
+    {
+      "state": "SA",
+      "technology": "bess",
+      "status": "commissioning",
+      "cod_year": "2025",
+      "count": 1,
+      "mw": 111.0
+    },
+    {
+      "state": "SA",
+      "technology": "bess",
+      "status": "commissioning",
+      "cod_year": "2026",
+      "count": 1,
+      "mw": 60.0
+    },
+    {
+      "state": "SA",
+      "technology": "bess",
+      "status": "construction",
+      "cod_year": "2026",
+      "count": 1,
+      "mw": 400.0
+    },
+    {
+      "state": "SA",
+      "technology": "bess",
+      "status": "construction",
+      "cod_year": "2027",
+      "count": 2,
+      "mw": 404.0
+    },
+    {
+      "state": "SA",
+      "technology": "bess",
+      "status": "development",
+      "count": 28,
+      "mw": 5798.0
+    },
+    {
+      "state": "SA",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2027",
+      "count": 3,
+      "mw": 400.0
+    },
+    {
+      "state": "SA",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2028",
+      "count": 10,
+      "mw": 2275.0
+    },
+    {
+      "state": "SA",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2029",
+      "count": 4,
+      "mw": 770.0
+    },
+    {
+      "state": "SA",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2030",
+      "count": 2,
+      "mw": 318.0
+    },
+    {
+      "state": "SA",
+      "technology": "hybrid",
+      "status": "construction",
+      "cod_year": "2028",
+      "count": 1,
+      "mw": 280.0
+    },
+    {
+      "state": "SA",
+      "technology": "hybrid",
+      "status": "development",
+      "count": 5,
+      "mw": 3050.0
+    },
+    {
+      "state": "SA",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2027",
+      "count": 1,
+      "mw": 256.0
+    },
+    {
+      "state": "SA",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2028",
+      "count": 1,
+      "mw": 108.0
+    },
+    {
+      "state": "SA",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2030",
+      "count": 1,
+      "mw": 574.4
+    },
+    {
+      "state": "SA",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2031",
+      "count": 1,
+      "mw": 352.8
+    },
+    {
+      "state": "SA",
+      "technology": "pumped_hydro",
+      "status": "development",
+      "count": 2,
+      "mw": 480.0
+    },
+    {
+      "state": "SA",
+      "technology": "solar",
+      "status": "commissioning",
+      "cod_year": "2023",
+      "count": 1,
+      "mw": 87.0
+    },
+    {
+      "state": "SA",
+      "technology": "solar",
+      "status": "development",
+      "count": 14,
+      "mw": 3031.0
+    },
+    {
+      "state": "SA",
+      "technology": "wind",
+      "status": "construction",
+      "cod_year": "2029",
+      "count": 1,
+      "mw": 256.0
+    },
+    {
+      "state": "SA",
+      "technology": "wind",
+      "status": "development",
+      "count": 5,
+      "mw": 2053.0
+    },
+    {
+      "state": "SA",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2029",
+      "count": 1,
+      "mw": 600.0
+    },
+    {
+      "state": "TAS",
+      "technology": "bess",
+      "status": "development",
+      "count": 1,
+      "mw": 100.0
+    },
+    {
+      "state": "TAS",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2028",
+      "count": 1,
+      "mw": 100.0
+    },
+    {
+      "state": "TAS",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2029",
+      "count": 1,
+      "mw": 350.0
+    },
+    {
+      "state": "TAS",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2030",
+      "count": 1,
+      "mw": 100.0
+    },
+    {
+      "state": "TAS",
+      "technology": "hybrid",
+      "status": "development",
+      "count": 1,
+      "mw": 144.0
+    },
+    {
+      "state": "TAS",
+      "technology": "offshore_wind",
+      "status": "development",
+      "count": 1,
+      "mw": 500.0
+    },
+    {
+      "state": "TAS",
+      "technology": "pumped_hydro",
+      "status": "development",
+      "count": 6,
+      "mw": 3940.0
+    },
+    {
+      "state": "TAS",
+      "technology": "solar",
+      "status": "development",
+      "count": 2,
+      "mw": 432.0
+    },
+    {
+      "state": "TAS",
+      "technology": "solar",
+      "status": "development",
+      "cod_year": "2027",
+      "count": 1,
+      "mw": 310.0
+    },
+    {
+      "state": "TAS",
+      "technology": "wind",
+      "status": "development",
+      "count": 10,
+      "mw": 3502.4
+    },
+    {
+      "state": "TAS",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2030",
+      "count": 1,
+      "mw": 224.0
+    },
+    {
+      "state": "TAS",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2032",
+      "count": 1,
+      "mw": 1260.0
+    },
+    {
+      "state": "VIC",
+      "technology": "bess",
+      "status": "commissioning",
+      "cod_year": "2026",
+      "count": 2,
+      "mw": 840.0
+    },
+    {
+      "state": "VIC",
+      "technology": "bess",
+      "status": "construction",
+      "cod_year": "2026",
+      "count": 1,
+      "mw": 100.0
+    },
+    {
+      "state": "VIC",
+      "technology": "bess",
+      "status": "construction",
+      "cod_year": "2027",
+      "count": 3,
+      "mw": 911.0
+    },
+    {
+      "state": "VIC",
+      "technology": "bess",
+      "status": "construction",
+      "cod_year": "2028",
+      "count": 1,
+      "mw": 100.0
+    },
+    {
+      "state": "VIC",
+      "technology": "bess",
+      "status": "development",
+      "count": 41,
+      "mw": 10398.0
+    },
+    {
+      "state": "VIC",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2026",
+      "count": 2,
+      "mw": 365.0
+    },
+    {
+      "state": "VIC",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2027",
+      "count": 3,
+      "mw": 324.4
+    },
+    {
+      "state": "VIC",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2028",
+      "count": 18,
+      "mw": 5400.0
+    },
+    {
+      "state": "VIC",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2029",
+      "count": 9,
+      "mw": 4510.0
+    },
+    {
+      "state": "VIC",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2030",
+      "count": 2,
+      "mw": 430.0
+    },
+    {
+      "state": "VIC",
+      "technology": "bess",
+      "status": "development",
+      "cod_year": "2031",
+      "count": 1,
+      "mw": 400.0
+    },
+    {
+      "state": "VIC",
+      "technology": "hybrid",
+      "status": "construction",
+      "cod_year": "2027",
+      "count": 1,
+      "mw": 80.0
+    },
+    {
+      "state": "VIC",
+      "technology": "hybrid",
+      "status": "development",
+      "count": 2,
+      "mw": 264.0
+    },
+    {
+      "state": "VIC",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2027",
+      "count": 4,
+      "mw": 920.0
+    },
+    {
+      "state": "VIC",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2028",
+      "count": 5,
+      "mw": 1710.0
+    },
+    {
+      "state": "VIC",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2029",
+      "count": 2,
+      "mw": 471.0
+    },
+    {
+      "state": "VIC",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2030",
+      "count": 2,
+      "mw": 1171.1
+    },
+    {
+      "state": "VIC",
+      "technology": "hybrid",
+      "status": "development",
+      "cod_year": "2035",
+      "count": 1,
+      "mw": 350.0
+    },
+    {
+      "state": "VIC",
+      "technology": "offshore_wind",
+      "status": "development",
+      "count": 12,
+      "mw": 25765.0
+    },
+    {
+      "state": "VIC",
+      "technology": "offshore_wind",
+      "status": "development",
+      "cod_year": "2032",
+      "count": 2,
+      "mw": 4305.0
+    },
+    {
+      "state": "VIC",
+      "technology": "solar",
+      "status": "commissioning",
+      "cod_year": "2025",
+      "count": 1,
+      "mw": 75.0
+    },
+    {
+      "state": "VIC",
+      "technology": "solar",
+      "status": "construction",
+      "cod_year": "2026",
+      "count": 3,
+      "mw": 448.8
+    },
+    {
+      "state": "VIC",
+      "technology": "solar",
+      "status": "development",
+      "count": 13,
+      "mw": 3304.0
+    },
+    {
+      "state": "VIC",
+      "technology": "solar",
+      "status": "development",
+      "cod_year": "2026",
+      "count": 1,
+      "mw": 63.0
+    },
+    {
+      "state": "VIC",
+      "technology": "solar",
+      "status": "development",
+      "cod_year": "2027",
+      "count": 2,
+      "mw": 177.0
+    },
+    {
+      "state": "VIC",
+      "technology": "solar",
+      "status": "development",
+      "cod_year": "2029",
+      "count": 2,
+      "mw": 250.0
+    },
+    {
+      "state": "VIC",
+      "technology": "solar",
+      "status": "development",
+      "cod_year": "2035",
+      "count": 1,
+      "mw": 250.0
+    },
+    {
+      "state": "VIC",
+      "technology": "wind",
+      "status": "commissioning",
+      "cod_year": "2025",
+      "count": 1,
+      "mw": 733.0
+    },
+    {
+      "state": "VIC",
+      "technology": "wind",
+      "status": "construction",
+      "cod_year": "2026",
+      "count": 1,
+      "mw": 1610.0
+    },
+    {
+      "state": "VIC",
+      "technology": "wind",
+      "status": "construction",
+      "cod_year": "2027",
+      "count": 1,
+      "mw": 577.0
+    },
+    {
+      "state": "VIC",
+      "technology": "wind",
+      "status": "development",
+      "count": 10,
+      "mw": 2245.4
+    },
+    {
+      "state": "VIC",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2027",
+      "count": 1,
+      "mw": 122.0
+    },
+    {
+      "state": "VIC",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2028",
+      "count": 2,
+      "mw": 372.1
+    },
+    {
+      "state": "VIC",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2029",
+      "count": 1,
+      "mw": 400.0
+    },
+    {
+      "state": "VIC",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2030",
+      "count": 4,
+      "mw": 3906.0
+    },
+    {
+      "state": "VIC",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2031",
+      "count": 2,
+      "mw": 1800.0
+    },
+    {
+      "state": "VIC",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2032",
+      "count": 2,
+      "mw": 980.0
+    },
+    {
+      "state": "VIC",
+      "technology": "wind",
+      "status": "development",
+      "cod_year": "2035",
+      "count": 1,
+      "mw": 1281.0
+    }
+  ],
+  "projection": {
+    "bess": [
+      {
+        "year": "current",
+        "cumulative_mw": 8449.0
+      },
+      {
+        "year": 2026,
+        "added_mw": 4552.0,
+        "cumulative_mw": 13001.0
+      },
+      {
+        "year": 2027,
+        "added_mw": 8153.4,
+        "cumulative_mw": 21154.4
+      },
+      {
+        "year": 2028,
+        "added_mw": 21626.0,
+        "cumulative_mw": 42780.4
+      },
+      {
+        "year": 2029,
+        "added_mw": 14200.0,
+        "cumulative_mw": 56980.4
+      },
+      {
+        "year": 2030,
+        "added_mw": 5648.0,
+        "cumulative_mw": 62628.4
+      },
+      {
+        "year": 2031,
+        "added_mw": 1100.0,
+        "cumulative_mw": 63728.4
+      },
+      {
+        "year": 2032,
+        "added_mw": 900.0,
+        "cumulative_mw": 64628.4
+      },
+      {
+        "year": 2033,
+        "added_mw": 0,
+        "cumulative_mw": 64628.4
+      }
+    ],
+    "hybrid": [
+      {
+        "year": "current",
+        "cumulative_mw": 720.0
+      },
+      {
+        "year": 2026,
+        "added_mw": 80.0,
+        "cumulative_mw": 800.0
+      },
+      {
+        "year": 2027,
+        "added_mw": 2778.0,
+        "cumulative_mw": 3578.0
+      },
+      {
+        "year": 2028,
+        "added_mw": 4691.0,
+        "cumulative_mw": 8269.0
+      },
+      {
+        "year": 2029,
+        "added_mw": 4791.0,
+        "cumulative_mw": 13060.0
+      },
+      {
+        "year": 2030,
+        "added_mw": 6465.5,
+        "cumulative_mw": 19525.5
+      },
+      {
+        "year": 2031,
+        "added_mw": 3848.8,
+        "cumulative_mw": 23374.3
+      },
+      {
+        "year": 2032,
+        "added_mw": 2975.0,
+        "cumulative_mw": 26349.3
+      },
+      {
+        "year": 2033,
+        "added_mw": 0,
+        "cumulative_mw": 26349.3
+      }
+    ],
+    "offshore_wind": [
+      {
+        "year": "current",
+        "cumulative_mw": 0
+      },
+      {
+        "year": 2026,
+        "added_mw": 0,
+        "cumulative_mw": 0
+      },
+      {
+        "year": 2027,
+        "added_mw": 0,
+        "cumulative_mw": 0
+      },
+      {
+        "year": 2028,
+        "added_mw": 0,
+        "cumulative_mw": 0
+      },
+      {
+        "year": 2029,
+        "added_mw": 0,
+        "cumulative_mw": 0
+      },
+      {
+        "year": 2030,
+        "added_mw": 0,
+        "cumulative_mw": 0
+      },
+      {
+        "year": 2031,
+        "added_mw": 4000.0,
+        "cumulative_mw": 4000.0
+      },
+      {
+        "year": 2032,
+        "added_mw": 4305.0,
+        "cumulative_mw": 8305.0
+      },
+      {
+        "year": 2033,
+        "added_mw": 0,
+        "cumulative_mw": 8305.0
+      }
+    ],
+    "pumped_hydro": [
+      {
+        "year": "current",
+        "cumulative_mw": 8327.4
+      },
+      {
+        "year": 2026,
+        "added_mw": 0,
+        "cumulative_mw": 8327.4
+      },
+      {
+        "year": 2027,
+        "added_mw": 250.0,
+        "cumulative_mw": 8577.4
+      },
+      {
+        "year": 2028,
+        "added_mw": 2200.0,
+        "cumulative_mw": 10777.4
+      },
+      {
+        "year": 2029,
+        "added_mw": 0,
+        "cumulative_mw": 10777.4
+      },
+      {
+        "year": 2030,
+        "added_mw": 385.0,
+        "cumulative_mw": 11162.4
+      },
+      {
+        "year": 2031,
+        "added_mw": 0,
+        "cumulative_mw": 11162.4
+      },
+      {
+        "year": 2032,
+        "added_mw": 0,
+        "cumulative_mw": 11162.4
+      },
+      {
+        "year": 2033,
+        "added_mw": 1300.0,
+        "cumulative_mw": 12462.4
+      }
+    ],
+    "solar": [
+      {
+        "year": "current",
+        "cumulative_mw": 9483.0
+      },
+      {
+        "year": 2026,
+        "added_mw": 1541.8,
+        "cumulative_mw": 11024.8
+      },
+      {
+        "year": 2027,
+        "added_mw": 1776.0,
+        "cumulative_mw": 12800.8
+      },
+      {
+        "year": 2028,
+        "added_mw": 2561.4,
+        "cumulative_mw": 15362.2
+      },
+      {
+        "year": 2029,
+        "added_mw": 3475.0,
+        "cumulative_mw": 18837.2
+      },
+      {
+        "year": 2030,
+        "added_mw": 950.0,
+        "cumulative_mw": 19787.2
+      },
+      {
+        "year": 2031,
+        "added_mw": 0,
+        "cumulative_mw": 19787.2
+      },
+      {
+        "year": 2032,
+        "added_mw": 450.0,
+        "cumulative_mw": 20237.2
+      },
+      {
+        "year": 2033,
+        "added_mw": 0,
+        "cumulative_mw": 20237.2
+      }
+    ],
+    "wind": [
+      {
+        "year": "current",
+        "cumulative_mw": 11688.3
+      },
+      {
+        "year": 2026,
+        "added_mw": 1610.0,
+        "cumulative_mw": 13298.3
+      },
+      {
+        "year": 2027,
+        "added_mw": 1482.0,
+        "cumulative_mw": 14780.3
+      },
+      {
+        "year": 2028,
+        "added_mw": 4041.8,
+        "cumulative_mw": 18822.1
+      },
+      {
+        "year": 2029,
+        "added_mw": 7588.3,
+        "cumulative_mw": 26410.4
+      },
+      {
+        "year": 2030,
+        "added_mw": 8284.4,
+        "cumulative_mw": 34694.8
+      },
+      {
+        "year": 2031,
+        "added_mw": 5388.0,
+        "cumulative_mw": 40082.8
+      },
+      {
+        "year": 2032,
+        "added_mw": 2531.4,
+        "cumulative_mw": 42614.2
+      },
+      {
+        "year": 2033,
+        "added_mw": 500.0,
+        "cumulative_mw": 43114.2
+      }
+    ]
+  },
+  "exported_at": "2026-05-10T17:42:59.794447"
+}

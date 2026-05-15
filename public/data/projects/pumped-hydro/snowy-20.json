@@ -1,0 +1,115 @@
+{
+  "id": "snowy-20",
+  "name": "Snowy 2.0.",
+  "technology": "pumped_hydro",
+  "status": "construction",
+  "capacity_mw": 2200.0,
+  "storage_mwh": 58330.0,
+  "state": "NSW",
+  "current_developer": "Snowy Hydro Ltd",
+  "current_operator": "Snowy Hydro Ltd",
+  "cod_current": "2028-12-31",
+  "cod_original": "2028-12-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Largest committed renewable energy project in Australia. Serial cost blowouts from A$2B to A$12B+. ~70% complete.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1752",
+  "confidence_score": "70",
+  "first_seen": "2017-03-01",
+  "coordinates": {
+    "lat": -35.8833,
+    "lng": 148.5
+  },
+  "timeline": [
+    {
+      "date": "2017-03-01",
+      "date_precision": "month",
+      "event_type": "conceived",
+      "title": "Announced by PM Turnbull",
+      "detail": "Snowy 2.0 pumped hydro expansion announced by Prime Minister Malcolm Turnbull",
+      "sources": []
+    },
+    {
+      "date": "2018-12-12",
+      "date_precision": "day",
+      "event_type": "notable",
+      "title": "FID \u2014 Board approval",
+      "detail": "Snowy Hydro board approved final investment decision",
+      "sources": []
+    },
+    {
+      "date": "2019-02-01",
+      "date_precision": "month",
+      "event_type": "planning_approved",
+      "title": "NSW planning approval (exploratory works)",
+      "sources": []
+    },
+    {
+      "date": "2019-04-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "EPC contract executed with Future Generation JV",
+      "detail": "A$5.11 billion EPC contract with Webuild/Clough/Lane JV",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2028-12 to 2028-12-31 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "epc",
+      "supplier": "Future Generation Joint Venture (Webuild/Clough/Lane)",
+      "grid_forming": false,
+      "source_url": "https://www.futuregenerationjv.com.au/about-us"
+    },
+    {
+      "role": "hydro_oem",
+      "supplier": "Voith Hydro",
+      "model": "Reversible Francis pump-turbine",
+      "quantity": 6,
+      "grid_forming": false,
+      "source_url": "https://www.power-technology.com/projects/snowy-2-0-hydropower-project/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Snowy 2.0 Pumped Storage Hydropower \u2014 Environmental Impact Statement (NSW IPC SSI-7837 / EPBC 2017/7869)",
+    "document_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/snowy-20",
+    "document_year": 2017,
+    "connection_voltage_kv": 500.0,
+    "transformer_mva": 2500.0,
+    "network_service_provider": "TransGrid / Snowy Hydro Ltd",
+    "connection_substation_name": "Maragle 500/220 kV substation (new Snowy Hydro), connected to TransGrid HumeLink 500 kV project",
+    "connection_substation_capacity_mva": 3000.0,
+    "connection_distance_km": 100.0,
+    "connection_distance_note": "~100 km of new 500 kV HumeLink (TransGrid) from Snowy Maragle area to Wagga Wagga 500 kV substation, NSW. HumeLink is Australia's largest single transmission investment (~$6.4 billion).",
+    "connection_augmentation": "CRITICAL: Requires TransGrid HumeLink 500 kV project (~100 km new 500 kV double-circuit). HumeLink is a separate $6.4 billion transmission investment. Without HumeLink, Snowy 2.0 cannot export at full capacity. HumeLink subject to separate planning/construction timeline. Total infrastructure cost (Snowy 2.0 + HumeLink) exceeds $12 billion.",
+    "notes": "2,200 MW / 58,330 MWh pumped hydro storage, Snowy Mountains NSW. Developer: Snowy Hydro Ltd (Commonwealth-owned). Hydro OEM: Voith Hydro (reversible Francis pump-turbines). EPC: Future Generation JV (Webuild/Clough/Lane). NSW IPC SSI-7837 + EPBC 2017/7869. 10 units x 220 MW = 2,200 MW. Upper: Tantangara Reservoir; Lower: Talbingo Reservoir. 27 km headrace tunnel + 12 km tailrace tunnel. ~800 m deep machine hall cavern. Project cost grew from initial $2B estimate to ~$10B+. Critical for Australia's energy transition \u2014 350 GWh seasonal storage equivalent."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

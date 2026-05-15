@@ -1,0 +1,472 @@
+{
+  "generated_at": "2026-04-03T13:57:15.531327",
+  "data_source": "openelectricity",
+  "api_calls_used": 6,
+  "monthly_trends": {
+    "NSW": [
+      {
+        "month": "2025-04",
+        "avg_price": 104.56
+      },
+      {
+        "month": "2025-05",
+        "avg_price": 123.01
+      },
+      {
+        "month": "2025-06",
+        "avg_price": 256.21
+      },
+      {
+        "month": "2025-07",
+        "avg_price": 96.94
+      },
+      {
+        "month": "2025-08",
+        "avg_price": 101.25
+      },
+      {
+        "month": "2025-09",
+        "avg_price": 71.25
+      },
+      {
+        "month": "2025-10",
+        "avg_price": 77.01
+      },
+      {
+        "month": "2025-11",
+        "avg_price": 76.94
+      },
+      {
+        "month": "2025-12",
+        "avg_price": 71.36
+      },
+      {
+        "month": "2026-01",
+        "avg_price": 67.22
+      },
+      {
+        "month": "2026-02",
+        "avg_price": 83.76
+      },
+      {
+        "month": "2026-03",
+        "avg_price": 70.35
+      },
+      {
+        "month": "2026-04",
+        "avg_price": 80.23
+      }
+    ],
+    "QLD": [
+      {
+        "month": "2025-04",
+        "avg_price": 98.18
+      },
+      {
+        "month": "2025-05",
+        "avg_price": 95.62
+      },
+      {
+        "month": "2025-06",
+        "avg_price": 169.34
+      },
+      {
+        "month": "2025-07",
+        "avg_price": 82.13
+      },
+      {
+        "month": "2025-08",
+        "avg_price": 78.21
+      },
+      {
+        "month": "2025-09",
+        "avg_price": 54.35
+      },
+      {
+        "month": "2025-10",
+        "avg_price": 55.66
+      },
+      {
+        "month": "2025-11",
+        "avg_price": 63.06
+      },
+      {
+        "month": "2025-12",
+        "avg_price": 54.37
+      },
+      {
+        "month": "2026-01",
+        "avg_price": 64.03
+      },
+      {
+        "month": "2026-02",
+        "avg_price": 69.87
+      },
+      {
+        "month": "2026-03",
+        "avg_price": 62.64
+      },
+      {
+        "month": "2026-04",
+        "avg_price": 57.21
+      }
+    ],
+    "SA": [
+      {
+        "month": "2025-04",
+        "avg_price": 89.24
+      },
+      {
+        "month": "2025-05",
+        "avg_price": 83.3
+      },
+      {
+        "month": "2025-06",
+        "avg_price": 250.41
+      },
+      {
+        "month": "2025-07",
+        "avg_price": 164.93
+      },
+      {
+        "month": "2025-08",
+        "avg_price": 86.88
+      },
+      {
+        "month": "2025-09",
+        "avg_price": 57.62
+      },
+      {
+        "month": "2025-10",
+        "avg_price": 50.16
+      },
+      {
+        "month": "2025-11",
+        "avg_price": 32.49
+      },
+      {
+        "month": "2025-12",
+        "avg_price": 27.92
+      },
+      {
+        "month": "2026-01",
+        "avg_price": 152.25
+      },
+      {
+        "month": "2026-02",
+        "avg_price": 56.0
+      },
+      {
+        "month": "2026-03",
+        "avg_price": 52.81
+      },
+      {
+        "month": "2026-04",
+        "avg_price": 62.54
+      }
+    ],
+    "TAS": [
+      {
+        "month": "2025-04",
+        "avg_price": 99.83
+      },
+      {
+        "month": "2025-05",
+        "avg_price": 103.39
+      },
+      {
+        "month": "2025-06",
+        "avg_price": 219.34
+      },
+      {
+        "month": "2025-07",
+        "avg_price": 117.85
+      },
+      {
+        "month": "2025-08",
+        "avg_price": 125.23
+      },
+      {
+        "month": "2025-09",
+        "avg_price": 28.64
+      },
+      {
+        "month": "2025-10",
+        "avg_price": 24.54
+      },
+      {
+        "month": "2025-11",
+        "avg_price": 40.51
+      },
+      {
+        "month": "2025-12",
+        "avg_price": 59.34
+      },
+      {
+        "month": "2026-01",
+        "avg_price": 100.92
+      },
+      {
+        "month": "2026-02",
+        "avg_price": 90.28
+      },
+      {
+        "month": "2026-03",
+        "avg_price": 91.04
+      },
+      {
+        "month": "2026-04",
+        "avg_price": 90.25
+      }
+    ],
+    "VIC": [
+      {
+        "month": "2025-04",
+        "avg_price": 74.59
+      },
+      {
+        "month": "2025-05",
+        "avg_price": 78.04
+      },
+      {
+        "month": "2025-06",
+        "avg_price": 264.6
+      },
+      {
+        "month": "2025-07",
+        "avg_price": 82.13
+      },
+      {
+        "month": "2025-08",
+        "avg_price": 93.19
+      },
+      {
+        "month": "2025-09",
+        "avg_price": 55.28
+      },
+      {
+        "month": "2025-10",
+        "avg_price": 51.36
+      },
+      {
+        "month": "2025-11",
+        "avg_price": 31.93
+      },
+      {
+        "month": "2025-12",
+        "avg_price": 27.5
+      },
+      {
+        "month": "2026-01",
+        "avg_price": 38.55
+      },
+      {
+        "month": "2026-02",
+        "avg_price": 45.06
+      },
+      {
+        "month": "2026-03",
+        "avg_price": 44.74
+      },
+      {
+        "month": "2026-04",
+        "avg_price": 56.79
+      }
+    ],
+    "WEM": []
+  },
+  "time_of_day_profiles": {
+    "NSW": {
+      "hourly_avg": {
+        "0": 80.71,
+        "1": 79.02,
+        "2": 77.91,
+        "3": 78.74,
+        "4": 85.28,
+        "5": 95.41,
+        "6": 100.25,
+        "7": 54.77,
+        "8": 44.72,
+        "9": 39.95,
+        "10": 39.36,
+        "11": 35.7,
+        "12": 37.35,
+        "13": 43.25,
+        "14": 51.45,
+        "15": 70.17,
+        "16": 83.56,
+        "17": 96.86,
+        "18": 100.23,
+        "19": 94.33,
+        "20": 88.74,
+        "21": 86.47,
+        "22": 84.02,
+        "23": 82.53
+      },
+      "midday_avg": 38.91,
+      "evening_avg": 93.75,
+      "spread_evening_minus_midday": 54.84,
+      "negative_pct": 4.9,
+      "zero_or_negative_pct": 4.9,
+      "spike_gt300_pct": 0.0,
+      "spike_gt300_count": 0,
+      "total_intervals": 720,
+      "data_days": 30
+    },
+    "QLD": {
+      "hourly_avg": {
+        "0": 74.04,
+        "1": 71.89,
+        "2": 70.32,
+        "3": 71.15,
+        "4": 76.18,
+        "5": 83.76,
+        "6": 84.8,
+        "7": 37.3,
+        "8": 30.49,
+        "9": 28.75,
+        "10": 28.53,
+        "11": 29.3,
+        "12": 31.44,
+        "13": 35.04,
+        "14": 38.95,
+        "15": 57.32,
+        "16": 75.51,
+        "17": 95.59,
+        "18": 100.55,
+        "19": 94.21,
+        "20": 86.91,
+        "21": 83.34,
+        "22": 80.05,
+        "23": 76.33
+      },
+      "midday_avg": 31.08,
+      "evening_avg": 91.47,
+      "spread_evening_minus_midday": 60.39,
+      "negative_pct": 8.3,
+      "zero_or_negative_pct": 8.3,
+      "spike_gt300_pct": 0.0,
+      "spike_gt300_count": 0,
+      "total_intervals": 720,
+      "data_days": 30
+    },
+    "VIC": {
+      "hourly_avg": {
+        "0": 57.71,
+        "1": 53.8,
+        "2": 52.65,
+        "3": 54.48,
+        "4": 61.31,
+        "5": 71.5,
+        "6": 80.66,
+        "7": 46.67,
+        "8": 25.93,
+        "9": 15.37,
+        "10": 9.52,
+        "11": 8.43,
+        "12": 6.88,
+        "13": 7.97,
+        "14": 8.78,
+        "15": 17.6,
+        "16": 38.91,
+        "17": 67.51,
+        "18": 79.63,
+        "19": 74.15,
+        "20": 68.31,
+        "21": 64.02,
+        "22": 58.9,
+        "23": 60.18
+      },
+      "midday_avg": 8.2,
+      "evening_avg": 65.05,
+      "spread_evening_minus_midday": 56.85,
+      "negative_pct": 27.5,
+      "zero_or_negative_pct": 27.5,
+      "spike_gt300_pct": 0.0,
+      "spike_gt300_count": 0,
+      "total_intervals": 720,
+      "data_days": 30
+    },
+    "SA": {
+      "hourly_avg": {
+        "0": 80.92,
+        "1": 84.72,
+        "2": 78.59,
+        "3": 78.57,
+        "4": 82.32,
+        "5": 83.32,
+        "6": 91.63,
+        "7": 60.14,
+        "8": 37.07,
+        "9": 17.14,
+        "10": 1.6,
+        "11": -8.7,
+        "12": -14.02,
+        "13": -20.93,
+        "14": -15.33,
+        "15": 1.64,
+        "16": 30.16,
+        "17": 72.54,
+        "18": 96.21,
+        "19": 90.62,
+        "20": 83.06,
+        "21": 77.7,
+        "22": 73.24,
+        "23": 76.03
+      },
+      "midday_avg": -10.51,
+      "evening_avg": 72.38,
+      "spread_evening_minus_midday": 82.89,
+      "negative_pct": 29.4,
+      "zero_or_negative_pct": 29.4,
+      "spike_gt300_pct": 0.0,
+      "spike_gt300_count": 0,
+      "total_intervals": 720,
+      "data_days": 30
+    },
+    "TAS": {
+      "hourly_avg": {
+        "0": 95.73,
+        "1": 92.84,
+        "2": 91.94,
+        "3": 92.29,
+        "4": 94.89,
+        "5": 97.21,
+        "6": 101.57,
+        "7": 94.38,
+        "8": 88.75,
+        "9": 84.53,
+        "10": 80.69,
+        "11": 80.73,
+        "12": 78.98,
+        "13": 80.88,
+        "14": 78.87,
+        "15": 83.25,
+        "16": 90.3,
+        "17": 97.17,
+        "18": 100.42,
+        "19": 98.14,
+        "20": 97.26,
+        "21": 97.36,
+        "22": 96.58,
+        "23": 95.15
+      },
+      "midday_avg": 80.32,
+      "evening_avg": 96.51,
+      "spread_evening_minus_midday": 16.19,
+      "negative_pct": 0.0,
+      "zero_or_negative_pct": 0.0,
+      "spike_gt300_pct": 0.0,
+      "spike_gt300_count": 0,
+      "total_intervals": 720,
+      "data_days": 30
+    }
+  },
+  "methodology": {
+    "midday_hours": "10:00-13:59 (4 hours)",
+    "evening_hours": "16:00-19:59 (4 hours)",
+    "spread": "evening_avg - midday_avg (positive = batteries earn)",
+    "negative_pct": "Percentage of hourly intervals with price < $0",
+    "spike_gt300": "Percentage of intervals with price > $300/MWh"
+  }
+}

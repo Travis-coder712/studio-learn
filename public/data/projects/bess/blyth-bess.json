@@ -1,0 +1,121 @@
+{
+  "id": "blyth-bess",
+  "name": "Blyth BESS",
+  "technology": "bess",
+  "status": "operating",
+  "capacity_mw": 200.0,
+  "storage_mwh": 400.0,
+  "state": "SA",
+  "current_developer": "Neoen",
+  "current_operator": "Neoen",
+  "cod_current": "2025-03-27",
+  "cod_original": "2025-03-27",
+  "grid_forming": true,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 59.1,
+  "notable": "238.5 MW / 477 MWh BESS developed by Neoen with $17M ARENA grant funding. CATL battery technology with NHOA/Elecnor JV as EPC. Has a 70 MW PPA with BHP to help power Olympic Dam copper-uranium mine in SA.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "2248",
+  "confidence_score": "60",
+  "capex_aud_m": 338.0,
+  "capex_source": "ARENA/energy-storage.news",
+  "capex_year": 2023,
+  "first_seen": "2023-06-01",
+  "capex_source_url": "https://nhoagroup.com/documents/nhoa-energy-and-elecnor-to-deliver-a-flagship-200mw-400mwh-battery-storage-project-in-south-australia-to-neoen/",
+  "coordinates": {
+    "lat": -33.848475,
+    "lng": 138.403204
+  },
+  "timeline": [
+    {
+      "date": "2023-06-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction begins",
+      "detail": "NHOA Energy and Elecnor JV commenced construction on 200MW/400MWh battery with CATL cells and Power Electronics grid-forming inverters. ARENA provided $17M grant.",
+      "sources": []
+    },
+    {
+      "date": "2024-08-20",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    },
+    {
+      "date": "2024-08-31",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2025-04-01",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Commercial operations begin (477MWh final capacity)",
+      "detail": "Neoen's Blyth Battery commenced commercial operations at 238.5MW/477MWh \u2014 larger than originally planned 200MW/400MWh.",
+      "sources": []
+    },
+    {
+      "date": "2025-04-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Grid-forming capability with ARENA support",
+      "detail": "Blyth operates as grid-forming battery, supported by $17M ARENA grant. Uses Power Electronics inverters providing synthetic inertia to SA grid.",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2025-03 to 2025-03-27 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "CATL",
+      "model": "LFP (900+ battery units)",
+      "grid_forming": false,
+      "source_url": "https://nhoagroup.com/documents/nhoa-energy-and-elecnor-to-deliver-a-flagship-200mw-400mwh-battery-storage-project-in-south-australia-to-neoen/"
+    },
+    {
+      "role": "epc",
+      "supplier": "NHOA Energy / Elecnor JV",
+      "grid_forming": false,
+      "source_url": "https://neoen.com/en/news/2023/neoen-launches-construction-of-200-mw-400-mwh-blyth-battery-in-south-australia/"
+    },
+    {
+      "role": "inverter",
+      "supplier": "Power Electronics",
+      "model": "Grid-forming inverters",
+      "grid_forming": false,
+      "source_url": "https://neoen.com/en/news/2023/neoen-launches-construction-of-200-mw-400-mwh-blyth-battery-in-south-australia/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

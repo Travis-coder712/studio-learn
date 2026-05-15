@@ -1,0 +1,70 @@
+{
+  "id": "mt-millar-wind-farm",
+  "name": "Mt Millar Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 70.0,
+  "state": "SA",
+  "current_developer": "MT MILLAR WIND FARM PTY LTD",
+  "cod_current": "2006-01-31",
+  "cod_original": "2006-01-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 43.8,
+  "notable": "70 MW wind farm on the Eyre Peninsula, SA. Meridian Energy. One of the earlier wind farms on the Eyre Peninsula.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1143",
+  "confidence_score": "49",
+  "first_seen": "2006-01-31",
+  "coordinates": {
+    "lat": -33.619342,
+    "lng": 136.717568
+  },
+  "timeline": [
+    {
+      "date": "2005",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Tarong Energy began construction on Eyre Peninsula",
+      "sources": []
+    },
+    {
+      "date": "2006-01-31",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2009-07-01",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

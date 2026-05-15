@@ -1,0 +1,136 @@
+{
+  "id": "kaban-wind-farm",
+  "name": "Kaban Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 152.0,
+  "state": "QLD",
+  "current_developer": "Kaban Wind Farm Trust",
+  "current_operator": "Neoen",
+  "cod_current": "2022-09-25",
+  "cod_original": "2022-09-25",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": true,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 45.6,
+  "notable": "37x Vestas V117-4.2MW. 100MW/200MWh BESS co-located. Neoen developed. Powerlink SynCon for system strength. Far North QLD.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "2020",
+  "confidence_score": "65",
+  "first_seen": "2022-09-25",
+  "coordinates": {
+    "lat": -17.560606,
+    "lng": 145.413125
+  },
+  "timeline": [
+    {
+      "date": "2018-05",
+      "date_precision": "month",
+      "event_type": "planning_approved",
+      "title": "QLD development approval",
+      "detail": "State Development department granted approval for Kaban Green Power Hub",
+      "sources": []
+    },
+    {
+      "date": "2021-05",
+      "date_precision": "month",
+      "event_type": "fid",
+      "title": "Financial close \u2014 A$373M",
+      "detail": "Neoen completed financing; Vestas contracted for EPC",
+      "sources": []
+    },
+    {
+      "date": "2021-06",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Civil works began; 21-month construction program",
+      "sources": []
+    },
+    {
+      "date": "2022-01",
+      "date_precision": "month",
+      "event_type": "equipment_order",
+      "title": "Turbine components arrive",
+      "detail": "Vestas V162-5.6 MW components arrive at Port of Cairns",
+      "sources": []
+    },
+    {
+      "date": "2022-09-25",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2022-09-26",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Vestas",
+      "model": "V117-4.2 MW",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "Neoen portfolio",
+      "type": "PPA",
+      "term_years": 15,
+      "capacity_mw": 157.0
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Kaban Green Power Hub EIS \u2014 Coordinator-General's Report (QLD DSDILGP)",
+    "document_url": "https://www.dsdilgp.qld.gov.au/our-work/major-projects/energy-projects/kaban-green-power-hub",
+    "document_year": 2018,
+    "turbine_model": "Vestas V117-4.2 MW",
+    "turbine_count": 36,
+    "turbine_rated_power_mw": 4.22,
+    "hub_height_m": 91.5,
+    "hub_height_note": "Standard 91.5 m hub for V117-4.2 MW on Far North QLD Tablelands",
+    "rotor_diameter_m": 117.0,
+    "wind_speed_mean_ms": 8.3,
+    "wind_speed_height_m": 91.5,
+    "wind_speed_period": "Mean annual wind speed at hub height; Kaban area, Atherton Tablelands, Far North QLD",
+    "assumed_capacity_factor_pct": 37.5,
+    "assumed_annual_energy_gwh": 499.0,
+    "energy_yield_method": "WAsP modelling; P50 net yield",
+    "noise_limit_dba": 37.0,
+    "minimum_setback_m": 1500,
+    "connection_voltage_kv": 132.0,
+    "network_service_provider": "Powerlink Queensland",
+    "connection_substation_name": "Kaban 132 kV substation (new on-site), shared Tablelands 132 kV corridor with Mount Emerald",
+    "connection_substation_capacity_mva": 250.0,
+    "connection_distance_km": 15.0,
+    "connection_distance_note": "~15 km to Powerlink 132 kV network. Shared transmission infrastructure with adjacent Mount Emerald reduces per-project connection cost.",
+    "connection_augmentation": "Kaban and Mount Emerald together required combined ~333 MW upgrade to Powerlink Tablelands 132 kV network.",
+    "notes": "152 MW (36 x 4.2 MW Vestas V117), Atherton Tablelands, Far North QLD (near Ravenshoe). Developer: Windlab (sold to Pacific Hydro / PowAR). QLD EIS approved 2018. Now operating (2023). Adjacent to Mount Emerald Wind Farm; shares 132 kV Powerlink connection corridor. V117-4.2 MW is a high-efficiency variant of the V117 platform."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

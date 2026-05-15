@@ -1,0 +1,74 @@
+{
+  "project_id": "stubbo-solar-farm",
+  "name": "Stubbo Solar Farm",
+  "technology": "solar",
+  "capacity_mw": 400.0,
+  "state": "NSW",
+  "data_source": "openelectricity_api",
+  "monthly": [
+    {
+      "year": 2025,
+      "month": 10,
+      "capacity_factor_pct": 19.2,
+      "energy_mwh": 57149.0,
+      "revenue_aud": 2084825.0,
+      "energy_price_received": 36.48
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "capacity_factor_pct": 26.9,
+      "energy_mwh": 77532.3,
+      "revenue_aud": 2924746.0,
+      "energy_price_received": 37.72
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "capacity_factor_pct": 34.9,
+      "energy_mwh": 103880.4,
+      "revenue_aud": 4817442.0,
+      "energy_price_received": 46.37
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "capacity_factor_pct": 39.6,
+      "energy_mwh": 117855.7,
+      "revenue_aud": 4155176.0,
+      "energy_price_received": 35.26
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "capacity_factor_pct": 29.7,
+      "energy_mwh": 79741.3,
+      "revenue_aud": 5452280.0,
+      "energy_price_received": 68.37
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "capacity_factor_pct": 28.1,
+      "energy_mwh": 83782.8,
+      "revenue_aud": 3384189.0,
+      "energy_price_received": 40.39
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "capacity_factor_pct": 31.9,
+      "energy_mwh": 91933.4,
+      "revenue_aud": 2270887.0,
+      "energy_price_received": 24.7
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "capacity_factor_pct": 6.7,
+      "energy_mwh": 19789.6,
+      "revenue_aud": 694460.0,
+      "energy_price_received": 35.09
+    }
+  ]
+}

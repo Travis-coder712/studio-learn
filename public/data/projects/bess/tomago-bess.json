@@ -1,0 +1,129 @@
+{
+  "id": "tomago-bess",
+  "name": "Tomago BESS",
+  "technology": "bess",
+  "status": "construction",
+  "capacity_mw": 500.0,
+  "storage_mwh": 2000.36,
+  "state": "NSW",
+  "current_developer": "AGL",
+  "current_operator": "AGL Energy",
+  "cod_current": "2027-10-31",
+  "cod_original": "2027-10-31",
+  "grid_forming": true,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "500 MW / 2 GWh grid-scale battery at former Tomago aluminium smelter site. AGL Energy flagship storage project in the Hunter Valley, NSW.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "2463",
+  "confidence_score": "65",
+  "development_stage": "epbc_submitted",
+  "capex_aud_m": 800.0,
+  "capex_source": "AGL announcement / Fluence press release",
+  "capex_year": 2025,
+  "first_seen": "2023",
+  "capex_source_url": "https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-and-agl-sign-deal-deliver-500-mw-2000-mwh-tomago-battery",
+  "coordinates": {
+    "lat": -32.865,
+    "lng": 151.612
+  },
+  "timeline": [
+    {
+      "date": "2023",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2023/09521",
+      "detail": "Tomago Battery Energy Storage System (BESS) \u2014 Completed",
+      "sources": []
+    },
+    {
+      "date": "2025-07-30",
+      "date_precision": "day",
+      "event_type": "fid",
+      "title": "Final Investment Decision",
+      "detail": "AGL reaches FID on 500MW/2000MWh Tomago BESS. AUD 800M capex. Fluence Gridstack Pro technology.",
+      "sources": []
+    },
+    {
+      "date": "2025-12-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Construction begins at Tomago Industrial Estate. Up to 200 construction jobs.",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2027-10 to 2027-10-31 (source: AEMO Generation Information)",
+      "sources": []
+    },
+    {
+      "date": "2027-06-30",
+      "date_precision": "quarter",
+      "event_type": "cod",
+      "title": "Expected COD H2 2027",
+      "detail": "Expected to enter operation in second half of 2027. 20-year design life.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Fluence",
+      "model": "Gridstack Pro",
+      "grid_forming": false,
+      "source_url": "https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-and-agl-sign-deal-deliver-500-mw-2000-mwh-tomago-battery"
+    },
+    {
+      "role": "epc",
+      "supplier": "Fluence",
+      "grid_forming": false,
+      "source_url": "https://www.agl.com.au/about-agl/operations/tomago-battery"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Tomago Battery Energy Storage System \u2014 SSD EIS (NSW)",
+    "document_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/tomago-battery-energy-storage-system",
+    "document_year": 2023,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "To be confirmed through procurement",
+    "cell_country_of_manufacture": "China / South Korea",
+    "inverter_supplier": "To be confirmed through procurement",
+    "pcs_type": "grid_forming",
+    "round_trip_efficiency_pct": 88.0,
+    "round_trip_efficiency_ac": 85.0,
+    "duration_hours": 4.0,
+    "connection_voltage_kv": 330.0,
+    "transformer_mva": 500.0,
+    "network_service_provider": "TransGrid",
+    "connection_substation_name": "Tomago 330 kV substation (TransGrid)",
+    "connection_substation_capacity_mva": 1200.0,
+    "connection_distance_km": 3.5,
+    "connection_distance_note": "~3.5 km of new 330 kV cable/line from project to Tomago TransGrid substation; EIS Section 9",
+    "connection_augmentation": "New 330 kV feeder bay at Tomago substation required. Short connection distance and existing high-capacity substation minimise augmentation cost. NSCAS agreement with TransGrid.",
+    "notes": "500 MW / 2,000 MWh (4-hour) BESS located at the former Tomago Aluminium substation precinct, Hunter Valley NSW. AGL Energy project. NSW State Significant Development. Grid-forming capability required by EIS and Network Support and Control Ancillary Service (NSCAS) agreement with TransGrid. Connection to 330 kV Hunter Valley transmission network."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

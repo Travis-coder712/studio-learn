@@ -1,0 +1,86 @@
+{
+  "id": "hornsdale-wind-farm-stage-3",
+  "name": "Hornsdale Wind Farm Stage 3",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 109.0,
+  "state": "SA",
+  "current_developer": "HWF 3 Pty Ltd",
+  "current_operator": "Neoen",
+  "cod_current": "2017-08-07",
+  "cod_original": "2017-08-07",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 58.7,
+  "notable": "100 MW \u2014 third and final stage of Neoen's 315 MW Hornsdale Wind Farm. Co-located with the Hornsdale Power Reserve (world's first large-scale grid battery at commissioning). Central to Neoen's Australian operations near Jamestown, SA.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1381",
+  "confidence_score": "49",
+  "first_seen": "2017-08-07",
+  "coordinates": {
+    "lat": -33.05982,
+    "lng": 138.537673
+  },
+  "timeline": [
+    {
+      "date": "2016",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Stage 3 construction began",
+      "sources": []
+    },
+    {
+      "date": "2017-08-07",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2017-08-18",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Siemens Gamesa",
+      "model": "SWT-DD-130 3.6MW",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "ACT Government",
+      "type": "government_ppa",
+      "term_years": 20,
+      "capacity_mw": 109.0,
+      "source_url": "https://www.environment.act.gov.au/energy/cleaner-energy/renewable-energy-target"
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

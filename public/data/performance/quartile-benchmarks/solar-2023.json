@@ -1,0 +1,16 @@
+{
+  "year": 2023,
+  "technology": "solar",
+  "benchmarks": {
+    "capacity_factor": {
+      "q1": 18.24,
+      "median": 22.16,
+      "q3": 24.53
+    },
+    "revenue_per_mw": {
+      "q1": 49586.0,
+      "median": 73056.0,
+      "q3": 106868.0
+    }
+  }
+}

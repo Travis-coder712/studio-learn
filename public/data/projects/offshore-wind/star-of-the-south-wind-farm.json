@@ -1,0 +1,76 @@
+{
+  "id": "star-of-the-south-wind-farm",
+  "name": "Star of the South Wind Farm",
+  "technology": "offshore_wind",
+  "status": "development",
+  "capacity_mw": 2205.0,
+  "state": "VIC",
+  "current_developer": "Southerly Ten (Copenhagen Infrastructure Partners / Cbus Super)",
+  "cod_current": "2032-03-31",
+  "cod_original": "2032-03-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Most advanced Australian offshore wind project. Feasibility licence FL-01 granted May 2024 for 586 km2 area 10+ km off Gippsland coast. EIS lodged Dec 2025 under EPBC Act. Targeting first power ~2030. Estimated A$8-10B.",
+  "data_confidence": "medium",
+  "last_updated": "2026-03-11",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1613",
+  "confidence_score": "49",
+  "development_stage": "epbc_submitted",
+  "first_seen": "2020",
+  "timeline": [
+    {
+      "date": "2020",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2020/8650",
+      "detail": "Star of the South Offshore Wind Farm Project \u2014 Controlled Action",
+      "sources": []
+    },
+    {
+      "date": "2024-05-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Feasibility licence secured",
+      "detail": "586 sq km area in Gippsland declared area. Up to 150 turbines, 2.2 GW. Environmental assessments expected to conclude 2026.",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2032-03 to 2032-03-31 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    },
+    {
+      "title": "Star of the South \u2014 Project Overview",
+      "url": "https://www.starofthesouth.com.au/project-overview",
+      "source_tier": 2
+    },
+    {
+      "title": "EPBC Referral 2020/8650",
+      "url": "https://epbcpublicportal.environment.gov.au/all-referrals/#!/referral/2020-8650",
+      "date": "2026-03-12",
+      "source_tier": 1
+    }
+  ]
+}

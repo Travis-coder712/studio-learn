@@ -1,0 +1,48 @@
+{
+  "id": "armidale-east-bess",
+  "name": "Armidale East BESS",
+  "technology": "bess",
+  "status": "development",
+  "capacity_mw": 315.0,
+  "storage_mwh": 1712.0,
+  "state": "NSW",
+  "current_developer": "FRV",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "3017",
+  "confidence_score": "28",
+  "development_stage": "epbc_submitted",
+  "first_seen": "2025",
+  "timeline": [
+    {
+      "date": "2025",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2024/10089",
+      "detail": "Armidale East BESS \u2014 Assessment",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

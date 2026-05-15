@@ -1,0 +1,70 @@
+{
+  "id": "kennedy-energy-park-phase-1-wind",
+  "name": "Kennedy Energy Park - Phase 1 - Wind",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 43.3,
+  "state": "QLD",
+  "current_developer": "Windlab / Eurus",
+  "cod_current": "2021-07-05",
+  "cod_original": "2021-07-05",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 85.3,
+  "notable": "CF may be inflated. Hybrid facility (wind 43 MW + solar 15 MW + battery 2 MW) \u2014 OpenElectricity reports 49.5% CF for 2024 but Rystad Energy reports 42.4% AC CF. Discrepancy likely due to energy attribution between co-located DUIDs. Windlab confirms Kennedy ranked #2 in NEM behind Coonooer Bridge (~45%), inconsistent with 49.5%.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1464",
+  "confidence_score": "59",
+  "first_seen": "2021-07-05",
+  "coordinates": {
+    "lat": -20.872792,
+    "lng": 144.413034
+  },
+  "timeline": [
+    {
+      "date": "2019",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Windlab/Eurus hybrid project near Hughenden QLD",
+      "sources": []
+    },
+    {
+      "date": "2021-07-05",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2021-07-06",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

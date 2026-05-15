@@ -1,0 +1,55 @@
+{
+  "id": "bass-offshore-wind-energy-project",
+  "name": "Bass Offshore Wind Energy Project",
+  "technology": "offshore_wind",
+  "status": "development",
+  "capacity_mw": 500.0,
+  "state": "TAS",
+  "current_developer": "Nexsphere (formerly Brookvale Energy)",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Proposed 500 MW (scaled to 1.5 GW) bottom-fixed off NE Tasmania in Bass Strait. Equinor withdrew early 2025. Failed to obtain feasibility licence Apr 2025. Nexsphere seeking new partners.",
+  "data_confidence": "medium",
+  "last_updated": "2026-03-11",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "2231",
+  "confidence_score": "31",
+  "development_stage": "planning_submitted",
+  "first_seen": "2025-01-01",
+  "timeline": [
+    {
+      "date": "2025-01-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Equinor withdraws",
+      "detail": "Equinor ended collaboration; cited shift to core oil and gas operations",
+      "sources": []
+    },
+    {
+      "date": "2025-04-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Feasibility licence not obtained",
+      "detail": "Failed to obtain licence during application window",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ]
+}

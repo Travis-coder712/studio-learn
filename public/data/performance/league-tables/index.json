@@ -1,0 +1,202 @@
+{
+  "available_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "technologies": [
+    "bess",
+    "pumped_hydro",
+    "solar",
+    "wind"
+  ],
+  "tables": [
+    {
+      "year": 2018,
+      "technology": "bess",
+      "count": 4
+    },
+    {
+      "year": 2018,
+      "technology": "pumped_hydro",
+      "count": 33
+    },
+    {
+      "year": 2018,
+      "technology": "solar",
+      "count": 23
+    },
+    {
+      "year": 2018,
+      "technology": "wind",
+      "count": 48
+    },
+    {
+      "year": 2019,
+      "technology": "bess",
+      "count": 4
+    },
+    {
+      "year": 2019,
+      "technology": "pumped_hydro",
+      "count": 33
+    },
+    {
+      "year": 2019,
+      "technology": "solar",
+      "count": 36
+    },
+    {
+      "year": 2019,
+      "technology": "wind",
+      "count": 54
+    },
+    {
+      "year": 2020,
+      "technology": "bess",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "technology": "pumped_hydro",
+      "count": 33
+    },
+    {
+      "year": 2020,
+      "technology": "solar",
+      "count": 48
+    },
+    {
+      "year": 2020,
+      "technology": "wind",
+      "count": 64
+    },
+    {
+      "year": 2021,
+      "technology": "bess",
+      "count": 7
+    },
+    {
+      "year": 2021,
+      "technology": "pumped_hydro",
+      "count": 33
+    },
+    {
+      "year": 2021,
+      "technology": "solar",
+      "count": 56
+    },
+    {
+      "year": 2021,
+      "technology": "wind",
+      "count": 69
+    },
+    {
+      "year": 2022,
+      "technology": "bess",
+      "count": 7
+    },
+    {
+      "year": 2022,
+      "technology": "pumped_hydro",
+      "count": 33
+    },
+    {
+      "year": 2022,
+      "technology": "solar",
+      "count": 65
+    },
+    {
+      "year": 2022,
+      "technology": "wind",
+      "count": 72
+    },
+    {
+      "year": 2023,
+      "technology": "bess",
+      "count": 14
+    },
+    {
+      "year": 2023,
+      "technology": "pumped_hydro",
+      "count": 33
+    },
+    {
+      "year": 2023,
+      "technology": "solar",
+      "count": 69
+    },
+    {
+      "year": 2023,
+      "technology": "wind",
+      "count": 75
+    },
+    {
+      "year": 2024,
+      "technology": "bess",
+      "count": 17
+    },
+    {
+      "year": 2024,
+      "technology": "pumped_hydro",
+      "count": 33
+    },
+    {
+      "year": 2024,
+      "technology": "solar",
+      "count": 75
+    },
+    {
+      "year": 2024,
+      "technology": "wind",
+      "count": 82
+    },
+    {
+      "year": 2025,
+      "technology": "bess",
+      "count": 28
+    },
+    {
+      "year": 2025,
+      "technology": "pumped_hydro",
+      "count": 33
+    },
+    {
+      "year": 2025,
+      "technology": "solar",
+      "count": 79
+    },
+    {
+      "year": 2025,
+      "technology": "wind",
+      "count": 80
+    },
+    {
+      "year": 2026,
+      "technology": "bess",
+      "count": 29
+    },
+    {
+      "year": 2026,
+      "technology": "pumped_hydro",
+      "count": 33
+    },
+    {
+      "year": 2026,
+      "technology": "solar",
+      "count": 79
+    },
+    {
+      "year": 2026,
+      "technology": "wind",
+      "count": 80
+    }
+  ],
+  "last_updated": "2026-05-10T17:33:53.880043"
+}

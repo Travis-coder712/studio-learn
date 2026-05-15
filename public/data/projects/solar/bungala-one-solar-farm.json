@@ -1,0 +1,81 @@
+{
+  "id": "bungala-one-solar-farm",
+  "name": "Bungala One Solar Farm",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 110.0,
+  "state": "SA",
+  "current_developer": "Bungala One Operations Pty Ltd as trustee for the Bungala One Operations Trust",
+  "cod_current": "2018-05-14",
+  "cod_original": "2018-05-14",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 54.1,
+  "notable": "95 MW solar farm near Port Augusta, SA. Stage 1 of the 190 MW Bungala Solar Power Project. Developed by ENEL Green Power / DIF Capital Partners. One of the first utility-scale solar projects in the Port Augusta renewable energy precinct.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1589",
+  "confidence_score": "46",
+  "first_seen": "2018-05-14",
+  "coordinates": {
+    "lat": -32.423316,
+    "lng": 137.841798
+  },
+  "timeline": [
+    {
+      "date": "2018-05-14",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2018-05-14",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "solar_oem",
+      "supplier": "Jinko Solar",
+      "grid_forming": false,
+      "source_url": "https://www.nsenergybusiness.com/news/jinkosolar-delivers-275-4-mw-of-solar-modules-for-bungala-solar-farm/"
+    },
+    {
+      "role": "inverter",
+      "supplier": "SMA",
+      "grid_forming": false,
+      "source_url": "https://www.nsenergybusiness.com/news/jinkosolar-delivers-275-4-mw-of-solar-modules-for-bungala-solar-farm/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Elecnor",
+      "grid_forming": false,
+      "source_url": "https://www.nsenergybusiness.com/news/jinkosolar-delivers-275-4-mw-of-solar-modules-for-bungala-solar-farm/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

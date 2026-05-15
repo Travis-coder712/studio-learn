@@ -1,0 +1,81 @@
+{
+  "id": "susan-river-solar-farm",
+  "name": "Susan River Solar Farm",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 75.0,
+  "state": "QLD",
+  "current_developer": "Susan River Solar Pty Ltd as trustee for the Susan River Solar Trust",
+  "cod_current": "2018-12-28",
+  "cod_original": "2018-12-28",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 27.4,
+  "notable": "112 MW solar farm near Maryborough, QLD. Developed by Edify Energy. Holds a PPA with CleanCo Queensland.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1444",
+  "confidence_score": "46",
+  "first_seen": "2018-12-28",
+  "coordinates": {
+    "lat": -25.420275,
+    "lng": 152.742028
+  },
+  "timeline": [
+    {
+      "date": "2018-12-28",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2018-12-28",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "solar_oem",
+      "supplier": "BYD",
+      "grid_forming": false,
+      "source_url": "https://www.pv-magazine-australia.com/2019/02/07/egp-highlights-local-value-creation-as-95-mw-susan-river-project-completion/"
+    },
+    {
+      "role": "inverter",
+      "supplier": "Ingeteam",
+      "grid_forming": false,
+      "source_url": "https://www.pv-magazine-australia.com/2019/02/07/egp-highlights-local-value-creation-as-95-mw-susan-river-project-completion/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Biosar",
+      "grid_forming": false,
+      "source_url": "https://www.pv-magazine-australia.com/2019/02/07/egp-highlights-local-value-creation-as-95-mw-susan-river-project-completion/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

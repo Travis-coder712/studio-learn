@@ -1,0 +1,159 @@
+{
+  "id": "bulabul-bess",
+  "name": "Bulabul BESS",
+  "technology": "bess",
+  "status": "construction",
+  "capacity_mw": 400.0,
+  "storage_mwh": 1000.0,
+  "state": "NSW",
+  "rez": "nsw-central-west-orana",
+  "current_developer": "Ampyr Australia (AGP Singapore)",
+  "cod_current": "2027-03-26",
+  "cod_original": "2027-03-26",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "400 MW BESS near Wellington, NSW. Fluence Gridstack. First Nations 5% equity (Wambal Bila). CIS Tender 3. A$340M Stage 1.",
+  "data_confidence": "good",
+  "last_updated": "2026-04-14",
+  "last_verified": "2026-04-14",
+  "aemo_gen_info_id": "3025,2699",
+  "confidence_score": "64",
+  "first_seen": "2025-07-08",
+  "coordinates": {
+    "lat": -32.35,
+    "lng": 148.78
+  },
+  "timeline": [
+    {
+      "date": "2025-07-08",
+      "date_precision": "day",
+      "event_type": "notable",
+      "title": "Financial close — A$340M",
+      "detail": "CBA, Bank of China, HSBC, Rabobank, SocGen, UOB",
+      "sources": []
+    },
+    {
+      "date": "2025-08-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Bulabul 1 construction commenced",
+      "detail": "200 MW / 200 MWh first sub-phase",
+      "sources": []
+    },
+    {
+      "date": "2025-09-17",
+      "date_precision": "day",
+      "event_type": "scheme_contract",
+      "title": "CIS Tender 3 — CISA awarded",
+      "detail": "Capacity Investment Scheme Agreement secured for 200 MW as part of CIS Tender 3 (storage & firming).",
+      "sources": [
+        {
+          "title": "DCCEEW — CIS Tender 3",
+          "source_tier": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2027-03 to 2027-03-26 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Fluence",
+      "model": "Gridstack",
+      "grid_forming": false,
+      "source_url": "https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-chosen-300-mw-600-mwh-wellington-battery-energy-storage"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [
+    {
+      "scheme": "CIS",
+      "round": "Tender 3 — NEM Dispatchable/Storage",
+      "capacity_mw": 200,
+      "technology": "bess",
+      "announced_date": "2025-09-17",
+      "notes": "Part of CIS Tender 3 (16 projects, 4.13 GW / 15.37 GWh)."
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Bulabul BESS 1 — SSD EIS (NSW)",
+    "document_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/bulabul-bess-1",
+    "document_year": 2023,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "CATL or Samsung SDI (procurement pending)",
+    "cell_country_of_manufacture": "China / South Korea",
+    "inverter_supplier": "Power Electronics or Sungrow (EIS envelope)",
+    "pcs_type": "grid_forming",
+    "round_trip_efficiency_pct": 88.0,
+    "round_trip_efficiency_ac": 85.0,
+    "duration_hours": 2.0,
+    "connection_voltage_kv": 330.0,
+    "transformer_mva": 300.0,
+    "network_service_provider": "TransGrid",
+    "connection_substation_name": "Bulahdelah 330 kV substation (TransGrid)",
+    "connection_substation_capacity_mva": 700.0,
+    "connection_distance_km": 10.0,
+    "connection_distance_note": "~10 km of new 330 kV line to Bulahdelah 330 kV substation on the Sydney–Brisbane transmission corridor; EIS Section 8",
+    "connection_augmentation": "New 330 kV feeder bay at Bulahdelah substation. Sydney–Brisbane 330 kV corridor has capacity; moderate augmentation cost.",
+    "notes": "300 MW / 600 MWh (2-hour) BESS in NSW. Ampyr Australia (AGP Singapore). NSW SSD. Grid-forming PCS specified as requirement. Part of Ampyr's growing Australian BESS portfolio."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    },
+    {
+      "title": "Ampyr — Bulabul Battery",
+      "url": "https://www.ampyr.com.au/our-projects/bulabul-battery/",
+      "source_tier": 2
+    },
+    {
+      "title": "Fluence — Wellington BESS",
+      "url": "https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-chosen-300-mw-600-mwh-wellington-battery-energy-storage",
+      "source_tier": 2
+    },
+    {
+      "title": "Energy-Storage.News — Ampyr Construction",
+      "url": "https://www.energy-storage.news/ampyr-australia-starts-construction-on-600mwh-bess-in-new-south-wales/",
+      "source_tier": 2
+    }
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Stage 1",
+      "capacity_mw": 300.0,
+      "status": "construction",
+      "storage_mwh": 600.0,
+      "cod": "2027-03-26",
+      "oem": "Fluence",
+      "oem_model": "Gridstack",
+      "notes": "300 MW / 600 MWh. Fluence Gridstack. A$340M. First Nations 5% equity (Wambal Bila)."
+    },
+    {
+      "stage": 2,
+      "name": "Stage 2",
+      "capacity_mw": 100.0,
+      "status": "development",
+      "storage_mwh": 400.0,
+      "notes": "100 MW. CIS Tender 3 contracted."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "aldoga-solar-farm",
+  "name": "Aldoga Solar Farm",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 387.0,
+  "state": "QLD",
+  "current_developer": "Acciona Energy Australia Global Pty Ltd",
+  "cod_current": "2025-09-29",
+  "cod_original": "2025-09-29",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 2.6,
+  "notable": "387 MW solar farm near Gladstone, QLD. Developed by ACCIONA Energ\u00eda for Ark Energy / Korea Zinc's green hydrogen and renewable energy strategy. Powers Korea Zinc's zinc refinery operations in Townsville.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1509",
+  "confidence_score": "57",
+  "development_stage": "epbc_approved",
+  "first_seen": "2020",
+  "coordinates": {
+    "lat": -23.839544,
+    "lng": 151.0849
+  },
+  "timeline": [
+    {
+      "date": "2020",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2020/8773",
+      "detail": "Aldoga Solar Farm Project \u2014 Post-Approval",
+      "sources": []
+    },
+    {
+      "date": "2025-03-21",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2025-03-21",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2025-09 to 2025-09-29 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "solar_oem",
+      "supplier": "JA Solar",
+      "grid_forming": false,
+      "source_url": "https://www.pv-magazine-australia.com/2024/05/15/ingeteam-trots-out-australian-first-inverter-tech-at-aldoga-solar-farm/"
+    },
+    {
+      "role": "inverter",
+      "supplier": "Ingeteam",
+      "model": "INGECON SUN 3Power C",
+      "grid_forming": false,
+      "source_url": "https://www.pv-magazine-australia.com/2024/05/15/ingeteam-trots-out-australian-first-inverter-tech-at-aldoga-solar-farm/"
+    },
+    {
+      "role": "epc",
+      "supplier": "ACCIONA Energia",
+      "grid_forming": false,
+      "source_url": "https://www.pv-magazine-australia.com/2024/05/15/ingeteam-trots-out-australian-first-inverter-tech-at-aldoga-solar-farm/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

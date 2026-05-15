@@ -1,0 +1,16 @@
+{
+  "year": 2023,
+  "technology": "pumped_hydro",
+  "benchmarks": {
+    "capacity_factor": {
+      "q1": 19.59,
+      "median": 35.77,
+      "q3": 43.85
+    },
+    "revenue_per_mw": {
+      "q1": 155451.0,
+      "median": 182544.0,
+      "q3": 231415.0
+    }
+  }
+}

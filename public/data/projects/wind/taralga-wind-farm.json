@@ -1,0 +1,93 @@
+{
+  "id": "taralga-wind-farm",
+  "name": "Taralga Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 106.8,
+  "state": "NSW",
+  "current_developer": "Energy Pacific Vic Pty Ltd",
+  "cod_current": "2014-12-22",
+  "cod_original": "2014-12-22",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 61.3,
+  "notable": "107 MW, 51 Vestas V90-2.0 MW turbines near Taralga in NSW Southern Tablelands. Developed by CBD Energy, now owned by Energy Pacific (Marubeni subsidiary).",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1196",
+  "confidence_score": "55",
+  "first_seen": "2014-12-22",
+  "coordinates": {
+    "lat": -34.425387,
+    "lng": 149.859603
+  },
+  "timeline": [
+    {
+      "date": "2006-01",
+      "date_precision": "month",
+      "event_type": "planning_approved",
+      "title": "NSW state approval",
+      "detail": "Approval granted 17 January 2006 for 61 turbines",
+      "sources": []
+    },
+    {
+      "date": "2007-02",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Land & Environment Court determination",
+      "detail": "Approval upheld after appeal to NSW L&E Court",
+      "sources": []
+    },
+    {
+      "date": "2012-02",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Approval for works; modified to 51 turbines with larger capacity",
+      "sources": []
+    },
+    {
+      "date": "2014-12-22",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2014-12-22",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Vestas",
+      "model": "V90-3.0 MW",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

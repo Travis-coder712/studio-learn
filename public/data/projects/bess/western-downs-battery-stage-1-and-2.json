@@ -1,0 +1,113 @@
+{
+  "id": "western-downs-battery-stage-1-and-2",
+  "name": "Western Downs Battery - Stage 1 And 2",
+  "technology": "bess",
+  "status": "commissioning",
+  "capacity_mw": 510.0,
+  "storage_mwh": 509.6,
+  "state": "QLD",
+  "current_developer": "Western Downs BESS Pty Ltd as trustee for Western Downs BESS Trust",
+  "cod_current": "2025-12-19",
+  "cod_original": "2025-12-19",
+  "grid_forming": true,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "510 MW / 1,020 MWh BESS at Chinchilla, QLD. CleanCo Queensland flagship \u2014 one of the largest batteries in the Southern Hemisphere.",
+  "data_confidence": "good",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "aemo_gen_info_id": "1966",
+  "confidence_score": "48",
+  "capex_aud_m": 244.0,
+  "capex_source": "ARENA",
+  "capex_year": 2022,
+  "first_seen": "2026-03-12",
+  "capex_source_url": "https://neoen.com/en/news/2025/neoen-delivers-western-downs-battery-stage-2-and-launches-stage-3-in-queensland-australia/",
+  "coordinates": {
+    "lat": -26.75,
+    "lng": 150.63
+  },
+  "timeline": [
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2025-12 to 2025-12-19 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Tesla",
+      "model": "Megapack",
+      "grid_forming": false,
+      "source_url": "https://neoen.com/en/news/2025/neoen-delivers-western-downs-battery-stage-2-and-launches-stage-3-in-queensland-australia/"
+    },
+    {
+      "role": "epc",
+      "supplier": "UGL (CIMIC Group)",
+      "grid_forming": false,
+      "source_url": "https://www.ugllimited.com/news/2025/western-downs-battery-stage-1-is-operating"
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "CleanCo Queensland",
+      "type": "government_ppa",
+      "source_url": "https://reneweconomy.com.au/western-downs-battery/"
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Western Downs BESS EIS \u2014 Coordinator-General's Report (QLD DSDILGP)",
+    "document_url": "https://www.dsdilgp.qld.gov.au/our-work/major-projects/energy-projects/western-downs-battery-energy-storage-system",
+    "document_year": 2021,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "CATL / Tesla (Tesla Gigafactory)",
+    "cell_country_of_manufacture": "United States / China",
+    "inverter_supplier": "Tesla",
+    "inverter_model": "Megapack",
+    "inverter_country_of_manufacture": "United States",
+    "pcs_type": "grid_forming",
+    "round_trip_efficiency_pct": 90.0,
+    "round_trip_efficiency_ac": 86.0,
+    "duration_hours": 1.0,
+    "connection_voltage_kv": 275.0,
+    "transformer_mva": 560.0,
+    "network_service_provider": "Powerlink Queensland",
+    "connection_substation_name": "Western Downs 275 kV substation (new Powerlink connection point), QLD",
+    "connection_substation_capacity_mva": 1000.0,
+    "connection_distance_km": 5.0,
+    "connection_distance_note": "~5 km of 275 kV connection to new Powerlink Western Downs 275 kV substation, near Chinchilla/Dalby, QLD.",
+    "connection_augmentation": "New Powerlink 275 kV connection in Western Downs. Substation and transmission corridor upgrades to accommodate battery plus multiple adjacent solar/wind projects (QLD CIS portfolio).",
+    "notes": "510 MW / 510 MWh (1-hour) BESS, Western Downs, QLD. Developer: Western Downs BESS (Origin Energy). Technology: Tesla Megapack (LFP, grid-forming). EPC: UGL (CIMIC). QLD EIS approved 2021. Commissioning 2025. Grid-forming provides virtual inertia to QLD grid. QLD LTESA contract holder. Powerlink 275 kV connection in Western Downs renewable energy cluster."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": [
+    {
+      "date": "2025-12",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Stages 1 and 2 reach full commercial operations",
+      "detail": "Western Downs Battery Stages 1+2 (540 MW / 1,080 MWh) fully operational. Stage 3 (305 MW / 1,220 MWh) under construction for summer 2027/28."
+    }
+  ],
+  "duration_hours": 2.0,
+  "current_owner": "Neoen"
+}

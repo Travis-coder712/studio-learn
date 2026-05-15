@@ -1,0 +1,78 @@
+{
+  "id": "edenvale-solar-park",
+  "name": "Edenvale Solar Park.",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 180.0,
+  "state": "QLD",
+  "current_developer": "Edenvale Solar Park Pty Ltd",
+  "cod_current": "2023-02-17",
+  "cod_original": "2023-02-17",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 48.2,
+  "notable": "180 MW solar park in QLD. One of Queensland's larger utility-scale solar installations.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "3169",
+  "confidence_score": "54",
+  "development_stage": "epbc_approved",
+  "first_seen": "2020",
+  "coordinates": {
+    "lat": -26.947486,
+    "lng": 150.578494
+  },
+  "timeline": [
+    {
+      "date": "2020",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2020/8663",
+      "detail": "Edenvale Solar Park \u2014 Not Controlled Action",
+      "sources": []
+    },
+    {
+      "date": "2023-02-17",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2023-02-18",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "epc",
+      "supplier": "GRS (Gransolar)",
+      "grid_forming": false,
+      "source_url": "https://www.sojitz.com/en/news/2021/06/20210610.php"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

@@ -1,0 +1,896 @@
+{
+  "projects": [
+    {
+      "id": "snowtown-s2-wind-farm",
+      "name": "Snowtown S2 Wind Farm",
+      "technology": "wind",
+      "state": "SA",
+      "capacity_mw": 270.0,
+      "eis_cf_pct": 39.0,
+      "eis_energy_gwh": 923.0,
+      "annual_actuals": [
+        {
+          "year": 2018,
+          "cf_pct": 18.8,
+          "energy_mwh": 444826
+        },
+        {
+          "year": 2019,
+          "cf_pct": 17.8,
+          "energy_mwh": 421124
+        },
+        {
+          "year": 2020,
+          "cf_pct": 16.8,
+          "energy_mwh": 398393
+        },
+        {
+          "year": 2021,
+          "cf_pct": 17.0,
+          "energy_mwh": 401994
+        },
+        {
+          "year": 2022,
+          "cf_pct": 18.5,
+          "energy_mwh": 436899
+        },
+        {
+          "year": 2023,
+          "cf_pct": 16.7,
+          "energy_mwh": 395633
+        },
+        {
+          "year": 2024,
+          "cf_pct": 17.9,
+          "energy_mwh": 423628
+        },
+        {
+          "year": 2025,
+          "cf_pct": 18.7,
+          "energy_mwh": 442952
+        }
+      ],
+      "avg_actual_cf_pct": 17.8,
+      "cf_delta_pct": -21.2
+    },
+    {
+      "id": "ryan-corner-wind-farm",
+      "name": "Ryan Corner Wind Farm",
+      "technology": "wind",
+      "state": "VIC",
+      "capacity_mw": 218.0,
+      "eis_cf_pct": 40.0,
+      "eis_energy_gwh": 763.0,
+      "annual_actuals": [
+        {
+          "year": 2024,
+          "cf_pct": 8.2,
+          "energy_mwh": 146340
+        },
+        {
+          "year": 2025,
+          "cf_pct": 34.7,
+          "energy_mwh": 623362
+        }
+      ],
+      "avg_actual_cf_pct": 21.5,
+      "cf_delta_pct": -18.5
+    },
+    {
+      "id": "kaban-wind-farm",
+      "name": "Kaban Wind Farm",
+      "technology": "wind",
+      "state": "QLD",
+      "capacity_mw": 152.0,
+      "eis_cf_pct": 37.5,
+      "eis_energy_gwh": 499.0,
+      "annual_actuals": [
+        {
+          "year": 2022,
+          "cf_pct": 0.7,
+          "energy_mwh": 9433
+        },
+        {
+          "year": 2023,
+          "cf_pct": 25.5,
+          "energy_mwh": 340078
+        },
+        {
+          "year": 2024,
+          "cf_pct": 29.7,
+          "energy_mwh": 395250
+        },
+        {
+          "year": 2025,
+          "cf_pct": 21.8,
+          "energy_mwh": 290720
+        }
+      ],
+      "avg_actual_cf_pct": 19.4,
+      "cf_delta_pct": -18.1
+    },
+    {
+      "id": "port-augusta-renewable-energy-park-wind",
+      "name": "Port Augusta Renewable Energy Park - Wind",
+      "technology": "wind",
+      "state": "SA",
+      "capacity_mw": 210.0,
+      "eis_cf_pct": 37.0,
+      "eis_energy_gwh": 680.0,
+      "annual_actuals": [
+        {
+          "year": 2022,
+          "cf_pct": 10.6,
+          "energy_mwh": 194956
+        },
+        {
+          "year": 2023,
+          "cf_pct": 27.0,
+          "energy_mwh": 497116
+        },
+        {
+          "year": 2024,
+          "cf_pct": 26.3,
+          "energy_mwh": 484577
+        },
+        {
+          "year": 2025,
+          "cf_pct": 21.9,
+          "energy_mwh": 402199
+        }
+      ],
+      "avg_actual_cf_pct": 21.5,
+      "cf_delta_pct": -15.5
+    },
+    {
+      "id": "macarthur-wind-farm",
+      "name": "Macarthur Wind Farm",
+      "technology": "wind",
+      "state": "VIC",
+      "capacity_mw": 420.0,
+      "eis_cf_pct": 36.5,
+      "eis_energy_gwh": 1342.0,
+      "annual_actuals": [
+        {
+          "year": 2018,
+          "cf_pct": 29.1,
+          "energy_mwh": 1069461
+        },
+        {
+          "year": 2019,
+          "cf_pct": 26.6,
+          "energy_mwh": 976882
+        },
+        {
+          "year": 2020,
+          "cf_pct": 21.2,
+          "energy_mwh": 779053
+        },
+        {
+          "year": 2021,
+          "cf_pct": 21.5,
+          "energy_mwh": 789613
+        },
+        {
+          "year": 2022,
+          "cf_pct": 16.0,
+          "energy_mwh": 588004
+        },
+        {
+          "year": 2023,
+          "cf_pct": 21.3,
+          "energy_mwh": 783798
+        },
+        {
+          "year": 2024,
+          "cf_pct": 13.3,
+          "energy_mwh": 490741
+        },
+        {
+          "year": 2025,
+          "cf_pct": 19.9,
+          "energy_mwh": 730186
+        }
+      ],
+      "avg_actual_cf_pct": 21.1,
+      "cf_delta_pct": -15.4
+    },
+    {
+      "id": "rye-park-wind-farm",
+      "name": "Rye Park Wind Farm",
+      "technology": "wind",
+      "state": "NSW",
+      "capacity_mw": 396.0,
+      "eis_cf_pct": 37.1,
+      "eis_energy_gwh": 1286.0,
+      "annual_actuals": [
+        {
+          "year": 2023,
+          "cf_pct": 2.4,
+          "energy_mwh": 84060
+        },
+        {
+          "year": 2024,
+          "cf_pct": 28.4,
+          "energy_mwh": 954486
+        },
+        {
+          "year": 2025,
+          "cf_pct": 36.1,
+          "energy_mwh": 1215425
+        }
+      ],
+      "avg_actual_cf_pct": 22.3,
+      "cf_delta_pct": -14.8
+    },
+    {
+      "id": "bulgana-green-power-hub-wind-farm",
+      "name": "Bulgana Green Power Hub - Wind Farm",
+      "technology": "wind",
+      "state": "VIC",
+      "capacity_mw": 194.0,
+      "eis_cf_pct": 38.5,
+      "eis_energy_gwh": 655.0,
+      "annual_actuals": [
+        {
+          "year": 2020,
+          "cf_pct": 9.7,
+          "energy_mwh": 164006
+        },
+        {
+          "year": 2021,
+          "cf_pct": 25.7,
+          "energy_mwh": 437367
+        },
+        {
+          "year": 2022,
+          "cf_pct": 31.4,
+          "energy_mwh": 532906
+        },
+        {
+          "year": 2023,
+          "cf_pct": 30.6,
+          "energy_mwh": 520340
+        },
+        {
+          "year": 2024,
+          "cf_pct": 27.1,
+          "energy_mwh": 484288
+        },
+        {
+          "year": 2025,
+          "cf_pct": 20.6,
+          "energy_mwh": 368629
+        }
+      ],
+      "avg_actual_cf_pct": 24.2,
+      "cf_delta_pct": -14.3
+    },
+    {
+      "id": "collector",
+      "name": "Collector",
+      "technology": "wind",
+      "state": "NSW",
+      "capacity_mw": 219.0,
+      "eis_cf_pct": 36.0,
+      "eis_energy_gwh": 690.0,
+      "annual_actuals": [
+        {
+          "year": 2020,
+          "cf_pct": 0.4,
+          "energy_mwh": 8498
+        },
+        {
+          "year": 2021,
+          "cf_pct": 23.6,
+          "energy_mwh": 452256
+        },
+        {
+          "year": 2022,
+          "cf_pct": 27.7,
+          "energy_mwh": 531494
+        },
+        {
+          "year": 2023,
+          "cf_pct": 26.0,
+          "energy_mwh": 499548
+        },
+        {
+          "year": 2024,
+          "cf_pct": 24.6,
+          "energy_mwh": 471350
+        },
+        {
+          "year": 2025,
+          "cf_pct": 29.2,
+          "energy_mwh": 560870
+        }
+      ],
+      "avg_actual_cf_pct": 21.9,
+      "cf_delta_pct": -14.1
+    },
+    {
+      "id": "hawkesdale-wind-farm",
+      "name": "Hawkesdale Wind Farm",
+      "technology": "wind",
+      "state": "VIC",
+      "capacity_mw": 89.5,
+      "eis_cf_pct": 37.0,
+      "eis_energy_gwh": 291.0,
+      "annual_actuals": [
+        {
+          "year": 2024,
+          "cf_pct": 15.3,
+          "energy_mwh": 119917
+        },
+        {
+          "year": 2025,
+          "cf_pct": 33.8,
+          "energy_mwh": 265245
+        }
+      ],
+      "avg_actual_cf_pct": 24.5,
+      "cf_delta_pct": -12.5
+    },
+    {
+      "id": "berrybank-wind-farm",
+      "name": "Berrybank Wind Farm",
+      "technology": "wind",
+      "state": "VIC",
+      "capacity_mw": 281.1,
+      "eis_cf_pct": 40.0,
+      "eis_energy_gwh": 985.0,
+      "annual_actuals": [
+        {
+          "year": 2021,
+          "cf_pct": 20.0,
+          "energy_mwh": 492074
+        },
+        {
+          "year": 2022,
+          "cf_pct": 21.4,
+          "energy_mwh": 526117
+        },
+        {
+          "year": 2023,
+          "cf_pct": 31.2,
+          "energy_mwh": 768267
+        },
+        {
+          "year": 2024,
+          "cf_pct": 31.2,
+          "energy_mwh": 767777
+        },
+        {
+          "year": 2025,
+          "cf_pct": 34.8,
+          "energy_mwh": 856919
+        }
+      ],
+      "avg_actual_cf_pct": 27.7,
+      "cf_delta_pct": -12.3
+    },
+    {
+      "id": "yendon-wind-farm",
+      "name": "Yendon Wind Farm",
+      "technology": "wind",
+      "state": "VIC",
+      "capacity_mw": 142.0,
+      "eis_cf_pct": 35.5,
+      "eis_energy_gwh": 442.0,
+      "annual_actuals": [
+        {
+          "year": 2019,
+          "cf_pct": 9.1,
+          "energy_mwh": 113286
+        },
+        {
+          "year": 2020,
+          "cf_pct": 27.0,
+          "energy_mwh": 335436
+        },
+        {
+          "year": 2021,
+          "cf_pct": 26.9,
+          "energy_mwh": 334747
+        },
+        {
+          "year": 2022,
+          "cf_pct": 26.0,
+          "energy_mwh": 323155
+        },
+        {
+          "year": 2023,
+          "cf_pct": 26.9,
+          "energy_mwh": 334495
+        },
+        {
+          "year": 2024,
+          "cf_pct": 23.5,
+          "energy_mwh": 292516
+        },
+        {
+          "year": 2025,
+          "cf_pct": 23.9,
+          "energy_mwh": 297684
+        }
+      ],
+      "avg_actual_cf_pct": 23.3,
+      "cf_delta_pct": -12.2
+    },
+    {
+      "id": "mount-emerald",
+      "name": "Mount Emerald",
+      "technology": "wind",
+      "state": "QLD",
+      "capacity_mw": 180.5,
+      "eis_cf_pct": 36.5,
+      "eis_energy_gwh": 578.0,
+      "annual_actuals": [
+        {
+          "year": 2018,
+          "cf_pct": 7.2,
+          "energy_mwh": 114239
+        },
+        {
+          "year": 2019,
+          "cf_pct": 28.8,
+          "energy_mwh": 455526
+        },
+        {
+          "year": 2020,
+          "cf_pct": 22.0,
+          "energy_mwh": 348232
+        },
+        {
+          "year": 2021,
+          "cf_pct": 27.7,
+          "energy_mwh": 437981
+        },
+        {
+          "year": 2022,
+          "cf_pct": 26.8,
+          "energy_mwh": 423113
+        },
+        {
+          "year": 2023,
+          "cf_pct": 31.1,
+          "energy_mwh": 491437
+        },
+        {
+          "year": 2024,
+          "cf_pct": 29.5,
+          "energy_mwh": 459867
+        },
+        {
+          "year": 2025,
+          "cf_pct": 26.1,
+          "energy_mwh": 406943
+        }
+      ],
+      "avg_actual_cf_pct": 24.9,
+      "cf_delta_pct": -11.6
+    },
+    {
+      "id": "cattle-hill-wind-farm",
+      "name": "Cattle Hill Wind Farm",
+      "technology": "wind",
+      "state": "TAS",
+      "capacity_mw": 144.0,
+      "eis_cf_pct": 44.2,
+      "eis_energy_gwh": 556.0,
+      "annual_actuals": [
+        {
+          "year": 2020,
+          "cf_pct": 21.6,
+          "energy_mwh": 272379
+        },
+        {
+          "year": 2021,
+          "cf_pct": 38.4,
+          "energy_mwh": 483845
+        },
+        {
+          "year": 2022,
+          "cf_pct": 29.6,
+          "energy_mwh": 373503
+        },
+        {
+          "year": 2023,
+          "cf_pct": 38.4,
+          "energy_mwh": 484738
+        },
+        {
+          "year": 2024,
+          "cf_pct": 37.5,
+          "energy_mwh": 473132
+        },
+        {
+          "year": 2025,
+          "cf_pct": 39.7,
+          "energy_mwh": 500896
+        }
+      ],
+      "avg_actual_cf_pct": 34.2,
+      "cf_delta_pct": -10.0
+    },
+    {
+      "id": "stockyard-hill-wind-farm",
+      "name": "Stockyard Hill Wind Farm",
+      "technology": "wind",
+      "state": "VIC",
+      "capacity_mw": 530.0,
+      "eis_cf_pct": 39.2,
+      "eis_energy_gwh": 1813.0,
+      "annual_actuals": [
+        {
+          "year": 2021,
+          "cf_pct": 5.8,
+          "energy_mwh": 271264
+        },
+        {
+          "year": 2022,
+          "cf_pct": 30.2,
+          "energy_mwh": 1404638
+        },
+        {
+          "year": 2023,
+          "cf_pct": 35.0,
+          "energy_mwh": 1625036
+        },
+        {
+          "year": 2024,
+          "cf_pct": 34.8,
+          "energy_mwh": 1614012
+        },
+        {
+          "year": 2025,
+          "cf_pct": 40.6,
+          "energy_mwh": 1816580
+        }
+      ],
+      "avg_actual_cf_pct": 29.3,
+      "cf_delta_pct": -9.9
+    },
+    {
+      "id": "dundonnell-wind-farm",
+      "name": "Dundonnell Wind Farm",
+      "technology": "wind",
+      "state": "VIC",
+      "capacity_mw": 336.0,
+      "eis_cf_pct": 40.5,
+      "eis_energy_gwh": 1190.0,
+      "annual_actuals": [
+        {
+          "year": 2020,
+          "cf_pct": 14.6,
+          "energy_mwh": 429531
+        },
+        {
+          "year": 2021,
+          "cf_pct": 36.5,
+          "energy_mwh": 1074609
+        },
+        {
+          "year": 2022,
+          "cf_pct": 36.7,
+          "energy_mwh": 1079784
+        },
+        {
+          "year": 2023,
+          "cf_pct": 34.6,
+          "energy_mwh": 1017486
+        },
+        {
+          "year": 2024,
+          "cf_pct": 30.2,
+          "energy_mwh": 888300
+        },
+        {
+          "year": 2025,
+          "cf_pct": 36.3,
+          "energy_mwh": 1068730
+        }
+      ],
+      "avg_actual_cf_pct": 31.5,
+      "cf_delta_pct": -9.0
+    },
+    {
+      "id": "coopers-gap-wind-farm",
+      "name": "Coopers Gap Wind Farm",
+      "technology": "wind",
+      "state": "QLD",
+      "capacity_mw": 453.0,
+      "eis_cf_pct": 35.5,
+      "eis_energy_gwh": 1407.0,
+      "annual_actuals": [
+        {
+          "year": 2019,
+          "cf_pct": 3.6,
+          "energy_mwh": 141509
+        },
+        {
+          "year": 2020,
+          "cf_pct": 25.0,
+          "energy_mwh": 990566
+        },
+        {
+          "year": 2021,
+          "cf_pct": 32.4,
+          "energy_mwh": 1285003
+        },
+        {
+          "year": 2022,
+          "cf_pct": 35.0,
+          "energy_mwh": 1387506
+        },
+        {
+          "year": 2023,
+          "cf_pct": 33.6,
+          "energy_mwh": 1334154
+        },
+        {
+          "year": 2024,
+          "cf_pct": 32.1,
+          "energy_mwh": 1273386
+        },
+        {
+          "year": 2025,
+          "cf_pct": 32.2,
+          "energy_mwh": 1278773
+        }
+      ],
+      "avg_actual_cf_pct": 27.7,
+      "cf_delta_pct": -7.8
+    },
+    {
+      "id": "waterloo-wind-farm",
+      "name": "Waterloo Wind Farm",
+      "technology": "wind",
+      "state": "SA",
+      "capacity_mw": 130.8,
+      "eis_cf_pct": 39.0,
+      "eis_energy_gwh": 447.0,
+      "annual_actuals": [
+        {
+          "year": 2018,
+          "cf_pct": 34.9,
+          "energy_mwh": 399275
+        },
+        {
+          "year": 2019,
+          "cf_pct": 32.1,
+          "energy_mwh": 368302
+        },
+        {
+          "year": 2020,
+          "cf_pct": 30.4,
+          "energy_mwh": 348264
+        },
+        {
+          "year": 2021,
+          "cf_pct": 29.4,
+          "energy_mwh": 336669
+        },
+        {
+          "year": 2022,
+          "cf_pct": 32.5,
+          "energy_mwh": 372361
+        },
+        {
+          "year": 2023,
+          "cf_pct": 29.0,
+          "energy_mwh": 332174
+        },
+        {
+          "year": 2024,
+          "cf_pct": 30.5,
+          "energy_mwh": 349393
+        },
+        {
+          "year": 2025,
+          "cf_pct": 31.8,
+          "energy_mwh": 363844
+        }
+      ],
+      "avg_actual_cf_pct": 31.3,
+      "cf_delta_pct": -7.7
+    },
+    {
+      "id": "sapphire-wind-farm",
+      "name": "Sapphire Wind Farm",
+      "technology": "wind",
+      "state": "NSW",
+      "capacity_mw": 270.0,
+      "eis_cf_pct": 38.0,
+      "eis_energy_gwh": 898.0,
+      "annual_actuals": [
+        {
+          "year": 2018,
+          "cf_pct": 16.6,
+          "energy_mwh": 393660
+        },
+        {
+          "year": 2019,
+          "cf_pct": 33.8,
+          "energy_mwh": 799450
+        },
+        {
+          "year": 2020,
+          "cf_pct": 33.5,
+          "energy_mwh": 792614
+        },
+        {
+          "year": 2021,
+          "cf_pct": 33.4,
+          "energy_mwh": 789418
+        },
+        {
+          "year": 2022,
+          "cf_pct": 36.5,
+          "energy_mwh": 863015
+        },
+        {
+          "year": 2023,
+          "cf_pct": 30.4,
+          "energy_mwh": 718328
+        },
+        {
+          "year": 2024,
+          "cf_pct": 29.3,
+          "energy_mwh": 693686
+        },
+        {
+          "year": 2025,
+          "cf_pct": 31.1,
+          "energy_mwh": 735419
+        }
+      ],
+      "avg_actual_cf_pct": 30.6,
+      "cf_delta_pct": -7.4
+    },
+    {
+      "id": "silverton-wind-farm",
+      "name": "Silverton Wind Farm",
+      "technology": "wind",
+      "state": "NSW",
+      "capacity_mw": 200.0,
+      "eis_cf_pct": 37.0,
+      "eis_energy_gwh": 648.0,
+      "annual_actuals": [
+        {
+          "year": 2018,
+          "cf_pct": 5.6,
+          "energy_mwh": 98211
+        },
+        {
+          "year": 2019,
+          "cf_pct": 24.2,
+          "energy_mwh": 423675
+        },
+        {
+          "year": 2020,
+          "cf_pct": 40.8,
+          "energy_mwh": 714664
+        },
+        {
+          "year": 2021,
+          "cf_pct": 40.4,
+          "energy_mwh": 707856
+        },
+        {
+          "year": 2022,
+          "cf_pct": 39.8,
+          "energy_mwh": 697076
+        },
+        {
+          "year": 2023,
+          "cf_pct": 33.3,
+          "energy_mwh": 582727
+        },
+        {
+          "year": 2024,
+          "cf_pct": 31.4,
+          "energy_mwh": 549858
+        },
+        {
+          "year": 2025,
+          "cf_pct": 33.1,
+          "energy_mwh": 580743
+        }
+      ],
+      "avg_actual_cf_pct": 31.1,
+      "cf_delta_pct": -5.9
+    },
+    {
+      "id": "musselroe-wind-farm",
+      "name": "Musselroe Wind Farm",
+      "technology": "wind",
+      "state": "TAS",
+      "capacity_mw": 168.0,
+      "eis_cf_pct": 42.5,
+      "eis_energy_gwh": 624.0,
+      "annual_actuals": [
+        {
+          "year": 2018,
+          "cf_pct": 39.5,
+          "energy_mwh": 581337
+        },
+        {
+          "year": 2019,
+          "cf_pct": 44.5,
+          "energy_mwh": 654360
+        },
+        {
+          "year": 2020,
+          "cf_pct": 37.8,
+          "energy_mwh": 555832
+        },
+        {
+          "year": 2021,
+          "cf_pct": 38.5,
+          "energy_mwh": 567287
+        },
+        {
+          "year": 2022,
+          "cf_pct": 33.1,
+          "energy_mwh": 486882
+        },
+        {
+          "year": 2023,
+          "cf_pct": 38.1,
+          "energy_mwh": 560891
+        },
+        {
+          "year": 2024,
+          "cf_pct": 38.3,
+          "energy_mwh": 563031
+        },
+        {
+          "year": 2025,
+          "cf_pct": 38.8,
+          "energy_mwh": 570799
+        }
+      ],
+      "avg_actual_cf_pct": 38.6,
+      "cf_delta_pct": -3.9
+    },
+    {
+      "id": "dulacca-wind-farm",
+      "name": "Dulacca Wind Farm",
+      "technology": "wind",
+      "state": "QLD",
+      "capacity_mw": 180.6,
+      "eis_cf_pct": 35.0,
+      "eis_energy_gwh": 554.0,
+      "annual_actuals": [
+        {
+          "year": 2023,
+          "cf_pct": 19.0,
+          "energy_mwh": 300002
+        },
+        {
+          "year": 2024,
+          "cf_pct": 38.1,
+          "energy_mwh": 576778
+        },
+        {
+          "year": 2025,
+          "cf_pct": 40.0,
+          "energy_mwh": 605576
+        }
+      ],
+      "avg_actual_cf_pct": 32.4,
+      "cf_delta_pct": -2.6
+    }
+  ],
+  "summary": {
+    "total_matched": 21,
+    "avg_eis_cf": 38.2,
+    "avg_actual_cf": 26.5,
+    "avg_delta": -11.7,
+    "projects_above_eis": 0,
+    "projects_below_eis": 21
+  },
+  "exported_at": "2026-05-10T17:33:54.270662"
+}

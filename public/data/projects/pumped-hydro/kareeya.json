@@ -1,0 +1,62 @@
+{
+  "id": "kareeya",
+  "name": "Kareeya",
+  "technology": "pumped_hydro",
+  "status": "operating",
+  "capacity_mw": 86.4,
+  "state": "QLD",
+  "current_developer": "CleanCo Queensland Limited",
+  "cod_current": "1955-12-31",
+  "cod_original": "1955-12-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 93.8,
+  "notable": "88 MW underground run-of-river hydro near Tully, Far North QLD. Four 22 MW Pelton turbines. Commenced 1957. CleanCo Queensland (transferred from Stanwell 2019). Set a new station generation record of ~691,000 MWh in calendar year 2024.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1100",
+  "confidence_score": "46",
+  "first_seen": "1955-12-31",
+  "coordinates": {
+    "lat": -17.766456,
+    "lng": 145.576884
+  },
+  "timeline": [
+    {
+      "date": "1955-12-31",
+      "date_precision": "year",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "1998-12-07",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

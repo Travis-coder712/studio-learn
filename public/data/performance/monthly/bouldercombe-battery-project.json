@@ -1,0 +1,73 @@
+{
+  "project_id": "bouldercombe-battery-project",
+  "name": "Bouldercombe Battery project",
+  "technology": "bess",
+  "capacity_mw": 50.0,
+  "state": "QLD",
+  "data_source": "openelectricity_api",
+  "monthly": [
+    {
+      "year": 2025,
+      "month": 10,
+      "utilisation_pct": 0.0,
+      "cycles": 0.0,
+      "revenue_aud": 310772.0
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "energy_discharged_mwh": 2843.1,
+      "energy_charged_mwh": 3417.7,
+      "avg_charge_price": 30.85,
+      "avg_discharge_price": 120.78,
+      "utilisation_pct": 7.6,
+      "cycles": 28.4,
+      "revenue_aud": 796226.0
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "energy_discharged_mwh": 2447.0,
+      "energy_charged_mwh": 2949.3,
+      "avg_charge_price": 38.72,
+      "avg_discharge_price": 108.77,
+      "utilisation_pct": 7.3,
+      "cycles": 24.5,
+      "revenue_aud": 639149.0
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "energy_discharged_mwh": 2469.0,
+      "energy_charged_mwh": 2999.4,
+      "avg_charge_price": 29.09,
+      "avg_discharge_price": 89.29,
+      "utilisation_pct": 6.6,
+      "cycles": 24.7,
+      "revenue_aud": 523767.0
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "energy_discharged_mwh": 2400.7,
+      "energy_charged_mwh": 2967.8,
+      "avg_charge_price": 9.53,
+      "avg_discharge_price": 83.29,
+      "utilisation_pct": 6.7,
+      "cycles": 24.0,
+      "revenue_aud": 427067.0
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "energy_discharged_mwh": 756.2,
+      "energy_charged_mwh": 911.0,
+      "avg_charge_price": 26.41,
+      "avg_discharge_price": 85.63,
+      "utilisation_pct": 2.0,
+      "cycles": 7.6,
+      "revenue_aud": 153088.0
+    }
+  ],
+  "storage_mwh": 100.0
+}

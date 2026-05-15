@@ -1,0 +1,178 @@
+{
+  "project_id": "kingaroy-solar-farm",
+  "name": "Kingaroy Solar Farm",
+  "technology": "solar",
+  "capacity_mw": 40.0,
+  "state": "QLD",
+  "data_source": "openelectricity_api",
+  "monthly": [
+    {
+      "year": 2024,
+      "month": 9,
+      "capacity_factor_pct": 2.0,
+      "energy_mwh": 578.7,
+      "revenue_aud": 2299.0,
+      "energy_price_received": 3.97
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "capacity_factor_pct": 13.1,
+      "energy_mwh": 3903.2,
+      "revenue_aud": -55420.0,
+      "energy_price_received": -14.2
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "capacity_factor_pct": 15.4,
+      "energy_mwh": 4443.7,
+      "revenue_aud": 293823.0,
+      "energy_price_received": 66.12
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "capacity_factor_pct": 18.5,
+      "energy_mwh": 5507.7,
+      "revenue_aud": 181919.0,
+      "energy_price_received": 33.03
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "capacity_factor_pct": 13.0,
+      "energy_mwh": 3879.0,
+      "revenue_aud": 102882.0,
+      "energy_price_received": 26.52
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "capacity_factor_pct": 23.2,
+      "energy_mwh": 6231.9,
+      "revenue_aud": 149413.0,
+      "energy_price_received": 23.98
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "capacity_factor_pct": 20.8,
+      "energy_mwh": 6195.5,
+      "revenue_aud": 197048.0,
+      "energy_price_received": 31.8
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "capacity_factor_pct": 18.9,
+      "energy_mwh": 5431.9,
+      "revenue_aud": 197076.0,
+      "energy_price_received": 36.28
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "capacity_factor_pct": 18.2,
+      "energy_mwh": 5420.5,
+      "revenue_aud": 233191.0,
+      "energy_price_received": 43.02
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "capacity_factor_pct": 14.9,
+      "energy_mwh": 4285.8,
+      "revenue_aud": 211611.0,
+      "energy_price_received": 49.37
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "capacity_factor_pct": 21.0,
+      "energy_mwh": 6251.8,
+      "revenue_aud": 128457.0,
+      "energy_price_received": 20.55
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "capacity_factor_pct": 9.9,
+      "energy_mwh": 2947.0,
+      "revenue_aud": 110793.0,
+      "energy_price_received": 37.59
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "capacity_factor_pct": 8.1,
+      "energy_mwh": 2325.4,
+      "revenue_aud": 41236.0,
+      "energy_price_received": 17.73
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "capacity_factor_pct": 14.7,
+      "energy_mwh": 4385.6,
+      "revenue_aud": 140662.0,
+      "energy_price_received": 32.07
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "capacity_factor_pct": 18.0,
+      "energy_mwh": 5177.3,
+      "revenue_aud": 146046.0,
+      "energy_price_received": 28.21
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "capacity_factor_pct": 26.3,
+      "energy_mwh": 7822.6,
+      "revenue_aud": 202877.0,
+      "energy_price_received": 25.93
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "capacity_factor_pct": 32.2,
+      "energy_mwh": 9569.6,
+      "revenue_aud": 309062.0,
+      "energy_price_received": 32.3
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "capacity_factor_pct": 29.8,
+      "energy_mwh": 7999.2,
+      "revenue_aud": 351687.0,
+      "energy_price_received": 43.97
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "capacity_factor_pct": 25.6,
+      "energy_mwh": 7632.8,
+      "revenue_aud": 262799.0,
+      "energy_price_received": 34.43
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "capacity_factor_pct": 27.9,
+      "energy_mwh": 8022.2,
+      "revenue_aud": 145722.0,
+      "energy_price_received": 18.16
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "capacity_factor_pct": 6.2,
+      "energy_mwh": 1832.2,
+      "revenue_aud": 50608.0,
+      "energy_price_received": 27.62
+    }
+  ]
+}

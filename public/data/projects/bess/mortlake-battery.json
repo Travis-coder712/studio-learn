@@ -1,0 +1,126 @@
+{
+  "id": "mortlake-battery",
+  "name": "Mortlake Battery",
+  "technology": "bess",
+  "status": "commissioning",
+  "capacity_mw": 300.0,
+  "storage_mwh": 650.0,
+  "state": "VIC",
+  "current_developer": "Origin Energy",
+  "cod_current": "2026-07-31",
+  "cod_original": "2026-07-31",
+  "grid_forming": true,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Fluence Gridstack with SMA grid-forming inverters. A$400M. ARENA A$24M grant.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1882",
+  "confidence_score": "67",
+  "development_stage": "epbc_approved",
+  "first_seen": "2008",
+  "coordinates": {
+    "lat": -38.08,
+    "lng": 142.78
+  },
+  "timeline": [
+    {
+      "date": "2008",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2008/4128",
+      "detail": "Mortlake Wind Farm \u2014 Controlled Action",
+      "sources": []
+    },
+    {
+      "date": "2024-01-29",
+      "date_precision": "day",
+      "event_type": "notable",
+      "title": "FID \u2014 A$400M; Fluence contract signed",
+      "sources": []
+    },
+    {
+      "date": "2024-07-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Civil works commenced",
+      "detail": "Fluence Gridstack + SMA inverters",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2026-07 to 2026-07-31 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Fluence",
+      "model": "Gridstack",
+      "grid_forming": false,
+      "source_url": "https://ir.fluenceenergy.com/news-releases/news-release-details/origin-selects-fluence-deliver-300-mw-650-mwh-mortlake-power"
+    },
+    {
+      "role": "inverter",
+      "supplier": "SMA Solar (grid-forming inverters)",
+      "grid_forming": false,
+      "source_url": "https://www.energy-storage.news/construction-begins-at-origins-650mwh-mortlake-bess-in-victoria-australia/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [
+    {
+      "scheme": "ARENA",
+      "round": "",
+      "capacity_mw": 300.0,
+      "storage_mwh": 650.0,
+      "contract_type": "grant",
+      "source_url": "https://arena.gov.au/news/origin-issues-notice-to-proceed-on-300-mw-grid-forming-battery-at-mortlake/"
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Mortlake Battery Energy Storage System \u2014 EES/Permit (VIC)",
+    "document_url": "https://www.planning.vic.gov.au/permits-and-applications/state-projects",
+    "document_year": 2023,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "Tesla",
+    "cell_country_of_manufacture": "China (CATL cells in Megapack 2)",
+    "inverter_supplier": "Tesla",
+    "inverter_model": "Tesla Megapack 2",
+    "inverter_country_of_manufacture": "USA (assembled in Lathrop, CA)",
+    "pcs_type": "grid_forming",
+    "round_trip_efficiency_pct": 90.0,
+    "round_trip_efficiency_ac": 87.0,
+    "duration_hours": 2.2,
+    "connection_voltage_kv": 220.0,
+    "transformer_mva": 300.0,
+    "network_service_provider": "AusNet Services",
+    "connection_substation_name": "Mortlake 220 kV substation (on-site, shared with gas peaker)",
+    "connection_substation_capacity_mva": 550.0,
+    "connection_distance_km": 0.1,
+    "connection_distance_note": "Effectively on-site \u2014 BESS shares the existing Mortlake gas power station 220 kV substation. Minimal transmission line cost.",
+    "connection_augmentation": "Minimal. Existing 220 kV switchyard shared with Mortlake gas peaker (550 MW). New BESS feeder bay required but major civil/HV works avoided. Cost advantage similar to co-located gas station BESS projects.",
+    "notes": "300 MW / 650 MWh (~2.2-hour) BESS co-located at the Mortlake gas peaker site, VIC. Origin Energy. Victorian planning permit. Tesla Megapack 2 system with CATL LFP cells. Tesla Megapack 2 XL uses NMC cells in some variants; LFP confirmed for Australian projects. Grid-forming capability (Tesla Virtual Machine Mode). Connection to the 220 kV AusNet Services network at Mortlake."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

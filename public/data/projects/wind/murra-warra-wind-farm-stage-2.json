@@ -1,0 +1,90 @@
+{
+  "id": "murra-warra-wind-farm-stage-2",
+  "name": "Murra Warra Wind Farm - stage 2",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 209.0,
+  "state": "VIC",
+  "current_developer": "Murra Warra II Project Co Pty Ltd as Trustee for the Murra Warra II Project Trust",
+  "current_operator": "Squadron Energy",
+  "cod_current": "2019-04-08",
+  "cod_original": "2019-04-08",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 32.7,
+  "notable": "38x GE Cypress 5.5-158. Telstra corporate PPA + Snowy Hydro offtake. Senvion bearing failures required staged maintenance (2024).",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1506",
+  "confidence_score": "59",
+  "first_seen": "2019-04-08",
+  "coordinates": {
+    "lat": -36.438821,
+    "lng": 142.246003
+  },
+  "timeline": [
+    {
+      "date": "2019",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Stage 2 construction began alongside Stage 1 completion",
+      "sources": []
+    },
+    {
+      "date": "2019-04-08",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2019-04-08",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "GE Vernova",
+      "model": "Cypress 5.5-158",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "Telstra",
+      "type": "corporate_ppa",
+      "capacity_mw": 209.0,
+      "source_url": "https://reneweconomy.com.au/murra-warra-wind-farm/"
+    },
+    {
+      "party": "Snowy Hydro",
+      "type": "PPA",
+      "capacity_mw": 209.0
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

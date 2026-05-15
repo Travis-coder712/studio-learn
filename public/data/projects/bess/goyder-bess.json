@@ -1,0 +1,91 @@
+{
+  "id": "goyder-bess",
+  "name": "Goyder BESS",
+  "technology": "bess",
+  "status": "development",
+  "capacity_mw": 300.0,
+  "storage_mwh": 800.88,
+  "state": "SA",
+  "current_developer": "Neoen Australia Pty Ltd",
+  "cod_current": "2028-05-09",
+  "cod_original": "2028-05-09",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "data_confidence": "good",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "aemo_gen_info_id": "2904",
+  "confidence_score": "28",
+  "development_stage": "early_stage",
+  "first_seen": "2026-03-12",
+  "timeline": [
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2028-05 to 2028-05-09 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    },
+    {
+      "title": "RenewEconomy \u2014 Neoen begins construction, first Tesla Megablock deployment",
+      "url": "https://reneweconomy.com.au/neoen-begins-construction-of-another-big-battery-first-in-world-to-deploy-tesla-megablock-technology/",
+      "source_tier": 2
+    },
+    {
+      "title": "Energy-Storage.News \u2014 Grid connection readies site for 900 MW battery",
+      "url": "https://www.energy-storage.news/grid-connection-for-neoens-south-australia-renewables-hub-readies-site-for-900mw-battery-storage/",
+      "source_tier": 2
+    }
+  ],
+  "timeline_events": [
+    {
+      "date": "2025-12",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction begins on Stage 1 \u2014 first Tesla Megablock deployment globally",
+      "detail": "Neoen breaks ground on 226 MW / 866 MWh first tranche at Goyder North near Burra, SA."
+    }
+  ],
+  "current_owner": "Neoen",
+  "bess_oem": "Tesla",
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Stage 1",
+      "capacity_mw": 300.0,
+      "storage_mwh": 801.0,
+      "status": "construction",
+      "cod": "2028-05",
+      "oem": "Tesla",
+      "notes": "First tranche 226 MW / 866 MWh broke ground Dec 2025. Tesla Megablock technology (first deployment globally). Part of 900 MW approved envelope at Goyder North near Burra, SA."
+    },
+    {
+      "stage": 2,
+      "name": "Stage 2",
+      "capacity_mw": 200.0,
+      "storage_mwh": 800.0,
+      "status": "development",
+      "cod": "2029-05",
+      "notes": "Second tranche within 900 MW approved envelope."
+    }
+  ]
+}

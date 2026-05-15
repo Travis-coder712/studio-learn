@@ -1,0 +1,136 @@
+{
+  "id": "brendale-bess",
+  "name": "Brendale BESS",
+  "technology": "bess",
+  "status": "operating",
+  "capacity_mw": 205.0,
+  "storage_mwh": 409.92,
+  "state": "QLD",
+  "current_developer": "Akaysha Energy (BlackRock)",
+  "current_operator": "Akaysha Energy",
+  "cod_current": "2026-06-30",
+  "cod_original": "2026-06-30",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 15.3,
+  "notable": "Tesla Megapack 2 grid-forming. A$200M. Completed 5 months early (Jan 2026). Gunvor offtake.",
+  "data_confidence": "medium",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "aemo_gen_info_id": "2526",
+  "confidence_score": "80",
+  "capex_aud_m": 300.0,
+  "capex_source": "Akaysha estimate",
+  "capex_year": 2023,
+  "first_seen": "2023-12-01",
+  "capex_source_url": "https://akayshaenergy.com/news/sod-turned-on-akaysha-energys-200m-brendale-bess",
+  "coordinates": {
+    "lat": -27.329333,
+    "lng": 152.974384
+  },
+  "timeline": [
+    {
+      "date": "2023-12-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "FID reached",
+      "sources": []
+    },
+    {
+      "date": "2024-06-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction begins at Brendale, QLD",
+      "detail": "Akaysha Energy broke ground on 205MW/410MWh battery using Tesla Megapack 2 units in suburban Brisbane.",
+      "sources": []
+    },
+    {
+      "date": "2024-08-08",
+      "date_precision": "day",
+      "event_type": "construction_start",
+      "title": "Sod turned; construction commenced",
+      "sources": []
+    },
+    {
+      "date": "2025-09-01",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2025-09-02",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    },
+    {
+      "date": "2026-01-01",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Fully operational \u2014 5 months early",
+      "detail": "Akaysha Brendale BESS operational Jan 2026",
+      "sources": []
+    },
+    {
+      "date": "2026-01-01",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Commercial operations \u2014 5 months ahead of schedule",
+      "detail": "Brendale BESS commenced commercial operations approximately 5 months ahead of schedule, making it Akaysha's second operational project after Waratah.",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2026-06 to 2026-06-30 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Tesla",
+      "model": "Megapack 2",
+      "grid_forming": false,
+      "source_url": "https://akayshaenergy.com/news/sod-turned-on-akaysha-energys-200m-brendale-bess"
+    },
+    {
+      "role": "bop",
+      "supplier": "Consolidated Power Projects (CPP)",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": [
+    {
+      "date": "2025-06",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Stage 1 achieves commercial operations",
+      "detail": "Supernode/Quinbrook: Brendale BESS Stage 1 achieved commercial operations mid-2025."
+    }
+  ],
+  "current_owner": "Quinbrook Infrastructure Partners"
+}

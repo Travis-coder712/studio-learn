@@ -1,0 +1,89 @@
+{
+  "id": "girgarre-solar-farm",
+  "name": "Girgarre Solar Farm",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 76.0,
+  "state": "VIC",
+  "current_developer": "Giragarre Solar Farm Pty Ltd as trustee for Giragarre Solar Farm Trust",
+  "cod_current": "2025-07-02",
+  "cod_original": "2025-07-02",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 62.6,
+  "notable": "76 MW solar farm near Girgarre in Victoria's Goulburn Valley. Part of the growing cluster of solar developments in northern Victoria.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1982",
+  "confidence_score": "49",
+  "first_seen": "2024-07-19",
+  "coordinates": {
+    "lat": -36.426125,
+    "lng": 144.922155
+  },
+  "timeline": [
+    {
+      "date": "2024-07-19",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2024-07-20",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2025-07 to 2025-07-02 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "solar_oem",
+      "supplier": "LONGi",
+      "grid_forming": false,
+      "source_url": "https://www.pv-tech.org/ingeteam-to-supply-inverters-for-93mw-victoria-australia-solar-pv-project/"
+    },
+    {
+      "role": "inverter",
+      "supplier": "Ingeteam",
+      "grid_forming": false,
+      "source_url": "https://www.pv-tech.org/ingeteam-to-supply-inverters-for-93mw-victoria-australia-solar-pv-project/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Beon Energy Solutions",
+      "grid_forming": false,
+      "source_url": "https://www.pv-tech.org/ingeteam-to-supply-inverters-for-93mw-victoria-australia-solar-pv-project/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

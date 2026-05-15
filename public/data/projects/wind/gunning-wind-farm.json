@@ -1,0 +1,70 @@
+{
+  "id": "gunning-wind-farm",
+  "name": "Gunning Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 46.5,
+  "state": "NSW",
+  "current_developer": "Gunning Wind Energy Developments",
+  "cod_current": "2011-04-04",
+  "cod_original": "2011-04-04",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 88.9,
+  "notable": "47 MW, 31 Senvion MM70 1.5 MW turbines near Gunning, NSW. Developed by Pamada. One of the earlier wind farms in the NSW Southern Tablelands.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1082",
+  "confidence_score": "49",
+  "first_seen": "2011-04-04",
+  "coordinates": {
+    "lat": -34.676361,
+    "lng": 149.66443
+  },
+  "timeline": [
+    {
+      "date": "2010",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Acciona began construction near Gunning NSW",
+      "sources": []
+    },
+    {
+      "date": "2011-04-04",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2011-04-05",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

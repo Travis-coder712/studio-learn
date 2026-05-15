@@ -1,0 +1,81 @@
+{
+  "id": "jemalong-solar",
+  "name": "Jemalong Solar",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 50.0,
+  "state": "NSW",
+  "current_developer": "Genex Power",
+  "cod_current": "2021-02-02",
+  "cod_original": "2021-02-02",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 73.1,
+  "notable": "50 MW solar farm near Forbes, NSW. Developed by Genex Power. Located in central western NSW.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1521",
+  "confidence_score": "46",
+  "first_seen": "2021-02-02",
+  "coordinates": {
+    "lat": -33.388764,
+    "lng": 147.669375
+  },
+  "timeline": [
+    {
+      "date": "2021-02-02",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2021-02-02",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "solar_oem",
+      "supplier": "JinkoSolar",
+      "grid_forming": false,
+      "source_url": "https://genexpower.com.au/50mw-jemalong-solar-project/"
+    },
+    {
+      "role": "inverter",
+      "supplier": "SMA",
+      "grid_forming": false,
+      "source_url": "https://genexpower.com.au/50mw-jemalong-solar-project/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Beon Energy Solutions",
+      "grid_forming": false,
+      "source_url": "https://genexpower.com.au/50mw-jemalong-solar-project/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

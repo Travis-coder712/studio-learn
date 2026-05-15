@@ -1,0 +1,109 @@
+{
+  "id": "ulinda-park-bess",
+  "name": "Ulinda Park BESS",
+  "technology": "bess",
+  "status": "operating",
+  "capacity_mw": 155.0,
+  "storage_mwh": 297.96,
+  "state": "QLD",
+  "current_developer": "Akaysha Energy (BlackRock)",
+  "current_operator": "Akaysha Energy",
+  "cod_current": "2026-01-13",
+  "cod_original": "2026-01-13",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 19.8,
+  "notable": "155 MW / 298 MWh BESS in Queensland's Western Downs near Hopeland. Stage 1 of a project approved to reach 350 MW / 1,078 MWh. Developed by Akaysha Energy (BlackRock). Powin battery stacks with Eks Energy inverters. Portfolio financing alongside Brendale BESS was Australia's first multi-project battery financing.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "2016",
+  "confidence_score": "60",
+  "first_seen": "2024-01-01",
+  "coordinates": {
+    "lat": -26.92635,
+    "lng": 150.717472
+  },
+  "timeline": [
+    {
+      "date": "2024-01-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction begins",
+      "detail": "Akaysha Energy commenced construction of 155MW/298MWh BESS using Powin battery systems and EKS Energy power conversion at Condamine, QLD.",
+      "sources": []
+    },
+    {
+      "date": "2025-06-17",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2025-06-17",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    },
+    {
+      "date": "2025-09-01",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Phase 1 goes online",
+      "detail": "Ulinda Park Phase 1 commenced operations. Akaysha/Powin/EKS celebrated GPS approval milestone. Powin bankruptcy (June 2025) creates long-term warranty concerns.",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2026-01 to 2026-01-13 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Powin",
+      "model": "Powin BESS",
+      "grid_forming": false,
+      "source_url": "https://powin.com/press-release/akaysha-powin-and-eks-energy-celebrate-gps-approval-for-ulinda-park/"
+    },
+    {
+      "role": "inverter",
+      "supplier": "Eks Energy (Powin)",
+      "model": "Power conversion system",
+      "grid_forming": false,
+      "source_url": "https://powin.com/press-release/akaysha-powin-and-eks-energy-celebrate-gps-approval-for-ulinda-park/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Consolidated Power Projects (CPP)",
+      "grid_forming": false,
+      "source_url": "https://akayshaenergy.com/projects/ulinda-park-bess"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

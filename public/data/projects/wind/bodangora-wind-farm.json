@@ -1,0 +1,78 @@
+{
+  "id": "bodangora-wind-farm",
+  "name": "Bodangora Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 111.3,
+  "state": "NSW",
+  "current_developer": "Bodangora Wind Farm Pty Ltd",
+  "current_operator": "Squadron Energy",
+  "cod_current": "2018-08-07",
+  "cod_original": "2018-08-07",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 61.8,
+  "notable": "113 MW, 33 GE 3.43-130 turbines, 15 km east of Wellington in central NSW. Developed by Iberdrola Australia (formerly Infigen Energy). 60% output PPA with EnergyAustralia through 2030. COD February 2019.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1259",
+  "confidence_score": "49",
+  "first_seen": "2018-08-07",
+  "coordinates": {
+    "lat": -32.407128,
+    "lng": 149.04133
+  },
+  "timeline": [
+    {
+      "date": "2017",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Infigen Energy began construction near Wellington NSW",
+      "sources": []
+    },
+    {
+      "date": "2018-08-07",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2018-08-08",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Goldwind",
+      "model": "GW121/2500",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

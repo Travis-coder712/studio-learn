@@ -1,0 +1,1209 @@
+{
+  "generated_at": "2026-04-01",
+  "technology": "solar",
+  "display_name": "Solar",
+  "colour": "#f59e0b",
+  "summary": {
+    "total_operating_mw": 9483,
+    "total_operating_projects": 78,
+    "total_construction_mw": 2242,
+    "total_construction_projects": 15,
+    "total_development_mw": 38397,
+    "total_development_projects": 135
+  },
+  "projects": [
+    {
+      "name": "Nyngan Solar Plant",
+      "id": "nyngan-solar-plant",
+      "developer": "PARF Company 6 Pty Limited",
+      "capacity_mw": 103.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2015-03-11",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Broken Hill Solar Plant",
+      "id": "broken-hill-solar-plant",
+      "developer": "PARF Company 6 Pty Limited",
+      "capacity_mw": 53.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2015-09-14",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Moree Solar Farm",
+      "id": "moree-solar-farm",
+      "developer": "Moree Solar Farm Pty Ltd",
+      "capacity_mw": 56.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2016-02-21",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Kidston Solar Project Phase One",
+      "id": "kidston-solar-project-phase-one",
+      "developer": "Genex Power Limited",
+      "capacity_mw": 50.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2017-11-30",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Parkes Solar Farm",
+      "id": "parkes-solar-farm",
+      "developer": "Parkes Solar Farm Pty Ltd",
+      "capacity_mw": 49.5,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2018-02-02",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Gannawarra Solar Farm",
+      "id": "gannawarra-solar-farm",
+      "developer": "Gannawarra Solar Farm Pty Ltd",
+      "capacity_mw": 50.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2018-04-05",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Clare Solar Farm",
+      "id": "clare-solar-farm",
+      "developer": "Clare Asset Co Pty Ltd ATF Clare Asset Trust",
+      "capacity_mw": 100.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2018-04-16",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Manildra Solar Farm",
+      "id": "manildra-solar-farm",
+      "developer": "Manildra Prop Pty Ltd as trustee for the Manildra Asset Trust",
+      "capacity_mw": 46.7,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2018-05-01",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Bungala One Solar Farm",
+      "id": "bungala-one-solar-farm",
+      "developer": "Bungala One Operations Pty Ltd as trustee for the Bungala One Operations Trust",
+      "capacity_mw": 110.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2018-05-14",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Sun Metals Corporation Solar Farm",
+      "id": "sun-metals-corporation-solar-farm",
+      "developer": "Sun Metals Corporation Pty Ltd",
+      "capacity_mw": 121.5,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2018-05-17",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Hamilton Solar Farm",
+      "id": "hamilton-solar-farm",
+      "developer": "Hamilton Solar Farm Pty Ltd",
+      "capacity_mw": 56.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2018-07-09",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Whitsunday Solar Farm",
+      "id": "whitsunday-solar-farm",
+      "developer": "Whitsunday Solar Farm Pty Ltd",
+      "capacity_mw": 56.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2018-07-10",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Bannerton Solar Park",
+      "id": "bannerton-solar-park",
+      "developer": "Foresight Solar Australia Pty Ltd",
+      "capacity_mw": 100.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2018-07-20",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Darling Downs Solar Farm",
+      "id": "darling-downs-solar-farm",
+      "developer": "Darling Downs Solar Farm Pty Ltd",
+      "capacity_mw": 110.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2018-07-27",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Collinsville PV",
+      "id": "collinsville-pv",
+      "developer": "Ratch Australia",
+      "capacity_mw": 40.76,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2018-07-31",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Coleambally Solar Farm",
+      "id": "coleambally-solar-farm",
+      "developer": "Coleambally Solar Pty Ltd",
+      "capacity_mw": 150.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2018-09-06",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Ross River Solar Farm",
+      "id": "ross-river-solar-farm",
+      "developer": "Ross River Operations Pty Ltd as the Trustee for the Ross River Operations Trust",
+      "capacity_mw": 116.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2018-09-11",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Emerald Solar Park",
+      "id": "emerald-solar-park",
+      "developer": "Lighthouse Infrastructure Management Limited",
+      "capacity_mw": 72.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2018-09-19",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Karadoc Solar Farm",
+      "id": "karadoc-solar-farm",
+      "developer": "Iraak Sun Farm Pty Ltd",
+      "capacity_mw": 90.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2018-10-23",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Daydream Solar Farm",
+      "id": "daydream-solar-farm",
+      "developer": "The Daydream Solar Farm Trust",
+      "capacity_mw": 150.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2018-10-24",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Bungala Two Solar Farm",
+      "id": "bungala-two-solar-farm",
+      "developer": "Potentia Energy Pty Ltd",
+      "capacity_mw": 110.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2018-10-29",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Wemen Solar Farm",
+      "id": "wemen-solar-farm",
+      "developer": "Wemen Asset Co Pty Ltd as Trustee to Wemen Solar Unit Trust",
+      "capacity_mw": 88.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2018-11-06",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Susan River Solar Farm",
+      "id": "susan-river-solar-farm",
+      "developer": "Susan River Solar Pty Ltd as trustee for the Susan River Solar Trust",
+      "capacity_mw": 75.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2018-12-28",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Hayman Solar Farm",
+      "id": "hayman-solar-farm",
+      "developer": "Hayman Solar Farm Pty Ltd as trustee for Hayman Solar Farm Trust",
+      "capacity_mw": 50.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2019-01-11",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Childers Solar Farm",
+      "id": "childers-solar-farm",
+      "developer": "Childers Solar Pty Ltd as trustee for the Childers Solar Trust",
+      "capacity_mw": 56.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2019-02-06",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Tailem Bend - Solar",
+      "id": "tailem-bend-solar",
+      "developer": "Vena Energy",
+      "capacity_mw": 95.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2019-02-27",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Lilyvale Solar Farm",
+      "id": "lilyvale-solar-farm",
+      "developer": "Lilyvale Asset Co Pty Ltd ATF Lilyvale Asset Trust",
+      "capacity_mw": 100.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2019-03-08",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Beryl Solar Farm",
+      "id": "beryl-solar-farm",
+      "developer": "FS NSW Project No 1 AT Pty Ltd as trustee of FS NSW Project No 1 Asset Trust",
+      "capacity_mw": 87.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2019-04-22",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Numurkah Solar Farm",
+      "id": "numurkah-solar-farm",
+      "developer": "Numurkah Solar Farm Pty Ltd",
+      "capacity_mw": 128.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2019-05-06",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Haughton Solar Farm Stage 1",
+      "id": "haughton-solar-farm-stage-1",
+      "developer": "Pacific Hydro Haughton Solar Farm Pty Ltd",
+      "capacity_mw": 100.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2019-05-27",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Rugby Run Solar Farm",
+      "id": "rugby-run-solar-farm",
+      "developer": "Adani Rugby Run Pty Ltd",
+      "capacity_mw": 65.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2019-05-27",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Clermont Solar Farm",
+      "id": "clermont-solar-farm",
+      "developer": "Clermont Asset Co Pty Ltd as Trustee for Clerrmont Solar Unit Trust",
+      "capacity_mw": 75.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2019-06-18",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Finley Solar Farm",
+      "id": "finley-solar-farm",
+      "developer": "Finley Solar Farm Pty Ltd as The trustee for Finley Solar Trust",
+      "capacity_mw": 133.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2019-08-01",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Oakey 2 Solar Farm",
+      "id": "oakey-2-solar-farm",
+      "developer": "RE Oakey Pty Ltd",
+      "capacity_mw": 55.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2019-09-12",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Nevertire Solar Farm",
+      "id": "nevertire-solar-farm",
+      "developer": "Nevertire Solar Pty Ltd as Trustee for the Nevertire Solar Trust",
+      "capacity_mw": 105.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2019-12-02",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Limondale Solar Farm 2",
+      "id": "limondale-solar-farm-2",
+      "developer": "Limondale Sun Farm Pty Ltd",
+      "capacity_mw": 42.8,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2019-12-23",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Yarranlea Solar Farm",
+      "id": "yarranlea-solar-farm",
+      "developer": "Yarranlea Solar Pty Ltd",
+      "capacity_mw": 103.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2020-01-06",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Bomen Solar Farm",
+      "id": "bomen-solar-farm",
+      "developer": "Spark Infrastructure Holdings No. 6 Pty Limited",
+      "capacity_mw": 100.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2020-03-16",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Goonumbla Solar Farm",
+      "id": "goonumbla-solar-farm",
+      "developer": "Goonumbla Asset Co Pty Ltd as trustee for the Goonumbla Asset Trust",
+      "capacity_mw": 69.75,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2020-05-11",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Limondale Solar Farm 1",
+      "id": "limondale-solar-farm-1",
+      "developer": "Limondale Sun Farm Pty Ltd",
+      "capacity_mw": 306.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2020-06-30",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Darlington Point Solar Farm",
+      "id": "darlington-point-solar-farm",
+      "developer": "Darlington Point Solar Farm Pty Ltd",
+      "capacity_mw": 275.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2020-09-02",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Sunraysia Solar Farm",
+      "id": "sunraysia-solar-farm",
+      "developer": "Sunraysia Solar Project Pty Ltd",
+      "capacity_mw": 200.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2020-11-09",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Molong Solar Farm",
+      "id": "molong-solar-farm",
+      "developer": "Molong Operations co Pty Ltd ATF Molong Operations Trust",
+      "capacity_mw": 30.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2020-11-09",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Wellington Solar Farm",
+      "id": "wellington-solar-farm",
+      "developer": "Lightsource Australia SPV 4 Pty Ltd",
+      "capacity_mw": 170.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2020-11-14",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Yatpool Solar Farm",
+      "id": "yatpool-solar-farm",
+      "developer": "Yatpool Sun Farm Pty Ltd",
+      "capacity_mw": 81.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2020-11-17",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Glenrowan West Solar Farm",
+      "id": "glenrowan-west-solar-farm",
+      "developer": "Glenrowan Sun Farm Pty Ltd",
+      "capacity_mw": 110.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2020-12-21",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Jemalong Solar",
+      "id": "jemalong-solar",
+      "developer": "Genex Power",
+      "capacity_mw": 50.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2021-02-02",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Corowa Solar Farm",
+      "id": "corowa-solar-farm",
+      "developer": "Corowa Operationsco Pty Ltd as trustee for Corowa Operations Trust",
+      "capacity_mw": 30.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2021-02-13",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Winton Solar Farm",
+      "id": "winton-solar-farm",
+      "developer": "Winton Asset Co. Pty Ltd as Trustee of the Winton Asset Trust",
+      "capacity_mw": 85.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2021-03-29",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Junee Solar Farm",
+      "id": "junee-solar-farm",
+      "developer": "Junee Operationsco Pty Ltd as trustee for Junee Operations Trust",
+      "capacity_mw": 30.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2021-05-24",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Gunnedah Solar Farm",
+      "id": "gunnedah-solar-farm",
+      "developer": "Gunnedah SF Pty Ltd atf Gunnedah Asset Trust",
+      "capacity_mw": 110.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2021-06-28",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Suntop Solar Farm",
+      "id": "suntop-solar-farm",
+      "developer": "Suntop SF Pty Ltd As Trustee For The Suntop Asset",
+      "capacity_mw": 150.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2021-08-04",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Hillston Sun Farm",
+      "id": "hillston-sun-farm",
+      "developer": "Hillston Sun Farm Operations Pty Ltd ATF Hillston",
+      "capacity_mw": 85.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2021-10-04",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Sebastopol Solar Farm",
+      "id": "sebastopol-solar-farm",
+      "developer": "Sebastopol Asset Co Pty Ltd ATF Sebastopol Asset Trust",
+      "capacity_mw": 90.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2021-11-02",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Warwick Solar Farm",
+      "id": "warwick-solar-farm",
+      "developer": "The University of Queensland",
+      "capacity_mw": 64.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2022-01-17",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Western Downs Green Power Hub P/L",
+      "id": "western-downs-green-power-hub-pl",
+      "developer": "Western Downs Green Power Hub Pty Ltd",
+      "capacity_mw": 400.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2022-02-15",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Metz Solar Farm",
+      "id": "metz-solar-farm",
+      "developer": "Metz ProjectCo Pty Ltd as trustee for Metz ProjectCo Trust",
+      "capacity_mw": 115.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2022-03-28",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Port Augusta Renewable Energy Park - Solar",
+      "id": "port-augusta-renewable-energy-park-solar",
+      "developer": "PAREP 1 Pty Ltd",
+      "capacity_mw": 107.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2022-04-19",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Woolooga Solar Farm",
+      "id": "woolooga-solar-farm",
+      "developer": "Woolooga Fund Pty Ltd",
+      "capacity_mw": 176.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2022-05-23",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Columboola Solar Farm",
+      "id": "columboola-solar-farm",
+      "developer": "Luminous Energy",
+      "capacity_mw": 162.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2022-06-13",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "West Wyalong Solar Farm",
+      "id": "west-wyalong-solar-farm",
+      "developer": "West Wyalong Fund Pty Ltd",
+      "capacity_mw": 90.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2022-09-26",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Moura Solar Farm",
+      "id": "moura-solar-farm",
+      "developer": "Moura Solar Farm SPV Pty Ltd as the Trustee for Moura Solar Farm Unit Trust",
+      "capacity_mw": 82.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2022-10-20",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Edenvale Solar Park.",
+      "id": "edenvale-solar-park",
+      "developer": "Edenvale Solar Park Pty Ltd",
+      "capacity_mw": 180.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2023-02-17",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Avonlie Solar Farm",
+      "id": "avonlie-solar-farm",
+      "developer": "Iberdrola Australia Limited",
+      "capacity_mw": 245.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2023-03-28",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Bluegrass Solar Farm",
+      "id": "bluegrass-solar-farm",
+      "developer": "X-Elio Australia Pty Ltd",
+      "capacity_mw": 148.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2023-06-30",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Wyalong Solar Farm",
+      "id": "wyalong-solar-farm",
+      "developer": "Wyalong Solar Farm Pty Ltd as the trustee for the Wyalong Solar Farm Unit Trust",
+      "capacity_mw": 53.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2023-07-31",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Glenrowan Solar Farm",
+      "id": "glenrowan-solar-farm",
+      "developer": "Glenrowan Solar Farm Pty Ltd as trustee for Glenrowan Solar Farm Trust",
+      "capacity_mw": 102.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2023-11-20",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Wellington North Solar Farm (Lightsource)",
+      "id": "wellington-north-solar-farm-lightsource",
+      "developer": "Wellington North Solar Farm Pty Ltd",
+      "capacity_mw": 330.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2024-05-21",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Stubbo Solar Farm",
+      "id": "stubbo-solar-farm",
+      "developer": "ACEN AUSTRALIA",
+      "capacity_mw": 400.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2024-12-18",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Walla Walla Solar Farm",
+      "id": "walla-walla-solar-farm",
+      "developer": "FRV Australia (Walla Walla Asset Co Pty Ltd (ACN 634 728 868) as trustee for the Walla Walla Asset Trust)",
+      "capacity_mw": 300.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2025-04-22",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Mokoan Solar Farm",
+      "id": "mokoan-solar-farm",
+      "developer": "EE Solar 6 Pty Ltd as trustee for EE Solar 6 Trust",
+      "capacity_mw": 46.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2025-05-22",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Kerang Solar Plant",
+      "id": "kerang-solar-plant",
+      "developer": "Kerang Solar Plant Pty Ltd",
+      "capacity_mw": 30.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2025-06-06",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Girgarre Solar Farm",
+      "id": "girgarre-solar-farm",
+      "developer": "Giragarre Solar Farm Pty Ltd as trustee for Giragarre Solar Farm Trust",
+      "capacity_mw": 76.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2025-07-02",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Kingaroy Solar Farm",
+      "id": "kingaroy-solar-farm",
+      "developer": "Kingaroy PropertyCo Pty Ltd as trustee for Kingaroy Property Trust",
+      "capacity_mw": 40.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2025-09-12",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Aldoga Solar Farm",
+      "id": "aldoga-solar-farm",
+      "developer": "Acciona Energy Australia Global Pty Ltd",
+      "capacity_mw": 387.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2025-09-29",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Culcairn Solar Farm",
+      "id": "culcairn-solar-farm",
+      "developer": "Culcairn Solar Farm Pty Ltd as trustee for Culcairn Solar Farm Trust",
+      "capacity_mw": 350.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2025-09-29",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Wollar Solar Farm",
+      "id": "wollar-solar-farm",
+      "developer": "Wollar Solar Development Pty Ltd",
+      "capacity_mw": 280.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2025-11-21",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Kiamal Solar Farm - Stage 1",
+      "id": "kiamal-solar-farm-stage-1",
+      "developer": "KSF Project Nominees Pty Ltd ATF KSF Project Trust",
+      "capacity_mw": 200.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2026-01-01",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Wagga North Solar Farm",
+      "id": "wagga-north-solar-farm",
+      "developer": "Wagga Wagga Operationsco Pty Ltd as trustree for Wagga Wagga Operations Trust",
+      "capacity_mw": 48.7,
+      "status": "commissioning",
+      "state": "NSW",
+      "cod": "2023-07-01",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "49 MW solar farm north of Wagga Wagga, NSW. Lightsource bp project."
+    },
+    {
+      "name": "Wandoan South Solar Stage 1",
+      "id": "wandoan-south-solar-stage-1",
+      "developer": "Vena Evergy",
+      "capacity_mw": 125.0,
+      "status": "commissioning",
+      "state": "QLD",
+      "cod": "2023-08-31",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "125 MW Stage 1 of the Wandoan South complex, QLD. Vena Energy development."
+    },
+    {
+      "name": "Tailem Bend Stage 2 Solar Project",
+      "id": "tailem-bend-stage-2-solar-project",
+      "developer": "Vena Energy",
+      "capacity_mw": 87.0,
+      "status": "commissioning",
+      "state": "SA",
+      "cod": "2023-09-15",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "87 MW Stage 2 expansion of the Tailem Bend Solar Farm, SA."
+    },
+    {
+      "name": "Wunghnu Solar Farm",
+      "id": "wunghnu-solar-farm",
+      "developer": "Sun Spot 3 Pty Ltd",
+      "capacity_mw": 75.0,
+      "status": "commissioning",
+      "state": "VIC",
+      "cod": "2025-03-15",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "75 MW solar farm near Wunghnu, VIC. X-Elio Energy development."
+    },
+    {
+      "name": "Gangarri Solar Farm",
+      "id": "gangarri-solar-farm",
+      "developer": "Shell New Energies Australia Pty Ltd",
+      "capacity_mw": 120.0,
+      "status": "commissioning",
+      "state": "QLD",
+      "cod": "2026-03-31",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "120 MW solar farm near Miles, QLD. Developed by Acciona Energ\u00eda."
+    },
+    {
+      "name": "Bundaberg Solar Farm",
+      "id": "bundaberg-solar-farm",
+      "developer": "Bundaberg Development Pty Ltd",
+      "capacity_mw": 78.0,
+      "status": "construction",
+      "state": "QLD",
+      "cod": "2025-12-31",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "78 MW solar farm near Bundaberg, QLD. Part of the Wide Bay renewable energy corridor."
+    },
+    {
+      "name": "Munna Creek Solar Farm",
+      "id": "munna-creek-solar-farm",
+      "developer": "Munna Creek Solar Farm Investments Pty Ltd as trustee for the Munna Creek Solar Farm Trust",
+      "capacity_mw": 120.0,
+      "status": "construction",
+      "state": "QLD",
+      "cod": "2026-01-24",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "120 MW solar farm in the Wide Bay region, QLD. Developed by Lightsource bp."
+    },
+    {
+      "name": "Gunsynd Solar Farm",
+      "id": "gunsynd-solar-farm",
+      "developer": "Progressive Renewable Developments Goondiwindi Pty Ltd (ACN 629 560 621) as trustee for the Gunsynd Solar Farm Project Trust",
+      "capacity_mw": 94.0,
+      "status": "construction",
+      "state": "QLD",
+      "cod": "2026-02-16",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "94 MW solar farm in the Darling Downs region, QLD."
+    },
+    {
+      "name": "Goorambat East Solar Farm (ENGIE)",
+      "id": "goorambat-east-solar-farm-engie",
+      "developer": "Engie",
+      "capacity_mw": 250.0,
+      "status": "construction",
+      "state": "VIC",
+      "cod": "2026-05-18",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "250 MW solar farm near Benalla, VIC. Located in the Murray River REZ."
+    },
+    {
+      "name": "Lancaster Solar Farm",
+      "id": "lancaster-solar-farm",
+      "developer": "Lancaster Solar Farm Pty Ltd as trustee for the Lancaster Solar Farm Trust",
+      "capacity_mw": 80.0,
+      "status": "construction",
+      "state": "VIC",
+      "cod": "2026-05-30",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "80 MW solar farm near Lancaster, VIC. Part of the Murray River REZ growth."
+    },
+    {
+      "name": "Broadsound Solar Farm",
+      "id": "broadsound-solar-farm",
+      "developer": "Broadsound Solar Farm Pty Ltd",
+      "capacity_mw": 296.0,
+      "status": "construction",
+      "state": "QLD",
+      "cod": "2026-08-31",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "296 MW solar farm near Marlborough, QLD. Part of the CQ REZ growth corridor."
+    },
+    {
+      "name": "Horsham Solar Farm",
+      "id": "horsham-solar-farm",
+      "developer": "ESCO SOLAR FARM 7 PTY LTD",
+      "capacity_mw": 118.8,
+      "status": "construction",
+      "state": "VIC",
+      "cod": "2026-12-31",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "119 MW solar farm near Horsham, VIC. Part of the Western Victoria REZ."
+    },
+    {
+      "name": "Goulburn River Solar Farm And BESS",
+      "id": "goulburn-river-solar-farm-and-bess",
+      "developer": "Goulburn River Fund Pty Ltd",
+      "capacity_mw": 450.0,
+      "status": "construction",
+      "state": "NSW",
+      "cod": "2027-03-31",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "450 MW solar + BESS hybrid near Merriwa, NSW. One of the largest solar-storage combinations in Australia."
+    },
+    {
+      "name": "Wandoan South Solar Stage 2",
+      "id": "wandoan-south-solar-stage-2",
+      "developer": "TBSOL",
+      "capacity_mw": 240.0,
+      "status": "construction",
+      "state": "QLD",
+      "cod": "2027-07-01",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "240 MW Stage 2 expansion of the Wandoan South complex, QLD. Vena Energy development adding to the existing 157 MW Stage 1."
+    },
+    {
+      "name": "Banksia Solar Farm",
+      "id": "banksia-solar-farm",
+      "developer": "Venn Energy Pty / Banksia Solar Project Pty Ltd",
+      "capacity_mw": 60.0,
+      "status": "construction",
+      "state": "QLD",
+      "cod": "2027-08-20",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "60 MW solar farm in the Darling Downs, QLD."
+    }
+  ],
+  "timeline_milestones": [
+    {
+      "date": "2022-01-01",
+      "label": "Pre-2022 fleet: 54 projects",
+      "cumulative_mw": 5120
+    },
+    {
+      "date": "2022-01-17",
+      "label": "Warwick Solar Farm online (64 MW)",
+      "cumulative_mw": 5184
+    },
+    {
+      "date": "2022-02-15",
+      "label": "Western Downs Green Power Hub P/L online (400 MW)",
+      "cumulative_mw": 5584
+    },
+    {
+      "date": "2022-03-28",
+      "label": "Metz Solar Farm online (115 MW)",
+      "cumulative_mw": 5699
+    },
+    {
+      "date": "2022-04-19",
+      "label": "Port Augusta Renewable Energy Park - Solar online (107 MW)",
+      "cumulative_mw": 5806
+    },
+    {
+      "date": "2022-05-23",
+      "label": "Woolooga Solar Farm online (176 MW)",
+      "cumulative_mw": 5982
+    },
+    {
+      "date": "2022-06-13",
+      "label": "Columboola Solar Farm online (162 MW)",
+      "cumulative_mw": 6144
+    },
+    {
+      "date": "2022-09-26",
+      "label": "West Wyalong Solar Farm online (90 MW)",
+      "cumulative_mw": 6234
+    },
+    {
+      "date": "2022-10-20",
+      "label": "Moura Solar Farm online (82 MW)",
+      "cumulative_mw": 6316
+    },
+    {
+      "date": "2023-02-17",
+      "label": "Edenvale Solar Park. online (180 MW)",
+      "cumulative_mw": 6496
+    },
+    {
+      "date": "2023-03-28",
+      "label": "Avonlie Solar Farm online (245 MW)",
+      "cumulative_mw": 6741
+    },
+    {
+      "date": "2023-06-30",
+      "label": "Bluegrass Solar Farm online (148 MW)",
+      "cumulative_mw": 6889
+    },
+    {
+      "date": "2023-07-31",
+      "label": "Wyalong Solar Farm online (53 MW)",
+      "cumulative_mw": 6942
+    },
+    {
+      "date": "2023-11-20",
+      "label": "Glenrowan Solar Farm online (102 MW)",
+      "cumulative_mw": 7044
+    },
+    {
+      "date": "2024-05-21",
+      "label": "Wellington North Solar Farm (Lightsource) online (330 MW)",
+      "cumulative_mw": 7374
+    },
+    {
+      "date": "2024-12-18",
+      "label": "Stubbo Solar Farm online (400 MW)",
+      "cumulative_mw": 7774
+    },
+    {
+      "date": "2025-04-22",
+      "label": "Walla Walla Solar Farm online (300 MW)",
+      "cumulative_mw": 8074
+    },
+    {
+      "date": "2025-05-22",
+      "label": "Mokoan Solar Farm online (46 MW)",
+      "cumulative_mw": 8120
+    },
+    {
+      "date": "2025-06-06",
+      "label": "Kerang Solar Plant online (30 MW)",
+      "cumulative_mw": 8150
+    },
+    {
+      "date": "2025-07-02",
+      "label": "Girgarre Solar Farm online (76 MW)",
+      "cumulative_mw": 8226
+    },
+    {
+      "date": "2025-09-12",
+      "label": "Kingaroy Solar Farm online (40 MW)",
+      "cumulative_mw": 8266
+    },
+    {
+      "date": "2025-09-29",
+      "label": "Aldoga Solar Farm online (387 MW)",
+      "cumulative_mw": 8653
+    },
+    {
+      "date": "2025-09-29",
+      "label": "Culcairn Solar Farm online (350 MW)",
+      "cumulative_mw": 9003
+    },
+    {
+      "date": "2025-11-21",
+      "label": "Wollar Solar Farm online (280 MW)",
+      "cumulative_mw": 9283
+    },
+    {
+      "date": "2026-01-01",
+      "label": "Kiamal Solar Farm - Stage 1 online (200 MW)",
+      "cumulative_mw": 9483
+    },
+    {
+      "date": "2023-07-01",
+      "label": "Wagga North Solar Farm expected (49 MW)",
+      "cumulative_mw": 9532
+    },
+    {
+      "date": "2023-08-31",
+      "label": "Wandoan South Solar Stage 1 expected (125 MW)",
+      "cumulative_mw": 9657
+    },
+    {
+      "date": "2023-09-15",
+      "label": "Tailem Bend Stage 2 Solar Project expected (87 MW)",
+      "cumulative_mw": 9744
+    },
+    {
+      "date": "2025-03-15",
+      "label": "Wunghnu Solar Farm expected (75 MW)",
+      "cumulative_mw": 9819
+    },
+    {
+      "date": "2025-12-31",
+      "label": "Bundaberg Solar Farm expected (78 MW)",
+      "cumulative_mw": 9897
+    },
+    {
+      "date": "2026-01-24",
+      "label": "Munna Creek Solar Farm expected (120 MW)",
+      "cumulative_mw": 10017
+    },
+    {
+      "date": "2026-02-16",
+      "label": "Gunsynd Solar Farm expected (94 MW)",
+      "cumulative_mw": 10111
+    },
+    {
+      "date": "2026-03-31",
+      "label": "Gangarri Solar Farm expected (120 MW)",
+      "cumulative_mw": 10231
+    },
+    {
+      "date": "2026-05-18",
+      "label": "Goorambat East Solar Farm (ENGIE) expected (250 MW)",
+      "cumulative_mw": 10481
+    },
+    {
+      "date": "2026-05-30",
+      "label": "Lancaster Solar Farm expected (80 MW)",
+      "cumulative_mw": 10561
+    },
+    {
+      "date": "2026-08-31",
+      "label": "Broadsound Solar Farm expected (296 MW)",
+      "cumulative_mw": 10857
+    },
+    {
+      "date": "2026-12-31",
+      "label": "Horsham Solar Farm expected (119 MW)",
+      "cumulative_mw": 10976
+    },
+    {
+      "date": "2027-03-31",
+      "label": "Goulburn River Solar Farm And BESS expected (450 MW)",
+      "cumulative_mw": 11426
+    },
+    {
+      "date": "2027-07-01",
+      "label": "Wandoan South Solar Stage 2 expected (240 MW)",
+      "cumulative_mw": 11666
+    },
+    {
+      "date": "2027-08-20",
+      "label": "Banksia Solar Farm expected (60 MW)",
+      "cumulative_mw": 11726
+    }
+  ],
+  "by_state": {
+    "operating": {
+      "NSW": {
+        "mw": 4685,
+        "projects": 33
+      },
+      "QLD": {
+        "mw": 3190,
+        "projects": 28
+      },
+      "VIC": {
+        "mw": 1186,
+        "projects": 13
+      },
+      "SA": {
+        "mw": 422,
+        "projects": 4
+      },
+      "TAS": {
+        "mw": 0,
+        "projects": 0
+      }
+    },
+    "construction": {
+      "NSW": {
+        "mw": 499,
+        "projects": 2
+      },
+      "QLD": {
+        "mw": 1133,
+        "projects": 8
+      },
+      "VIC": {
+        "mw": 524,
+        "projects": 4
+      },
+      "SA": {
+        "mw": 87,
+        "projects": 1
+      },
+      "TAS": {
+        "mw": 0,
+        "projects": 0
+      }
+    }
+  }
+}

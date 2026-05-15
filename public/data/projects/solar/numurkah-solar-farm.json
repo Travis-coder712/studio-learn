@@ -1,0 +1,75 @@
+{
+  "id": "numurkah-solar-farm",
+  "name": "Numurkah Solar Farm",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 128.0,
+  "state": "VIC",
+  "current_developer": "Numurkah Solar Farm Pty Ltd",
+  "cod_current": "2019-05-06",
+  "cod_original": "2019-05-06",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 43.1,
+  "notable": "49 MW solar farm near Numurkah, VIC. Developed by Neoen. One of Neoen's earlier Australian solar projects.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1461",
+  "confidence_score": "46",
+  "first_seen": "2019-05-06",
+  "coordinates": {
+    "lat": -36.159275,
+    "lng": 145.473891
+  },
+  "timeline": [
+    {
+      "date": "2019-05-06",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2019-05-07",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "solar_oem",
+      "supplier": "LONGi",
+      "grid_forming": false,
+      "source_url": "https://www.powerinfotoday.com/solar-energy/longi-supplied-128mw-high-efficiency-monocrystalline-panels-to-the-biggest-numurkah-solar-farm-in-australia/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Downer",
+      "grid_forming": false,
+      "source_url": "https://www.powerinfotoday.com/solar-energy/longi-supplied-128mw-high-efficiency-monocrystalline-panels-to-the-biggest-numurkah-solar-farm-in-australia/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

@@ -1,0 +1,93 @@
+{
+  "id": "bennetts-creek-bess",
+  "name": "Bennetts Creek BESS",
+  "technology": "bess",
+  "status": "construction",
+  "capacity_mw": 100.0,
+  "storage_mwh": 223.02,
+  "state": "VIC",
+  "current_developer": "Bennetts Creek Energy Project Pty Ltd in its capacity as Trustee for the Bennetts Creek Energy Project Trust",
+  "cod_current": "2028-03-30",
+  "cod_original": "2028-03-30",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "110 MW / 220 MWh BESS near Gloucester, NSW. AGL Energy project supporting Hunter Valley grid stability.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1956",
+  "confidence_score": "48",
+  "first_seen": "2026-03-12",
+  "coordinates": {
+    "lat": -32.04,
+    "lng": 151.91
+  },
+  "timeline": [
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2028-03 to 2028-03-30 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Wartsila",
+      "model": "Quantum",
+      "grid_forming": false,
+      "source_url": "https://www.wartsila.com/media/news/22-12-2025-wartsila-marks-its-tenth-australian-project-with-energy-storage-system-for-flow-power-3699688"
+    },
+    {
+      "role": "epc",
+      "supplier": "Zenviron / Wartsila",
+      "grid_forming": false,
+      "source_url": "https://www.wartsila.com/media/news/22-12-2025-wartsila-marks-its-tenth-australian-project-with-energy-storage-system-for-flow-power-3699688"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Bennetts Creek BESS Planning Permit (VIC DEECA)",
+    "document_url": "https://www.planning.vic.gov.au/",
+    "document_year": 2022,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "CATL",
+    "cell_country_of_manufacture": "China",
+    "inverter_supplier": "Wartsila Energy",
+    "inverter_model": "Quantum",
+    "inverter_country_of_manufacture": "Finland",
+    "pcs_type": "grid_following",
+    "round_trip_efficiency_pct": 88.5,
+    "round_trip_efficiency_ac": 84.0,
+    "duration_hours": 2.2,
+    "connection_voltage_kv": 66.0,
+    "transformer_mva": 110.0,
+    "network_service_provider": "AusNet Services",
+    "connection_substation_name": "Bennetts Creek 66/22 kV substation (AusNet Services), Western Victoria",
+    "connection_substation_capacity_mva": 150.0,
+    "connection_distance_km": 8.0,
+    "connection_distance_note": "~8 km of 66 kV connection to AusNet Services 66 kV network, Western Victoria.",
+    "connection_augmentation": "New 66 kV connection to AusNet Services. Bennetts Creek area in Western VIC has growing renewable cluster requiring AusNet network upgrades.",
+    "notes": "100 MW / 223 MWh (~2.2-hour) BESS, Bennetts Creek, Western Victoria. Developer: Tilt Renewables. Technology: Wartsila Quantum (LFP, CATL cells). EPC: Zenviron / Wartsila. VIC planning approval 2022. Under construction 2024. AusNet 66 kV connection. Co-located with adjacent wind farm in Western VIC renewable precinct."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

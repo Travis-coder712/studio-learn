@@ -1,0 +1,119 @@
+{
+  "id": "snowtown-s2-wind-farm",
+  "name": "Snowtown S2 Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 270.0,
+  "state": "SA",
+  "current_developer": "Snowtown Wind Farm Stage 2 Pty Ltd",
+  "current_operator": "Tilt Renewables",
+  "cod_current": "2012-10-02",
+  "cod_original": "2012-10-02",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 10.6,
+  "notable": "132 MW, 90 Siemens direct-drive turbines (10x SWT-101 + 80x SWT-108) on the Barunga/Hummocks Ranges, SA. Developed by TrustPower, now owned by Palisade Investment Partners consortium. COD October 2014.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1181",
+  "confidence_score": "49",
+  "first_seen": "2012-10-02",
+  "coordinates": {
+    "lat": -33.862624,
+    "lng": 138.130367
+  },
+  "timeline": [
+    {
+      "date": "2012-10",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Stage 2 construction began for 90 Siemens turbines",
+      "sources": []
+    },
+    {
+      "date": "2012-10-02",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2013-10-03",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Siemens Gamesa",
+      "model": "SWT-3.0-113",
+      "grid_forming": false
+    },
+    {
+      "role": "wind_oem",
+      "supplier": "Siemens Gamesa",
+      "model": "SWT-3.0-113",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "Origin Energy",
+      "type": "PPA",
+      "term_years": 15,
+      "capacity_mw": 270.0,
+      "source_url": "https://reneweconomy.com.au/snowtown-wind-farm/"
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Snowtown Wind Farm Stage 2 Development Application (SA EPA / EPBC 2010/5707)",
+    "document_url": "https://www.environment.gov.au/epbc/notices/search-notices/2010/5707",
+    "document_year": 2010,
+    "turbine_model": "Siemens Gamesa SWT-3.0-113",
+    "turbine_count": 90,
+    "turbine_rated_power_mw": 3.0,
+    "hub_height_m": 92.0,
+    "hub_height_note": "Standard 92 m hub height for SWT-3.0-113 on SA Mid North plains",
+    "rotor_diameter_m": 113.0,
+    "wind_speed_mean_ms": 8.8,
+    "wind_speed_height_m": 92.0,
+    "wind_speed_period": "Mean annual wind speed at hub height; Snowtown, Mid North SA \u2014 from on-site met mast (same data set as Snowtown Stage 1)",
+    "assumed_capacity_factor_pct": 39.0,
+    "assumed_annual_energy_gwh": 923.0,
+    "energy_yield_method": "WAsP modelling; P50 net yield",
+    "noise_limit_dba": 35.0,
+    "minimum_setback_m": 1500,
+    "connection_voltage_kv": 275.0,
+    "network_service_provider": "ElectraNet",
+    "connection_substation_name": "Snowtown 275/66 kV substation (ElectraNet), Mid North SA (shared with Stage 1)",
+    "connection_substation_capacity_mva": 600.0,
+    "connection_distance_km": 5.0,
+    "connection_distance_note": "~5 km of 66 kV connection to ElectraNet Snowtown substation, shared with Snowtown Stage 1.",
+    "connection_augmentation": "Snowtown substation expanded to accommodate Stage 2 (270 MW additional to Stage 1 99 MW). Shared connection infrastructure.",
+    "notes": "270 MW (90 x 3.0 MW Siemens SWT-3.0-113), near Snowtown, Mid North SA. Developer: Pacific Hydro (PowAR). SA EPA + EPBC approval 2010. Completed 2014. Combined with Snowtown Stage 1 (99 MW) = 369 MW Snowtown complex. SA Mid North has the best concentration of wind resource in SA."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

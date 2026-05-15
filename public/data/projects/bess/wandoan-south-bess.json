@@ -1,0 +1,98 @@
+{
+  "id": "wandoan-south-bess",
+  "name": "Wandoan South BESS",
+  "technology": "bess",
+  "status": "operating",
+  "capacity_mw": 100.0,
+  "storage_mwh": 150.0,
+  "state": "QLD",
+  "current_developer": "Vena Energy",
+  "current_operator": "Vena Energy",
+  "cod_current": "2021-09-08",
+  "cod_original": "2021-09-08",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 56.9,
+  "notable": "100 MW / 150 MWh BESS \u2014 Queensland's largest utility-scale battery at time of commissioning (September 2021). A$120M Stage 1 of Vena Energy's broader 650 MW solar / 450 MW storage Wandoan South Project. Samsung SDI M3 modules with Doosan GridTech Intelligent Controller. AGL holds full operational dispatch rights.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1762",
+  "confidence_score": "57",
+  "capex_aud_m": 100.0,
+  "capex_source": "Vena Energy/Doosan",
+  "capex_year": 2020,
+  "first_seen": "2020-12-01",
+  "capex_source_url": "https://www.doosangridtech.com/wandoan-south-bess",
+  "coordinates": {
+    "lat": -26.263986,
+    "lng": 149.772871
+  },
+  "timeline": [
+    {
+      "date": "2020-12-01",
+      "date_precision": "month",
+      "event_type": "fid",
+      "title": "Financial close achieved, Doosan GridTech named as EPC",
+      "detail": "Vena Energy achieved financial close on 100MW/150MWh BESS. Doosan GridTech selected as EPC with Samsung SDI cells. Housed in enclosed building rather than outdoor containers.",
+      "sources": []
+    },
+    {
+      "date": "2021-09-08",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2021-09-08",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    },
+    {
+      "date": "2023-04-01",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Queensland's largest battery begins commercial operations",
+      "detail": "Wandoan South BESS commenced commercial operations, the first utility-scale storage project at that scale in QLD.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Samsung SDI",
+      "model": "Lithium-ion LFP (500k+ cells)",
+      "grid_forming": false,
+      "source_url": "https://www.doosangridtech.com/wandoan-south-bess"
+    },
+    {
+      "role": "epc",
+      "supplier": "Doosan GridTech",
+      "grid_forming": false,
+      "source_url": "https://www.doosangridtech.com/wandoan-south-bess"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

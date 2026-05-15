@@ -1,0 +1,71 @@
+{
+  "id": "catagunya-liapootah-wayatinah",
+  "name": "Catagunya / Liapootah / Wayatinah",
+  "technology": "pumped_hydro",
+  "status": "operating",
+  "capacity_mw": 190.0,
+  "state": "TAS",
+  "current_developer": "Hydro-Electric Corporation",
+  "cod_current": "1956-12-31",
+  "cod_original": "1956-12-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 76.9,
+  "notable": "Three cascaded run-of-river stations on Tasmania's lower Derwent: Catagunya (48 MW, 1962), Liapootah (87 MW, 1960), Wayatinah (38 MW, 1957). Combined ~178 MW. Part of the eleven-station Derwent scheme. Hydro Tasmania.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1041",
+  "confidence_score": "46",
+  "first_seen": "1956-12-31",
+  "coordinates": {
+    "lat": -42.376131,
+    "lng": 146.509824
+  },
+  "timeline": [
+    {
+      "date": "1956-12-31",
+      "date_precision": "year",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2005-05-16",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "hydro_oem",
+      "supplier": "English Electric / Boving",
+      "model": "Francis",
+      "quantity": 8,
+      "grid_forming": false,
+      "source_url": "https://en.wikipedia.org/wiki/Wayatinah_Power_Station"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

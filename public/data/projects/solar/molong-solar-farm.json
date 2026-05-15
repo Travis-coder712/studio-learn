@@ -1,0 +1,75 @@
+{
+  "id": "molong-solar-farm",
+  "name": "Molong Solar Farm",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 30.0,
+  "state": "NSW",
+  "current_developer": "Molong Operations co Pty Ltd ATF Molong Operations Trust",
+  "cod_current": "2020-11-09",
+  "cod_original": "2020-11-09",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 31.5,
+  "notable": "30 MW solar farm near Molong, NSW. Developed by Lightsource BP.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1641",
+  "confidence_score": "46",
+  "first_seen": "2020-11-09",
+  "coordinates": {
+    "lat": -33.082578,
+    "lng": 148.900073
+  },
+  "timeline": [
+    {
+      "date": "2020-11-09",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2020-11-10",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "inverter",
+      "supplier": "Ingeteam",
+      "grid_forming": false,
+      "source_url": "https://www.pv-magazine-australia.com/2020/05/27/gransolar-group-to-build-molong-solar-farm-in-nsw/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Gransolar (GRS)",
+      "grid_forming": false,
+      "source_url": "https://www.pv-magazine-australia.com/2020/05/27/gransolar-group-to-build-molong-solar-farm-in-nsw/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

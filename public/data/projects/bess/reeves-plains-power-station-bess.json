@@ -1,0 +1,163 @@
+{
+  "id": "reeves-plains-power-station-bess",
+  "name": "Reeves Plains Power Station BESS",
+  "technology": "bess",
+  "status": "development",
+  "capacity_mw": 250.0,
+  "storage_mwh": 1000.0,
+  "state": "SA",
+  "current_developer": "Alinta Energy (Reeves Plains) Pty Ltd",
+  "cod_current": "2028-02-29",
+  "cod_original": "2028-02-29",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "data_confidence": "good",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "aemo_gen_info_id": "2906",
+  "confidence_score": "28",
+  "development_stage": "early_stage",
+  "first_seen": "2026-03-12",
+  "timeline": [
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2028-02 to 2028-02-29 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [
+    {
+      "date": "2017",
+      "owner": "Alinta Energy",
+      "event": "Project conceived as part of Reeves Plains Energy Hub"
+    }
+  ],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "epc",
+      "company": "GenusPlus Group",
+      "contract_value_aud_m": 105.0,
+      "scope": "Design, engineering, equipment supply, civil construction, mechanical & electrical installation, 275 kV switchyard, ElectraNet connection, testing & commissioning",
+      "announced": "2025-06"
+    },
+    {
+      "role": "battery_modules",
+      "company": "CATL",
+      "scope": "194 CATL battery modules (LFP)"
+    },
+    {
+      "role": "inverters",
+      "company": "Power Electronics",
+      "scope": "Battery inverter systems"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [
+    {
+      "scheme": "CIS",
+      "round": "CIS Investment",
+      "capacity_contracted_mw": 250.0,
+      "notes": "CIS underwriting agreement secured from Commonwealth Government for Stage 1 BESS."
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    },
+    {
+      "title": "Alinta Energy \u2014 Green light to construct Reeves Plains Energy Hub Battery",
+      "url": "https://www.alintaenergy.com.au/about-us/news-hub/reeves-plains-green-light",
+      "date": "2025-06-30",
+      "source_tier": 1
+    },
+    {
+      "title": "Alinta Energy \u2014 CIS Agreement secured for Reeves Plains BESS Stage 1",
+      "url": "https://www.alintaenergy.com.au/about-us/news-hub/agreement-secured-reeves-plains-bess",
+      "source_tier": 1
+    },
+    {
+      "title": "Energy-Storage.News \u2014 Alinta Energy green lights SA's largest BESS",
+      "url": "https://www.energy-storage.news/alinta-energy-green-lights-south-australias-largest-bess-project/",
+      "date": "2025-06-30",
+      "source_tier": 2
+    },
+    {
+      "title": "GenusPlus secures $105M contract for Reeves Plains BESS",
+      "url": "https://constructionfront.com/2025-07-01-genusplus-secures-105-million-contract-from-alinta-energy-for-reeves-plains-bess-project-in-south-australia/",
+      "date": "2025-07-01",
+      "source_tier": 2
+    }
+  ],
+  "current_owner": "Alinta Energy (Reeves Plains) Pty Ltd",
+  "bess_oem": "CATL",
+  "bess_chemistry": "LFP",
+  "duration_hours": 4.0,
+  "construction_start": "2025-Q3",
+  "connection_voltage_kv": 275,
+  "tnsp": "ElectraNet",
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Stage 1",
+      "capacity_mw": 250.0,
+      "storage_mwh": 1000.0,
+      "status": "construction",
+      "cod": "2028-02",
+      "oem": "CATL",
+      "grid_forming": false,
+      "notes": "GenusPlus EPC ($105M contract). CATL battery modules (194 units), Power Electronics inverters. Construction commenced mid-2025."
+    },
+    {
+      "stage": 2,
+      "name": "Stage 2",
+      "capacity_mw": 250.0,
+      "storage_mwh": 1000.0,
+      "status": "development",
+      "oem": "CATL",
+      "grid_forming": false,
+      "notes": "Future expansion to total 500 MW / 2,000 MWh. Not yet committed."
+    }
+  ],
+  "timeline_events": [
+    {
+      "date": "2018-02-16",
+      "date_precision": "day",
+      "event_type": "planning_approved",
+      "title": "Development approval granted by SA Government",
+      "detail": "Approved by SA Minister for Planning John Rau for the broader Reeves Plains Energy Hub."
+    },
+    {
+      "date": "2025-06-30",
+      "date_precision": "day",
+      "event_type": "fid",
+      "title": "Alinta Energy gives green light to construct Stage 1 BESS",
+      "detail": "Final investment decision for 250 MW / 1,000 MWh Stage 1. GenusPlus awarded $105M EPC contract."
+    },
+    {
+      "date": "2025-07",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Site preparation and early works commence",
+      "detail": "Preparatory works began following FID, including procurement and site mobilisation."
+    },
+    {
+      "date": "2026-04-10",
+      "date_precision": "day",
+      "event_type": "notable",
+      "title": "Sod-turning ceremony \u2014 main construction formally commences",
+      "detail": "Ceremonial construction start with Alinta and GenusPlus representatives."
+    }
+  ]
+}

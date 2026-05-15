@@ -1,0 +1,144 @@
+{
+  "id": "carmodys-hill-wind-farm",
+  "name": "Carmodys Hill Wind Farm",
+  "technology": "wind",
+  "status": "construction",
+  "capacity_mw": 256.0,
+  "state": "SA",
+  "current_developer": "Aula Energy",
+  "cod_current": "2029-01-01",
+  "cod_original": "2029-01-01",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "42x GE Vernova 6.1-158. Aula Energy (Macquarie). DT Infrastructure civil. A$900M. COD 2028.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1040",
+  "confidence_score": "65",
+  "development_stage": "epbc_approved",
+  "capex_aud_m": 900.0,
+  "first_seen": "2020",
+  "coordinates": {
+    "lat": -33.54,
+    "lng": 138.58
+  },
+  "timeline": [
+    {
+      "date": "2020",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2020/8790",
+      "detail": "Carmody's Hill Wind Farm \u2014 Not Controlled Action",
+      "sources": []
+    },
+    {
+      "date": "2023",
+      "date_precision": "year",
+      "event_type": "fid",
+      "title": "Financial close \u2014 A$900M",
+      "detail": "Tilt Renewables reached financial close",
+      "sources": []
+    },
+    {
+      "date": "2025-02-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "ECI phase commenced",
+      "sources": []
+    },
+    {
+      "date": "2025-12-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Financial close \u2014 A$900M",
+      "detail": "Aula Energy secured financial close",
+      "sources": []
+    },
+    {
+      "date": "2026-01-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "42 GE Vernova turbines",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2029-01 to 2029-01-01 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "GE Vernova",
+      "model": "6.1 MW-158m",
+      "quantity": 42,
+      "grid_forming": false,
+      "source_url": "https://www.gevernova.com/news/press-releases/ge-vernova-signs-agreement-supply-turbines-australian"
+    },
+    {
+      "role": "bop",
+      "supplier": "DT Infrastructure",
+      "grid_forming": false,
+      "source_url": "https://www.insideconstruction.com.au/news/latest-news/dt-infrastructure-wins-contract-to-deliver-carmodys-hill-wind-farm"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [
+    {
+      "scheme": "CIS",
+      "round": "Tender 4",
+      "capacity_mw": 256.0,
+      "contract_type": "cis",
+      "source_url": "https://www.dcceew.gov.au/energy/renewable/capacity-investment-scheme/closed-cis-tenders"
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Carmodys Hill Wind Farm Environmental Impact Statement (SA)",
+    "document_url": "https://www.sa.gov.au/topics/planning-and-property/land-use-and-planning/development-assessment/major-developments",
+    "document_year": 2023,
+    "turbine_model": "Vestas V162-6.2 MW or Nordex N163-5.X (technology envelope)",
+    "turbine_count": 43,
+    "turbine_rated_power_mw": 6.0,
+    "hub_height_m": 115.0,
+    "hub_height_note": "Nominated hub height; SA EIS technology envelope",
+    "rotor_diameter_m": 162.0,
+    "wind_speed_mean_ms": 8.8,
+    "wind_speed_height_m": 100.0,
+    "wind_speed_period": "Site met mast data; EIS energy yield assessment",
+    "assumed_capacity_factor_pct": 42.0,
+    "assumed_annual_energy_gwh": 942.0,
+    "energy_yield_method": "WAsP / mesoscale modelling with site calibration; EIS Chapter 4",
+    "noise_limit_dba": 35.0,
+    "minimum_setback_m": 1000,
+    "connection_voltage_kv": 132.0,
+    "network_service_provider": "ElectraNet",
+    "connection_substation_name": "Hummocks Hill 132 kV substation",
+    "connection_substation_capacity_mva": 200.0,
+    "connection_distance_km": 16.0,
+    "connection_distance_note": "~16 km of new 132 kV line from project to Hummocks Hill substation on the Port Augusta 132 kV corridor; EIS Chapter 10",
+    "connection_augmentation": "ElectraNet 132 kV augmentation required. SA mid-north transmission network has significant wind congestion; augmentation studies ongoing for REZ development.",
+    "notes": "Located in SA Mid-North region near Port Augusta corridor. Aula Energy project. Strong South Australian wind resource; one of the best wind corridors in the NEM."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

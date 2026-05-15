@@ -1,0 +1,132 @@
+{
+  "id": "kidston-pumped-storage-hydro-project-250mw",
+  "name": "Kidston Pumped Storage Hydro Project 250MW",
+  "technology": "pumped_hydro",
+  "status": "construction",
+  "capacity_mw": 250.0,
+  "storage_mwh": 900.0,
+  "state": "QLD",
+  "current_developer": "Genex Power",
+  "cod_current": "2027-01-01",
+  "cod_original": "2027-01-01",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "First pumped hydro registered in NEM in ~40 years. Former Kidston Gold Mine site. 8-hour storage.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1352",
+  "confidence_score": "70",
+  "first_seen": "2017-10-01",
+  "coordinates": {
+    "lat": -18.8714,
+    "lng": 144.1647
+  },
+  "timeline": [
+    {
+      "date": "2017-10-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "EPC contractor selected",
+      "detail": "McConnell Dowell / John Holland JV selected",
+      "sources": []
+    },
+    {
+      "date": "2021-05-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Financial close \u2014 A$777M",
+      "detail": "Financial close reached; construction NTP issued",
+      "sources": []
+    },
+    {
+      "date": "2021-05-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Full notice to proceed issued",
+      "sources": []
+    },
+    {
+      "date": "2025-11-18",
+      "date_precision": "day",
+      "event_type": "notable",
+      "title": "Registered in NEM",
+      "detail": "First pumped hydro registered in NEM in ~40 years",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2027-01 to 2027-01-01 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "epc",
+      "supplier": "McConnell Dowell / John Holland JV",
+      "grid_forming": false,
+      "source_url": "https://www.mcconnelldowell.com/projects/kidston-pumped-storage-hydro"
+    },
+    {
+      "role": "hydro_oem",
+      "supplier": "ANDRITZ Hydro",
+      "model": "Reversible Francis pump-turbine 125 MW",
+      "quantity": 2,
+      "grid_forming": false,
+      "source_url": "https://www.andritz.com/newsroom-en/hydro/2021-04-29-kidston-group"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [
+    {
+      "scheme": "ARENA",
+      "round": "",
+      "capacity_mw": 250.0,
+      "storage_mwh": 900.0,
+      "contract_type": "grant",
+      "source_url": "https://arena.gov.au/projects/kidston-pumped-hydro-energy-storage/"
+    },
+    {
+      "scheme": "NAIF",
+      "round": "",
+      "capacity_mw": 250.0,
+      "storage_mwh": 900.0,
+      "contract_type": "loan",
+      "source_url": "https://www.naif.gov.au/our-projects/genex-kidston-pumped-hydro-storage-project/"
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Kidston Clean Energy Hub \u2014 Pumped Storage Hydro EIS (QLD Coordinator-General / EPBC 2017/8065)",
+    "document_url": "https://www.dsdilgp.qld.gov.au/our-work/major-projects/energy-projects/kidston-clean-energy-hub",
+    "document_year": 2017,
+    "connection_voltage_kv": 275.0,
+    "transformer_mva": 275.0,
+    "network_service_provider": "Powerlink Queensland",
+    "connection_substation_name": "Kidston 275 kV substation (new on-site), connected to Powerlink via ~275 km line to Ross 275 kV substation (Townsville)",
+    "connection_substation_capacity_mva": 350.0,
+    "connection_distance_km": 275.0,
+    "connection_distance_note": "~275 km of new 275 kV HVAC transmission from Kidston (near Mt Garnet, North QLD) to Powerlink Ross substation (Townsville). One of Australia's longest recent new single-circuit transmission lines.",
+    "connection_augmentation": "CRITICAL: New 275 km x 275 kV transmission line from remote Kidston to Powerlink Ross (Townsville). This transmission represents the major capex challenge \u2014 site is isolated from QLD grid. Powerlink and Genex faced prolonged negotiations over transmission access and cost allocation. QLD government provided support via direct investment.",
+    "notes": "250 MW / 900 MWh (3.6-hour) pumped hydro using two former Kidston gold mine open pits (K1 upper reservoir, K2 lower reservoir), near Mt Garnet, Far North QLD. Developer: Genex Power. Hydro OEM: ANDRITZ Hydro (2 x 125 MW reversible Francis pump-turbines). EPC: McConnell Dowell / John Holland JV. QLD EIS approved 2017 + EPBC. Under construction 2024. World's first large-scale pumped hydro reusing former open-cut mine pits as reservoirs. ~220 m head difference between K1 and K2. Genex also operates 50 MW solar + 50 MW wind at Kidston."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

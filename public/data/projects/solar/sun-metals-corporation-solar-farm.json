@@ -1,0 +1,82 @@
+{
+  "id": "sun-metals-corporation-solar-farm",
+  "name": "Sun Metals Corporation Solar Farm",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 121.5,
+  "state": "QLD",
+  "current_developer": "Sun Metals Corporation Pty Ltd",
+  "cod_current": "2018-05-17",
+  "cod_original": "2018-05-17",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 27.2,
+  "notable": "150 MW solar farm near Townsville, QLD. Developed by Sun Metals Corporation to directly power its adjacent Townsville zinc refinery \u2014 one of Australia's first behind-the-meter industrial-scale solar installations.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1437",
+  "confidence_score": "46",
+  "first_seen": "2018-05-17",
+  "coordinates": {
+    "lat": -19.437318,
+    "lng": 146.696015
+  },
+  "timeline": [
+    {
+      "date": "2018-05-17",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2018-05-30",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "solar_oem",
+      "supplier": "First Solar",
+      "grid_forming": false,
+      "source_url": "https://en.wikipedia.org/wiki/Sun_Metals_Solar_Farm"
+    },
+    {
+      "role": "epc",
+      "supplier": "RCR Tomlinson",
+      "grid_forming": false,
+      "source_url": "https://en.wikipedia.org/wiki/Sun_Metals_Solar_Farm"
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "Sun Metals (Korea Zinc)",
+      "type": "corporate_ppa",
+      "capacity_mw": 124.0,
+      "source_url": "https://reneweconomy.com.au/sun-metals-solar-farm/"
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

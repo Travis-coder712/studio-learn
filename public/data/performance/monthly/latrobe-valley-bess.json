@@ -1,0 +1,99 @@
+{
+  "project_id": "latrobe-valley-bess",
+  "name": "LaTrobe Valley BESS",
+  "technology": "bess",
+  "capacity_mw": 200.0,
+  "state": "VIC",
+  "data_source": "openelectricity_api",
+  "monthly": [
+    {
+      "year": 2025,
+      "month": 10,
+      "energy_discharged_mwh": 3973.1,
+      "energy_charged_mwh": 4684.3,
+      "avg_charge_price": 3.83,
+      "avg_discharge_price": 138.17,
+      "utilisation_pct": 2.7,
+      "cycles": 20.3,
+      "revenue_aud": 1191650.0
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "energy_discharged_mwh": 3337.6,
+      "energy_charged_mwh": 4200.5,
+      "avg_charge_price": 17.34,
+      "avg_discharge_price": 103.26,
+      "utilisation_pct": 2.3,
+      "cycles": 17.0,
+      "revenue_aud": 640150.0
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "energy_discharged_mwh": 3466.7,
+      "energy_charged_mwh": 4425.4,
+      "avg_charge_price": 11.52,
+      "avg_discharge_price": 103.23,
+      "utilisation_pct": 2.3,
+      "cycles": 17.7,
+      "revenue_aud": 659939.0
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "energy_discharged_mwh": 3670.8,
+      "energy_charged_mwh": 4671.8,
+      "avg_charge_price": 5.78,
+      "avg_discharge_price": 130.81,
+      "utilisation_pct": 2.5,
+      "cycles": 18.7,
+      "revenue_aud": 984063.0
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "energy_discharged_mwh": 5757.3,
+      "energy_charged_mwh": 6652.9,
+      "avg_charge_price": 13.06,
+      "avg_discharge_price": 75.84,
+      "utilisation_pct": 4.3,
+      "cycles": 29.4,
+      "revenue_aud": 954245.0
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "energy_discharged_mwh": 2796.0,
+      "energy_charged_mwh": 3409.0,
+      "avg_charge_price": 3.12,
+      "avg_discharge_price": 63.77,
+      "utilisation_pct": 1.9,
+      "cycles": 14.3,
+      "revenue_aud": 366819.0
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "energy_discharged_mwh": 6750.1,
+      "energy_charged_mwh": 7906.2,
+      "avg_charge_price": 8.5,
+      "avg_discharge_price": 71.65,
+      "utilisation_pct": 4.7,
+      "cycles": 34.5,
+      "revenue_aud": 1032209.0
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "energy_discharged_mwh": 543.9,
+      "energy_charged_mwh": 780.3,
+      "avg_charge_price": 11.41,
+      "avg_discharge_price": 59.38,
+      "utilisation_pct": 0.4,
+      "cycles": 2.8,
+      "revenue_aud": 73321.0
+    }
+  ],
+  "storage_mwh": 195.8
+}

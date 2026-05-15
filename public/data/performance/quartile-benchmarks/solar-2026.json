@@ -1,0 +1,16 @@
+{
+  "year": 2026,
+  "technology": "solar",
+  "benchmarks": {
+    "capacity_factor": {
+      "q1": 18.58,
+      "median": 22.3,
+      "q3": 26.63
+    },
+    "revenue_per_mw": {
+      "q1": 17705.0,
+      "median": 22349.0,
+      "q3": 28341.0
+    }
+  }
+}

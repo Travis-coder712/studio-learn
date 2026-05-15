@@ -1,0 +1,270 @@
+{
+  "id": "yanco-delta",
+  "name": "Yanco Delta Solar Farm",
+  "technology": "solar",
+  "status": "development",
+  "capacity_mw": 1000.0,
+  "state": "NSW",
+  "rez": "nsw-south-west",
+  "lga": "Leeton",
+  "current_developer": "Origin Energy",
+  "cod_current": "2028",
+  "cod_original": "2026",
+  "connection_status": "Pre-application",
+  "connection_nsp": "TransGrid",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "One of the largest solar projects in Australia at 1GW. Key asset in Origin Energy's 4GW renewables target for 2030. Full allocation in SW REZ.",
+  "data_confidence": "good",
+  "last_updated": "2025-04-15",
+  "last_verified": "2025-04-15",
+  "aemo_gen_info_id": "YANCOSF1",
+  "confidence_score": "75",
+  "development_stage": "planning_submitted",
+  "first_seen": "2020-06-01",
+  "coordinates": {
+    "lat": -34.55,
+    "lng": 146.39
+  },
+  "timeline": [
+    {
+      "date": "2020-06-01",
+      "date_precision": "month",
+      "event_type": "conceived",
+      "title": "Project announced by Virya Energy",
+      "detail": "Originally proposed as a 500MW solar farm by Virya Energy",
+      "sources": [
+        {
+          "title": "AEMO Generation Information",
+          "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information"
+        }
+      ]
+    },
+    {
+      "date": "2022-03-01",
+      "date_precision": "month",
+      "event_type": "capacity_change",
+      "title": "Capacity increased to 1,000 MW",
+      "detail": "Project scope expanded from initial 500MW to 1,000MW (1GW)",
+      "sources": [
+        {
+          "title": "AEMO Generation Information",
+          "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information"
+        }
+      ]
+    },
+    {
+      "date": "2023-11-01",
+      "date_precision": "month",
+      "event_type": "ownership_change",
+      "title": "Origin Energy acquires project for ~$300M",
+      "detail": "Origin acquired from Virya Energy for approximately $300M ($125M upfront + $175M in milestone-based payments).",
+      "sources": [
+        {
+          "title": "AFR \u2014 Origin pays $300m for massive solar project",
+          "url": "https://www.afr.com/companies/energy/origin-pays-300m-for-massive-solar-project-20231101-p5ehfk",
+          "source_tier": 2
+        },
+        {
+          "title": "RenewEconomy \u2014 Origin acquires Yanco Delta",
+          "url": "https://reneweconomy.com.au/origin-energy-acquires-yanco-delta-solar-farm/",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "date": "2023-12-01",
+      "date_precision": "month",
+      "event_type": "planning_approved",
+      "title": "NSW Planning approval received",
+      "sources": [
+        {
+          "title": "NSW Planning Portal",
+          "url": "https://www.planningportal.nsw.gov.au/major-projects",
+          "source_tier": 1
+        }
+      ]
+    },
+    {
+      "date": "2024-02-01",
+      "date_precision": "month",
+      "event_type": "planning_approved",
+      "title": "EPBC approval granted",
+      "sources": [
+        {
+          "title": "DCCEEW EPBC Register",
+          "url": "https://epbcnotices.environment.gov.au/",
+          "source_tier": 1
+        }
+      ]
+    },
+    {
+      "date": "2025-04-01",
+      "date_precision": "month",
+      "event_type": "rez_access",
+      "title": "SW REZ access rights secured \u2014 full 1,460 MW allocation",
+      "sources": [
+        {
+          "title": "EnergyCo NSW SW REZ",
+          "url": "https://www.energyco.nsw.gov.au/south-west-renewable-energy-zone",
+          "source_tier": 1
+        }
+      ]
+    }
+  ],
+  "ownership_history": [
+    {
+      "period": "2020-2023",
+      "owner": "Virya Energy",
+      "role": "Developer",
+      "source_url": "https://www.viryaenergy.com/"
+    },
+    {
+      "period": "2023-present",
+      "owner": "Origin Energy",
+      "role": "Developer & Owner",
+      "acquisition_value_aud": 300000000.0,
+      "transaction_structure": "$125M upfront + $175M milestone payments",
+      "source_url": "https://www.afr.com/companies/energy/origin-pays-300m-for-massive-solar-project-20231101-p5ehfk"
+    }
+  ],
+  "cod_history": [
+    {
+      "date": "2022-01-01",
+      "estimate": "2026",
+      "source": "AEMO Gen Info",
+      "source_url": "https://aemo.com.au"
+    },
+    {
+      "date": "2023-06-01",
+      "estimate": "2027",
+      "source": "AEMO Gen Info",
+      "source_url": "https://aemo.com.au"
+    },
+    {
+      "date": "2024-06-01",
+      "estimate": "2028",
+      "source": "Origin Energy announcement",
+      "source_url": "https://www.originenergy.com.au/"
+    }
+  ],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [
+    {
+      "value": "~$300M (acquisition only)",
+      "source": "AFR",
+      "source_url": "https://www.afr.com/companies/energy/origin-pays-300m-for-massive-solar-project-20231101-p5ehfk",
+      "date": "2023-11-01",
+      "context": "Acquisition price, not total project cost",
+      "what_this_covers": "Acquisition of development rights from Virya Energy"
+    }
+  ],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information"
+    },
+    {
+      "title": "AFR",
+      "url": "https://www.afr.com/",
+      "source_tier": 2
+    },
+    {
+      "title": "RenewEconomy",
+      "url": "https://reneweconomy.com.au/",
+      "source_tier": 2
+    }
+  ],
+  "timeline_events": [
+    {
+      "date": "2020-06-01",
+      "date_precision": "month",
+      "event_type": "conceived",
+      "title": "Project announced by Virya Energy",
+      "detail": "Originally proposed as a 500MW solar farm by Virya Energy",
+      "sources": [
+        {
+          "title": "AEMO Generation Information",
+          "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information"
+        }
+      ]
+    },
+    {
+      "date": "2022-03-01",
+      "date_precision": "month",
+      "event_type": "capacity_change",
+      "title": "Capacity increased to 1,000 MW",
+      "detail": "Project scope expanded from initial 500MW to 1,000MW (1GW)",
+      "sources": [
+        {
+          "title": "AEMO Generation Information",
+          "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information"
+        }
+      ]
+    },
+    {
+      "date": "2023-11-01",
+      "date_precision": "month",
+      "event_type": "ownership_change",
+      "title": "Origin Energy acquires project for ~$300M",
+      "detail": "Origin acquired from Virya Energy for approximately $300M ($125M upfront + $175M in milestone-based payments).",
+      "sources": [
+        {
+          "title": "AFR \u2014 Origin pays $300m for massive solar project",
+          "url": "https://www.afr.com/companies/energy/origin-pays-300m-for-massive-solar-project-20231101-p5ehfk",
+          "source_tier": 2
+        },
+        {
+          "title": "RenewEconomy \u2014 Origin acquires Yanco Delta",
+          "url": "https://reneweconomy.com.au/origin-energy-acquires-yanco-delta-solar-farm/",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "date": "2023-12-01",
+      "date_precision": "month",
+      "event_type": "planning_approved",
+      "title": "NSW Planning approval received",
+      "sources": [
+        {
+          "title": "NSW Planning Portal",
+          "url": "https://www.planningportal.nsw.gov.au/major-projects",
+          "source_tier": 1
+        }
+      ]
+    },
+    {
+      "date": "2024-02-01",
+      "date_precision": "month",
+      "event_type": "planning_approved",
+      "title": "EPBC approval granted",
+      "sources": [
+        {
+          "title": "DCCEEW EPBC Register",
+          "url": "https://epbcnotices.environment.gov.au/",
+          "source_tier": 1
+        }
+      ]
+    },
+    {
+      "date": "2025-04-01",
+      "date_precision": "month",
+      "event_type": "rez_access",
+      "title": "SW REZ access rights secured \u2014 full 1,460 MW allocation",
+      "sources": [
+        {
+          "title": "EnergyCo NSW SW REZ",
+          "url": "https://www.energyco.nsw.gov.au/south-west-renewable-energy-zone",
+          "source_tier": 1
+        }
+      ]
+    }
+  ]
+}

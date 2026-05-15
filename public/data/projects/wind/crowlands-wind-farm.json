@@ -1,0 +1,78 @@
+{
+  "id": "crowlands-wind-farm",
+  "name": "Crowlands Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 79.95,
+  "state": "VIC",
+  "current_developer": "Pacific Hydro Crowlands Pty Ltd",
+  "cod_current": "2018-12-08",
+  "cod_original": "2018-12-08",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 41.8,
+  "notable": "~80 MW, 39 Senvion MM92 turbines in Victoria's Pyrenees Shire. Owned by Pacific Hydro (State Power Investment Corporation of China). COD January 2019.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1566",
+  "confidence_score": "49",
+  "first_seen": "2018-12-08",
+  "coordinates": {
+    "lat": -36.97615,
+    "lng": 143.097998
+  },
+  "timeline": [
+    {
+      "date": "2017",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Pacific Hydro began construction near Ararat",
+      "sources": []
+    },
+    {
+      "date": "2018-12-08",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2018-12-09",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [
+    {
+      "party": "NAB (National Australia Bank)",
+      "type": "corporate_ppa",
+      "term_years": 10,
+      "capacity_mw": 10.0,
+      "source_url": "https://reneweconomy.com.au/crowlands-wind-farm/"
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

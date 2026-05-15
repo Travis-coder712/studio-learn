@@ -1,0 +1,103 @@
+{
+  "id": "golden-plains-wind-farm-east",
+  "name": "Golden Plains Wind Farm East",
+  "technology": "wind",
+  "status": "commissioning",
+  "capacity_mw": 733.0,
+  "state": "VIC",
+  "current_developer": "Golden Plains WF1 Pty Ltd as trustee for the Golden Plains WF1 Unit Trust",
+  "cod_current": "2025-12-31",
+  "cod_original": "2025-12-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Stage 1 of Australias largest wind farm. 122x Vestas V162-6.2MW. Snowy Hydro 40% + Equinix 20% PPAs. A$2B. TagEnergy/IKEA.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1487",
+  "confidence_score": "36",
+  "capex_aud_m": 2000.0,
+  "first_seen": "2026-03-12",
+  "timeline": [
+    {
+      "date": "2023",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "East section construction began",
+      "detail": "Turbine installation commenced for eastern section",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2025-12 to 2025-12-31 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Vestas",
+      "model": "V162-6.2 MW EnVentus",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "Snowy Hydro",
+      "type": "PPA",
+      "capacity_mw": 302.0
+    },
+    {
+      "party": "Equinix",
+      "type": "corporate_ppa",
+      "capacity_mw": 151.0
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Golden Plains Wind Farm Stage 1B (East) \u2014 EES Amendment (VIC DEECA)",
+    "document_url": "https://www.planning.vic.gov.au/schemes-and-amendments/statewide-activities/environment-effects-statements/current-and-completed-ees/golden-plains-wind-farm",
+    "document_year": 2021,
+    "turbine_model": "Vestas V162-6.2 MW EnVentus",
+    "turbine_count": 122,
+    "turbine_rated_power_mw": 6.2,
+    "hub_height_m": 119.0,
+    "hub_height_note": "Same hub height as Stage 1A (West) \u2014 flat Western Victoria plateau",
+    "rotor_diameter_m": 162.0,
+    "wind_speed_mean_ms": 8.6,
+    "wind_speed_height_m": 119.0,
+    "wind_speed_period": "Mean annual wind speed at hub height; Golden Plains plateau, Western Victoria \u2014 same met mast array as Stage 1A",
+    "assumed_capacity_factor_pct": 42.0,
+    "assumed_annual_energy_gwh": 2778.0,
+    "energy_yield_method": "WAsP modelling with ERA5 long-term correction; P50 net yield \u2014 consistent methodology with Stage 1A",
+    "noise_limit_dba": 40.0,
+    "minimum_setback_m": 2000,
+    "connection_voltage_kv": 220.0,
+    "network_service_provider": "AusNet Services",
+    "connection_substation_name": "Golden Plains 220 kV substation (new, shared with Stage 1A), Western Victoria",
+    "connection_substation_capacity_mva": 1200.0,
+    "connection_distance_km": 25.0,
+    "connection_distance_note": "~25 km of 220 kV connection shared with Stage 1A. Both stages connect to the same new on-site substation.",
+    "connection_augmentation": "Shared 220 kV connection with Stage 1A. New substation built to accommodate the full 1,488 MW Golden Plains complex. Part of the Western Victoria Transmission Network Project corridor.",
+    "notes": "756 MW (122 x 6.2 MW Vestas V162-6.2 EnVentus), Western Victoria (Golden Plains Shire). Developer: Golden Plains Wind Farm (Vena Energy / Vestas). Stage 1B EES Amendment approved 2021, commissioning 2024. Combined Golden Plains complex (Stage 1A + 1B) totals ~1,488 MW with 240 turbines. Western Victoria Wind Farm Zone \u2014 among Australia's best onshore wind resource."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

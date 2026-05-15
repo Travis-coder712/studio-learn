@@ -1,0 +1,117 @@
+{
+  "id": "new-england-solar-farm-bess",
+  "name": "New England Solar Farm BESS",
+  "technology": "bess",
+  "status": "construction",
+  "capacity_mw": 200.0,
+  "storage_mwh": 200.0,
+  "state": "NSW",
+  "rez": "nsw-new-england",
+  "current_developer": "ACEN Australia / Marubeni (50:50)",
+  "cod_current": "2026-06-30",
+  "cod_original": "2026-06-30",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Energy Vault B-VAULT (first Australian project). Siemens grid-forming inverters. 20-year NSW LTESA.",
+  "data_confidence": "medium",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "aemo_gen_info_id": "1893",
+  "confidence_score": "61",
+  "first_seen": "2025-02-01",
+  "coordinates": {
+    "lat": -30.6,
+    "lng": 151.6
+  },
+  "timeline": [
+    {
+      "date": "2025-02-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Phase 1 construction commenced (50 MW / 100 MWh)",
+      "detail": "Energy Vault B-VAULT deployment",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2026-06 to 2026-06-30 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Energy Vault",
+      "model": "B-VAULT",
+      "grid_forming": false,
+      "source_url": "https://www.energyvault.com/projects/new-england-bess"
+    },
+    {
+      "role": "inverter",
+      "supplier": "Siemens (S120 grid-forming inverters)",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [
+    {
+      "scheme": "NSW LTESA",
+      "round": "Round 1",
+      "capacity_mw": 200.0,
+      "storage_mwh": 400.0,
+      "contract_type": "ltesa",
+      "source_url": "https://acenrenewables.com.au/project/new-england-solar/"
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "New England Solar Farm BESS \u2014 SSD EIS (NSW)",
+    "document_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/new-england-solar-farm-battery-energy-storage-system",
+    "document_year": 2023,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "To be confirmed through procurement",
+    "cell_country_of_manufacture": "China / South Korea",
+    "inverter_supplier": "To be confirmed through procurement",
+    "pcs_type": "grid_following",
+    "round_trip_efficiency_pct": 87.5,
+    "round_trip_efficiency_ac": 84.5,
+    "duration_hours": 1.0,
+    "connection_voltage_kv": 330.0,
+    "transformer_mva": 200.0,
+    "network_service_provider": "TransGrid",
+    "connection_substation_name": "New England Solar Farm 330 kV connection (co-located)",
+    "connection_substation_capacity_mva": 800.0,
+    "connection_distance_km": 0.2,
+    "connection_distance_note": "Co-located with 720 MW New England Solar Farm \u2014 shares the solar farm's 330 kV connection infrastructure.",
+    "connection_augmentation": "Minimal new works. Existing 330 kV connection for 720 MW solar farm already established; BESS adds new feeder bay only. New England REZ transmission corridor being expanded by TransGrid.",
+    "notes": "200 MW / 200 MWh (1-hour) BESS co-located with the 720 MW New England Solar Farm, NSW. ACEN Australia / Marubeni (50:50 JV). NSW SSD. 1-hour duration optimised for peak shifting and FCAS markets. Connection to TransGrid 330 kV New England REZ transmission."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": [
+    {
+      "date": "2026-02",
+      "date_precision": "month",
+      "event_type": "commissioning",
+      "title": "Phase 1 (50 MW) registered with AEMO",
+      "detail": "ACEN: Phase 1 (50 MW) registered with AEMO Feb 2026. Phase 2 (150 MW) remains under construction."
+    }
+  ],
+  "duration_hours": 2.0
+}

@@ -1,0 +1,1621 @@
+{
+  "contractors": [
+    {
+      "slug": "consolidated-power-projects-cpp",
+      "name": "Consolidated Power Projects (CPP)",
+      "project_count": 13,
+      "total_capacity_mw": 3216.0,
+      "roles": [
+        "bop",
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 13
+      },
+      "by_status": {
+        "commissioning": 2,
+        "construction": 4,
+        "operating": 7
+      },
+      "states": [
+        "NSW",
+        "QLD",
+        "SA",
+        "VIC"
+      ],
+      "project_ids": [
+        "bouldercombe-battery-project",
+        "brendale-bess",
+        "calala-bess-a1",
+        "dalrymple-bess",
+        "elaine-bess",
+        "greenbank-bess",
+        "koorangie-energy-storage-system",
+        "orana-bess",
+        "tailem-bend-stage-3",
+        "templers-bess",
+        "ulinda-park-bess",
+        "waratah-super-battery",
+        "williamsdale-bess"
+      ]
+    },
+    {
+      "slug": "future-generation-joint-venture-webuild-clough-lane",
+      "name": "Future Generation Joint Venture (Webuild/Clough/Lane)",
+      "project_count": 1,
+      "total_capacity_mw": 2200.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "pumped_hydro": 1
+      },
+      "by_status": {
+        "construction": 1
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "snowy-20"
+      ]
+    },
+    {
+      "slug": "afry-aurecon-jv-design-services",
+      "name": "AFRY-Aurecon JV (design services)",
+      "project_count": 1,
+      "total_capacity_mw": 2000.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "pumped_hydro": 1
+      },
+      "by_status": {
+        "development": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "borumba"
+      ]
+    },
+    {
+      "slug": "water2wire-jv-ghd-mott-macdonald-stantec-dam-design",
+      "name": "Water2Wire JV (GHD/Mott MacDonald/Stantec) \u2014 dam design",
+      "project_count": 1,
+      "total_capacity_mw": 2000.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "pumped_hydro": 1
+      },
+      "by_status": {
+        "development": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "borumba"
+      ]
+    },
+    {
+      "slug": "vestas-epc-for-stage-1-and-stage-2",
+      "name": "Vestas (EPC for Stage 1 and Stage 2)",
+      "project_count": 1,
+      "total_capacity_mw": 1610.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "construction": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "golden-plains-wind"
+      ]
+    },
+    {
+      "slug": "zenviron",
+      "name": "Zenviron",
+      "project_count": 4,
+      "total_capacity_mw": 1367.0,
+      "roles": [
+        "bop"
+      ],
+      "by_technology": {
+        "wind": 3,
+        "bess": 1
+      },
+      "by_status": {
+        "construction": 2,
+        "operating": 2
+      },
+      "states": [
+        "NSW",
+        "QLD",
+        "VIC"
+      ],
+      "project_ids": [
+        "dundonnell-wind-farm",
+        "lotus-creek-wind-farm",
+        "rye-park-wind-farm",
+        "wooreen-energy-storage-system"
+      ]
+    },
+    {
+      "slug": "nuenergy-infrastructure",
+      "name": "NuEnergy Infrastructure",
+      "project_count": 1,
+      "total_capacity_mw": 1300.0,
+      "roles": [
+        "bop"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "supernode-bess"
+      ]
+    },
+    {
+      "slug": "vestas-epc",
+      "name": "Vestas (EPC)",
+      "project_count": 2,
+      "total_capacity_mw": 1083.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "wind": 2
+      },
+      "by_status": {
+        "construction": 2
+      },
+      "states": [
+        "QLD",
+        "VIC"
+      ],
+      "project_ids": [
+        "golden-plains-wind-farm-west",
+        "wambo-wind-farm"
+      ]
+    },
+    {
+      "slug": "acle-services",
+      "name": "ACLE Services",
+      "project_count": 3,
+      "total_capacity_mw": 855.0,
+      "roles": [
+        "bop",
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 3
+      },
+      "by_status": {
+        "commissioning": 1,
+        "operating": 2
+      },
+      "states": [
+        "NSW",
+        "VIC"
+      ],
+      "project_ids": [
+        "mornington-bess",
+        "pine-lodge-bess",
+        "smithfield-bess"
+      ]
+    },
+    {
+      "slug": "sterling-wilson",
+      "name": "Sterling & Wilson",
+      "project_count": 4,
+      "total_capacity_mw": 839.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 4
+      },
+      "by_status": {
+        "operating": 4
+      },
+      "states": [
+        "NSW",
+        "QLD",
+        "SA"
+      ],
+      "project_ids": [
+        "columboola-solar-farm",
+        "port-augusta-renewable-energy-park-solar",
+        "wellington-solar-farm",
+        "western-downs-green-power-hub-pl"
+      ]
+    },
+    {
+      "slug": "pcl-construction",
+      "name": "PCL Construction",
+      "project_count": 4,
+      "total_capacity_mw": 776.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 4
+      },
+      "by_status": {
+        "operating": 4
+      },
+      "states": [
+        "NSW",
+        "QLD"
+      ],
+      "project_ids": [
+        "gunnedah-solar-farm",
+        "stubbo-solar-farm",
+        "west-wyalong-solar-farm",
+        "woolooga-solar-farm"
+      ]
+    },
+    {
+      "slug": "beon-energy-solutions",
+      "name": "Beon Energy Solutions",
+      "project_count": 7,
+      "total_capacity_mw": 726.0,
+      "roles": [
+        "bop",
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1,
+        "solar": 6
+      },
+      "by_status": {
+        "construction": 1,
+        "operating": 6
+      },
+      "states": [
+        "NSW",
+        "VIC"
+      ],
+      "project_ids": [
+        "avonlie-solar-farm",
+        "bomen-solar-farm",
+        "girgarre-solar-farm",
+        "jemalong-solar",
+        "limondale-bess",
+        "metz-solar-farm",
+        "sebastopol-solar-farm"
+      ]
+    },
+    {
+      "slug": "rcr-tomlinson",
+      "name": "RCR Tomlinson",
+      "project_count": 8,
+      "total_capacity_mw": 700.2,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 8
+      },
+      "by_status": {
+        "operating": 8
+      },
+      "states": [
+        "NSW",
+        "QLD",
+        "VIC"
+      ],
+      "project_ids": [
+        "darling-downs-solar-farm",
+        "daydream-solar-farm",
+        "emerald-solar-park",
+        "gannawarra-solar-farm",
+        "haughton-solar-farm-stage-1",
+        "hayman-solar-farm",
+        "manildra-solar-farm",
+        "sun-metals-corporation-solar-farm"
+      ]
+    },
+    {
+      "slug": "enerven-sa-power-networks",
+      "name": "Enerven (SA Power Networks)",
+      "project_count": 1,
+      "total_capacity_mw": 700.0,
+      "roles": [
+        "bop"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "eraring-battery"
+      ]
+    },
+    {
+      "slug": "enerven",
+      "name": "Enerven",
+      "project_count": 1,
+      "total_capacity_mw": 700.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "eraring-big-battery"
+      ]
+    },
+    {
+      "slug": "grs-gransolar",
+      "name": "GRS (Gransolar)",
+      "project_count": 3,
+      "total_capacity_mw": 658.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 3
+      },
+      "by_status": {
+        "operating": 3
+      },
+      "states": [
+        "NSW",
+        "QLD"
+      ],
+      "project_ids": [
+        "bluegrass-solar-farm",
+        "edenvale-solar-park",
+        "wellington-north-solar-farm-lightsource"
+      ]
+    },
+    {
+      "slug": "fluence",
+      "name": "Fluence",
+      "project_count": 2,
+      "total_capacity_mw": 650.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 2
+      },
+      "by_status": {
+        "operating": 1,
+        "construction": 1
+      },
+      "states": [
+        "NSW",
+        "VIC"
+      ],
+      "project_ids": [
+        "hazelwood-battery-energy-storage-system-hbess",
+        "tomago-bess"
+      ]
+    },
+    {
+      "slug": "samsung-c-t-genus-plus-jv",
+      "name": "Samsung C&T / Genus Plus JV",
+      "project_count": 3,
+      "total_capacity_mw": 600.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 3
+      },
+      "by_status": {
+        "operating": 3
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "melbourne-renewable-energy-hub-connection-a1",
+        "melbourne-renewable-energy-hub-connection-a2",
+        "melbourne-renewable-energy-hub-connection-a3"
+      ]
+    },
+    {
+      "slug": "elecnor",
+      "name": "Elecnor",
+      "project_count": 4,
+      "total_capacity_mw": 576.0,
+      "roles": [
+        "bop",
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1,
+        "wind": 1,
+        "solar": 2
+      },
+      "by_status": {
+        "construction": 1,
+        "operating": 3
+      },
+      "states": [
+        "NSW",
+        "SA"
+      ],
+      "project_ids": [
+        "bungala-one-solar-farm",
+        "moree-solar-farm",
+        "pelican-point-bess",
+        "port-augusta-renewable-energy-park-wind"
+      ]
+    },
+    {
+      "slug": "snc-lavalin-wbho-jv",
+      "name": "SNC-Lavalin / WBHO JV",
+      "project_count": 1,
+      "total_capacity_mw": 530.0,
+      "roles": [
+        "bop"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "stockyard-hill-wind-farm"
+      ]
+    },
+    {
+      "slug": "ugl-cimic-group",
+      "name": "UGL (CIMIC Group)",
+      "project_count": 1,
+      "total_capacity_mw": 510.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "commissioning": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "western-downs-battery-stage-1-and-2"
+      ]
+    },
+    {
+      "slug": "bouygues-construction-australia",
+      "name": "Bouygues Construction Australia",
+      "project_count": 2,
+      "total_capacity_mw": 500.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 2
+      },
+      "by_status": {
+        "operating": 2
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "coleambally-solar-farm",
+        "culcairn-solar-farm"
+      ]
+    },
+    {
+      "slug": "catcon",
+      "name": "CATCON",
+      "project_count": 1,
+      "total_capacity_mw": 453.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "coopers-gap-wind-farm"
+      ]
+    },
+    {
+      "slug": "vestas",
+      "name": "Vestas",
+      "project_count": 1,
+      "total_capacity_mw": 420.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "macarthur-wind-farm"
+      ]
+    },
+    {
+      "slug": "ge-vernova-nacap-ccp-consortium",
+      "name": "GE Vernova + NACAP + CCP (consortium)",
+      "project_count": 1,
+      "total_capacity_mw": 414.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "construction": 1
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "uungula-wind-farm"
+      ]
+    },
+    {
+      "slug": "canadian-solar-signal-energy-jv",
+      "name": "Canadian Solar / Signal Energy (JV)",
+      "project_count": 2,
+      "total_capacity_mw": 408.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 2
+      },
+      "by_status": {
+        "operating": 2
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "darlington-point-solar-farm",
+        "finley-solar-farm"
+      ]
+    },
+    {
+      "slug": "acciona-energia",
+      "name": "ACCIONA Energia",
+      "project_count": 1,
+      "total_capacity_mw": 387.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "aldoga-solar-farm"
+      ]
+    },
+    {
+      "slug": "downer",
+      "name": "Downer",
+      "project_count": 3,
+      "total_capacity_mw": 344.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1,
+        "solar": 2
+      },
+      "by_status": {
+        "operating": 3
+      },
+      "states": [
+        "QLD",
+        "VIC"
+      ],
+      "project_ids": [
+        "chinchilla-bess",
+        "numurkah-solar-farm",
+        "ross-river-solar-farm"
+      ]
+    },
+    {
+      "slug": "belectric",
+      "name": "BELECTRIC",
+      "project_count": 1,
+      "total_capacity_mw": 306.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "limondale-solar-farm-1"
+      ]
+    },
+    {
+      "slug": "yurika-qld-govt-owned",
+      "name": "Yurika (QLD Govt-owned)",
+      "project_count": 1,
+      "total_capacity_mw": 300.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "tarong-bess-stanwell"
+      ]
+    },
+    {
+      "slug": "grs-chint-solar-jv",
+      "name": "GRS / CHINT Solar (JV)",
+      "project_count": 1,
+      "total_capacity_mw": 300.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "walla-walla-solar-farm"
+      ]
+    },
+    {
+      "slug": "biosar",
+      "name": "Biosar",
+      "project_count": 4,
+      "total_capacity_mw": 291.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 4
+      },
+      "by_status": {
+        "operating": 4
+      },
+      "states": [
+        "NSW",
+        "QLD"
+      ],
+      "project_ids": [
+        "childers-solar-farm",
+        "nevertire-solar-farm",
+        "oakey-2-solar-farm",
+        "susan-river-solar-farm"
+      ]
+    },
+    {
+      "slug": "ugl",
+      "name": "UGL",
+      "project_count": 4,
+      "total_capacity_mw": 287.8,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 4
+      },
+      "by_status": {
+        "operating": 4
+      },
+      "states": [
+        "QLD",
+        "SA",
+        "VIC"
+      ],
+      "project_ids": [
+        "collinsville-pv",
+        "glenrowan-solar-farm",
+        "kidston-solar-project-phase-one",
+        "tailem-bend-solar"
+      ]
+    },
+    {
+      "slug": "dt-infrastructure-gamuda-2",
+      "name": "DT Infrastructure (Gamuda)",
+      "project_count": 1,
+      "total_capacity_mw": 280.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "wollar-solar-farm"
+      ]
+    },
+    {
+      "slug": "dt-infrastructure",
+      "name": "DT Infrastructure",
+      "project_count": 1,
+      "total_capacity_mw": 256.0,
+      "roles": [
+        "bop"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "construction": 1
+      },
+      "states": [
+        "SA"
+      ],
+      "project_ids": [
+        "carmodys-hill-wind-farm"
+      ]
+    },
+    {
+      "slug": "mcconnell-dowell-john-holland-jv",
+      "name": "McConnell Dowell / John Holland JV",
+      "project_count": 1,
+      "total_capacity_mw": 250.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "pumped_hydro": 1
+      },
+      "by_status": {
+        "construction": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "kidston-pumped-storage-hydro-project-250mw"
+      ]
+    },
+    {
+      "slug": "samsung-c-t-turnkey-epc",
+      "name": "Samsung C&T (turnkey EPC)",
+      "project_count": 1,
+      "total_capacity_mw": 250.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "construction": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "gnarwarre-bess-facility"
+      ]
+    },
+    {
+      "slug": "wartsila",
+      "name": "Wartsila",
+      "project_count": 1,
+      "total_capacity_mw": 250.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "SA"
+      ],
+      "project_ids": [
+        "torrens-island-bess"
+      ]
+    },
+    {
+      "slug": "acle-services-acenergy",
+      "name": "ACLE Services / ACEnergy",
+      "project_count": 1,
+      "total_capacity_mw": 250.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "pine-lodge-bess"
+      ]
+    },
+    {
+      "slug": "dt-infrastructure-gamuda",
+      "name": "DT Infrastructure / Gamuda",
+      "project_count": 1,
+      "total_capacity_mw": 228.0,
+      "roles": [
+        "bop"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "construction": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "boulder-creek-wind-farm"
+      ]
+    },
+    {
+      "slug": "intec-energy-solutions",
+      "name": "INTEC Energy Solutions",
+      "project_count": 1,
+      "total_capacity_mw": 222.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "construction": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "woolooga-bess"
+      ]
+    },
+    {
+      "slug": "decmil-rje-jv",
+      "name": "Decmil/RJE JV",
+      "project_count": 1,
+      "total_capacity_mw": 218.0,
+      "roles": [
+        "bop"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "ryan-corner-wind-farm"
+      ]
+    },
+    {
+      "slug": "nhoa-energy-elecnor-jv",
+      "name": "NHOA Energy / Elecnor JV",
+      "project_count": 1,
+      "total_capacity_mw": 200.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "SA"
+      ],
+      "project_ids": [
+        "blyth-bess"
+      ]
+    },
+    {
+      "slug": "fluence-zenviron",
+      "name": "Fluence / Zenviron",
+      "project_count": 1,
+      "total_capacity_mw": 200.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "latrobe-valley-bess"
+      ]
+    },
+    {
+      "slug": "rje-global-symal-jv",
+      "name": "RJE Global / Symal JV",
+      "project_count": 1,
+      "total_capacity_mw": 200.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "rangebank-bess"
+      ]
+    },
+    {
+      "slug": "canadian-solar-biosar-jv",
+      "name": "Canadian Solar / Biosar (JV)",
+      "project_count": 1,
+      "total_capacity_mw": 200.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "kiamal-solar-farm-stage-1"
+      ]
+    },
+    {
+      "slug": "decmil",
+      "name": "Decmil",
+      "project_count": 1,
+      "total_capacity_mw": 200.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "sunraysia-solar-farm"
+      ]
+    },
+    {
+      "slug": "res",
+      "name": "RES",
+      "project_count": 1,
+      "total_capacity_mw": 180.6,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "dulacca-wind-farm"
+      ]
+    },
+    {
+      "slug": "fulton-hogan",
+      "name": "Fulton Hogan",
+      "project_count": 1,
+      "total_capacity_mw": 175.0,
+      "roles": [
+        "bop"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "white-rock-wind-farm-stage-1"
+      ]
+    },
+    {
+      "slug": "bouygues",
+      "name": "Bouygues",
+      "project_count": 3,
+      "total_capacity_mw": 161.5,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 3
+      },
+      "by_status": {
+        "operating": 3
+      },
+      "states": [
+        "NSW",
+        "QLD"
+      ],
+      "project_ids": [
+        "hamilton-solar-farm",
+        "parkes-solar-farm",
+        "whitsunday-solar-farm"
+      ]
+    },
+    {
+      "slug": "first-solar",
+      "name": "First Solar",
+      "project_count": 2,
+      "total_capacity_mw": 156.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 2
+      },
+      "by_status": {
+        "operating": 2
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "broken-hill-solar-plant",
+        "nyngan-solar-plant"
+      ]
+    },
+    {
+      "slug": "metka-egn-metlen",
+      "name": "METKA EGN (Metlen)",
+      "project_count": 4,
+      "total_capacity_mw": 153.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 4
+      },
+      "by_status": {
+        "operating": 4
+      },
+      "states": [
+        "NSW",
+        "QLD"
+      ],
+      "project_ids": [
+        "corowa-solar-farm",
+        "junee-solar-farm",
+        "kingaroy-solar-farm",
+        "wyalong-solar-farm"
+      ]
+    },
+    {
+      "slug": "bouygues-construction",
+      "name": "Bouygues Construction",
+      "project_count": 1,
+      "total_capacity_mw": 150.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "suntop-solar-farm"
+      ]
+    },
+    {
+      "slug": "doosan-gridtech",
+      "name": "Doosan GridTech",
+      "project_count": 2,
+      "total_capacity_mw": 141.5,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 2
+      },
+      "by_status": {
+        "operating": 1,
+        "commissioning": 1
+      },
+      "states": [
+        "QLD",
+        "SA"
+      ],
+      "project_ids": [
+        "tailem-bend-battery-project",
+        "wandoan-south-bess"
+      ]
+    },
+    {
+      "slug": "edify-energy",
+      "name": "Edify Energy",
+      "project_count": 2,
+      "total_capacity_mw": 125.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 2
+      },
+      "by_status": {
+        "operating": 2
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "riverina-energy-storage-system-1",
+        "riverina-energy-storage-system-2"
+      ]
+    },
+    {
+      "slug": "green-light-contractors",
+      "name": "Green Light Contractors",
+      "project_count": 1,
+      "total_capacity_mw": 110.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "SA"
+      ],
+      "project_ids": [
+        "bungala-two-solar-farm"
+      ]
+    },
+    {
+      "slug": "signal-energy-australia",
+      "name": "Signal Energy Australia",
+      "project_count": 1,
+      "total_capacity_mw": 110.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "glenrowan-west-solar-farm"
+      ]
+    },
+    {
+      "slug": "doosan-gridtech-provecta",
+      "name": "Doosan GridTech / Provecta",
+      "project_count": 1,
+      "total_capacity_mw": 100.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "capital-battery"
+      ]
+    },
+    {
+      "slug": "canadian-solar-e-storage-cpp",
+      "name": "Canadian Solar e-STORAGE / CPP",
+      "project_count": 1,
+      "total_capacity_mw": 100.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "SA"
+      ],
+      "project_ids": [
+        "mannum-bess"
+      ]
+    },
+    {
+      "slug": "zenviron-wartsila",
+      "name": "Zenviron / Wartsila",
+      "project_count": 1,
+      "total_capacity_mw": 100.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "construction": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "bennetts-creek-bess"
+      ]
+    },
+    {
+      "slug": "canadian-solar-tec-c",
+      "name": "Canadian Solar / TEC-C",
+      "project_count": 1,
+      "total_capacity_mw": 100.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "construction": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "terang-bess"
+      ]
+    },
+    {
+      "slug": "gransolar-grs",
+      "name": "Gransolar (GRS)",
+      "project_count": 2,
+      "total_capacity_mw": 99.8,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 2
+      },
+      "by_status": {
+        "operating": 2
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "goonumbla-solar-farm",
+        "molong-solar-farm"
+      ]
+    },
+    {
+      "slug": "rcr-laing-o-rourke",
+      "name": "RCR / Laing O'Rourke",
+      "project_count": 1,
+      "total_capacity_mw": 88.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "wemen-solar-farm"
+      ]
+    },
+    {
+      "slug": "tranex-solar",
+      "name": "Tranex Solar",
+      "project_count": 1,
+      "total_capacity_mw": 85.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "hillston-sun-farm"
+      ]
+    },
+    {
+      "slug": "metka-egn-mytilineos",
+      "name": "METKA EGN (Mytilineos)",
+      "project_count": 1,
+      "total_capacity_mw": 82.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "moura-solar-farm"
+      ]
+    },
+    {
+      "slug": "lendlease",
+      "name": "Lendlease",
+      "project_count": 1,
+      "total_capacity_mw": 64.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "warwick-solar-farm"
+      ]
+    },
+    {
+      "slug": "enzen-australia",
+      "name": "Enzen Australia",
+      "project_count": 1,
+      "total_capacity_mw": 60.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "commissioning": 1
+      },
+      "states": [
+        "SA"
+      ],
+      "project_ids": [
+        "clements-gap-bess"
+      ]
+    },
+    {
+      "slug": "fluence-valmec-altrad",
+      "name": "Fluence / Valmec (Altrad)",
+      "project_count": 1,
+      "total_capacity_mw": 50.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "broken-hill-bess"
+      ]
+    },
+    {
+      "slug": "tesla",
+      "name": "Tesla",
+      "project_count": 1,
+      "total_capacity_mw": 50.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "wallgrove-grid-battery-project"
+      ]
+    },
+    {
+      "slug": "european-energy",
+      "name": "European Energy",
+      "project_count": 1,
+      "total_capacity_mw": 46.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "mokoan-solar-farm"
+      ]
+    },
+    {
+      "slug": "spotless-sustainability-services",
+      "name": "Spotless Sustainability Services",
+      "project_count": 1,
+      "total_capacity_mw": 30.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "ballarat-energy-storage-system"
+      ]
+    },
+    {
+      "slug": "british-solar-renewables",
+      "name": "British Solar Renewables",
+      "project_count": 1,
+      "total_capacity_mw": 30.0,
+      "roles": [
+        "epc"
+      ],
+      "by_technology": {
+        "solar": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "kerang-solar-plant"
+      ]
+    }
+  ],
+  "total": 72
+}

@@ -1,0 +1,78 @@
+{
+  "id": "repulse",
+  "name": "Repulse",
+  "technology": "pumped_hydro",
+  "status": "operating",
+  "capacity_mw": 34.0,
+  "state": "TAS",
+  "current_developer": "Hydro-Electric Corporation",
+  "cod_current": "1967-12-31",
+  "cod_original": "1967-12-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 88.1,
+  "notable": "28 MW hydro on the Derwent River, Tasmania. Part of the eleven-station Derwent cascade. Hydro Tasmania.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1170",
+  "confidence_score": "46",
+  "first_seen": "1967-12-31",
+  "coordinates": {
+    "lat": -42.507987,
+    "lng": 146.64717
+  },
+  "timeline": [
+    {
+      "date": "1967-12-31",
+      "date_precision": "year",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2009-07-01",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "hydro_oem",
+      "supplier": "Boving",
+      "model": "Kaplan",
+      "quantity": 1,
+      "grid_forming": false,
+      "source_url": "https://www.andritz.com/hydro-en/hydronews/27/hy-news-27-07-repulse-hydro"
+    },
+    {
+      "role": "hydro_oem",
+      "supplier": "Andritz",
+      "model": "Refurbishment",
+      "grid_forming": false,
+      "source_url": "https://www.andritz.com/hydro-en/hydronews/27/hy-news-27-07-repulse-hydro"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

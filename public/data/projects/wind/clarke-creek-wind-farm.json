@@ -1,0 +1,140 @@
+{
+  "id": "clarke-creek-wind-farm",
+  "name": "Clarke Creek Wind Farm",
+  "technology": "wind",
+  "status": "commissioning",
+  "capacity_mw": 1135.0,
+  "state": "QLD",
+  "current_developer": "Squadron Energy Services Pty Ltd",
+  "cod_current": "2025-09-30",
+  "cod_original": "2025-09-30",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": true,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Staged build: 1,135 MW total. Stage 1 (439 MW) commissioning, Stage 2 (696 MW) development.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1988",
+  "confidence_score": "42",
+  "capex_aud_m": 1500.0,
+  "first_seen": "2026-03-12",
+  "timeline": [
+    {
+      "date": "2020",
+      "date_precision": "year",
+      "event_type": "planning_approved",
+      "title": "QLD development approval",
+      "detail": "Queensland Government approved the project",
+      "sources": []
+    },
+    {
+      "date": "2021",
+      "date_precision": "year",
+      "event_type": "fid",
+      "title": "Financial close \u2014 A$1.5B",
+      "detail": "Lacour Energy/Squadron Energy reached financial close",
+      "sources": []
+    },
+    {
+      "date": "2022",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Construction began for 66 GE Cypress 5.7 MW turbines + 33 GE 3.8 MW",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2025-09 to 2025-09-30 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Goldwind",
+      "model": "~4.5 MW",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "CS Energy",
+      "type": "PPA",
+      "source_url": "https://reneweconomy.com.au/clarke-creek-wind-farm/"
+    },
+    {
+      "party": "Stanwell Corporation",
+      "type": "PPA",
+      "term_years": 15,
+      "capacity_mw": 348.0
+    }
+  ],
+  "scheme_contracts": [],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Stage 1",
+      "capacity_mw": 439.0,
+      "storage_mwh": 0.0,
+      "status": "commissioning",
+      "grid_forming": false,
+      "notes": "Commissioning."
+    },
+    {
+      "stage": 2,
+      "name": "Stage 2",
+      "capacity_mw": 696.0,
+      "storage_mwh": 0.0,
+      "status": "development",
+      "grid_forming": false,
+      "notes": "Development."
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Clarke Creek Wind Farm EIS \u2014 Coordinator-General's Report (QLD DSDILGP)",
+    "document_url": "https://www.dsdilgp.qld.gov.au/our-work/major-projects/energy-projects/clarke-creek-wind-farm",
+    "document_year": 2020,
+    "turbine_model": "Goldwind GW155-4.5S (design envelope \u2014 ~4.5 MW class)",
+    "turbine_count": 100,
+    "turbine_rated_power_mw": 4.5,
+    "hub_height_m": 110.0,
+    "hub_height_note": "Approximate \u2014 design envelope; final turbine model confirmed as Goldwind ~4.5 MW class per supplier records",
+    "rotor_diameter_m": 155.0,
+    "wind_speed_mean_ms": 7.8,
+    "wind_speed_height_m": 110.0,
+    "wind_speed_period": "Mean annual wind speed at hub height from WAsP modelling; Central Queensland near Moranbah",
+    "assumed_capacity_factor_pct": 33.0,
+    "assumed_annual_energy_gwh": 1300.0,
+    "energy_yield_method": "WAsP modelling from on-site met masts; P50 net yield",
+    "noise_limit_dba": 37.0,
+    "minimum_setback_m": 1500,
+    "connection_voltage_kv": 132.0,
+    "network_service_provider": "Powerlink Queensland",
+    "connection_substation_name": "Clarke Creek 132 kV substation (new on-site), stepped up to Powerlink 275 kV at Boomer 275 kV substation",
+    "connection_substation_capacity_mva": 600.0,
+    "connection_distance_km": 55.0,
+    "connection_distance_note": "~55 km of new 132 kV line to Powerlink Boomer 275 kV substation in Central QLD. Long connection required due to greenfield Central QLD location.",
+    "connection_augmentation": "IMPORTANT: Significant new transmission required \u2014 ~55 km of 132 kV line plus step-up to Powerlink 275 kV network at Boomer substation. Powerlink augmentation of Boomer substation required. High connection capex for Central QLD location versus Southern QLD wind farms.",
+    "notes": "450 MW (100 \u00d7 ~4.5 MW Goldwind turbines), Central Queensland near Moranbah. Developer: Squadron Energy Services (formerly ACCIONA held interest). QLD EIS approved by Coordinator-General 2020. Commissioning 2024. Central QLD location has moderate wind resource compared to Southern QLD. 132 kV connection voltage is the key constraint \u2014 this is unusual for a 450 MW project and means higher transmission losses than 275 kV alternatives. Long 55 km connection distance to Powerlink network adds material capex vs Southern QLD projects."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

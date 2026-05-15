@@ -1,0 +1,82 @@
+{
+  "id": "kidston-solar-project-phase-one",
+  "name": "Kidston Solar Project Phase One",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 50.0,
+  "state": "QLD",
+  "current_developer": "Genex Power Limited",
+  "cod_current": "2017-11-30",
+  "cod_original": "2017-11-30",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 52.6,
+  "notable": "54 MW solar farm at the former Kidston gold mine, QLD. Developed by Genex Power as Stage 1 of the Kidston Clean Energy Hub, which also includes the 250 MW Kidston Pumped Storage Hydro project \u2014 a world-first use of a former mine for pumped hydro.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1378",
+  "confidence_score": "46",
+  "first_seen": "2017-11-30",
+  "coordinates": {
+    "lat": -18.88,
+    "lng": 144.151
+  },
+  "timeline": [
+    {
+      "date": "2017-11-30",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2017-11-30",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "solar_oem",
+      "supplier": "First Solar",
+      "model": "Series 4",
+      "grid_forming": false,
+      "source_url": "https://arena.gov.au/projects/kidston-solar-project-phase-1/"
+    },
+    {
+      "role": "inverter",
+      "supplier": "SMA",
+      "grid_forming": false,
+      "source_url": "https://arena.gov.au/projects/kidston-solar-project-phase-1/"
+    },
+    {
+      "role": "epc",
+      "supplier": "UGL",
+      "grid_forming": false,
+      "source_url": "https://arena.gov.au/projects/kidston-solar-project-phase-1/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

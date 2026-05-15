@@ -1,0 +1,16 @@
+{
+  "year": 2018,
+  "technology": "wind",
+  "benchmarks": {
+    "capacity_factor": {
+      "q1": 28.18,
+      "median": 32.58,
+      "q3": 38.22
+    },
+    "revenue_per_mw": {
+      "q1": 193574.0,
+      "median": 224307.0,
+      "q3": 255333.0
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "id": "liddell-bess",
+  "name": "Liddell BESS",
+  "technology": "bess",
+  "status": "commissioning",
+  "capacity_mw": 500.0,
+  "storage_mwh": 1000.0,
+  "state": "NSW",
+  "current_developer": "AGL Energy",
+  "cod_current": "2026-02-20",
+  "cod_original": "2026-02-20",
+  "grid_forming": true,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Fluence Gridstack with grid-forming inverters. A$750M. ARENA A$35M grant. NSW LTESA Round 2.",
+  "data_confidence": "good",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "aemo_gen_info_id": "2171",
+  "confidence_score": "70",
+  "capex_aud_m": 750.0,
+  "capex_source": "AGL/NS Energy",
+  "capex_year": 2023,
+  "first_seen": "2023-03-01",
+  "capex_source_url": "https://ir.fluenceenergy.com/news-releases/news-release-details/agl-selects-fluence-deliver-500-mw-liddell-battery-project",
+  "coordinates": {
+    "lat": -32.3715,
+    "lng": 150.978
+  },
+  "timeline": [
+    {
+      "date": "2023-03-01",
+      "date_precision": "month",
+      "event_type": "planning_approved",
+      "title": "NSW SSD approval",
+      "detail": "Approved for up to 500 MW / 2,000 MWh",
+      "sources": []
+    },
+    {
+      "date": "2023-12-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "FID reached",
+      "detail": "AGL final investment decision",
+      "sources": []
+    },
+    {
+      "date": "2024-01-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Fluence Gridstack deployment",
+      "sources": []
+    },
+    {
+      "date": "2025-09-30",
+      "date_precision": "day",
+      "event_type": "notable",
+      "title": "Registered with AEMO",
+      "detail": "AEMO MMS registration",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2026-02 to 2026-02-20 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Fluence",
+      "model": "Gridstack",
+      "grid_forming": false,
+      "source_url": "https://ir.fluenceenergy.com/news-releases/news-release-details/agl-selects-fluence-deliver-500-mw-liddell-battery-project"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [
+    {
+      "scheme": "ARENA",
+      "round": "",
+      "capacity_mw": 500.0,
+      "storage_mwh": 1000.0,
+      "contract_type": "grant",
+      "source_url": "https://arena.gov.au/projects/agl-liddell-large-scale-battery-with-advanced-inverters-deployment-project/"
+    },
+    {
+      "scheme": "NSW LTESA",
+      "round": "Round 2",
+      "capacity_mw": 500.0,
+      "storage_mwh": 1000.0,
+      "contract_type": "ltesa",
+      "source_url": "https://www.agl.com.au/about-agl/operations/liddell-battery"
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Liddell Battery Energy Storage System \u2014 SSD EIS (NSW)",
+    "document_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/liddell-battery-energy-storage-system",
+    "document_year": 2023,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "To be confirmed through procurement (likely CATL or Samsung SDI)",
+    "cell_country_of_manufacture": "China / South Korea",
+    "inverter_supplier": "To be confirmed through procurement",
+    "pcs_type": "grid_forming",
+    "round_trip_efficiency_pct": 88.0,
+    "round_trip_efficiency_ac": 85.0,
+    "duration_hours": 2.0,
+    "connection_voltage_kv": 330.0,
+    "transformer_mva": 500.0,
+    "network_service_provider": "TransGrid",
+    "connection_substation_name": "Liddell 330 kV substation (former power station, on-site)",
+    "connection_substation_capacity_mva": 2500.0,
+    "connection_distance_km": 0.3,
+    "connection_distance_note": "Effectively on-site \u2014 former Liddell coal power station 330 kV substation. ~300 m internal connection only.",
+    "connection_augmentation": "Minimal. Existing 330 kV switchyard from 2,000 MW coal plant reused. New BESS feeder bays and protection required. Significant cost advantage over greenfield connection (~A$50-100M saved vs remote site).",
+    "notes": "500 MW / 1,000 MWh (2-hour) BESS co-located at the former Liddell Power Station site, Hunter Valley NSW. AGL Energy project. NSW State Significant Development approval. Grid-forming capability specified in EIS as a requirement. LFP chemistry specified in EIS as preferred chemistry for safety and longevity. Connection to the 330 kV Liddell\u2013Murrurundi transmission system."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": [
+    {
+      "date": "2026-03",
+      "date_precision": "month",
+      "event_type": "commissioning",
+      "title": "First 250 MW tranche begins commissioning",
+      "detail": "AGL: First 250 MW commissioning started Mar 2026. Full operations targeted Jun 2026."
+    }
+  ],
+  "current_owner": "AGL Energy"
+}

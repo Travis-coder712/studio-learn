@@ -1,0 +1,72 @@
+{
+  "id": "eden-offshore-wind-farm",
+  "name": "Eden Offshore Wind Farm",
+  "technology": "offshore_wind",
+  "status": "development",
+  "capacity_mw": 2000.0,
+  "state": "NSW",
+  "current_developer": "Oceanex Energy (Equinor withdrew)",
+  "cod_current": "2034-01-01",
+  "cod_original": "2034-01-01",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Effectively shelved. 2 GW floating wind off Eden NSW south coast. Equinor pulled out 2024-2025. Oceanex lacks capital to proceed alone. Estimated $10B project.",
+  "data_confidence": "medium",
+  "last_updated": "2026-03-11",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "2026",
+  "confidence_score": "44",
+  "development_stage": "epbc_approved",
+  "first_seen": "2011",
+  "zombie_flag": "zombie_stale",
+  "timeline": [
+    {
+      "date": "2011",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2011/6037",
+      "detail": "Eden Wind Farm \u2014 Not Controlled Action",
+      "sources": []
+    },
+    {
+      "date": "2025-08-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Equinor-Oceanex partnership dissolved",
+      "detail": "Equinor confirmed exit from all Australian offshore wind projects",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2034-01 to 2034-01-01 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    },
+    {
+      "title": "EPBC Referral 2011/6037",
+      "url": "https://epbcpublicportal.environment.gov.au/all-referrals/#!/referral/2011-6037",
+      "date": "2026-03-12",
+      "source_tier": 1
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "wemen-solar-farm",
+  "name": "Wemen Solar Farm",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 88.0,
+  "state": "VIC",
+  "current_developer": "Wemen Asset Co Pty Ltd as Trustee to Wemen Solar Unit Trust",
+  "cod_current": "2018-11-06",
+  "cod_original": "2018-11-06",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 49.5,
+  "notable": "44 MW solar farm near Wemen in the Victorian Mallee. Developed by Overland Sun Farming.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1563",
+  "confidence_score": "46",
+  "first_seen": "2018-11-06",
+  "coordinates": {
+    "lat": -34.80259,
+    "lng": 142.543348
+  },
+  "timeline": [
+    {
+      "date": "2018-11-06",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2018-11-07",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "solar_oem",
+      "supplier": "Jinko Solar",
+      "grid_forming": false,
+      "source_url": "https://en.wikipedia.org/wiki/Wemen_Solar_Farm"
+    },
+    {
+      "role": "inverter",
+      "supplier": "SMA",
+      "model": "SMA 2500 SC-EV",
+      "grid_forming": false,
+      "source_url": "https://en.wikipedia.org/wiki/Wemen_Solar_Farm"
+    },
+    {
+      "role": "epc",
+      "supplier": "RCR / Laing O'Rourke",
+      "grid_forming": false,
+      "source_url": "https://en.wikipedia.org/wiki/Wemen_Solar_Farm"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

@@ -1,0 +1,2604 @@
+{
+  "rounds": [
+    {
+      "id": "cis-pilot-nsw",
+      "scheme": "CIS",
+      "round": "CIS Pilot \u2014 NSW",
+      "type": "dispatchable",
+      "announced_date": "2023-11-23",
+      "months_since_announced": 30,
+      "total_capacity_mw": 1325,
+      "total_storage_mwh": 2390,
+      "num_projects": 6,
+      "by_stage": {
+        "commissioning": 2,
+        "operating": 1,
+        "unknown": 3
+      },
+      "by_state": {
+        "NSW": 6
+      },
+      "projects": [
+        {
+          "name": "Orana REZ Battery",
+          "project_id": "orana-bess",
+          "developer": "Akaysha Energy (BlackRock)",
+          "technology": "bess",
+          "capacity_mw": 460,
+          "storage_mwh": 920,
+          "state": "NSW",
+          "status": "commissioning",
+          "stage": "commissioning",
+          "construction_start": "2024-07-01",
+          "cod_current": "2026-06-30",
+          "dev_status": "construction",
+          "annotations": [],
+          "developer_grade": "A"
+        },
+        {
+          "name": "Liddell BESS",
+          "project_id": "liddell-bess",
+          "developer": "AGL Energy",
+          "technology": "bess",
+          "capacity_mw": 500,
+          "storage_mwh": 1000,
+          "state": "NSW",
+          "status": "commissioning",
+          "stage": "commissioning",
+          "construction_start": "2024-01-01",
+          "cod_current": "2026-02-20",
+          "dev_status": "construction",
+          "annotations": [],
+          "developer_grade": "A"
+        },
+        {
+          "name": "Smithfield Sydney Battery",
+          "project_id": "smithfield-bess",
+          "developer": "Iberdrola",
+          "technology": "bess",
+          "capacity_mw": 235,
+          "storage_mwh": 470,
+          "state": "NSW",
+          "status": "operating",
+          "stage": "operating",
+          "cod_current": "2025-11-19",
+          "dev_status": "operating",
+          "annotations": []
+        },
+        {
+          "name": "Enel X VPP 1",
+          "developer": "Enel X Australia",
+          "technology": "vpp",
+          "capacity_mw": 43,
+          "state": "NSW",
+          "status": "unknown",
+          "stage": "unknown",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Enel X VPP 2",
+          "developer": "Enel X Australia",
+          "technology": "vpp",
+          "capacity_mw": 43,
+          "state": "NSW",
+          "status": "unknown",
+          "stage": "unknown",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Enel X VPP 3",
+          "developer": "Enel X Australia",
+          "technology": "vpp",
+          "capacity_mw": 44,
+          "state": "NSW",
+          "status": "unknown",
+          "stage": "unknown",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cis-pilot-sa-vic",
+      "scheme": "CIS",
+      "round": "CIS Pilot \u2014 SA/VIC",
+      "type": "dispatchable",
+      "announced_date": "2024-09-04",
+      "months_since_announced": 20,
+      "total_capacity_mw": 995,
+      "total_storage_mwh": 3626,
+      "num_projects": 6,
+      "by_stage": {
+        "construction": 2,
+        "unknown": 1,
+        "commissioning": 2,
+        "development": 1
+      },
+      "by_state": {
+        "VIC": 3,
+        "SA": 3
+      },
+      "projects": [
+        {
+          "name": "Wooreen Battery",
+          "project_id": "wooreen-energy-storage-system",
+          "developer": "EnergyAustralia",
+          "technology": "bess",
+          "capacity_mw": 350,
+          "storage_mwh": 1400,
+          "state": "VIC",
+          "status": "construction",
+          "stage": "construction",
+          "construction_start": "2025-03-01",
+          "cod_current": "2027-12-31",
+          "dev_status": "construction",
+          "annotations": []
+        },
+        {
+          "name": "Springfield BESS",
+          "developer": "Neoen",
+          "technology": "bess",
+          "capacity_mw": 200,
+          "storage_mwh": 400,
+          "state": "VIC",
+          "status": "unknown",
+          "stage": "unknown",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "A"
+        },
+        {
+          "name": "Mortlake BESS",
+          "project_id": "mortlake-battery",
+          "developer": "Origin Energy",
+          "technology": "bess",
+          "capacity_mw": 135,
+          "storage_mwh": 270,
+          "state": "VIC",
+          "status": "commissioning",
+          "stage": "commissioning",
+          "construction_start": "2024-07-01",
+          "cod_current": "2026-07-31",
+          "dev_status": "construction",
+          "annotations": [
+            {
+              "flag": "execution risk",
+              "reason": "Developer execution grade: D",
+              "severity": "high"
+            }
+          ],
+          "developer_grade": "D"
+        },
+        {
+          "name": "Tailem Bend BESS",
+          "project_id": "tailem-bend-stage-3",
+          "developer": "Vena Energy",
+          "technology": "bess",
+          "capacity_mw": 200,
+          "storage_mwh": 560,
+          "state": "SA",
+          "status": "construction",
+          "stage": "construction",
+          "construction_start": "2025-12-01",
+          "cod_current": "2027-04-30",
+          "dev_status": "construction",
+          "annotations": [],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Clements Gap Battery",
+          "project_id": "clements-gap-bess",
+          "developer": "Pacific Blue (SPIC China)",
+          "technology": "bess",
+          "capacity_mw": 60,
+          "storage_mwh": 240,
+          "state": "SA",
+          "status": "commissioning",
+          "stage": "commissioning",
+          "construction_start": "2024-06-12",
+          "cod_current": "2026-01-05",
+          "dev_status": "construction",
+          "annotations": []
+        },
+        {
+          "name": "Hallett Battery",
+          "project_id": "hallett-bess",
+          "developer": "EnergyAustralia Hallett Pty Ltd",
+          "technology": "bess",
+          "capacity_mw": 50,
+          "storage_mwh": 756,
+          "state": "SA",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2027-06-01",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cis-tender-1-nem-gen",
+      "scheme": "CIS",
+      "round": "Tender 1 \u2014 NEM Generation",
+      "type": "generation",
+      "announced_date": "2024-12-11",
+      "months_since_announced": 17,
+      "total_capacity_mw": 6375,
+      "total_storage_mwh": 3553,
+      "num_projects": 19,
+      "by_stage": {
+        "development": 16,
+        "construction": 2,
+        "operating": 1
+      },
+      "by_state": {
+        "NSW": 7,
+        "VIC": 7,
+        "SA": 2,
+        "QLD": 3
+      },
+      "projects": [
+        {
+          "name": "Valley of the Winds",
+          "project_id": "valley-of-the-winds",
+          "developer": "ACEN Renewables",
+          "technology": "wind",
+          "capacity_mw": 936,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2029-12-31",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B",
+          "planning_approval_date": "2025-06-11",
+          "planning_authority": "NSW IPC",
+          "planning_note": "IPC approved subject to conditions (943 MW, 320 MW BESS)"
+        },
+        {
+          "name": "Sandy Creek Solar Farm",
+          "project_id": "sandy-creek-solar-farm",
+          "developer": "Sandy Creek Solar Fund Pty Ltd",
+          "technology": "solar",
+          "capacity_mw": 700,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2029-06-01",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Spicers Creek Wind Farm",
+          "project_id": "spicers-creek-wind-farm",
+          "developer": "Squadron Energy (Tattarang)",
+          "technology": "wind",
+          "capacity_mw": 700,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B",
+          "planning_approval_date": "2024-10-31",
+          "planning_authority": "NSW IPC",
+          "planning_note": "IPC granted development consent (700 MW + 400 MW BESS)"
+        },
+        {
+          "name": "Junction Rivers",
+          "project_id": "junction-rivers-wind-and-bess",
+          "developer": "Junction Rivers Pty Ltd",
+          "technology": "hybrid",
+          "capacity_mw": 585,
+          "storage_mwh": 800,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2032-04-30",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Goulburn River Solar Farm",
+          "project_id": "goulburn-river-solar-farm-and-bess",
+          "developer": "Goulburn River Fund Pty Ltd",
+          "technology": "solar",
+          "capacity_mw": 450,
+          "state": "NSW",
+          "status": "construction",
+          "stage": "construction",
+          "cod_current": "2027-03-31",
+          "dev_status": "on track",
+          "annotations": []
+        },
+        {
+          "name": "Thunderbolt Wind Farm",
+          "project_id": "thunderbolt-wind-farm",
+          "developer": "Neoen Australia Pty Ltd",
+          "technology": "wind",
+          "capacity_mw": 230,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B",
+          "planning_approval_date": "2024-05-08",
+          "planning_authority": "NSW IPC",
+          "planning_note": "IPC approved Stage 1 (192 MW)"
+        },
+        {
+          "name": "Glanmire Solar Farm",
+          "project_id": "glanmire-solar-farm",
+          "developer": "Elgin Energy Pty Ltd",
+          "technology": "hybrid",
+          "capacity_mw": 60,
+          "storage_mwh": 104,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2027-07-31",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Kentbruck Wind Farm",
+          "project_id": "kentbruck-green-power-hub",
+          "developer": "Kentbruck Wind Farm Pty Ltd atf Kentbruck Wind Farm Trust",
+          "technology": "wind",
+          "capacity_mw": 600,
+          "state": "VIC",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2030-06-30",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "West Mokoan Solar Farm",
+          "project_id": "west-mokoan-solar-farm-and-bess",
+          "developer": "West Mokoan Solar Farm",
+          "technology": "hybrid",
+          "capacity_mw": 300,
+          "storage_mwh": 560,
+          "state": "VIC",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2029-07-02",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Barwon Solar Farm",
+          "project_id": "barwon-solar-farm-and-bess",
+          "developer": "Elgin Energy Pty Ltd",
+          "technology": "hybrid",
+          "capacity_mw": 250,
+          "storage_mwh": 500,
+          "state": "VIC",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2027-07-31",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Campbells Forest Solar Farm",
+          "project_id": "campbells-forest-solar-farm",
+          "developer": "Risen Energy Australia",
+          "technology": "solar",
+          "capacity_mw": 205,
+          "state": "VIC",
+          "status": "development",
+          "stage": "development",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Elaine Solar Farm",
+          "project_id": "elaine-solar-farm-and-bess",
+          "developer": "Elgin Energy Pty Ltd",
+          "technology": "hybrid",
+          "capacity_mw": 125,
+          "storage_mwh": 250,
+          "state": "VIC",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2027-07-31",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Barnawartha Solar Farm",
+          "project_id": "barnawartha-solar-and-energy-storage",
+          "developer": "Barnawartha Solar Pty Ltd",
+          "technology": "hybrid",
+          "capacity_mw": 64,
+          "storage_mwh": 139,
+          "state": "VIC",
+          "status": "development",
+          "stage": "development",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Goyder North Wind Farm",
+          "project_id": "goyder-north-wind-farm",
+          "developer": "Neoen Australia",
+          "technology": "wind",
+          "capacity_mw": 300,
+          "state": "SA",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2029-12",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Palmer Wind Farm",
+          "project_id": "palmer-wind-farm",
+          "developer": "Tilt Renewables Australia Pty Ltd",
+          "technology": "wind",
+          "capacity_mw": 274,
+          "state": "SA",
+          "status": "development",
+          "stage": "construction",
+          "dev_status": "FID reached",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "FID reached",
+              "reason": "Tilt Renewables took FID on the 288 MW Palmer Wind Farm in early Jan 2026; 15-year PPA with AGL signed Sep 2025.",
+              "severity": "low"
+            }
+          ],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Hopeland Solar Farm",
+          "project_id": "hopeland-solar-farm",
+          "developer": "Hopeland Solar Farm Pty Ltd as trustee for the Hopeland Solar Farm Trust",
+          "technology": "solar",
+          "capacity_mw": 250,
+          "state": "QLD",
+          "status": "development",
+          "stage": "development",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Majors Creek Solar Power Station",
+          "project_id": "majors-creek-solar-power-station",
+          "developer": "Edify Energy Pty Ltd",
+          "technology": "hybrid",
+          "capacity_mw": 150,
+          "storage_mwh": 600,
+          "state": "QLD",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2029-02-01",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Ganymirra Solar Power Station",
+          "project_id": "ganymirra-solar-power-station",
+          "developer": "Edify Energy Pty Ltd",
+          "technology": "hybrid",
+          "capacity_mw": 150,
+          "storage_mwh": 600,
+          "state": "QLD",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2029-02-01",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Mokoan Solar Farm",
+          "project_id": "mokoan-solar-farm",
+          "developer": "EE Solar 6 Pty Ltd as trustee for EE Solar 6 Trust",
+          "technology": "solar",
+          "capacity_mw": 46,
+          "state": "VIC",
+          "status": "operating",
+          "stage": "operating",
+          "cod_current": "2025-05-22",
+          "dev_status": "operating",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "cis-tender-2-wem-disp",
+      "scheme": "CIS",
+      "round": "Tender 2 \u2014 WEM Dispatchable",
+      "type": "dispatchable",
+      "announced_date": "2025-03-20",
+      "months_since_announced": 14,
+      "total_capacity_mw": 654,
+      "total_storage_mwh": 2595,
+      "num_projects": 4,
+      "by_stage": {
+        "unknown": 4
+      },
+      "by_state": {
+        "WA": 4
+      },
+      "projects": [
+        {
+          "name": "Boddington Giga Battery",
+          "developer": "PGS Energy",
+          "technology": "bess",
+          "capacity_mw": 324,
+          "storage_mwh": 1296,
+          "state": "WA",
+          "status": "unknown",
+          "stage": "unknown",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Merredin Big Battery",
+          "developer": "Atmos Renewables",
+          "technology": "bess",
+          "capacity_mw": 100,
+          "storage_mwh": 400,
+          "state": "WA",
+          "status": "unknown",
+          "stage": "unknown",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Muchea Big Battery",
+          "developer": "Neoen",
+          "technology": "bess",
+          "capacity_mw": 150,
+          "storage_mwh": 600,
+          "state": "WA",
+          "status": "unknown",
+          "stage": "unknown",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "A"
+        },
+        {
+          "name": "Waroona Renewable Energy Project Stage 1",
+          "developer": "Frontier Energy",
+          "technology": "bess",
+          "capacity_mw": 80,
+          "storage_mwh": 299,
+          "state": "WA",
+          "status": "unknown",
+          "stage": "unknown",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cis-tender-3-nem-disp",
+      "scheme": "CIS",
+      "round": "Tender 3 \u2014 NEM Dispatchable",
+      "type": "dispatchable",
+      "announced_date": "2025-09-17",
+      "months_since_announced": 8,
+      "total_capacity_mw": 4130,
+      "total_storage_mwh": 15371,
+      "num_projects": 16,
+      "by_stage": {
+        "development": 14,
+        "construction": 1,
+        "commissioning": 1
+      },
+      "by_state": {
+        "NSW": 5,
+        "VIC": 5,
+        "QLD": 4,
+        "SA": 2
+      },
+      "projects": [
+        {
+          "name": "Bulabul 2 BESS",
+          "project_id": "bulabul-bess-2",
+          "developer": "WEBESS02 ProjectCo Pty Ltd as trustee for the WEBESS02 Project Trust",
+          "technology": "bess",
+          "capacity_mw": 100,
+          "storage_mwh": 406,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Swallow Tail BESS",
+          "project_id": "swallow-tail-bess",
+          "developer": "STBESS ProjectCo Pty Ltd as trustee for the STBESS Project Trust",
+          "technology": "bess",
+          "capacity_mw": 300,
+          "storage_mwh": 1218,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Calala BESS",
+          "project_id": "calala-bess-a1",
+          "developer": "Equis Australia",
+          "technology": "bess",
+          "capacity_mw": 150,
+          "storage_mwh": 300,
+          "state": "NSW",
+          "status": "construction",
+          "stage": "construction",
+          "construction_start": "2025-03-01",
+          "cod_current": "2026-12-31",
+          "dev_status": "construction",
+          "annotations": [],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Goulburn River Standalone BESS",
+          "project_id": "goulburn-river-bess",
+          "developer": "Lightsource Development Services Australia Pty Ltd",
+          "technology": "bess",
+          "capacity_mw": 450,
+          "storage_mwh": 1370,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2029-08-01",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Mount Piper BESS Stage 1",
+          "project_id": "mt-piper-bess",
+          "developer": "Energy Australia Development Pty Ltd",
+          "technology": "bess",
+          "capacity_mw": 250,
+          "storage_mwh": 1000,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2028-10-31",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Deer Park BESS",
+          "project_id": "deer-park-bess-akaysha",
+          "developer": "Akaysha Energy",
+          "technology": "bess",
+          "capacity_mw": 275,
+          "storage_mwh": 1100,
+          "state": "VIC",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2028-12-12",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Joel Joel BESS",
+          "project_id": "joel-joel-bess",
+          "developer": "ACEnergy Pty Ltd",
+          "technology": "bess",
+          "capacity_mw": 250,
+          "storage_mwh": 1000,
+          "state": "VIC",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2028-10-02",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Kiamal BESS",
+          "project_id": "kiamal-bess",
+          "developer": "TotalEnergies Renewables Australia",
+          "technology": "bess",
+          "capacity_mw": 220,
+          "storage_mwh": 810,
+          "state": "VIC",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2028-08-31",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Little River BESS",
+          "project_id": "little-river-bess",
+          "developer": "ACEnergy Pty Ltd",
+          "technology": "bess",
+          "capacity_mw": 350,
+          "storage_mwh": 1400,
+          "state": "VIC",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2028-06-29",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Mornington BESS",
+          "project_id": "mornington-bess",
+          "developer": "Valent Energy (Gaw Capital / BW ESS)",
+          "technology": "bess",
+          "capacity_mw": 240,
+          "storage_mwh": 587,
+          "state": "VIC",
+          "status": "commissioning",
+          "stage": "commissioning",
+          "construction_start": "2024-10-01",
+          "cod_current": "2026-02-28",
+          "dev_status": "construction",
+          "annotations": [],
+          "developer_grade": "A"
+        },
+        {
+          "name": "Capricorn BESS",
+          "project_id": "capricorn-bess",
+          "developer": "ENEL Green Power Australia",
+          "technology": "bess",
+          "capacity_mw": 300,
+          "storage_mwh": 1200,
+          "state": "QLD",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2029-04-30",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Lower Wonga BESS",
+          "project_id": "lower-wonga-bess",
+          "developer": "Equis Energy (Australia) Projects (Ngumi 7) Pty Ltd as trustee for the Equis Energy(Australia) Ngumi 7 Asset Trust",
+          "technology": "bess",
+          "capacity_mw": 200,
+          "storage_mwh": 800,
+          "state": "QLD",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2028-01-01",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Teebar BESS",
+          "project_id": "teebar-creek-battery-storage-kci",
+          "developer": "ATMOS DEVELOPMENTS PTY LTD",
+          "technology": "bess",
+          "capacity_mw": 400,
+          "storage_mwh": 1600,
+          "state": "QLD",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2028-08-31",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Ulinda Park Expansion",
+          "project_id": "ulinda-park-bess-expansion",
+          "developer": "Akaysha Energy",
+          "technology": "bess",
+          "capacity_mw": 195,
+          "storage_mwh": 780,
+          "state": "QLD",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2028-06-30",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Koolunga BESS",
+          "project_id": "koolunga-battery-energy-storage-system",
+          "developer": "Equis Energy (Australia) Projects (Ngumi 6) Pty Ltd as trustee for the Equis Energy (Australia) Ngumi 6 Asset Trust",
+          "technology": "bess",
+          "capacity_mw": 200,
+          "storage_mwh": 800,
+          "state": "SA",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2028-01-01",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Reeves Plains BESS",
+          "project_id": "reeves-plains-power-station-bess",
+          "developer": "Alinta Energy (Reeves Plains) Pty Ltd",
+          "technology": "bess",
+          "capacity_mw": 250,
+          "storage_mwh": 1000,
+          "state": "SA",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2028-02-29",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cis-tender-4-nem-gen",
+      "scheme": "CIS",
+      "round": "Tender 4 \u2014 NEM Generation",
+      "type": "generation",
+      "announced_date": "2025-10-09",
+      "months_since_announced": 7,
+      "total_capacity_mw": 6640,
+      "total_storage_mwh": 11444,
+      "num_projects": 20,
+      "by_stage": {
+        "unknown": 3,
+        "development": 16,
+        "construction": 1
+      },
+      "by_state": {
+        "TAS": 1,
+        "NSW": 6,
+        "SA": 3,
+        "VIC": 4,
+        "QLD": 6
+      },
+      "projects": [
+        {
+          "name": "Bell Bay Wind Farm",
+          "developer": "Equis",
+          "technology": "wind",
+          "capacity_mw": 224,
+          "state": "TAS",
+          "status": "unknown",
+          "stage": "unknown",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Bendemeer Energy Hub",
+          "project_id": "bendemeer-renewable-energy-hub-solar-and-bess",
+          "developer": "Athena Energy Australia (Holdings) Pty Ltd",
+          "technology": "hybrid",
+          "capacity_mw": 252,
+          "storage_mwh": 300,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "dev_status": "execution risk",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "execution risk",
+              "reason": "Developer execution grade: F",
+              "severity": "high"
+            }
+          ],
+          "developer_grade": "F"
+        },
+        {
+          "name": "Bundey BESS and Solar",
+          "project_id": "bundey-bess-and-solar-project",
+          "developer": "Genaspi Energy Group Pty Ltd",
+          "technology": "hybrid",
+          "capacity_mw": 240,
+          "storage_mwh": 1200,
+          "state": "SA",
+          "status": "development",
+          "stage": "development",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Carmody's Hill Wind Farm",
+          "project_id": "carmodys-hill-wind-farm",
+          "developer": "Aula Energy",
+          "technology": "wind",
+          "capacity_mw": 247,
+          "state": "SA",
+          "status": "construction",
+          "stage": "construction",
+          "fid_date": "2023",
+          "construction_start": "2026-01-01",
+          "cod_current": "2029-01-01",
+          "dev_status": "FID reached",
+          "annotations": []
+        },
+        {
+          "name": "Corop Solar Farm and BESS",
+          "project_id": "corop-solar-farm",
+          "developer": "Leeson Solar Pty Ltd.",
+          "technology": "hybrid",
+          "capacity_mw": 230,
+          "storage_mwh": 704,
+          "state": "VIC",
+          "status": "development",
+          "stage": "development",
+          "dev_status": "execution risk",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "execution risk",
+              "reason": "Developer execution grade: F",
+              "severity": "high"
+            }
+          ],
+          "developer_grade": "F"
+        },
+        {
+          "name": "Derby Solar Project",
+          "project_id": "derby-solar-farm-and-bess",
+          "developer": "DERBY SOLAR PROJECT PTY LTD",
+          "technology": "hybrid",
+          "capacity_mw": 95,
+          "storage_mwh": 210,
+          "state": "VIC",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2027-09-01",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Dinawan Wind Farm Stage 1",
+          "project_id": "dinawan-energy-hub",
+          "developer": "Spark Renewables (Tenaga Nasional Berhad subsidiary)",
+          "technology": "wind",
+          "capacity_mw": 357,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2029-12-01",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ],
+          "planning_approval_date": null,
+          "planning_authority": "NSW DPE",
+          "planning_note": "SSD-50725708 \u2014 under assessment, not yet approved"
+        },
+        {
+          "name": "Gawara Baya",
+          "project_id": "gawara-baya-wind-and-bess",
+          "developer": "GAWARA BAYA WIND FARM PTY LTD",
+          "technology": "hybrid",
+          "capacity_mw": 399,
+          "storage_mwh": 217,
+          "state": "QLD",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2029-01-15",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Guthrie's Gap Solar Power Station",
+          "project_id": "guthries-gap-solar-power-station",
+          "developer": "Edify Energy Pty Ltd",
+          "technology": "hybrid",
+          "capacity_mw": 300,
+          "storage_mwh": 1200,
+          "state": "QLD",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2029-05-01",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Hexham Wind Farm",
+          "project_id": "hexham",
+          "developer": "Wind Prospect WA Pty Ltd",
+          "technology": "wind",
+          "capacity_mw": 600,
+          "state": "VIC",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2030-11-01",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Liverpool Range Wind Stage 1",
+          "project_id": "liverpool-range-wind-farm",
+          "developer": "Tilt Renewables",
+          "technology": "wind",
+          "capacity_mw": 634,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B",
+          "planning_approval_date": "2024-10-23",
+          "planning_authority": "NSW DPE",
+          "planning_note": "Modification approved (more efficient turbines, fewer)"
+        },
+        {
+          "name": "Lower Wonga Solar Farm",
+          "project_id": "lower-wonga-solar-farm-and-bess",
+          "developer": "Lower Wonga Solar Farm Pty Ltd",
+          "technology": "solar",
+          "capacity_mw": 281,
+          "state": "QLD",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2028-08-01",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Merino Solar Farm",
+          "project_id": "merino-solar-farm",
+          "developer": "Merino Solar Farm Pty Ltd as trustee for Merino Solar Farm Trust",
+          "technology": "hybrid",
+          "capacity_mw": 450,
+          "storage_mwh": 1800,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Middlebrook Solar Farm",
+          "project_id": "middlebrook-solar-and-bess",
+          "developer": "Middlebrook Solar Farm Pty Ltd as trustee for MSF Project Trust",
+          "technology": "hybrid",
+          "capacity_mw": 363,
+          "storage_mwh": 813,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2029-12-14",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Moah Creek Wind Farm",
+          "project_id": "moah-creek-wind-farm",
+          "developer": "Moah Creek Wind Farm Project Co Pty Ltd as trustee for the Moah Creek Wind Farm Project Trust",
+          "technology": "wind",
+          "capacity_mw": 360,
+          "state": "QLD",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2028-03-31",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Nowingi Solar Power Station",
+          "project_id": "nowingi-solar-farm-edify-kci",
+          "developer": "Edify Energy Pty Ltd",
+          "technology": "hybrid",
+          "capacity_mw": 300,
+          "storage_mwh": 1200,
+          "state": "VIC",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2028-02-01",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Punchs Creek Solar Farm",
+          "developer": "EDPR",
+          "technology": "hybrid",
+          "capacity_mw": 400,
+          "storage_mwh": 1600,
+          "state": "QLD",
+          "status": "unknown",
+          "stage": "unknown",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Smoky Creek Solar Power Station",
+          "project_id": "smoky-creek-solar-power-station",
+          "developer": "Edify Energy Pty Ltd",
+          "technology": "hybrid",
+          "capacity_mw": 300,
+          "storage_mwh": 1200,
+          "state": "QLD",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2029-05-01",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Tallawang Solar Hybrid",
+          "project_id": "tallawang-solar-and-bess",
+          "developer": "Enel Green Power Australia Pty Ltd",
+          "technology": "hybrid",
+          "capacity_mw": 500,
+          "storage_mwh": 1000,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2030-01-15",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Willogoleche 2 Wind Farm",
+          "project_id": "willogoleche-2-wind-farm",
+          "developer": "ENGIE / Foresight",
+          "technology": "wind",
+          "capacity_mw": 108,
+          "state": "SA",
+          "status": "unknown",
+          "stage": "unknown",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ltesa-round-1",
+      "scheme": "LTESA",
+      "round": "Round 1 \u2014 Generation + LDS",
+      "type": "mixed",
+      "announced_date": "2023-05-03",
+      "months_since_announced": 36,
+      "total_capacity_mw": 1445,
+      "total_storage_mwh": 400,
+      "num_projects": 4,
+      "by_stage": {
+        "operating": 2,
+        "development": 1,
+        "construction": 1
+      },
+      "by_state": {
+        "NSW": 4
+      },
+      "projects": [
+        {
+          "name": "New England Solar Farm",
+          "project_id": "new-england-solar-farm",
+          "developer": "ACEN Australia (formerly UPC/AC Renewables)",
+          "technology": "solar",
+          "capacity_mw": 720,
+          "state": "NSW",
+          "status": "operating",
+          "stage": "operating",
+          "construction_start": "2019-01-01",
+          "cod_current": "2028-10-31",
+          "dev_status": "construction",
+          "annotations": []
+        },
+        {
+          "name": "Stubbo Solar Farm",
+          "project_id": "stubbo-solar-farm",
+          "developer": "ACEN AUSTRALIA",
+          "technology": "solar",
+          "capacity_mw": 400,
+          "state": "NSW",
+          "status": "operating",
+          "stage": "operating",
+          "cod_current": "2024-12-18",
+          "dev_status": "operating",
+          "annotations": []
+        },
+        {
+          "name": "Coppabella Wind Farm",
+          "project_id": "coppabella-wind-farm",
+          "developer": "Coppabella Wind Farm Pty Ltd",
+          "technology": "wind",
+          "capacity_mw": 275,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2027-09",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Limondale BESS",
+          "project_id": "limondale-bess",
+          "developer": "RWE Renewables Australia",
+          "technology": "bess",
+          "capacity_mw": 50,
+          "storage_mwh": 400,
+          "state": "NSW",
+          "status": "construction",
+          "stage": "construction",
+          "construction_start": "2024-10-01",
+          "cod_current": "2026-03-07",
+          "dev_status": "construction",
+          "annotations": [],
+          "developer_grade": "B"
+        }
+      ]
+    },
+    {
+      "id": "ltesa-round-2",
+      "scheme": "LTESA",
+      "round": "Round 2 \u2014 Firming",
+      "type": "firming",
+      "announced_date": "2023-11-22",
+      "months_since_announced": 30,
+      "total_capacity_mw": 575,
+      "total_storage_mwh": 1790,
+      "num_projects": 3,
+      "by_stage": {
+        "commissioning": 1,
+        "unknown": 1,
+        "operating": 1
+      },
+      "by_state": {
+        "NSW": 3
+      },
+      "projects": [
+        {
+          "name": "Orana BESS",
+          "project_id": "orana-bess",
+          "developer": "Akaysha Energy (BlackRock)",
+          "technology": "bess",
+          "capacity_mw": 415,
+          "storage_mwh": 1660,
+          "state": "NSW",
+          "status": "commissioning",
+          "stage": "commissioning",
+          "construction_start": "2024-07-01",
+          "cod_current": "2026-06-30",
+          "dev_status": "construction",
+          "annotations": [],
+          "developer_grade": "A"
+        },
+        {
+          "name": "Enel X VPP Portfolio",
+          "developer": "Enel X Australia",
+          "technology": "vpp",
+          "capacity_mw": 95,
+          "state": "NSW",
+          "status": "unknown",
+          "stage": "unknown",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Smithfield BESS",
+          "project_id": "smithfield-bess",
+          "developer": "Iberdrola",
+          "technology": "bess",
+          "capacity_mw": 65,
+          "storage_mwh": 130,
+          "state": "NSW",
+          "status": "operating",
+          "stage": "operating",
+          "cod_current": "2025-11-19",
+          "dev_status": "operating",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "ltesa-round-3",
+      "scheme": "LTESA",
+      "round": "Round 3 \u2014 Generation + LDS",
+      "type": "mixed",
+      "announced_date": "2023-12-19",
+      "months_since_announced": 29,
+      "total_capacity_mw": 1274,
+      "total_storage_mwh": 4192,
+      "num_projects": 5,
+      "by_stage": {
+        "construction": 1,
+        "operating": 1,
+        "development": 3
+      },
+      "by_state": {
+        "NSW": 5
+      },
+      "projects": [
+        {
+          "name": "Uungula Wind Farm",
+          "project_id": "uungula-wind-farm",
+          "developer": "Squadron Energy (Tattarang)",
+          "technology": "wind",
+          "capacity_mw": 400,
+          "state": "NSW",
+          "status": "construction",
+          "stage": "construction",
+          "fid_date": "2023",
+          "construction_start": "2024-01-01",
+          "cod_current": "2028-02-01",
+          "dev_status": "FID reached",
+          "annotations": [],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Culcairn Solar Farm",
+          "project_id": "culcairn-solar-farm",
+          "developer": "Culcairn Solar Farm Pty Ltd as trustee for Culcairn Solar Farm Trust",
+          "technology": "solar",
+          "capacity_mw": 350,
+          "state": "NSW",
+          "status": "operating",
+          "stage": "operating",
+          "cod_current": "2025-09-29",
+          "dev_status": "operating",
+          "annotations": []
+        },
+        {
+          "name": "Richmond Valley BESS",
+          "project_id": "richmond-valley-bess",
+          "developer": "ARK ENERGY CORPORATION PTY LTD",
+          "technology": "bess",
+          "capacity_mw": 275,
+          "storage_mwh": 2200,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2027-12-31",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "execution risk",
+              "reason": "Developer execution grade: F",
+              "severity": "high"
+            }
+          ],
+          "developer_grade": "F"
+        },
+        {
+          "name": "Silver City Energy Storage Centre",
+          "project_id": "silver-city-energy-storage",
+          "developer": "A-CAES NSW PTY LTD",
+          "technology": "bess",
+          "capacity_mw": 200,
+          "storage_mwh": 1600,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2028-12-31",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Goulburn River BESS",
+          "project_id": "goulburn-river-bess",
+          "developer": "Lightsource Development Services Australia Pty Ltd",
+          "technology": "bess",
+          "capacity_mw": 49,
+          "storage_mwh": 392,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2029-08-01",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        }
+      ]
+    },
+    {
+      "id": "ltesa-round-4",
+      "scheme": "LTESA",
+      "round": "Round 4 \u2014 Generation",
+      "type": "generation",
+      "announced_date": "2024-07-01",
+      "months_since_announced": 22,
+      "total_capacity_mw": 317,
+      "total_storage_mwh": 372,
+      "num_projects": 2,
+      "by_stage": {
+        "development": 1,
+        "operating": 1
+      },
+      "by_state": {
+        "NSW": 2
+      },
+      "projects": [
+        {
+          "name": "Maryvale Solar + BESS",
+          "project_id": "maryvale-solar-and-energy-storage-system",
+          "developer": "Maryvale Solar Farm Pty Ltd",
+          "technology": "hybrid",
+          "capacity_mw": 172,
+          "storage_mwh": 372,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2027-02-28",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Flyers Creek Wind Farm",
+          "project_id": "flyers-creek-wind-farm",
+          "developer": "Flyers Creek Wind Farm Pty Ltd",
+          "technology": "wind",
+          "capacity_mw": 145,
+          "state": "NSW",
+          "status": "operating",
+          "stage": "operating",
+          "construction_start": "2022-03",
+          "cod_current": "2023-09-19",
+          "dev_status": "construction",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "ltesa-round-5",
+      "scheme": "LTESA",
+      "round": "Round 5 \u2014 Long Duration Storage",
+      "type": "lds",
+      "announced_date": "2025-02-27",
+      "months_since_announced": 15,
+      "total_capacity_mw": 1025,
+      "total_storage_mwh": 13790,
+      "num_projects": 3,
+      "by_stage": {
+        "development": 3
+      },
+      "by_state": {
+        "NSW": 3
+      },
+      "projects": [
+        {
+          "name": "Phoenix Pumped Hydro",
+          "project_id": "phoenix-pumped-hydro-project",
+          "developer": "ACEN Phoenix Pty Ltd",
+          "technology": "pumped_hydro",
+          "capacity_mw": 800,
+          "storage_mwh": 11990,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Stoney Creek BESS",
+          "project_id": "stoney-creek-bess",
+          "developer": "Stoney Creek BESS Pty Ltd",
+          "technology": "bess",
+          "capacity_mw": 125,
+          "storage_mwh": 1000,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2027-11-30",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Griffith BESS",
+          "project_id": "griffith-bess",
+          "developer": "Eku Energy Projects (Australia) Trust",
+          "technology": "bess",
+          "capacity_mw": 100,
+          "storage_mwh": 800,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2028-12-30",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        }
+      ]
+    },
+    {
+      "id": "ltesa-round-6",
+      "scheme": "LTESA",
+      "round": "Round 6 \u2014 Long Duration Storage",
+      "type": "lds",
+      "announced_date": "2026-02-05",
+      "months_since_announced": 3,
+      "total_capacity_mw": 1171,
+      "total_storage_mwh": 11980,
+      "num_projects": 6,
+      "by_stage": {
+        "development": 6
+      },
+      "by_state": {
+        "NSW": 6
+      },
+      "projects": [
+        {
+          "name": "Great Western Battery",
+          "project_id": "great-western-battery-project",
+          "developer": "Neoen Australia Pty Ltd",
+          "technology": "bess",
+          "capacity_mw": 330,
+          "storage_mwh": 3500,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "cod_current": "2028-12-31",
+          "dev_status": "pre-planning",
+          "annotations": [
+            {
+              "flag": "pre-planning",
+              "reason": "Development stage is early \u2014 not in planning yet",
+              "severity": "high"
+            },
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "environmental pending",
+              "reason": "No EIS lodged and COD > 2027",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Bowmans Creek BESS",
+          "project_id": "bowmans-creek-bess",
+          "developer": "Ark Energy",
+          "technology": "bess",
+          "capacity_mw": 250,
+          "storage_mwh": 2414,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Bannaby BESS",
+          "project_id": "bannaby-bess",
+          "developer": "Penso Power Australia Pty Ltd.",
+          "technology": "bess",
+          "capacity_mw": 233,
+          "storage_mwh": 2676,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Armidale East BESS",
+          "project_id": "armidale-east-bess",
+          "developer": "FRV",
+          "technology": "bess",
+          "capacity_mw": 158,
+          "storage_mwh": 1440,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ],
+          "developer_grade": "B"
+        },
+        {
+          "name": "Ebor BESS",
+          "project_id": "ebor-bess",
+          "developer": "Bridge Energy Pty Ltd",
+          "technology": "bess",
+          "capacity_mw": 100,
+          "storage_mwh": 870,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "dev_status": "grid connection pending",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Kingswood BESS",
+          "project_id": "kingswood-bess",
+          "developer": "Iberdrola Australia Development Pty Ltd.",
+          "technology": "bess",
+          "capacity_mw": 100,
+          "storage_mwh": 1080,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "dev_status": "execution risk",
+          "annotations": [
+            {
+              "flag": "grid connection pending",
+              "reason": "No connection application on record",
+              "severity": "medium"
+            },
+            {
+              "flag": "execution risk",
+              "reason": "Developer execution grade: F",
+              "severity": "high"
+            }
+          ],
+          "developer_grade": "F"
+        }
+      ]
+    },
+    {
+      "id": "cis-tender-5-wem-gen",
+      "scheme": "CIS",
+      "round": "Tender 5 \u2014 WEM Generation",
+      "type": "generation",
+      "announced_date": "2026-05-02",
+      "months_since_announced": 0,
+      "total_capacity_mw": 1886,
+      "total_storage_mwh": 2100,
+      "num_projects": 7,
+      "by_stage": {
+        "development": 7
+      },
+      "by_state": {
+        "WA": 7
+      },
+      "projects": [
+        {
+          "name": "Kondinin Wind Farm",
+          "project_id": null,
+          "developer": "Shell Energy / Foresight",
+          "technology": "wind",
+          "capacity_mw": 130,
+          "storage_mwh": null,
+          "state": "WA",
+          "status": "development",
+          "stage": "development",
+          "fid_date": null,
+          "construction_start": null,
+          "cod_current": null,
+          "dev_status": "pre-planning",
+          "annotations": []
+        },
+        {
+          "name": "Tathra Wind Farm",
+          "project_id": null,
+          "developer": "SynergyRED",
+          "technology": "wind",
+          "capacity_mw": 240,
+          "storage_mwh": null,
+          "state": "WA",
+          "status": "development",
+          "stage": "development",
+          "fid_date": null,
+          "construction_start": null,
+          "cod_current": null,
+          "dev_status": "pre-planning",
+          "annotations": []
+        },
+        {
+          "name": "Waddi Wind Farm",
+          "project_id": null,
+          "developer": "Tilt Renewables",
+          "technology": "wind",
+          "capacity_mw": 108,
+          "storage_mwh": null,
+          "state": "WA",
+          "status": "development",
+          "stage": "development",
+          "fid_date": null,
+          "construction_start": null,
+          "cod_current": null,
+          "dev_status": "pre-planning",
+          "annotations": []
+        },
+        {
+          "name": "Parron Maam Marang Wind Farm",
+          "project_id": null,
+          "developer": "Zephyr Energy",
+          "technology": "wind",
+          "capacity_mw": 470,
+          "storage_mwh": null,
+          "state": "WA",
+          "status": "development",
+          "stage": "development",
+          "fid_date": null,
+          "construction_start": null,
+          "cod_current": null,
+          "dev_status": "pre-planning",
+          "annotations": []
+        },
+        {
+          "name": "Yathro Wind Farm",
+          "project_id": null,
+          "developer": "Neoen",
+          "technology": "wind",
+          "capacity_mw": 420,
+          "storage_mwh": null,
+          "state": "WA",
+          "status": "development",
+          "stage": "development",
+          "fid_date": null,
+          "construction_start": null,
+          "cod_current": null,
+          "dev_status": "pre-planning",
+          "annotations": []
+        },
+        {
+          "name": "Narrogin Wind Farm",
+          "project_id": null,
+          "developer": "Undisclosed",
+          "technology": "wind",
+          "capacity_mw": 168,
+          "storage_mwh": null,
+          "state": "WA",
+          "status": "development",
+          "stage": "development",
+          "fid_date": null,
+          "construction_start": null,
+          "cod_current": null,
+          "dev_status": "pre-planning",
+          "annotations": []
+        },
+        {
+          "name": "Killawarra Hybrid Project",
+          "project_id": null,
+          "developer": "Trina Solar",
+          "technology": "hybrid",
+          "capacity_mw": 350,
+          "storage_mwh": 2100,
+          "state": "WA",
+          "status": "development",
+          "stage": "development",
+          "fid_date": null,
+          "construction_start": null,
+          "cod_current": null,
+          "dev_status": "pre-planning",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "cis-tender-6-wem-disp",
+      "scheme": "CIS",
+      "round": "Tender 6 \u2014 WEM Dispatchable",
+      "type": "dispatchable",
+      "announced_date": "2026-05-02",
+      "months_since_announced": 0,
+      "total_capacity_mw": 482,
+      "total_storage_mwh": 3683,
+      "num_projects": 3,
+      "by_stage": {
+        "development": 3
+      },
+      "by_state": {
+        "WA": 3
+      },
+      "projects": [
+        {
+          "name": "Collie Battery and Solar Hybrid Project",
+          "project_id": null,
+          "developer": "Enpowered / Plenary Group",
+          "technology": "hybrid",
+          "capacity_mw": 200,
+          "storage_mwh": 1518,
+          "state": "WA",
+          "status": "development",
+          "stage": "development",
+          "fid_date": null,
+          "construction_start": null,
+          "cod_current": null,
+          "dev_status": "pre-planning",
+          "annotations": []
+        },
+        {
+          "name": "Yathroo Battery",
+          "project_id": null,
+          "developer": "Neoen",
+          "technology": "bess",
+          "capacity_mw": 200,
+          "storage_mwh": 1600,
+          "state": "WA",
+          "status": "development",
+          "stage": "development",
+          "fid_date": null,
+          "construction_start": null,
+          "cod_current": null,
+          "dev_status": "pre-planning",
+          "annotations": []
+        },
+        {
+          "name": "Waroona Renewable Energy Project Stage 1",
+          "project_id": null,
+          "developer": "Frontier Energy",
+          "technology": "hybrid",
+          "capacity_mw": 82,
+          "storage_mwh": 565,
+          "state": "WA",
+          "status": "development",
+          "stage": "development",
+          "fid_date": null,
+          "construction_start": null,
+          "cod_current": null,
+          "dev_status": "pre-planning",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "ltesa-round-7",
+      "scheme": "LTESA",
+      "round": "Round 7 — Firming Supply & Demand Response",
+      "type": "firming",
+      "announced_date": "2026-05-15",
+      "months_since_announced": 0,
+      "total_capacity_mw": 532,
+      "total_storage_mwh": 2000,
+      "num_projects": 2,
+      "by_stage": {
+        "construction": 1,
+        "development": 1
+      },
+      "by_state": {
+        "NSW": 2
+      },
+      "projects": [
+        {
+          "name": "Tomago Battery",
+          "project_id": "tomago-battery",
+          "developer": "AGL Energy",
+          "technology": "bess",
+          "capacity_mw": 500,
+          "storage_mwh": 2000,
+          "state": "NSW",
+          "status": "construction",
+          "stage": "construction",
+          "fid_date": "2025-07-01",
+          "construction_start": "2025-12-08",
+          "cod_current": "2027-11-30",
+          "dev_status": "in construction",
+          "annotations": [
+            {
+              "flag": "fluence epc signed",
+              "reason": "EPC contract with Fluence; 500 MW / 2,000 MWh Gridstack system",
+              "severity": "low"
+            }
+          ]
+        },
+        {
+          "name": "Sydney / Newcastle VPP",
+          "project_id": null,
+          "developer": "Enel X Australia",
+          "technology": "vpp",
+          "capacity_mw": 32,
+          "storage_mwh": null,
+          "state": "NSW",
+          "status": "development",
+          "stage": "development",
+          "fid_date": null,
+          "construction_start": null,
+          "cod_current": "2027-11-30",
+          "dev_status": "vpp aggregation — business customer flexible demand",
+          "annotations": []
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_projects": 106,
+    "total_mw": 28826,
+    "by_stage": {
+      "commissioning": {
+        "count": 6,
+        "mw": 1810
+      },
+      "operating": {
+        "count": 7,
+        "mw": 1961
+      },
+      "unknown": {
+        "count": 12,
+        "mw": 1811
+      },
+      "construction": {
+        "count": 9,
+        "mw": 2621
+      },
+      "development": {
+        "count": 72,
+        "mw": 20623
+      }
+    }
+  },
+  "exported_at": "2026-05-15T00:00:00+00:00"
+}

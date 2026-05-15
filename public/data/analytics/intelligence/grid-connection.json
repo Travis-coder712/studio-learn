@@ -1,0 +1,145 @@
+{
+  "rez_summaries": [
+    {
+      "rez": "nsw-central-west-orana",
+      "total_mw": 9546.0,
+      "operating_mw": 0,
+      "pipeline_mw": 9546.0,
+      "project_count": 15,
+      "congestion_score": 100,
+      "congestion_level": "high",
+      "technologies": {
+        "bess": {
+          "commissioning": {
+            "count": 1,
+            "mw": 415.0
+          },
+          "construction": {
+            "count": 2,
+            "mw": 808.0
+          },
+          "development": {
+            "count": 3,
+            "mw": 1700.0
+          }
+        },
+        "hybrid": {
+          "development": {
+            "count": 1,
+            "mw": 500.0
+          }
+        },
+        "solar": {
+          "development": {
+            "count": 4,
+            "mw": 2750.0
+          }
+        },
+        "wind": {
+          "construction": {
+            "count": 1,
+            "mw": 414.0
+          },
+          "development": {
+            "count": 3,
+            "mw": 2959.0
+          }
+        }
+      },
+      "connection_status": {}
+    },
+    {
+      "rez": "nsw-south-west",
+      "total_mw": 6155.0,
+      "operating_mw": 0,
+      "pipeline_mw": 6155.0,
+      "project_count": 8,
+      "congestion_score": 86,
+      "congestion_level": "high",
+      "technologies": {
+        "bess": {
+          "development": {
+            "count": 1,
+            "mw": 500.0
+          }
+        },
+        "hybrid": {
+          "development": {
+            "count": 1,
+            "mw": 1007.0
+          }
+        },
+        "solar": {
+          "development": {
+            "count": 2,
+            "mw": 1300.0
+          }
+        },
+        "wind": {
+          "development": {
+            "count": 4,
+            "mw": 3348.0
+          }
+        }
+      },
+      "connection_status": {
+        "Pre-application": {
+          "count": 1,
+          "mw": 1000.0
+        }
+      }
+    },
+    {
+      "rez": "nsw-new-england",
+      "total_mw": 920.0,
+      "operating_mw": 720.0,
+      "pipeline_mw": 200.0,
+      "project_count": 2,
+      "congestion_score": 9.2,
+      "congestion_level": "low",
+      "technologies": {
+        "bess": {
+          "construction": {
+            "count": 1,
+            "mw": 200.0
+          }
+        },
+        "hybrid": {
+          "operating": {
+            "count": 1,
+            "mw": 720.0
+          }
+        }
+      },
+      "connection_status": {}
+    }
+  ],
+  "state_summary": {
+    "NSW": {
+      "rez_count": 3,
+      "total_mw": 16621.0,
+      "pipeline_mw": 15901.0,
+      "rezs": [
+        "nsw-central-west-orana",
+        "nsw-south-west",
+        "nsw-new-england"
+      ]
+    }
+  },
+  "connection_status_overall": {
+    "Connected": {
+      "count": 3,
+      "mw": 1344.0
+    },
+    "In progress": {
+      "count": 2,
+      "mw": 2310.0
+    },
+    "Pre-application": {
+      "count": 2,
+      "mw": 1560.0
+    }
+  },
+  "total_rez_zones": 3,
+  "exported_at": "2026-05-10T17:42:59.822340"
+}

@@ -1,0 +1,99 @@
+{
+  "project_id": "melbourne-renewable-energy-hub-connection-a3",
+  "name": "Melbourne Renewable Energy Hub Connection A3",
+  "technology": "bess",
+  "capacity_mw": 200.0,
+  "state": "VIC",
+  "data_source": "openelectricity_api",
+  "monthly": [
+    {
+      "year": 2025,
+      "month": 10,
+      "energy_discharged_mwh": 421.0,
+      "energy_charged_mwh": 325.6,
+      "avg_charge_price": 7.9,
+      "avg_discharge_price": 5.19,
+      "utilisation_pct": 0.3,
+      "cycles": 0.5,
+      "revenue_aud": 8353.0
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "energy_discharged_mwh": 5341.6,
+      "energy_charged_mwh": 7390.1,
+      "avg_charge_price": 8.9,
+      "avg_discharge_price": 65.68,
+      "utilisation_pct": 3.7,
+      "cycles": 6.7,
+      "revenue_aud": 659442.0
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "energy_discharged_mwh": 22132.4,
+      "energy_charged_mwh": 24287.0,
+      "avg_charge_price": 15.27,
+      "avg_discharge_price": 77.91,
+      "utilisation_pct": 14.9,
+      "cycles": 27.6,
+      "revenue_aud": 3096925.0
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "energy_discharged_mwh": 21378.6,
+      "energy_charged_mwh": 24214.5,
+      "avg_charge_price": 3.06,
+      "avg_discharge_price": 101.93,
+      "utilisation_pct": 14.4,
+      "cycles": 26.7,
+      "revenue_aud": 4411726.0
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "energy_discharged_mwh": 18060.3,
+      "energy_charged_mwh": 19877.1,
+      "avg_charge_price": 8.36,
+      "avg_discharge_price": 81.17,
+      "utilisation_pct": 13.4,
+      "cycles": 22.6,
+      "revenue_aud": 3088289.0
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "energy_discharged_mwh": 21019.7,
+      "energy_charged_mwh": 23920.3,
+      "avg_charge_price": 2.16,
+      "avg_discharge_price": 73.61,
+      "utilisation_pct": 14.1,
+      "cycles": 26.2,
+      "revenue_aud": 3141732.0
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "energy_discharged_mwh": 22035.4,
+      "energy_charged_mwh": 24306.4,
+      "avg_charge_price": 0.69,
+      "avg_discharge_price": 72.33,
+      "utilisation_pct": 15.3,
+      "cycles": 27.5,
+      "revenue_aud": 3167299.0
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "energy_discharged_mwh": 4739.0,
+      "energy_charged_mwh": 5206.2,
+      "avg_charge_price": 8.43,
+      "avg_discharge_price": 60.0,
+      "utilisation_pct": 3.2,
+      "cycles": 5.9,
+      "revenue_aud": 610869.0
+    }
+  ],
+  "storage_mwh": 800.8
+}

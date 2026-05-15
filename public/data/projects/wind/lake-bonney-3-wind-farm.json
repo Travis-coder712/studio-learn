@@ -1,0 +1,78 @@
+{
+  "id": "lake-bonney-3-wind-farm",
+  "name": "Lake Bonney 3 Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 39.0,
+  "state": "SA",
+  "current_developer": "Lake Bonney Wind Power Pty Ltd",
+  "current_operator": "Iberdrola Australia",
+  "cod_current": "2010-07-02",
+  "cod_original": "2010-07-02",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 24.1,
+  "notable": "39 MW \u2014 Stage 3 of the Lake Bonney Wind Farm near Millicent, SA. Vestas V90-3.0 MW turbines. Final stage of the ~278 MW Lake Bonney complex. Infigen Energy / Iberdrola.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1110",
+  "confidence_score": "49",
+  "first_seen": "2010-07-02",
+  "coordinates": {
+    "lat": -37.760504,
+    "lng": 140.405541
+  },
+  "timeline": [
+    {
+      "date": "2009",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Third and final stage of Lake Bonney complex",
+      "sources": []
+    },
+    {
+      "date": "2010-07-02",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2010-07-02",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Vestas",
+      "model": "V90-3.0 MW",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

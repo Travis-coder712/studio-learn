@@ -1,0 +1,172 @@
+{
+  "id": "stockyard-hill-wind-farm",
+  "name": "Stockyard Hill Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 530.0,
+  "state": "VIC",
+  "current_developer": "Goldwind Australia",
+  "current_operator": "Goldwind Australia",
+  "cod_current": "2021-07-07",
+  "cod_original": "2021-07-07",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": true,
+  "has_harmonic_filter": true,
+  "performance_score": 72.2,
+  "notable": "Largest wind farm in southern hemisphere at commissioning (2021). 149 turbines, Goldwind GW140-3.57S. 4x STATCOM units + 5x harmonic filters.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1187",
+  "confidence_score": "75",
+  "development_stage": "epbc_approved",
+  "first_seen": "2009",
+  "coordinates": {
+    "lat": -37.53568,
+    "lng": 143.252548
+  },
+  "timeline": [
+    {
+      "date": "2009",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2009/4719",
+      "detail": "Stockyard Hill Wind Farm \u2014 Controlled Action",
+      "sources": []
+    },
+    {
+      "date": "2010-01-01",
+      "date_precision": "year",
+      "event_type": "conceived",
+      "title": "Project originally conceived",
+      "sources": []
+    },
+    {
+      "date": "2010-06",
+      "date_precision": "month",
+      "event_type": "planning_approved",
+      "title": "Victorian planning permit granted",
+      "detail": "Minister for Planning approved the project for up to 149 turbines",
+      "sources": []
+    },
+    {
+      "date": "2017-12",
+      "date_precision": "month",
+      "event_type": "ownership_change",
+      "title": "Origin Energy acquires project",
+      "detail": "Origin Energy purchased the development rights from WestWind Energy",
+      "sources": []
+    },
+    {
+      "date": "2018-01-01",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "sources": []
+    },
+    {
+      "date": "2018-06",
+      "date_precision": "month",
+      "event_type": "fid",
+      "title": "Financial close \u2014 A$800M+",
+      "detail": "Origin Energy reached financial close with Goldwind as turbine supplier",
+      "sources": []
+    },
+    {
+      "date": "2021-07-07",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2021-07-08",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [
+    {
+      "period": "2018-present",
+      "owner": "Goldwind Australia",
+      "role": "Developer & Operator"
+    }
+  ],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Goldwind",
+      "model": "GW140-3.57S",
+      "grid_forming": false
+    },
+    {
+      "role": "bop",
+      "supplier": "SNC-Lavalin / WBHO JV",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "Origin Energy",
+      "type": "PPA",
+      "capacity_mw": 530.0,
+      "source_url": "https://reneweconomy.com.au/stockyard-hill-wind-farm/"
+    },
+    {
+      "party": "Shell Energy",
+      "type": "PPA",
+      "source_url": "https://reneweconomy.com.au/stockyard-hill-wind-farm/"
+    },
+    {
+      "party": "Origin Energy",
+      "type": "PPA",
+      "capacity_mw": 530.0
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Stockyard Hill Wind Farm Environment Effects Statement (VIC EES)",
+    "document_url": "https://www.planning.vic.gov.au/schemes-and-amendments/statewide-activities/environment-effects-statements/current-and-completed-ees/stockyard-hill-wind-energy-facility",
+    "document_year": 2016,
+    "turbine_model": "Goldwind GW140-3.57S",
+    "turbine_count": 149,
+    "turbine_rated_power_mw": 3.57,
+    "hub_height_m": 100.0,
+    "hub_height_note": "Standard hub height for GW140 on Western VIC plateau; terrain allows lower hub than coastal sites",
+    "rotor_diameter_m": 140.0,
+    "wind_speed_mean_ms": 8.5,
+    "wind_speed_height_m": 100.0,
+    "wind_speed_period": "Mean annual wind speed at hub height; Skipton/Beaufort plateau, Western Victoria \u2014 from met mast and WRF reanalysis",
+    "assumed_capacity_factor_pct": 39.2,
+    "assumed_annual_energy_gwh": 1813.0,
+    "energy_yield_method": "WAsP modelling; P50 net annual energy corrected for wake losses, electrical losses and availability",
+    "noise_limit_dba": 40.0,
+    "minimum_setback_m": 2000,
+    "connection_voltage_kv": 220.0,
+    "network_service_provider": "AusNet Services",
+    "connection_substation_name": "Beaufort 220 kV substation (AusNet Services), Western Victoria",
+    "connection_substation_capacity_mva": 750.0,
+    "connection_distance_km": 12.0,
+    "connection_distance_note": "~12 km of new 220 kV transmission connection to AusNet Services' Beaufort substation, Western Victoria.",
+    "connection_augmentation": "New 220 kV connection required. AusNet upgraded Beaufort substation and installed new transformer bank for 530 MW export capacity. Largest single wind farm connection in Victoria at time of commissioning.",
+    "notes": "530 MW (149 \u00d7 3.57 MW Goldwind GW140-3.57S), Western Victoria near Skipton. Original developer: Origin Energy (sold to Goldwind Australia). BOP: SNC-Lavalin / WBHO JV. VIC EES approved 2017. Now operating (2022). Was Australia's largest wind farm at commissioning. Goldwind GW140-3.57S uses direct-drive permanent magnet generator \u2014 no gearbox. 40 dBA and 2 km setback per VIC Wind Energy Facilities Incorporated Document."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

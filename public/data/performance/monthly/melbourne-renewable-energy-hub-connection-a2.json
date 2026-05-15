@@ -1,0 +1,77 @@
+{
+  "project_id": "melbourne-renewable-energy-hub-connection-a2",
+  "name": "Melbourne Renewable Energy Hub Connection A2",
+  "technology": "bess",
+  "capacity_mw": 200.0,
+  "state": "VIC",
+  "data_source": "openelectricity_api",
+  "monthly": [
+    {
+      "year": 2025,
+      "month": 12,
+      "energy_discharged_mwh": 2175.6,
+      "energy_charged_mwh": 2493.4,
+      "avg_charge_price": 77.01,
+      "avg_discharge_price": 25.07,
+      "utilisation_pct": 1.5,
+      "cycles": 5.4,
+      "revenue_aud": -82934.0
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "energy_discharged_mwh": 8204.4,
+      "energy_charged_mwh": 9709.7,
+      "avg_charge_price": 1.73,
+      "avg_discharge_price": 129.48,
+      "utilisation_pct": 5.5,
+      "cycles": 20.5,
+      "revenue_aud": 2106356.0
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "energy_discharged_mwh": 8075.0,
+      "energy_charged_mwh": 9351.6,
+      "avg_charge_price": 4.44,
+      "avg_discharge_price": 90.52,
+      "utilisation_pct": 6.0,
+      "cycles": 20.2,
+      "revenue_aud": 1501579.0
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "energy_discharged_mwh": 9537.4,
+      "energy_charged_mwh": 11151.2,
+      "avg_charge_price": 3.02,
+      "avg_discharge_price": 83.73,
+      "utilisation_pct": 6.4,
+      "cycles": 23.9,
+      "revenue_aud": 1629539.0
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "energy_discharged_mwh": 10557.7,
+      "energy_charged_mwh": 12118.4,
+      "avg_charge_price": 0.75,
+      "avg_discharge_price": 83.28,
+      "utilisation_pct": 7.3,
+      "cycles": 26.4,
+      "revenue_aud": 1766522.0
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "energy_discharged_mwh": 2546.7,
+      "energy_charged_mwh": 3025.7,
+      "avg_charge_price": 16.43,
+      "avg_discharge_price": 63.02,
+      "utilisation_pct": 1.7,
+      "cycles": 6.4,
+      "revenue_aud": 370360.0
+    }
+  ],
+  "storage_mwh": 399.84
+}

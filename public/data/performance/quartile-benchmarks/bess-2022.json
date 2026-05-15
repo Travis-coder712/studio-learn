@@ -1,0 +1,16 @@
+{
+  "year": 2022,
+  "technology": "bess",
+  "benchmarks": {
+    "capacity_factor": {
+      "q1": 4.43,
+      "median": 5.41,
+      "q3": 10.01
+    },
+    "revenue_per_mw": {
+      "q1": 69934.0,
+      "median": 72805.0,
+      "q3": 153605.0
+    }
+  }
+}

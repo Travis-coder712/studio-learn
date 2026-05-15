@@ -1,0 +1,81 @@
+{
+  "id": "nevertire-solar-farm",
+  "name": "Nevertire Solar Farm",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 105.0,
+  "state": "NSW",
+  "current_developer": "Nevertire Solar Pty Ltd as Trustee for the Nevertire Solar Trust",
+  "cod_current": "2019-12-02",
+  "cod_original": "2019-12-02",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 54.4,
+  "notable": "105 MW solar farm near Nevertire in central western NSW. Developed by Canadian Solar / Recurrent Energy.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1414",
+  "confidence_score": "46",
+  "first_seen": "2019-12-02",
+  "coordinates": {
+    "lat": -31.831044,
+    "lng": 147.705178
+  },
+  "timeline": [
+    {
+      "date": "2019-12-02",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2019-12-03",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "solar_oem",
+      "supplier": "Suntech",
+      "grid_forming": false,
+      "source_url": "https://suntech-power.com.au/project/nevertire-solar-power-farm/"
+    },
+    {
+      "role": "inverter",
+      "supplier": "SMA",
+      "grid_forming": false,
+      "source_url": "https://suntech-power.com.au/project/nevertire-solar-power-farm/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Biosar",
+      "grid_forming": false,
+      "source_url": "https://suntech-power.com.au/project/nevertire-solar-power-farm/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

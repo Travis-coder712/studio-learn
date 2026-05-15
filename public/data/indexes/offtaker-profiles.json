@@ -1,0 +1,729 @@
+{
+  "offtakers": [
+    {
+      "slug": "snowy-hydro",
+      "name": "Snowy Hydro",
+      "project_count": 9,
+      "total_capacity_mw": 3501.0,
+      "types": [
+        "PPA"
+      ],
+      "by_technology": {
+        "hybrid": 1,
+        "solar": 2,
+        "wind": 7
+      },
+      "by_status": {
+        "operating": 8,
+        "commissioning": 1,
+        "construction": 1
+      },
+      "states": [
+        "NSW",
+        "SA",
+        "VIC"
+      ],
+      "project_ids": [
+        "avonlie-solar-farm",
+        "bango-973-wind-farm",
+        "dundonnell-wind-farm",
+        "golden-plains-wind-farm-east",
+        "lincoln-gap-wind-farm-stage-1",
+        "murra-warra-wind-farm-stage-2",
+        "new-england-solar-farm",
+        "stubbo-solar-farm",
+        "uungula-wind-farm"
+      ]
+    },
+    {
+      "slug": "shell-energy",
+      "name": "Shell Energy",
+      "project_count": 4,
+      "total_capacity_mw": 3433.1,
+      "types": [
+        "PPA"
+      ],
+      "by_technology": {
+        "wind": 5
+      },
+      "by_status": {
+        "operating": 2,
+        "construction": 3
+      },
+      "states": [
+        "QLD",
+        "VIC"
+      ],
+      "project_ids": [
+        "berrybank-wind-farm",
+        "golden-plains-wind",
+        "stockyard-hill-wind-farm",
+        "wambo-wind-farm"
+      ]
+    },
+    {
+      "slug": "agl-energy",
+      "name": "AGL Energy",
+      "project_count": 5,
+      "total_capacity_mw": 2816.0,
+      "types": [
+        "PPA"
+      ],
+      "by_technology": {
+        "wind": 8
+      },
+      "by_status": {
+        "operating": 7,
+        "development": 1
+      },
+      "states": [
+        "NSW",
+        "QLD",
+        "SA",
+        "VIC"
+      ],
+      "project_ids": [
+        "coopers-gap-wind-farm",
+        "macarthur-wind-farm",
+        "palmer-wind-farm",
+        "rye-park-wind-farm",
+        "silverton-wind-farm"
+      ]
+    },
+    {
+      "slug": "stanwell-corporation",
+      "name": "Stanwell Corporation",
+      "project_count": 3,
+      "total_capacity_mw": 2531.0,
+      "types": [
+        "PPA"
+      ],
+      "by_technology": {
+        "wind": 3
+      },
+      "by_status": {
+        "commissioning": 2,
+        "construction": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "clarke-creek-wind-farm",
+        "macintyre-wind-farm",
+        "wambo-wind-farm"
+      ]
+    },
+    {
+      "slug": "cleanco-queensland",
+      "name": "CleanCo Queensland",
+      "project_count": 3,
+      "total_capacity_mw": 2470.6,
+      "types": [
+        "government_ppa"
+      ],
+      "by_technology": {
+        "wind": 3,
+        "bess": 1
+      },
+      "by_status": {
+        "commissioning": 3,
+        "operating": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "dulacca-wind-farm",
+        "macintyre-wind-farm",
+        "western-downs-battery-stage-1-and-2"
+      ]
+    },
+    {
+      "slug": "energyaustralia",
+      "name": "EnergyAustralia",
+      "project_count": 8,
+      "total_capacity_mw": 2466.5,
+      "types": [
+        "PPA"
+      ],
+      "by_technology": {
+        "wind": 4,
+        "solar": 4
+      },
+      "by_status": {
+        "operating": 7,
+        "construction": 1
+      },
+      "states": [
+        "NSW",
+        "SA",
+        "VIC"
+      ],
+      "project_ids": [
+        "culcairn-solar-farm",
+        "golden-plains-wind-farm-west",
+        "gullen-range-wind-farm",
+        "hallett-stage-1-brown-hill",
+        "limondale-solar-farm-1",
+        "moorabool-wind-farm",
+        "walla-walla-solar-farm",
+        "wellington-north-solar-farm-lightsource"
+      ]
+    },
+    {
+      "slug": "origin-energy",
+      "name": "Origin Energy",
+      "project_count": 5,
+      "total_capacity_mw": 2160.0,
+      "types": [
+        "PPA"
+      ],
+      "by_technology": {
+        "wind": 5,
+        "solar": 1
+      },
+      "by_status": {
+        "operating": 6
+      },
+      "states": [
+        "NSW",
+        "SA",
+        "VIC"
+      ],
+      "project_ids": [
+        "collector",
+        "darlington-point-solar-farm",
+        "dundonnell-wind-farm",
+        "snowtown-s2-wind-farm",
+        "stockyard-hill-wind-farm"
+      ]
+    },
+    {
+      "slug": "cs-energy",
+      "name": "CS Energy",
+      "project_count": 4,
+      "total_capacity_mw": 2048.0,
+      "types": [
+        "PPA"
+      ],
+      "by_technology": {
+        "solar": 1,
+        "wind": 3
+      },
+      "by_status": {
+        "operating": 1,
+        "commissioning": 1,
+        "construction": 2
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "boulder-creek-wind-farm",
+        "clarke-creek-wind-farm",
+        "lotus-creek-wind-farm",
+        "western-downs-green-power-hub-pl"
+      ]
+    },
+    {
+      "slug": "act-government",
+      "name": "ACT Government",
+      "project_count": 7,
+      "total_capacity_mw": 1119.0,
+      "types": [
+        "government_ppa"
+      ],
+      "by_technology": {
+        "wind": 7
+      },
+      "by_status": {
+        "operating": 7
+      },
+      "states": [
+        "NSW",
+        "SA",
+        "VIC"
+      ],
+      "project_ids": [
+        "ararat-wind-farm",
+        "crookwell-2-wind-farm",
+        "goyder-south-wind-farm-1a",
+        "hornsdale-wind-farm-stage-1",
+        "hornsdale-wind-farm-stage-2",
+        "hornsdale-wind-farm-stage-3",
+        "sapphire-wind-farm"
+      ]
+    },
+    {
+      "slug": "ark-energy-telstra",
+      "name": "Ark Energy/Telstra",
+      "project_count": 1,
+      "total_capacity_mw": 890.0,
+      "types": [
+        "corporate_ppa"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "commissioning": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "macintyre-wind-farm"
+      ]
+    },
+    {
+      "slug": "nsw-government-eii",
+      "name": "NSW Government (EII)",
+      "project_count": 1,
+      "total_capacity_mw": 850.0,
+      "types": [
+        "government_ppa"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "waratah-super-battery"
+      ]
+    },
+    {
+      "slug": "equinix",
+      "name": "Equinix",
+      "project_count": 1,
+      "total_capacity_mw": 733.0,
+      "types": [
+        "corporate_ppa"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "commissioning": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "golden-plains-wind-farm-east"
+      ]
+    },
+    {
+      "slug": "bhp",
+      "name": "BHP",
+      "project_count": 3,
+      "total_capacity_mw": 730.5,
+      "types": [
+        "corporate_ppa"
+      ],
+      "by_technology": {
+        "solar": 1,
+        "wind": 3
+      },
+      "by_status": {
+        "operating": 4
+      },
+      "states": [
+        "SA"
+      ],
+      "project_ids": [
+        "goyder-south-wind-farm-1b",
+        "port-augusta-renewable-energy-park-solar",
+        "port-augusta-renewable-energy-park-wind"
+      ]
+    },
+    {
+      "slug": "telstra",
+      "name": "Telstra",
+      "project_count": 2,
+      "total_capacity_mw": 660.4,
+      "types": [
+        "corporate_ppa"
+      ],
+      "by_technology": {
+        "wind": 3
+      },
+      "by_status": {
+        "operating": 3
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "murra-warra-wind-farm-stage-1",
+        "murra-warra-wind-farm-stage-2"
+      ]
+    },
+    {
+      "slug": "actewagl",
+      "name": "ActewAGL",
+      "project_count": 2,
+      "total_capacity_mw": 412.5,
+      "types": [
+        "PPA"
+      ],
+      "by_technology": {
+        "wind": 2
+      },
+      "by_status": {
+        "operating": 2
+      },
+      "states": [
+        "SA"
+      ],
+      "project_ids": [
+        "goyder-south-wind-farm-1a",
+        "goyder-south-wind-farm-1b"
+      ]
+    },
+    {
+      "slug": "victorian-government",
+      "name": "Victorian Government",
+      "project_count": 1,
+      "total_capacity_mw": 336.0,
+      "types": [
+        "government_ppa"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "dundonnell-wind-farm"
+      ]
+    },
+    {
+      "slug": "aldi",
+      "name": "ALDI",
+      "project_count": 1,
+      "total_capacity_mw": 336.0,
+      "types": [
+        "corporate_ppa"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "dundonnell-wind-farm"
+      ]
+    },
+    {
+      "slug": "aemo-system-services",
+      "name": "AEMO (system services)",
+      "project_count": 1,
+      "total_capacity_mw": 300.0,
+      "types": [
+        "tolling"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "victorian-big-battery"
+      ]
+    },
+    {
+      "slug": "woolworths",
+      "name": "Woolworths",
+      "project_count": 2,
+      "total_capacity_mw": 294.8,
+      "types": [
+        "corporate_ppa"
+      ],
+      "by_technology": {
+        "wind": 2
+      },
+      "by_status": {
+        "operating": 2
+      },
+      "states": [
+        "NSW",
+        "SA"
+      ],
+      "project_ids": [
+        "bango-999-wind-farm",
+        "port-augusta-renewable-energy-park-wind"
+      ]
+    },
+    {
+      "slug": "cba-commonwealth-bank",
+      "name": "CBA (Commonwealth Bank)",
+      "project_count": 1,
+      "total_capacity_mw": 270.0,
+      "types": [
+        "corporate_ppa"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "sapphire-wind-farm"
+      ]
+    },
+    {
+      "slug": "sa-government",
+      "name": "SA Government",
+      "project_count": 1,
+      "total_capacity_mw": 250.0,
+      "types": [
+        "government_ppa"
+      ],
+      "by_technology": {
+        "bess": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "SA"
+      ],
+      "project_ids": [
+        "torrens-island-bess"
+      ]
+    },
+    {
+      "slug": "alinta-energy",
+      "name": "Alinta Energy",
+      "project_count": 1,
+      "total_capacity_mw": 218.0,
+      "types": [
+        "PPA"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "ryan-corner-wind-farm"
+      ]
+    },
+    {
+      "slug": "flow-power",
+      "name": "Flow Power",
+      "project_count": 1,
+      "total_capacity_mw": 209.0,
+      "types": [
+        "PPA"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "SA"
+      ],
+      "project_ids": [
+        "goyder-south-wind-farm-1a"
+      ]
+    },
+    {
+      "slug": "nectar-farms",
+      "name": "Nectar Farms",
+      "project_count": 1,
+      "total_capacity_mw": 194.0,
+      "types": [
+        "corporate_ppa"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "bulgana-green-power-hub-wind-farm"
+      ]
+    },
+    {
+      "slug": "zen-energy",
+      "name": "Zen Energy",
+      "project_count": 1,
+      "total_capacity_mw": 192.0,
+      "types": [
+        "PPA"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "waubra"
+      ]
+    },
+    {
+      "slug": "ergon-energy",
+      "name": "Ergon Energy",
+      "project_count": 1,
+      "total_capacity_mw": 180.5,
+      "types": [
+        "PPA"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "mount-emerald"
+      ]
+    },
+    {
+      "slug": "hydro-tasmania",
+      "name": "Hydro Tasmania",
+      "project_count": 1,
+      "total_capacity_mw": 168.0,
+      "types": [
+        "PPA"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "TAS"
+      ],
+      "project_ids": [
+        "musselroe-wind-farm"
+      ]
+    },
+    {
+      "slug": "neoen-portfolio",
+      "name": "Neoen portfolio",
+      "project_count": 1,
+      "total_capacity_mw": 152.0,
+      "types": [
+        "PPA"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "kaban-wind-farm"
+      ]
+    },
+    {
+      "slug": "iberdrola-portfolio",
+      "name": "Iberdrola portfolio",
+      "project_count": 1,
+      "total_capacity_mw": 145.5,
+      "types": [
+        "PPA"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "NSW"
+      ],
+      "project_ids": [
+        "flyers-creek-wind-farm"
+      ]
+    },
+    {
+      "slug": "sun-metals-korea-zinc",
+      "name": "Sun Metals (Korea Zinc)",
+      "project_count": 1,
+      "total_capacity_mw": 121.5,
+      "types": [
+        "corporate_ppa"
+      ],
+      "by_technology": {
+        "solar": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "QLD"
+      ],
+      "project_ids": [
+        "sun-metals-corporation-solar-farm"
+      ]
+    },
+    {
+      "slug": "nab-national-australia-bank",
+      "name": "NAB (National Australia Bank)",
+      "project_count": 1,
+      "total_capacity_mw": 80.0,
+      "types": [
+        "corporate_ppa"
+      ],
+      "by_technology": {
+        "wind": 1
+      },
+      "by_status": {
+        "operating": 1
+      },
+      "states": [
+        "VIC"
+      ],
+      "project_ids": [
+        "crowlands-wind-farm"
+      ]
+    }
+  ],
+  "total": 31
+}

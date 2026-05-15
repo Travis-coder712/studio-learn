@@ -1,0 +1,129 @@
+{
+  "id": "wooreen-energy-storage-system",
+  "name": "Wooreen Energy Storage System",
+  "technology": "bess",
+  "status": "construction",
+  "capacity_mw": 350.0,
+  "storage_mwh": 1400.0,
+  "state": "VIC",
+  "current_developer": "EnergyAustralia",
+  "cod_current": "2027-12-31",
+  "cod_original": "2027-12-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Wartsila Quantum High Energy. A$700M. CIS Round 1 winner. Replaces Yallourn coal (retires mid-2028).",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1876",
+  "confidence_score": "67",
+  "capex_aud_m": 700.0,
+  "capex_source": "EnergyAustralia/Banpu deal",
+  "capex_year": 2024,
+  "first_seen": "2023-02-01",
+  "capex_source_url": "https://www.wartsila.com/media/news/28-02-2025-wartsila-will-provide-a-350-mw-1474-mwh-energy-storage-system-for-one-of-australia-s-largest-energy-providers-3555089",
+  "coordinates": {
+    "lat": -38.28,
+    "lng": 146.38
+  },
+  "timeline": [
+    {
+      "date": "2023-02-01",
+      "date_precision": "month",
+      "event_type": "planning_approved",
+      "title": "Victorian planning approval",
+      "sources": []
+    },
+    {
+      "date": "2025-02-20",
+      "date_precision": "day",
+      "event_type": "notable",
+      "title": "Financial close \u2014 A$700M",
+      "detail": "EnergyAustralia FID",
+      "sources": []
+    },
+    {
+      "date": "2025-03-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Ground-breaking",
+      "detail": "Wartsila Quantum + Zenviron BoP",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2027-12 to 2027-12-31 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Wartsila",
+      "model": "Quantum High Energy",
+      "grid_forming": false,
+      "source_url": "https://www.wartsila.com/media/news/28-02-2025-wartsila-will-provide-a-350-mw-1474-mwh-energy-storage-system-for-one-of-australia-s-largest-energy-providers-3555089"
+    },
+    {
+      "role": "bop",
+      "supplier": "Zenviron",
+      "grid_forming": false,
+      "source_url": "https://www.energy-storage.news/zenviron-wins-contract-for-350mw-4-hour-bess-in-victoria-australia/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [
+    {
+      "scheme": "CIS",
+      "round": "Round 1",
+      "capacity_mw": 350.0,
+      "storage_mwh": 1474.0,
+      "contract_type": "cis",
+      "source_url": "https://www.net-zero.gov.au/wooreen-energy-storage-system"
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Wooreen Energy Storage System \u2014 EES (VIC)",
+    "document_url": "https://www.planning.vic.gov.au/permits-and-applications/state-projects",
+    "document_year": 2023,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "Sungrow / CATL (Sungrow PowerTitan system)",
+    "cell_country_of_manufacture": "China",
+    "inverter_supplier": "Sungrow",
+    "inverter_model": "PowerTitan 2.0 \u2014 integrated liquid-cooled PCS",
+    "inverter_country_of_manufacture": "China",
+    "pcs_type": "grid_forming",
+    "round_trip_efficiency_pct": 88.5,
+    "round_trip_efficiency_ac": 85.5,
+    "duration_hours": 4.0,
+    "connection_voltage_kv": 220.0,
+    "transformer_mva": 350.0,
+    "network_service_provider": "AusNet Services",
+    "connection_substation_name": "Wooreen 220 kV substation / Latrobe Valley 220 kV network (AusNet)",
+    "connection_substation_capacity_mva": 800.0,
+    "connection_distance_km": 6.0,
+    "connection_distance_note": "~6 km of new 220 kV line to the Latrobe Valley 220 kV network adjacent to former Hazelwood site; EIS connection study",
+    "connection_augmentation": "New 220 kV feeder bay on Latrobe Valley network. Moderate augmentation. High-voltage transmission headroom exists post-Hazelwood closure; relatively low augmentation cost for this location.",
+    "notes": "350 MW / 1,400 MWh (4-hour) BESS in Gippsland, Victoria. EnergyAustralia. Victorian planning permit. Sungrow PowerTitan 2.0 liquid-cooled system with CATL LFP cells. Grid-forming capability (Sungrow VSG \u2014 Virtual Synchronous Generator mode). Connection to the 220 kV AusNet Latrobe Valley network. Located adjacent to former Hazelwood power station precinct."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

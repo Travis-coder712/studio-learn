@@ -1,0 +1,129 @@
+{
+  "id": "summerfield-bess",
+  "name": "Summerfield BESS",
+  "technology": "bess",
+  "status": "construction",
+  "capacity_mw": 400.0,
+  "storage_mwh": 800.0,
+  "state": "SA",
+  "current_developer": "Copenhagen Infrastructure Partners (CIP)",
+  "cod_current": "2026-11-20",
+  "cod_original": "2026-11-20",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Staged build: 400 MW total. Main (240 MW) construction, North (160 MW) development.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "2584",
+  "confidence_score": "67",
+  "development_stage": "epbc_submitted",
+  "first_seen": "2023",
+  "coordinates": {
+    "lat": -34.16,
+    "lng": 139.45
+  },
+  "timeline": [
+    {
+      "date": "2023",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2023/09475",
+      "detail": "Summerfield BESS Project \u2014 Completed",
+      "sources": []
+    },
+    {
+      "date": "2024-09-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "FID reached",
+      "sources": []
+    },
+    {
+      "date": "2025-01-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Canadian Solar e-STORAGE turnkey EPC",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2026-11 to 2026-11-20 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Canadian Solar e-STORAGE",
+      "model": "SolBank 3.0",
+      "grid_forming": false,
+      "source_url": "https://solarquarter.com/2025/02/12/canadian-solars-e-storage-to-deliver-240-mw-960-mwh-battery-storage-project-in-south-australia-with-cip/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Summerfield BESS",
+      "capacity_mw": 240.0,
+      "storage_mwh": 480.0,
+      "status": "construction",
+      "grid_forming": false,
+      "notes": "Under construction."
+    },
+    {
+      "stage": 2,
+      "name": "Summerfield North",
+      "capacity_mw": 160.0,
+      "storage_mwh": 320.0,
+      "status": "development",
+      "grid_forming": false,
+      "notes": "Development."
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Summerfield Battery Energy Storage System \u2014 EIS (SA)",
+    "document_url": "https://www.sa.gov.au/topics/planning-and-property/land-use-and-planning/development-assessment/major-developments",
+    "document_year": 2023,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "CATL or BYD (EIS technology envelope)",
+    "cell_country_of_manufacture": "China",
+    "inverter_supplier": "Sungrow / Huawei (EIS technology envelope)",
+    "pcs_type": "grid_forming",
+    "round_trip_efficiency_pct": 88.5,
+    "round_trip_efficiency_ac": 85.5,
+    "duration_hours": 2.22,
+    "connection_voltage_kv": 132.0,
+    "transformer_mva": 240.0,
+    "network_service_provider": "ElectraNet",
+    "connection_substation_name": "Hummocks Hill 132 kV substation (ElectraNet)",
+    "connection_substation_capacity_mva": 320.0,
+    "connection_distance_km": 11.0,
+    "connection_distance_note": "~11 km of new 132 kV line from project to Hummocks Hill substation on ElectraNet SA mid-north 132 kV network; EIS connection study",
+    "connection_augmentation": "New 132 kV feeder bay at Hummocks Hill. SA mid-north 132 kV network constrained; augmentation studies required for multiple wind/BESS projects in this corridor. ElectraNet REZ planning underway.",
+    "notes": "240 MW / 532 MWh (~2.2-hour) BESS in South Australia. Copenhagen Infrastructure Partners (CIP). SA DPTI planning approval. LFP chemistry and grid-forming PCS specified in EIS. Connection to ElectraNet 132 kV network in SA mid-north. CIP's first utility-scale BESS in Australia."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

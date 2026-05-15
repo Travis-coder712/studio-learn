@@ -1,0 +1,60 @@
+{
+  "id": "nine-mile-energy-park-bess",
+  "name": "Nine Mile Energy Park BESS",
+  "technology": "bess",
+  "status": "development",
+  "capacity_mw": 500.0,
+  "storage_mwh": 1500.0,
+  "state": "VIC",
+  "current_developer": "Pacific Green / Green Switch Energy",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "data_confidence": "medium",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "aemo_gen_info_id": "3084",
+  "timeline": [],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    },
+    {
+      "title": "Nine Mile Energy Park project website",
+      "url": "https://ninemile.pacificgreen.com/",
+      "source_tier": 1
+    }
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Stage 1",
+      "capacity_mw": 250.0,
+      "storage_mwh": 500.0,
+      "status": "development",
+      "duration_hours": 2.0,
+      "notes": "Planning permit PA2504144 lodged with Victoria DTP."
+    },
+    {
+      "stage": 2,
+      "name": "Stage 2",
+      "capacity_mw": 250.0,
+      "storage_mwh": 1000.0,
+      "status": "development",
+      "duration_hours": 4.0,
+      "notes": "Planning permit PA2504148 lodged with Victoria DTP."
+    }
+  ]
+}

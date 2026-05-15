@@ -1,0 +1,53 @@
+{
+  "id": "bundaberg-solar-farm",
+  "name": "Bundaberg Solar Farm",
+  "technology": "solar",
+  "status": "construction",
+  "capacity_mw": 78.0,
+  "state": "QLD",
+  "current_developer": "Bundaberg Development Pty Ltd",
+  "cod_current": "2025-12-31",
+  "cod_original": "2025-12-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "78 MW solar farm near Bundaberg, QLD. Part of the Wide Bay renewable energy corridor.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1711",
+  "confidence_score": "43",
+  "first_seen": "2026-03-12",
+  "coordinates": {
+    "lat": -24.87,
+    "lng": 152.35
+  },
+  "timeline": [
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2025-12 to 2025-12-31 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

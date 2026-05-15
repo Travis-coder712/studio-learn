@@ -1,0 +1,62 @@
+{
+  "id": "dartmouth",
+  "name": "Dartmouth",
+  "technology": "pumped_hydro",
+  "status": "operating",
+  "capacity_mw": 185.0,
+  "state": "VIC",
+  "current_developer": "AGL Hydro Partnership",
+  "cod_current": "1980-12-31",
+  "cod_original": "1980-12-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 56.9,
+  "notable": "150 MW underground hydro at Dartmouth Dam, VIC \u2014 Australia's highest dam (180m). Part of the Kiewa Scheme. AGL Energy. Commissioned 1980. Provides critical water storage and peaking generation for the Victorian grid.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1068",
+  "confidence_score": "46",
+  "first_seen": "1980-12-31",
+  "coordinates": {
+    "lat": -36.55529,
+    "lng": 147.519872
+  },
+  "timeline": [
+    {
+      "date": "1980-12-31",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "1998-12-07",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

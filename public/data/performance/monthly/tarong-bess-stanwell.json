@@ -1,0 +1,66 @@
+{
+  "project_id": "tarong-bess-stanwell",
+  "name": "Tarong BESS - Stanwell",
+  "technology": "bess",
+  "capacity_mw": 300.0,
+  "state": "QLD",
+  "data_source": "openelectricity_api",
+  "monthly": [
+    {
+      "year": 2026,
+      "month": 1,
+      "energy_discharged_mwh": 13496.6,
+      "energy_charged_mwh": 16012.3,
+      "avg_charge_price": 14.41,
+      "avg_discharge_price": 105.32,
+      "utilisation_pct": 6.0,
+      "cycles": 22.5,
+      "revenue_aud": 3069693.0
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "energy_discharged_mwh": 13220.0,
+      "energy_charged_mwh": 15447.1,
+      "avg_charge_price": 28.16,
+      "avg_discharge_price": 109.12,
+      "utilisation_pct": 6.6,
+      "cycles": 22.0,
+      "revenue_aud": 3314161.0
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "energy_discharged_mwh": 14738.8,
+      "energy_charged_mwh": 17368.6,
+      "avg_charge_price": 20.74,
+      "avg_discharge_price": 89.58,
+      "utilisation_pct": 6.6,
+      "cycles": 24.6,
+      "revenue_aud": 2995186.0
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "energy_discharged_mwh": 14142.6,
+      "energy_charged_mwh": 16757.7,
+      "avg_charge_price": 8.73,
+      "avg_discharge_price": 87.13,
+      "utilisation_pct": 6.5,
+      "cycles": 23.6,
+      "revenue_aud": 2606334.0
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "energy_discharged_mwh": 4780.8,
+      "energy_charged_mwh": 5596.5,
+      "avg_charge_price": 23.1,
+      "avg_discharge_price": 82.84,
+      "utilisation_pct": 2.1,
+      "cycles": 8.0,
+      "revenue_aud": 919839.0
+    }
+  ],
+  "storage_mwh": 600.0
+}

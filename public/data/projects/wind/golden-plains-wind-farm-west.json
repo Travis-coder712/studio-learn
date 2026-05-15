@@ -1,0 +1,117 @@
+{
+  "id": "golden-plains-wind-farm-west",
+  "name": "Golden Plains Wind Farm West",
+  "technology": "wind",
+  "status": "construction",
+  "capacity_mw": 577.0,
+  "state": "VIC",
+  "current_developer": "TagEnergy / Ingka Group",
+  "cod_current": "2027-03-09",
+  "cod_original": "2027-03-09",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Stage 2, 93x Vestas V162-6.2MW. Brings Golden Plains total to 1,333MW. Financial close reached.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1990",
+  "confidence_score": "59",
+  "first_seen": "2024-06-01",
+  "coordinates": {
+    "lat": -37.9,
+    "lng": 143.7
+  },
+  "timeline": [
+    {
+      "date": "2024-06-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Financial close for Stage 2",
+      "detail": "Vestas EPC contract; EnergyAustralia PPA for 345 MW",
+      "sources": []
+    },
+    {
+      "date": "2024-07-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Stage 2 construction commenced",
+      "detail": "93 turbines / 577 MW",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2027-03 to 2027-03-09 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Vestas",
+      "model": "V162-6.2 MW",
+      "quantity": 93,
+      "grid_forming": false,
+      "source_url": "https://www.vestas.com/en/media/company-news/2024/vestas-receives-577-mw-order-in-australia-for-second-st-c4003383"
+    },
+    {
+      "role": "epc",
+      "supplier": "Vestas (EPC)",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "EnergyAustralia",
+      "type": "PPA",
+      "term_years": 10,
+      "capacity_mw": 345.0
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Golden Plains Wind Farm West Environment Effects Statement (EES)",
+    "document_url": "https://www.planning.vic.gov.au/permits-and-applications/state-projects/assessed-projects/golden-plains-wind-farm",
+    "document_year": 2021,
+    "turbine_model": "Vestas V162-6.2 MW",
+    "turbine_count": 93,
+    "turbine_rated_power_mw": 6.2,
+    "hub_height_m": 119.0,
+    "hub_height_note": "Nominated hub height per EES technology envelope",
+    "rotor_diameter_m": 162.0,
+    "wind_speed_mean_ms": 7.5,
+    "wind_speed_height_m": 100.0,
+    "wind_speed_period": "WAsP modelling at 100 m AGL consistent with Golden Plains East resource area",
+    "assumed_capacity_factor_pct": 34.8,
+    "assumed_annual_energy_gwh": 1760.0,
+    "energy_yield_method": "WAsP mesoscale modelling; EES energy yield assessment",
+    "noise_limit_dba": 40.0,
+    "minimum_setback_m": 1000,
+    "connection_voltage_kv": 220.0,
+    "network_service_provider": "AusNet Services",
+    "connection_substation_name": "Bulgana 220 kV substation (shared corridor with Golden Plains East)",
+    "connection_substation_capacity_mva": 500.0,
+    "connection_distance_km": 25.0,
+    "connection_distance_note": "~25 km of new 220 kV transmission line; shares grid connection corridor with Golden Plains East stage",
+    "connection_augmentation": "Shared 220 kV transmission corridor with Golden Plains East. Joint network augmentation significantly reduces per-project connection cost.",
+    "notes": "Western stage of the Golden Plains project. 577 MW Vestas turbine order confirmed 2024. Shares the same EES approval and grid connection planning as Golden Plains East."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

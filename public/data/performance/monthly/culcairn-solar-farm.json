@@ -1,0 +1,74 @@
+{
+  "project_id": "culcairn-solar-farm",
+  "name": "Culcairn Solar Farm",
+  "technology": "solar",
+  "capacity_mw": 350.0,
+  "state": "NSW",
+  "data_source": "openelectricity_api",
+  "monthly": [
+    {
+      "year": 2025,
+      "month": 10,
+      "capacity_factor_pct": 7.0,
+      "energy_mwh": 18285.0,
+      "revenue_aud": 1314261.0,
+      "energy_price_received": 71.88
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "capacity_factor_pct": 9.1,
+      "energy_mwh": 22865.8,
+      "revenue_aud": 2234209.0,
+      "energy_price_received": 97.71
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "capacity_factor_pct": 10.9,
+      "energy_mwh": 28472.7,
+      "revenue_aud": 1691759.0,
+      "energy_price_received": 59.42
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "capacity_factor_pct": 23.3,
+      "energy_mwh": 60595.8,
+      "revenue_aud": 2354546.0,
+      "energy_price_received": 38.86
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "capacity_factor_pct": 17.9,
+      "energy_mwh": 42002.3,
+      "revenue_aud": 2512399.0,
+      "energy_price_received": 59.82
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "capacity_factor_pct": 11.1,
+      "energy_mwh": 28908.0,
+      "revenue_aud": 1572840.0,
+      "energy_price_received": 54.41
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "capacity_factor_pct": 20.4,
+      "energy_mwh": 51490.2,
+      "revenue_aud": 1310480.0,
+      "energy_price_received": 25.45
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "capacity_factor_pct": 3.8,
+      "energy_mwh": 10004.1,
+      "revenue_aud": 389149.0,
+      "energy_price_received": 38.9
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "glenrowan-west-solar-farm",
+  "name": "Glenrowan West Solar Farm",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 110.0,
+  "state": "VIC",
+  "current_developer": "Glenrowan Sun Farm Pty Ltd",
+  "cod_current": "2020-12-21",
+  "cod_original": "2020-12-21",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 62.3,
+  "notable": "110 MW solar farm near Glenrowan, VIC. Part of a cluster of solar farms in Victoria's north-east.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1541",
+  "confidence_score": "46",
+  "first_seen": "2020-12-21",
+  "coordinates": {
+    "lat": -36.488083,
+    "lng": 146.146887
+  },
+  "timeline": [
+    {
+      "date": "2020-12-21",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2020-12-22",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "solar_oem",
+      "supplier": "Jinko Solar",
+      "model": "Cheetah 395/400W",
+      "grid_forming": false,
+      "source_url": "https://www.pv-magazine-australia.com/2021/06/10/glenrowan-west-solar-farm-completed-and-commissioned/"
+    },
+    {
+      "role": "inverter",
+      "supplier": "SMA",
+      "model": "Sunny Central 2750",
+      "grid_forming": false,
+      "source_url": "https://www.pv-magazine-australia.com/2021/06/10/glenrowan-west-solar-farm-completed-and-commissioned/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Signal Energy Australia",
+      "grid_forming": false,
+      "source_url": "https://www.pv-magazine-australia.com/2021/06/10/glenrowan-west-solar-farm-completed-and-commissioned/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

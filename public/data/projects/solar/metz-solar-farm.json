@@ -1,0 +1,75 @@
+{
+  "id": "metz-solar-farm",
+  "name": "Metz Solar Farm",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 115.0,
+  "state": "NSW",
+  "current_developer": "Metz ProjectCo Pty Ltd as trustee for Metz ProjectCo Trust",
+  "cod_current": "2022-03-28",
+  "cod_original": "2022-03-28",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 76.4,
+  "notable": "147 MW solar farm near Armidale, NSW. Developed by Canadian Solar / Recurrent Energy. Located in the New England REZ.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1628",
+  "confidence_score": "46",
+  "first_seen": "2022-03-28",
+  "coordinates": {
+    "lat": -30.4915,
+    "lng": 151.6701
+  },
+  "timeline": [
+    {
+      "date": "2022-03-28",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2022-03-29",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "inverter",
+      "supplier": "SMA",
+      "grid_forming": false,
+      "source_url": "https://www.pv-magazine-australia.com/2022/09/13/frv-australia-reveals-115-mw-solar-farm-now-at-100-capacity/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Beon Energy Solutions",
+      "grid_forming": false,
+      "source_url": "https://www.pv-magazine-australia.com/2022/09/13/frv-australia-reveals-115-mw-solar-farm-now-at-100-capacity/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

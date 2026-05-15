@@ -1,0 +1,463 @@
+{
+  "projects": [
+    {
+      "project_id": "kidston-pumped-storage-hydro-project-250mw",
+      "name": "Kidston Pumped Storage Hydro Project 250MW",
+      "scheme": "ARENA",
+      "round": "",
+      "technology": "pumped_hydro",
+      "status": "construction",
+      "capacity_mw": 250.0,
+      "storage_mwh": 900.0,
+      "developer": "Genex Power",
+      "cod_current": "2027-01-01",
+      "cod_original": "2027-01-01",
+      "cod_drift_months": 0,
+      "has_fid": false,
+      "has_construction_start": true,
+      "risk_score": 30,
+      "risk_level": "amber",
+      "schemes": [
+        {
+          "scheme": "ARENA",
+          "round": ""
+        },
+        {
+          "scheme": "NAIF",
+          "round": ""
+        }
+      ]
+    },
+    {
+      "project_id": "liddell-bess",
+      "name": "Liddell BESS",
+      "scheme": "ARENA",
+      "round": "",
+      "technology": "bess",
+      "status": "construction",
+      "capacity_mw": 500.0,
+      "storage_mwh": 1000.0,
+      "developer": "AGL Energy",
+      "cod_current": "2026-02-20",
+      "cod_original": "2026-02-20",
+      "cod_drift_months": 0,
+      "has_fid": false,
+      "has_construction_start": true,
+      "risk_score": 30,
+      "risk_level": "amber",
+      "schemes": [
+        {
+          "scheme": "ARENA",
+          "round": ""
+        },
+        {
+          "scheme": "NSW LTESA",
+          "round": "Round 2"
+        }
+      ]
+    },
+    {
+      "project_id": "orana-bess",
+      "name": "Orana BESS",
+      "scheme": "NSW LTESA",
+      "round": "Round 2",
+      "technology": "bess",
+      "status": "construction",
+      "capacity_mw": 415.0,
+      "storage_mwh": 1662.08,
+      "developer": "Akaysha Energy (BlackRock)",
+      "cod_current": "2026-06-30",
+      "cod_original": "2026-06-30",
+      "cod_drift_months": 0,
+      "has_fid": false,
+      "has_construction_start": true,
+      "risk_score": 30,
+      "risk_level": "amber",
+      "schemes": [
+        {
+          "scheme": "NSW LTESA",
+          "round": "Round 2"
+        },
+        {
+          "scheme": "CIS",
+          "round": "Tender 1"
+        }
+      ]
+    },
+    {
+      "project_id": "wooreen-energy-storage-system",
+      "name": "Wooreen Energy Storage System",
+      "scheme": "CIS",
+      "round": "Round 1",
+      "technology": "bess",
+      "status": "construction",
+      "capacity_mw": 350.0,
+      "storage_mwh": 1400.0,
+      "developer": "EnergyAustralia",
+      "cod_current": "2027-12-31",
+      "cod_original": "2027-12-31",
+      "cod_drift_months": 0,
+      "has_fid": false,
+      "has_construction_start": true,
+      "risk_score": 30,
+      "risk_level": "amber",
+      "schemes": [
+        {
+          "scheme": "CIS",
+          "round": "Round 1"
+        }
+      ]
+    },
+    {
+      "project_id": "mortlake-battery",
+      "name": "Mortlake Battery",
+      "scheme": "ARENA",
+      "round": "",
+      "technology": "bess",
+      "status": "construction",
+      "capacity_mw": 300.0,
+      "storage_mwh": 650.0,
+      "developer": "Origin Energy",
+      "cod_current": "2026-07-31",
+      "cod_original": "2026-07-31",
+      "cod_drift_months": 0,
+      "has_fid": false,
+      "has_construction_start": true,
+      "risk_score": 30,
+      "risk_level": "amber",
+      "schemes": [
+        {
+          "scheme": "ARENA",
+          "round": ""
+        }
+      ]
+    },
+    {
+      "project_id": "gnarwarre-bess-facility",
+      "name": "Gnarwarre BESS Facility",
+      "scheme": "ARENA",
+      "round": "",
+      "technology": "bess",
+      "status": "construction",
+      "capacity_mw": 250.0,
+      "storage_mwh": 499.52,
+      "developer": "FRV Australia (Abdul Latif Jameel / OMERS)",
+      "cod_current": "2027-11-30",
+      "cod_original": "2027-11-30",
+      "cod_drift_months": 0,
+      "has_fid": false,
+      "has_construction_start": true,
+      "risk_score": 30,
+      "risk_level": "amber",
+      "schemes": [
+        {
+          "scheme": "ARENA",
+          "round": ""
+        }
+      ]
+    },
+    {
+      "project_id": "woolooga-bess",
+      "name": "Woolooga BESS",
+      "scheme": "CIS",
+      "round": "Tender 1",
+      "technology": "bess",
+      "status": "construction",
+      "capacity_mw": 222.0,
+      "storage_mwh": 593.28,
+      "developer": "Lightsource bp",
+      "cod_current": "2026-09-30",
+      "cod_original": "2026-09-30",
+      "cod_drift_months": 0,
+      "has_fid": false,
+      "has_construction_start": true,
+      "risk_score": 30,
+      "risk_level": "amber",
+      "schemes": [
+        {
+          "scheme": "CIS",
+          "round": "Tender 1"
+        }
+      ]
+    },
+    {
+      "project_id": "new-england-solar-farm-bess",
+      "name": "New England Solar Farm BESS",
+      "scheme": "NSW LTESA",
+      "round": "Round 1",
+      "technology": "bess",
+      "status": "construction",
+      "capacity_mw": 200.0,
+      "storage_mwh": 200.0,
+      "developer": "ACEN Australia / Marubeni (50:50)",
+      "cod_current": "2026-06-30",
+      "cod_original": "2026-06-30",
+      "cod_drift_months": 0,
+      "has_fid": false,
+      "has_construction_start": true,
+      "risk_score": 30,
+      "risk_level": "amber",
+      "schemes": [
+        {
+          "scheme": "NSW LTESA",
+          "round": "Round 1"
+        }
+      ]
+    },
+    {
+      "project_id": "limondale-bess",
+      "name": "Limondale BESS",
+      "scheme": "NSW LTESA",
+      "round": "Long Duration Storage",
+      "technology": "bess",
+      "status": "construction",
+      "capacity_mw": 50.0,
+      "storage_mwh": 400.0,
+      "developer": "RWE Renewables Australia",
+      "cod_current": "2026-03-07",
+      "cod_original": "2026-03-07",
+      "cod_drift_months": 0,
+      "has_fid": false,
+      "has_construction_start": true,
+      "risk_score": 30,
+      "risk_level": "amber",
+      "schemes": [
+        {
+          "scheme": "NSW LTESA",
+          "round": "Long Duration Storage"
+        }
+      ]
+    },
+    {
+      "project_id": "clements-gap-bess",
+      "name": "Clements Gap - BESS",
+      "scheme": "CIS",
+      "round": "Tender 1",
+      "technology": "bess",
+      "status": "construction",
+      "capacity_mw": 60.0,
+      "storage_mwh": 120.0,
+      "developer": "Pacific Blue (SPIC China)",
+      "cod_current": "2026-01-05",
+      "cod_original": "2026-01-05",
+      "cod_drift_months": 0,
+      "has_fid": false,
+      "has_construction_start": true,
+      "risk_score": 30,
+      "risk_level": "amber",
+      "schemes": [
+        {
+          "scheme": "CIS",
+          "round": "Tender 1"
+        }
+      ]
+    },
+    {
+      "project_id": "wambo-wind-farm",
+      "name": "Wambo Wind Farm",
+      "scheme": "QLD RE&H Jobs Fund",
+      "round": "",
+      "technology": "wind",
+      "status": "construction",
+      "capacity_mw": 506.0,
+      "developer": "Cubico Sustainable Investments / Stanwell Corporation (50:50 JV)",
+      "cod_current": "2025-02-28",
+      "cod_original": "2025-02-28",
+      "cod_drift_months": 0,
+      "has_fid": true,
+      "has_construction_start": true,
+      "risk_score": 15,
+      "risk_level": "green",
+      "schemes": [
+        {
+          "scheme": "QLD RE&H Jobs Fund",
+          "round": ""
+        }
+      ]
+    },
+    {
+      "project_id": "waratah-super-battery",
+      "name": "Waratah Super Battery",
+      "scheme": "NSW SIPS",
+      "round": "",
+      "technology": "bess",
+      "status": "operating",
+      "capacity_mw": 850.0,
+      "storage_mwh": 1680.0,
+      "developer": "Akaysha Energy (BlackRock)",
+      "cod_current": "2024-11",
+      "cod_original": "2025",
+      "cod_drift_months": -2,
+      "has_fid": true,
+      "has_construction_start": true,
+      "risk_score": 10,
+      "risk_level": "green",
+      "schemes": [
+        {
+          "scheme": "NSW SIPS",
+          "round": ""
+        }
+      ]
+    },
+    {
+      "project_id": "uungula-wind-farm",
+      "name": "Uungula Wind Farm",
+      "scheme": "NSW LTESA",
+      "round": "Round 3",
+      "technology": "wind",
+      "status": "construction",
+      "capacity_mw": 414.0,
+      "developer": "Squadron Energy (Tattarang)",
+      "cod_current": "2028-02-01",
+      "cod_original": "2028-02-01",
+      "cod_drift_months": 0,
+      "has_fid": true,
+      "has_construction_start": true,
+      "risk_score": 5,
+      "risk_level": "green",
+      "schemes": [
+        {
+          "scheme": "NSW LTESA",
+          "round": "Round 3"
+        }
+      ]
+    },
+    {
+      "project_id": "lotus-creek-wind-farm",
+      "name": "Lotus Creek Wind Farm",
+      "scheme": "QLD RE&H Jobs Fund",
+      "round": "",
+      "technology": "wind",
+      "status": "construction",
+      "capacity_mw": 285.0,
+      "developer": "CS Energy",
+      "cod_current": "2027-12-31",
+      "cod_original": "2027-12-31",
+      "cod_drift_months": 0,
+      "has_fid": true,
+      "has_construction_start": true,
+      "risk_score": 5,
+      "risk_level": "green",
+      "schemes": [
+        {
+          "scheme": "QLD RE&H Jobs Fund",
+          "round": ""
+        }
+      ]
+    },
+    {
+      "project_id": "carmodys-hill-wind-farm",
+      "name": "Carmodys Hill Wind Farm",
+      "scheme": "CIS",
+      "round": "Tender 4",
+      "technology": "wind",
+      "status": "construction",
+      "capacity_mw": 256.0,
+      "developer": "Aula Energy",
+      "cod_current": "2029-01-01",
+      "cod_original": "2029-01-01",
+      "cod_drift_months": 0,
+      "has_fid": true,
+      "has_construction_start": true,
+      "risk_score": 5,
+      "risk_level": "green",
+      "schemes": [
+        {
+          "scheme": "CIS",
+          "round": "Tender 4"
+        }
+      ]
+    },
+    {
+      "project_id": "boulder-creek-wind-farm",
+      "name": "Boulder Creek Wind Farm",
+      "scheme": "QLD RE&H Jobs Fund",
+      "round": "",
+      "technology": "wind",
+      "status": "construction",
+      "capacity_mw": 228.0,
+      "developer": "Aula Energy / CS Energy (50:50 JV)",
+      "cod_current": "2027-12-31",
+      "cod_original": "2027-12-31",
+      "cod_drift_months": 0,
+      "has_fid": true,
+      "has_construction_start": true,
+      "risk_score": 5,
+      "risk_level": "green",
+      "schemes": [
+        {
+          "scheme": "QLD RE&H Jobs Fund",
+          "round": ""
+        }
+      ]
+    },
+    {
+      "project_id": "victorian-big-battery",
+      "name": "Victorian Big Battery",
+      "scheme": "VIC SIPS",
+      "round": "",
+      "technology": "bess",
+      "status": "operating",
+      "capacity_mw": 300.0,
+      "storage_mwh": 450.0,
+      "developer": "HMC Capital (ex-Neoen)",
+      "cod_current": "2022-01",
+      "cod_original": "Q3 2021",
+      "cod_drift_months": 5,
+      "has_fid": false,
+      "has_construction_start": true,
+      "risk_score": 0,
+      "risk_level": "green",
+      "schemes": [
+        {
+          "scheme": "VIC SIPS",
+          "round": ""
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "red": 0,
+    "amber": 10,
+    "green": 7
+  },
+  "by_scheme": {
+    "ARENA": {
+      "count": 4,
+      "avg_risk": 30.0,
+      "total_mw": 1300.0
+    },
+    "NAIF": {
+      "count": 1,
+      "avg_risk": 30.0,
+      "total_mw": 250.0
+    },
+    "NSW LTESA": {
+      "count": 5,
+      "avg_risk": 25.0,
+      "total_mw": 1579.0
+    },
+    "CIS": {
+      "count": 5,
+      "avg_risk": 25.0,
+      "total_mw": 1303.0
+    },
+    "QLD RE&H Jobs Fund": {
+      "count": 3,
+      "avg_risk": 8.3,
+      "total_mw": 1019.0
+    },
+    "NSW SIPS": {
+      "count": 1,
+      "avg_risk": 10.0,
+      "total_mw": 850.0
+    },
+    "VIC SIPS": {
+      "count": 1,
+      "avg_risk": 0.0,
+      "total_mw": 300.0
+    }
+  },
+  "total_projects": 17,
+  "exported_at": "2026-03-15T22:05:23.084573"
+}

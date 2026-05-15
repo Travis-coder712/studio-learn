@@ -1,0 +1,429 @@
+{
+  "summary": {
+    "total_dominance_cells": 11,
+    "monopoly_cells": 3,
+    "dominant_cells": 5,
+    "concentrated_cells": 3,
+    "cells_with_at_risk_top_supplier": 0,
+    "at_risk_projects_total": 13,
+    "at_risk_mw_total": 1629.3,
+    "dev_chain_risks_count": 2,
+    "at_risk_oems_list": [
+      "Acciona Windpower",
+      "REpower",
+      "Senvion",
+      "Suzlon"
+    ]
+  },
+  "dominance_cells": [
+    {
+      "technology": "wind",
+      "state": "TAS",
+      "role": "wind_oem",
+      "top_supplier": "Vestas",
+      "top_share_mw_pct": 100.0,
+      "top_mw": 561.0,
+      "top_projects": 4,
+      "total_mw_in_cell": 561.0,
+      "total_projects_in_cell": 4,
+      "other_suppliers": 0,
+      "top_supplier_at_risk": false,
+      "monopoly": true,
+      "dominant": false,
+      "concentrated": false
+    },
+    {
+      "technology": "bess",
+      "state": "NSW",
+      "role": "inverter",
+      "top_supplier": "EKS Energy (Hitachi)",
+      "top_share_mw_pct": 77.3,
+      "top_mw": 850.0,
+      "top_projects": 1,
+      "total_mw_in_cell": 1100.0,
+      "total_projects_in_cell": 3,
+      "other_suppliers": 2,
+      "top_supplier_at_risk": false,
+      "monopoly": true,
+      "dominant": false,
+      "concentrated": false
+    },
+    {
+      "technology": "solar",
+      "state": "VIC",
+      "role": "inverter",
+      "top_supplier": "SMA",
+      "top_share_mw_pct": 76.3,
+      "top_mw": 519.0,
+      "top_projects": 6,
+      "total_mw_in_cell": 680.0,
+      "total_projects_in_cell": 8,
+      "other_suppliers": 2,
+      "top_supplier_at_risk": false,
+      "monopoly": true,
+      "dominant": false,
+      "concentrated": false
+    },
+    {
+      "technology": "solar",
+      "state": "SA",
+      "role": "solar_oem",
+      "top_supplier": "Jinko Solar",
+      "top_share_mw_pct": 74.6,
+      "top_mw": 315.0,
+      "top_projects": 3,
+      "total_mw_in_cell": 422.0,
+      "total_projects_in_cell": 4,
+      "other_suppliers": 1,
+      "top_supplier_at_risk": false,
+      "monopoly": false,
+      "dominant": true,
+      "concentrated": false
+    },
+    {
+      "technology": "solar",
+      "state": "SA",
+      "role": "inverter",
+      "top_supplier": "SMA",
+      "top_share_mw_pct": 69.8,
+      "top_mw": 220.0,
+      "top_projects": 2,
+      "total_mw_in_cell": 315.0,
+      "total_projects_in_cell": 3,
+      "other_suppliers": 1,
+      "top_supplier_at_risk": false,
+      "monopoly": false,
+      "dominant": true,
+      "concentrated": false
+    },
+    {
+      "technology": "wind",
+      "state": "VIC",
+      "role": "wind_oem",
+      "top_supplier": "Vestas",
+      "top_share_mw_pct": 67.7,
+      "top_mw": 4844.2,
+      "top_projects": 13,
+      "total_mw_in_cell": 7160.3,
+      "total_projects_in_cell": 24,
+      "other_suppliers": 6,
+      "top_supplier_at_risk": false,
+      "monopoly": false,
+      "dominant": true,
+      "concentrated": false
+    },
+    {
+      "technology": "solar",
+      "state": "NSW",
+      "role": "inverter",
+      "top_supplier": "SMA",
+      "top_share_mw_pct": 59.3,
+      "top_mw": 1143.0,
+      "top_projects": 10,
+      "total_mw_in_cell": 1926.0,
+      "total_projects_in_cell": 17,
+      "other_suppliers": 2,
+      "top_supplier_at_risk": false,
+      "monopoly": false,
+      "dominant": true,
+      "concentrated": false
+    },
+    {
+      "technology": "solar",
+      "state": "QLD",
+      "role": "inverter",
+      "top_supplier": "Ingeteam",
+      "top_share_mw_pct": 52.4,
+      "top_mw": 866.0,
+      "top_projects": 6,
+      "total_mw_in_cell": 1651.8,
+      "total_projects_in_cell": 16,
+      "other_suppliers": 2,
+      "top_supplier_at_risk": false,
+      "monopoly": false,
+      "dominant": true,
+      "concentrated": false
+    },
+    {
+      "technology": "bess",
+      "state": "VIC",
+      "role": "inverter",
+      "top_supplier": "Power Electronics (inverters)",
+      "top_share_mw_pct": 49.5,
+      "top_mw": 540.0,
+      "top_projects": 1,
+      "total_mw_in_cell": 1090.0,
+      "total_projects_in_cell": 3,
+      "other_suppliers": 2,
+      "top_supplier_at_risk": false,
+      "monopoly": false,
+      "dominant": false,
+      "concentrated": true
+    },
+    {
+      "technology": "bess",
+      "state": "SA",
+      "role": "inverter",
+      "top_supplier": "SMA",
+      "top_share_mw_pct": 46.3,
+      "top_mw": 250.0,
+      "top_projects": 1,
+      "total_mw_in_cell": 540.0,
+      "total_projects_in_cell": 4,
+      "other_suppliers": 3,
+      "top_supplier_at_risk": false,
+      "monopoly": false,
+      "dominant": false,
+      "concentrated": true
+    },
+    {
+      "technology": "bess",
+      "state": "QLD",
+      "role": "bess_oem",
+      "top_supplier": "Tesla",
+      "top_share_mw_pct": 43.4,
+      "top_mw": 1365.0,
+      "top_projects": 6,
+      "total_mw_in_cell": 3142.0,
+      "total_projects_in_cell": 10,
+      "other_suppliers": 4,
+      "top_supplier_at_risk": false,
+      "monopoly": false,
+      "dominant": false,
+      "concentrated": true
+    }
+  ],
+  "at_risk_projects": [
+    {
+      "project_id": "murra-warra-wind-farm-stage-1",
+      "name": "Murra Warra Wind Farm - stage 1",
+      "technology": "wind",
+      "state": "VIC",
+      "status": "operating",
+      "capacity_mw": 225.7,
+      "at_risk_oem": "Senvion",
+      "oem_role": "wind_oem",
+      "model": "3.7M class",
+      "developer": "Murra Warra Project Co Pty Ltd"
+    },
+    {
+      "project_id": "waubra",
+      "name": "Waubra",
+      "technology": "wind",
+      "state": "VIC",
+      "status": "operating",
+      "capacity_mw": 192.0,
+      "at_risk_oem": "Acciona Windpower",
+      "oem_role": "wind_oem",
+      "model": "AW-1500/77",
+      "developer": "Pyrenees Wind Energy Developments"
+    },
+    {
+      "project_id": "portland-wind-farm",
+      "name": "Portland Wind Farm",
+      "technology": "wind",
+      "state": "VIC",
+      "status": "operating",
+      "capacity_mw": 151.7,
+      "at_risk_oem": "Senvion",
+      "oem_role": "wind_oem",
+      "model": "REpower MM82/MM92 2.05 MW",
+      "developer": "Pacific Hydro Portland Wind Farm Pty Ltd"
+    },
+    {
+      "project_id": "capital-wind-farm",
+      "name": "Capital Wind Farm",
+      "technology": "wind",
+      "state": "NSW",
+      "status": "operating",
+      "capacity_mw": 140.7,
+      "at_risk_oem": "Suzlon",
+      "oem_role": "wind_oem",
+      "model": "S88-2.1 MW",
+      "developer": "Renewable Power Ventures Pty Ltd"
+    },
+    {
+      "project_id": "hallett-stage-1-brown-hill",
+      "name": "Hallett Stage 1 Brown Hill",
+      "technology": "wind",
+      "state": "SA",
+      "status": "operating",
+      "capacity_mw": 133.0,
+      "at_risk_oem": "Suzlon",
+      "oem_role": "wind_oem",
+      "model": "S88-2.1 MW",
+      "developer": "Palisade Investment Partner Limited"
+    },
+    {
+      "project_id": "hallett-4-north-brown-hill",
+      "name": "Hallett 4 North Brown Hill",
+      "technology": "wind",
+      "state": "SA",
+      "status": "operating",
+      "capacity_mw": 132.3,
+      "at_risk_oem": "Suzlon",
+      "oem_role": "wind_oem",
+      "model": "S88-2.1 MW",
+      "developer": "Brown Hill North Pty Ltd"
+    },
+    {
+      "project_id": "mt-mercer-wind-farm",
+      "name": "Mt Mercer Wind Farm",
+      "technology": "wind",
+      "state": "VIC",
+      "status": "operating",
+      "capacity_mw": 131.2,
+      "at_risk_oem": "Senvion",
+      "oem_role": "wind_oem",
+      "model": "REpower MM92 2.05 MW",
+      "developer": "Mt Mercer Windfarm Pty Ltd"
+    },
+    {
+      "project_id": "lincoln-gap-wind-farm-stage-1",
+      "name": "Lincoln Gap Wind Farm - stage 1",
+      "technology": "wind",
+      "state": "SA",
+      "status": "operating",
+      "capacity_mw": 126.0,
+      "at_risk_oem": "Senvion",
+      "oem_role": "wind_oem",
+      "model": "3.6M140 EBC",
+      "developer": "Lincoln Gap Wind Farm Pty Ltd"
+    },
+    {
+      "project_id": "bald-hills-wind-farm",
+      "name": "Bald Hills Wind Farm",
+      "technology": "wind",
+      "state": "VIC",
+      "status": "operating",
+      "capacity_mw": 106.0,
+      "at_risk_oem": "Senvion",
+      "oem_role": "wind_oem",
+      "model": "REpower MM92 2.05 MW",
+      "developer": "Bald Hills Wind Farm Pty Ltd"
+    },
+    {
+      "project_id": "snowtown-wind-farm",
+      "name": "Snowtown Wind Farm",
+      "technology": "wind",
+      "state": "SA",
+      "status": "operating",
+      "capacity_mw": 98.7,
+      "at_risk_oem": "Suzlon",
+      "oem_role": "wind_oem",
+      "model": "S88-2.1 MW",
+      "developer": "Snowtown Wind Farm Pty Ltd"
+    },
+    {
+      "project_id": "hallett-stage-2-hallett-hill",
+      "name": "Hallett Stage 2 Hallett Hill",
+      "technology": "wind",
+      "state": "SA",
+      "status": "operating",
+      "capacity_mw": 71.0,
+      "at_risk_oem": "Suzlon",
+      "oem_role": "wind_oem",
+      "model": "S88-2.1 MW",
+      "developer": "Infrastructure Capital Group Limited"
+    },
+    {
+      "project_id": "oaklands-hill-wind-farm",
+      "name": "Oaklands Hill Wind Farm",
+      "technology": "wind",
+      "state": "VIC",
+      "status": "operating",
+      "capacity_mw": 68.0,
+      "at_risk_oem": "Suzlon",
+      "oem_role": "wind_oem",
+      "model": "S88-2.1 MW",
+      "developer": "Oaklands Hill Wind farm pty ltd"
+    },
+    {
+      "project_id": "hallett-5-the-bluff-wf",
+      "name": "Hallett 5 The Bluff WF",
+      "technology": "wind",
+      "state": "SA",
+      "status": "operating",
+      "capacity_mw": 53.0,
+      "at_risk_oem": "Suzlon",
+      "oem_role": "wind_oem",
+      "model": "S88-2.1 MW",
+      "developer": "Eurus Energy"
+    }
+  ],
+  "at_risk_oem_summary": [
+    {
+      "supplier": "Senvion",
+      "total_mw": 740.6,
+      "project_count": 5,
+      "states_exposed": [
+        "SA",
+        "VIC"
+      ],
+      "developers_affected": [
+        "Bald Hills Wind Farm Pty Ltd",
+        "Lincoln Gap Wind Farm Pty Ltd",
+        "Mt Mercer Windfarm Pty Ltd",
+        "Murra Warra Project Co Pty Ltd",
+        "Pacific Hydro Portland Wind Farm Pty Ltd"
+      ]
+    },
+    {
+      "supplier": "Suzlon",
+      "total_mw": 696.7,
+      "project_count": 7,
+      "states_exposed": [
+        "NSW",
+        "SA",
+        "VIC"
+      ],
+      "developers_affected": [
+        "Brown Hill North Pty Ltd",
+        "Eurus Energy",
+        "Infrastructure Capital Group Limited",
+        "Oaklands Hill Wind farm pty ltd",
+        "Palisade Investment Partner Limited",
+        "Renewable Power Ventures Pty Ltd",
+        "Snowtown Wind Farm Pty Ltd"
+      ]
+    },
+    {
+      "supplier": "Acciona Windpower",
+      "total_mw": 192.0,
+      "project_count": 1,
+      "states_exposed": [
+        "VIC"
+      ],
+      "developers_affected": [
+        "Pyrenees Wind Energy Developments"
+      ]
+    }
+  ],
+  "dev_chain_risks": [
+    {
+      "developer": "Equis Energy / SEC Victoria",
+      "oem": "Tesla",
+      "role": "bess_oem",
+      "projects": 3,
+      "mw": 600.0,
+      "share_of_developer_role_mw_pct": 100.0,
+      "states": [
+        "VIC"
+      ],
+      "oem_at_risk": false
+    },
+    {
+      "developer": "Lake Bonney Wind Power Pty Ltd",
+      "oem": "Vestas",
+      "role": "wind_oem",
+      "projects": 3,
+      "mw": 278.5,
+      "share_of_developer_role_mw_pct": 100.0,
+      "states": [
+        "SA"
+      ],
+      "oem_at_risk": false
+    }
+  ],
+  "exported_at": "2026-05-10T17:33:54.297295"
+}

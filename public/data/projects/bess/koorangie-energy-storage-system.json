@@ -1,0 +1,133 @@
+{
+  "id": "koorangie-energy-storage-system",
+  "name": "Koorangie Energy Storage System",
+  "technology": "bess",
+  "status": "operating",
+  "capacity_mw": 185.0,
+  "storage_mwh": 370.0,
+  "state": "VIC",
+  "current_developer": "Edify Energy (Sosteneo)",
+  "current_operator": "Edify Energy",
+  "cod_current": "2025-06-24",
+  "cod_original": "2025-06-24",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 52.2,
+  "notable": "185 MW / 370 MWh grid-forming BESS near Kerang in Victoria's Murray River region. A$400M, developed by Edify Energy, owned by Sosteneo. 15-year Shell Energy offtake for full capacity. 20-year AEMO System Support Agreement for 125 MW of system strength services \u2014 one of the first large-scale BESS contracted for this function.",
+  "data_confidence": "good",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "aemo_gen_info_id": "2173",
+  "confidence_score": "60",
+  "capex_aud_m": 400.0,
+  "capex_source": "Shell Energy/Edify",
+  "capex_year": 2023,
+  "first_seen": "2025-02-14",
+  "capex_source_url": "https://edifyenergy.com/project/koorangie-energy-storage-system/",
+  "coordinates": {
+    "lat": -35.735367,
+    "lng": 143.754813
+  },
+  "timeline": [
+    {
+      "date": "2025-02-14",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2025-02-14",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    },
+    {
+      "date": "2025-07-01",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Full commercial operations commence",
+      "detail": "185MW/370MWh grid-forming BESS with 100 Tesla Megapacks in Virtual Machine Mode entered full operations.",
+      "sources": []
+    },
+    {
+      "date": "2025-07-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "20-year AEMO system strength agreement activated",
+      "detail": "Began delivering 125MW of system strength services under 20-year System Support Agreement with AEMO in Murray River REZ.",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2025-06 to 2025-06-24 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Tesla",
+      "model": "Megapack (grid-forming)",
+      "quantity": 100,
+      "grid_forming": false,
+      "source_url": "https://edifyenergy.com/project/koorangie-energy-storage-system/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Consolidated Power Projects (CPP)",
+      "grid_forming": false,
+      "source_url": "https://edifyenergy.com/project/koorangie-energy-storage-system/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Koorangie Energy Storage System \u2014 Planning Permit Application (VIC DEECA)",
+    "document_url": "https://www.planning.vic.gov.au/",
+    "document_year": 2022,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "CATL / Tesla (Tesla Gigafactory)",
+    "cell_country_of_manufacture": "United States / China",
+    "inverter_supplier": "Tesla",
+    "inverter_model": "Megapack (grid-forming)",
+    "inverter_country_of_manufacture": "United States",
+    "pcs_type": "grid_forming",
+    "round_trip_efficiency_pct": 90.0,
+    "round_trip_efficiency_ac": 86.0,
+    "duration_hours": 2.0,
+    "connection_voltage_kv": 220.0,
+    "transformer_mva": 200.0,
+    "network_service_provider": "AusNet Services",
+    "connection_substation_name": "Koorangie 220/66 kV substation (AusNet Services), Northern Victoria",
+    "connection_substation_capacity_mva": 350.0,
+    "connection_distance_km": 3.0,
+    "connection_distance_note": "~3 km to AusNet Services Koorangie area 220 kV network, Northern Victoria (Murray-Darling Basin region).",
+    "connection_augmentation": "AusNet augmentation of Northern Victoria 220 kV network. Grid-forming Tesla Megapack provides synthetic inertia for Northern Victoria-NSW interconnect.",
+    "notes": "185 MW / 370 MWh (2-hour) BESS, Koorangie area, Northern Victoria (near Kerang). Developer: Energy Australia. Technology: Tesla Megapack (LFP, grid-forming). EPC: CPP. VIC planning approval 2022. Now operating (2024). Grid-forming provides synthetic inertia for Northern VIC network. AusNet 220 kV connection. VIC CIS contract holder."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": [],
+  "current_owner": "Edify Energy (CDPQ)"
+}

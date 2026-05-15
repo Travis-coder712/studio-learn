@@ -1,0 +1,93 @@
+{
+  "id": "crookwell-2-wind-farm",
+  "name": "Crookwell 2 Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 91.0,
+  "state": "NSW",
+  "current_developer": "Crookwell Development Pty Ltd",
+  "cod_current": "2024-05-22",
+  "cod_original": "2024-05-22",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 70.4,
+  "notable": "91 MW wind farm near Crookwell in NSW Southern Tablelands. Part of one of Australia's earliest wind farm regions \u2014 the original Crookwell Wind Farm (1998) was the first in NSW.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1061",
+  "confidence_score": "52",
+  "first_seen": "2018-08-14",
+  "coordinates": {
+    "lat": -34.547676,
+    "lng": 149.589254
+  },
+  "timeline": [
+    {
+      "date": "2009",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Global Power Generation began construction; A$200M project",
+      "sources": []
+    },
+    {
+      "date": "2017",
+      "date_precision": "year",
+      "event_type": "planning_modified",
+      "title": "Turbine modification approved",
+      "detail": "Hub height increased 80\u219295m; rotor diameter 96\u2192130m",
+      "sources": []
+    },
+    {
+      "date": "2018-08-14",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    },
+    {
+      "date": "2024-05-22",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Goldwind",
+      "model": "GW121/2500",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "ACT Government",
+      "type": "government_ppa",
+      "term_years": 20,
+      "capacity_mw": 91.0,
+      "source_url": "https://www.environment.act.gov.au/energy/cleaner-energy/renewable-energy-target"
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "hallett-4-north-brown-hill",
+  "name": "Hallett 4 North Brown Hill",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 132.3,
+  "state": "SA",
+  "current_developer": "Brown Hill North Pty Ltd",
+  "current_operator": "AGL Energy",
+  "cod_current": "2010-08-14",
+  "cod_original": "2010-08-14",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 35.9,
+  "notable": "132 MW \u2014 Stage 4 (North Brown Hill) of the Hallett Wind Farm complex, SA. Part of AGL's 351 MW multi-site Hallett development ~180 km north of Adelaide.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1311",
+  "confidence_score": "49",
+  "first_seen": "2010-08-14",
+  "coordinates": {
+    "lat": -33.228116,
+    "lng": 138.716888
+  },
+  "timeline": [
+    {
+      "date": "2009",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "A$334M project; AGL/Suzlon construction",
+      "sources": []
+    },
+    {
+      "date": "2010-08-14",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2010-08-14",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Suzlon",
+      "model": "S88-2.1 MW",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

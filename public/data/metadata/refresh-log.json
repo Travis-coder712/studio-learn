@@ -1,0 +1,14 @@
+{
+  "refreshes": [
+    {
+      "phase": "intelligence",
+      "timestamp": "2026-05-10T08:26:54.922420",
+      "success": true
+    },
+    {
+      "phase": "data",
+      "timestamp": "2026-04-15T11:17:04.472032",
+      "success": true
+    }
+  ]
+}

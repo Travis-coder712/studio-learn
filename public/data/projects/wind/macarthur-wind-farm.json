@@ -1,0 +1,148 @@
+{
+  "id": "macarthur-wind-farm",
+  "name": "Macarthur Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 420.0,
+  "state": "VIC",
+  "current_developer": "Macarthur Wind Farm Pty Ltd and Meridian Wind Macarthur Pty Ltd",
+  "current_operator": "AGL Energy",
+  "cod_current": "2012-09-27",
+  "cod_original": "2012-09-27",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 12.7,
+  "notable": "Was largest wind farm in southern hemisphere at commissioning (2013). 140x Vestas V112-3.0MW. ~A$1B cost.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1128",
+  "confidence_score": "65",
+  "first_seen": "2012-09-27",
+  "coordinates": {
+    "lat": -38.043483,
+    "lng": 142.179081
+  },
+  "timeline": [
+    {
+      "date": "2006-10",
+      "date_precision": "month",
+      "event_type": "planning_approved",
+      "title": "Victorian Government approval",
+      "detail": "Planning permit granted by Victorian Government",
+      "sources": []
+    },
+    {
+      "date": "2010-08",
+      "date_precision": "month",
+      "event_type": "equipment_order",
+      "title": "Vestas turbine contract signed",
+      "detail": "Deal for 140 Vestas V112-3.0 MW turbines cemented",
+      "sources": []
+    },
+    {
+      "date": "2010-10",
+      "date_precision": "quarter",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Site clearance and civil works began Q4 2010",
+      "sources": []
+    },
+    {
+      "date": "2011-11",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "First turbine erected",
+      "detail": "First of 140 turbines physically erected on site",
+      "sources": []
+    },
+    {
+      "date": "2012-09-27",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2012-09-27",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Vestas",
+      "model": "V112-3.0 MW",
+      "grid_forming": false
+    },
+    {
+      "role": "epc",
+      "supplier": "Vestas",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "AGL Energy",
+      "type": "PPA",
+      "term_years": 25,
+      "capacity_mw": 420.0,
+      "source_url": "https://www.agl.com.au/about-agl/how-we-source-energy/macarthur-wind-farm"
+    },
+    {
+      "party": "AGL Energy",
+      "type": "PPA",
+      "term_years": 25,
+      "capacity_mw": 420.0
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Macarthur Wind Farm Environmental Effects Statement (VIC DSE EES)",
+    "document_url": "https://www.planning.vic.gov.au/schemes-and-amendments/statewide-activities/environment-effects-statements/current-and-completed-ees/macarthur-wind-farm",
+    "document_year": 2009,
+    "turbine_model": "Vestas V112-3.0 MW",
+    "turbine_count": 140,
+    "turbine_rated_power_mw": 3.0,
+    "hub_height_m": 94.0,
+    "hub_height_note": "Standard 94 m hub for V112-3.0 MW on Western VIC plains (Macarthur site)",
+    "rotor_diameter_m": 112.0,
+    "wind_speed_mean_ms": 8.1,
+    "wind_speed_height_m": 94.0,
+    "wind_speed_period": "Mean annual wind speed at hub height; Macarthur, Western Victoria near Hamilton \u2014 from multi-year on-site met mast",
+    "assumed_capacity_factor_pct": 36.5,
+    "assumed_annual_energy_gwh": 1342.0,
+    "energy_yield_method": "WAsP modelling; P50 net yield after wake, availability and electrical losses",
+    "noise_limit_dba": 40.0,
+    "minimum_setback_m": 2000,
+    "connection_voltage_kv": 220.0,
+    "network_service_provider": "AusNet Services",
+    "connection_substation_name": "Macarthur 220/66 kV substation (new on-site), Western Victoria",
+    "connection_substation_capacity_mva": 600.0,
+    "connection_distance_km": 5.0,
+    "connection_distance_note": "~5 km of 220 kV connection to AusNet Services SW Victoria network near Macarthur/Hamilton.",
+    "connection_augmentation": "New 220 kV substation and line. Was the largest wind farm in the Southern Hemisphere at commissioning (2012). AusNet 220 kV required significant augmentation to handle 420 MW export.",
+    "notes": "420 MW (140 x 3.0 MW Vestas V112), near Macarthur, Western Victoria. Developer: AGL Energy / Meridian Energy (50:50 JV). EPC: Vestas. VIC EES approved 2009. Completed 2012. Was the largest wind farm in the Southern Hemisphere at commissioning. Groundbreaking project proving feasibility of large-scale onshore wind in Australia."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

@@ -1,0 +1,2167 @@
+{
+  "generated_at": "2026-05-10T17:43:00.882486",
+  "data_range": {
+    "first_date": "2024-08",
+    "last_date": "2026-03",
+    "total_bids": 123690,
+    "total_projects": 28
+  },
+  "profiles": [
+    {
+      "project_id": "riverina-bess",
+      "project_name": "riverina-bess",
+      "capacity_mw": null,
+      "storage_mwh": null,
+      "state": null,
+      "participant_id": "DPNTBESS",
+      "first_date": "2024-08-01",
+      "last_date": "2026-03-31",
+      "total_bids": 14592,
+      "energy_bids": 2432,
+      "fcas_bids": 12160,
+      "fcas_services": 8,
+      "rebid_pct": 91.0,
+      "gen_pricebands": [
+        -910.7,
+        0.0,
+        56.2,
+        109.39,
+        147.55,
+        221.04,
+        312.33,
+        572.96,
+        4381.0,
+        5586.5
+      ],
+      "load_pricebands": [
+        -907.77,
+        -46.61,
+        7.6,
+        33.02,
+        55.1,
+        84.3,
+        109.47,
+        147.99,
+        296.28,
+        1257.18
+      ],
+      "load_strategy": "defensive",
+      "target_spread": 92.45
+    },
+    {
+      "project_id": "western-downs-battery-stage-1-and-2",
+      "project_name": "Western Downs Battery - Stage 1 And 2",
+      "capacity_mw": 510.0,
+      "storage_mwh": 509.6,
+      "state": "QLD",
+      "participant_id": "WDOWBESS",
+      "first_date": "2024-11-13",
+      "last_date": "2026-03-31",
+      "total_bids": 7740,
+      "energy_bids": 1420,
+      "fcas_bids": 6320,
+      "fcas_services": 8,
+      "rebid_pct": 95.4,
+      "gen_pricebands": [
+        -910.7,
+        -2.52,
+        64.78,
+        154.28,
+        210.94,
+        311.95,
+        882.21,
+        7212.55,
+        13370.36,
+        17684.03
+      ],
+      "load_pricebands": [
+        -932.26,
+        -77.73,
+        -21.85,
+        -10.74,
+        27.53,
+        55.9,
+        97.4,
+        198.72,
+        379.0,
+        17995.44
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 183.41
+    },
+    {
+      "project_id": "ballarat-energy-storage-system",
+      "project_name": "Ballarat Energy Storage System",
+      "capacity_mw": 30.0,
+      "storage_mwh": 30.09,
+      "state": "VIC",
+      "participant_id": "BALBESS",
+      "first_date": "2024-08-01",
+      "last_date": "2026-03-31",
+      "total_bids": 7296,
+      "energy_bids": 1216,
+      "fcas_bids": 6080,
+      "fcas_services": 8,
+      "rebid_pct": 94.4,
+      "gen_pricebands": [
+        -975.63,
+        0.0,
+        50.67,
+        104.74,
+        135.19,
+        196.66,
+        292.03,
+        448.9,
+        1534.34,
+        2528.16
+      ],
+      "load_pricebands": [
+        -967.76,
+        -38.89,
+        9.19,
+        19.38,
+        56.92,
+        86.17,
+        112.4,
+        150.2,
+        310.34,
+        1163.01
+      ],
+      "load_strategy": "defensive",
+      "target_spread": 78.27
+    },
+    {
+      "project_id": "torrens-island-bess",
+      "project_name": "Torrens Island BESS",
+      "capacity_mw": 250.0,
+      "storage_mwh": 249.61,
+      "state": "SA",
+      "participant_id": "TIPSCO",
+      "first_date": "2024-08-01",
+      "last_date": "2026-03-31",
+      "total_bids": 7296,
+      "energy_bids": 1216,
+      "fcas_bids": 6080,
+      "fcas_services": 8,
+      "rebid_pct": 99.2,
+      "gen_pricebands": [
+        -999.53,
+        13.76,
+        70.63,
+        149.31,
+        251.3,
+        561.73,
+        4064.35,
+        9945.12,
+        15431.27,
+        18654.14
+      ],
+      "load_pricebands": [
+        -999.46,
+        -96.08,
+        -47.74,
+        -11.07,
+        29.94,
+        85.36,
+        154.6,
+        254.03,
+        1556.87,
+        18320.74
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 221.36
+    },
+    {
+      "project_id": "wandoan-south-bess",
+      "project_name": "Wandoan South BESS",
+      "capacity_mw": 100.0,
+      "storage_mwh": 150.0,
+      "state": "QLD",
+      "participant_id": "AGLWBESS",
+      "first_date": "2024-08-01",
+      "last_date": "2026-03-31",
+      "total_bids": 7296,
+      "energy_bids": 1216,
+      "fcas_bids": 6080,
+      "fcas_services": 8,
+      "rebid_pct": 98.2,
+      "gen_pricebands": [
+        -974.22,
+        0.0,
+        65.6,
+        105.55,
+        183.78,
+        268.63,
+        489.95,
+        10125.45,
+        13917.18,
+        18387.75
+      ],
+      "load_pricebands": [
+        -996.22,
+        -26.35,
+        -1.72,
+        41.77,
+        85.22,
+        164.15,
+        269.85,
+        519.78,
+        14944.39,
+        18685.38
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 98.56
+    },
+    {
+      "project_id": "hazelwood-battery-energy-storage-system-hbess",
+      "project_name": "Hazelwood Battery Energy Storage System (HBESS)",
+      "capacity_mw": 150.0,
+      "storage_mwh": 162.0,
+      "state": "VIC",
+      "participant_id": "HBESS",
+      "first_date": "2024-08-14",
+      "last_date": "2026-03-31",
+      "total_bids": 7140,
+      "energy_bids": 1190,
+      "fcas_bids": 5950,
+      "fcas_services": 8,
+      "rebid_pct": 98.5,
+      "gen_pricebands": [
+        -970.42,
+        70.98,
+        120.4,
+        165.24,
+        217.09,
+        299.94,
+        906.04,
+        3744.51,
+        9519.36,
+        18248.84
+      ],
+      "load_pricebands": [
+        -976.87,
+        -97.11,
+        -45.92,
+        -24.7,
+        -1.88,
+        22.69,
+        54.81,
+        131.7,
+        342.22,
+        880.79
+      ],
+      "load_strategy": "defensive",
+      "target_spread": 218.97
+    },
+    {
+      "project_id": "pine-lodge-bess",
+      "project_name": "Pine Lodge BESS",
+      "capacity_mw": 250.0,
+      "storage_mwh": 550.0,
+      "state": "VIC",
+      "participant_id": "MONDO",
+      "first_date": "2024-08-14",
+      "last_date": "2026-03-31",
+      "total_bids": 7140,
+      "energy_bids": 1190,
+      "fcas_bids": 5950,
+      "fcas_services": 8,
+      "rebid_pct": 98.2,
+      "gen_pricebands": [
+        -1023.46,
+        52.19,
+        90.18,
+        143.67,
+        179.92,
+        225.24,
+        294.86,
+        921.76,
+        3276.36,
+        19247.26
+      ],
+      "load_pricebands": [
+        -1023.46,
+        -117.63,
+        -44.21,
+        -25.42,
+        11.75,
+        53.07,
+        103.98,
+        202.06,
+        921.38,
+        19247.26
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 168.17
+    },
+    {
+      "project_id": "dalrymple-bess",
+      "project_name": "Dalrymple BESS",
+      "capacity_mw": 30.0,
+      "storage_mwh": 9.0,
+      "state": "SA",
+      "participant_id": "SAWCML",
+      "first_date": "2024-09-05",
+      "last_date": "2026-03-31",
+      "total_bids": 6876,
+      "energy_bids": 1146,
+      "fcas_bids": 5730,
+      "fcas_services": 8,
+      "rebid_pct": 92.4,
+      "gen_pricebands": [
+        -966.32,
+        0.01,
+        53.27,
+        94.72,
+        165.77,
+        270.4,
+        369.23,
+        984.96,
+        3944.95,
+        9863.96
+      ],
+      "load_pricebands": [
+        -966.32,
+        -443.7,
+        -171.54,
+        -87.7,
+        18.85,
+        53.47,
+        132.58,
+        221.77,
+        345.91,
+        496.59
+      ],
+      "load_strategy": "defensive",
+      "target_spread": 146.92
+    },
+    {
+      "project_id": "hornsdale-power-reserve",
+      "project_name": "Hornsdale Power Reserve",
+      "capacity_mw": 194.0,
+      "storage_mwh": 194.0,
+      "state": "SA",
+      "participant_id": "HORNSPR",
+      "first_date": "2024-09-11",
+      "last_date": "2026-03-31",
+      "total_bids": 6804,
+      "energy_bids": 1134,
+      "fcas_bids": 5670,
+      "fcas_services": 8,
+      "rebid_pct": 97.0,
+      "gen_pricebands": [
+        -948.58,
+        -46.42,
+        59.67,
+        163.59,
+        276.51,
+        445.86,
+        1280.29,
+        4433.48,
+        11554.75,
+        17926.85
+      ],
+      "load_pricebands": [
+        -949.18,
+        -216.94,
+        -63.58,
+        -20.97,
+        38.81,
+        97.47,
+        161.77,
+        316.58,
+        633.64,
+        17943.34
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 237.7
+    },
+    {
+      "project_id": "victorian-big-battery",
+      "project_name": "Victorian Big Battery",
+      "capacity_mw": 300.0,
+      "storage_mwh": 450.0,
+      "state": "VIC",
+      "participant_id": "VICBAT",
+      "first_date": "2024-09-12",
+      "last_date": "2026-03-31",
+      "total_bids": 6792,
+      "energy_bids": 1132,
+      "fcas_bids": 5660,
+      "fcas_services": 8,
+      "rebid_pct": 95.8,
+      "gen_pricebands": [
+        -953.86,
+        0.04,
+        103.65,
+        205.98,
+        315.49,
+        373.6,
+        939.69,
+        3708.47,
+        10658.97,
+        18043.17
+      ],
+      "load_pricebands": [
+        -953.87,
+        -259.84,
+        -86.91,
+        -16.59,
+        9.89,
+        34.91,
+        106.19,
+        246.18,
+        459.4,
+        18046.14
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 305.6
+    },
+    {
+      "project_id": "wallgrove-grid-battery-project",
+      "project_name": "Wallgrove Grid Battery project",
+      "capacity_mw": 50.0,
+      "storage_mwh": 75.0,
+      "state": "NSW",
+      "participant_id": "WALGBESS",
+      "first_date": "2024-09-25",
+      "last_date": "2026-03-31",
+      "total_bids": 6636,
+      "energy_bids": 1106,
+      "fcas_bids": 5530,
+      "fcas_services": 8,
+      "rebid_pct": 97.2,
+      "gen_pricebands": [
+        -977.86,
+        -457.33,
+        112.29,
+        240.83,
+        389.59,
+        676.24,
+        3116.35,
+        6523.31,
+        14511.29,
+        18496.01
+      ],
+      "load_pricebands": [
+        -977.67,
+        -674.57,
+        -31.13,
+        44.34,
+        195.71,
+        293.69,
+        899.31,
+        2383.65,
+        4085.57,
+        18504.03
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 193.88
+    },
+    {
+      "project_id": "bouldercombe-battery-project",
+      "project_name": "Bouldercombe Battery project",
+      "capacity_mw": 50.0,
+      "storage_mwh": 100.0,
+      "state": "QLD",
+      "participant_id": "BOULBESS",
+      "first_date": "2024-10-03",
+      "last_date": "2026-03-31",
+      "total_bids": 6540,
+      "energy_bids": 1090,
+      "fcas_bids": 5450,
+      "fcas_services": 8,
+      "rebid_pct": 97.5,
+      "gen_pricebands": [
+        -906.3,
+        -6.94,
+        68.72,
+        129.98,
+        260.12,
+        339.05,
+        937.29,
+        3733.79,
+        9399.07,
+        17147.73
+      ],
+      "load_pricebands": [
+        -933.58,
+        -87.75,
+        -31.75,
+        -12.41,
+        9.76,
+        34.92,
+        85.16,
+        216.76,
+        517.84,
+        17621.87
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 250.36
+    },
+    {
+      "project_id": "chinchilla-bess",
+      "project_name": "Chinchilla BESS",
+      "capacity_mw": 100.0,
+      "storage_mwh": 200.0,
+      "state": "QLD",
+      "participant_id": "CSENERGY",
+      "first_date": "2024-10-17",
+      "last_date": "2026-03-31",
+      "total_bids": 6372,
+      "energy_bids": 1062,
+      "fcas_bids": 5310,
+      "fcas_services": 8,
+      "rebid_pct": 88.9,
+      "gen_pricebands": [
+        -941.29,
+        78.4,
+        112.36,
+        137.81,
+        174.51,
+        252.84,
+        448.03,
+        1818.68,
+        7665.11,
+        17879.13
+      ],
+      "load_pricebands": [
+        -957.38,
+        -29.02,
+        -16.96,
+        -0.45,
+        21.6,
+        56.82,
+        96.44,
+        152.77,
+        373.71,
+        14661.67
+      ],
+      "load_strategy": "moderate",
+      "target_spread": 152.91
+    },
+    {
+      "project_id": "rangebank-bess",
+      "project_name": "Rangebank BESS",
+      "capacity_mw": 200.0,
+      "storage_mwh": 400.0,
+      "state": "VIC",
+      "participant_id": "RANGBESS",
+      "first_date": "2024-08-12",
+      "last_date": "2026-03-31",
+      "total_bids": 6044,
+      "energy_bids": 1194,
+      "fcas_bids": 4850,
+      "fcas_services": 8,
+      "rebid_pct": 82.1,
+      "gen_pricebands": [
+        -967.67,
+        -2.38,
+        32.8,
+        66.98,
+        127.25,
+        217.13,
+        418.14,
+        1386.91,
+        6129.8,
+        18202.08
+      ],
+      "load_pricebands": [
+        -972.43,
+        -33.99,
+        9.82,
+        46.37,
+        82.09,
+        145.22,
+        242.36,
+        400.8,
+        3579.75,
+        18303.61
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 45.16
+    },
+    {
+      "project_id": "blyth-bess",
+      "project_name": "Blyth BESS",
+      "capacity_mw": 200.0,
+      "storage_mwh": 400.0,
+      "state": "SA",
+      "participant_id": "BLYTHBAT",
+      "first_date": "2024-08-19",
+      "last_date": "2026-03-31",
+      "total_bids": 4280,
+      "energy_bids": 1180,
+      "fcas_bids": 3100,
+      "fcas_services": 8,
+      "rebid_pct": 85.8,
+      "gen_pricebands": [
+        -933.06,
+        0.21,
+        61.12,
+        129.14,
+        211.6,
+        396.02,
+        1241.94,
+        5421.01,
+        9034.35,
+        17610.93
+      ],
+      "load_pricebands": [
+        -954.36,
+        -126.98,
+        -51.31,
+        -17.78,
+        -1.03,
+        24.48,
+        70.43,
+        150.52,
+        343.44,
+        18021.88
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 212.63
+    },
+    {
+      "project_id": "capital-battery",
+      "project_name": "Capital Battery",
+      "capacity_mw": 100.0,
+      "storage_mwh": 199.98,
+      "state": "NSW",
+      "participant_id": "CAPBESS",
+      "first_date": "2024-09-11",
+      "last_date": "2026-03-31",
+      "total_bids": 3184,
+      "energy_bids": 1134,
+      "fcas_bids": 2050,
+      "fcas_services": 8,
+      "rebid_pct": 85.9,
+      "gen_pricebands": [
+        -933.41,
+        -431.12,
+        5.19,
+        76.86,
+        180.74,
+        394.02,
+        1124.27,
+        8143.61,
+        11920.13,
+        17663.04
+      ],
+      "load_pricebands": [
+        -1000.02,
+        -164.85,
+        -15.36,
+        2.77,
+        46.37,
+        115.16,
+        236.43,
+        450.73,
+        881.73,
+        18911.92
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 134.37
+    },
+    {
+      "project_id": "waratah-super-battery",
+      "project_name": "Waratah Super Battery",
+      "capacity_mw": 850.0,
+      "storage_mwh": 1680.0,
+      "state": "NSW",
+      "participant_id": "WTAHBESS",
+      "first_date": "2024-09-02",
+      "last_date": "2026-03-31",
+      "total_bids": 2712,
+      "energy_bids": 1152,
+      "fcas_bids": 1560,
+      "fcas_services": 8,
+      "rebid_pct": 77.4,
+      "gen_pricebands": [
+        -983.87,
+        -103.1,
+        59.95,
+        101.21,
+        169.19,
+        305.18,
+        607.74,
+        3982.32,
+        12492.85,
+        18535.18
+      ],
+      "load_pricebands": [
+        -991.3,
+        -311.25,
+        -35.88,
+        -22.35,
+        11.21,
+        51.27,
+        127.86,
+        252.82,
+        1002.42,
+        18670.37
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 157.98
+    },
+    {
+      "project_id": "eraring-battery",
+      "project_name": "Eraring Battery",
+      "capacity_mw": 700.0,
+      "storage_mwh": 3160.0,
+      "state": "NSW",
+      "participant_id": "OEBESS",
+      "first_date": "2025-03-03",
+      "last_date": "2026-03-31",
+      "total_bids": 2016,
+      "energy_bids": 1016,
+      "fcas_bids": 1000,
+      "fcas_services": 8,
+      "rebid_pct": 32.9,
+      "gen_pricebands": [
+        -902.32,
+        -58.9,
+        16.54,
+        40.84,
+        65.62,
+        125.65,
+        344.68,
+        1719.11,
+        4591.91,
+        17676.06
+      ],
+      "load_pricebands": [
+        -672.73,
+        -22.93,
+        -3.47,
+        7.83,
+        20.7,
+        45.68,
+        79.44,
+        133.74,
+        291.86,
+        14730.11
+      ],
+      "load_strategy": "moderate",
+      "target_spread": 44.92
+    },
+    {
+      "project_id": "brendale-bess",
+      "project_name": "Brendale BESS",
+      "capacity_mw": 205.0,
+      "storage_mwh": 409.92,
+      "state": "QLD",
+      "participant_id": "BRNDBESS",
+      "first_date": "2025-09-01",
+      "last_date": "2026-03-31",
+      "total_bids": 1634,
+      "energy_bids": 424,
+      "fcas_bids": 1210,
+      "fcas_services": 8,
+      "rebid_pct": 88.9,
+      "gen_pricebands": [
+        -986.93,
+        17.93,
+        46.05,
+        69.47,
+        103.77,
+        191.57,
+        388.88,
+        6118.37,
+        9124.78,
+        20038.37
+      ],
+      "load_pricebands": [
+        -987.23,
+        -60.74,
+        -6.7,
+        4.58,
+        19.28,
+        39.08,
+        77.98,
+        150.6,
+        588.63,
+        20044.38
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 84.49
+    },
+    {
+      "project_id": "supernode-bess",
+      "project_name": "Supernode BESS",
+      "capacity_mw": 1300.0,
+      "storage_mwh": 2600.0,
+      "state": "QLD",
+      "participant_id": "SNODE1",
+      "first_date": "2025-09-01",
+      "last_date": "2026-03-31",
+      "total_bids": 1512,
+      "energy_bids": 512,
+      "fcas_bids": 1000,
+      "fcas_services": 8,
+      "rebid_pct": 17.7,
+      "gen_pricebands": [
+        -870.94,
+        20.07,
+        40.58,
+        61.73,
+        100.82,
+        142.04,
+        243.32,
+        851.42,
+        4546.23,
+        17658.93
+      ],
+      "load_pricebands": [
+        -453.77,
+        -40.23,
+        -3.58,
+        28.37,
+        53.16,
+        82.08,
+        123.53,
+        230.35,
+        608.04,
+        12641.56
+      ],
+      "load_strategy": "moderate",
+      "target_spread": 47.66
+    },
+    {
+      "project_id": "tarong-bess-stanwell",
+      "project_name": "Tarong BESS - Stanwell",
+      "capacity_mw": 300.0,
+      "storage_mwh": 600.0,
+      "state": "QLD",
+      "participant_id": "STANWELL",
+      "first_date": "2025-03-30",
+      "last_date": "2026-03-31",
+      "total_bids": 1244,
+      "energy_bids": 734,
+      "fcas_bids": 510,
+      "fcas_services": 8,
+      "rebid_pct": 6.8,
+      "gen_pricebands": [
+        -957.19,
+        -49.7,
+        -7.91,
+        22.58,
+        56.3,
+        103.9,
+        270.58,
+        781.5,
+        6230.97,
+        18769.3
+      ],
+      "load_pricebands": [
+        -972.9,
+        -56.09,
+        -19.32,
+        -10.48,
+        3.23,
+        30.78,
+        198.0,
+        619.85,
+        6038.88,
+        16732.54
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 53.07
+    },
+    {
+      "project_id": "broken-hill-bess",
+      "project_name": "Broken Hill BESS",
+      "capacity_mw": 50.0,
+      "storage_mwh": 60.28,
+      "state": "NSW",
+      "participant_id": "MACQGEN",
+      "first_date": "2024-08-01",
+      "last_date": "2026-03-31",
+      "total_bids": 1216,
+      "energy_bids": 1216,
+      "fcas_bids": 0,
+      "fcas_services": 0,
+      "rebid_pct": 90.6,
+      "gen_pricebands": [
+        -867.91,
+        0.0,
+        48.2,
+        68.2,
+        99.33,
+        229.98,
+        278.66,
+        1300.37,
+        12204.77,
+        16271.14
+      ],
+      "load_pricebands": [
+        -882.48,
+        -37.01,
+        -21.0,
+        35.71,
+        60.24,
+        99.97,
+        220.18,
+        1307.67,
+        13001.51,
+        16623.29
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 39.09
+    },
+    {
+      "project_id": "latrobe-valley-bess",
+      "project_name": "LaTrobe Valley BESS",
+      "capacity_mw": 200.0,
+      "storage_mwh": 195.8,
+      "state": "VIC",
+      "participant_id": "LIMBESS",
+      "first_date": "2025-09-22",
+      "last_date": "2026-03-31",
+      "total_bids": 382,
+      "energy_bids": 382,
+      "fcas_bids": 0,
+      "fcas_services": 0,
+      "rebid_pct": 9.9,
+      "gen_pricebands": [
+        -904.36,
+        -12.32,
+        11.19,
+        23.55,
+        56.92,
+        152.88,
+        303.14,
+        1248.31,
+        8576.38,
+        18363.78
+      ],
+      "load_pricebands": [
+        -908.57,
+        -544.39,
+        -39.67,
+        -14.18,
+        -0.84,
+        14.79,
+        29.37,
+        710.0,
+        3350.78,
+        15823.63
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 57.76
+    },
+    {
+      "project_id": "liddell-bess",
+      "project_name": "Liddell BESS",
+      "capacity_mw": 500.0,
+      "storage_mwh": 1000.0,
+      "state": "NSW",
+      "participant_id": "AGLLBESS",
+      "first_date": "2025-09-29",
+      "last_date": "2026-03-31",
+      "total_bids": 368,
+      "energy_bids": 368,
+      "fcas_bids": 0,
+      "fcas_services": 0,
+      "rebid_pct": 4.9,
+      "gen_pricebands": [
+        -942.58,
+        -98.35,
+        -19.64,
+        0.07,
+        49.32,
+        98.63,
+        295.63,
+        4919.52,
+        9839.04,
+        19138.49
+      ],
+      "load_pricebands": [
+        -948.58,
+        -98.35,
+        -19.64,
+        0.07,
+        49.32,
+        98.63,
+        295.63,
+        4919.52,
+        9839.04,
+        19260.3
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 0.0
+    },
+    {
+      "project_id": "orana-bess",
+      "project_name": "Orana BESS",
+      "capacity_mw": 415.0,
+      "storage_mwh": 1662.08,
+      "state": "NSW",
+      "participant_id": "ORABESS",
+      "first_date": "2025-12-11",
+      "last_date": "2026-03-31",
+      "total_bids": 222,
+      "energy_bids": 222,
+      "fcas_bids": 0,
+      "fcas_services": 0,
+      "rebid_pct": 18.0,
+      "gen_pricebands": [
+        -890.16,
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        18088.72
+      ],
+      "load_pricebands": [
+        -903.52,
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        18359.98
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 0.0
+    },
+    {
+      "project_id": "clements-gap-bess",
+      "project_name": "Clements Gap - BESS",
+      "capacity_mw": 60.0,
+      "storage_mwh": 120.0,
+      "state": "SA",
+      "participant_id": "CGBESS",
+      "first_date": "2025-12-17",
+      "last_date": "2026-03-31",
+      "total_bids": 210,
+      "energy_bids": 210,
+      "fcas_bids": 0,
+      "fcas_services": 0,
+      "rebid_pct": 11.4,
+      "gen_pricebands": [
+        -931.5,
+        -465.72,
+        -93.09,
+        0.11,
+        93.38,
+        279.91,
+        932.42,
+        4659.34,
+        9318.69,
+        18916.82
+      ],
+      "load_pricebands": [
+        -970.65,
+        -485.31,
+        -97.02,
+        0.12,
+        97.3,
+        291.66,
+        971.58,
+        4855.1,
+        9710.18,
+        19711.54
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": -3.92
+    },
+    {
+      "project_id": "terang-bess",
+      "project_name": "Terang BESS",
+      "capacity_mw": 100.0,
+      "storage_mwh": 199.88,
+      "state": "VIC",
+      "participant_id": "TRGBESS",
+      "first_date": "2026-02-03",
+      "last_date": "2026-03-31",
+      "total_bids": 114,
+      "energy_bids": 114,
+      "fcas_bids": 0,
+      "fcas_services": 0,
+      "rebid_pct": 7.0,
+      "gen_pricebands": [
+        -924.54,
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        18781.57
+      ],
+      "load_pricebands": [
+        -942.73,
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        19150.82
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": 0.0
+    },
+    {
+      "project_id": "mornington-bess",
+      "project_name": "Mornington BESS",
+      "capacity_mw": 540.0,
+      "storage_mwh": 1080.0,
+      "state": "VIC",
+      "participant_id": "MRNBESS",
+      "first_date": "2026-03-16",
+      "last_date": "2026-03-31",
+      "total_bids": 32,
+      "energy_bids": 32,
+      "fcas_bids": 0,
+      "fcas_services": 0,
+      "rebid_pct": 0.0,
+      "gen_pricebands": [
+        -804.7,
+        -402.17,
+        -80.1,
+        0.76,
+        81.98,
+        244.42,
+        810.71,
+        4035.51,
+        8071.01,
+        16383.41
+      ],
+      "load_pricebands": [
+        -811.2,
+        -405.41,
+        -80.75,
+        0.75,
+        82.62,
+        246.36,
+        817.2,
+        4068.0,
+        8136.0,
+        16515.36
+      ],
+      "load_strategy": "aggressive",
+      "target_spread": -0.64
+    }
+  ],
+  "monthly_trends": [
+    {
+      "month": "2024-08",
+      "active_duids": 10,
+      "total_bids": 2420,
+      "avg_gen_mid": 156.76,
+      "avg_load_mid": 68.81,
+      "avg_gen_cap": 14020.86,
+      "avg_gen_floor": -798.68,
+      "max_cap": 18080.19,
+      "rebid_pct": 80.3,
+      "target_spread": 87.95
+    },
+    {
+      "month": "2024-09",
+      "active_duids": 16,
+      "total_bids": 3650,
+      "avg_gen_mid": 114.42,
+      "avg_load_mid": 43.42,
+      "avg_gen_cap": 11777.41,
+      "avg_gen_floor": -793.67,
+      "max_cap": 18080.19,
+      "rebid_pct": 64.8,
+      "target_spread": 71.0
+    },
+    {
+      "month": "2024-10",
+      "active_duids": 18,
+      "total_bids": 4930,
+      "avg_gen_mid": 180.47,
+      "avg_load_mid": 65.23,
+      "avg_gen_cap": 13088.45,
+      "avg_gen_floor": -919.25,
+      "max_cap": 18080.19,
+      "rebid_pct": 82.9,
+      "target_spread": 115.24
+    },
+    {
+      "month": "2024-11",
+      "active_duids": 19,
+      "total_bids": 5196,
+      "avg_gen_mid": 195.46,
+      "avg_load_mid": 57.39,
+      "avg_gen_cap": 13623.64,
+      "avg_gen_floor": -939.38,
+      "max_cap": 18080.19,
+      "rebid_pct": 87.0,
+      "target_spread": 138.07
+    },
+    {
+      "month": "2024-12",
+      "active_duids": 19,
+      "total_bids": 5818,
+      "avg_gen_mid": 210.13,
+      "avg_load_mid": 42.26,
+      "avg_gen_cap": 14064.47,
+      "avg_gen_floor": -961.52,
+      "max_cap": 18080.19,
+      "rebid_pct": 89.7,
+      "target_spread": 167.87
+    },
+    {
+      "month": "2025-01",
+      "active_duids": 19,
+      "total_bids": 5828,
+      "avg_gen_mid": 217.15,
+      "avg_load_mid": 41.7,
+      "avg_gen_cap": 14064.47,
+      "avg_gen_floor": -961.51,
+      "max_cap": 18080.19,
+      "rebid_pct": 95.2,
+      "target_spread": 175.45
+    },
+    {
+      "month": "2025-02",
+      "active_duids": 19,
+      "total_bids": 5264,
+      "avg_gen_mid": 211.86,
+      "avg_load_mid": 33.66,
+      "avg_gen_cap": 14064.47,
+      "avg_gen_floor": -961.5,
+      "max_cap": 18080.19,
+      "rebid_pct": 95.8,
+      "target_spread": 178.2
+    },
+    {
+      "month": "2025-03",
+      "active_duids": 21,
+      "total_bids": 5890,
+      "avg_gen_mid": 190.12,
+      "avg_load_mid": 23.1,
+      "avg_gen_cap": 14117.37,
+      "avg_gen_floor": -956.54,
+      "max_cap": 18080.19,
+      "rebid_pct": 94.3,
+      "target_spread": 167.02
+    },
+    {
+      "month": "2025-04",
+      "active_duids": 21,
+      "total_bids": 5760,
+      "avg_gen_mid": 178.79,
+      "avg_load_mid": 24.32,
+      "avg_gen_cap": 14312.25,
+      "avg_gen_floor": -960.59,
+      "max_cap": 18080.19,
+      "rebid_pct": 92.8,
+      "target_spread": 154.47
+    },
+    {
+      "month": "2025-05",
+      "active_duids": 21,
+      "total_bids": 6012,
+      "avg_gen_mid": 178.64,
+      "avg_load_mid": 30.73,
+      "avg_gen_cap": 14365.83,
+      "avg_gen_floor": -963.7,
+      "max_cap": 18080.19,
+      "rebid_pct": 95.6,
+      "target_spread": 147.91
+    },
+    {
+      "month": "2025-06",
+      "active_duids": 21,
+      "total_bids": 6060,
+      "avg_gen_mid": 183.73,
+      "avg_load_mid": 41.25,
+      "avg_gen_cap": 14354.98,
+      "avg_gen_floor": -963.69,
+      "max_cap": 18080.19,
+      "rebid_pct": 91.5,
+      "target_spread": 142.48
+    },
+    {
+      "month": "2025-07",
+      "active_duids": 21,
+      "total_bids": 6262,
+      "avg_gen_mid": 208.1,
+      "avg_load_mid": 46.05,
+      "avg_gen_cap": 16655.58,
+      "avg_gen_floor": -969.46,
+      "max_cap": 21089.67,
+      "rebid_pct": 97.1,
+      "target_spread": 162.05
+    },
+    {
+      "month": "2025-08",
+      "active_duids": 21,
+      "total_bids": 6262,
+      "avg_gen_mid": 205.97,
+      "avg_load_mid": 46.33,
+      "avg_gen_cap": 16691.32,
+      "avg_gen_floor": -969.46,
+      "max_cap": 21089.67,
+      "rebid_pct": 92.6,
+      "target_spread": 159.64
+    },
+    {
+      "month": "2025-09",
+      "active_duids": 26,
+      "total_bids": 6480,
+      "avg_gen_mid": 188.13,
+      "avg_load_mid": 45.87,
+      "avg_gen_cap": 15545.14,
+      "avg_gen_floor": -892.69,
+      "max_cap": 21089.67,
+      "rebid_pct": 86.4,
+      "target_spread": 142.26
+    },
+    {
+      "month": "2025-10",
+      "active_duids": 26,
+      "total_bids": 6932,
+      "avg_gen_mid": 166.15,
+      "avg_load_mid": 47.15,
+      "avg_gen_cap": 17233.53,
+      "avg_gen_floor": -967.73,
+      "max_cap": 21089.67,
+      "rebid_pct": 92.7,
+      "target_spread": 119.0
+    },
+    {
+      "month": "2025-11",
+      "active_duids": 26,
+      "total_bids": 7030,
+      "avg_gen_mid": 168.33,
+      "avg_load_mid": 34.5,
+      "avg_gen_cap": 17257.38,
+      "avg_gen_floor": -968.94,
+      "max_cap": 21089.67,
+      "rebid_pct": 91.8,
+      "target_spread": 133.83
+    },
+    {
+      "month": "2025-12",
+      "active_duids": 28,
+      "total_bids": 8084,
+      "avg_gen_mid": 180.6,
+      "avg_load_mid": 34.69,
+      "avg_gen_cap": 18215.07,
+      "avg_gen_floor": -957.29,
+      "max_cap": 21089.67,
+      "rebid_pct": 92.5,
+      "target_spread": 145.91
+    },
+    {
+      "month": "2026-01",
+      "active_duids": 28,
+      "total_bids": 8556,
+      "avg_gen_mid": 183.91,
+      "avg_load_mid": 32.38,
+      "avg_gen_cap": 18646.84,
+      "avg_gen_floor": -969.54,
+      "max_cap": 21089.67,
+      "rebid_pct": 90.1,
+      "target_spread": 151.53
+    },
+    {
+      "month": "2026-02",
+      "active_duids": 32,
+      "total_bids": 8054,
+      "avg_gen_mid": 163.73,
+      "avg_load_mid": 32.99,
+      "avg_gen_cap": 18014.66,
+      "avg_gen_floor": -929.83,
+      "max_cap": 21089.67,
+      "rebid_pct": 86.1,
+      "target_spread": 130.74
+    },
+    {
+      "month": "2026-03",
+      "active_duids": 34,
+      "total_bids": 9202,
+      "avg_gen_mid": 139.61,
+      "avg_load_mid": 38.45,
+      "avg_gen_cap": 18464.93,
+      "avg_gen_floor": -952.5,
+      "max_cap": 21089.67,
+      "rebid_pct": 83.8,
+      "target_spread": 101.16
+    }
+  ],
+  "quarterly_evolution": {
+    "hornsdale-power-reserve": [
+      {
+        "quarter": "2024-Q3",
+        "gen_mid": 127.06,
+        "load_mid": 52.18,
+        "gen_cap": 6081.31,
+        "load_cap": 6061.71,
+        "target_spread": 74.88,
+        "rebid_pct": 30.0
+      },
+      {
+        "quarter": "2024-Q4",
+        "gen_mid": 348.18,
+        "load_mid": 73.8,
+        "gen_cap": 16899.75,
+        "load_cap": 16843.75,
+        "target_spread": 274.38,
+        "rebid_pct": 97.8
+      },
+      {
+        "quarter": "2025-Q1",
+        "gen_mid": 280.65,
+        "load_mid": -26.67,
+        "gen_cap": 16899.75,
+        "load_cap": 16843.75,
+        "target_spread": 307.32,
+        "rebid_pct": 98.9
+      },
+      {
+        "quarter": "2025-Q2",
+        "gen_mid": 267.14,
+        "load_mid": -11.93,
+        "gen_cap": 16899.75,
+        "load_cap": 16843.75,
+        "target_spread": 279.07,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2025-Q3",
+        "gen_mid": 351.93,
+        "load_mid": 64.45,
+        "gen_cap": 19814.83,
+        "load_cap": 19906.18,
+        "target_spread": 287.48,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2025-Q4",
+        "gen_mid": 269.76,
+        "load_mid": 64.45,
+        "gen_cap": 19814.83,
+        "load_cap": 19906.18,
+        "target_spread": 205.31,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2026-Q1",
+        "gen_mid": 171.61,
+        "load_mid": 64.45,
+        "gen_cap": 19814.83,
+        "load_cap": 19906.18,
+        "target_spread": 107.16,
+        "rebid_pct": 100.0
+      }
+    ],
+    "victorian-big-battery": [
+      {
+        "quarter": "2024-Q3",
+        "gen_mid": 8.0,
+        "load_mid": 8.0,
+        "gen_cap": 256.0,
+        "load_cap": 256.0,
+        "target_spread": 0.0,
+        "rebid_pct": 0.0
+      },
+      {
+        "quarter": "2024-Q4",
+        "gen_mid": 351.93,
+        "load_mid": 59.19,
+        "gen_cap": 17103.12,
+        "load_cap": 17066.77,
+        "target_spread": 292.74,
+        "rebid_pct": 97.8
+      },
+      {
+        "quarter": "2025-Q1",
+        "gen_mid": 355.71,
+        "load_mid": 0.0,
+        "gen_cap": 17288.25,
+        "load_cap": 17251.5,
+        "target_spread": 355.71,
+        "rebid_pct": 98.9
+      },
+      {
+        "quarter": "2025-Q2",
+        "gen_mid": 355.71,
+        "load_mid": 0.0,
+        "gen_cap": 17288.25,
+        "load_cap": 17251.5,
+        "target_spread": 355.71,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2025-Q3",
+        "gen_mid": 356.36,
+        "load_mid": 0.0,
+        "gen_cap": 20090.91,
+        "load_cap": 20133.54,
+        "target_spread": 356.36,
+        "rebid_pct": 98.9
+      },
+      {
+        "quarter": "2025-Q4",
+        "gen_mid": 268.99,
+        "load_mid": 0.0,
+        "gen_cap": 20090.91,
+        "load_cap": 20133.54,
+        "target_spread": 268.99,
+        "rebid_pct": 98.9
+      },
+      {
+        "quarter": "2026-Q1",
+        "gen_mid": 268.03,
+        "load_mid": 0.0,
+        "gen_cap": 20090.91,
+        "load_cap": 20133.54,
+        "target_spread": 268.03,
+        "rebid_pct": 100.0
+      }
+    ],
+    "waratah-super-battery": [
+      {
+        "quarter": "2024-Q3",
+        "gen_mid": 0.55,
+        "load_mid": 0.46,
+        "gen_cap": 16087.54,
+        "load_cap": 16261.88,
+        "target_spread": 0.09,
+        "rebid_pct": 37.9
+      },
+      {
+        "quarter": "2024-Q4",
+        "gen_mid": 59.4,
+        "load_mid": 5.61,
+        "gen_cap": 17260.25,
+        "load_cap": 17447.5,
+        "target_spread": 53.79,
+        "rebid_pct": 54.3
+      },
+      {
+        "quarter": "2025-Q1",
+        "gen_mid": 261.78,
+        "load_mid": 14.11,
+        "gen_cap": 17260.25,
+        "load_cap": 17447.5,
+        "target_spread": 247.67,
+        "rebid_pct": 15.6
+      },
+      {
+        "quarter": "2025-Q2",
+        "gen_mid": 182.79,
+        "load_mid": 14.11,
+        "gen_cap": 17260.25,
+        "load_cap": 17447.5,
+        "target_spread": 168.68,
+        "rebid_pct": 61.5
+      },
+      {
+        "quarter": "2025-Q3",
+        "gen_mid": 208.6,
+        "load_mid": 33.12,
+        "gen_cap": 20064.52,
+        "load_cap": 20143.69,
+        "target_spread": 175.48,
+        "rebid_pct": 70.7
+      },
+      {
+        "quarter": "2025-Q4",
+        "gen_mid": 182.38,
+        "load_mid": 3.06,
+        "gen_cap": 20064.52,
+        "load_cap": 20143.69,
+        "target_spread": 179.32,
+        "rebid_pct": 83.7
+      },
+      {
+        "quarter": "2026-Q1",
+        "gen_mid": 175.64,
+        "load_mid": 0.47,
+        "gen_cap": 20064.52,
+        "load_cap": 20143.69,
+        "target_spread": 175.17,
+        "rebid_pct": 96.7
+      }
+    ],
+    "torrens-island-bess": [
+      {
+        "quarter": "2024-Q3",
+        "gen_mid": 234.0,
+        "load_mid": 87.67,
+        "gen_cap": 17378.49,
+        "load_cap": 17493.0,
+        "target_spread": 146.33,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2024-Q4",
+        "gen_mid": 302.0,
+        "load_mid": 69.99,
+        "gen_cap": 17419.89,
+        "load_cap": 17414.77,
+        "target_spread": 232.01,
+        "rebid_pct": 98.9
+      },
+      {
+        "quarter": "2025-Q1",
+        "gen_mid": 243.03,
+        "load_mid": 13.71,
+        "gen_cap": 17402.52,
+        "load_cap": 17397.04,
+        "target_spread": 229.32,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2025-Q2",
+        "gen_mid": 219.25,
+        "load_mid": 9.82,
+        "gen_cap": 17402.52,
+        "load_cap": 17397.04,
+        "target_spread": 209.43,
+        "rebid_pct": 95.6
+      },
+      {
+        "quarter": "2025-Q3",
+        "gen_mid": 324.98,
+        "load_mid": 48.99,
+        "gen_cap": 20175.92,
+        "load_cap": 19457.77,
+        "target_spread": 275.99,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2025-Q4",
+        "gen_mid": 224.32,
+        "load_mid": 2.06,
+        "gen_cap": 20201.0,
+        "load_cap": 19400.0,
+        "target_spread": 222.26,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2026-Q1",
+        "gen_mid": 204.1,
+        "load_mid": -4.53,
+        "gen_cap": 20160.71,
+        "load_cap": 19400.0,
+        "target_spread": 208.63,
+        "rebid_pct": 100.0
+      }
+    ],
+    "wallgrove-grid-battery-project": [
+      {
+        "quarter": "2024-Q3",
+        "gen_mid": 8.0,
+        "load_mid": 8.0,
+        "gen_cap": 256.0,
+        "load_cap": 256.0,
+        "target_spread": 0.0,
+        "rebid_pct": 0.0
+      },
+      {
+        "quarter": "2024-Q4",
+        "gen_mid": 277.59,
+        "load_mid": 185.55,
+        "gen_cap": 16204.13,
+        "load_cap": 16202.51,
+        "target_spread": 92.04,
+        "rebid_pct": 88.0
+      },
+      {
+        "quarter": "2025-Q1",
+        "gen_mid": 299.79,
+        "load_mid": 200.17,
+        "gen_cap": 17517.5,
+        "load_cap": 17515.75,
+        "target_spread": 99.62,
+        "rebid_pct": 98.9
+      },
+      {
+        "quarter": "2025-Q2",
+        "gen_mid": 304.76,
+        "load_mid": 200.17,
+        "gen_cap": 17517.5,
+        "load_cap": 17515.75,
+        "target_spread": 104.59,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2025-Q3",
+        "gen_mid": 450.78,
+        "load_mid": 200.29,
+        "gen_cap": 20332.88,
+        "load_cap": 20326.86,
+        "target_spread": 250.49,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2025-Q4",
+        "gen_mid": 450.78,
+        "load_mid": 200.29,
+        "gen_cap": 20336.54,
+        "load_cap": 20330.45,
+        "target_spread": 250.49,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2026-Q1",
+        "gen_mid": 580.01,
+        "load_mid": 200.29,
+        "gen_cap": 20263.61,
+        "load_cap": 20330.45,
+        "target_spread": 379.72,
+        "rebid_pct": 100.0
+      }
+    ],
+    "eraring-battery": [
+      {
+        "quarter": "2025-Q1",
+        "gen_mid": 4.24,
+        "load_mid": 4.25,
+        "gen_cap": 16147.83,
+        "load_cap": 16188.56,
+        "target_spread": -0.01,
+        "rebid_pct": 27.6
+      },
+      {
+        "quarter": "2025-Q2",
+        "gen_mid": 15.06,
+        "load_mid": 3.32,
+        "gen_cap": 17325.0,
+        "load_cap": 17368.75,
+        "target_spread": 11.74,
+        "rebid_pct": 20.9
+      },
+      {
+        "quarter": "2025-Q3",
+        "gen_mid": 68.36,
+        "load_mid": 17.85,
+        "gen_cap": 20034.07,
+        "load_cap": 20099.03,
+        "target_spread": 50.51,
+        "rebid_pct": 9.8
+      },
+      {
+        "quarter": "2025-Q4",
+        "gen_mid": 102.25,
+        "load_mid": 15.22,
+        "gen_cap": 20034.07,
+        "load_cap": 18547.16,
+        "target_spread": 87.03,
+        "rebid_pct": 22.8
+      },
+      {
+        "quarter": "2026-Q1",
+        "gen_mid": 79.14,
+        "load_mid": 34.54,
+        "gen_cap": 15923.07,
+        "load_cap": 9203.06,
+        "target_spread": 44.6,
+        "rebid_pct": 60.3
+      }
+    ],
+    "supernode-bess": [
+      {
+        "quarter": "2025-Q3",
+        "gen_mid": 26.67,
+        "load_mid": 19.83,
+        "gen_cap": 3596.67,
+        "load_cap": 3596.67,
+        "target_spread": 6.84,
+        "rebid_pct": 0.0
+      },
+      {
+        "quarter": "2025-Q4",
+        "gen_mid": 119.47,
+        "load_mid": 76.06,
+        "gen_cap": 20300.0,
+        "load_cap": 20300.0,
+        "target_spread": 43.41,
+        "rebid_pct": 19.6
+      },
+      {
+        "quarter": "2026-Q1",
+        "gen_mid": 104.61,
+        "load_mid": 44.89,
+        "gen_cap": 18993.93,
+        "load_cap": 9408.51,
+        "target_spread": 59.72,
+        "rebid_pct": 58.2
+      }
+    ],
+    "wandoan-south-bess": [
+      {
+        "quarter": "2024-Q3",
+        "gen_mid": 187.36,
+        "load_mid": 102.12,
+        "gen_cap": 17156.43,
+        "load_cap": 17284.75,
+        "target_spread": 85.24,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2024-Q4",
+        "gen_mid": 187.36,
+        "load_mid": 102.12,
+        "gen_cap": 17091.93,
+        "load_cap": 17283.68,
+        "target_spread": 85.24,
+        "rebid_pct": 94.6
+      },
+      {
+        "quarter": "2025-Q1",
+        "gen_mid": 187.36,
+        "load_mid": 102.12,
+        "gen_cap": 17092.02,
+        "load_cap": 17284.75,
+        "target_spread": 85.24,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2025-Q2",
+        "gen_mid": 187.36,
+        "load_mid": 102.12,
+        "gen_cap": 17092.02,
+        "load_cap": 17284.75,
+        "target_spread": 85.24,
+        "rebid_pct": 97.8
+      },
+      {
+        "quarter": "2025-Q3",
+        "gen_mid": 187.8,
+        "load_mid": 104.07,
+        "gen_cap": 19884.68,
+        "load_cap": 20312.16,
+        "target_spread": 83.73,
+        "rebid_pct": 98.9
+      },
+      {
+        "quarter": "2025-Q4",
+        "gen_mid": 187.8,
+        "load_mid": 52.55,
+        "gen_cap": 19987.38,
+        "load_cap": 20433.98,
+        "target_spread": 135.25,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2026-Q1",
+        "gen_mid": 162.24,
+        "load_mid": 36.61,
+        "gen_cap": 19987.38,
+        "load_cap": 20433.98,
+        "target_spread": 125.63,
+        "rebid_pct": 100.0
+      }
+    ],
+    "bouldercombe-battery-project": [
+      {
+        "quarter": "2024-Q4",
+        "gen_mid": 248.89,
+        "load_mid": 59.12,
+        "gen_cap": 14988.2,
+        "load_cap": 15579.47,
+        "target_spread": 189.77,
+        "rebid_pct": 84.4
+      },
+      {
+        "quarter": "2025-Q1",
+        "gen_mid": 263.81,
+        "load_mid": 0.0,
+        "gen_cap": 16040.5,
+        "load_cap": 16674.0,
+        "target_spread": 263.81,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2025-Q2",
+        "gen_mid": 266.1,
+        "load_mid": 0.0,
+        "gen_cap": 16040.5,
+        "load_cap": 16674.0,
+        "target_spread": 266.1,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2025-Q3",
+        "gen_mid": 266.1,
+        "load_mid": 0.0,
+        "gen_cap": 18571.05,
+        "load_cap": 18971.49,
+        "target_spread": 266.1,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2025-Q4",
+        "gen_mid": 266.1,
+        "load_mid": 0.0,
+        "gen_cap": 18598.86,
+        "load_cap": 18996.74,
+        "target_spread": 266.1,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2026-Q1",
+        "gen_mid": 249.39,
+        "load_mid": 0.0,
+        "gen_cap": 18595.71,
+        "load_cap": 18785.51,
+        "target_spread": 249.39,
+        "rebid_pct": 100.0
+      }
+    ],
+    "hazelwood-battery-energy-storage-system-hbess": [
+      {
+        "quarter": "2024-Q3",
+        "gen_mid": 183.29,
+        "load_mid": 11.72,
+        "gen_cap": 15044.38,
+        "load_cap": 807.93,
+        "target_spread": 171.57,
+        "rebid_pct": 85.4
+      },
+      {
+        "quarter": "2024-Q4",
+        "gen_mid": 218.99,
+        "load_mid": -8.4,
+        "gen_cap": 17157.0,
+        "load_cap": 886.78,
+        "target_spread": 227.39,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2025-Q1",
+        "gen_mid": 218.99,
+        "load_mid": -17.9,
+        "gen_cap": 17157.0,
+        "load_cap": 886.78,
+        "target_spread": 236.89,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2025-Q2",
+        "gen_mid": 218.99,
+        "load_mid": -2.99,
+        "gen_cap": 17157.0,
+        "load_cap": 886.78,
+        "target_spread": 221.98,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2025-Q3",
+        "gen_mid": 218.94,
+        "load_mid": 12.26,
+        "gen_cap": 19898.06,
+        "load_cap": 887.59,
+        "target_spread": 206.68,
+        "rebid_pct": 98.9
+      },
+      {
+        "quarter": "2025-Q4",
+        "gen_mid": 218.94,
+        "load_mid": 3.76,
+        "gen_cap": 19898.06,
+        "load_cap": 887.59,
+        "target_spread": 215.18,
+        "rebid_pct": 100.0
+      },
+      {
+        "quarter": "2026-Q1",
+        "gen_mid": 225.59,
+        "load_mid": -5.55,
+        "gen_cap": 19898.06,
+        "load_cap": 887.6,
+        "target_spread": 231.14,
+        "rebid_pct": 98.9
+      }
+    ]
+  },
+  "rebid_reasons": [
+    {
+      "reason": "state_of_charge",
+      "count": 52582,
+      "projects": 19
+    },
+    {
+      "reason": "other",
+      "count": 22861,
+      "projects": 26
+    },
+    {
+      "reason": "capability_change",
+      "count": 15663,
+      "projects": 8
+    },
+    {
+      "reason": "price_forecast",
+      "count": 9161,
+      "projects": 15
+    },
+    {
+      "reason": "trapezium_update",
+      "count": 4718,
+      "projects": 3
+    },
+    {
+      "reason": "forecast_update",
+      "count": 2712,
+      "projects": 6
+    },
+    {
+      "reason": "demand",
+      "count": 1794,
+      "projects": 5
+    },
+    {
+      "reason": "availability",
+      "count": 1060,
+      "projects": 15
+    },
+    {
+      "reason": "fcas_enablement",
+      "count": 302,
+      "projects": 3
+    },
+    {
+      "reason": "outage",
+      "count": 170,
+      "projects": 13
+    },
+    {
+      "reason": "price_response",
+      "count": 90,
+      "projects": 5
+    }
+  ],
+  "insights": {
+    "mpc_shift": {
+      "first_new_mpc_date": "2025-07-01",
+      "old_mpc_approx": 18997,
+      "new_mpc_approx": 21090
+    },
+    "most_active_rebidders": [
+      {
+        "project_id": "torrens-island-bess",
+        "rebid_pct": 99.2
+      },
+      {
+        "project_id": "wandoan-south-bess",
+        "rebid_pct": 98.7
+      },
+      {
+        "project_id": "hazelwood-battery-energy-storage-system-hbess",
+        "rebid_pct": 98.5
+      },
+      {
+        "project_id": "pine-lodge-bess",
+        "rebid_pct": 98.2
+      },
+      {
+        "project_id": "bouldercombe-battery-project",
+        "rebid_pct": 97.4
+      }
+    ],
+    "least_active_rebidders": [
+      {
+        "project_id": "clements-gap-bess",
+        "rebid_pct": 11.4
+      },
+      {
+        "project_id": "latrobe-valley-bess",
+        "rebid_pct": 9.9
+      },
+      {
+        "project_id": "tarong-bess-stanwell",
+        "rebid_pct": 8.7
+      },
+      {
+        "project_id": "terang-bess",
+        "rebid_pct": 7.0
+      },
+      {
+        "project_id": "liddell-bess",
+        "rebid_pct": 4.9
+      }
+    ],
+    "participant_changes": [
+      {
+        "project_id": "victorian-big-battery",
+        "changes": [
+          {
+            "participant_id": "VICBAT",
+            "first_seen": "2024-09-12",
+            "last_seen": "2025-09-10"
+          },
+          {
+            "participant_id": "VBBHMCA3",
+            "first_seen": "2025-09-11",
+            "last_seen": "2026-03-31"
+          }
+        ]
+      },
+      {
+        "project_id": "eraring-battery",
+        "changes": [
+          {
+            "participant_id": "OEBESS",
+            "first_seen": "2025-03-03",
+            "last_seen": "2026-03-31"
+          },
+          {
+            "participant_id": "NESBESS",
+            "first_seen": "2026-02-17",
+            "last_seen": "2026-03-31"
+          }
+        ]
+      }
+    ],
+    "strategy_counts": {
+      "defensive": 4,
+      "moderate": 3,
+      "aggressive": 21
+    },
+    "fcas_only_energy": [
+      "broken-hill-bess",
+      "latrobe-valley-bess",
+      "liddell-bess",
+      "orana-bess",
+      "clements-gap-bess",
+      "terang-bess",
+      "mornington-bess"
+    ],
+    "fcas_full_stack": [
+      "riverina-bess",
+      "western-downs-battery-stage-1-and-2",
+      "ballarat-energy-storage-system",
+      "torrens-island-bess",
+      "wandoan-south-bess",
+      "hazelwood-battery-energy-storage-system-hbess",
+      "pine-lodge-bess",
+      "dalrymple-bess",
+      "hornsdale-power-reserve",
+      "victorian-big-battery",
+      "wallgrove-grid-battery-project",
+      "bouldercombe-battery-project",
+      "chinchilla-bess",
+      "rangebank-bess",
+      "blyth-bess",
+      "capital-battery",
+      "waratah-super-battery",
+      "eraring-battery",
+      "brendale-bess",
+      "supernode-bess",
+      "tarong-bess-stanwell"
+    ]
+  }
+}

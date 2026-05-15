@@ -1,0 +1,264 @@
+{
+  "last_updated": "2026-04-14",
+  "rezs": [
+    {
+      "id": "nsw-central-west-orana",
+      "name": "Central-West Orana REZ",
+      "state": "NSW",
+      "governance": "EnergyCo",
+      "network_operator": "Transgrid",
+      "capacity_gw": 7.15,
+      "projects_awarded": 10,
+      "access_model": "competitive_tender",
+      "access_fee_per_mw_pa": {"min": 4000, "max": 5000, "currency": "AUD", "cpi_indexed": true},
+      "fee_components": ["Hub-to-Project (H2P) infrastructure", "Common System Strength (CSS)", "Community benefit & employment levy"],
+      "fee_start_trigger": "commissioning",
+      "infrastructure_cost_b": 5.5,
+      "infrastructure_cost_note": "Massive blowout from original estimates. Quarterly payments to ACEREZ over 2025-29 total $1.51B. Financial close 4 Apr 2025.",
+      "timeline": {
+        "completion_target": "2028-2030",
+        "original_target": "2026-2027",
+        "delay_years": 2,
+        "delay_reasons": ["More capacity than originally planned", "Route changes for community concerns", "Labour/supply cost escalation"]
+      },
+      "community_benefit": true,
+      "community_benefit_detail": "Community benefit & employment program funded via access fees",
+      "status": "construction",
+      "issues": ["Cost blowout to $5.5B", "AEMO reports transmission costs 100% higher than 2024 estimates", "Community complaints about lack of consultation"],
+      "sources": [
+        {"title": "EnergyCo CWO REZ Access Scheme", "url": "https://www.energyco.nsw.gov.au/industry/access-schemes/central-west-orana-access-scheme"},
+        {"title": "AEMO Services Access Fee Guidelines", "url": "https://asl.org.au/-/media/services/files/products/rez/cwo/240410-cwo-rez-access-fee-guidelines.pdf"},
+        {"title": "RenewEconomy — $5.5B cost blowout", "url": "https://reneweconomy.com.au/cost-to-build-first-renewable-energy-zone-in-nsw-blows-out-to-5-5-billion/"}
+      ]
+    },
+    {
+      "id": "nsw-new-england",
+      "name": "New England REZ",
+      "state": "NSW",
+      "governance": "EnergyCo",
+      "network_operator": "Transgrid",
+      "capacity_gw": 6.0,
+      "capacity_detail": "Stage 1: 2.4 GW, Stage 2: 3.6 GW",
+      "access_model": "competitive_tender",
+      "access_fee_per_mw_pa": null,
+      "access_fee_note": "Draft Access Scheme Declaration expected end Jun 2026. Formal declaration by Minister end Sep 2026. Expected to follow CWO model.",
+      "infrastructure_cost_b": 5.0,
+      "infrastructure_cost_note": "Stage 1 ~$2.1B (220 km dual 500 kV Bayswater to NE REZ + 100 km 500 kV between hubs). Stage 2 ~$3B additional. Costs have actually fallen ~$3B from earlier estimates.",
+      "timeline": {
+        "completion_target": "Stage 1: 2032, Stage 2: 2034",
+        "original_target": "2027",
+        "delay_years": 5,
+        "delay_reasons": ["Network operator tender delayed", "EnergyCo reassessing commercial model", "Construction starts H2 2027, taking ~6 years"]
+      },
+      "community_benefit": true,
+      "status": "planning",
+      "issues": ["5-year delay from original target", "Barnaby Effect — land access negotiations", "Three-year delay reported in 2026"],
+      "sources": [
+        {"title": "EnergyCo NE REZ Access Scheme", "url": "https://www.energyco.nsw.gov.au/industry/access-schemes/new-england-rez-access-scheme"},
+        {"title": "RenewEconomy — 3-year delay", "url": "https://reneweconomy.com.au/barnaby-effect-mystery-surrounds-late-three-year-delay-for-huge-new-england-renewable-zone/"}
+      ]
+    },
+    {
+      "id": "nsw-hunter-central-coast",
+      "name": "Hunter-Central Coast REZ",
+      "state": "NSW",
+      "governance": "EnergyCo",
+      "network_operator": "Ausgrid",
+      "network_operator_note": "Only NSW REZ on a distribution network (not Transgrid)",
+      "capacity_gw": 1.0,
+      "capacity_detail": "1 GW network capacity enabling ~1.8 GW generation/storage",
+      "access_model": "competitive_tender",
+      "access_fee_per_mw_pa": null,
+      "access_fee_note": "Access scheme design in progress. Expected to follow NSW REZ model.",
+      "infrastructure_cost_b": null,
+      "infrastructure_cost_note": "2 new substations, major upgrades to 2 existing, ~85 km powerline upgrades. Ausgrid signed project deed Dec 2025.",
+      "timeline": {
+        "completion_target": "Initial capacity early 2026, full mid-2028",
+        "original_target": "2027",
+        "delay_years": 0,
+        "delay_reasons": []
+      },
+      "community_benefit": true,
+      "status": "construction",
+      "issues": [],
+      "sources": [
+        {"title": "EnergyCo HCC REZ", "url": "https://www.energyco.nsw.gov.au/our-projects/hunter-central-coast-rez"}
+      ]
+    },
+    {
+      "id": "nsw-south-west",
+      "name": "South-West REZ",
+      "state": "NSW",
+      "governance": "EnergyCo",
+      "network_operator": "Transgrid",
+      "capacity_gw": 3.56,
+      "projects_awarded": 4,
+      "access_model": "competitive_tender",
+      "access_fee_per_mw_pa": null,
+      "access_fee_note": "Access scheme formally declared. Follows CWO model (annual, CPI-indexed, community benefit). Specific $/MW not disclosed.",
+      "infrastructure_cost_b": null,
+      "infrastructure_cost_note": "Leverages Project EnergyConnect and VNI West. $183M road infrastructure investment (incl $65M for SW REZ). Expected to attract $17.8B private investment.",
+      "timeline": {
+        "completion_target": "2027-2030",
+        "original_target": null,
+        "delay_years": null,
+        "delay_reasons": []
+      },
+      "community_benefit": true,
+      "community_benefit_detail": "Community and Employment Benefit Program funded via access fees",
+      "status": "declared",
+      "issues": [],
+      "sources": [
+        {"title": "EnergyCo SW REZ", "url": "https://www.energyco.nsw.gov.au/our-projects/south-west-rez"},
+        {"title": "EnergyCo SW REZ Access Scheme declared", "url": "https://www.energyco.nsw.gov.au/news/south-west-rez-access-scheme-declared"}
+      ]
+    },
+    {
+      "id": "nsw-illawarra",
+      "name": "Illawarra REZ",
+      "state": "NSW",
+      "governance": "EnergyCo",
+      "network_operator": "Endeavour Energy",
+      "network_operator_note": "NSW's first urban REZ — leveraging distribution network",
+      "capacity_gw": null,
+      "access_model": "tbd",
+      "access_fee_per_mw_pa": null,
+      "access_fee_note": "Very early stage. No access scheme or fees defined.",
+      "timeline": {
+        "completion_target": "As early as 2030",
+        "original_target": null,
+        "delay_years": null,
+        "delay_reasons": []
+      },
+      "community_benefit": true,
+      "status": "planning",
+      "issues": [],
+      "sources": [
+        {"title": "EnergyCo Illawarra REZ", "url": "https://www.energyco.nsw.gov.au/our-projects/illawarra-rez"}
+      ]
+    },
+    {
+      "id": "vic-rez-framework",
+      "name": "Victorian REZ Framework (VicGrid)",
+      "state": "VIC",
+      "governance": "VicGrid",
+      "network_operator": "AusNet Services / others",
+      "capacity_gw": null,
+      "rez_zones": ["Central Highlands", "Central North", "Gippsland", "North West", "South West", "Western"],
+      "access_model": "regulatory_regime",
+      "access_model_note": "Victorian Access Regime (VAR) — regulatory, not competitive tender. Came into effect mid-March 2026.",
+      "access_fee_per_mw_pa": null,
+      "access_fee_note": "Fees recover: admin costs, Community Energy Funds, Traditional Owners Fund. Specific $/MW TBD — to be detailed in VicGrid consultation paper.",
+      "fee_components": ["Administration costs", "Community Energy Fund", "Traditional Owners Fund contributions"],
+      "infrastructure_cost_b": 7.9,
+      "infrastructure_cost_note": "Almost doubled from initial $4.3B draft. Increases from materials, labour, supply chain constraints.",
+      "timeline": {
+        "completion_target": "Rolling — REZ orders delayed to mid-2026",
+        "original_target": null,
+        "delay_years": null,
+        "delay_reasons": ["Transmission cost escalation", "REZ order delays"]
+      },
+      "community_benefit": true,
+      "community_benefit_detail": "Community Energy Funds and Traditional Owners benefits mandated. Community engagement is a condition of grid access.",
+      "access_caps": true,
+      "access_caps_detail": "Caps on solar and wind capacity within each REZ to avoid curtailment",
+      "targets": {"renewable_2030_pct": 65, "renewable_2035_pct": 95},
+      "status": "active",
+      "key_difference": "Regulatory regime (not competitive tender). VicGrid has both transmission planning AND connection responsibilities (unique centralised role).",
+      "issues": ["$7.9B cost blowout (from $4.3B)", "REZ order delays"],
+      "sources": [
+        {"title": "Clayton Utz — VAR analysis", "url": "https://www.claytonutz.com/insights/2025/october/victorian-access-regime-vicgrid-s-new-regime-for-access-to-the-transmission-network"},
+        {"title": "VicGrid Fees and Charges", "url": "https://www.vicgrid.com.au/industry/access-and-connections/fees-and-charges"},
+        {"title": "RenewEconomy — VIC caps access", "url": "https://reneweconomy.com.au/victoria-caps-access-for-solar-and-wind-in-new-renewable-zones-to-avoid-curtailment-and-buoy-investors/"}
+      ]
+    },
+    {
+      "id": "qld-supergrid",
+      "name": "Queensland SuperGrid",
+      "state": "QLD",
+      "governance": "Queensland Government",
+      "network_operator": "Powerlink",
+      "capacity_gw": null,
+      "access_model": "market_led",
+      "access_model_note": "Generator-pays model. No competitive tender for access rights. Market-led approach through Powerlink.",
+      "access_fee_per_mw_pa": null,
+      "access_fee_note": "Connection fees via standard Powerlink negotiation. Government underwrites residual costs not recovered from generators.",
+      "infrastructure_cost_b": 62.0,
+      "infrastructure_cost_note": "$62B total SuperGrid investment over 10-15 years (transmission ~11%). Landholder Payment Framework: ~$300k/km.",
+      "rez_zones": ["Central QLD", "North QLD", "Far North QLD", "Southern QLD"],
+      "timeline": {
+        "completion_target": "Rolling — 10-15 year program",
+        "original_target": null,
+        "delay_years": null,
+        "delay_reasons": []
+      },
+      "community_benefit": true,
+      "community_benefit_detail": "Landholder payments ~$300,000 per km for hosting new transmission. $6M for Central QLD Strategic REZ Readiness. $20M Regional Economic Futures Fund.",
+      "status": "active",
+      "key_difference": "No competitive auction for access rights. Market-led, generator-pays through Powerlink. Government underwrites residual.",
+      "issues": ["QLD rejected Nelson Review / ESEM successor to CIS", "QLD rejected AEMO last-resort gas market powers"],
+      "sources": [
+        {"title": "Powerlink REZ Information", "url": "https://www.powerlink.com.au/renewable-energy-zone-information-developers"},
+        {"title": "Ashurst QLD REZ Roadmap", "url": "https://www.ashurst.com/en/insights/queensland-releases-roadmap-to-becoming-a-renewable-energy-powerhouse/"}
+      ]
+    },
+    {
+      "id": "sa-rez-framework",
+      "name": "South Australia (No Formal REZ Scheme)",
+      "state": "SA",
+      "governance": "SA Government",
+      "network_operator": "ElectraNet",
+      "capacity_gw": null,
+      "access_model": "standard_nem",
+      "access_model_note": "No formal REZ access fee regime. Developers connect through standard NEM processes via ElectraNet.",
+      "access_fee_per_mw_pa": null,
+      "access_fee_note": "No state-run REZ access scheme, no access fees, no competitive tender.",
+      "infrastructure_cost_b": null,
+      "rez_zones": ["Mid North", "Eyre Peninsula", "South East", "Riverland", "Leigh Creek", "Eastern Hills", "Upper North", "Adelaide", "Fleurieu Peninsula"],
+      "status": "no_formal_scheme",
+      "key_difference": "The outlier. No state-run REZ access scheme. Pursuing path under Hydrogen and Renewable Energy Act. AEMO identifies 9 zones but SA not implementing formal access.",
+      "issues": [],
+      "sources": [
+        {"title": "AEMO Draft 2026 ISP REZ Appendix", "url": "https://www.aemo.com.au/-/media/files/major-publications/isp/draft-2026/a3-renewable-energy-zones.pdf"}
+      ]
+    }
+  ],
+  "comparison_summary": {
+    "access_models": {
+      "nsw": "Competitive tender/auction for access rights",
+      "vic": "Regulatory regime (Victorian Access Regime)",
+      "qld": "Market-led, generator-pays via Powerlink",
+      "sa": "No formal REZ scheme — standard NEM connection"
+    },
+    "cost_blowouts": {
+      "nsw_cwo": "$5.5B (from lower original estimates)",
+      "nsw_ne": "$5B+ (but costs actually fell $3B from earlier estimates)",
+      "vic_total": "$7.9B (from $4.3B draft)",
+      "qld_total": "$62B total SuperGrid (10-15 years)"
+    },
+    "key_delays": {
+      "nsw_cwo": "2028-2030 (originally 2026-27)",
+      "nsw_ne": "2032-2034 (originally 2027, 5-year delay)",
+      "vic": "REZ orders delayed to mid-2026",
+      "nsw_hcc": "On track — initial capacity early 2026"
+    },
+    "industry_concerns": [
+      "Transmission cost escalation (materials, labour, supply chain)",
+      "Delays in scheme design pushing out investment decisions",
+      "Community opposition and land access disputes",
+      "Uncertainty about final access fee quantum deterring proponents",
+      "AEMO reports transmission costs sometimes 100% higher than 2024 estimates"
+    ]
+  },
+  "policy_context": {
+    "cis_successor": {
+      "name": "Electricity Services Entry Mechanism (ESEM)",
+      "endorsed": "2025-12-16",
+      "endorsed_by": "Energy ministers (except Queensland)",
+      "implementation_target": "End of 2027",
+      "replaces": "CIS (concludes 2027)",
+      "covers": "Renewables, batteries, gas, pumped hydro",
+      "qld_position": "Rejected Nelson Review core recommendations and AEMO last-resort gas powers"
+    }
+  }
+}

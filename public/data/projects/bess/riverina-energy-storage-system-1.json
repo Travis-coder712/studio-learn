@@ -1,0 +1,94 @@
+{
+  "id": "riverina-energy-storage-system-1",
+  "name": "Riverina Energy Storage System 1",
+  "technology": "bess",
+  "status": "operating",
+  "capacity_mw": 60.0,
+  "storage_mwh": 120.0,
+  "state": "NSW",
+  "current_developer": "Edify Energy / Federation Asset Management",
+  "current_operator": "Edify Energy",
+  "cod_current": "2023-06-01",
+  "cod_original": "2023-06-01",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 67.8,
+  "notable": "60 MW / 120 MWh Tesla Megapack BESS co-located with Darlington Point Solar Farm. Edify Energy / Federation Asset Management. Shell Energy holds long-term services agreement for operational access. Grid-forming inverters delivering Virtual Synchronous Generator mode system strength services.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1936",
+  "confidence_score": "57",
+  "first_seen": "2023-03-01",
+  "coordinates": {
+    "lat": -34.646668,
+    "lng": 146.034982
+  },
+  "timeline": [
+    {
+      "date": "2023-03-01",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Commercial operations commence",
+      "detail": "Edify Energy's 60MW/120MWh RESS 1 entered commercial operations using Tesla Megapack grid-forming units.",
+      "sources": []
+    },
+    {
+      "date": "2023-06-01",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2023-06-02",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    },
+    {
+      "date": "2025-06-01",
+      "date_precision": "month",
+      "event_type": "ownership_change",
+      "title": "Federation Asset Management acquires majority stake",
+      "detail": "Federation Asset Management acquired majority interest in the Riverina battery projects from Edify Energy.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Tesla",
+      "model": "Megapack (grid-forming)",
+      "grid_forming": false,
+      "source_url": "https://shellenergy.com.au/energy-insights/the-riverina-energy-storage-system-1-reaches-operational-milestone/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Edify Energy",
+      "grid_forming": false,
+      "source_url": "https://edifyenergy.com/project/riverina-darlington-point/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

@@ -1,0 +1,79 @@
+{
+  "id": "punchs-creek-hybrid-bess",
+  "name": "Punchs Creek Hybrid BESS",
+  "technology": "bess",
+  "status": "development",
+  "capacity_mw": 800.0,
+  "storage_mwh": 3200.0,
+  "state": "QLD",
+  "current_developer": "EDPR Australia",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "data_confidence": "medium",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "aemo_gen_info_id": "3211",
+  "timeline": [
+    {
+      "date": "2024-05",
+      "date_precision": "month",
+      "event_type": "planning_approved",
+      "title": "EPBC Act approval for 800 MW solar + battery hybrid",
+      "detail": "Federal approval for full site near Millmerran, 64km SW of Toowoomba."
+    },
+    {
+      "date": "2025-08",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "EDPR Australia acquires Stage 1 from SkyLab",
+      "detail": "EDPR + QIC partner for Stage 1 (480 MWp solar + 400 MW / 1,600 MWh BESS). SkyLab retains Stage 2."
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    },
+    {
+      "title": "EDPR Australia \u2014 Punchs Creek project page",
+      "url": "https://edp.com/en/asia-pacific/australia/punchs-creek-renewable-energy-project",
+      "source_tier": 1
+    },
+    {
+      "title": "Energy-Storage.News \u2014 QIC/EDPR 1,600 MWh solar+storage project",
+      "url": "https://www.energy-storage.news/qic-edp-partner-for-1600mwh-solar-plus-storage-project-in-queensland-australia/",
+      "source_tier": 2
+    }
+  ],
+  "duration_hours": 4.0,
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Stage 1 (EDPR)",
+      "capacity_mw": 400.0,
+      "storage_mwh": 1600.0,
+      "status": "development",
+      "notes": "EDPR acquired from SkyLab Aug 2025. QIC co-investment. 480 MWp solar + 400 MW BESS. EPBC approved May 2024."
+    },
+    {
+      "stage": 2,
+      "name": "Stage 2 (SkyLab retained)",
+      "capacity_mw": 400.0,
+      "storage_mwh": 1600.0,
+      "status": "development",
+      "notes": "SkyLab retained Stage 2 rights. Additional ~400 MW solar expansion."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "project_id": "brendale-bess",
+  "name": "Brendale BESS",
+  "technology": "bess",
+  "capacity_mw": 205.0,
+  "state": "QLD",
+  "data_source": "openelectricity_api",
+  "monthly": [
+    {
+      "year": 2025,
+      "month": 10,
+      "energy_discharged_mwh": 410.2,
+      "energy_charged_mwh": 483.5,
+      "avg_charge_price": 4.76,
+      "avg_discharge_price": 18.93,
+      "utilisation_pct": 0.3,
+      "cycles": 1.0,
+      "revenue_aud": 19760.0
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "energy_discharged_mwh": 4557.4,
+      "energy_charged_mwh": 6190.0,
+      "avg_charge_price": 32.47,
+      "avg_discharge_price": 114.28,
+      "utilisation_pct": 3.1,
+      "cycles": 11.1,
+      "revenue_aud": 1219436.0
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "energy_discharged_mwh": 12093.9,
+      "energy_charged_mwh": 14344.8,
+      "avg_charge_price": 7.71,
+      "avg_discharge_price": 100.73,
+      "utilisation_pct": 7.9,
+      "cycles": 29.5,
+      "revenue_aud": 2592219.0
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "energy_discharged_mwh": 12487.9,
+      "energy_charged_mwh": 14798.2,
+      "avg_charge_price": 19.36,
+      "avg_discharge_price": 129.38,
+      "utilisation_pct": 8.2,
+      "cycles": 30.5,
+      "revenue_aud": 3511459.0
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "energy_discharged_mwh": 12306.1,
+      "energy_charged_mwh": 14292.2,
+      "avg_charge_price": 33.71,
+      "avg_discharge_price": 114.87,
+      "utilisation_pct": 8.9,
+      "cycles": 30.0,
+      "revenue_aud": 3299502.0
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "energy_discharged_mwh": 12803.3,
+      "energy_charged_mwh": 15260.0,
+      "avg_charge_price": 27.59,
+      "avg_discharge_price": 95.7,
+      "utilisation_pct": 8.4,
+      "cycles": 31.2,
+      "revenue_aud": 2863302.0
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "energy_discharged_mwh": 14663.4,
+      "energy_charged_mwh": 16839.2,
+      "avg_charge_price": 13.6,
+      "avg_discharge_price": 87.47,
+      "utilisation_pct": 9.9,
+      "cycles": 35.8,
+      "revenue_aud": 2785656.0
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "energy_discharged_mwh": 4024.6,
+      "energy_charged_mwh": 4729.5,
+      "avg_charge_price": 29.47,
+      "avg_discharge_price": 85.0,
+      "utilisation_pct": 2.6,
+      "cycles": 9.8,
+      "revenue_aud": 822018.0
+    }
+  ],
+  "storage_mwh": 409.92
+}

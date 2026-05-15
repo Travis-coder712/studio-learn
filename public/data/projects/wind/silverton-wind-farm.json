@@ -1,0 +1,136 @@
+{
+  "id": "silverton-wind-farm",
+  "name": "Silverton Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 200.0,
+  "state": "NSW",
+  "current_developer": "PARF Company 8 Pty Ltd as trustee for the Silverton Project Trust",
+  "current_operator": "AGL Energy",
+  "cod_current": "2018-05-14",
+  "cod_original": "2018-05-14",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 78.2,
+  "notable": "200MW, 58 x Siemens SWT-3.4-108 turbines. AGL PPA. AGL developed.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1178",
+  "confidence_score": "70",
+  "development_stage": "epbc_approved",
+  "first_seen": "2009",
+  "coordinates": {
+    "lat": -31.86095,
+    "lng": 141.296349
+  },
+  "timeline": [
+    {
+      "date": "2009",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2009/4847",
+      "detail": "Development of Silverton Wind Farm \u2014 Not Controlled Action",
+      "sources": []
+    },
+    {
+      "date": "2016",
+      "date_precision": "year",
+      "event_type": "fid",
+      "title": "Financial close",
+      "detail": "AGL reached financial close on the project",
+      "sources": []
+    },
+    {
+      "date": "2017",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Construction began near Broken Hill NSW",
+      "sources": []
+    },
+    {
+      "date": "2018-05-14",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2018-05-15",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Siemens",
+      "model": "SWT-3.4-108",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "AGL Energy",
+      "type": "PPA",
+      "term_years": 5,
+      "capacity_mw": 200.0,
+      "source_url": "https://reneweconomy.com.au/silverton-wind-farm/"
+    },
+    {
+      "party": "AGL Energy",
+      "type": "PPA",
+      "term_years": 5,
+      "capacity_mw": 200.0
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Silverton Wind Farm Environmental Impact Statement (NSW SSD-5703 / EPBC 2013/7036)",
+    "document_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/silverton-wind-farm",
+    "document_year": 2013,
+    "turbine_model": "Siemens SWT-3.4-108",
+    "turbine_count": 58,
+    "turbine_rated_power_mw": 3.45,
+    "hub_height_m": 106.0,
+    "hub_height_note": "SWT-3.4-108 at 106 m hub height \u2014 tall tower for remote Far West NSW site",
+    "rotor_diameter_m": 108.0,
+    "wind_speed_mean_ms": 7.8,
+    "wind_speed_height_m": 106.0,
+    "wind_speed_period": "Mean annual wind speed at hub height; Silverton, Far West NSW near Broken Hill \u2014 from on-site met mast",
+    "assumed_capacity_factor_pct": 37.0,
+    "assumed_annual_energy_gwh": 648.0,
+    "energy_yield_method": "WAsP modelling; P50 net yield after wake and availability losses",
+    "noise_limit_dba": 35.0,
+    "minimum_setback_m": 1500,
+    "connection_voltage_kv": 220.0,
+    "network_service_provider": "TransGrid",
+    "connection_substation_name": "Broken Hill 220 kV substation (TransGrid / Essential Energy interconnect), Far West NSW",
+    "connection_substation_capacity_mva": 400.0,
+    "connection_distance_km": 20.0,
+    "connection_distance_note": "~20 km of 220 kV to Broken Hill 220 kV substation. Broken Hill is the terminus of the SA-NSW 220 kV interconnect via TransGrid.",
+    "connection_augmentation": "Connection to Broken Hill substation via TransGrid. Broken Hill is remote from main NSW grid, connected via 220 kV to SA. Silverton exports through SA route. Co-located with AGL 53 MW Broken Hill Solar Farm.",
+    "notes": "200 MW (58 x ~3.45 MW Siemens SWT-3.4-108), near Silverton, Far West NSW (near Broken Hill). Developer: AGL Energy. NSW SSD + EPBC approval 2013. Now operating (2019). Far West NSW \u2014 connected via 220 kV to Broken Hill and through to SA rather than main NSW grid."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

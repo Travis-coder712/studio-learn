@@ -1,0 +1,82 @@
+{
+  "id": "melbourne-renewable-energy-hub-connection-a2",
+  "name": "Melbourne Renewable Energy Hub Connection A2",
+  "technology": "bess",
+  "status": "operating",
+  "capacity_mw": 200.0,
+  "storage_mwh": 399.84,
+  "state": "VIC",
+  "current_developer": "Equis Energy / SEC Victoria",
+  "current_operator": "Equis Energy",
+  "cod_current": "2025-08-24",
+  "cod_original": "2025-08-24",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 1.4,
+  "notable": "Second of three AEMO-registered units comprising the 600 MW / 1.6 GWh Melbourne Renewable Energy Hub at Plumpton. Co-developed by Equis Energy and SEC Victoria. Provides 2-hour duration storage alongside A1, with the combined hub capable of powering 200,000 homes during peak periods.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "3101",
+  "confidence_score": "51",
+  "capex_aud_m": 367.0,
+  "capex_source": "SEC Victoria (1/3 of $1.1B total)",
+  "capex_year": 2023,
+  "first_seen": "2025-08-24",
+  "capex_source_url": "https://www.secvictoria.com.au/investments/melbourne-renewable-energy-hub",
+  "coordinates": {
+    "lat": -37.663934,
+    "lng": 144.726927
+  },
+  "timeline": [
+    {
+      "date": "2025-08-24",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2025-08-25",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Tesla",
+      "model": "Megapack",
+      "grid_forming": false,
+      "source_url": "https://www.secvictoria.com.au/investments/melbourne-renewable-energy-hub"
+    },
+    {
+      "role": "epc",
+      "supplier": "Samsung C&T / Genus Plus JV",
+      "grid_forming": false,
+      "source_url": "https://www.secvictoria.com.au/investments/melbourne-renewable-energy-hub"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

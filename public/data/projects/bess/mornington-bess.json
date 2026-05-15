@@ -1,0 +1,139 @@
+{
+  "id": "mornington-bess",
+  "name": "Mornington BESS",
+  "technology": "bess",
+  "status": "commissioning",
+  "capacity_mw": 540.0,
+  "storage_mwh": 1080.0,
+  "state": "VIC",
+  "current_developer": "Valent Energy (Gaw Capital / BW ESS)",
+  "cod_current": "2026-02-28",
+  "cod_original": "2026-02-28",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Staged build: 540 MW total. Stage 1 (240 MW) CIS T3 commissioning, Stage 2 (300 MW) development.",
+  "data_confidence": "low",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "aemo_gen_info_id": "1945",
+  "confidence_score": "67",
+  "first_seen": "2022-01-01",
+  "coordinates": {
+    "lat": -38.22,
+    "lng": 145.04
+  },
+  "timeline": [
+    {
+      "date": "2022-01-01",
+      "date_precision": "month",
+      "event_type": "planning_approved",
+      "title": "Victoria Minister for Planning approval",
+      "sources": []
+    },
+    {
+      "date": "2024-10-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "CATL batteries; ACLE Services BoP",
+      "sources": []
+    },
+    {
+      "date": "2025-10-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Construction completed; commissioning underway",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2026-02 to 2026-02-28 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "CATL",
+      "grid_forming": false,
+      "source_url": "https://morningtonbess.com.au/"
+    },
+    {
+      "role": "inverter",
+      "supplier": "Power Electronics (inverters)",
+      "grid_forming": false
+    },
+    {
+      "role": "bop",
+      "supplier": "ACLE Services",
+      "grid_forming": false,
+      "source_url": "https://www.acle.com.au/our-projects-2/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Stage 1",
+      "capacity_mw": 240.0,
+      "storage_mwh": 480.0,
+      "status": "commissioning",
+      "grid_forming": false,
+      "notes": "CIS Tender 3. Commissioning."
+    },
+    {
+      "stage": 2,
+      "name": "Stage 2",
+      "capacity_mw": 300.0,
+      "storage_mwh": 600.0,
+      "status": "development",
+      "grid_forming": false,
+      "notes": "Development stage expansion."
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Mornington Battery Energy Storage System \u2014 EES (VIC)",
+    "document_url": "https://www.planning.vic.gov.au/permits-and-applications/state-projects",
+    "document_year": 2023,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "BYD",
+    "cell_country_of_manufacture": "China",
+    "inverter_supplier": "BYD",
+    "inverter_model": "BYD MC-Cube \u2014 integrated PCS",
+    "inverter_country_of_manufacture": "China",
+    "pcs_type": "grid_following",
+    "round_trip_efficiency_pct": 88.0,
+    "round_trip_efficiency_ac": 85.0,
+    "duration_hours": 2.0,
+    "connection_voltage_kv": 66.0,
+    "transformer_mva": 240.0,
+    "network_service_provider": "AusNet Services",
+    "connection_substation_name": "Mornington 66 kV substation (AusNet)",
+    "connection_substation_capacity_mva": 120.0,
+    "connection_distance_km": 6.0,
+    "connection_distance_note": "~6 km of new 66 kV line to Mornington substation on the AusNet Mornington Peninsula 66 kV network; EIS connection study",
+    "connection_augmentation": "IMPORTANT: 66 kV connection for 240 MW is highly constraining. The Mornington Peninsula 66 kV network is primarily a distribution network \u2014 connecting 240 MW storage here requires significant augmentation of 66 kV infrastructure. Risk of requiring connection voltage upgrade to 220 kV. AusNet augmentation study results critical to project economics.",
+    "notes": "240 MW / 480 MWh (2-hour) BESS on Mornington Peninsula, VIC. Valent Energy (Gaw Capital / BW ESS). Victorian planning permit. BYD MC-Cube containerised LFP system. Connection to AusNet Services 66 kV Mornington Peninsula network."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

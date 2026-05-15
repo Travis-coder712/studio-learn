@@ -1,0 +1,89 @@
+{
+  "id": "supernode-north-bess",
+  "name": "Supernode North BESS",
+  "technology": "bess",
+  "status": "development",
+  "capacity_mw": 780.0,
+  "storage_mwh": 2200.0,
+  "state": "QLD",
+  "current_developer": "Quinbrook Infrastructure Partners",
+  "cod_current": "2028-12",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "data_confidence": "good",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "aemo_gen_info_id": "2830",
+  "timeline": [
+    {
+      "date": "2026-03-17",
+      "date_precision": "day",
+      "event_type": "planning_approved",
+      "title": "EPBC Act clearance granted \u2014 'not controlled action'",
+      "detail": "Federal environmental approval in 41 days."
+    },
+    {
+      "date": "2025-12-23",
+      "date_precision": "day",
+      "event_type": "planning_rejected",
+      "title": "Townsville City Council rejects DA",
+      "detail": "Rejected due to QLD planning rule changes requiring community benefit agreements before lodging. Council itself supports the project. Needs re-lodgement via SARA."
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    },
+    {
+      "title": "Energy-Storage.News \u2014 Quinbrook bags EPBC approval for 780 MW Supernode North",
+      "url": "https://www.energy-storage.news/quinbrook-bags-epbc-act-approval-for-780mw-supernode-north-bess-in-australia/",
+      "source_tier": 2
+    },
+    {
+      "title": "Quinbrook \u2014 Supernode BESS project page",
+      "url": "https://www.quinbrook.com/projects/supernode-bess/",
+      "source_tier": 1
+    }
+  ],
+  "current_owner": "Quinbrook Infrastructure Partners",
+  "lga": "Townsville City Council",
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Module 1",
+      "capacity_mw": 260.0,
+      "storage_mwh": 733.0,
+      "status": "development",
+      "notes": "3 x 260 MW modules at Lansdown Eco-Industrial Precinct, Woodstock (45 km S of Townsville). Supports $8B polysilicon factory."
+    },
+    {
+      "stage": 2,
+      "name": "Module 2",
+      "capacity_mw": 260.0,
+      "storage_mwh": 733.0,
+      "status": "development",
+      "notes": "3 x 260 MW modules at Lansdown Eco-Industrial Precinct, Woodstock (45 km S of Townsville). Supports $8B polysilicon factory."
+    },
+    {
+      "stage": 3,
+      "name": "Module 3",
+      "capacity_mw": 260.0,
+      "storage_mwh": 733.0,
+      "status": "development",
+      "notes": "3 x 260 MW modules at Lansdown Eco-Industrial Precinct, Woodstock (45 km S of Townsville). Supports $8B polysilicon factory."
+    }
+  ]
+}

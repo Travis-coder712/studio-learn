@@ -1,0 +1,98 @@
+{
+  "id": "tailem-bend-stage-3",
+  "name": "Tailem Bend Stage 3",
+  "technology": "bess",
+  "status": "construction",
+  "capacity_mw": 204.0,
+  "storage_mwh": 408.0,
+  "state": "SA",
+  "current_developer": "Vena Energy",
+  "cod_current": "2027-04-30",
+  "cod_original": "2027-04-30",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Canadian Solar e-STORAGE SolBank 3.0. ~100 battery containers. CPP BoP.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "2436",
+  "confidence_score": "56",
+  "first_seen": "2025-12-01",
+  "coordinates": {
+    "lat": -35.26,
+    "lng": 139.45
+  },
+  "timeline": [
+    {
+      "date": "2025-12-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Canadian Solar e-STORAGE turnkey; CPP BoP",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2027-04 to 2027-04-30 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Canadian Solar e-STORAGE",
+      "model": "SolBank 3.0",
+      "grid_forming": false,
+      "source_url": "https://www.pv-magazine-australia.com/press-releases/e-storage-to-deliver-408-mwh-battery-for-vena-energy-in-south-australia/"
+    },
+    {
+      "role": "bop",
+      "supplier": "Consolidated Power Projects (CPP)",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Tailem Bend Stage 3 Battery Energy Storage System \u2014 EIS (SA)",
+    "document_url": "https://www.sa.gov.au/topics/planning-and-property/land-use-and-planning/development-assessment/major-developments",
+    "document_year": 2023,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "CATL (via Vena Energy supply chain)",
+    "cell_country_of_manufacture": "China",
+    "inverter_supplier": "Huawei or Sungrow (EIS technology envelope)",
+    "pcs_type": "grid_following",
+    "round_trip_efficiency_pct": 88.0,
+    "round_trip_efficiency_ac": 85.0,
+    "duration_hours": 2.0,
+    "connection_voltage_kv": 132.0,
+    "transformer_mva": 204.0,
+    "network_service_provider": "ElectraNet",
+    "connection_substation_name": "Tailem Bend 132 kV substation (co-located with solar farm)",
+    "connection_substation_capacity_mva": 450.0,
+    "connection_distance_km": 0.2,
+    "connection_distance_note": "Co-located with Tailem Bend Solar Farm stages 1 and 2. ~200 m internal cable to existing 132 kV substation.",
+    "connection_augmentation": "Minimal new works. Existing Tailem Bend 132 kV substation shared with 250 MW solar farm. New BESS feeder bay required. Combined ~454 MW site may trigger ElectraNet 132 kV line augmentation from Tailem Bend toward Murray Bridge/Adelaide.",
+    "notes": "204 MW / 408 MWh (2-hour) BESS co-located with Tailem Bend solar farm stages 1 and 2, SA. Vena Energy. SA DPTI planning approval. LFP chemistry. Connection to ElectraNet 132 kV network at Tailem Bend. Stages 1 and 2 solar (250 MW total) already operating at this site."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

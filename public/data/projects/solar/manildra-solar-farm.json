@@ -1,0 +1,82 @@
+{
+  "id": "manildra-solar-farm",
+  "name": "Manildra Solar Farm",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 46.7,
+  "state": "NSW",
+  "current_developer": "Manildra Prop Pty Ltd as trustee for the Manildra Asset Trust",
+  "cod_current": "2018-05-01",
+  "cod_original": "2018-05-01",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 34.9,
+  "notable": "32 MW solar farm near Manildra, NSW. Originally developed by Infigen Energy, now operated by Lightsource BP / Iberdrola.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1280",
+  "confidence_score": "46",
+  "first_seen": "2018-05-01",
+  "coordinates": {
+    "lat": -33.172831,
+    "lng": 148.71824
+  },
+  "timeline": [
+    {
+      "date": "2018-05-01",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2018-05-02",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "solar_oem",
+      "supplier": "First Solar",
+      "grid_forming": false,
+      "source_url": "https://www.rcrtom.com.au/latest-projects/manildra-solar-farm/"
+    },
+    {
+      "role": "inverter",
+      "supplier": "SMA",
+      "model": "Sunny Central 2500SC-EV",
+      "grid_forming": false,
+      "source_url": "https://www.rcrtom.com.au/latest-projects/manildra-solar-farm/"
+    },
+    {
+      "role": "epc",
+      "supplier": "RCR Tomlinson",
+      "grid_forming": false,
+      "source_url": "https://www.rcrtom.com.au/latest-projects/manildra-solar-farm/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

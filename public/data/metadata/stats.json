@@ -1,0 +1,89 @@
+{
+  "total": 1045,
+  "total_capacity_mw": 380297.2700000001,
+  "total_storage_mwh": 659395.5500000002,
+  "by_technology": {
+    "hybrid": {
+      "count": 110,
+      "capacity_mw": 45257.32,
+      "storage_mwh": 75683.85
+    },
+    "pumped_hydro": {
+      "count": 61,
+      "capacity_mw": 28835.4,
+      "storage_mwh": 300132.0
+    },
+    "wind": {
+      "count": 211,
+      "capacity_mw": 86357.57999999997,
+      "storage_mwh": 0
+    },
+    "offshore_wind": {
+      "count": 22,
+      "capacity_mw": 43295.0,
+      "storage_mwh": 0
+    },
+    "solar": {
+      "count": 228,
+      "capacity_mw": 50362.07,
+      "storage_mwh": 560.0
+    },
+    "bess": {
+      "count": 413,
+      "capacity_mw": 126189.9,
+      "storage_mwh": 283019.69999999995
+    }
+  },
+  "by_status": {
+    "commissioning": {
+      "count": 16,
+      "capacity_mw": 5931.2
+    },
+    "development": {
+      "count": 763,
+      "capacity_mw": 323200.58000000013
+    },
+    "operating": {
+      "count": 226,
+      "capacity_mw": 37967.69000000001
+    },
+    "construction": {
+      "count": 40,
+      "capacity_mw": 13197.8
+    }
+  },
+  "by_state": {
+    "VIC": {
+      "count": 216,
+      "capacity_mw": 86773.56999999999
+    },
+    "WA": {
+      "count": 1,
+      "capacity_mw": 560.0
+    },
+    "SA": {
+      "count": 120,
+      "capacity_mw": 25596.76
+    },
+    "QLD": {
+      "count": 295,
+      "capacity_mw": 122085.51999999999
+    },
+    "TAS": {
+      "count": 50,
+      "capacity_mw": 13974.4
+    },
+    "NSW": {
+      "count": 363,
+      "capacity_mw": 131307.02000000002
+    }
+  },
+  "states": [
+    "VIC",
+    "WA",
+    "SA",
+    "QLD",
+    "TAS",
+    "NSW"
+  ]
+}

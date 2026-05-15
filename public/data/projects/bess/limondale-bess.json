@@ -1,0 +1,137 @@
+{
+  "id": "limondale-bess",
+  "name": "Limondale BESS",
+  "technology": "bess",
+  "status": "construction",
+  "capacity_mw": 50.0,
+  "storage_mwh": 400.0,
+  "state": "NSW",
+  "current_developer": "RWE Renewables Australia",
+  "cod_current": "2026-03-07",
+  "cod_original": "2026-03-07",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "Australia's first 8-hour BESS. 144 Tesla Megapacks. 14-year NSW LTESA. Beon Energy BoP.",
+  "data_confidence": "medium",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "aemo_gen_info_id": "2223",
+  "confidence_score": "60",
+  "first_seen": "2023-05-01",
+  "timeline": [
+    {
+      "date": "2023-05-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "NSW LTESA awarded (14-year)",
+      "detail": "First project under NSW Long Duration Storage tender",
+      "sources": []
+    },
+    {
+      "date": "2024-05-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "FID reached",
+      "detail": "RWE final investment decision",
+      "sources": []
+    },
+    {
+      "date": "2024-10-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "144 Tesla Megapacks; Beon Energy BoP",
+      "sources": []
+    },
+    {
+      "date": "2025-09-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Registered with AEMO",
+      "detail": "Australia's first 8-hour LDES BESS registered",
+      "sources": []
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2026-03 to 2026-03-07 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Tesla",
+      "model": "Megapack",
+      "quantity": 144,
+      "grid_forming": false,
+      "source_url": "https://www.rwe.com/en/press/rwe-renewables-europe-australia/2024-05-28-rwe-to-build-australias-first-eight-hour-battery/"
+    },
+    {
+      "role": "bop",
+      "supplier": "Beon Energy Solutions",
+      "grid_forming": false,
+      "source_url": "https://beon-es.com.au/project/limondale/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [
+    {
+      "scheme": "NSW LTESA",
+      "round": "Long Duration Storage",
+      "capacity_mw": 50.0,
+      "storage_mwh": 400.0,
+      "contract_type": "ltesa",
+      "source_url": "https://www.energy-storage.news/rwe-wins-government-contract-for-eight-hour-lithium-bess-in-new-south-wales-australia/"
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Limondale Battery Energy Storage System \u2014 SSD EIS (NSW)",
+    "document_url": "https://www.planningportal.nsw.gov.au/major-projects/projects/limondale-bess",
+    "document_year": 2024,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "CATL or Samsung SDI",
+    "cell_country_of_manufacture": "China / South Korea",
+    "inverter_supplier": "SMA or Sungrow",
+    "pcs_type": "grid_following",
+    "round_trip_efficiency_pct": 88.0,
+    "round_trip_efficiency_ac": 85.0,
+    "duration_hours": 8.0,
+    "connection_voltage_kv": 330.0,
+    "transformer_mva": 50.0,
+    "network_service_provider": "TransGrid",
+    "connection_substation_name": "Darlington Point 330 kV substation (co-located with solar farm)",
+    "connection_substation_capacity_mva": 500.0,
+    "connection_distance_km": 0.3,
+    "connection_distance_note": "Co-located with Limondale Solar Farm \u2014 shares existing 330 kV connection substation at Darlington Point. ~300 m internal cable.",
+    "connection_augmentation": "Minimal. Small 50 MW BESS shares solar farm 330 kV connection. New BESS feeder bay only. Very low augmentation cost for this capacity.",
+    "notes": "50 MW / 400 MWh (8-hour) long-duration BESS co-located with Limondale Solar Farm, NSW. RWE Renewables Australia. NSW SSD. Notable for 8-hour duration \u2014 significantly longer than typical 2-4 hour systems. LFP chemistry for long-cycle life at extended duration. Connection to TransGrid 330 kV network."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": [
+    {
+      "date": "2025-09",
+      "date_precision": "month",
+      "event_type": "commissioning",
+      "title": "AEMO registration \u2014 commissioning underway",
+      "detail": "RWE: AEMO registered Sep 2025. COD expected early 2026."
+    }
+  ]
+}

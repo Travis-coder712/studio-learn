@@ -1,0 +1,286 @@
+{
+  "id": "victorian-big-battery",
+  "name": "Victorian Big Battery",
+  "technology": "bess",
+  "status": "operating",
+  "capacity_mw": 300.0,
+  "storage_mwh": 450.0,
+  "state": "VIC",
+  "lga": "Moorabool Shire",
+  "current_developer": "HMC Capital (ex-Neoen)",
+  "current_operator": "HMC Capital",
+  "cod_current": "2022-01",
+  "cod_original": "Q3 2021",
+  "connection_status": "Connected",
+  "connection_nsp": "AusNet Services",
+  "grid_forming": true,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 51.3,
+  "notable": "Largest battery in Victoria at commissioning. Experienced a notable Tesla Megapack fire during testing in July 2021.",
+  "data_confidence": "good",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "aemo_gen_info_id": "1864",
+  "confidence_score": "80",
+  "capex_aud_m": 300.0,
+  "capex_source": "CEFC/estimates",
+  "capex_year": 2020,
+  "first_seen": "2020-11-01",
+  "capex_source_url": "https://neoen.com/",
+  "coordinates": {
+    "lat": -37.73,
+    "lng": 144.12
+  },
+  "timeline": [
+    {
+      "date": "2020-11-01",
+      "date_precision": "month",
+      "event_type": "conceived",
+      "title": "Project announced by Neoen",
+      "sources": [
+        {
+          "title": "Neoen",
+          "url": "https://neoen.com/"
+        }
+      ]
+    },
+    {
+      "date": "2021-02-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "sources": [
+        {
+          "title": "RenewEconomy",
+          "url": "https://reneweconomy.com.au/",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "date": "2021-07-13",
+      "date_precision": "day",
+      "event_type": "notable",
+      "title": "Tesla Megapack fire during testing",
+      "detail": "A fire broke out in one of the Tesla Megapack units during initial testing. Two Megapacks were destroyed.",
+      "sources": [
+        {
+          "title": "RenewEconomy",
+          "url": "https://reneweconomy.com.au/",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "date": "2021-07-28",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    },
+    {
+      "date": "2021-07-30",
+      "date_precision": "day",
+      "event_type": "stakeholder_issue",
+      "title": "Fire during commissioning destroys two Megapacks",
+      "detail": "Coolant leak caused thermal runaway in one Tesla Megapack, spreading to a second; both total losses, no injuries. Fire self-extinguished after ~6 hours.",
+      "sources": []
+    },
+    {
+      "date": "2021-12-01",
+      "date_precision": "month",
+      "event_type": "commissioning",
+      "title": "Commissioning commenced",
+      "sources": [
+        {
+          "title": "Neoen",
+          "url": "https://neoen.com/"
+        }
+      ]
+    },
+    {
+      "date": "2021-12-08",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations begin",
+      "detail": "300MW/450MWh battery entered commercial service approximately 5 months after fire incident.",
+      "sources": []
+    },
+    {
+      "date": "2022-01-01",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Full commercial operations",
+      "sources": [
+        {
+          "title": "AEMO Generation Information",
+          "url": "https://aemo.com.au"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Sold to HMC Capital in ACCC-ordered divestment",
+      "detail": "Neoen divested all Victorian assets including VBB to HMC Capital for A$950M, required by ACCC to approve Brookfield acquisition of Neoen.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [
+    {
+      "period": "2020-present",
+      "owner": "Neoen",
+      "role": "Developer & Operator"
+    }
+  ],
+  "cod_history": [
+    {
+      "date": "2021-01-01",
+      "estimate": "Q3 2021",
+      "source": "Neoen"
+    },
+    {
+      "date": "2021-08-01",
+      "estimate": "Q4 2021",
+      "source": "Neoen (post-fire revised)"
+    }
+  ],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Tesla",
+      "model": "Megapack",
+      "quantity": 210,
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "AEMO (system services)",
+      "type": "tolling",
+      "term_years": 11,
+      "capacity_mw": 250.0,
+      "source_url": "https://reneweconomy.com.au/victorian-big-battery/"
+    }
+  ],
+  "scheme_contracts": [
+    {
+      "scheme": "VIC SIPS",
+      "round": "",
+      "capacity_mw": 250.0,
+      "storage_mwh": 450.0,
+      "contract_type": "SIPS service ($12.5M/yr to 2032)",
+      "source_url": "https://wattclarity.com.au/articles/2024/03/vbb-and-sips/"
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [
+    "Megapack fire July 2021"
+  ],
+  "eis_specs": {
+    "document_title": "Victorian Big Battery \u2014 Planning Permit Application (VIC DEECA fast-track approval)",
+    "document_url": "https://www.planning.vic.gov.au/",
+    "document_year": 2021,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "CATL / Tesla (Tesla Gigafactory Nevada)",
+    "cell_country_of_manufacture": "United States / China",
+    "inverter_supplier": "Tesla",
+    "inverter_model": "Megapack",
+    "inverter_country_of_manufacture": "United States",
+    "pcs_type": "grid_following",
+    "round_trip_efficiency_pct": 90.0,
+    "round_trip_efficiency_ac": 86.0,
+    "duration_hours": 1.5,
+    "connection_voltage_kv": 500.0,
+    "transformer_mva": 350.0,
+    "network_service_provider": "AusNet Services",
+    "connection_substation_name": "Moorabool 500/220 kV substation (AusNet Services), Lara near Geelong VIC (on-site)",
+    "connection_substation_capacity_mva": 3000.0,
+    "connection_distance_km": 0.0,
+    "connection_distance_note": "On-site \u2014 located within the Moorabool 500/220 kV substation compound, Lara, near Geelong VIC.",
+    "connection_augmentation": "Minimal \u2014 Moorabool is one of the most significant 500 kV substations in the NEM. BESS occupies cleared land within substation perimeter. VIC government fast-tracked via state planning approval.",
+    "notes": "300 MW / 450 MWh (1.5-hour) BESS at Moorabool 500/220 kV substation, Lara, near Geelong VIC. Developer: Neoen Australia. Technology: Tesla Megapack (LFP). AusNet Services NSP confirmed. VIC fast-track approval 2021. Completed in under 6 months from approval to energisation. Famous for Megapack unit fire during commissioning (Sep 2021) before entering commercial operation. Key firming capacity for VIC grid during high renewable penetration."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information",
+      "url": "https://aemo.com.au"
+    },
+    {
+      "title": "Neoen",
+      "url": "https://neoen.com/"
+    }
+  ],
+  "timeline_events": [
+    {
+      "date": "2020-11-01",
+      "date_precision": "month",
+      "event_type": "conceived",
+      "title": "Project announced by Neoen",
+      "sources": [
+        {
+          "title": "Neoen",
+          "url": "https://neoen.com/"
+        }
+      ]
+    },
+    {
+      "date": "2021-02-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "sources": [
+        {
+          "title": "RenewEconomy",
+          "url": "https://reneweconomy.com.au/",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "date": "2021-07-13",
+      "date_precision": "day",
+      "event_type": "notable",
+      "title": "Tesla Megapack fire during testing",
+      "detail": "A fire broke out in one of the Tesla Megapack units during initial testing. Two Megapacks were destroyed.",
+      "sources": [
+        {
+          "title": "RenewEconomy",
+          "url": "https://reneweconomy.com.au/",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "date": "2021-12-01",
+      "date_precision": "month",
+      "event_type": "commissioning",
+      "title": "Commissioning commenced",
+      "sources": [
+        {
+          "title": "Neoen",
+          "url": "https://neoen.com/"
+        }
+      ]
+    },
+    {
+      "date": "2022-01-01",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Full commercial operations",
+      "sources": [
+        {
+          "title": "AEMO Generation Information",
+          "url": "https://aemo.com.au"
+        }
+      ]
+    }
+  ],
+  "current_owner": "HMC Capital"
+}

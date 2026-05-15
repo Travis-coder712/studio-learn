@@ -1,0 +1,119 @@
+{
+  "id": "berrybank-wind-farm",
+  "name": "Berrybank Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 281.1,
+  "state": "VIC",
+  "current_developer": "Berrbank Development Pty ltd",
+  "current_operator": "GPG Australia",
+  "cod_current": "2021-02-15",
+  "cod_original": "2021-02-15",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 55.2,
+  "notable": "Stage 1: 43x Vestas V136-4.2MW (180.6MW). Stage 2: 37x Vestas V136-4.2MW (100.5MW). Owned by GPG/Naturgy.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1018",
+  "confidence_score": "62",
+  "first_seen": "2021-02-15",
+  "coordinates": {
+    "lat": -37.980741,
+    "lng": 143.472217
+  },
+  "timeline": [
+    {
+      "date": "2018-09",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "VREAS auction winner",
+      "detail": "Selected as winner of Victorian Renewable Energy Auction Scheme",
+      "sources": []
+    },
+    {
+      "date": "2019",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Site works began for Stage 1 and Stage 2",
+      "sources": []
+    },
+    {
+      "date": "2021-02-15",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2021-02-16",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Vestas",
+      "model": "V136-4.2 MW",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "Shell Energy",
+      "type": "PPA",
+      "source_url": "https://reneweconomy.com.au/berrybank-wind-farm/"
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Berrybank Wind Farm Environment Effects Statement (VIC DELWP EES)",
+    "document_url": "https://www.planning.vic.gov.au/schemes-and-amendments/statewide-activities/environment-effects-statements/current-and-completed-ees/berrybank-wind-farm",
+    "document_year": 2019,
+    "turbine_model": "Vestas V136-4.2 MW",
+    "turbine_count": 67,
+    "turbine_rated_power_mw": 4.2,
+    "hub_height_m": 112.0,
+    "hub_height_note": "Standard 112 m hub for V136-4.2 on Western VIC gentle terrain",
+    "rotor_diameter_m": 136.0,
+    "wind_speed_mean_ms": 8.5,
+    "wind_speed_height_m": 112.0,
+    "wind_speed_period": "Mean annual wind speed at hub height; Berrybank/Rokewood, Western Victoria",
+    "assumed_capacity_factor_pct": 40.0,
+    "assumed_annual_energy_gwh": 985.0,
+    "energy_yield_method": "WAsP with ERA5 long-term correction; P50 net yield",
+    "noise_limit_dba": 40.0,
+    "minimum_setback_m": 2000,
+    "connection_voltage_kv": 220.0,
+    "network_service_provider": "AusNet Services",
+    "connection_substation_name": "Bulgana 220 kV substation (AusNet Services), near Ararat VIC",
+    "connection_substation_capacity_mva": 1000.0,
+    "connection_distance_km": 20.0,
+    "connection_distance_note": "~20 km of 220 kV to Bulgana 220 kV substation \u2014 same AusNet connection point as Bulgana Green Power Hub and Golden Plains.",
+    "connection_augmentation": "Bulgana substation augmented by AusNet to accommodate multiple large wind farms in the Western Victoria Wind Farm Zone.",
+    "notes": "281 MW (67 x 4.2 MW Vestas V136), near Rokewood/Inverleigh, Western Victoria. Part of the Western Victoria Wind Farm Zone alongside Golden Plains and Bulgana. VIC EES approved 2019. Now operating. Connects to Bulgana substation \u2014 shared 220 kV hub for multiple Western VIC wind farms."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

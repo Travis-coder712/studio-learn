@@ -1,0 +1,83 @@
+{
+  "id": "collinsville-pv",
+  "name": "Collinsville PV",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 40.76,
+  "state": "QLD",
+  "current_developer": "Ratch Australia",
+  "cod_current": "2018-07-31",
+  "cod_original": "2018-07-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 42.6,
+  "notable": "90 MW solar farm near Collinsville, QLD. Developed by RATCH-Australia. Located adjacent to the former Collinsville coal power station site.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1349",
+  "confidence_score": "46",
+  "first_seen": "2018-07-31",
+  "coordinates": {
+    "lat": -20.55714,
+    "lng": 147.820552
+  },
+  "timeline": [
+    {
+      "date": "2018-07-31",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2018-07-31",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "solar_oem",
+      "supplier": "Trina Solar",
+      "model": "TSM-DE14A (355W)",
+      "grid_forming": false,
+      "source_url": "https://reneweconomy.com.au/ratch-appoints-epc-contractor-collinsville-solar-project-65055/"
+    },
+    {
+      "role": "inverter",
+      "supplier": "SMA",
+      "model": "Sunny Central 2500-EV",
+      "grid_forming": false,
+      "source_url": "https://reneweconomy.com.au/ratch-appoints-epc-contractor-collinsville-solar-project-65055/"
+    },
+    {
+      "role": "epc",
+      "supplier": "UGL",
+      "grid_forming": false,
+      "source_url": "https://reneweconomy.com.au/ratch-appoints-epc-contractor-collinsville-solar-project-65055/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

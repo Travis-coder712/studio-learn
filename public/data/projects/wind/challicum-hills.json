@@ -1,0 +1,70 @@
+{
+  "id": "challicum-hills",
+  "name": "Challicum Hills",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 52.5,
+  "state": "VIC",
+  "current_developer": "Pacific Hydro Challicum Hills Pty Ltd",
+  "cod_current": "2003-07-31",
+  "cod_original": "2003-07-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 26.1,
+  "notable": "53 MW wind farm near Ararat, VIC. Pacific Hydro (SPIC). One of Victoria's earliest large-scale wind farms, commissioned 2003. 35 NEG Micon NM72 1.5 MW turbines.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1044",
+  "confidence_score": "49",
+  "first_seen": "2003-07-31",
+  "coordinates": {
+    "lat": -37.395466,
+    "lng": 143.10459
+  },
+  "timeline": [
+    {
+      "date": "2002",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Pacific Hydro began construction near Ararat",
+      "sources": []
+    },
+    {
+      "date": "2003-07-31",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2009-07-01",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

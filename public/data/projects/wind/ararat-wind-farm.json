@@ -1,0 +1,102 @@
+{
+  "id": "ararat-wind-farm",
+  "name": "Ararat Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 240.0,
+  "state": "VIC",
+  "current_developer": "Ararat Wind Farm Pty Ltd",
+  "current_operator": "Iberdrola Australia",
+  "cod_current": "2016-08-18",
+  "cod_original": "2016-08-18",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 14.7,
+  "notable": "ACT Govt 20yr PPA. Infigen developed, now Iberdrola Australia.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1462",
+  "confidence_score": "65",
+  "first_seen": "2016-08-18",
+  "coordinates": {
+    "lat": -37.263393,
+    "lng": 143.082116
+  },
+  "timeline": [
+    {
+      "date": "2010",
+      "date_precision": "year",
+      "event_type": "planning_approved",
+      "title": "Victorian planning permit",
+      "detail": "Planning permit granted for wind farm near Ararat",
+      "sources": []
+    },
+    {
+      "date": "2014-10",
+      "date_precision": "month",
+      "event_type": "fid",
+      "title": "Financial close",
+      "detail": "RES Group reached financial close on the A$450M project",
+      "sources": []
+    },
+    {
+      "date": "2014-11",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Site works began for 75 GE 3.2 MW turbines",
+      "sources": []
+    },
+    {
+      "date": "2016-08-18",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2016-08-19",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "GE Vernova",
+      "model": "GE 2.5-120",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "ACT Government",
+      "type": "government_ppa",
+      "term_years": 20,
+      "capacity_mw": 80.0,
+      "source_url": "https://www.environment.act.gov.au/energy/cleaner-energy/renewable-energy-target"
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

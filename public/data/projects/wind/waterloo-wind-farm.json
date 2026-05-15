@@ -1,0 +1,113 @@
+{
+  "id": "waterloo-wind-farm",
+  "name": "Waterloo Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 130.8,
+  "state": "SA",
+  "current_developer": "Waterloo Windfarm Pty Ltd",
+  "current_operator": "Palisade/Aware Super",
+  "cod_current": "2010-08-19",
+  "cod_original": "2010-08-19",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 32.4,
+  "notable": "111 MW wind farm in Clare Valley, SA. Expanded 2016 with 6 additional Vestas V117-3.3 MW turbines (A$43M). Owned by Northleaf Capital / Palisade Investment Partners.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1223",
+  "confidence_score": "52",
+  "first_seen": "2010-08-19",
+  "coordinates": {
+    "lat": -33.991095,
+    "lng": 138.915723
+  },
+  "timeline": [
+    {
+      "date": "2009",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Stage 1 construction commenced",
+      "detail": "Roaring 40s JV began construction; A$300M Stage 1",
+      "sources": []
+    },
+    {
+      "date": "2010-08-19",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2010-08-20",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    },
+    {
+      "date": "2017",
+      "date_precision": "year",
+      "event_type": "expansion",
+      "title": "Stage 2 extension complete",
+      "detail": "6 Vestas V117-3.3 MW turbines added; total 130.8 MW",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Vestas",
+      "model": "V90-3.0 MW",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Waterloo Wind Farm Environmental Statement (SA EPA / EPBC 2006/2906)",
+    "document_url": "https://www.environment.gov.au/epbc/notices/search-notices/2006/2906",
+    "document_year": 2006,
+    "turbine_model": "Vestas V90-3.0 MW",
+    "turbine_count": 44,
+    "turbine_rated_power_mw": 3.0,
+    "hub_height_m": 80.0,
+    "hub_height_note": "Standard 80 m hub for V90-3.0 MW on SA Mid North hills",
+    "rotor_diameter_m": 90.0,
+    "wind_speed_mean_ms": 8.6,
+    "wind_speed_height_m": 80.0,
+    "wind_speed_period": "Mean annual wind speed at hub height; Waterloo, Mid North SA near Clare Valley \u2014 from on-site met mast",
+    "assumed_capacity_factor_pct": 39.0,
+    "assumed_annual_energy_gwh": 447.0,
+    "energy_yield_method": "WAsP modelling; P50 net yield",
+    "noise_limit_dba": 35.0,
+    "minimum_setback_m": 1500,
+    "connection_voltage_kv": 275.0,
+    "network_service_provider": "ElectraNet",
+    "connection_substation_name": "Waterloo 275/66 kV substation (ElectraNet), near Waterloo SA",
+    "connection_substation_capacity_mva": 300.0,
+    "connection_distance_km": 8.0,
+    "connection_distance_note": "~8 km of 66 kV connection to ElectraNet Waterloo 275/66 kV substation, Mid North SA.",
+    "connection_augmentation": "New 66 kV connection to ElectraNet. Mid North SA 275 kV network is well-established. Modest augmentation for 131 MW scale.",
+    "notes": "131 MW (44 x ~3.0 MW Vestas V90), near Waterloo, Mid North SA (Clare Valley area). Developer: TrustPower (NZ). SA EPA + EPBC approval 2006. Completed 2010. Mid North SA provides excellent wind resource. ElectraNet 275 kV connection."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

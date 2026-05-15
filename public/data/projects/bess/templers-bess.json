@@ -1,0 +1,93 @@
+{
+  "id": "templers-bess",
+  "name": "Templers BESS",
+  "technology": "bess",
+  "status": "commissioning",
+  "capacity_mw": 111.0,
+  "storage_mwh": 291.0,
+  "state": "SA",
+  "current_developer": "ZEBRE Pty Ltd",
+  "cod_current": "2025-08-31",
+  "cod_original": "2025-08-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "111 MW / 222 MWh BESS near Mallala, SA. Nexif Energy project.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1911",
+  "confidence_score": "48",
+  "first_seen": "2026-03-12",
+  "coordinates": {
+    "lat": -34.55,
+    "lng": 138.51
+  },
+  "timeline": [
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "event_type": "cod_change",
+      "title": "COD estimate updated",
+      "detail": "COD changed from 2025-08 to 2025-08-31 (source: AEMO Generation Information)",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Sungrow",
+      "model": "LFP battery system",
+      "grid_forming": false,
+      "source_url": "https://www.energy-storage.news/commissioning-begins-on-south-australias-second-largest-bess/"
+    },
+    {
+      "role": "epc",
+      "supplier": "Consolidated Power Projects (CPP)",
+      "grid_forming": false,
+      "source_url": "https://www.zenenergy.com.au/templers-battery/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Templers BESS Development Application (SA EPA)",
+    "document_url": "https://www.epa.sa.gov.au/",
+    "document_year": 2022,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "Sungrow (CATL cells integrated)",
+    "cell_country_of_manufacture": "China",
+    "inverter_supplier": "Sungrow Power Supply Co.",
+    "inverter_model": "Sungrow SC3450UD-MV (integrated BESS-PCS)",
+    "inverter_country_of_manufacture": "China",
+    "pcs_type": "grid_following",
+    "round_trip_efficiency_pct": 89.0,
+    "round_trip_efficiency_ac": 85.0,
+    "duration_hours": 2.6,
+    "connection_voltage_kv": 275.0,
+    "transformer_mva": 120.0,
+    "network_service_provider": "ElectraNet",
+    "connection_substation_name": "Templers 275/66 kV substation (ElectraNet), Mid North SA",
+    "connection_substation_capacity_mva": 300.0,
+    "connection_distance_km": 5.0,
+    "connection_distance_note": "~5 km of 66 kV connection to ElectraNet Templers 275/66 kV substation, Mid North SA near Port Wakefield.",
+    "connection_augmentation": "ElectraNet augmentation of Mid North SA 275 kV network. Templers area has existing infrastructure for adjacent wind/solar projects.",
+    "notes": "111 MW / 291 MWh (~2.6-hour) BESS, Templers, Mid North SA (near Port Wakefield). Developer: Tilt Renewables Australia. Technology: Sungrow integrated LFP battery system. EPC: CPP. SA development approval 2022. Commissioning 2025. ~2.6-hour duration \u2014 longer than standard 2-hour. ElectraNet 275 kV connection via Templers substation."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

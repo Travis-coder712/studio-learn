@@ -1,0 +1,112 @@
+{
+  "id": "mount-emerald",
+  "name": "Mount Emerald",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 180.5,
+  "state": "QLD",
+  "current_developer": "Ratch Australia",
+  "current_operator": "RATCH-Australia",
+  "cod_current": "2018-08-20",
+  "cod_original": "2018-08-20",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 47.8,
+  "notable": "53x Vestas V117-3.45MW. Ergon Energy 12.5yr PPA. Queenslands largest wind farm at commissioning. RATCH-Australia owns.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1258",
+  "confidence_score": "59",
+  "first_seen": "2018-08-20",
+  "coordinates": {
+    "lat": -17.133248,
+    "lng": 145.380037
+  },
+  "timeline": [
+    {
+      "date": "2016",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "RATCH-Australia began construction on Atherton Tablelands",
+      "sources": []
+    },
+    {
+      "date": "2018-08-20",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2018-08-20",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Vestas",
+      "model": "V117-3.45 MW",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "Ergon Energy",
+      "type": "PPA",
+      "term_years": 12,
+      "capacity_mw": 180.5
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Mount Emerald Wind Farm EIS \u2014 Coordinator-General's Report (QLD DSDILGP)",
+    "document_url": "https://www.dsdilgp.qld.gov.au/our-work/major-projects/energy-projects/mount-emerald-wind-farm",
+    "document_year": 2013,
+    "turbine_model": "Vestas V117-3.45 MW",
+    "turbine_count": 52,
+    "turbine_rated_power_mw": 3.47,
+    "hub_height_m": 91.5,
+    "hub_height_note": "Standard 91.5 m hub for V117-3.45 MW on the Atherton Tablelands QLD",
+    "rotor_diameter_m": 117.0,
+    "wind_speed_mean_ms": 8.2,
+    "wind_speed_height_m": 91.5,
+    "wind_speed_period": "Mean annual wind speed at hub height; Mount Emerald, Atherton Tablelands, Far North QLD",
+    "assumed_capacity_factor_pct": 36.5,
+    "assumed_annual_energy_gwh": 578.0,
+    "energy_yield_method": "WAsP modelling; P50 net yield",
+    "noise_limit_dba": 37.0,
+    "minimum_setback_m": 1500,
+    "connection_voltage_kv": 132.0,
+    "network_service_provider": "Powerlink Queensland",
+    "connection_substation_name": "Mount Emerald 132/33 kV substation (new on-site), Powerlink Tablelands 132 kV network, Far North QLD",
+    "connection_substation_capacity_mva": 250.0,
+    "connection_distance_km": 20.0,
+    "connection_distance_note": "~20 km of 132 kV line to Powerlink Tablelands 132 kV network, Far North QLD.",
+    "connection_augmentation": "Powerlink Far North QLD 132 kV network reinforcement. Mount Emerald and adjacent Kaban share connection infrastructure. Both required combined network upgrade.",
+    "notes": "181 MW (52 x 3.45 MW Vestas V117), Mount Emerald, Atherton Tablelands, Far North QLD (near Cairns). Developer: Ratch Australia. QLD EIS approved 2013. Now operating (2018). 132 kV Powerlink connection \u2014 constrained by the remote Far North QLD grid. Adjacent to 152 MW Kaban Wind Farm."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

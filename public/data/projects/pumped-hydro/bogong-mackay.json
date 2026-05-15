@@ -1,0 +1,71 @@
+{
+  "id": "bogong-mackay",
+  "name": "Bogong / Mackay",
+  "technology": "pumped_hydro",
+  "status": "operating",
+  "capacity_mw": 300.0,
+  "state": "VIC",
+  "current_developer": "AGL Hydro Partnership",
+  "cod_current": "1959-12-31",
+  "cod_original": "1959-12-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 20.6,
+  "notable": "300 MW combined Bogong (140 MW) + McKay Creek (140 MW) stations \u2014 fourth and final addition to the Kiewa Hydroelectric Scheme in the Victorian Alps near Mount Beauty. AGL Energy. Commissioned November 2009 after decades of delays. A$240M.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1023",
+  "confidence_score": "46",
+  "first_seen": "1959-12-31",
+  "coordinates": {
+    "lat": -36.805471,
+    "lng": 147.227845
+  },
+  "timeline": [
+    {
+      "date": "1959-12-31",
+      "date_precision": "year",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "1998-12-07",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "hydro_oem",
+      "supplier": "Toshiba",
+      "model": "Francis (Bogong); Pelton (McKay Creek)",
+      "quantity": 8,
+      "grid_forming": false,
+      "source_url": "https://www.power-technology.com/projects/bogong-station/"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

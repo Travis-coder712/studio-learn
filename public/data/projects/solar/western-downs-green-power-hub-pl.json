@@ -1,0 +1,76 @@
+{
+  "id": "western-downs-green-power-hub-pl",
+  "name": "Western Downs Green Power Hub P/L",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 400.0,
+  "state": "QLD",
+  "current_developer": "Western Downs Green Power Hub Pty Ltd",
+  "cod_current": "2022-02-15",
+  "cod_original": "2022-02-15",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 60.5,
+  "notable": "400 MW solar farm near Chinchilla, QLD \u2014 part of Neoen's Western Downs Green Power Hub. One of Queensland's largest solar installations in the Western Downs energy corridor.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "2011",
+  "confidence_score": "46",
+  "first_seen": "2022-02-15",
+  "coordinates": {
+    "lat": -26.927922,
+    "lng": 150.601542
+  },
+  "timeline": [
+    {
+      "date": "2022-02-15",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2022-02-15",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "epc",
+      "supplier": "Sterling & Wilson",
+      "grid_forming": false,
+      "source_url": "https://www.nsenergybusiness.com/projects/western-downs-green-power-hub/"
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "CS Energy",
+      "type": "PPA",
+      "capacity_mw": 320.0,
+      "source_url": "https://reneweconomy.com.au/western-downs-green-power-hub/"
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

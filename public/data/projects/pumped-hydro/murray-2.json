@@ -1,0 +1,78 @@
+{
+  "id": "murray-2",
+  "name": "Murray 2",
+  "technology": "pumped_hydro",
+  "status": "operating",
+  "capacity_mw": 625.0,
+  "state": "VIC",
+  "current_developer": "Snowy Hydro Ltd",
+  "cod_current": "1966-12-31",
+  "cod_original": "1966-12-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 10.6,
+  "notable": "625 MW conventional hydro, Snowy Mountains Scheme, completed 1969. Four Hitachi Francis turbines, 264m head, ASEA generators. Located underground near Khancoban, NSW. Receives discharge from Murray 1 upstream.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1148",
+  "confidence_score": "46",
+  "first_seen": "1966-12-31",
+  "coordinates": {
+    "lat": -36.245992,
+    "lng": 148.188552
+  },
+  "timeline": [
+    {
+      "date": "1966-12-31",
+      "date_precision": "year",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2001-07-15",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "hydro_oem",
+      "supplier": "Hitachi",
+      "model": "Francis",
+      "quantity": 4,
+      "grid_forming": false,
+      "source_url": "https://en.wikipedia.org/wiki/Murray_Hydroelectric_Power_Station"
+    },
+    {
+      "role": "hydro_oem",
+      "supplier": "ASEA",
+      "model": "Generator",
+      "grid_forming": false,
+      "source_url": "https://en.wikipedia.org/wiki/Murray_Hydroelectric_Power_Station"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

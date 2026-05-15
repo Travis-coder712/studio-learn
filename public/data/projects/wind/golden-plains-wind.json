@@ -1,0 +1,287 @@
+{
+  "id": "golden-plains-wind",
+  "name": "Golden Plains Wind Farm",
+  "technology": "wind",
+  "status": "construction",
+  "capacity_mw": 1610.0,
+  "state": "VIC",
+  "lga": "Golden Plains Shire",
+  "current_developer": "TagEnergy / Ingka Group",
+  "cod_current": "2026 (Stage 1)",
+  "cod_original": "2025",
+  "connection_status": "In progress",
+  "connection_nsp": "AusNet Services",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "notable": "At 1,300MW across two stages, this will be one of the largest wind farms in the Southern Hemisphere when complete. Uses 228 Vestas turbines.",
+  "data_confidence": "good",
+  "last_updated": "2025-03-01",
+  "last_verified": "2025-03-01",
+  "confidence_score": "80",
+  "development_stage": "epbc_approved",
+  "first_seen": "2017",
+  "coordinates": {
+    "lat": -37.78,
+    "lng": 143.94
+  },
+  "timeline": [
+    {
+      "date": "2017",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2017/7965",
+      "detail": "Golden Plains Wind Farm, Vic \u2014 Controlled Action",
+      "sources": []
+    },
+    {
+      "date": "2018-01-01",
+      "date_precision": "year",
+      "event_type": "conceived",
+      "title": "Project conceived by WestWind Energy",
+      "sources": [
+        {
+          "title": "AEMO Generation Information",
+          "url": "https://aemo.com.au"
+        }
+      ]
+    },
+    {
+      "date": "2018-10-01",
+      "date_precision": "month",
+      "event_type": "planning_approved",
+      "title": "EES assessment concluded / planning permit",
+      "detail": "Victorian Minister for Planning granted permit",
+      "sources": []
+    },
+    {
+      "date": "2020-09-01",
+      "date_precision": "month",
+      "event_type": "planning_approved",
+      "title": "Planning approval granted",
+      "detail": "Victorian Government planning approval for 228 turbines across two stages",
+      "sources": [
+        {
+          "title": "Victorian Planning",
+          "url": "https://www.planning.vic.gov.au/"
+        }
+      ]
+    },
+    {
+      "date": "2022",
+      "date_precision": "year",
+      "event_type": "fid",
+      "title": "Financial close \u2014 A$2B+",
+      "detail": "Australias largest wind farm reached financial close",
+      "sources": []
+    },
+    {
+      "date": "2022-11-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Stage 1 financial close",
+      "detail": "A$3 billion commitment including Stage 2 development",
+      "sources": []
+    },
+    {
+      "date": "2023-01-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Stage 1 construction commenced",
+      "detail": "122 Vestas V162-6.2 MW turbines",
+      "sources": []
+    },
+    {
+      "date": "2023-06-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Stage 1 construction commenced",
+      "detail": "Construction began on 122-turbine Stage 1 (756MW)",
+      "sources": [
+        {
+          "title": "RenewEconomy",
+          "url": "https://reneweconomy.com.au/",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "date": "2024-06-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Stage 2 financial close",
+      "detail": "Vestas EPC for 93 turbines / 577 MW Stage 2 West",
+      "sources": []
+    },
+    {
+      "date": "2025-03-01",
+      "date_precision": "month",
+      "event_type": "energisation",
+      "title": "Stage 1 first power delivered",
+      "detail": "First turbines energised in Q1 2025",
+      "sources": []
+    }
+  ],
+  "ownership_history": [
+    {
+      "period": "2018-2021",
+      "owner": "WestWind Energy",
+      "role": "Developer"
+    },
+    {
+      "period": "2021-present",
+      "owner": "Amplitude Energy / TagEnergy",
+      "role": "Developer & Owner"
+    }
+  ],
+  "cod_history": [
+    {
+      "date": "2021-01-01",
+      "estimate": "2025 (Stage 1)",
+      "source": "AEMO Gen Info"
+    },
+    {
+      "date": "2023-01-01",
+      "estimate": "2026 (Stage 1)",
+      "source": "AEMO Gen Info"
+    }
+  ],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Vestas",
+      "model": "V162-6.2 MW",
+      "grid_forming": false
+    },
+    {
+      "role": "epc",
+      "supplier": "Vestas (EPC for Stage 1 and Stage 2)",
+      "grid_forming": false,
+      "source_url": "https://tag-en.com/3-billion-victorian-wind-farm-secures-equity-investor-and-epc-contractor/"
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "Shell Energy",
+      "type": "PPA",
+      "source_url": "https://reneweconomy.com.au/golden-plains-wind-farm/"
+    }
+  ],
+  "scheme_contracts": [],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "East (Phase 1)",
+      "capacity_mw": 733.0,
+      "storage_mwh": 0.0,
+      "status": "commissioning",
+      "grid_forming": false,
+      "notes": "Commissioning. 122 turbines."
+    },
+    {
+      "stage": 2,
+      "name": "West (Phase 2)",
+      "capacity_mw": 577.0,
+      "storage_mwh": 0.0,
+      "status": "construction",
+      "grid_forming": false,
+      "notes": "Under construction."
+    },
+    {
+      "stage": 3,
+      "name": "BESS Phase 1",
+      "capacity_mw": 150.0,
+      "storage_mwh": 300.0,
+      "status": "development",
+      "grid_forming": false,
+      "notes": "Battery storage."
+    },
+    {
+      "stage": 4,
+      "name": "BESS Phase 2",
+      "capacity_mw": 150.0,
+      "storage_mwh": 300.0,
+      "status": "development",
+      "grid_forming": false,
+      "notes": "Battery storage expansion."
+    }
+  ],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Golden Plains Wind Farm Environment Effects Statement (EES)",
+    "document_url": "https://www.planning.vic.gov.au/permits-and-applications/state-projects/assessed-projects/golden-plains-wind-farm",
+    "document_year": 2021,
+    "turbine_model": "Vestas V162-6.2 MW",
+    "turbine_count": 215,
+    "turbine_rated_power_mw": 6.2,
+    "hub_height_m": 119.0,
+    "hub_height_note": "Nominated hub height in EES; envelope allows up to 200 m total tip height",
+    "rotor_diameter_m": 162.0,
+    "wind_speed_mean_ms": 7.6,
+    "wind_speed_height_m": 100.0,
+    "wind_speed_period": "Multi-year WAsP modelling at 100 m AGL; site confirms strong south-westerly resource",
+    "assumed_capacity_factor_pct": 35.2,
+    "assumed_annual_energy_gwh": 4010.0,
+    "energy_yield_method": "WAsP mesoscale wind modelling calibrated to site met mast data; reported in EES Chapter 7",
+    "noise_limit_dba": 40.0,
+    "minimum_setback_m": 1000,
+    "connection_voltage_kv": 220.0,
+    "network_service_provider": "AusNet Services",
+    "connection_substation_name": "Bulgana 220 kV substation (new connection point)",
+    "connection_substation_capacity_mva": 500.0,
+    "connection_distance_km": 27.0,
+    "connection_distance_note": "~27 km of new 220 kV double-circuit transmission line from project to Bulgana substation, per EES connection study",
+    "connection_augmentation": "New 220 kV double-circuit line required. Bulgana substation augmentation. Part of Western Victoria Transmission Network Project corridor.",
+    "notes": "Stage 1 (756 MW) reached financial close Dec 2024; Stage 2 (544 MW) financial close Jan 2025. Full 1,300 MW project uses two separate AEMO generation units. EES approved by Victorian Minister for Planning March 2021 with 83 conditions. Vestas V162-6.2 MW confirmed as nominated technology by TagEnergy in 2024 turbine supply announcement."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information",
+      "url": "https://aemo.com.au"
+    }
+  ],
+  "timeline_events": [
+    {
+      "date": "2018-01-01",
+      "date_precision": "year",
+      "event_type": "conceived",
+      "title": "Project conceived by WestWind Energy",
+      "sources": [
+        {
+          "title": "AEMO Generation Information",
+          "url": "https://aemo.com.au"
+        }
+      ]
+    },
+    {
+      "date": "2020-09-01",
+      "date_precision": "month",
+      "event_type": "planning_approved",
+      "title": "Planning approval granted",
+      "detail": "Victorian Government planning approval for 228 turbines across two stages",
+      "sources": [
+        {
+          "title": "Victorian Planning",
+          "url": "https://www.planning.vic.gov.au/"
+        }
+      ]
+    },
+    {
+      "date": "2023-06-01",
+      "date_precision": "month",
+      "event_type": "construction_start",
+      "title": "Stage 1 construction commenced",
+      "detail": "Construction began on 122-turbine Stage 1 (756MW)",
+      "sources": [
+        {
+          "title": "RenewEconomy",
+          "url": "https://reneweconomy.com.au/",
+          "source_tier": 2
+        }
+      ]
+    }
+  ]
+}

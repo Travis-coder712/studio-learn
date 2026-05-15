@@ -1,0 +1,72 @@
+{
+  "id": "wivenhoe",
+  "name": "Wivenhoe",
+  "technology": "pumped_hydro",
+  "status": "operating",
+  "capacity_mw": 570.0,
+  "storage_mwh": 3000.0,
+  "state": "QLD",
+  "current_developer": "CleanCo Queensland Limited",
+  "cod_current": "1983-12-31",
+  "cod_original": "1983-12-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 52.5,
+  "notable": "Queensland's only pumped storage hydro at 570 MW \u2014 two 285 MW Francis turbines (largest hydromachines in Australia). Commissioned 1984, 75 km west of Brisbane. Water cycles between Split Yard Creek Dam and Wivenhoe Dam. Transferred to CleanCo Queensland in 2019. Set a 40-year generation record in Q3 2024.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1235",
+  "confidence_score": "51",
+  "first_seen": "1983-12-31",
+  "coordinates": {
+    "lat": -27.372224,
+    "lng": 152.632362
+  },
+  "timeline": [
+    {
+      "date": "1983-12-31",
+      "date_precision": "year",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "1998-12-15",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "hydro_oem",
+      "supplier": "Toshiba",
+      "model": "Francis (reversible pump-turbine)",
+      "quantity": 2,
+      "grid_forming": false,
+      "source_url": "https://en.wikipedia.org/wiki/Wivenhoe_Power_Station"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

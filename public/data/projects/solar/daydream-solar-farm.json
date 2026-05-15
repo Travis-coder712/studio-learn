@@ -1,0 +1,76 @@
+{
+  "id": "daydream-solar-farm",
+  "name": "Daydream Solar Farm",
+  "technology": "solar",
+  "status": "operating",
+  "capacity_mw": 150.0,
+  "state": "QLD",
+  "current_developer": "The Daydream Solar Farm Trust",
+  "cod_current": "2018-10-24",
+  "cod_original": "2018-10-24",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 47.4,
+  "notable": "180 MW solar farm near Collinsville, QLD. Developed by Edify Energy with EPC by Bouygues Construction. Has a PPA with Origin Energy.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1516",
+  "confidence_score": "46",
+  "first_seen": "2018-10-24",
+  "coordinates": {
+    "lat": -20.512804,
+    "lng": 147.691968
+  },
+  "timeline": [
+    {
+      "date": "2018-10-24",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2018-10-24",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "solar_oem",
+      "supplier": "First Solar",
+      "model": "Series 4",
+      "grid_forming": false,
+      "source_url": "https://www.pv-tech.org/news/first-solar-tops-500mw-of-series-4-module-orders-in-australia"
+    },
+    {
+      "role": "epc",
+      "supplier": "RCR Tomlinson",
+      "grid_forming": false,
+      "source_url": "https://www.pv-tech.org/news/first-solar-tops-500mw-of-series-4-module-orders-in-australia"
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

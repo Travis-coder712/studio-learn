@@ -1,0 +1,4365 @@
+{
+  "generated_at": "2026-04-01T23:34:22.413346",
+  "summary": {
+    "total_issues": 244,
+    "by_severity": {
+      "warning": 94,
+      "high": 62,
+      "info": 88
+    },
+    "by_type": {
+      "similar_names": 105,
+      "name_mismatch": 12,
+      "capacity_mismatch": 36,
+      "technology_mismatch": 2,
+      "multi_scheme_duplicate": 80,
+      "missing_coordinates": 9
+    }
+  },
+  "issues": [
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "bluegrass-solar-farm",
+        "name": "Bluegrass Solar Farm",
+        "status": "operating",
+        "capacity_mw": 148.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "blue-grass-bess",
+        "name": "Blue Grass BESS",
+        "status": "development",
+        "capacity_mw": 148.0,
+        "technology": "bess"
+      },
+      "similarity": 0.947,
+      "message": "Similar names: 'Bluegrass Solar Farm' (operating, 148.0 MW) vs 'Blue Grass BESS' (development, 148.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "limondale-solar-farm-1",
+        "name": "Limondale Solar Farm 1",
+        "status": "operating",
+        "capacity_mw": 306.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "limondale-bess",
+        "name": "Limondale BESS",
+        "status": "construction",
+        "capacity_mw": 50.0,
+        "technology": "bess"
+      },
+      "similarity": 0.9,
+      "message": "Similar names: 'Limondale Solar Farm 1' (operating, 306.0 MW) vs 'Limondale BESS' (construction, 50.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "kidston-solar-project-phase-two",
+        "name": "Kidston Solar Project Phase Two",
+        "status": "development",
+        "capacity_mw": 270.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "kidston-solar-project-phase-one",
+        "name": "Kidston Solar Project Phase One",
+        "status": "operating",
+        "capacity_mw": 50.0,
+        "technology": "solar"
+      },
+      "similarity": 0.935,
+      "message": "Similar names: 'Kidston Solar Project Phase Two' (development, 270.0 MW) vs 'Kidston Solar Project Phase One' (operating, 50.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "nowingi-solar-storage-solar",
+        "name": "Nowingi Solar Storage - Solar",
+        "status": "development",
+        "capacity_mw": 250.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "nowingi-solar-storage-storage",
+        "name": "Nowingi Solar Storage - Storage",
+        "status": "development",
+        "capacity_mw": 80.0,
+        "technology": "bess"
+      },
+      "similarity": 0.9,
+      "message": "Similar names: 'Nowingi Solar Storage - Solar' (development, 250.0 MW) vs 'Nowingi Solar Storage - Storage' (development, 80.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "riverland-solar-storage-solar",
+        "name": "Riverland Solar Storage - Solar",
+        "status": "development",
+        "capacity_mw": 330.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "riverland-solar-storage-storage",
+        "name": "Riverland Solar Storage - Storage",
+        "status": "development",
+        "capacity_mw": 100.0,
+        "technology": "bess"
+      },
+      "similarity": 0.906,
+      "message": "Similar names: 'Riverland Solar Storage - Solar' (development, 330.0 MW) vs 'Riverland Solar Storage - Storage' (development, 100.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "limondale-solar-farm-2",
+        "name": "Limondale Solar Farm 2",
+        "status": "operating",
+        "capacity_mw": 42.8,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "limondale-bess",
+        "name": "Limondale BESS",
+        "status": "construction",
+        "capacity_mw": 50.0,
+        "technology": "bess"
+      },
+      "similarity": 0.9,
+      "message": "Similar names: 'Limondale Solar Farm 2' (operating, 42.8 MW) vs 'Limondale BESS' (construction, 50.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "lake-bonney-3-wind-farm",
+        "name": "Lake Bonney 3 Wind Farm",
+        "status": "operating",
+        "capacity_mw": 39.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "lake-bonney-2-wind-farm",
+        "name": "Lake Bonney 2 Wind Farm",
+        "status": "operating",
+        "capacity_mw": 159.0,
+        "technology": "wind"
+      },
+      "similarity": 0.923,
+      "message": "Similar names: 'Lake Bonney 3 Wind Farm' (operating, 39.0 MW) vs 'Lake Bonney 2 Wind Farm' (operating, 159.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "lake-bonney-3-wind-farm",
+        "name": "Lake Bonney 3 Wind Farm",
+        "status": "operating",
+        "capacity_mw": 39.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "lake-bonney-1-wind-farm",
+        "name": "Lake Bonney 1 Wind Farm",
+        "status": "operating",
+        "capacity_mw": 80.5,
+        "technology": "wind"
+      },
+      "similarity": 0.923,
+      "message": "Similar names: 'Lake Bonney 3 Wind Farm' (operating, 39.0 MW) vs 'Lake Bonney 1 Wind Farm' (operating, 80.5 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "goyder-north-wind-farm",
+        "name": "Goyder North Wind Farm",
+        "status": "development",
+        "capacity_mw": 600.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "goyder-north-bess-2",
+        "name": "Goyder North BESS 2",
+        "status": "development",
+        "capacity_mw": 300.0,
+        "technology": "bess"
+      },
+      "similarity": 0.923,
+      "message": "Similar names: 'Goyder North Wind Farm' (development, 600.0 MW) vs 'Goyder North BESS 2' (development, 300.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "hargaves-wind-farm",
+        "name": "Hargaves Wind Farm",
+        "status": "development",
+        "capacity_mw": 400.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "hargraves-bess",
+        "name": "Hargraves BESS",
+        "status": "development",
+        "capacity_mw": 710.0,
+        "technology": "hybrid"
+      },
+      "similarity": 0.941,
+      "message": "Similar names: 'Hargaves Wind Farm' (development, 400.0 MW) vs 'Hargraves BESS' (development, 710.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "lake-bonney-2-wind-farm",
+        "name": "Lake Bonney 2 Wind Farm",
+        "status": "operating",
+        "capacity_mw": 159.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "lake-bonney-1-wind-farm",
+        "name": "Lake Bonney 1 Wind Farm",
+        "status": "operating",
+        "capacity_mw": 80.5,
+        "technology": "wind"
+      },
+      "similarity": 0.923,
+      "message": "Similar names: 'Lake Bonney 2 Wind Farm' (operating, 159.0 MW) vs 'Lake Bonney 1 Wind Farm' (operating, 80.5 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "gullen-range-wind-farm",
+        "name": "Gullen Range Wind Farm",
+        "status": "operating",
+        "capacity_mw": 165.5,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "gullen-range-wind-farm-2",
+        "name": "Gullen Range Wind Farm 2",
+        "status": "operating",
+        "capacity_mw": 110.67,
+        "technology": "wind"
+      },
+      "similarity": 0.923,
+      "message": "Similar names: 'Gullen Range Wind Farm' (operating, 165.5 MW) vs 'Gullen Range Wind Farm 2' (operating, 110.67 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "hughes-gap-wf-kci",
+        "name": "Hughes Gap WF - KCI",
+        "status": "development",
+        "capacity_mw": 300.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "hughes-gap-bess-kci",
+        "name": "Hughes Gap BESS - KCI",
+        "status": "development",
+        "capacity_mw": 300.0,
+        "technology": "bess"
+      },
+      "similarity": 0.914,
+      "message": "Similar names: 'Hughes Gap WF - KCI' (development, 300.0 MW) vs 'Hughes Gap BESS - KCI' (development, 300.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "clements-gap-wind-farm",
+        "name": "Clements Gap Wind Farm",
+        "status": "operating",
+        "capacity_mw": 57.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "clements-gap-bess",
+        "name": "Clements Gap - BESS",
+        "status": "construction",
+        "capacity_mw": 60.0,
+        "technology": "bess"
+      },
+      "similarity": 0.923,
+      "message": "Similar names: 'Clements Gap Wind Farm' (operating, 57.0 MW) vs 'Clements Gap - BESS' (construction, 60.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "willogoleche-2-wind-farm",
+        "name": "Willogoleche 2 Wind Farm",
+        "status": "development",
+        "capacity_mw": 108.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "willogoleche-wind-farm",
+        "name": "Willogoleche Wind Farm",
+        "status": "operating",
+        "capacity_mw": 119.76,
+        "technology": "wind"
+      },
+      "similarity": 0.923,
+      "message": "Similar names: 'Willogoleche 2 Wind Farm' (development, 108.0 MW) vs 'Willogoleche Wind Farm' (operating, 119.76 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "crookwell-2-wind-farm",
+        "name": "Crookwell 2 Wind Farm",
+        "status": "operating",
+        "capacity_mw": 91.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "crookwell-3-wind-farm",
+        "name": "Crookwell 3 Wind Farm",
+        "status": "operating",
+        "capacity_mw": 56.0,
+        "technology": "wind"
+      },
+      "similarity": 0.909,
+      "message": "Similar names: 'Crookwell 2 Wind Farm' (operating, 91.0 MW) vs 'Crookwell 3 Wind Farm' (operating, 56.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "stony-creek-wind-farm",
+        "name": "Stony Creek Wind Farm",
+        "status": "development",
+        "capacity_mw": 400.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "stoney-creek-bess",
+        "name": "Stoney Creek BESS",
+        "status": "development",
+        "capacity_mw": 125.0,
+        "technology": "bess"
+      },
+      "similarity": 0.957,
+      "message": "Similar names: 'Stony Creek Wind Farm' (development, 400.0 MW) vs 'Stoney Creek BESS' (development, 125.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "blue-mackerel-north-off-shore-wind-farm",
+        "name": "Blue Mackerel North Off Shore Wind Farm",
+        "status": "development",
+        "capacity_mw": 1819.0,
+        "technology": "offshore_wind"
+      },
+      "project_b": {
+        "id": "blue-mackerel-north-offshore-wind-farm",
+        "name": "Blue Mackerel North Offshore Wind Farm",
+        "status": "development",
+        "capacity_mw": 1005.0,
+        "technology": "offshore_wind"
+      },
+      "similarity": 0.982,
+      "message": "Similar names: 'Blue Mackerel North Off Shore Wind Farm' (development, 1819.0 MW) vs 'Blue Mackerel North Offshore Wind Farm' (development, 1005.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "bellbay-wind-farm",
+        "name": "Bellbay Wind Farm",
+        "status": "development",
+        "capacity_mw": 224.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "bell-bay-bess",
+        "name": "Bell Bay BESS",
+        "status": "development",
+        "capacity_mw": 100.0,
+        "technology": "bess"
+      },
+      "similarity": 0.933,
+      "message": "Similar names: 'Bellbay Wind Farm' (development, 224.0 MW) vs 'Bell Bay BESS' (development, 100.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "halys-bess-1-akaysha",
+        "name": "Halys BESS 1 (Akaysha)",
+        "status": "development",
+        "capacity_mw": 500.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "halys-bess-2-akaysha",
+        "name": "Halys BESS 2 (Akaysha)",
+        "status": "development",
+        "capacity_mw": 500.0,
+        "technology": "bess"
+      },
+      "similarity": 0.941,
+      "message": "Similar names: 'Halys BESS 1 (Akaysha)' (development, 500.0 MW) vs 'Halys BESS 2 (Akaysha)' (development, 500.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "melbourne-renewable-energy-hub-connection-a1",
+        "name": "Melbourne Renewable Energy Hub Connection A1",
+        "status": "operating",
+        "capacity_mw": 200.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "melbourne-renewable-energy-hub-connection-a3",
+        "name": "Melbourne Renewable Energy Hub Connection A3",
+        "status": "operating",
+        "capacity_mw": 200.0,
+        "technology": "bess"
+      },
+      "similarity": 0.977,
+      "message": "Similar names: 'Melbourne Renewable Energy Hub Connection A1' (operating, 200.0 MW) vs 'Melbourne Renewable Energy Hub Connection A3' (operating, 200.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "melbourne-renewable-energy-hub-connection-a1",
+        "name": "Melbourne Renewable Energy Hub Connection A1",
+        "status": "operating",
+        "capacity_mw": 200.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "melbourne-renewable-energy-hub-connection-a2",
+        "name": "Melbourne Renewable Energy Hub Connection A2",
+        "status": "operating",
+        "capacity_mw": 200.0,
+        "technology": "bess"
+      },
+      "similarity": 0.977,
+      "message": "Similar names: 'Melbourne Renewable Energy Hub Connection A1' (operating, 200.0 MW) vs 'Melbourne Renewable Energy Hub Connection A2' (operating, 200.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "pacific-green-energy-park-portland",
+        "name": "Pacific Green Energy Park \u2013 Portland",
+        "status": "development",
+        "capacity_mw": 250.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "pacific-green-energy-park-portland-west",
+        "name": "Pacific Green Energy Park Portland West",
+        "status": "development",
+        "capacity_mw": 250.0,
+        "technology": "bess"
+      },
+      "similarity": 0.907,
+      "message": "Similar names: 'Pacific Green Energy Park \u2013 Portland' (development, 250.0 MW) vs 'Pacific Green Energy Park Portland West' (development, 250.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "mornington-bess-2",
+        "name": "Mornington BESS 2",
+        "status": "development",
+        "capacity_mw": 300.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "mornington-bess",
+        "name": "Mornington BESS",
+        "status": "construction",
+        "capacity_mw": 240.0,
+        "technology": "bess"
+      },
+      "similarity": 0.909,
+      "message": "Similar names: 'Mornington BESS 2' (development, 300.0 MW) vs 'Mornington BESS' (construction, 240.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "mount-britton-bess2",
+        "name": "Mount Britton BESS2",
+        "status": "development",
+        "capacity_mw": 250.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "mount-britton-bess1",
+        "name": "Mount Britton BESS1",
+        "status": "development",
+        "capacity_mw": 250.0,
+        "technology": "bess"
+      },
+      "similarity": 0.929,
+      "message": "Similar names: 'Mount Britton BESS2' (development, 250.0 MW) vs 'Mount Britton BESS1' (development, 250.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "tamworth-bess-project-2-pty-ltd",
+        "name": "Tamworth BESS Project 2 Pty Ltd",
+        "status": "development",
+        "capacity_mw": 100.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "tamworth-bess-project-1-pty-ltd",
+        "name": "Tamworth BESS Project 1 Pty Ltd",
+        "status": "development",
+        "capacity_mw": 100.0,
+        "technology": "bess"
+      },
+      "similarity": 0.962,
+      "message": "Similar names: 'Tamworth BESS Project 2 Pty Ltd' (development, 100.0 MW) vs 'Tamworth BESS Project 1 Pty Ltd' (development, 100.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "melbourne-renewable-energy-hub-connection-a3",
+        "name": "Melbourne Renewable Energy Hub Connection A3",
+        "status": "operating",
+        "capacity_mw": 200.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "melbourne-renewable-energy-hub-connection-a2",
+        "name": "Melbourne Renewable Energy Hub Connection A2",
+        "status": "operating",
+        "capacity_mw": 200.0,
+        "technology": "bess"
+      },
+      "similarity": 0.977,
+      "message": "Similar names: 'Melbourne Renewable Energy Hub Connection A3' (operating, 200.0 MW) vs 'Melbourne Renewable Energy Hub Connection A2' (operating, 200.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "hargaves-bess",
+        "name": "Hargaves BESS",
+        "status": "development",
+        "capacity_mw": 300.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "hargraves-bess",
+        "name": "Hargraves BESS",
+        "status": "development",
+        "capacity_mw": 710.0,
+        "technology": "hybrid"
+      },
+      "similarity": 0.941,
+      "message": "Similar names: 'Hargaves BESS' (development, 300.0 MW) vs 'Hargraves BESS' (development, 710.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "high",
+      "project_a": {
+        "id": "miriam-vale-solar-farm-and-bess-a",
+        "name": "Miriam Vale Solar Farm And BESS - A",
+        "status": "development",
+        "capacity_mw": 300.0,
+        "technology": "hybrid"
+      },
+      "project_b": {
+        "id": "miriam-vale-solar-farm-and-bess-b",
+        "name": "Miriam Vale Solar Farm And BESS - B",
+        "status": "development",
+        "capacity_mw": 300.0,
+        "technology": "hybrid"
+      },
+      "similarity": 0.947,
+      "message": "Similar names: 'Miriam Vale Solar Farm And BESS - A' (development, 300.0 MW) vs 'Miriam Vale Solar Farm And BESS - B' (development, 300.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "name_mismatch",
+      "severity": "high",
+      "scheme_entry": "Kentbruck Wind Farm",
+      "project_id": "kentbruck-green-power-hub",
+      "project_name": "Kentbruck Green Power Hub",
+      "similarity": 0.529,
+      "source": "scheme-rounds.ts",
+      "message": "Scheme name 'Kentbruck Wind Farm' doesn't match project name 'Kentbruck Green Power Hub' (similarity: 53%)"
+    },
+    {
+      "type": "name_mismatch",
+      "severity": "high",
+      "scheme_entry": "Barnawartha Solar Farm",
+      "project_id": "barnawartha-solar-and-energy-storage",
+      "project_name": "Barnawartha Solar and Energy Storage",
+      "similarity": 0.468,
+      "source": "scheme-rounds.ts",
+      "message": "Scheme name 'Barnawartha Solar Farm' doesn't match project name 'Barnawartha Solar and Energy Storage' (similarity: 47%)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "high",
+      "scheme_entry": "Goyder North Wind Farm",
+      "project_id": "goyder-north-wind-farm",
+      "scheme_capacity_mw": 300.0,
+      "project_capacity_mw": 600.0,
+      "difference_pct": 50.0,
+      "source": "scheme-rounds.ts",
+      "message": "'Goyder North Wind Farm': scheme says 300.0 MW but project file says 600.0 MW (50% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "high",
+      "scheme_entry": "Smithfield Sydney Battery",
+      "project_id": "smithfield-bess",
+      "scheme_capacity_mw": 235.0,
+      "project_capacity_mw": 65.0,
+      "difference_pct": 261.5,
+      "source": "scheme-rounds.ts",
+      "message": "'Smithfield Sydney Battery': scheme says 235.0 MW but project file says 65.0 MW (262% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "high",
+      "scheme_entry": "Mortlake BESS",
+      "project_id": "mortlake-battery",
+      "scheme_capacity_mw": 135.0,
+      "project_capacity_mw": 300.0,
+      "difference_pct": 55.0,
+      "source": "scheme-rounds.ts",
+      "message": "'Mortlake BESS': scheme says 135.0 MW but project file says 300.0 MW (55% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "high",
+      "scheme_entry": "Calala BESS",
+      "project_id": "calala-bess-a1",
+      "scheme_capacity_mw": 150.0,
+      "project_capacity_mw": 100.0,
+      "difference_pct": 50.0,
+      "source": "scheme-rounds.ts",
+      "message": "'Calala BESS': scheme says 150.0 MW but project file says 100.0 MW (50% difference)"
+    },
+    {
+      "type": "name_mismatch",
+      "severity": "high",
+      "scheme_entry": "Mount Piper BESS Stage 1",
+      "project_id": "mt-piper-bess",
+      "project_name": "Mt Piper BESS",
+      "similarity": 0.593,
+      "source": "scheme-rounds.ts",
+      "message": "Scheme name 'Mount Piper BESS Stage 1' doesn't match project name 'Mt Piper BESS' (similarity: 59%)"
+    },
+    {
+      "type": "name_mismatch",
+      "severity": "high",
+      "scheme_entry": "Teebar BESS",
+      "project_id": "teebar-creek-battery-storage-kci",
+      "project_name": "Teebar Creek Battery Storage - KCI",
+      "similarity": 0.375,
+      "source": "scheme-rounds.ts",
+      "message": "Scheme name 'Teebar BESS' doesn't match project name 'Teebar Creek Battery Storage - KCI' (similarity: 38%)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "high",
+      "scheme_entry": "Bundey BESS and Solar",
+      "project_id": "bundey-bess-and-solar-project",
+      "scheme_capacity_mw": 240.0,
+      "project_capacity_mw": 1200.0,
+      "difference_pct": 80.0,
+      "source": "scheme-rounds.ts",
+      "message": "'Bundey BESS and Solar': scheme says 240.0 MW but project file says 1200.0 MW (80% difference)"
+    },
+    {
+      "type": "name_mismatch",
+      "severity": "high",
+      "scheme_entry": "Derby Solar Project",
+      "project_id": "derby-solar-farm-and-bess",
+      "project_name": "Derby Solar Farm and BESS",
+      "similarity": 0.5,
+      "source": "scheme-rounds.ts",
+      "message": "Scheme name 'Derby Solar Project' doesn't match project name 'Derby Solar Farm and BESS' (similarity: 50%)"
+    },
+    {
+      "type": "name_mismatch",
+      "severity": "high",
+      "scheme_entry": "Nowingi Solar Power Station",
+      "project_id": "nowingi-solar-farm-edify-kci",
+      "project_name": "Nowingi Solar Farm - Edify (KCI)",
+      "similarity": 0.5,
+      "source": "scheme-rounds.ts",
+      "message": "Scheme name 'Nowingi Solar Power Station' doesn't match project name 'Nowingi Solar Farm - Edify (KCI)' (similarity: 50%)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "high",
+      "scheme_entry": "Nowingi Solar Power Station",
+      "project_id": "nowingi-solar-farm-edify-kci",
+      "scheme_capacity_mw": 300.0,
+      "project_capacity_mw": 750.0,
+      "difference_pct": 60.0,
+      "source": "scheme-rounds.ts",
+      "message": "'Nowingi Solar Power Station': scheme says 300.0 MW but project file says 750.0 MW (60% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "high",
+      "scheme_entry": "Goulburn River BESS",
+      "project_id": "goulburn-river-bess",
+      "scheme_capacity_mw": 49.0,
+      "project_capacity_mw": 450.0,
+      "difference_pct": 89.1,
+      "source": "scheme-rounds.ts",
+      "message": "'Goulburn River BESS': scheme says 49.0 MW but project file says 450.0 MW (89% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "high",
+      "scheme_entry": "Bannaby BESS",
+      "project_id": "bannaby-bess",
+      "scheme_capacity_mw": 233.0,
+      "project_capacity_mw": 700.0,
+      "difference_pct": 66.7,
+      "source": "scheme-rounds.ts",
+      "message": "'Bannaby BESS': scheme says 233.0 MW but project file says 700.0 MW (67% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "high",
+      "scheme_entry": "Kingswood BESS",
+      "project_id": "kingswood-bess",
+      "scheme_capacity_mw": 100.0,
+      "project_capacity_mw": 250.0,
+      "difference_pct": 60.0,
+      "source": "scheme-rounds.ts",
+      "message": "'Kingswood BESS': scheme says 100.0 MW but project file says 250.0 MW (60% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "high",
+      "scheme_entry": "Smithfield Sydney Battery",
+      "project_id": "smithfield-bess",
+      "scheme_capacity_mw": 235.0,
+      "project_capacity_mw": 65.0,
+      "difference_pct": 261.5,
+      "source": "esg-tracker-data.ts",
+      "message": "'Smithfield Sydney Battery': scheme says 235.0 MW but project file says 65.0 MW (262% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "high",
+      "scheme_entry": "Mortlake BESS",
+      "project_id": "mortlake-battery",
+      "scheme_capacity_mw": 135.0,
+      "project_capacity_mw": 300.0,
+      "difference_pct": 55.0,
+      "source": "esg-tracker-data.ts",
+      "message": "'Mortlake BESS': scheme says 135.0 MW but project file says 300.0 MW (55% difference)"
+    },
+    {
+      "type": "name_mismatch",
+      "severity": "high",
+      "scheme_entry": "Kentbruck Wind Farm",
+      "project_id": "kentbruck-green-power-hub",
+      "project_name": "Kentbruck Green Power Hub",
+      "similarity": 0.529,
+      "source": "esg-tracker-data.ts",
+      "message": "Scheme name 'Kentbruck Wind Farm' doesn't match project name 'Kentbruck Green Power Hub' (similarity: 53%)"
+    },
+    {
+      "type": "name_mismatch",
+      "severity": "high",
+      "scheme_entry": "Barnawartha Solar Farm",
+      "project_id": "barnawartha-solar-and-energy-storage",
+      "project_name": "Barnawartha Solar and Energy Storage",
+      "similarity": 0.468,
+      "source": "esg-tracker-data.ts",
+      "message": "Scheme name 'Barnawartha Solar Farm' doesn't match project name 'Barnawartha Solar and Energy Storage' (similarity: 47%)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "high",
+      "scheme_entry": "Goyder North Wind Farm",
+      "project_id": "goyder-north-wind-farm",
+      "scheme_capacity_mw": 300.0,
+      "project_capacity_mw": 600.0,
+      "difference_pct": 50.0,
+      "source": "esg-tracker-data.ts",
+      "message": "'Goyder North Wind Farm': scheme says 300.0 MW but project file says 600.0 MW (50% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "high",
+      "scheme_entry": "Calala BESS",
+      "project_id": "calala-bess-a1",
+      "scheme_capacity_mw": 150.0,
+      "project_capacity_mw": 100.0,
+      "difference_pct": 50.0,
+      "source": "esg-tracker-data.ts",
+      "message": "'Calala BESS': scheme says 150.0 MW but project file says 100.0 MW (50% difference)"
+    },
+    {
+      "type": "name_mismatch",
+      "severity": "high",
+      "scheme_entry": "Mount Piper BESS Stage 1",
+      "project_id": "mt-piper-bess",
+      "project_name": "Mt Piper BESS",
+      "similarity": 0.593,
+      "source": "esg-tracker-data.ts",
+      "message": "Scheme name 'Mount Piper BESS Stage 1' doesn't match project name 'Mt Piper BESS' (similarity: 59%)"
+    },
+    {
+      "type": "name_mismatch",
+      "severity": "high",
+      "scheme_entry": "Teebar BESS",
+      "project_id": "teebar-creek-battery-storage-kci",
+      "project_name": "Teebar Creek Battery Storage - KCI",
+      "similarity": 0.375,
+      "source": "esg-tracker-data.ts",
+      "message": "Scheme name 'Teebar BESS' doesn't match project name 'Teebar Creek Battery Storage - KCI' (similarity: 38%)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "high",
+      "scheme_entry": "Bundey BESS and Solar",
+      "project_id": "bundey-bess-and-solar-project",
+      "scheme_capacity_mw": 240.0,
+      "project_capacity_mw": 1200.0,
+      "difference_pct": 80.0,
+      "source": "esg-tracker-data.ts",
+      "message": "'Bundey BESS and Solar': scheme says 240.0 MW but project file says 1200.0 MW (80% difference)"
+    },
+    {
+      "type": "name_mismatch",
+      "severity": "high",
+      "scheme_entry": "Derby Solar Project",
+      "project_id": "derby-solar-farm-and-bess",
+      "project_name": "Derby Solar Farm and BESS",
+      "similarity": 0.5,
+      "source": "esg-tracker-data.ts",
+      "message": "Scheme name 'Derby Solar Project' doesn't match project name 'Derby Solar Farm and BESS' (similarity: 50%)"
+    },
+    {
+      "type": "name_mismatch",
+      "severity": "high",
+      "scheme_entry": "Nowingi Solar Power Station",
+      "project_id": "nowingi-solar-farm-edify-kci",
+      "project_name": "Nowingi Solar Farm - Edify (KCI)",
+      "similarity": 0.5,
+      "source": "esg-tracker-data.ts",
+      "message": "Scheme name 'Nowingi Solar Power Station' doesn't match project name 'Nowingi Solar Farm - Edify (KCI)' (similarity: 50%)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "high",
+      "scheme_entry": "Nowingi Solar Power Station",
+      "project_id": "nowingi-solar-farm-edify-kci",
+      "scheme_capacity_mw": 300.0,
+      "project_capacity_mw": 750.0,
+      "difference_pct": 60.0,
+      "source": "esg-tracker-data.ts",
+      "message": "'Nowingi Solar Power Station': scheme says 300.0 MW but project file says 750.0 MW (60% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "high",
+      "scheme_entry": "Goulburn River BESS",
+      "project_id": "goulburn-river-bess",
+      "scheme_capacity_mw": 49.0,
+      "project_capacity_mw": 450.0,
+      "difference_pct": 89.1,
+      "source": "esg-tracker-data.ts",
+      "message": "'Goulburn River BESS': scheme says 49.0 MW but project file says 450.0 MW (89% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "high",
+      "scheme_entry": "Bannaby BESS",
+      "project_id": "bannaby-bess",
+      "scheme_capacity_mw": 233.0,
+      "project_capacity_mw": 700.0,
+      "difference_pct": 66.7,
+      "source": "esg-tracker-data.ts",
+      "message": "'Bannaby BESS': scheme says 233.0 MW but project file says 700.0 MW (67% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "high",
+      "scheme_entry": "Kingswood BESS",
+      "project_id": "kingswood-bess",
+      "scheme_capacity_mw": 100.0,
+      "project_capacity_mw": 250.0,
+      "difference_pct": 60.0,
+      "source": "esg-tracker-data.ts",
+      "message": "'Kingswood BESS': scheme says 100.0 MW but project file says 250.0 MW (60% difference)"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "high",
+      "project_id": "orana-bess",
+      "appearances": [
+        {
+          "name": "Orana REZ Battery",
+          "round": "unknown",
+          "capacity_mw": 460.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Orana BESS",
+          "round": "unknown",
+          "capacity_mw": 415.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Orana REZ Battery",
+          "round": "CIS Pilot \u2014 NSW",
+          "capacity_mw": 460.0,
+          "source": "esg-tracker-data.ts"
+        },
+        {
+          "name": "Orana BESS",
+          "round": "Round 2 \u2014 Firming",
+          "capacity_mw": 415.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'orana-bess' appears in 4 scheme entries: unknown, unknown, CIS Pilot \u2014 NSW, Round 2 \u2014 Firming \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "high",
+      "project_id": "smithfield-bess",
+      "appearances": [
+        {
+          "name": "Smithfield Sydney Battery",
+          "round": "unknown",
+          "capacity_mw": 235.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Smithfield BESS",
+          "round": "unknown",
+          "capacity_mw": 65.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Smithfield Sydney Battery",
+          "round": "CIS Pilot \u2014 NSW",
+          "capacity_mw": 235.0,
+          "source": "esg-tracker-data.ts"
+        },
+        {
+          "name": "Smithfield BESS",
+          "round": "Round 2 \u2014 Firming",
+          "capacity_mw": 65.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'smithfield-bess' appears in 4 scheme entries: unknown, unknown, CIS Pilot \u2014 NSW, Round 2 \u2014 Firming \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "high",
+      "project_id": "goulburn-river-bess",
+      "appearances": [
+        {
+          "name": "Goulburn River Standalone BESS",
+          "round": "unknown",
+          "capacity_mw": 450.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Goulburn River BESS",
+          "round": "unknown",
+          "capacity_mw": 49.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Goulburn River Standalone BESS",
+          "round": "Tender 3 \u2014 NEM Dispatchable",
+          "capacity_mw": 450.0,
+          "source": "esg-tracker-data.ts"
+        },
+        {
+          "name": "Goulburn River BESS",
+          "round": "Round 3 \u2014 Generation + LDS",
+          "capacity_mw": 49.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'goulburn-river-bess' appears in 4 scheme entries: unknown, unknown, Tender 3 \u2014 NEM Dispatchable, Round 3 \u2014 Generation + LDS \u2014 verify not double-counted"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "halys-hybrid-facility-solar",
+        "name": "Halys Hybrid Facility - Solar",
+        "status": "development",
+        "capacity_mw": 750.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "rollsville-hybrid-facility-solar",
+        "name": "Rollsville Hybrid Facility - Solar",
+        "status": "development",
+        "capacity_mw": 220.0,
+        "technology": "solar"
+      },
+      "similarity": 0.825,
+      "message": "Similar names: 'Halys Hybrid Facility - Solar' (development, 750.0 MW) vs 'Rollsville Hybrid Facility - Solar' (development, 220.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "halys-hybrid-facility-solar",
+        "name": "Halys Hybrid Facility - Solar",
+        "status": "development",
+        "capacity_mw": 750.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "mavis-hybrid-facility-solar",
+        "name": "Mavis Hybrid Facility - Solar",
+        "status": "development",
+        "capacity_mw": 252.0,
+        "technology": "hybrid"
+      },
+      "similarity": 0.897,
+      "message": "Similar names: 'Halys Hybrid Facility - Solar' (development, 750.0 MW) vs 'Mavis Hybrid Facility - Solar' (development, 252.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "halys-hybrid-facility-solar",
+        "name": "Halys Hybrid Facility - Solar",
+        "status": "development",
+        "capacity_mw": 750.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "glenroy-hybrid-facility-solar-and-bess",
+        "name": "Glenroy Hybrid Facility - Solar And BESS",
+        "status": "development",
+        "capacity_mw": 1000.0,
+        "technology": "hybrid"
+      },
+      "similarity": 0.812,
+      "message": "Similar names: 'Halys Hybrid Facility - Solar' (development, 750.0 MW) vs 'Glenroy Hybrid Facility - Solar And BESS' (development, 1000.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "clermont-solar-farm",
+        "name": "Clermont Solar Farm",
+        "status": "operating",
+        "capacity_mw": 75.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "learmonth-bess",
+        "name": "Learmonth BESS",
+        "status": "development",
+        "capacity_mw": 268.0,
+        "technology": "bess"
+      },
+      "similarity": 0.824,
+      "message": "Similar names: 'Clermont Solar Farm' (operating, 75.0 MW) vs 'Learmonth BESS' (development, 268.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "mullion-creek-wind-farm",
+        "name": "Mullion Creek Wind Farm",
+        "status": "development",
+        "capacity_mw": 250.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "bulli-creek-battery",
+        "name": "Bulli Creek Battery",
+        "status": "development",
+        "capacity_mw": 600.0,
+        "technology": "bess"
+      },
+      "similarity": 0.833,
+      "message": "Similar names: 'Mullion Creek Wind Farm' (development, 250.0 MW) vs 'Bulli Creek Battery' (development, 600.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "goulburn-river-solar-farm-and-bess",
+        "name": "Goulburn River Solar Farm And BESS",
+        "status": "construction",
+        "capacity_mw": 450.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "goulburn-river-bess",
+        "name": "Goulburn River BESS",
+        "status": "development",
+        "capacity_mw": 450.0,
+        "technology": "bess"
+      },
+      "similarity": 0.875,
+      "message": "Similar names: 'Goulburn River Solar Farm And BESS' (construction, 450.0 MW) vs 'Goulburn River BESS' (development, 450.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "broadsound-solar-farm",
+        "name": "Broadsound Solar Farm",
+        "status": "construction",
+        "capacity_mw": 296.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "broadsoundbess",
+        "name": "Broadsound_BESS",
+        "status": "development",
+        "capacity_mw": 180.0,
+        "technology": "bess"
+      },
+      "similarity": 0.8,
+      "message": "Similar names: 'Broadsound Solar Farm' (construction, 296.0 MW) vs 'Broadsound_BESS' (development, 180.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "punch-and-creek-renewable-energy-stage-2",
+        "name": "Punch and Creek Renewable Energy Stage 2",
+        "status": "development",
+        "capacity_mw": 400.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "punch-and-creek-renewable-energy",
+        "name": "Punch and Creek Renewable Energy",
+        "status": "development",
+        "capacity_mw": 400.0,
+        "technology": "solar"
+      },
+      "similarity": 0.889,
+      "message": "Similar names: 'Punch and Creek Renewable Energy Stage 2' (development, 400.0 MW) vs 'Punch and Creek Renewable Energy' (development, 400.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "sunshine-state-solar-farm-and-bess",
+        "name": "Sunshine State Solar Farm and BESS",
+        "status": "development",
+        "capacity_mw": 90.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "sunshine-estate-bess",
+        "name": "Sunshine Estate BESS",
+        "status": "development",
+        "capacity_mw": 120.0,
+        "technology": "bess"
+      },
+      "similarity": 0.848,
+      "message": "Similar names: 'Sunshine State Solar Farm and BESS' (development, 90.0 MW) vs 'Sunshine Estate BESS' (development, 120.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "darling-downs-solar-farm",
+        "name": "Darling Downs Solar Farm",
+        "status": "operating",
+        "capacity_mw": 110.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "darling-downs-bess-apa",
+        "name": "Darling Downs BESS (APA)",
+        "status": "development",
+        "capacity_mw": 100.0,
+        "technology": "bess"
+      },
+      "similarity": 0.812,
+      "message": "Similar names: 'Darling Downs Solar Farm' (operating, 110.0 MW) vs 'Darling Downs BESS (APA)' (development, 100.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "blenheim-solar-farm-kci",
+        "name": "Blenheim Solar Farm - KCI",
+        "status": "development",
+        "capacity_mw": 106.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "blanche-bess-kci",
+        "name": "Blanche BESS - KCI",
+        "status": "development",
+        "capacity_mw": 128.0,
+        "technology": "bess"
+      },
+      "similarity": 0.815,
+      "message": "Similar names: 'Blenheim Solar Farm - KCI' (development, 106.0 MW) vs 'Blanche BESS - KCI' (development, 128.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "sandy-creek-energy-storage-system",
+        "name": "Sandy Creek Energy Storage System",
+        "status": "development",
+        "capacity_mw": 750.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "stony-creek-wind-farm",
+        "name": "Stony Creek Wind Farm",
+        "status": "development",
+        "capacity_mw": 400.0,
+        "technology": "wind"
+      },
+      "similarity": 0.818,
+      "message": "Similar names: 'Sandy Creek Energy Storage System' (development, 750.0 MW) vs 'Stony Creek Wind Farm' (development, 400.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "lambruk-solar-project",
+        "name": "Lambruk Solar Project",
+        "status": "development",
+        "capacity_mw": 300.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "boree-solar-project",
+        "name": "Boree Solar Project",
+        "status": "development",
+        "capacity_mw": 150.0,
+        "technology": "solar"
+      },
+      "similarity": 0.8,
+      "message": "Similar names: 'Lambruk Solar Project' (development, 300.0 MW) vs 'Boree Solar Project' (development, 150.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "bungala-two-solar-farm",
+        "name": "Bungala Two Solar Farm",
+        "status": "operating",
+        "capacity_mw": 110.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "bungala-one-solar-farm",
+        "name": "Bungala One Solar Farm",
+        "status": "operating",
+        "capacity_mw": 110.0,
+        "technology": "solar"
+      },
+      "similarity": 0.818,
+      "message": "Similar names: 'Bungala Two Solar Farm' (operating, 110.0 MW) vs 'Bungala One Solar Farm' (operating, 110.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "hazelwood-north-solar-farm-kci",
+        "name": "Hazelwood North Solar Farm - KCI",
+        "status": "development",
+        "capacity_mw": 480.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "hazelwood-bess-kci",
+        "name": "Hazelwood BESS - KCI",
+        "status": "development",
+        "capacity_mw": 150.0,
+        "technology": "bess"
+      },
+      "similarity": 0.833,
+      "message": "Similar names: 'Hazelwood North Solar Farm - KCI' (development, 480.0 MW) vs 'Hazelwood BESS - KCI' (development, 150.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "meadow-creek-solar-farm-kci",
+        "name": "Meadow Creek Solar Farm - KCI",
+        "status": "development",
+        "capacity_mw": 180.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "meadow-creek-bess",
+        "name": "Meadow Creek BESS",
+        "status": "development",
+        "capacity_mw": 250.0,
+        "technology": "bess"
+      },
+      "similarity": 0.8,
+      "message": "Similar names: 'Meadow Creek Solar Farm - KCI' (development, 180.0 MW) vs 'Meadow Creek BESS' (development, 250.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "richmond-valley-solar-farm",
+        "name": "Richmond Valley Solar Farm",
+        "status": "development",
+        "capacity_mw": 494.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "eiwa-richmond-valley-bess",
+        "name": "EIWA Richmond Valley BESS",
+        "status": "development",
+        "capacity_mw": 300.0,
+        "technology": "bess"
+      },
+      "similarity": 0.857,
+      "message": "Similar names: 'Richmond Valley Solar Farm' (development, 494.0 MW) vs 'EIWA Richmond Valley BESS' (development, 300.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "rollsville-hybrid-facility-solar",
+        "name": "Rollsville Hybrid Facility - Solar",
+        "status": "development",
+        "capacity_mw": 220.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "mavis-hybrid-facility-solar",
+        "name": "Mavis Hybrid Facility - Solar",
+        "status": "development",
+        "capacity_mw": 252.0,
+        "technology": "hybrid"
+      },
+      "similarity": 0.825,
+      "message": "Similar names: 'Rollsville Hybrid Facility - Solar' (development, 220.0 MW) vs 'Mavis Hybrid Facility - Solar' (development, 252.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "wellington-north-solar-farm",
+        "name": "Wellington North Solar Farm",
+        "status": "development",
+        "capacity_mw": 300.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "winton-north-solar-farm",
+        "name": "Winton North Solar Farm",
+        "status": "development",
+        "capacity_mw": 100.0,
+        "technology": "solar"
+      },
+      "similarity": 0.857,
+      "message": "Similar names: 'Wellington North Solar Farm' (development, 300.0 MW) vs 'Winton North Solar Farm' (development, 100.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "little-river-solar-farm-kci",
+        "name": "Little River Solar Farm - KCI",
+        "status": "development",
+        "capacity_mw": 279.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "little-river-bess",
+        "name": "Little River BESS",
+        "status": "development",
+        "capacity_mw": 350.0,
+        "technology": "bess"
+      },
+      "similarity": 0.8,
+      "message": "Similar names: 'Little River Solar Farm - KCI' (development, 279.0 MW) vs 'Little River BESS' (development, 350.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "molong-solar-farm",
+        "name": "Molong Solar Farm",
+        "status": "operating",
+        "capacity_mw": 30.0,
+        "technology": "solar"
+      },
+      "project_b": {
+        "id": "mobilong-bess",
+        "name": "Mobilong BESS",
+        "status": "development",
+        "capacity_mw": 180.0,
+        "technology": "bess"
+      },
+      "similarity": 0.857,
+      "message": "Similar names: 'Molong Solar Farm' (operating, 30.0 MW) vs 'Mobilong BESS' (development, 180.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "karma-wind-farm-kci",
+        "name": "Karma Wind Farm - KCI",
+        "status": "development",
+        "capacity_mw": 966.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "karara-bess-kci",
+        "name": "Karara BESS - KCI",
+        "status": "development",
+        "capacity_mw": 400.0,
+        "technology": "bess"
+      },
+      "similarity": 0.87,
+      "message": "Similar names: 'Karma Wind Farm - KCI' (development, 966.0 MW) vs 'Karara BESS - KCI' (development, 400.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "snowtown-wind-farm",
+        "name": "Snowtown Wind Farm",
+        "status": "operating",
+        "capacity_mw": 98.7,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "snowtown-s2-wind-farm",
+        "name": "Snowtown S2 Wind Farm",
+        "status": "operating",
+        "capacity_mw": 270.0,
+        "technology": "wind"
+      },
+      "similarity": 0.842,
+      "message": "Similar names: 'Snowtown Wind Farm' (operating, 98.7 MW) vs 'Snowtown S2 Wind Farm' (operating, 270.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "gullen-range-wind-farm",
+        "name": "Gullen Range Wind Farm",
+        "status": "operating",
+        "capacity_mw": 165.5,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "cullerin-range-wind-farm",
+        "name": "Cullerin Range Wind Farm",
+        "status": "operating",
+        "capacity_mw": 30.0,
+        "technology": "wind"
+      },
+      "similarity": 0.846,
+      "message": "Similar names: 'Gullen Range Wind Farm' (operating, 165.5 MW) vs 'Cullerin Range Wind Farm' (operating, 30.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "golden-plains-wind-farm-east",
+        "name": "Golden Plains Wind Farm East",
+        "status": "commissioning",
+        "capacity_mw": 756.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "golden-plains-wind",
+        "name": "Golden Plains Wind Farm",
+        "status": "construction",
+        "capacity_mw": 1300.0,
+        "technology": "wind"
+      },
+      "similarity": 0.839,
+      "message": "Similar names: 'Golden Plains Wind Farm East' (commissioning, 756.0 MW) vs 'Golden Plains Wind Farm' (construction, 1300.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "golden-plains-wind-farm-east",
+        "name": "Golden Plains Wind Farm East",
+        "status": "commissioning",
+        "capacity_mw": 756.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "golden-plains-bess",
+        "name": "Golden Plains BESS",
+        "status": "development",
+        "capacity_mw": 150.0,
+        "technology": "bess"
+      },
+      "similarity": 0.839,
+      "message": "Similar names: 'Golden Plains Wind Farm East' (commissioning, 756.0 MW) vs 'Golden Plains BESS' (development, 150.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "bowmans-creek-wind-farm",
+        "name": "Bowmans Creek Wind Farm",
+        "status": "development",
+        "capacity_mw": 347.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "boags-creek-solar-power-station",
+        "name": "Boags Creek Solar Power Station",
+        "status": "development",
+        "capacity_mw": 300.0,
+        "technology": "hybrid"
+      },
+      "similarity": 0.833,
+      "message": "Similar names: 'Bowmans Creek Wind Farm' (development, 347.0 MW) vs 'Boags Creek Solar Power Station' (development, 300.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "boomber-green-energy-hub",
+        "name": "Boomber Green Energy Hub",
+        "status": "development",
+        "capacity_mw": 1300.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "ilford-green-energy-hub",
+        "name": "Ilford Green Energy Hub",
+        "status": "development",
+        "capacity_mw": 500.0,
+        "technology": "hybrid"
+      },
+      "similarity": 0.809,
+      "message": "Similar names: 'Boomber Green Energy Hub' (development, 1300.0 MW) vs 'Ilford Green Energy Hub' (development, 500.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "tara-wind-farm-kci",
+        "name": "Tara Wind Farm - KCI",
+        "status": "development",
+        "capacity_mw": 1800.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "waubra-bess-kci",
+        "name": "Waubra BESS - KCI",
+        "status": "development",
+        "capacity_mw": 200.0,
+        "technology": "bess"
+      },
+      "similarity": 0.818,
+      "message": "Similar names: 'Tara Wind Farm - KCI' (development, 1800.0 MW) vs 'Waubra BESS - KCI' (development, 200.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "tara-wind-farm-kci",
+        "name": "Tara Wind Farm - KCI",
+        "status": "development",
+        "capacity_mw": 1800.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "karara-bess-kci",
+        "name": "Karara BESS - KCI",
+        "status": "development",
+        "capacity_mw": 400.0,
+        "technology": "bess"
+      },
+      "similarity": 0.818,
+      "message": "Similar names: 'Tara Wind Farm - KCI' (development, 1800.0 MW) vs 'Karara BESS - KCI' (development, 400.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "orsted-gippsland-a-and-b-windfarm",
+        "name": "Orsted Gippsland A and B Windfarm",
+        "status": "development",
+        "capacity_mw": 2820.0,
+        "technology": "offshore_wind"
+      },
+      "project_b": {
+        "id": "orsted-gippsland-c-windfarm",
+        "name": "Orsted Gippsland C Windfarm",
+        "status": "development",
+        "capacity_mw": 2820.0,
+        "technology": "offshore_wind"
+      },
+      "similarity": 0.867,
+      "message": "Similar names: 'Orsted Gippsland A and B Windfarm' (development, 2820.0 MW) vs 'Orsted Gippsland C Windfarm' (development, 2820.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "bendemeer-renewable-energy-hub-wind",
+        "name": "Bendemeer Renewable Energy Hub - Wind",
+        "status": "development",
+        "capacity_mw": 380.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "middle-creek-renewable-energy-hub-wind",
+        "name": "Middle Creek Renewable Energy Hub - Wind",
+        "status": "development",
+        "capacity_mw": 750.0,
+        "technology": "hybrid"
+      },
+      "similarity": 0.805,
+      "message": "Similar names: 'Bendemeer Renewable Energy Hub - Wind' (development, 380.0 MW) vs 'Middle Creek Renewable Energy Hub - Wind' (development, 750.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "eastern-rise-offshore-wind",
+        "name": "Eastern Rise Offshore Wind",
+        "status": "development",
+        "capacity_mw": 1725.0,
+        "technology": "offshore_wind"
+      },
+      "project_b": {
+        "id": "southern-winds-offshore-wind",
+        "name": "Southern Winds Offshore Wind",
+        "status": "development",
+        "capacity_mw": 1155.0,
+        "technology": "offshore_wind"
+      },
+      "similarity": 0.815,
+      "message": "Similar names: 'Eastern Rise Offshore Wind' (development, 1725.0 MW) vs 'Southern Winds Offshore Wind' (development, 1155.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "capital-2-wind-farm",
+        "name": "Capital 2 Wind Farm",
+        "status": "development",
+        "capacity_mw": 134.4,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "capital-wind-farm",
+        "name": "Capital Wind Farm",
+        "status": "operating",
+        "capacity_mw": 140.7,
+        "technology": "wind"
+      },
+      "similarity": 0.875,
+      "message": "Similar names: 'Capital 2 Wind Farm' (development, 134.4 MW) vs 'Capital Wind Farm' (operating, 140.7 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "capital-2-wind-farm",
+        "name": "Capital 2 Wind Farm",
+        "status": "development",
+        "capacity_mw": 134.4,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "capital-battery",
+        "name": "Capital Battery",
+        "status": "operating",
+        "capacity_mw": 100.0,
+        "technology": "bess"
+      },
+      "similarity": 0.875,
+      "message": "Similar names: 'Capital 2 Wind Farm' (development, 134.4 MW) vs 'Capital Battery' (operating, 100.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "kerrs-creek-wind-farm",
+        "name": "Kerrs Creek Wind Farm",
+        "status": "development",
+        "capacity_mw": 330.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "kemps-creek-bess",
+        "name": "Kemps Creek BESS",
+        "status": "development",
+        "capacity_mw": 1000.0,
+        "technology": "bess"
+      },
+      "similarity": 0.818,
+      "message": "Similar names: 'Kerrs Creek Wind Farm' (development, 330.0 MW) vs 'Kemps Creek BESS' (development, 1000.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "boulder-creek-wind-farm",
+        "name": "Boulder Creek Wind Farm",
+        "status": "construction",
+        "capacity_mw": 228.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "gould-creek-bess",
+        "name": "Gould Creek BESS",
+        "status": "development",
+        "capacity_mw": 215.0,
+        "technology": "bess"
+      },
+      "similarity": 0.833,
+      "message": "Similar names: 'Boulder Creek Wind Farm' (construction, 228.0 MW) vs 'Gould Creek BESS' (development, 215.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "golden-plains-wind-farm-west",
+        "name": "Golden Plains Wind Farm West",
+        "status": "construction",
+        "capacity_mw": 577.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "golden-plains-wind",
+        "name": "Golden Plains Wind Farm",
+        "status": "construction",
+        "capacity_mw": 1300.0,
+        "technology": "wind"
+      },
+      "similarity": 0.839,
+      "message": "Similar names: 'Golden Plains Wind Farm West' (construction, 577.0 MW) vs 'Golden Plains Wind Farm' (construction, 1300.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "golden-plains-wind-farm-west",
+        "name": "Golden Plains Wind Farm West",
+        "status": "construction",
+        "capacity_mw": 577.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "golden-plains-bess",
+        "name": "Golden Plains BESS",
+        "status": "development",
+        "capacity_mw": 150.0,
+        "technology": "bess"
+      },
+      "similarity": 0.839,
+      "message": "Similar names: 'Golden Plains Wind Farm West' (construction, 577.0 MW) vs 'Golden Plains BESS' (development, 150.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "woodlawn-wind-farm",
+        "name": "Woodlawn Wind Farm",
+        "status": "operating",
+        "capacity_mw": 48.3,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "woodland-bess",
+        "name": "Woodland BESS",
+        "status": "development",
+        "capacity_mw": 250.0,
+        "technology": "bess"
+      },
+      "similarity": 0.875,
+      "message": "Similar names: 'Woodlawn Wind Farm' (operating, 48.3 MW) vs 'Woodland BESS' (development, 250.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "goombi-renewable-energy-hub",
+        "name": "Goombi Renewable Energy Hub",
+        "status": "development",
+        "capacity_mw": 657.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "sec-renewable-energy-hub",
+        "name": "SEC Renewable Energy Hub",
+        "status": "development",
+        "capacity_mw": 100.0,
+        "technology": "bess"
+      },
+      "similarity": 0.824,
+      "message": "Similar names: 'Goombi Renewable Energy Hub' (development, 657.0 MW) vs 'SEC Renewable Energy Hub' (development, 100.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "barn-hill",
+        "name": "Barn Hill",
+        "status": "development",
+        "capacity_mw": 186.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "broken-hill-bess",
+        "name": "Broken Hill BESS",
+        "status": "operating",
+        "capacity_mw": 50.0,
+        "technology": "bess"
+      },
+      "similarity": 0.8,
+      "message": "Similar names: 'Barn Hill' (development, 186.0 MW) vs 'Broken Hill BESS' (operating, 50.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "stony-creek-wind-farm",
+        "name": "Stony Creek Wind Farm",
+        "status": "development",
+        "capacity_mw": 400.0,
+        "technology": "wind"
+      },
+      "project_b": {
+        "id": "smoky-creek-solar-power-station",
+        "name": "Smoky Creek Solar Power Station",
+        "status": "development",
+        "capacity_mw": 300.0,
+        "technology": "hybrid"
+      },
+      "similarity": 0.818,
+      "message": "Similar names: 'Stony Creek Wind Farm' (development, 400.0 MW) vs 'Smoky Creek Solar Power Station' (development, 300.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "darling-downs-bess-apa",
+        "name": "Darling Downs BESS (APA)",
+        "status": "development",
+        "capacity_mw": 100.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "darling-downs-battery",
+        "name": "Darling Downs Battery",
+        "status": "development",
+        "capacity_mw": 500.0,
+        "technology": "bess"
+      },
+      "similarity": 0.812,
+      "message": "Similar names: 'Darling Downs BESS (APA)' (development, 100.0 MW) vs 'Darling Downs Battery' (development, 500.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "bowmans-creek-bess",
+        "name": "Bowmans Creek BESS",
+        "status": "development",
+        "capacity_mw": 250.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "boags-creek-solar-power-station",
+        "name": "Boags Creek Solar Power Station",
+        "status": "development",
+        "capacity_mw": 300.0,
+        "technology": "hybrid"
+      },
+      "similarity": 0.833,
+      "message": "Similar names: 'Bowmans Creek BESS' (development, 250.0 MW) vs 'Boags Creek Solar Power Station' (development, 300.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "templers-bess",
+        "name": "Templers BESS",
+        "status": "commissioning",
+        "capacity_mw": 111.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "templers-b-bess",
+        "name": "Templers B BESS",
+        "status": "development",
+        "capacity_mw": 200.0,
+        "technology": "bess"
+      },
+      "similarity": 0.889,
+      "message": "Similar names: 'Templers BESS' (commissioning, 111.0 MW) vs 'Templers B BESS' (development, 200.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "sec-renewable-energy-hub",
+        "name": "SEC Renewable Energy Hub",
+        "status": "development",
+        "capacity_mw": 100.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "woodstock-renewable-energy-hub-bess",
+        "name": "Woodstock Renewable Energy Hub - BESS",
+        "status": "development",
+        "capacity_mw": 250.0,
+        "technology": "bess"
+      },
+      "similarity": 0.821,
+      "message": "Similar names: 'SEC Renewable Energy Hub' (development, 100.0 MW) vs 'Woodstock Renewable Energy Hub - BESS' (development, 250.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "sec-renewable-energy-hub",
+        "name": "SEC Renewable Energy Hub",
+        "status": "development",
+        "capacity_mw": 100.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "stratford-renewable-energy-hub",
+        "name": "Stratford Renewable Energy Hub",
+        "status": "development",
+        "capacity_mw": 400.0,
+        "technology": "hybrid"
+      },
+      "similarity": 0.815,
+      "message": "Similar names: 'SEC Renewable Energy Hub' (development, 100.0 MW) vs 'Stratford Renewable Energy Hub' (development, 400.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "berrybank-bess-storage-kci",
+        "name": "Berrybank BESS - Storage - KCI",
+        "status": "development",
+        "capacity_mw": 300.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "glenrowan-bess-storage-kci",
+        "name": "Glenrowan BESS - Storage - KCI",
+        "status": "development",
+        "capacity_mw": 400.0,
+        "technology": "bess"
+      },
+      "similarity": 0.8,
+      "message": "Similar names: 'Berrybank BESS - Storage - KCI' (development, 300.0 MW) vs 'Glenrowan BESS - Storage - KCI' (development, 400.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "eiwa-richmond-valley-bess",
+        "name": "EIWA Richmond Valley BESS",
+        "status": "development",
+        "capacity_mw": 300.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "richmond-valley-bess",
+        "name": "Richmond Valley BESS",
+        "status": "development",
+        "capacity_mw": 275.0,
+        "technology": "bess"
+      },
+      "similarity": 0.857,
+      "message": "Similar names: 'EIWA Richmond Valley BESS' (development, 300.0 MW) vs 'Richmond Valley BESS' (development, 275.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "kingfisher-solar-storage-storage",
+        "name": "Kingfisher Solar Storage - Storage",
+        "status": "development",
+        "capacity_mw": 100.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "nowingi-solar-storage-storage",
+        "name": "Nowingi Solar Storage - Storage",
+        "status": "development",
+        "capacity_mw": 80.0,
+        "technology": "bess"
+      },
+      "similarity": 0.862,
+      "message": "Similar names: 'Kingfisher Solar Storage - Storage' (development, 100.0 MW) vs 'Nowingi Solar Storage - Storage' (development, 80.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "kingfisher-solar-storage-storage",
+        "name": "Kingfisher Solar Storage - Storage",
+        "status": "development",
+        "capacity_mw": 100.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "riverland-solar-storage-storage",
+        "name": "Riverland Solar Storage - Storage",
+        "status": "development",
+        "capacity_mw": 100.0,
+        "technology": "bess"
+      },
+      "similarity": 0.806,
+      "message": "Similar names: 'Kingfisher Solar Storage - Storage' (development, 100.0 MW) vs 'Riverland Solar Storage - Storage' (development, 100.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "hazelwood-bess-kci",
+        "name": "Hazelwood BESS - KCI",
+        "status": "development",
+        "capacity_mw": 150.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "hazelwood-east-bess-kci",
+        "name": "Hazelwood East BESS - KCI",
+        "status": "development",
+        "capacity_mw": 500.0,
+        "technology": "bess"
+      },
+      "similarity": 0.857,
+      "message": "Similar names: 'Hazelwood BESS - KCI' (development, 150.0 MW) vs 'Hazelwood East BESS - KCI' (development, 500.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "calala-bess-a2",
+        "name": "Calala BESS A2",
+        "status": "construction",
+        "capacity_mw": 150.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "calala-bess-a1",
+        "name": "Calala BESS A1",
+        "status": "construction",
+        "capacity_mw": 100.0,
+        "technology": "bess"
+      },
+      "similarity": 0.889,
+      "message": "Similar names: 'Calala BESS A2' (construction, 150.0 MW) vs 'Calala BESS A1' (construction, 100.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "buronga-bess-storage-kci",
+        "name": "Buronga BESS - Storage - KCI",
+        "status": "development",
+        "capacity_mw": 300.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "tarrone-bess-storage-kci",
+        "name": "Tarrone BESS - Storage - KCI",
+        "status": "development",
+        "capacity_mw": 200.0,
+        "technology": "bess"
+      },
+      "similarity": 0.826,
+      "message": "Similar names: 'Buronga BESS - Storage - KCI' (development, 300.0 MW) vs 'Tarrone BESS - Storage - KCI' (development, 200.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "barn-hill-bess",
+        "name": "Barn Hill BESS",
+        "status": "development",
+        "capacity_mw": 270.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "broken-hill-bess",
+        "name": "Broken Hill BESS",
+        "status": "operating",
+        "capacity_mw": 50.0,
+        "technology": "bess"
+      },
+      "similarity": 0.8,
+      "message": "Similar names: 'Barn Hill BESS' (development, 270.0 MW) vs 'Broken Hill BESS' (operating, 50.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "stoney-creek-bess",
+        "name": "Stoney Creek BESS",
+        "status": "development",
+        "capacity_mw": 125.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "limestone-creek-bess",
+        "name": "Limestone Creek BESS",
+        "status": "development",
+        "capacity_mw": 250.0,
+        "technology": "bess"
+      },
+      "similarity": 0.815,
+      "message": "Similar names: 'Stoney Creek BESS' (development, 125.0 MW) vs 'Limestone Creek BESS' (development, 250.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "tchelery-bess",
+        "name": "Tchelery BESS",
+        "status": "development",
+        "capacity_mw": 300.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "tchelery-wind-farm-and-bess",
+        "name": "Tchelery Wind Farm and BESS",
+        "status": "development",
+        "capacity_mw": 400.0,
+        "technology": "hybrid"
+      },
+      "similarity": 0.8,
+      "message": "Similar names: 'Tchelery BESS' (development, 300.0 MW) vs 'Tchelery Wind Farm and BESS' (development, 400.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "blackstone-bess-2-kci",
+        "name": "Blackstone BESS 2 - KCI",
+        "status": "development",
+        "capacity_mw": 250.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "blacktop-bess-kci",
+        "name": "Blacktop BESS - KCI",
+        "status": "development",
+        "capacity_mw": 100.0,
+        "technology": "bess"
+      },
+      "similarity": 0.812,
+      "message": "Similar names: 'Blackstone BESS 2 - KCI' (development, 250.0 MW) vs 'Blacktop BESS - KCI' (development, 100.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "terang-bess",
+        "name": "Terang BESS",
+        "status": "construction",
+        "capacity_mw": 100.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "kerang-bess",
+        "name": "Kerang BESS",
+        "status": "development",
+        "capacity_mw": 103.0,
+        "technology": "bess"
+      },
+      "similarity": 0.833,
+      "message": "Similar names: 'Terang BESS' (construction, 100.0 MW) vs 'Kerang BESS' (development, 103.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "molong-bess",
+        "name": "Molong BESS",
+        "status": "development",
+        "capacity_mw": 150.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "mobilong-bess",
+        "name": "Mobilong BESS",
+        "status": "development",
+        "capacity_mw": 180.0,
+        "technology": "bess"
+      },
+      "similarity": 0.857,
+      "message": "Similar names: 'Molong BESS' (development, 150.0 MW) vs 'Mobilong BESS' (development, 180.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "holloway-battery",
+        "name": "Holloway - Battery",
+        "status": "development",
+        "capacity_mw": 250.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "holloway-bess-kci",
+        "name": "Holloway BESS - KCI",
+        "status": "development",
+        "capacity_mw": 400.0,
+        "technology": "bess"
+      },
+      "similarity": 0.833,
+      "message": "Similar names: 'Holloway - Battery' (development, 250.0 MW) vs 'Holloway BESS - KCI' (development, 400.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "hornsdale-power-reserve-unit-1",
+        "name": "Hornsdale Power Reserve Unit 1",
+        "status": "operating",
+        "capacity_mw": 150.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "hornsdale-power-reserve",
+        "name": "Hornsdale Power Reserve",
+        "status": "operating",
+        "capacity_mw": 194.0,
+        "technology": "bess"
+      },
+      "similarity": 0.868,
+      "message": "Similar names: 'Hornsdale Power Reserve Unit 1' (operating, 150.0 MW) vs 'Hornsdale Power Reserve' (operating, 194.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "lower-wonga-bess",
+        "name": "Lower Wonga BESS",
+        "status": "development",
+        "capacity_mw": 200.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "lower-wonga-solar-farm-and-bess",
+        "name": "Lower Wonga Solar Farm and BESS",
+        "status": "development",
+        "capacity_mw": 281.0,
+        "technology": "hybrid"
+      },
+      "similarity": 0.846,
+      "message": "Similar names: 'Lower Wonga BESS' (development, 200.0 MW) vs 'Lower Wonga Solar Farm and BESS' (development, 281.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "ivanhoe-bess",
+        "name": "Ivanhoe BESS",
+        "status": "development",
+        "capacity_mw": 700.0,
+        "technology": "bess"
+      },
+      "project_b": {
+        "id": "wivenhoe",
+        "name": "Wivenhoe",
+        "status": "operating",
+        "capacity_mw": 570.0,
+        "technology": "pumped_hydro"
+      },
+      "similarity": 0.8,
+      "message": "Similar names: 'Ivanhoe BESS' (development, 700.0 MW) vs 'Wivenhoe' (operating, 570.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "big-g-pumped-hydro-project",
+        "name": "Big G Pumped Hydro Project",
+        "status": "development",
+        "capacity_mw": 800.0,
+        "technology": "pumped_hydro"
+      },
+      "project_b": {
+        "id": "baroota-pumped-hydro-project",
+        "name": "Baroota Pumped Hydro Project",
+        "status": "development",
+        "capacity_mw": 250.0,
+        "technology": "pumped_hydro"
+      },
+      "similarity": 0.815,
+      "message": "Similar names: 'Big G Pumped Hydro Project' (development, 800.0 MW) vs 'Baroota Pumped Hydro Project' (development, 250.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "big-g-pumped-hydro-project",
+        "name": "Big G Pumped Hydro Project",
+        "status": "development",
+        "capacity_mw": 800.0,
+        "technology": "pumped_hydro"
+      },
+      "project_b": {
+        "id": "glenbawn-pumped-hydro-project",
+        "name": "Glenbawn Pumped Hydro Project",
+        "status": "development",
+        "capacity_mw": 770.0,
+        "technology": "pumped_hydro"
+      },
+      "similarity": 0.8,
+      "message": "Similar names: 'Big G Pumped Hydro Project' (development, 800.0 MW) vs 'Glenbawn Pumped Hydro Project' (development, 770.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "big-g-pumped-hydro-project",
+        "name": "Big G Pumped Hydro Project",
+        "status": "development",
+        "capacity_mw": 800.0,
+        "technology": "pumped_hydro"
+      },
+      "project_b": {
+        "id": "phoenix-pumped-hydro-project",
+        "name": "Phoenix Pumped Hydro Project",
+        "status": "development",
+        "capacity_mw": 810.0,
+        "technology": "pumped_hydro"
+      },
+      "similarity": 0.815,
+      "message": "Similar names: 'Big G Pumped Hydro Project' (development, 800.0 MW) vs 'Phoenix Pumped Hydro Project' (development, 810.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "rowallan-pumped-hydro-option",
+        "name": "Rowallan Pumped Hydro Option",
+        "status": "development",
+        "capacity_mw": 750.0,
+        "technology": "pumped_hydro"
+      },
+      "project_b": {
+        "id": "cethana-pumped-hydro-option",
+        "name": "Cethana Pumped Hydro Option",
+        "status": "development",
+        "capacity_mw": 750.0,
+        "technology": "pumped_hydro"
+      },
+      "similarity": 0.8,
+      "message": "Similar names: 'Rowallan Pumped Hydro Option' (development, 750.0 MW) vs 'Cethana Pumped Hydro Option' (development, 750.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "baroota-pumped-hydro-project",
+        "name": "Baroota Pumped Hydro Project",
+        "status": "development",
+        "capacity_mw": 250.0,
+        "technology": "pumped_hydro"
+      },
+      "project_b": {
+        "id": "glenbawn-pumped-hydro-project",
+        "name": "Glenbawn Pumped Hydro Project",
+        "status": "development",
+        "capacity_mw": 770.0,
+        "technology": "pumped_hydro"
+      },
+      "similarity": 0.807,
+      "message": "Similar names: 'Baroota Pumped Hydro Project' (development, 250.0 MW) vs 'Glenbawn Pumped Hydro Project' (development, 770.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "glenbawn-pumped-hydro-project",
+        "name": "Glenbawn Pumped Hydro Project",
+        "status": "development",
+        "capacity_mw": 770.0,
+        "technology": "pumped_hydro"
+      },
+      "project_b": {
+        "id": "glennis-creek-pumped-hydro-project",
+        "name": "Glennis Creek Pumped Hydro Project",
+        "status": "development",
+        "capacity_mw": 642.0,
+        "technology": "pumped_hydro"
+      },
+      "similarity": 0.825,
+      "message": "Similar names: 'Glenbawn Pumped Hydro Project' (development, 770.0 MW) vs 'Glennis Creek Pumped Hydro Project' (development, 642.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "glenbawn-pumped-hydro-project",
+        "name": "Glenbawn Pumped Hydro Project",
+        "status": "development",
+        "capacity_mw": 770.0,
+        "technology": "pumped_hydro"
+      },
+      "project_b": {
+        "id": "phoenix-pumped-hydro-project",
+        "name": "Phoenix Pumped Hydro Project",
+        "status": "development",
+        "capacity_mw": 810.0,
+        "technology": "pumped_hydro"
+      },
+      "similarity": 0.807,
+      "message": "Similar names: 'Glenbawn Pumped Hydro Project' (development, 770.0 MW) vs 'Phoenix Pumped Hydro Project' (development, 810.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "eiwa-golden-fleece-renewable-energy-park",
+        "name": "EIWA Golden Fleece Renewable Energy Park",
+        "status": "development",
+        "capacity_mw": 300.0,
+        "technology": "hybrid"
+      },
+      "project_b": {
+        "id": "eiwa-gin-gin-renewable-energy-park",
+        "name": "EIWA Gin Gin Renewable Energy Park",
+        "status": "development",
+        "capacity_mw": 250.0,
+        "technology": "hybrid"
+      },
+      "similarity": 0.811,
+      "message": "Similar names: 'EIWA Golden Fleece Renewable Energy Park' (development, 300.0 MW) vs 'EIWA Gin Gin Renewable Energy Park' (development, 250.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "goodnight-hybrid-facility-solar-and-bess",
+        "name": "GoodNight Hybrid Facility - Solar And BESS",
+        "status": "development",
+        "capacity_mw": 200.0,
+        "technology": "hybrid"
+      },
+      "project_b": {
+        "id": "croydon-hybrid-facility-solar-and-bess",
+        "name": "Croydon Hybrid Facility - Solar And BESS",
+        "status": "development",
+        "capacity_mw": 500.0,
+        "technology": "hybrid"
+      },
+      "similarity": 0.861,
+      "message": "Similar names: 'GoodNight Hybrid Facility - Solar And BESS' (development, 200.0 MW) vs 'Croydon Hybrid Facility - Solar And BESS' (development, 500.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "goodnight-hybrid-facility-solar-and-bess",
+        "name": "GoodNight Hybrid Facility - Solar And BESS",
+        "status": "development",
+        "capacity_mw": 200.0,
+        "technology": "hybrid"
+      },
+      "project_b": {
+        "id": "glenroy-hybrid-facility-solar-and-bess",
+        "name": "Glenroy Hybrid Facility - Solar And BESS",
+        "status": "development",
+        "capacity_mw": 1000.0,
+        "technology": "hybrid"
+      },
+      "similarity": 0.833,
+      "message": "Similar names: 'GoodNight Hybrid Facility - Solar And BESS' (development, 200.0 MW) vs 'Glenroy Hybrid Facility - Solar And BESS' (development, 1000.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "similar_names",
+      "severity": "warning",
+      "project_a": {
+        "id": "croydon-hybrid-facility-solar-and-bess",
+        "name": "Croydon Hybrid Facility - Solar And BESS",
+        "status": "development",
+        "capacity_mw": 500.0,
+        "technology": "hybrid"
+      },
+      "project_b": {
+        "id": "glenroy-hybrid-facility-solar-and-bess",
+        "name": "Glenroy Hybrid Facility - Solar And BESS",
+        "status": "development",
+        "capacity_mw": 1000.0,
+        "technology": "hybrid"
+      },
+      "similarity": 0.886,
+      "message": "Similar names: 'Croydon Hybrid Facility - Solar And BESS' (development, 500.0 MW) vs 'Glenroy Hybrid Facility - Solar And BESS' (development, 1000.0 MW) \u2014 verify these are distinct projects"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "warning",
+      "scheme_entry": "Capricorn BESS",
+      "project_id": "capricorn-bess",
+      "scheme_capacity_mw": 300.0,
+      "project_capacity_mw": 500.0,
+      "difference_pct": 40.0,
+      "source": "scheme-rounds.ts",
+      "message": "'Capricorn BESS': scheme says 300.0 MW but project file says 500.0 MW (40% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "warning",
+      "scheme_entry": "Bendemeer Energy Hub",
+      "project_id": "bendemeer-renewable-energy-hub-solar-and-bess",
+      "scheme_capacity_mw": 252.0,
+      "project_capacity_mw": 200.0,
+      "difference_pct": 26.0,
+      "source": "scheme-rounds.ts",
+      "message": "'Bendemeer Energy Hub': scheme says 252.0 MW but project file says 200.0 MW (26% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "warning",
+      "scheme_entry": "Corop Solar Farm and BESS",
+      "project_id": "corop-solar-farm",
+      "scheme_capacity_mw": 230.0,
+      "project_capacity_mw": 400.0,
+      "difference_pct": 42.5,
+      "source": "scheme-rounds.ts",
+      "message": "'Corop Solar Farm and BESS': scheme says 230.0 MW but project file says 400.0 MW (42% difference)"
+    },
+    {
+      "type": "technology_mismatch",
+      "severity": "warning",
+      "scheme_entry": "Dinawan Wind Farm Stage 1",
+      "project_id": "dinawan-energy-hub",
+      "scheme_technology": "wind",
+      "project_technology": "hybrid",
+      "source": "scheme-rounds.ts",
+      "message": "'Dinawan Wind Farm Stage 1': scheme says 'wind' but project file says 'hybrid'"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "warning",
+      "scheme_entry": "Hexham Wind Farm",
+      "project_id": "hexham",
+      "scheme_capacity_mw": 600.0,
+      "project_capacity_mw": 921.12,
+      "difference_pct": 34.9,
+      "source": "scheme-rounds.ts",
+      "message": "'Hexham Wind Farm': scheme says 600.0 MW but project file says 921.12 MW (35% difference)"
+    },
+    {
+      "type": "technology_mismatch",
+      "severity": "warning",
+      "scheme_entry": "Hexham Wind Farm",
+      "project_id": "hexham",
+      "scheme_technology": "wind",
+      "project_technology": "hybrid",
+      "source": "scheme-rounds.ts",
+      "message": "'Hexham Wind Farm': scheme says 'wind' but project file says 'hybrid'"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "warning",
+      "scheme_entry": "Merino Solar Farm",
+      "project_id": "merino-solar-farm",
+      "scheme_capacity_mw": 450.0,
+      "project_capacity_mw": 338.0,
+      "difference_pct": 33.1,
+      "source": "scheme-rounds.ts",
+      "message": "'Merino Solar Farm': scheme says 450.0 MW but project file says 338.0 MW (33% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "warning",
+      "scheme_entry": "Great Western Battery",
+      "project_id": "great-western-battery-project",
+      "scheme_capacity_mw": 330.0,
+      "project_capacity_mw": 500.0,
+      "difference_pct": 34.0,
+      "source": "scheme-rounds.ts",
+      "message": "'Great Western Battery': scheme says 330.0 MW but project file says 500.0 MW (34% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "warning",
+      "scheme_entry": "Armidale East BESS",
+      "project_id": "armidale-east-bess",
+      "scheme_capacity_mw": 158.0,
+      "project_capacity_mw": 315.0,
+      "difference_pct": 49.8,
+      "source": "scheme-rounds.ts",
+      "message": "'Armidale East BESS': scheme says 158.0 MW but project file says 315.0 MW (50% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "warning",
+      "scheme_entry": "Capricorn BESS",
+      "project_id": "capricorn-bess",
+      "scheme_capacity_mw": 300.0,
+      "project_capacity_mw": 500.0,
+      "difference_pct": 40.0,
+      "source": "esg-tracker-data.ts",
+      "message": "'Capricorn BESS': scheme says 300.0 MW but project file says 500.0 MW (40% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "warning",
+      "scheme_entry": "Bendemeer Energy Hub",
+      "project_id": "bendemeer-renewable-energy-hub-solar-and-bess",
+      "scheme_capacity_mw": 252.0,
+      "project_capacity_mw": 200.0,
+      "difference_pct": 26.0,
+      "source": "esg-tracker-data.ts",
+      "message": "'Bendemeer Energy Hub': scheme says 252.0 MW but project file says 200.0 MW (26% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "warning",
+      "scheme_entry": "Corop Solar Farm and BESS",
+      "project_id": "corop-solar-farm",
+      "scheme_capacity_mw": 230.0,
+      "project_capacity_mw": 400.0,
+      "difference_pct": 42.5,
+      "source": "esg-tracker-data.ts",
+      "message": "'Corop Solar Farm and BESS': scheme says 230.0 MW but project file says 400.0 MW (42% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "warning",
+      "scheme_entry": "Hexham Wind Farm",
+      "project_id": "hexham",
+      "scheme_capacity_mw": 600.0,
+      "project_capacity_mw": 921.12,
+      "difference_pct": 34.9,
+      "source": "esg-tracker-data.ts",
+      "message": "'Hexham Wind Farm': scheme says 600.0 MW but project file says 921.12 MW (35% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "warning",
+      "scheme_entry": "Merino Solar Farm",
+      "project_id": "merino-solar-farm",
+      "scheme_capacity_mw": 450.0,
+      "project_capacity_mw": 338.0,
+      "difference_pct": 33.1,
+      "source": "esg-tracker-data.ts",
+      "message": "'Merino Solar Farm': scheme says 450.0 MW but project file says 338.0 MW (33% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "warning",
+      "scheme_entry": "Great Western Battery",
+      "project_id": "great-western-battery-project",
+      "scheme_capacity_mw": 330.0,
+      "project_capacity_mw": 500.0,
+      "difference_pct": 34.0,
+      "source": "esg-tracker-data.ts",
+      "message": "'Great Western Battery': scheme says 330.0 MW but project file says 500.0 MW (34% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "warning",
+      "scheme_entry": "Armidale East BESS",
+      "project_id": "armidale-east-bess",
+      "scheme_capacity_mw": 158.0,
+      "project_capacity_mw": 315.0,
+      "difference_pct": 49.8,
+      "source": "esg-tracker-data.ts",
+      "message": "'Armidale East BESS': scheme says 158.0 MW but project file says 315.0 MW (50% difference)"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "warning",
+      "project_id": "carmodys-hill-wind-farm",
+      "appearances": [
+        {
+          "name": "Carmody\\",
+          "round": "unknown",
+          "capacity_mw": 247.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Carmody",
+          "round": "Tender 4 \u2014 NEM Generation",
+          "capacity_mw": 247.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'carmodys-hill-wind-farm' appears in 2 scheme entries: unknown, Tender 4 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "warning",
+      "project_id": "guthries-gap-solar-power-station",
+      "appearances": [
+        {
+          "name": "Guthrie\\",
+          "round": "unknown",
+          "capacity_mw": 300.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Guthrie",
+          "round": "Tender 4 \u2014 NEM Generation",
+          "capacity_mw": 300.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'guthries-gap-solar-power-station' appears in 2 scheme entries: unknown, Tender 4 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "info",
+      "scheme_entry": "Dinawan Wind Farm Stage 1",
+      "project_id": "dinawan-energy-hub",
+      "scheme_capacity_mw": 357.0,
+      "project_capacity_mw": 1007.0,
+      "difference_pct": 64.5,
+      "source": "scheme-rounds.ts",
+      "message": "'Dinawan Wind Farm Stage 1': scheme says 357.0 MW but project file says 1007.0 MW (65% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "info",
+      "scheme_entry": "Liverpool Range Wind Stage 1",
+      "project_id": "liverpool-range-wind-farm",
+      "scheme_capacity_mw": 634.0,
+      "project_capacity_mw": 1338.0,
+      "difference_pct": 52.6,
+      "source": "scheme-rounds.ts",
+      "message": "'Liverpool Range Wind Stage 1': scheme says 634.0 MW but project file says 1338.0 MW (53% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "info",
+      "scheme_entry": "Dinawan Wind Farm Stage 1",
+      "project_id": "dinawan-energy-hub",
+      "scheme_capacity_mw": 357.0,
+      "project_capacity_mw": 1007.0,
+      "difference_pct": 64.5,
+      "source": "esg-tracker-data.ts",
+      "message": "'Dinawan Wind Farm Stage 1': scheme says 357.0 MW but project file says 1007.0 MW (65% difference)"
+    },
+    {
+      "type": "capacity_mismatch",
+      "severity": "info",
+      "scheme_entry": "Liverpool Range Wind Stage 1",
+      "project_id": "liverpool-range-wind-farm",
+      "scheme_capacity_mw": 634.0,
+      "project_capacity_mw": 1338.0,
+      "difference_pct": 52.6,
+      "source": "esg-tracker-data.ts",
+      "message": "'Liverpool Range Wind Stage 1': scheme says 634.0 MW but project file says 1338.0 MW (53% difference)"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "valley-of-the-winds",
+      "appearances": [
+        {
+          "name": "Valley of the Winds",
+          "round": "unknown",
+          "capacity_mw": 936.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Valley of the Winds",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 936.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'valley-of-the-winds' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "sandy-creek-solar-farm",
+      "appearances": [
+        {
+          "name": "Sandy Creek Solar Farm",
+          "round": "unknown",
+          "capacity_mw": 700.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Sandy Creek Solar Farm",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 700.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'sandy-creek-solar-farm' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "spicers-creek-wind-farm",
+      "appearances": [
+        {
+          "name": "Spicers Creek Wind Farm",
+          "round": "unknown",
+          "capacity_mw": 700.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Spicers Creek Wind Farm",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 700.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'spicers-creek-wind-farm' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "junction-rivers-wind-and-bess",
+      "appearances": [
+        {
+          "name": "Junction Rivers",
+          "round": "unknown",
+          "capacity_mw": 585.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Junction Rivers",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 585.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'junction-rivers-wind-and-bess' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "goulburn-river-solar-farm-and-bess",
+      "appearances": [
+        {
+          "name": "Goulburn River Solar Farm",
+          "round": "unknown",
+          "capacity_mw": 450.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Goulburn River Solar Farm",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 450.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'goulburn-river-solar-farm-and-bess' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "thunderbolt-wind-farm",
+      "appearances": [
+        {
+          "name": "Thunderbolt Wind Farm",
+          "round": "unknown",
+          "capacity_mw": 230.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Thunderbolt Wind Farm",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 230.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'thunderbolt-wind-farm' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "glanmire-solar-farm",
+      "appearances": [
+        {
+          "name": "Glanmire Solar Farm",
+          "round": "unknown",
+          "capacity_mw": 60.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Glanmire Solar Farm",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 60.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'glanmire-solar-farm' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "kentbruck-green-power-hub",
+      "appearances": [
+        {
+          "name": "Kentbruck Wind Farm",
+          "round": "unknown",
+          "capacity_mw": 600.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Kentbruck Wind Farm",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 600.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'kentbruck-green-power-hub' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "west-mokoan-solar-farm-and-bess",
+      "appearances": [
+        {
+          "name": "West Mokoan Solar Farm",
+          "round": "unknown",
+          "capacity_mw": 300.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "West Mokoan Solar Farm",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 300.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'west-mokoan-solar-farm-and-bess' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "barwon-solar-farm-and-bess",
+      "appearances": [
+        {
+          "name": "Barwon Solar Farm",
+          "round": "unknown",
+          "capacity_mw": 250.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Barwon Solar Farm",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 250.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'barwon-solar-farm-and-bess' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "campbells-forest-solar-farm",
+      "appearances": [
+        {
+          "name": "Campbells Forest Solar Farm",
+          "round": "unknown",
+          "capacity_mw": 205.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Campbells Forest Solar Farm",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 205.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'campbells-forest-solar-farm' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "elaine-solar-farm-and-bess",
+      "appearances": [
+        {
+          "name": "Elaine Solar Farm",
+          "round": "unknown",
+          "capacity_mw": 125.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Elaine Solar Farm",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 125.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'elaine-solar-farm-and-bess' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "barnawartha-solar-and-energy-storage",
+      "appearances": [
+        {
+          "name": "Barnawartha Solar Farm",
+          "round": "unknown",
+          "capacity_mw": 64.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Barnawartha Solar Farm",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 64.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'barnawartha-solar-and-energy-storage' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "goyder-north-wind-farm",
+      "appearances": [
+        {
+          "name": "Goyder North Wind Farm",
+          "round": "unknown",
+          "capacity_mw": 300.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Goyder North Wind Farm",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 300.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'goyder-north-wind-farm' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "palmer-wind-farm",
+      "appearances": [
+        {
+          "name": "Palmer Wind Farm",
+          "round": "unknown",
+          "capacity_mw": 274.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Palmer Wind Farm",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 274.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'palmer-wind-farm' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "hopeland-solar-farm",
+      "appearances": [
+        {
+          "name": "Hopeland Solar Farm",
+          "round": "unknown",
+          "capacity_mw": 250.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Hopeland Solar Farm",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 250.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'hopeland-solar-farm' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "majors-creek-solar-power-station",
+      "appearances": [
+        {
+          "name": "Majors Creek Solar Power Station",
+          "round": "unknown",
+          "capacity_mw": 150.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Majors Creek Solar Power Station",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 150.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'majors-creek-solar-power-station' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "ganymirra-solar-power-station",
+      "appearances": [
+        {
+          "name": "Ganymirra Solar Power Station",
+          "round": "unknown",
+          "capacity_mw": 150.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Ganymirra Solar Power Station",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 150.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'ganymirra-solar-power-station' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "mokoan-solar-farm",
+      "appearances": [
+        {
+          "name": "Mokoan Solar Farm",
+          "round": "unknown",
+          "capacity_mw": 46.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Mokoan Solar Farm",
+          "round": "Tender 1 \u2014 NEM Generation",
+          "capacity_mw": 46.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'mokoan-solar-farm' appears in 2 scheme entries: unknown, Tender 1 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "liddell-bess",
+      "appearances": [
+        {
+          "name": "Liddell BESS",
+          "round": "unknown",
+          "capacity_mw": 500.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Liddell BESS",
+          "round": "CIS Pilot \u2014 NSW",
+          "capacity_mw": 500.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'liddell-bess' appears in 2 scheme entries: unknown, CIS Pilot \u2014 NSW \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "wooreen-energy-storage-system",
+      "appearances": [
+        {
+          "name": "Wooreen Battery",
+          "round": "unknown",
+          "capacity_mw": 350.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Wooreen Battery",
+          "round": "CIS Pilot \u2014 SA/VIC",
+          "capacity_mw": 350.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'wooreen-energy-storage-system' appears in 2 scheme entries: unknown, CIS Pilot \u2014 SA/VIC \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "mortlake-battery",
+      "appearances": [
+        {
+          "name": "Mortlake BESS",
+          "round": "unknown",
+          "capacity_mw": 135.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Mortlake BESS",
+          "round": "CIS Pilot \u2014 SA/VIC",
+          "capacity_mw": 135.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'mortlake-battery' appears in 2 scheme entries: unknown, CIS Pilot \u2014 SA/VIC \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "tailem-bend-stage-3",
+      "appearances": [
+        {
+          "name": "Tailem Bend BESS",
+          "round": "unknown",
+          "capacity_mw": 200.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Tailem Bend BESS",
+          "round": "CIS Pilot \u2014 SA/VIC",
+          "capacity_mw": 200.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'tailem-bend-stage-3' appears in 2 scheme entries: unknown, CIS Pilot \u2014 SA/VIC \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "clements-gap-bess",
+      "appearances": [
+        {
+          "name": "Clements Gap Battery",
+          "round": "unknown",
+          "capacity_mw": 60.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Clements Gap Battery",
+          "round": "CIS Pilot \u2014 SA/VIC",
+          "capacity_mw": 60.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'clements-gap-bess' appears in 2 scheme entries: unknown, CIS Pilot \u2014 SA/VIC \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "hallett-bess",
+      "appearances": [
+        {
+          "name": "Hallett Battery",
+          "round": "unknown",
+          "capacity_mw": 50.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Hallett Battery",
+          "round": "CIS Pilot \u2014 SA/VIC",
+          "capacity_mw": 50.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'hallett-bess' appears in 2 scheme entries: unknown, CIS Pilot \u2014 SA/VIC \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "bulabul-bess-2",
+      "appearances": [
+        {
+          "name": "Bulabul 2 BESS",
+          "round": "unknown",
+          "capacity_mw": 100.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Bulabul 2 BESS",
+          "round": "Tender 3 \u2014 NEM Dispatchable",
+          "capacity_mw": 100.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'bulabul-bess-2' appears in 2 scheme entries: unknown, Tender 3 \u2014 NEM Dispatchable \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "swallow-tail-bess",
+      "appearances": [
+        {
+          "name": "Swallow Tail BESS",
+          "round": "unknown",
+          "capacity_mw": 300.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Swallow Tail BESS",
+          "round": "Tender 3 \u2014 NEM Dispatchable",
+          "capacity_mw": 300.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'swallow-tail-bess' appears in 2 scheme entries: unknown, Tender 3 \u2014 NEM Dispatchable \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "calala-bess-a1",
+      "appearances": [
+        {
+          "name": "Calala BESS",
+          "round": "unknown",
+          "capacity_mw": 150.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Calala BESS",
+          "round": "Tender 3 \u2014 NEM Dispatchable",
+          "capacity_mw": 150.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'calala-bess-a1' appears in 2 scheme entries: unknown, Tender 3 \u2014 NEM Dispatchable \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "mt-piper-bess",
+      "appearances": [
+        {
+          "name": "Mount Piper BESS Stage 1",
+          "round": "unknown",
+          "capacity_mw": 250.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Mount Piper BESS Stage 1",
+          "round": "Tender 3 \u2014 NEM Dispatchable",
+          "capacity_mw": 250.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'mt-piper-bess' appears in 2 scheme entries: unknown, Tender 3 \u2014 NEM Dispatchable \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "deer-park-bess-akaysha",
+      "appearances": [
+        {
+          "name": "Deer Park BESS",
+          "round": "unknown",
+          "capacity_mw": 275.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Deer Park BESS",
+          "round": "Tender 3 \u2014 NEM Dispatchable",
+          "capacity_mw": 275.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'deer-park-bess-akaysha' appears in 2 scheme entries: unknown, Tender 3 \u2014 NEM Dispatchable \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "joel-joel-bess",
+      "appearances": [
+        {
+          "name": "Joel Joel BESS",
+          "round": "unknown",
+          "capacity_mw": 250.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Joel Joel BESS",
+          "round": "Tender 3 \u2014 NEM Dispatchable",
+          "capacity_mw": 250.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'joel-joel-bess' appears in 2 scheme entries: unknown, Tender 3 \u2014 NEM Dispatchable \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "kiamal-bess",
+      "appearances": [
+        {
+          "name": "Kiamal BESS",
+          "round": "unknown",
+          "capacity_mw": 220.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Kiamal BESS",
+          "round": "Tender 3 \u2014 NEM Dispatchable",
+          "capacity_mw": 220.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'kiamal-bess' appears in 2 scheme entries: unknown, Tender 3 \u2014 NEM Dispatchable \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "little-river-bess",
+      "appearances": [
+        {
+          "name": "Little River BESS",
+          "round": "unknown",
+          "capacity_mw": 350.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Little River BESS",
+          "round": "Tender 3 \u2014 NEM Dispatchable",
+          "capacity_mw": 350.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'little-river-bess' appears in 2 scheme entries: unknown, Tender 3 \u2014 NEM Dispatchable \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "mornington-bess",
+      "appearances": [
+        {
+          "name": "Mornington BESS",
+          "round": "unknown",
+          "capacity_mw": 240.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Mornington BESS",
+          "round": "Tender 3 \u2014 NEM Dispatchable",
+          "capacity_mw": 240.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'mornington-bess' appears in 2 scheme entries: unknown, Tender 3 \u2014 NEM Dispatchable \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "capricorn-bess",
+      "appearances": [
+        {
+          "name": "Capricorn BESS",
+          "round": "unknown",
+          "capacity_mw": 300.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Capricorn BESS",
+          "round": "Tender 3 \u2014 NEM Dispatchable",
+          "capacity_mw": 300.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'capricorn-bess' appears in 2 scheme entries: unknown, Tender 3 \u2014 NEM Dispatchable \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "lower-wonga-bess",
+      "appearances": [
+        {
+          "name": "Lower Wonga BESS",
+          "round": "unknown",
+          "capacity_mw": 200.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Lower Wonga BESS",
+          "round": "Tender 3 \u2014 NEM Dispatchable",
+          "capacity_mw": 200.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'lower-wonga-bess' appears in 2 scheme entries: unknown, Tender 3 \u2014 NEM Dispatchable \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "teebar-creek-battery-storage-kci",
+      "appearances": [
+        {
+          "name": "Teebar BESS",
+          "round": "unknown",
+          "capacity_mw": 400.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Teebar BESS",
+          "round": "Tender 3 \u2014 NEM Dispatchable",
+          "capacity_mw": 400.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'teebar-creek-battery-storage-kci' appears in 2 scheme entries: unknown, Tender 3 \u2014 NEM Dispatchable \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "ulinda-park-bess-expansion",
+      "appearances": [
+        {
+          "name": "Ulinda Park Expansion",
+          "round": "unknown",
+          "capacity_mw": 195.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Ulinda Park Expansion",
+          "round": "Tender 3 \u2014 NEM Dispatchable",
+          "capacity_mw": 195.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'ulinda-park-bess-expansion' appears in 2 scheme entries: unknown, Tender 3 \u2014 NEM Dispatchable \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "koolunga-battery-energy-storage-system",
+      "appearances": [
+        {
+          "name": "Koolunga BESS",
+          "round": "unknown",
+          "capacity_mw": 200.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Koolunga BESS",
+          "round": "Tender 3 \u2014 NEM Dispatchable",
+          "capacity_mw": 200.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'koolunga-battery-energy-storage-system' appears in 2 scheme entries: unknown, Tender 3 \u2014 NEM Dispatchable \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "reeves-plains-power-station-bess",
+      "appearances": [
+        {
+          "name": "Reeves Plains BESS",
+          "round": "unknown",
+          "capacity_mw": 250.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Reeves Plains BESS",
+          "round": "Tender 3 \u2014 NEM Dispatchable",
+          "capacity_mw": 250.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'reeves-plains-power-station-bess' appears in 2 scheme entries: unknown, Tender 3 \u2014 NEM Dispatchable \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "bendemeer-renewable-energy-hub-solar-and-bess",
+      "appearances": [
+        {
+          "name": "Bendemeer Energy Hub",
+          "round": "unknown",
+          "capacity_mw": 252.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Bendemeer Energy Hub",
+          "round": "Tender 4 \u2014 NEM Generation",
+          "capacity_mw": 252.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'bendemeer-renewable-energy-hub-solar-and-bess' appears in 2 scheme entries: unknown, Tender 4 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "bundey-bess-and-solar-project",
+      "appearances": [
+        {
+          "name": "Bundey BESS and Solar",
+          "round": "unknown",
+          "capacity_mw": 240.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Bundey BESS and Solar",
+          "round": "Tender 4 \u2014 NEM Generation",
+          "capacity_mw": 240.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'bundey-bess-and-solar-project' appears in 2 scheme entries: unknown, Tender 4 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "corop-solar-farm",
+      "appearances": [
+        {
+          "name": "Corop Solar Farm and BESS",
+          "round": "unknown",
+          "capacity_mw": 230.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Corop Solar Farm and BESS",
+          "round": "Tender 4 \u2014 NEM Generation",
+          "capacity_mw": 230.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'corop-solar-farm' appears in 2 scheme entries: unknown, Tender 4 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "derby-solar-farm-and-bess",
+      "appearances": [
+        {
+          "name": "Derby Solar Project",
+          "round": "unknown",
+          "capacity_mw": 95.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Derby Solar Project",
+          "round": "Tender 4 \u2014 NEM Generation",
+          "capacity_mw": 95.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'derby-solar-farm-and-bess' appears in 2 scheme entries: unknown, Tender 4 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "dinawan-energy-hub",
+      "appearances": [
+        {
+          "name": "Dinawan Wind Farm Stage 1",
+          "round": "unknown",
+          "capacity_mw": 357.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Dinawan Wind Farm Stage 1",
+          "round": "Tender 4 \u2014 NEM Generation",
+          "capacity_mw": 357.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'dinawan-energy-hub' appears in 2 scheme entries: unknown, Tender 4 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "gawara-baya-wind-and-bess",
+      "appearances": [
+        {
+          "name": "Gawara Baya",
+          "round": "unknown",
+          "capacity_mw": 399.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Gawara Baya",
+          "round": "Tender 4 \u2014 NEM Generation",
+          "capacity_mw": 399.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'gawara-baya-wind-and-bess' appears in 2 scheme entries: unknown, Tender 4 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "hexham",
+      "appearances": [
+        {
+          "name": "Hexham Wind Farm",
+          "round": "unknown",
+          "capacity_mw": 600.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Hexham Wind Farm",
+          "round": "Tender 4 \u2014 NEM Generation",
+          "capacity_mw": 600.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'hexham' appears in 2 scheme entries: unknown, Tender 4 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "liverpool-range-wind-farm",
+      "appearances": [
+        {
+          "name": "Liverpool Range Wind Stage 1",
+          "round": "unknown",
+          "capacity_mw": 634.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Liverpool Range Wind Stage 1",
+          "round": "Tender 4 \u2014 NEM Generation",
+          "capacity_mw": 634.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'liverpool-range-wind-farm' appears in 2 scheme entries: unknown, Tender 4 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "lower-wonga-solar-farm-and-bess",
+      "appearances": [
+        {
+          "name": "Lower Wonga Solar Farm",
+          "round": "unknown",
+          "capacity_mw": 281.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Lower Wonga Solar Farm",
+          "round": "Tender 4 \u2014 NEM Generation",
+          "capacity_mw": 281.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'lower-wonga-solar-farm-and-bess' appears in 2 scheme entries: unknown, Tender 4 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "merino-solar-farm",
+      "appearances": [
+        {
+          "name": "Merino Solar Farm",
+          "round": "unknown",
+          "capacity_mw": 450.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Merino Solar Farm",
+          "round": "Tender 4 \u2014 NEM Generation",
+          "capacity_mw": 450.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'merino-solar-farm' appears in 2 scheme entries: unknown, Tender 4 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "middlebrook-solar-and-bess",
+      "appearances": [
+        {
+          "name": "Middlebrook Solar Farm",
+          "round": "unknown",
+          "capacity_mw": 363.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Middlebrook Solar Farm",
+          "round": "Tender 4 \u2014 NEM Generation",
+          "capacity_mw": 363.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'middlebrook-solar-and-bess' appears in 2 scheme entries: unknown, Tender 4 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "moah-creek-wind-farm",
+      "appearances": [
+        {
+          "name": "Moah Creek Wind Farm",
+          "round": "unknown",
+          "capacity_mw": 360.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Moah Creek Wind Farm",
+          "round": "Tender 4 \u2014 NEM Generation",
+          "capacity_mw": 360.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'moah-creek-wind-farm' appears in 2 scheme entries: unknown, Tender 4 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "nowingi-solar-farm-edify-kci",
+      "appearances": [
+        {
+          "name": "Nowingi Solar Power Station",
+          "round": "unknown",
+          "capacity_mw": 300.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Nowingi Solar Power Station",
+          "round": "Tender 4 \u2014 NEM Generation",
+          "capacity_mw": 300.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'nowingi-solar-farm-edify-kci' appears in 2 scheme entries: unknown, Tender 4 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "smoky-creek-solar-power-station",
+      "appearances": [
+        {
+          "name": "Smoky Creek Solar Power Station",
+          "round": "unknown",
+          "capacity_mw": 300.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Smoky Creek Solar Power Station",
+          "round": "Tender 4 \u2014 NEM Generation",
+          "capacity_mw": 300.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'smoky-creek-solar-power-station' appears in 2 scheme entries: unknown, Tender 4 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "tallawang-solar-and-bess",
+      "appearances": [
+        {
+          "name": "Tallawang Solar Hybrid",
+          "round": "unknown",
+          "capacity_mw": 500.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Tallawang Solar Hybrid",
+          "round": "Tender 4 \u2014 NEM Generation",
+          "capacity_mw": 500.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'tallawang-solar-and-bess' appears in 2 scheme entries: unknown, Tender 4 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "willogoleche-2-wind-farm",
+      "appearances": [
+        {
+          "name": "Willogoleche 2 Wind Farm",
+          "round": "unknown",
+          "capacity_mw": 108.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Willogoleche 2 Wind Farm",
+          "round": "Tender 4 \u2014 NEM Generation",
+          "capacity_mw": 108.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'willogoleche-2-wind-farm' appears in 2 scheme entries: unknown, Tender 4 \u2014 NEM Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "new-england-solar-farm",
+      "appearances": [
+        {
+          "name": "New England Solar Farm",
+          "round": "unknown",
+          "capacity_mw": 720.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "New England Solar Farm",
+          "round": "Round 1 \u2014 Generation + LDS",
+          "capacity_mw": 720.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'new-england-solar-farm' appears in 2 scheme entries: unknown, Round 1 \u2014 Generation + LDS \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "stubbo-solar-farm",
+      "appearances": [
+        {
+          "name": "Stubbo Solar Farm",
+          "round": "unknown",
+          "capacity_mw": 400.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Stubbo Solar Farm",
+          "round": "Round 1 \u2014 Generation + LDS",
+          "capacity_mw": 400.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'stubbo-solar-farm' appears in 2 scheme entries: unknown, Round 1 \u2014 Generation + LDS \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "coppabella-wind-farm",
+      "appearances": [
+        {
+          "name": "Coppabella Wind Farm",
+          "round": "unknown",
+          "capacity_mw": 275.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Coppabella Wind Farm",
+          "round": "Round 1 \u2014 Generation + LDS",
+          "capacity_mw": 275.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'coppabella-wind-farm' appears in 2 scheme entries: unknown, Round 1 \u2014 Generation + LDS \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "limondale-bess",
+      "appearances": [
+        {
+          "name": "Limondale BESS",
+          "round": "unknown",
+          "capacity_mw": 50.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Limondale BESS",
+          "round": "Round 1 \u2014 Generation + LDS",
+          "capacity_mw": 50.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'limondale-bess' appears in 2 scheme entries: unknown, Round 1 \u2014 Generation + LDS \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "uungula-wind-farm",
+      "appearances": [
+        {
+          "name": "Uungula Wind Farm",
+          "round": "unknown",
+          "capacity_mw": 400.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Uungula Wind Farm",
+          "round": "Round 3 \u2014 Generation + LDS",
+          "capacity_mw": 400.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'uungula-wind-farm' appears in 2 scheme entries: unknown, Round 3 \u2014 Generation + LDS \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "culcairn-solar-farm",
+      "appearances": [
+        {
+          "name": "Culcairn Solar Farm",
+          "round": "unknown",
+          "capacity_mw": 350.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Culcairn Solar Farm",
+          "round": "Round 3 \u2014 Generation + LDS",
+          "capacity_mw": 350.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'culcairn-solar-farm' appears in 2 scheme entries: unknown, Round 3 \u2014 Generation + LDS \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "richmond-valley-bess",
+      "appearances": [
+        {
+          "name": "Richmond Valley BESS",
+          "round": "unknown",
+          "capacity_mw": 275.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Richmond Valley BESS",
+          "round": "Round 3 \u2014 Generation + LDS",
+          "capacity_mw": 275.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'richmond-valley-bess' appears in 2 scheme entries: unknown, Round 3 \u2014 Generation + LDS \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "silver-city-energy-storage",
+      "appearances": [
+        {
+          "name": "Silver City Energy Storage Centre",
+          "round": "unknown",
+          "capacity_mw": 200.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Silver City Energy Storage Centre",
+          "round": "Round 3 \u2014 Generation + LDS",
+          "capacity_mw": 200.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'silver-city-energy-storage' appears in 2 scheme entries: unknown, Round 3 \u2014 Generation + LDS \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "maryvale-solar-and-energy-storage-system",
+      "appearances": [
+        {
+          "name": "Maryvale Solar + BESS",
+          "round": "unknown",
+          "capacity_mw": 172.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Maryvale Solar + BESS",
+          "round": "Round 4 \u2014 Generation",
+          "capacity_mw": 172.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'maryvale-solar-and-energy-storage-system' appears in 2 scheme entries: unknown, Round 4 \u2014 Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "flyers-creek-wind-farm",
+      "appearances": [
+        {
+          "name": "Flyers Creek Wind Farm",
+          "round": "unknown",
+          "capacity_mw": 145.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Flyers Creek Wind Farm",
+          "round": "Round 4 \u2014 Generation",
+          "capacity_mw": 145.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'flyers-creek-wind-farm' appears in 2 scheme entries: unknown, Round 4 \u2014 Generation \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "phoenix-pumped-hydro-project",
+      "appearances": [
+        {
+          "name": "Phoenix Pumped Hydro",
+          "round": "unknown",
+          "capacity_mw": 800.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Phoenix Pumped Hydro",
+          "round": "Round 5 \u2014 Long Duration Storage",
+          "capacity_mw": 800.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'phoenix-pumped-hydro-project' appears in 2 scheme entries: unknown, Round 5 \u2014 Long Duration Storage \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "stoney-creek-bess",
+      "appearances": [
+        {
+          "name": "Stoney Creek BESS",
+          "round": "unknown",
+          "capacity_mw": 125.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Stoney Creek BESS",
+          "round": "Round 5 \u2014 Long Duration Storage",
+          "capacity_mw": 125.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'stoney-creek-bess' appears in 2 scheme entries: unknown, Round 5 \u2014 Long Duration Storage \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "griffith-bess",
+      "appearances": [
+        {
+          "name": "Griffith BESS",
+          "round": "unknown",
+          "capacity_mw": 100.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Griffith BESS",
+          "round": "Round 5 \u2014 Long Duration Storage",
+          "capacity_mw": 100.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'griffith-bess' appears in 2 scheme entries: unknown, Round 5 \u2014 Long Duration Storage \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "great-western-battery-project",
+      "appearances": [
+        {
+          "name": "Great Western Battery",
+          "round": "unknown",
+          "capacity_mw": 330.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Great Western Battery",
+          "round": "Round 6 \u2014 Long Duration Storage",
+          "capacity_mw": 330.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'great-western-battery-project' appears in 2 scheme entries: unknown, Round 6 \u2014 Long Duration Storage \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "bowmans-creek-bess",
+      "appearances": [
+        {
+          "name": "Bowmans Creek BESS",
+          "round": "unknown",
+          "capacity_mw": 250.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Bowmans Creek BESS",
+          "round": "Round 6 \u2014 Long Duration Storage",
+          "capacity_mw": 250.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'bowmans-creek-bess' appears in 2 scheme entries: unknown, Round 6 \u2014 Long Duration Storage \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "bannaby-bess",
+      "appearances": [
+        {
+          "name": "Bannaby BESS",
+          "round": "unknown",
+          "capacity_mw": 233.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Bannaby BESS",
+          "round": "Round 6 \u2014 Long Duration Storage",
+          "capacity_mw": 233.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'bannaby-bess' appears in 2 scheme entries: unknown, Round 6 \u2014 Long Duration Storage \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "armidale-east-bess",
+      "appearances": [
+        {
+          "name": "Armidale East BESS",
+          "round": "unknown",
+          "capacity_mw": 158.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Armidale East BESS",
+          "round": "Round 6 \u2014 Long Duration Storage",
+          "capacity_mw": 158.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'armidale-east-bess' appears in 2 scheme entries: unknown, Round 6 \u2014 Long Duration Storage \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "ebor-bess",
+      "appearances": [
+        {
+          "name": "Ebor BESS",
+          "round": "unknown",
+          "capacity_mw": 100.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Ebor BESS",
+          "round": "Round 6 \u2014 Long Duration Storage",
+          "capacity_mw": 100.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'ebor-bess' appears in 2 scheme entries: unknown, Round 6 \u2014 Long Duration Storage \u2014 verify not double-counted"
+    },
+    {
+      "type": "multi_scheme_duplicate",
+      "severity": "info",
+      "project_id": "kingswood-bess",
+      "appearances": [
+        {
+          "name": "Kingswood BESS",
+          "round": "unknown",
+          "capacity_mw": 100.0,
+          "source": "scheme-rounds.ts"
+        },
+        {
+          "name": "Kingswood BESS",
+          "round": "Round 6 \u2014 Long Duration Storage",
+          "capacity_mw": 100.0,
+          "source": "esg-tracker-data.ts"
+        }
+      ],
+      "message": "'kingswood-bess' appears in 2 scheme entries: unknown, Round 6 \u2014 Long Duration Storage \u2014 verify not double-counted"
+    },
+    {
+      "type": "missing_coordinates",
+      "severity": "info",
+      "project_id": "banksia-solar-farm",
+      "name": "Banksia Solar Farm",
+      "status": "construction",
+      "message": "'Banksia Solar Farm' (construction) has no coordinates \u2014 won't appear on map"
+    },
+    {
+      "type": "missing_coordinates",
+      "severity": "info",
+      "project_id": "golden-plains-wind-farm-east",
+      "name": "Golden Plains Wind Farm East",
+      "status": "commissioning",
+      "message": "'Golden Plains Wind Farm East' (commissioning) has no coordinates \u2014 won't appear on map"
+    },
+    {
+      "type": "missing_coordinates",
+      "severity": "info",
+      "project_id": "macintyre-wind-farm",
+      "name": "MacIntyre Wind Farm",
+      "status": "commissioning",
+      "message": "'MacIntyre Wind Farm' (commissioning) has no coordinates \u2014 won't appear on map"
+    },
+    {
+      "type": "missing_coordinates",
+      "severity": "info",
+      "project_id": "clarke-creek-wind-farm",
+      "name": "Clarke Creek Wind Farm",
+      "status": "commissioning",
+      "message": "'Clarke Creek Wind Farm' (commissioning) has no coordinates \u2014 won't appear on map"
+    },
+    {
+      "type": "missing_coordinates",
+      "severity": "info",
+      "project_id": "brendale-bess",
+      "name": "Brendale BESS",
+      "status": "operating",
+      "message": "'Brendale BESS' (operating) has no coordinates \u2014 won't appear on map"
+    },
+    {
+      "type": "missing_coordinates",
+      "severity": "info",
+      "project_id": "calala-bess-a2",
+      "name": "Calala BESS A2",
+      "status": "construction",
+      "message": "'Calala BESS A2' (construction) has no coordinates \u2014 won't appear on map"
+    },
+    {
+      "type": "missing_coordinates",
+      "severity": "info",
+      "project_id": "clements-gap-bess",
+      "name": "Clements Gap - BESS",
+      "status": "construction",
+      "message": "'Clements Gap - BESS' (construction) has no coordinates \u2014 won't appear on map"
+    },
+    {
+      "type": "missing_coordinates",
+      "severity": "info",
+      "project_id": "limondale-bess",
+      "name": "Limondale BESS",
+      "status": "construction",
+      "message": "'Limondale BESS' (construction) has no coordinates \u2014 won't appear on map"
+    },
+    {
+      "type": "missing_coordinates",
+      "severity": "info",
+      "project_id": "calala-bess-a1",
+      "name": "Calala BESS A1",
+      "status": "construction",
+      "message": "'Calala BESS A1' (construction) has no coordinates \u2014 won't appear on map"
+    }
+  ]
+}

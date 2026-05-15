@@ -1,0 +1,18 @@
+{
+  "project_id": "eraring-battery",
+  "name": "Eraring Battery",
+  "technology": "bess",
+  "capacity_mw": 700.0,
+  "state": "NSW",
+  "data_source": "openelectricity_api",
+  "monthly": [
+    {
+      "year": 2026,
+      "month": 2,
+      "utilisation_pct": 0.0,
+      "cycles": 0.0,
+      "revenue_aud": 73.0
+    }
+  ],
+  "storage_mwh": 3160.0
+}

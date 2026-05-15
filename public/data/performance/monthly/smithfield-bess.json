@@ -1,0 +1,110 @@
+{
+  "project_id": "smithfield-bess",
+  "name": "Smithfield BESS",
+  "technology": "bess",
+  "capacity_mw": 65.0,
+  "state": "NSW",
+  "data_source": "openelectricity_api",
+  "monthly": [
+    {
+      "year": 2025,
+      "month": 9,
+      "energy_discharged_mwh": 52.1,
+      "energy_charged_mwh": 229.8,
+      "avg_charge_price": 66.03,
+      "avg_discharge_price": 42.22,
+      "utilisation_pct": 0.1,
+      "cycles": 0.4,
+      "revenue_aud": 18721.0
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "energy_discharged_mwh": 1279.4,
+      "energy_charged_mwh": 1415.9,
+      "avg_charge_price": 13.89,
+      "avg_discharge_price": 155.71,
+      "utilisation_pct": 2.6,
+      "cycles": 9.8,
+      "revenue_aud": 377638.0
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "energy_discharged_mwh": 1870.8,
+      "energy_charged_mwh": 2069.6,
+      "avg_charge_price": 32.85,
+      "avg_discharge_price": 245.4,
+      "utilisation_pct": 4.0,
+      "cycles": 14.4,
+      "revenue_aud": 992065.0
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "energy_discharged_mwh": 3260.4,
+      "energy_charged_mwh": 3808.5,
+      "avg_charge_price": 13.85,
+      "avg_discharge_price": 151.87,
+      "utilisation_pct": 6.7,
+      "cycles": 25.1,
+      "revenue_aud": 1038223.0
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "energy_discharged_mwh": 2031.5,
+      "energy_charged_mwh": 2553.8,
+      "avg_charge_price": 30.51,
+      "avg_discharge_price": 389.15,
+      "utilisation_pct": 4.2,
+      "cycles": 15.6,
+      "revenue_aud": 1656729.0
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "energy_discharged_mwh": 2574.8,
+      "energy_charged_mwh": 3129.1,
+      "avg_charge_price": 59.14,
+      "avg_discharge_price": 204.78,
+      "utilisation_pct": 5.9,
+      "cycles": 19.8,
+      "revenue_aud": 1233519.0
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "energy_discharged_mwh": 2207.4,
+      "energy_charged_mwh": 2599.7,
+      "avg_charge_price": 39.96,
+      "avg_discharge_price": 95.09,
+      "utilisation_pct": 4.6,
+      "cycles": 17.0,
+      "revenue_aud": 520626.0
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "energy_discharged_mwh": 3174.8,
+      "energy_charged_mwh": 3706.0,
+      "avg_charge_price": 22.73,
+      "avg_discharge_price": 90.61,
+      "utilisation_pct": 6.8,
+      "cycles": 24.4,
+      "revenue_aud": 656094.0
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "energy_discharged_mwh": 771.1,
+      "energy_charged_mwh": 902.3,
+      "avg_charge_price": 35.49,
+      "avg_discharge_price": 84.22,
+      "utilisation_pct": 1.6,
+      "cycles": 5.9,
+      "revenue_aud": 159497.0
+    }
+  ],
+  "storage_mwh": 129.96
+}

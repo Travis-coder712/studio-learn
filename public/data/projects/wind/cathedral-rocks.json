@@ -1,0 +1,79 @@
+{
+  "id": "cathedral-rocks",
+  "name": "Cathedral Rocks",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 66.0,
+  "state": "SA",
+  "current_developer": "JV Cathedral Rock Investments Pty Ltd  - Acciona Energy Australia Global Pty Ltd and EnergyAustralia Pty Ltd",
+  "cod_current": "2005-08-31",
+  "cod_original": "2005-08-31",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 53.4,
+  "notable": "66 MW, 33 Vestas V80-2.0 MW turbines on the Eyre Peninsula, SA. 50/50 JV between EnergyAustralia and ACCIONA Energy. Construction started 2004; fully operational 2007.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1042",
+  "confidence_score": "57",
+  "development_stage": "epbc_approved",
+  "first_seen": "2003",
+  "coordinates": {
+    "lat": -34.848741,
+    "lng": 135.592649
+  },
+  "timeline": [
+    {
+      "date": "2003",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2003/1051",
+      "detail": "Cathedral Rocks Wind Farm \u2014 Not Controlled Action (Particular Manner)",
+      "sources": []
+    },
+    {
+      "date": "2004",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Acciona/Hydro Tasmania began construction on Eyre Peninsula",
+      "sources": []
+    },
+    {
+      "date": "2005-08-31",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2009-07-01",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

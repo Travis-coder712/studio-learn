@@ -1,0 +1,141 @@
+{
+  "id": "dulacca-wind-farm",
+  "name": "Dulacca Wind Farm",
+  "technology": "wind",
+  "status": "operating",
+  "capacity_mw": 180.6,
+  "state": "QLD",
+  "current_developer": "Dulacca Energy Project Co Pty Ltd",
+  "current_operator": "Octopus Australia",
+  "cod_current": "2023-04-12",
+  "cod_original": "2023-04-12",
+  "grid_forming": false,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 89.4,
+  "notable": "43x Vestas V150-4.2MW. CleanCo 126MW PPA. RES developed, Octopus acquired. Opened Oct 2023.",
+  "data_confidence": "low",
+  "last_updated": "2026-03-10",
+  "last_verified": "2026-03-10",
+  "aemo_gen_info_id": "1706",
+  "confidence_score": "70",
+  "development_stage": "epbc_approved",
+  "first_seen": "2020",
+  "coordinates": {
+    "lat": -26.637485,
+    "lng": 149.870186
+  },
+  "timeline": [
+    {
+      "date": "2020",
+      "date_precision": "year",
+      "event_type": "planning_submitted",
+      "title": "EPBC Referral 2019/8607",
+      "detail": "Dulacca Solar Farm \u2014 Not Controlled Action",
+      "sources": []
+    },
+    {
+      "date": "2021",
+      "date_precision": "year",
+      "event_type": "construction_start",
+      "title": "Construction commenced",
+      "detail": "Construction began for 43 Vestas V150-4.2 MW turbines",
+      "sources": []
+    },
+    {
+      "date": "2021-08",
+      "date_precision": "month",
+      "event_type": "ownership_change",
+      "title": "Octopus acquires from RES",
+      "detail": "Octopus Investments Australia acquired the project from RES",
+      "sources": []
+    },
+    {
+      "date": "2023-04-12",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "Commercial operations commenced",
+      "detail": "Commencement date from AEMO registration via OpenElectricity.",
+      "sources": []
+    },
+    {
+      "date": "2023-04-13",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    },
+    {
+      "date": "2023-10-18",
+      "date_precision": "day",
+      "event_type": "notable",
+      "title": "Official opening",
+      "detail": "Dulacca Wind Farm officially opened",
+      "sources": []
+    }
+  ],
+  "ownership_history": [],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "wind_oem",
+      "supplier": "Vestas",
+      "model": "V150-4.2 MW",
+      "grid_forming": false
+    },
+    {
+      "role": "epc",
+      "supplier": "RES",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [
+    {
+      "party": "CleanCo Queensland",
+      "type": "government_ppa",
+      "capacity_mw": 126.0
+    }
+  ],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Dulacca Wind Farm EIS \u2014 Coordinator-General's Report (QLD DSDILGP)",
+    "document_url": "https://www.dsdilgp.qld.gov.au/our-work/major-projects/energy-projects/dulacca-wind-farm",
+    "document_year": 2019,
+    "turbine_model": "Vestas V150-4.2 MW",
+    "turbine_count": 43,
+    "turbine_rated_power_mw": 4.2,
+    "hub_height_m": 125.0,
+    "hub_height_note": "Standard hub height for V150-4.2 on QLD Western Downs plains",
+    "rotor_diameter_m": 150.0,
+    "wind_speed_mean_ms": 8.0,
+    "wind_speed_height_m": 125.0,
+    "wind_speed_period": "Mean annual wind speed at hub height; Western Downs, QLD near Miles",
+    "assumed_capacity_factor_pct": 35.0,
+    "assumed_annual_energy_gwh": 554.0,
+    "energy_yield_method": "WAsP modelling; P50 net yield",
+    "noise_limit_dba": 37.0,
+    "minimum_setback_m": 1500,
+    "connection_voltage_kv": 132.0,
+    "network_service_provider": "Powerlink Queensland",
+    "connection_substation_name": "Dulacca 132/66 kV substation (new, on-site), connected to Powerlink Wandoan corridor",
+    "connection_substation_capacity_mva": 300.0,
+    "connection_distance_km": 28.0,
+    "connection_distance_note": "~28 km of 132 kV line to Powerlink network in the Wandoan/Western Downs corridor, QLD.",
+    "connection_augmentation": "New 132 kV connection to Powerlink grid. Powerlink Western Downs transmission corridor augmented for multiple CIS Round projects.",
+    "notes": "181 MW (43 x 4.2 MW Vestas V150), near Dulacca/Miles, Western Downs, QLD. Developer: CWP Energy (now RES). EPC: RES Australia. QLD EIS approved 2019. Now operating. QLD LTESA contract holder (CIS Round 1)."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information Jan 2026",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/nem-forecasting-and-planning/forecasting-and-planning-data/generation-information",
+      "date": "2026-01-30",
+      "source_tier": 1
+    }
+  ],
+  "timeline_events": []
+}

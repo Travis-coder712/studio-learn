@@ -1,0 +1,1124 @@
+{
+  "generated_at": "2026-04-01",
+  "technology": "wind",
+  "display_name": "Wind",
+  "colour": "#3b82f6",
+  "summary": {
+    "total_operating_mw": 11688,
+    "total_operating_projects": 80,
+    "total_construction_mw": 5695,
+    "total_construction_projects": 10,
+    "total_development_mw": 68035,
+    "total_development_projects": 121
+  },
+  "projects": [
+    {
+      "name": "Woolnorth Studland Bay / Bluff Point",
+      "id": "woolnorth-studland-bay-bluff-point",
+      "developer": "Woolnorth Wind Farm Finance Pty Ltd",
+      "capacity_mw": 138.0,
+      "status": "operating",
+      "state": "TAS",
+      "cod": "2001-12-31",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Challicum Hills",
+      "id": "challicum-hills",
+      "developer": "Pacific Hydro Challicum Hills Pty Ltd",
+      "capacity_mw": 52.5,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2003-07-31",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Starfish Hill",
+      "id": "starfish-hill",
+      "developer": "Ratch Australia",
+      "capacity_mw": 34.5,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2003-08-31",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Yambuk",
+      "id": "yambuk",
+      "developer": "Energy Pacific Vic Pty Ltd",
+      "capacity_mw": 30.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2004-12-31",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Canunda",
+      "id": "canunda",
+      "developer": "Canunda Power Pty Ltd",
+      "capacity_mw": 46.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2005-02-28",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Wattle Point",
+      "id": "wattle-point",
+      "developer": "Infrastructure Capital Group",
+      "capacity_mw": 91.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2005-03-31",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Cathedral Rocks",
+      "id": "cathedral-rocks",
+      "developer": "JV Cathedral Rock Investments Pty Ltd  - Acciona Energy Australia Global Pty Ltd and EnergyAustralia Pty Ltd",
+      "capacity_mw": 66.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2005-08-31",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Mt Millar Wind Farm",
+      "id": "mt-millar-wind-farm",
+      "developer": "MT MILLAR WIND FARM PTY LTD",
+      "capacity_mw": 70.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2006-01-31",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Lake Bonney 2 Wind Farm",
+      "id": "lake-bonney-2-wind-farm",
+      "developer": "Lake Bonney Wind Power Pty Ltd",
+      "capacity_mw": 159.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2007-05-31",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "53x Vestas V90-3.0MW. Iberdrola Australia (prev Infigen). Located near Millicent, SA."
+    },
+    {
+      "name": "Hallett Stage 1 Brown Hill",
+      "id": "hallett-stage-1-brown-hill",
+      "developer": "Palisade Investment Partner Limited",
+      "capacity_mw": 133.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2007-12-18",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Snowtown Wind Farm",
+      "id": "snowtown-wind-farm",
+      "developer": "Snowtown Wind Farm Pty Ltd",
+      "capacity_mw": 98.7,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2008-04-18",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Clements Gap Wind Farm",
+      "id": "clements-gap-wind-farm",
+      "developer": "Pacific Hydro Clements Gap Pty Ltd",
+      "capacity_mw": 57.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2009-05-07",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Hallett Stage 2 Hallett Hill",
+      "id": "hallett-stage-2-hallett-hill",
+      "developer": "Infrastructure Capital Group Limited",
+      "capacity_mw": 71.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2009-05-12",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Waubra",
+      "id": "waubra",
+      "developer": "Pyrenees Wind Energy Developments",
+      "capacity_mw": 192.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2009-06-30",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "128x Acciona AW-1500/77 (1.5MW). Zen Energy 10yr PPA for 70% of output. Was Australias largest at 2009 commissioning."
+    },
+    {
+      "name": "Lake Bonney 1 Wind Farm",
+      "id": "lake-bonney-1-wind-farm",
+      "developer": "Lake Bonney Wind Power Pty Ltd",
+      "capacity_mw": 80.5,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2009-06-30",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Cullerin Range Wind Farm",
+      "id": "cullerin-range-wind-farm",
+      "developer": "Cullerin Range Wind Farm Pty Ltd",
+      "capacity_mw": 30.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2009-06-30",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Capital Wind Farm",
+      "id": "capital-wind-farm",
+      "developer": "Renewable Power Ventures Pty Ltd",
+      "capacity_mw": 140.7,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2009-07-04",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Portland Wind Farm",
+      "id": "portland-wind-farm",
+      "developer": "Pacific Hydro Portland Wind Farm Pty Ltd",
+      "capacity_mw": 151.7,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2009-07-09",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Lake Bonney 3 Wind Farm",
+      "id": "lake-bonney-3-wind-farm",
+      "developer": "Lake Bonney Wind Power Pty Ltd",
+      "capacity_mw": 39.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2010-07-02",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Hallett 4 North Brown Hill",
+      "id": "hallett-4-north-brown-hill",
+      "developer": "Brown Hill North Pty Ltd",
+      "capacity_mw": 132.3,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2010-08-14",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Waterloo Wind Farm",
+      "id": "waterloo-wind-farm",
+      "developer": "Waterloo Windfarm Pty Ltd",
+      "capacity_mw": 130.8,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2010-08-19",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Gunning Wind Farm",
+      "id": "gunning-wind-farm",
+      "developer": "Gunning Wind Energy Developments",
+      "capacity_mw": 46.5,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2011-04-04",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Woodlawn Wind Farm",
+      "id": "woodlawn-wind-farm",
+      "developer": "Woodlawn Wind Pty Ltd",
+      "capacity_mw": 48.3,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2011-05-31",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Hallett 5 The Bluff WF",
+      "id": "hallett-5-the-bluff-wf",
+      "developer": "Eurus Energy",
+      "capacity_mw": 53.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2011-07-05",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Oaklands Hill Wind Farm",
+      "id": "oaklands-hill-wind-farm",
+      "developer": "Oaklands Hill Wind farm pty ltd",
+      "capacity_mw": 68.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2011-08-24",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Macarthur Wind Farm",
+      "id": "macarthur-wind-farm",
+      "developer": "Macarthur Wind Farm Pty Ltd and Meridian Wind Macarthur Pty Ltd",
+      "capacity_mw": 420.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2012-09-27",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "Was largest wind farm in southern hemisphere at commissioning (2013). 140x Vestas V112-3.0MW. ~A$1B cost."
+    },
+    {
+      "name": "Snowtown S2 Wind Farm",
+      "id": "snowtown-s2-wind-farm",
+      "developer": "Snowtown Wind Farm Stage 2 Pty Ltd",
+      "capacity_mw": 270.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2012-10-02",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Musselroe Wind Farm",
+      "id": "musselroe-wind-farm",
+      "developer": "Musselroe Wind Farm Pty Ltd",
+      "capacity_mw": 168.0,
+      "status": "operating",
+      "state": "TAS",
+      "cod": "2013-03-21",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "56x Vestas V90-3.0MW. Shenhua 75%, Hydro Tasmania 25%. 17.5yr Hydro Tas offtake. 5% of Tasmanias electricity."
+    },
+    {
+      "name": "Mt Mercer Wind Farm",
+      "id": "mt-mercer-wind-farm",
+      "developer": "Mt Mercer Windfarm Pty Ltd",
+      "capacity_mw": 131.2,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2013-11-25",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Gullen Range Wind Farm",
+      "id": "gullen-range-wind-farm",
+      "developer": "New Gullen Range Wind Farm Pty Ltd",
+      "capacity_mw": 165.5,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2013-12-10",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "73 Goldwind turbines (56x GW100/2.5MW + 17x GW82/1.5MW). EnergyAustralia PPA. Goldwinds largest overseas project at time."
+    },
+    {
+      "name": "Boco Rock Wind Farm",
+      "id": "boco-rock-wind-farm",
+      "developer": "Tilt Renewables Australia Pty Ltd",
+      "capacity_mw": 113.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2014-08-28",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Taralga Wind Farm",
+      "id": "taralga-wind-farm",
+      "developer": "Energy Pacific Vic Pty Ltd",
+      "capacity_mw": 106.8,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2014-12-22",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Bald Hills Wind Farm",
+      "id": "bald-hills-wind-farm",
+      "developer": "Bald Hills Wind Farm Pty Ltd",
+      "capacity_mw": 106.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2015-02-23",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Hornsdale Wind Farm Stage 1",
+      "id": "hornsdale-wind-farm-stage-1",
+      "developer": "HWF 1 Pty Ltd",
+      "capacity_mw": 100.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2016-06-23",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Ararat Wind Farm",
+      "id": "ararat-wind-farm",
+      "developer": "Ararat Wind Farm Pty Ltd",
+      "capacity_mw": 240.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2016-08-18",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "ACT Govt 20yr PPA. Infigen developed, now Iberdrola Australia."
+    },
+    {
+      "name": "Hornsdale Wind Farm Stage 2",
+      "id": "hornsdale-wind-farm-stage-2",
+      "developer": "HWF 2 Pty Ltd",
+      "capacity_mw": 100.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2017-02-21",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "White Rock Wind Farm - Stage 1",
+      "id": "white-rock-wind-farm-stage-1",
+      "developer": "CECEP Wind Power Australia Pty Ltd",
+      "capacity_mw": 175.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2017-07-07",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "70x Goldwind GW121/2.5MW PMDD. CECEP 75%, Goldwind 25%. Goldwind EPC, Fulton Hogan BOP."
+    },
+    {
+      "name": "Hornsdale Wind Farm Stage 3",
+      "id": "hornsdale-wind-farm-stage-3",
+      "developer": "HWF 3 Pty Ltd",
+      "capacity_mw": 109.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2017-08-07",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Kiata Wind Farm",
+      "id": "kiata-wind-farm",
+      "developer": "Kiata ProjectCo Pty Ltd atf Kiata Project Trust",
+      "capacity_mw": 31.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2017-11-09",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Sapphire Wind Farm",
+      "id": "sapphire-wind-farm",
+      "developer": "SWF1 Operations Holdings Pty Ltd as trustee for SWF1 Hold Trust",
+      "capacity_mw": 270.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2018-02-01",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "75x Vestas V117-3.6MW. ACT Govt 20yr PPA + CBA 12yr corporate PPA. Located in New England REZ."
+    },
+    {
+      "name": "Silverton Wind Farm",
+      "id": "silverton-wind-farm",
+      "developer": "PARF Company 8 Pty Ltd as trustee for the Silverton Project Trust",
+      "capacity_mw": 200.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2018-05-14",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "200MW, 58 x Siemens SWT-3.4-108 turbines. AGL PPA. AGL developed."
+    },
+    {
+      "name": "Salt Creek Wind Farm",
+      "id": "salt-creek-wind-farm",
+      "developer": "Salt Creek Wind Farm Pty Ltd",
+      "capacity_mw": 54.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2018-06-06",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Mt Gellibrand Wind Farm",
+      "id": "mt-gellibrand-wind-farm",
+      "developer": "ACCIONA Energy",
+      "capacity_mw": 132.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2018-06-21",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Bodangora Wind Farm",
+      "id": "bodangora-wind-farm",
+      "developer": "Bodangora Wind Farm Pty Ltd",
+      "capacity_mw": 111.3,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2018-08-07",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Mount Emerald",
+      "id": "mount-emerald",
+      "developer": "Ratch Australia",
+      "capacity_mw": 180.5,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2018-08-20",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "53x Vestas V117-3.45MW. Ergon Energy 12.5yr PPA. Queenslands largest wind farm at commissioning. RATCH-Australia owns."
+    },
+    {
+      "name": "Willogoleche Wind Farm",
+      "id": "willogoleche-wind-farm",
+      "developer": "Willogoleche Power Pty Ltd",
+      "capacity_mw": 119.76,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2018-08-29",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Crowlands Wind Farm",
+      "id": "crowlands-wind-farm",
+      "developer": "Pacific Hydro Crowlands Pty Ltd",
+      "capacity_mw": 79.95,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2018-12-08",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Murra Warra Wind Farm - stage 1",
+      "id": "murra-warra-wind-farm-stage-1",
+      "developer": "Murra Warra Project Co Pty Ltd",
+      "capacity_mw": 225.7,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2019-04-08",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "61x Senvion 3.7MW (3XM class). Telstra PPA + ANZ/Coca-Cola Amatil/UniMelb consortium + Monash Uni. Bearing failure issues."
+    },
+    {
+      "name": "Murra Warra Wind Farm - stage 2",
+      "id": "murra-warra-wind-farm-stage-2",
+      "developer": "Murra Warra II Project Co Pty Ltd as Trustee for the Murra Warra II Project Trust",
+      "capacity_mw": 209.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2019-04-08",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "38x GE Cypress 5.5-158. Telstra corporate PPA + Snowy Hydro offtake. Senvion bearing failures required staged maintenance (2024)."
+    },
+    {
+      "name": "Lincoln Gap Wind Farm - stage 1",
+      "id": "lincoln-gap-wind-farm-stage-1",
+      "developer": "Lincoln Gap Wind Farm Pty Ltd",
+      "capacity_mw": 126.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2019-04-30",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "35x Senvion 3.6M140 EBC. Snowy Hydro offtake. Owned by RATCH-Australia (acquired Dec 2022 from Nexif)."
+    },
+    {
+      "name": "Lincoln Gap Wind Farm - Stage 2",
+      "id": "lincoln-gap-wind-farm-stage-2",
+      "developer": "Lincoln Gap Wind Farm Pty Ltd",
+      "capacity_mw": 86.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2019-04-30",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "24x Vestas V136-3.45MW (3.6MW optimised). Owned by RATCH-Australia. Very high capacity factor site near Port Augusta."
+    },
+    {
+      "name": "Yendon Wind Farm",
+      "id": "yendon-wind-farm",
+      "developer": "Northleaf /InfraRed/Macquarie Capital",
+      "capacity_mw": 142.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2019-06-18",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Coopers Gap Wind Farm",
+      "id": "coopers-gap-wind-farm",
+      "developer": "AGL Energy",
+      "capacity_mw": 453.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2019-06-23",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "Largest wind farm in Queensland. 123 turbines (91x GE 3.6MW + 32x GE 3.8MW). AGL developed, sold to Tilt 2017."
+    },
+    {
+      "name": "Cattle Hill Wind Farm",
+      "id": "cattle-hill-wind-farm",
+      "developer": "Wild Cattle Hill Pty Ltd",
+      "capacity_mw": 144.0,
+      "status": "operating",
+      "state": "TAS",
+      "cod": "2020-01-06",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "44x Vestas V126-3.45MW. Cattle Hill Wind Farm Holdings (Goldwind subsidiary). Launched Feb 2020."
+    },
+    {
+      "name": "Granville Harbour Wind Farm",
+      "id": "granville-harbour-wind-farm",
+      "developer": "Granville Harbour Operations Pty Ltd as trustee for Granville Harbour Operations Trust",
+      "capacity_mw": 111.0,
+      "status": "operating",
+      "state": "TAS",
+      "cod": "2020-01-27",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Dundonnell Wind Farm",
+      "id": "dundonnell-wind-farm",
+      "developer": "Tilt Renewables",
+      "capacity_mw": 336.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2020-03-10",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "80x Vestas V150-4.2MW. PPAs with Victorian Govt, Snowy Hydro, ALDI."
+    },
+    {
+      "name": "Elaine Wind Farm",
+      "id": "elaine-wind-farm",
+      "developer": "Northleaf /InfraRed/Macquarie Capital",
+      "capacity_mw": 82.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2020-04-06",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Cherry Tree Wind Farm",
+      "id": "cherry-tree-wind-farm",
+      "developer": "Cherry Tree Wind Farm Pty Limited A.T.F. Cherry Tree Project Trust",
+      "capacity_mw": 57.6,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2020-05-01",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Bulgana Green Power Hub - Wind Farm",
+      "id": "bulgana-green-power-hub-wind-farm",
+      "developer": "Storenergy",
+      "capacity_mw": 194.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2020-05-13",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "56 turbines. Neoen project with 15yr Victorian Govt support agreement. Nectar Farms 10yr PPA (collapsed). 20MW/34MWh BESS co-located."
+    },
+    {
+      "name": "Gullen Range Wind Farm 2",
+      "id": "gullen-range-wind-farm-2",
+      "developer": "BEIJING JINGNENG CLEAN ENERGY (AUSTRALIA) HOLDING PTY LTD",
+      "capacity_mw": 110.67,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2020-06-19",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Collector",
+      "id": "collector",
+      "developer": "Ratch Australia",
+      "capacity_mw": 219.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2020-11-12",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "40x Vestas V117-3.3MW. Origin Energy PPA. CWP Renewables developed, Squadron Energy now owns."
+    },
+    {
+      "name": "Moorabool Wind Farm",
+      "id": "moorabool-wind-farm",
+      "developer": "Moorabool Wind Farm Interface Company Pty Ltd",
+      "capacity_mw": 305.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2020-11-18",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "107x Goldwind GW136/3.0MW across North (50) and South (57) stages. 312MW total, developed by Goldwind Australia."
+    },
+    {
+      "name": "Crudine Ridge Wind Farm",
+      "id": "crudine-ridge-wind-farm",
+      "developer": "CRWF Nominees Pty Ltd as trustee of the CRWF Trust",
+      "capacity_mw": 138.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2020-12-01",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "37x Goldwind GW140-3.57S. CWP Renewables/Squadron Energy. COD 2021."
+    },
+    {
+      "name": "Bango 973 Wind Farm",
+      "id": "bango-973-wind-farm",
+      "developer": "BWF Nominees Pty Ltd as trustee for the BWF Trust",
+      "capacity_mw": 159.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2021-01-13",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "30x GE Cypress 5.3-158 turbines. Snowy Hydro 100MW offtake for combined Bango project."
+    },
+    {
+      "name": "Bango 999 Wind Farm",
+      "id": "bango-999-wind-farm",
+      "developer": "BWF Nominees Pty Ltd as trustee for the BWF Trust",
+      "capacity_mw": 84.8,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2021-01-13",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "First deployment of GE Cypress 5.3-158 turbines globally. 16 turbines. Woolworths PPA for ~108 NSW supermarkets."
+    },
+    {
+      "name": "Berrybank Wind Farm",
+      "id": "berrybank-wind-farm",
+      "developer": "Berrbank Development Pty ltd",
+      "capacity_mw": 281.1,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2021-02-15",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "Stage 1: 43x Vestas V136-4.2MW (180.6MW). Stage 2: 37x Vestas V136-4.2MW (100.5MW). Owned by GPG/Naturgy."
+    },
+    {
+      "name": "Kennedy Energy Park - Phase 1 - Wind",
+      "id": "kennedy-energy-park-phase-1-wind",
+      "developer": "Windlab / Eurus",
+      "capacity_mw": 43.3,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2021-07-05",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "CF may be inflated. Hybrid facility (wind 43 MW + solar 15 MW + battery 2 MW) \u2014 OpenElectricity reports 49.5% CF for 2024 but Rystad Energy reports 42.4% AC CF. Discrepancy likely due to energy attribution between co-located DUIDs. Windlab confirms Kennedy ranked #2 in NEM behind Coonooer Bridge (~45%), inconsistent with 49.5%."
+    },
+    {
+      "name": "Stockyard Hill Wind Farm",
+      "id": "stockyard-hill-wind-farm",
+      "developer": "Goldwind Australia",
+      "capacity_mw": 530.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2021-07-07",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "Largest wind farm in southern hemisphere at commissioning (2021). 149 turbines, Goldwind GW140-3.57S. 4x STATCOM units + 5x harmonic filters."
+    },
+    {
+      "name": "Port Augusta Renewable Energy Park - Wind",
+      "id": "port-augusta-renewable-energy-park-wind",
+      "developer": "PAREP 1 Pty Ltd",
+      "capacity_mw": 210.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2022-04-19",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "50x Vestas V150-4.2MW (wind) + 110MW solar. BHP Olympic Dam PPA + Woolworths PPA. Owned by Iberdrola. Elecnor EPC."
+    },
+    {
+      "name": "Kaban Wind Farm",
+      "id": "kaban-wind-farm",
+      "developer": "Kaban Wind Farm Trust",
+      "capacity_mw": 152.0,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2022-09-25",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "37x Vestas V117-4.2MW. 100MW/200MWh BESS co-located. Neoen developed. Powerlink SynCon for system strength. Far North QLD."
+    },
+    {
+      "name": "Mortlake South Wind Farm",
+      "id": "mortlake-south-wind-farm",
+      "developer": "Mortlake South Wind Farm Pty Ltd",
+      "capacity_mw": 157.5,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2022-10-25",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "ACCIONA. Nordex N149/5.X turbines. Zen Energy PPA. Fully operational July 2024."
+    },
+    {
+      "name": "Dulacca Wind Farm",
+      "id": "dulacca-wind-farm",
+      "developer": "Dulacca Energy Project Co Pty Ltd",
+      "capacity_mw": 180.6,
+      "status": "operating",
+      "state": "QLD",
+      "cod": "2023-04-12",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "43x Vestas V150-4.2MW. CleanCo 126MW PPA. RES developed, Octopus acquired. Opened Oct 2023."
+    },
+    {
+      "name": "Flyers Creek Wind Farm",
+      "id": "flyers-creek-wind-farm",
+      "developer": "Flyers Creek Wind Farm Pty Ltd",
+      "capacity_mw": 145.5,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2023-09-19",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "38x GE 3.8-137 turbines. Iberdrola Australia developed. Located near Orange, NSW."
+    },
+    {
+      "name": "Goyder South Wind Farm 1A",
+      "id": "goyder-south-wind-farm-1a",
+      "developer": "Goyder Wind Farm 1A Pty Ltd as trustee for Goyder Wind Farm 1A Trust",
+      "capacity_mw": 209.0,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2024-04-04",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "38x GE Cypress 5.5-158. PPAs: ACT Govt 100MW (14yr) + Flow Power 40MW (10yr). Inaugurated 2024, Neoen sold to Brookfield."
+    },
+    {
+      "name": "Crookwell 2 Wind Farm",
+      "id": "crookwell-2-wind-farm",
+      "developer": "Crookwell Development Pty Ltd",
+      "capacity_mw": 91.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2024-05-22",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Hawkesdale Wind Farm",
+      "id": "hawkesdale-wind-farm",
+      "developer": "Hawkesdale Asset Pty Ltd as trustee for Hawkesdale Asset Trust",
+      "capacity_mw": 89.5,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2024-06-16",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Ryan Corner Wind Farm",
+      "id": "ryan-corner-wind-farm",
+      "developer": "Ryan Corner Development Pty Ltd",
+      "capacity_mw": 218.0,
+      "status": "operating",
+      "state": "VIC",
+      "cod": "2024-07-29",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "52x Vestas V150-4.2MW. Snowy Hydro PPA. Owned by GPG/Naturgy. Decmil/RJE JV BOP. Opened Dec 2024."
+    },
+    {
+      "name": "Crookwell 3 Wind Farm",
+      "id": "crookwell-3-wind-farm",
+      "developer": "Crookwell 3 Development Pty Ltd",
+      "capacity_mw": 56.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2024-09-30",
+      "source": "AEMO Generation Information Jan 2026"
+    },
+    {
+      "name": "Rye Park Wind Farm",
+      "id": "rye-park-wind-farm",
+      "developer": "Tilt Renewables Australia Pty Ltd",
+      "capacity_mw": 396.0,
+      "status": "operating",
+      "state": "NSW",
+      "cod": "2024-10-07",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "Largest wind farm in NSW. 66x Vestas V162-6.0MW EnVentus \u2014 among highest capacity onshore turbines in Australia."
+    },
+    {
+      "name": "Goyder South Wind Farm 1B",
+      "id": "goyder-south-wind-farm-1b",
+      "developer": "Goyder Wind Farm 1B Pty Ltd as trustee for Goyder Wind Farm 1B Trust",
+      "capacity_mw": 203.5,
+      "status": "operating",
+      "state": "SA",
+      "cod": "2025-07-02",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "37x GE Cypress 5.5-158. PPAs: BHP 70MW baseload agreement. Part of 412MW Goyder South complex."
+    },
+    {
+      "name": "Clarke Creek Wind Farm",
+      "id": "clarke-creek-wind-farm",
+      "developer": "Squadron Energy Services Pty Ltd",
+      "capacity_mw": 450.0,
+      "status": "commissioning",
+      "state": "QLD",
+      "cod": "2025-09-30",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "100x Goldwind ~4.5MW. Squadron Energy. Stanwell 348MW 15yr PPA. SynCon installed. A$1B financing Dec 2025."
+    },
+    {
+      "name": "MacIntyre Wind Farm",
+      "id": "macintyre-wind-farm",
+      "developer": "Macintyre Windfarm Pty Ltd and Arc Energy Macintyre Pty Ltd",
+      "capacity_mw": 923.0,
+      "status": "commissioning",
+      "state": "QLD",
+      "cod": "2025-11-30",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "Largest onshore wind farm in southern hemisphere. 162x Nordex N163/5.7MW. A$1.96B. CleanCo 400MW PPA + Stanwell + Ark/Telstra."
+    },
+    {
+      "name": "Golden Plains Wind Farm East",
+      "id": "golden-plains-wind-farm-east",
+      "developer": "Golden Plains WF1 Pty Ltd as trustee for the Golden Plains WF1 Unit Trust",
+      "capacity_mw": 756.0,
+      "status": "commissioning",
+      "state": "VIC",
+      "cod": "2025-12-31",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "Stage 1 of Australias largest wind farm. 122x Vestas V162-6.2MW. Snowy Hydro 40% + Equinix 20% PPAs. A$2B. TagEnergy/IKEA."
+    },
+    {
+      "name": "Wambo Wind Farm",
+      "id": "wambo-wind-farm",
+      "developer": "Cubico Sustainable Investments / Stanwell Corporation (50:50 JV)",
+      "capacity_mw": 506.0,
+      "status": "construction",
+      "state": "QLD",
+      "cod": "2025-02-28",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "83x Vestas V162-6.2MW (S1:42, S2:41). Cubico/Stanwell 50:50 JV. Stanwell 15yr PPA. A$650M+ finance. S1 late 2025, S2 2026."
+    },
+    {
+      "name": "Golden Plains Wind Farm",
+      "id": "golden-plains-wind",
+      "developer": "TagEnergy / Ingka Group",
+      "capacity_mw": 1300.0,
+      "status": "construction",
+      "state": "VIC",
+      "cod": "2026 (Stage 1)",
+      "source": "EPBC Referral 2017/7965",
+      "note": "Largest wind farm in Southern Hemisphere. 215 turbines across two stages. Stage 1 first power delivered Q1 2025."
+    },
+    {
+      "name": "Golden Plains Wind Farm West",
+      "id": "golden-plains-wind-farm-west",
+      "developer": "TagEnergy / Ingka Group",
+      "capacity_mw": 577.0,
+      "status": "construction",
+      "state": "VIC",
+      "cod": "2027-03-09",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "Stage 2, 93x Vestas V162-6.2MW. Brings Golden Plains total to 1,333MW. Financial close reached."
+    },
+    {
+      "name": "Lotus Creek Wind Farm",
+      "id": "lotus-creek-wind-farm",
+      "developer": "CS Energy",
+      "capacity_mw": 285.0,
+      "status": "construction",
+      "state": "QLD",
+      "cod": "2027-12-31",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "46x Vestas V162-6.2MW. CS Energy acquired from CIP. Vestas EPC + Zenviron BOP. A$1.3B. COD Q4 2026."
+    },
+    {
+      "name": "Boulder Creek Wind Farm",
+      "id": "boulder-creek-wind-farm",
+      "developer": "Aula Energy / CS Energy (50:50 JV)",
+      "capacity_mw": 228.0,
+      "status": "construction",
+      "state": "QLD",
+      "cod": "2027-12-31",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "38x GE Vernova 6.0-164. Aula/CS Energy 50:50 JV. CS Energy 20yr PPA. RES construction mgmt. A$740M. COD 2027."
+    },
+    {
+      "name": "Uungula Wind Farm",
+      "id": "uungula-wind-farm",
+      "developer": "Squadron Energy (Tattarang)",
+      "capacity_mw": 414.0,
+      "status": "construction",
+      "state": "NSW",
+      "cod": "2028-02-01",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "69x GE Vernova 6.0-164 (6MW). Squadron Energy. Snowy Hydro 200MW 15yr PPA. A$820M. Part of GE 1.4GW strategic alliance. Central-West Orana REZ."
+    },
+    {
+      "name": "Carmodys Hill Wind Farm",
+      "id": "carmodys-hill-wind-farm",
+      "developer": "Aula Energy",
+      "capacity_mw": 256.0,
+      "status": "construction",
+      "state": "SA",
+      "cod": "2029-01-01",
+      "source": "AEMO Generation Information Jan 2026",
+      "note": "42x GE Vernova 6.1-158. Aula Energy (Macquarie). DT Infrastructure civil. A$900M. COD 2028."
+    }
+  ],
+  "timeline_milestones": [
+    {
+      "date": "2022-01-01",
+      "label": "Pre-2022 fleet: 68 projects",
+      "cumulative_mw": 9580
+    },
+    {
+      "date": "2022-04-19",
+      "label": "Port Augusta Renewable Energy Park - Wind online (210 MW)",
+      "cumulative_mw": 9790
+    },
+    {
+      "date": "2022-09-25",
+      "label": "Kaban Wind Farm online (152 MW)",
+      "cumulative_mw": 9942
+    },
+    {
+      "date": "2022-10-25",
+      "label": "Mortlake South Wind Farm online (158 MW)",
+      "cumulative_mw": 10099
+    },
+    {
+      "date": "2023-04-12",
+      "label": "Dulacca Wind Farm online (181 MW)",
+      "cumulative_mw": 10280
+    },
+    {
+      "date": "2023-09-19",
+      "label": "Flyers Creek Wind Farm online (146 MW)",
+      "cumulative_mw": 10425
+    },
+    {
+      "date": "2024-04-04",
+      "label": "Goyder South Wind Farm 1A online (209 MW)",
+      "cumulative_mw": 10634
+    },
+    {
+      "date": "2024-05-22",
+      "label": "Crookwell 2 Wind Farm online (91 MW)",
+      "cumulative_mw": 10725
+    },
+    {
+      "date": "2024-06-16",
+      "label": "Hawkesdale Wind Farm online (90 MW)",
+      "cumulative_mw": 10815
+    },
+    {
+      "date": "2024-07-29",
+      "label": "Ryan Corner Wind Farm online (218 MW)",
+      "cumulative_mw": 11033
+    },
+    {
+      "date": "2024-09-30",
+      "label": "Crookwell 3 Wind Farm online (56 MW)",
+      "cumulative_mw": 11089
+    },
+    {
+      "date": "2024-10-07",
+      "label": "Rye Park Wind Farm online (396 MW)",
+      "cumulative_mw": 11485
+    },
+    {
+      "date": "2025-07-02",
+      "label": "Goyder South Wind Farm 1B online (204 MW)",
+      "cumulative_mw": 11688
+    },
+    {
+      "date": "2025-02-28",
+      "label": "Wambo Wind Farm expected (506 MW)",
+      "cumulative_mw": 12194
+    },
+    {
+      "date": "2025-09-30",
+      "label": "Clarke Creek Wind Farm expected (450 MW)",
+      "cumulative_mw": 12644
+    },
+    {
+      "date": "2025-11-30",
+      "label": "MacIntyre Wind Farm expected (923 MW)",
+      "cumulative_mw": 13567
+    },
+    {
+      "date": "2025-12-31",
+      "label": "Golden Plains Wind Farm East expected (756 MW)",
+      "cumulative_mw": 14323
+    },
+    {
+      "date": "2026 (Stage 1)",
+      "label": "Golden Plains Wind Farm expected (1300 MW)",
+      "cumulative_mw": 15623
+    },
+    {
+      "date": "2027-03-09",
+      "label": "Golden Plains Wind Farm West expected (577 MW)",
+      "cumulative_mw": 16200
+    },
+    {
+      "date": "2027-12-31",
+      "label": "Lotus Creek Wind Farm expected (285 MW)",
+      "cumulative_mw": 16485
+    },
+    {
+      "date": "2027-12-31",
+      "label": "Boulder Creek Wind Farm expected (228 MW)",
+      "cumulative_mw": 16713
+    },
+    {
+      "date": "2028-02-01",
+      "label": "Uungula Wind Farm expected (414 MW)",
+      "cumulative_mw": 17127
+    },
+    {
+      "date": "2029-01-01",
+      "label": "Carmodys Hill Wind Farm expected (256 MW)",
+      "cumulative_mw": 17383
+    }
+  ],
+  "by_state": {
+    "operating": {
+      "NSW": {
+        "mw": 2807,
+        "projects": 20
+      },
+      "QLD": {
+        "mw": 1009,
+        "projects": 5
+      },
+      "VIC": {
+        "mw": 4516,
+        "projects": 26
+      },
+      "SA": {
+        "mw": 2795,
+        "projects": 25
+      },
+      "TAS": {
+        "mw": 561,
+        "projects": 4
+      }
+    },
+    "construction": {
+      "NSW": {
+        "mw": 414,
+        "projects": 1
+      },
+      "QLD": {
+        "mw": 2392,
+        "projects": 5
+      },
+      "VIC": {
+        "mw": 2633,
+        "projects": 3
+      },
+      "SA": {
+        "mw": 256,
+        "projects": 1
+      },
+      "TAS": {
+        "mw": 0,
+        "projects": 0
+      }
+    }
+  }
+}

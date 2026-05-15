@@ -1,0 +1,245 @@
+{
+  "id": "hornsdale-power-reserve",
+  "name": "Hornsdale Power Reserve",
+  "technology": "bess",
+  "status": "operating",
+  "capacity_mw": 194.0,
+  "storage_mwh": 194.0,
+  "state": "SA",
+  "lga": "District Council of Mount Remarkable",
+  "current_developer": "Neoen",
+  "current_operator": "Neoen",
+  "cod_current": "2017-12 (Phase 1)",
+  "cod_original": "2017-12",
+  "connection_status": "Connected",
+  "connection_nsp": "ElectraNet",
+  "grid_forming": true,
+  "has_sips": false,
+  "has_syncon": false,
+  "has_statcom": false,
+  "has_harmonic_filter": false,
+  "performance_score": 45.5,
+  "notable": "The battery that started it all. Born from Elon Musk's famous Twitter bet. Has earned tens of millions in FCAS revenue.",
+  "data_confidence": "high",
+  "last_updated": "2026-04-16",
+  "last_verified": "2026-04-16",
+  "confidence_score": "70",
+  "capex_aud_m": 160.0,
+  "capex_source": "RenewEconomy ($89m original + $71m expansion)",
+  "capex_year": 2017,
+  "first_seen": "2017-07-01",
+  "capex_source_url": "https://neoen.com/",
+  "coordinates": {
+    "lat": -33.07,
+    "lng": 138.52
+  },
+  "timeline": [
+    {
+      "date": "2017-07-01",
+      "date_precision": "month",
+      "event_type": "conceived",
+      "title": "Project announced after Elon Musk Twitter bet",
+      "detail": "Tesla CEO bet the system would be built within 100 days or it would be free. Original capacity 100MW/129MWh.",
+      "sources": [
+        {
+          "title": "RenewEconomy",
+          "url": "https://reneweconomy.com.au/",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "date": "2017-11-24",
+      "date_precision": "day",
+      "event_type": "energisation",
+      "title": "First generation recorded",
+      "detail": "First market dispatch data recorded in AEMO systems.",
+      "sources": []
+    },
+    {
+      "date": "2017-12-01",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Phase 1 operational \u2014 100 MW / 129 MWh",
+      "detail": "Completed within the 100-day deadline. At the time, the largest lithium-ion battery in the world.",
+      "sources": [
+        {
+          "title": "AEMO Generation Information",
+          "url": "https://aemo.com.au"
+        }
+      ]
+    },
+    {
+      "date": "2017-12-01",
+      "date_precision": "day",
+      "event_type": "cod",
+      "title": "World's largest lithium-ion battery connected to grid",
+      "detail": "Completed within Elon Musk's 100 days or it's free bet. 100MW/129MWh connected to SA grid.",
+      "sources": []
+    },
+    {
+      "date": "2017-12-14",
+      "date_precision": "day",
+      "event_type": "notable",
+      "title": "First major grid response \u2014 Loy Yang A trip",
+      "detail": "HPR injected 7.3MW within milliseconds when Loy Yang A unit 3 tripped (560MW loss), responding faster than any conventional generator.",
+      "sources": []
+    },
+    {
+      "date": "2018-06-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "Captures 55% of SA FCAS market, cuts prices 91%",
+      "detail": "After six months HPR provided 55% of SA frequency control services and reduced FCAS costs from $470/MWh to $40/MWh.",
+      "sources": []
+    },
+    {
+      "date": "2020-09-01",
+      "date_precision": "month",
+      "event_type": "expansion",
+      "title": "Phase 2 expansion to 150 MW / 194 MWh",
+      "sources": [
+        {
+          "title": "ARENA",
+          "url": "https://arena.gov.au/"
+        }
+      ]
+    },
+    {
+      "date": "2020-09-01",
+      "date_precision": "month",
+      "event_type": "expansion",
+      "title": "Phase 2 expansion to 150MW/194MWh completed",
+      "detail": "A$82M expansion added 50MW/64.5MWh, enabling advanced grid services including synthetic inertia trials.",
+      "sources": []
+    },
+    {
+      "date": "2022-07-01",
+      "date_precision": "month",
+      "event_type": "notable",
+      "title": "World-first: AEMO approves battery inertia services",
+      "detail": "AEMO approved HPR to deliver 2,000 MWs equivalent inertia via Virtual Machine Mode \u2014 roughly 15% of SA's predicted inertia shortfall.",
+      "sources": []
+    },
+    {
+      "date": "2024-03-01",
+      "date_precision": "month",
+      "event_type": "expansion",
+      "title": "Phase 3 expansion to 194 MW",
+      "sources": [
+        {
+          "title": "Neoen",
+          "url": "https://neoen.com/"
+        }
+      ]
+    }
+  ],
+  "ownership_history": [
+    {
+      "period": "2017-present",
+      "owner": "Neoen",
+      "role": "Developer & Operator"
+    }
+  ],
+  "cod_history": [],
+  "suppliers": [
+    {
+      "role": "bess_oem",
+      "supplier": "Tesla",
+      "model": "Powerpack (Ph1) / Megapack (Ph2-3)",
+      "grid_forming": false
+    }
+  ],
+  "offtakes": [],
+  "scheme_contracts": [],
+  "cost_sources": [],
+  "stakeholder_issues": [],
+  "eis_specs": {
+    "document_title": "Hornsdale Power Reserve \u2014 Development Application (SA EPA / EPBC 2017/7791)",
+    "document_url": "https://www.environment.gov.au/epbc/notices/search-notices/epbc-2017-7791",
+    "document_year": 2017,
+    "cell_chemistry": "LFP",
+    "cell_chemistry_full": "Lithium Iron Phosphate (LiFePO4)",
+    "cell_supplier": "Panasonic / Tesla (Gigafactory Nevada)",
+    "cell_country_of_manufacture": "United States",
+    "inverter_supplier": "Tesla",
+    "inverter_model": "Powerpack 2 (Stages 1-2) / Megapack (Stage 3)",
+    "inverter_country_of_manufacture": "United States",
+    "pcs_type": "grid_forming",
+    "round_trip_efficiency_pct": 88.5,
+    "round_trip_efficiency_ac": 84.0,
+    "duration_hours": 1.0,
+    "connection_voltage_kv": 275.0,
+    "transformer_mva": 200.0,
+    "network_service_provider": "ElectraNet",
+    "connection_substation_name": "Hornsdale Wind Farm 275/66 kV substation (on-site, co-located)",
+    "connection_substation_capacity_mva": 900.0,
+    "connection_distance_km": 0.0,
+    "connection_distance_note": "On-site \u2014 co-located with Hornsdale Wind Farm, using the existing 275/66 kV Hornsdale substation infrastructure.",
+    "connection_augmentation": "Minimal augmentation. BESS connected to existing Hornsdale Wind Farm 275/66 kV substation via new dedicated LV/MV feeder bays. ElectraNet assessed additional fault level contribution at Hornsdale 275 kV node.",
+    "notes": "World's largest grid-scale battery at commissioning (2017). Three stages: Stage 1: 100 MW / 129 MWh (2017, Tesla Powerpack 2); Stage 2: +50 MW (2020, Tesla Powerpack 2); Stage 3: +44 MW / +65 MWh (2022, Tesla Megapack). Total 194 MW / 193.5 MWh. Developer: Neoen. SA EPA development approval obtained rapidly (famous Elon Musk bet). Grid-forming capability enabled via Autobidder software upgrade \u2014 provides virtual inertia to SA grid. FCAS market leader. Co-located with 315 MW Hornsdale Wind Farm. The original DA was for 100 MW / 129 MWh; expansion stages had separate approvals."
+  },
+  "sources": [
+    {
+      "title": "AEMO Generation Information",
+      "url": "https://aemo.com.au"
+    },
+    {
+      "title": "Neoen",
+      "url": "https://neoen.com/"
+    }
+  ],
+  "timeline_events": [
+    {
+      "date": "2017-07-01",
+      "date_precision": "month",
+      "event_type": "conceived",
+      "title": "Project announced after Elon Musk Twitter bet",
+      "detail": "Tesla CEO bet the system would be built within 100 days or it would be free. Original capacity 100MW/129MWh.",
+      "sources": [
+        {
+          "title": "RenewEconomy",
+          "url": "https://reneweconomy.com.au/",
+          "source_tier": 2
+        }
+      ]
+    },
+    {
+      "date": "2017-12-01",
+      "date_precision": "month",
+      "event_type": "cod",
+      "title": "Phase 1 operational \u2014 100 MW / 129 MWh",
+      "detail": "Completed within the 100-day deadline. At the time, the largest lithium-ion battery in the world.",
+      "sources": [
+        {
+          "title": "AEMO Generation Information",
+          "url": "https://aemo.com.au"
+        }
+      ]
+    },
+    {
+      "date": "2020-09-01",
+      "date_precision": "month",
+      "event_type": "expansion",
+      "title": "Phase 2 expansion to 150 MW / 194 MWh",
+      "sources": [
+        {
+          "title": "ARENA",
+          "url": "https://arena.gov.au/"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-01",
+      "date_precision": "month",
+      "event_type": "expansion",
+      "title": "Phase 3 expansion to 194 MW",
+      "sources": [
+        {
+          "title": "Neoen",
+          "url": "https://neoen.com/"
+        }
+      ]
+    }
+  ]
+}
