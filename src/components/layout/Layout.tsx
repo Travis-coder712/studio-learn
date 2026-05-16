@@ -66,26 +66,17 @@ export default function Layout() {
       <footer className="border-t border-[var(--color-border)] bg-[var(--color-bg-card)]/40">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 text-xs text-[var(--color-text-muted)] leading-relaxed">
           <p>
-            <span className="font-semibold text-[var(--color-text)]">Studio Learn</span> is a
-            standalone copy of the AURES learning curriculum, hosted under the Studio brand for
-            sharing and reuse.{' '}
+            <span className="font-semibold text-[var(--color-text)]">Studio Learn</span> ·
+            Australian renewable-energy curricula. Part of{' '}
             <a
-              href="https://travis-coder712.github.io/aures-db/"
+              href="https://travis-coder712.github.io/studio/"
               className="text-[var(--color-primary)] hover:underline"
             >
-              The canonical version lives in AURES
-            </a>{' '}
-            and is updated more frequently. Modules here are a snapshot at the time of the last
-            sync.
+              Studio
+            </a>.
           </p>
           <p className="mt-2 text-[10px] font-mono text-[var(--color-text-muted)]/70">
-            v{__APP_VERSION__} · originally part of{' '}
-            <a
-              href="https://github.com/Travis-coder712/aures-db"
-              className="hover:underline"
-            >
-              github.com/Travis-coder712/aures-db
-            </a>
+            v{__APP_VERSION__}
           </p>
         </div>
       </footer>

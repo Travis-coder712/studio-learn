@@ -1,9 +1,9 @@
 /**
  * Studio Learn — App routes
  *
- * A standalone copy of the AURES learning modules under the Studio
- * brand. The canonical version lives in AURES (aures-db). Modules
- * shipped here are a snapshot — refresh from AURES periodically.
+ * Australian renewable-energy curricula under the Studio brand.
+ * The repo is maintained internally — content is authored elsewhere
+ * and synced in by the maintainer.
  */
 import { Routes, Route } from 'react-router-dom'
 import Layout from './components/layout/Layout'
