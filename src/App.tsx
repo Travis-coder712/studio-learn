@@ -7,6 +7,7 @@
  */
 import { Routes, Route } from 'react-router-dom'
 import Layout from './components/layout/Layout'
+import ScrollToTop from './components/ScrollToTop'
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 
@@ -27,6 +28,8 @@ import ValuingProjectsModule from './pages/learn/ValuingProjectsModule'
 
 function App() {
   return (
+    <>
+    <ScrollToTop />
     <Routes>
       <Route element={<Layout />}>
         <Route index element={<Home />} />
@@ -60,6 +63,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
+    </>
   )
 }
 
