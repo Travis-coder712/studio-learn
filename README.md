@@ -8,7 +8,7 @@ and reuse.
 
 ## What's here
 
-Twelve renewable-energy curricula mirrored from AURES, with the
+Eleven renewable-energy curricula mirrored from AURES, with the
 interactive calculators included:
 
 - Energy transition — the big picture

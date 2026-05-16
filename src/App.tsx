@@ -10,7 +10,7 @@ import Layout from './components/layout/Layout'
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 
-// Learning modules — all 12, mirrored from AURES
+// Learning modules — all 11, mirrored from AURES
 import LearnHub from './pages/learn/LearnHub'
 import ModuleStub from './pages/learn/ModuleStub'
 import ConstraintsModule from './pages/learn/ConstraintsModule'

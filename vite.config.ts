@@ -19,7 +19,7 @@ export default defineConfig({
       manifest: {
         name: 'Studio Learn — Australian Renewable Energy Curricula',
         short_name: 'Studio Learn',
-        description: 'Standalone copy of the AURES learning curriculum — 12 deep-dive modules covering the energy transition, CIS/LTESA, PPAs, project finance, valuation, planning and grid connection.',
+        description: 'Standalone copy of the AURES learning curriculum — 11 deep-dive modules covering the energy transition, CIS/LTESA, PPAs, project finance, valuation, planning and grid connection.',
         theme_color: '#0f172a',
         background_color: '#0f172a',
         display: 'standalone',
